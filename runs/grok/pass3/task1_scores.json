@@ -1,0 +1,34 @@
+{
+  "task": "task1",
+  "n_units": 171,
+  "accuracy": 0.6432748538011696,
+  "balanced_accuracy": 0.32781171679197996,
+  "macro_f1": 0.30674768174768174,
+  "invalid_outputs": [],
+  "per_class": {
+    "chromatin_mediated_regulation": {
+      "support": 21,
+      "precision": 0.4,
+      "recall": 0.09523809523809523,
+      "f1": 0.15384615384615385
+    },
+    "combinatorial_tf_regulation": {
+      "support": 16,
+      "precision": 0.25,
+      "recall": 0.3125,
+      "f1": 0.2777777777777778
+    },
+    "direct_cis_regulatory_dna": {
+      "support": 114,
+      "precision": 0.7103448275862069,
+      "recall": 0.9035087719298246,
+      "f1": 0.7953667953667953
+    },
+    "regulatory_rna_mediated_indirect_regulation": {
+      "support": 20,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  }
+}

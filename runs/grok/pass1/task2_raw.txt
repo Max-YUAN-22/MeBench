@@ -1,0 +1,194 @@
+unit_id	predicted_direction	mechanism_reasoning
+T2U_0001	up	Loss of repressive PRC2 chromatin regulator EED removes H3K27me3 silencing so CDX2-linked regulation no longer keeps Scin off, raising expression via chromatin_mediated_regulation.
+T2U_0002	up	Loss of repressive PRC2 chromatin regulator EED removes H3K27me3 silencing so CDX2-linked regulation no longer keeps Slc26a6 off, raising expression via chromatin_mediated_regulation.
+T2U_0003	down	Loss of activator TP63 reduces its occupancy of target-linked cis-regulatory DNA, lowering ANKRD27 transcription via direct_cis_regulatory_dna.
+T2U_0004	down	Loss of activator TP63 reduces its occupancy of target-linked cis-regulatory DNA, lowering HNRNPA1 transcription via direct_cis_regulatory_dna.
+T2U_0005	down	Loss of activator TP63 reduces its occupancy of target-linked cis-regulatory DNA, lowering HNRNPL transcription via direct_cis_regulatory_dna.
+T2U_0006	down	Loss of activator TP63 reduces its occupancy of target-linked cis-regulatory DNA, lowering L3HYPDH transcription via direct_cis_regulatory_dna.
+T2U_0007	down	Loss of activator TP63 reduces its occupancy of target-linked cis-regulatory DNA, lowering NABP2 transcription via direct_cis_regulatory_dna.
+T2U_0008	down	Loss of activator TP63 reduces its occupancy of target-linked cis-regulatory DNA, lowering RPS16 transcription via direct_cis_regulatory_dna.
+T2U_0009	down	Loss of activator TP63 reduces its occupancy of target-linked cis-regulatory DNA, lowering TIMM50 transcription via direct_cis_regulatory_dna.
+T2U_0010	down	Loss of TET2 chromatin regulator reduces DNA demethylation needed for ESR1 activation, lowering ELOVL2 via chromatin_mediated_regulation.
+T2U_0011	down	Loss of TET2 chromatin regulator reduces DNA demethylation needed for ESR1 activation, lowering PTGES via chromatin_mediated_regulation.
+T2U_0012	down	Loss of TET2 chromatin regulator reduces DNA demethylation needed for ESR1 activation, lowering WIPF1 via chromatin_mediated_regulation.
+T2U_0013	down	Loss of target cis-regulatory sites prevents ESR1 binding and activation, lowering CISH via direct_cis_regulatory_dna.
+T2U_0014	down	Loss of target cis-regulatory sites prevents ESR1 binding and activation, lowering G0S2 via direct_cis_regulatory_dna.
+T2U_0015	down	Loss of target cis-regulatory sites prevents ESR1 binding and activation, lowering MMP17 via direct_cis_regulatory_dna.
+T2U_0016	down	GATA1 D218G functional variant impairs partner interaction so combinatorial activation of Lrrc39 falls via combinatorial_tf_regulation.
+T2U_0017	down	GATA1 D218G functional variant impairs partner interaction so combinatorial activation of Rragd falls via combinatorial_tf_regulation.
+T2U_0018	down	GATA1 D218G functional variant impairs partner interaction so combinatorial activation of Slc4a1 falls via combinatorial_tf_regulation.
+T2U_0019	down	GATA1 R216Q functional variant impairs partner interaction so combinatorial activation of Lrrc39 falls via combinatorial_tf_regulation.
+T2U_0020	down	GATA1 R216Q functional variant impairs partner interaction so combinatorial activation of Rragd falls via combinatorial_tf_regulation.
+T2U_0021	down	GATA1 R216Q functional variant impairs partner interaction so combinatorial activation of Slc4a1 falls via combinatorial_tf_regulation.
+T2U_0022	down	Loss of H2A.Z histone variant alters nucleosome state required for TP63 activation, lowering SAMD9L via chromatin_mediated_regulation.
+T2U_0023	down	Loss of H2A.Z histone variant alters nucleosome state required for TP63 activation, lowering ZHX2 via chromatin_mediated_regulation.
+T2U_0024	down	Gain of HIF1A-induced miR-210 regulatory RNA directly represses ISCU, lowering expression via regulatory_rna_mediated_indirect_regulation.
+T2U_0025	up	Loss of TWIST1-induced miR-10b regulatory RNA relieves repression of HOXD10, raising expression via regulatory_rna_mediated_indirect_regulation.
+T2U_0026	down	Loss of CA12 enhancer cis-regulatory DNA prevents ESR1 activation, lowering CA12 via direct_cis_regulatory_dna.
+T2U_0027	down	Loss of FOXC1 enhancer cis-regulatory DNA prevents ESR1 activation, lowering FOXC1 via direct_cis_regulatory_dna.
+T2U_0028	down	Loss of GREB1 enhancer cis-regulatory DNA prevents ESR1 activation, lowering GREB1 via direct_cis_regulatory_dna.
+T2U_0029	down	Loss of KCNK5 enhancer cis-regulatory DNA prevents ESR1 activation, lowering KCNK5 via direct_cis_regulatory_dna.
+T2U_0030	down	Loss of NRIP1 enhancer cis-regulatory DNA prevents ESR1 activation, lowering NRIP1 via direct_cis_regulatory_dna.
+T2U_0031	down	Loss of P2RY2 enhancer cis-regulatory DNA prevents ESR1 activation, lowering P2RY2 via direct_cis_regulatory_dna.
+T2U_0032	down	Loss of PGR enhancer cis-regulatory DNA prevents ESR1 activation, lowering PGR via direct_cis_regulatory_dna.
+T2U_0033	down	Loss of SIAH2 enhancer cis-regulatory DNA prevents ESR1 activation, lowering SIAH2 via direct_cis_regulatory_dna.
+T2U_0034	down	Loss of SMAD7 enhancer cis-regulatory DNA prevents ESR1 activation, lowering SMAD7 via direct_cis_regulatory_dna.
+T2U_0035	down	Loss of TFF1 enhancer cis-regulatory DNA prevents ESR1 activation, lowering TFF1 via direct_cis_regulatory_dna.
+T2U_0036	up	Gain of activator PPARA increases occupancy of target-linked cis-regulatory DNA, raising Angptl4 via direct_cis_regulatory_dna.
+T2U_0037	up	Gain of activator PPARA increases occupancy of target-linked cis-regulatory DNA, raising Hmgcs2 via direct_cis_regulatory_dna.
+T2U_0038	up	Gain of activator PPARA increases occupancy of target-linked cis-regulatory DNA, raising Pdk4 via direct_cis_regulatory_dna.
+T2U_0039	up	Loss of partner repressor BHLHE40 removes combinatorial antagonism of PPARA, raising Angptl4 via combinatorial_tf_regulation.
+T2U_0040	up	Loss of partner repressor BHLHE40 removes combinatorial antagonism of PPARA, raising Hmgcs2 via combinatorial_tf_regulation.
+T2U_0041	up	Loss of partner repressor BHLHE40 removes combinatorial antagonism of PPARA, raising Pdk4 via combinatorial_tf_regulation.
+T2U_0042	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering ABCF2 via direct_cis_regulatory_dna.
+T2U_0043	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering ADAT3 via direct_cis_regulatory_dna.
+T2U_0044	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering AKR1A1 via direct_cis_regulatory_dna.
+T2U_0045	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering ANKRD13B via direct_cis_regulatory_dna.
+T2U_0046	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering AP1S3 via direct_cis_regulatory_dna.
+T2U_0047	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering ARID5A via direct_cis_regulatory_dna.
+T2U_0048	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering ASB13 via direct_cis_regulatory_dna.
+T2U_0049	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering BIRC5 via direct_cis_regulatory_dna.
+T2U_0050	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering CASC3 via direct_cis_regulatory_dna.
+T2U_0051	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering CCDC157 via direct_cis_regulatory_dna.
+T2U_0052	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering CCDC92 via direct_cis_regulatory_dna.
+T2U_0053	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering CCPG1 via direct_cis_regulatory_dna.
+T2U_0054	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering CKAP2L via direct_cis_regulatory_dna.
+T2U_0055	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering CNIH1 via direct_cis_regulatory_dna.
+T2U_0056	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering CPOX via direct_cis_regulatory_dna.
+T2U_0057	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering CPSF4 via direct_cis_regulatory_dna.
+T2U_0058	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering CRCP via direct_cis_regulatory_dna.
+T2U_0059	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering CREBL2 via direct_cis_regulatory_dna.
+T2U_0060	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering CWC15 via direct_cis_regulatory_dna.
+T2U_0061	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering CYB5R1 via direct_cis_regulatory_dna.
+T2U_0062	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering EGR1 via direct_cis_regulatory_dna.
+T2U_0063	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering EMC1 via direct_cis_regulatory_dna.
+T2U_0064	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering ENKD1 via direct_cis_regulatory_dna.
+T2U_0065	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering ERAL1 via direct_cis_regulatory_dna.
+T2U_0066	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering ERP44 via direct_cis_regulatory_dna.
+T2U_0067	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering FASTK via direct_cis_regulatory_dna.
+T2U_0068	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering FH via direct_cis_regulatory_dna.
+T2U_0069	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering GAMT via direct_cis_regulatory_dna.
+T2U_0070	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering GOLGA2 via direct_cis_regulatory_dna.
+T2U_0071	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering GTPBP8 via direct_cis_regulatory_dna.
+T2U_0072	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering HMGCL via direct_cis_regulatory_dna.
+T2U_0073	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering HSPA14 via direct_cis_regulatory_dna.
+T2U_0074	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering IK via direct_cis_regulatory_dna.
+T2U_0075	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering JMJD8 via direct_cis_regulatory_dna.
+T2U_0076	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering JUN via direct_cis_regulatory_dna.
+T2U_0077	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering JUND via direct_cis_regulatory_dna.
+T2U_0078	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering KDELR2 via direct_cis_regulatory_dna.
+T2U_0079	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering KLC2 via direct_cis_regulatory_dna.
+T2U_0080	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering KPNA5 via direct_cis_regulatory_dna.
+T2U_0081	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering LATS1 via direct_cis_regulatory_dna.
+T2U_0082	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering MED16 via direct_cis_regulatory_dna.
+T2U_0083	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering MFSD3 via direct_cis_regulatory_dna.
+T2U_0084	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering MRPL46 via direct_cis_regulatory_dna.
+T2U_0085	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering MRPL54 via direct_cis_regulatory_dna.
+T2U_0086	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering MRPS11 via direct_cis_regulatory_dna.
+T2U_0087	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering MTMR1 via direct_cis_regulatory_dna.
+T2U_0088	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering NUTF2 via direct_cis_regulatory_dna.
+T2U_0089	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering PAPOLG via direct_cis_regulatory_dna.
+T2U_0090	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering PLAGL2 via direct_cis_regulatory_dna.
+T2U_0091	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering PNKD via direct_cis_regulatory_dna.
+T2U_0092	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering POMT2 via direct_cis_regulatory_dna.
+T2U_0093	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering PRIM1 via direct_cis_regulatory_dna.
+T2U_0094	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering PRKAA2 via direct_cis_regulatory_dna.
+T2U_0095	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering PROSER3 via direct_cis_regulatory_dna.
+T2U_0096	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering PSMC6 via direct_cis_regulatory_dna.
+T2U_0097	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering PTPMT1 via direct_cis_regulatory_dna.
+T2U_0098	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering PTRHD1 via direct_cis_regulatory_dna.
+T2U_0099	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering RDH11 via direct_cis_regulatory_dna.
+T2U_0100	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering RIC8A via direct_cis_regulatory_dna.
+T2U_0101	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering RNF40 via direct_cis_regulatory_dna.
+T2U_0102	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering RPAIN via direct_cis_regulatory_dna.
+T2U_0103	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering RPL6 via direct_cis_regulatory_dna.
+T2U_0104	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering RSBN1 via direct_cis_regulatory_dna.
+T2U_0105	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering SAMD13 via direct_cis_regulatory_dna.
+T2U_0106	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering SAV1 via direct_cis_regulatory_dna.
+T2U_0107	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering SEPTIN8 via direct_cis_regulatory_dna.
+T2U_0108	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering SFT2D2 via direct_cis_regulatory_dna.
+T2U_0109	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering SGF29 via direct_cis_regulatory_dna.
+T2U_0110	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering SLC7A6OS via direct_cis_regulatory_dna.
+T2U_0111	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering SLC9A6 via direct_cis_regulatory_dna.
+T2U_0112	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering SNRNP48 via direct_cis_regulatory_dna.
+T2U_0113	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering SNRNP70 via direct_cis_regulatory_dna.
+T2U_0114	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering SNRPD3 via direct_cis_regulatory_dna.
+T2U_0115	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering SSB via direct_cis_regulatory_dna.
+T2U_0116	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering STARD10 via direct_cis_regulatory_dna.
+T2U_0117	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering TFAM via direct_cis_regulatory_dna.
+T2U_0118	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering THOC7 via direct_cis_regulatory_dna.
+T2U_0119	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering THOP1 via direct_cis_regulatory_dna.
+T2U_0120	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering TIMM17A via direct_cis_regulatory_dna.
+T2U_0121	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering TMEM258 via direct_cis_regulatory_dna.
+T2U_0122	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering TMOD2 via direct_cis_regulatory_dna.
+T2U_0123	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering TOMM70 via direct_cis_regulatory_dna.
+T2U_0124	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering TPRA1 via direct_cis_regulatory_dna.
+T2U_0125	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering UBALD1 via direct_cis_regulatory_dna.
+T2U_0126	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering UBFD1 via direct_cis_regulatory_dna.
+T2U_0127	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering UQCR10 via direct_cis_regulatory_dna.
+T2U_0128	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering VASP via direct_cis_regulatory_dna.
+T2U_0129	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering ZBTB10 via direct_cis_regulatory_dna.
+T2U_0130	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering ZFTA via direct_cis_regulatory_dna.
+T2U_0131	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering ZMYM6 via direct_cis_regulatory_dna.
+T2U_0132	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering ZNF200 via direct_cis_regulatory_dna.
+T2U_0133	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering ZNF24 via direct_cis_regulatory_dna.
+T2U_0134	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering ZNF354A via direct_cis_regulatory_dna.
+T2U_0135	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering ZNF382 via direct_cis_regulatory_dna.
+T2U_0136	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering ZNF473 via direct_cis_regulatory_dna.
+T2U_0137	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering ZNF485 via direct_cis_regulatory_dna.
+T2U_0138	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering ZNF607 via direct_cis_regulatory_dna.
+T2U_0139	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering ZNF746 via direct_cis_regulatory_dna.
+T2U_0140	down	Loss of activator ZNF143 reduces occupancy of target-linked cis-regulatory DNA, lowering ZW10 via direct_cis_regulatory_dna.
+T2U_0141	down	Loss of NANOG protein reduces auto-activation at Nanog cis-regulatory DNA, lowering Nanog via direct_cis_regulatory_dna.
+T2U_0142	up	Loss of repressor POU5F1 relieves occupancy of Pax6 cis-regulatory DNA, raising Pax6 via direct_cis_regulatory_dna.
+T2U_0143	down	Loss of activator POU5F1 reduces occupancy of Utf1 cis-regulatory DNA, lowering Utf1 via direct_cis_regulatory_dna.
+T2U_0144	up	Loss of TP53-induced lincRNA-p21 regulatory RNA relieves repression of MTAP4, raising expression via regulatory_rna_mediated_indirect_regulation.
+T2U_0145	up	Loss of TP53-induced lincRNA-p21 regulatory RNA relieves repression of SUV39H1, raising expression via regulatory_rna_mediated_indirect_regulation.
+T2U_0146	up	Loss of TP53-induced lincRNA-p21 regulatory RNA relieves repression of VCAN, raising expression via regulatory_rna_mediated_indirect_regulation.
+T2U_0147	up	Loss of HIF1A-induced miR-210 regulatory RNA relieves repression of E2F3, raising expression via regulatory_rna_mediated_indirect_regulation.
+T2U_0148	up	Gain of partner NOTCH1 together with SMAD3 increases combinatorial activation of PTPRK, raising expression via combinatorial_tf_regulation.
+T2U_0149	down	Loss of partner NOTCH1 reduces SMAD3 combinatorial activation of PTPRK, lowering expression via combinatorial_tf_regulation.
+T2U_0150	down	Loss of SMAD3 reduces occupancy of PTPRK cis-regulatory DNA, lowering expression via direct_cis_regulatory_dna.
+T2U_0151	down	Loss of partner SMAD4 reduces SMAD3 combinatorial activation of PTPRK, lowering expression via combinatorial_tf_regulation.
+T2U_0152	up	Loss of UHRF1 chromatin regulator reduces DNA methylation silencing, raising Cdh1 via chromatin_mediated_regulation.
+T2U_0153	up	Loss of UHRF1 chromatin regulator reduces DNA methylation silencing, raising Cdh3 via chromatin_mediated_regulation.
+T2U_0154	up	Loss of UHRF1 chromatin regulator reduces DNA methylation silencing, raising Smpd3 via chromatin_mediated_regulation.
+T2U_0155	down	Gain of HIF1A-induced miR-210 regulatory RNA directly represses E2F3, lowering expression via regulatory_rna_mediated_indirect_regulation.
+T2U_0156	down	Perturbation of Nanog upstream cis-regulatory site prevents POU5F1 binding and activation, lowering Nanog via direct_cis_regulatory_dna.
+T2U_0157	down	Perturbation of TBC1D4 intronic NF-kB cis-regulatory site prevents RELA binding and activation, lowering TBC1D4 via direct_cis_regulatory_dna.
+T2U_0158	down	Perturbation of MYC E-box cis-regulatory site prevents MYC binding and activation, lowering PRKCQ via direct_cis_regulatory_dna.
+T2U_0159	down	Perturbation of MYC E-box cis-regulatory site prevents MYC binding and activation, lowering PRKCQ-AS1 via direct_cis_regulatory_dna.
+T2U_0160	down	Perturbation of MYC E-box cis-regulatory site prevents MYC binding and activation, lowering PFAS via direct_cis_regulatory_dna.
+T2U_0161	down	Loss of partner FOXK1 reduces TP63 combinatorial activation of ANKRD27, lowering expression via combinatorial_tf_regulation.
+T2U_0162	down	Loss of partner FOXK1 reduces TP63 combinatorial activation of HNRNPA1, lowering expression via combinatorial_tf_regulation.
+T2U_0163	down	Loss of partner FOXK1 reduces TP63 combinatorial activation of HNRNPL, lowering expression via combinatorial_tf_regulation.
+T2U_0164	down	Loss of partner FOXK1 reduces TP63 combinatorial activation of L3HYPDH, lowering expression via combinatorial_tf_regulation.
+T2U_0165	down	Loss of partner FOXK1 reduces TP63 combinatorial activation of NABP2, lowering expression via combinatorial_tf_regulation.
+T2U_0166	down	Loss of partner FOXK1 reduces TP63 combinatorial activation of RPS16, lowering expression via combinatorial_tf_regulation.
+T2U_0167	down	Loss of partner FOXK1 reduces TP63 combinatorial activation of TIMM50, lowering expression via combinatorial_tf_regulation.
+T2U_0168	down	Loss of small Maf partners MAFG/MAFF prevents NFE2L2 heterodimer activation of Txnrd1, lowering expression via combinatorial_tf_regulation.
+T2U_0169	down	Loss of activator NFE2L2 reduces occupancy of Txnrd1 cis-regulatory DNA, lowering expression via direct_cis_regulatory_dna.
+T2U_0170	up	Loss of GATA1-induced miR-451 regulatory RNA relieves repression of Ywhaz, raising expression via regulatory_rna_mediated_indirect_regulation.
+T2U_0171	down	Perturbation of Klf4 E2 cis-regulatory site prevents STAT3 binding and activation, lowering Klf4 via direct_cis_regulatory_dna.
+T2U_0172	down	Perturbation of ATP2B4 intronic cis-regulatory site prevents GATA1 binding and activation, lowering ATP2B4 via direct_cis_regulatory_dna.
+T2U_0173	up	Loss of BRG1 chromatin remodeler impairs REST-mediated chromatin repression, raising L1CAM via chromatin_mediated_regulation.
+T2U_0174	up	Loss of BRG1 chromatin remodeler impairs REST-mediated chromatin repression, raising SNAP25 via chromatin_mediated_regulation.
+T2U_0175	up	Perturbation of CUL3 intronic cis-regulatory site prevents repressor ZNF263 binding, raising CUL3 via direct_cis_regulatory_dna.
+T2U_0176	down	Perturbation of CUL3 regulatory site B prevents YY1 binding and activation, lowering CUL3 via direct_cis_regulatory_dna.
+T2U_0179	down	Perturbation of CUL3 regulatory site A prevents CTCF-mediated looping activation, lowering CUL3 via direct_cis_regulatory_dna.
+T2U_0180	down	Gain of GATA1-induced miR-451 regulatory RNA directly represses Ywhaz, lowering expression via regulatory_rna_mediated_indirect_regulation.
+T2U_0181	down	Loss of KMT2D chromatin activator reduces H3K4 methylation needed for GATA1 activation, lowering EPOR via chromatin_mediated_regulation.
+T2U_0182	down	Loss of KMT2D chromatin activator reduces H3K4 methylation needed for GATA1 activation, lowering SLC25A37 via chromatin_mediated_regulation.
+T2U_0183	down	Gain of TWIST1-induced miR-10b regulatory RNA directly represses HOXD10, lowering expression via regulatory_rna_mediated_indirect_regulation.
+T2U_0186	down	Loss of KMT2D chromatin activator reduces H3K4 methylation needed for GATA1 activation, lowering SLC22A4 via chromatin_mediated_regulation.
+T2U_0188	down	Loss of KMT2D chromatin activator reduces H3K4 methylation needed for GATA1 activation, lowering ZFPM1 via chromatin_mediated_regulation.
+T2U_0189	up	Loss of STAT3-induced miR-181b regulatory RNA relieves repression of CYLD, raising expression via regulatory_rna_mediated_indirect_regulation.
+T2U_0190	up	Loss of STAT3-induced miR-181b-1 regulatory RNA relieves repression of CYLD, raising expression via regulatory_rna_mediated_indirect_regulation.
+T2U_0191	up	Loss of STAT3-induced miR-21 regulatory RNA relieves repression of PTEN, raising expression via regulatory_rna_mediated_indirect_regulation.
+T2U_0192	up	Loss of HIF1A-induced miR-210 regulatory RNA relieves repression of ISCU, raising expression via regulatory_rna_mediated_indirect_regulation.
+T2U_0193	down	Gain of STAT3-induced miR-181b regulatory RNA directly represses CYLD, lowering expression via regulatory_rna_mediated_indirect_regulation.
+T2U_0195	down	Loss of activator ETV4 reduces occupancy of NOTCH4 cis-regulatory DNA, lowering expression via direct_cis_regulatory_dna.
+T2U_0196	down	Loss of partner FOSL1 reduces ETV4 combinatorial activation of NOTCH4, lowering expression via combinatorial_tf_regulation.
+T2U_0197	down	Loss of partner JUN reduces ETV4 combinatorial activation of NOTCH4, lowering expression via combinatorial_tf_regulation.
+T2U_0198	down	Loss of TP53-associated LED regulatory RNA reduces activation of CDKN1A, lowering expression via regulatory_rna_mediated_indirect_regulation.
+T2U_0199	up	Loss of LSD1 chromatin demethylase removes repressive marks so GATA2 activation of GATA1 rises via chromatin_mediated_regulation.

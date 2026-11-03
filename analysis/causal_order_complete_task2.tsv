@@ -1,0 +1,194 @@
+unit_id	pair_id	gold_mechanism	mediator	CO_fail	CO_total	CO_fail_rate	n_systems_all_runs_fail	all_runs_fail_systems	n_systems_any_run_fail	tier_A_all_allfail
+T2U_0014	PAIR_ESR1_G0S2_02097c71b743	chromatin_mediated_regulation	ERBS H3K27ac-positive enhancer state disrupted by SID4X-dCas9-KRAB/SIN3A-HDAC recruitment	24	24	100	6	"GPT,Claude,Gemini,GLM,Grok,Biomni"	6	1
+T2U_0013	PAIR_ESR1_CISH_6753168239fd	chromatin_mediated_regulation	ERBS H3K27ac-positive enhancer state disrupted by SID4X-dCas9-KRAB/SIN3A-HDAC recruitment	23	24	95.8	5	"GPT,Claude,Gemini,GLM,Grok"	6	0
+T2U_0015	PAIR_ESR1_MMP17_c7ee7d547be2	chromatin_mediated_regulation	ERBS H3K27ac-positive enhancer state disrupted by SID4X-dCas9-KRAB/SIN3A-HDAC recruitment	23	24	95.8	5	"GPT,Claude,Gemini,GLM,Grok"	6	0
+T2U_0036	PAIR_PPARA_ANGPTL4_ffa341522e51	combinatorial_tf_regulation	BHLHE40	23	24	95.8	5	"Claude,Gemini,GLM,Grok,Biomni"	6	0
+T2U_0037	PAIR_PPARA_HMGCS2_3abcd07550fa	combinatorial_tf_regulation	BHLHE40	23	24	95.8	5	"Claude,Gemini,GLM,Grok,Biomni"	6	0
+T2U_0038	PAIR_PPARA_PDK4_2604cf75050e	combinatorial_tf_regulation	BHLHE40	23	24	95.8	5	"Claude,Gemini,GLM,Grok,Biomni"	6	0
+T2U_0019	PAIR_GATA1_LRRC39_bb11760f860f	combinatorial_tf_regulation	TAL1	22	24	91.7	4	"Claude,Gemini,GLM,Biomni"	6	0
+T2U_0022	PAIR_TP63_SAMD9L_5c730d243f23	chromatin_mediated_regulation	DeltaNp63alpha-recruited SRCAP subunits and repressive H2A.Z deposition	22	24	91.7	4	"Claude,Gemini,GLM,Grok"	6	0
+T2U_0023	PAIR_TP63_ZHX2_c3148f2a3d0b	chromatin_mediated_regulation	DeltaNp63alpha-recruited SRCAP subunits and repressive H2A.Z deposition	22	24	91.7	4	"Claude,Gemini,GLM,Grok"	6	0
+T2U_0021	PAIR_GATA1_SLC4A1_c0ca7b13445c	combinatorial_tf_regulation	TAL1	21	24	87.5	3	"Claude,Gemini,GLM"	6	0
+T2U_0003	PAIR_TP63_ANKRD27_bbb8162c5f8f	combinatorial_tf_regulation	FOXK1	20	24	83.3	4	"Claude,GLM,Grok,Biomni"	6	0
+T2U_0004	PAIR_TP63_HNRNPA1_33b0de336520	combinatorial_tf_regulation	FOXK1	20	24	83.3	4	"Claude,GLM,Grok,Biomni"	6	0
+T2U_0005	PAIR_TP63_HNRNPL_d22ca3b99be4	combinatorial_tf_regulation	FOXK1	20	24	83.3	4	"Claude,GLM,Grok,Biomni"	6	0
+T2U_0006	PAIR_TP63_L3HYPDH_0e885931dc49	combinatorial_tf_regulation	FOXK1	20	24	83.3	4	"Claude,GLM,Grok,Biomni"	6	0
+T2U_0007	PAIR_TP63_NABP2_9672d5d7e44f	combinatorial_tf_regulation	FOXK1	20	24	83.3	4	"Claude,GLM,Grok,Biomni"	6	0
+T2U_0008	PAIR_TP63_RPS16_a5beb6faedf5	combinatorial_tf_regulation	FOXK1	20	24	83.3	4	"Claude,GLM,Grok,Biomni"	6	0
+T2U_0009	PAIR_TP63_TIMM50_8d982295b8db	combinatorial_tf_regulation	FOXK1	20	24	83.3	4	"Claude,GLM,Grok,Biomni"	6	0
+T2U_0016	PAIR_GATA1_LRRC39_bb11760f860f	combinatorial_tf_regulation	TAL1	19	24	79.2	2	"Gemini,GLM"	6	0
+T2U_0018	PAIR_GATA1_SLC4A1_c0ca7b13445c	combinatorial_tf_regulation	TAL1	19	24	79.2	2	"Gemini,GLM"	6	0
+T2U_0020	PAIR_GATA1_RRAGD_756ca2d86c26	combinatorial_tf_regulation	TAL1	19	24	79.2	3	"Claude,Gemini,GLM"	6	0
+T2U_0026	PAIR_ESR1_CA12_b11d961973c3	regulatory_rna_mediated_indirect_regulation	CA12e	19	24	79.2	3	"GLM,Grok,Biomni"	6	0
+T2U_0027	PAIR_ESR1_FOXC1_b89e33d9dd10	regulatory_rna_mediated_indirect_regulation	FOXC1e	19	24	79.2	3	"GLM,Grok,Biomni"	6	0
+T2U_0028	PAIR_ESR1_GREB1_bba5768b0823	regulatory_rna_mediated_indirect_regulation	GREB1e	19	24	79.2	3	"GLM,Grok,Biomni"	6	0
+T2U_0029	PAIR_ESR1_KCNK5_7c4dffdce8fe	regulatory_rna_mediated_indirect_regulation	KCNK5e	19	24	79.2	3	"GLM,Grok,Biomni"	6	0
+T2U_0030	PAIR_ESR1_NRIP1_5c192b0d0f52	regulatory_rna_mediated_indirect_regulation	NRIP1e	19	24	79.2	3	"GLM,Grok,Biomni"	6	0
+T2U_0031	PAIR_ESR1_P2RY2_d3ccc7219fa8	regulatory_rna_mediated_indirect_regulation	P2RY2e	19	24	79.2	3	"GLM,Grok,Biomni"	6	0
+T2U_0032	PAIR_ESR1_PGR_76559135d372	regulatory_rna_mediated_indirect_regulation	PGRe	19	24	79.2	3	"GLM,Grok,Biomni"	6	0
+T2U_0033	PAIR_ESR1_SIAH2_0b03d5ee7312	regulatory_rna_mediated_indirect_regulation	SIAH2e	19	24	79.2	3	"GLM,Grok,Biomni"	6	0
+T2U_0034	PAIR_ESR1_SMAD7_be9dce442973	regulatory_rna_mediated_indirect_regulation	SMAD7e	19	24	79.2	3	"GLM,Grok,Biomni"	6	0
+T2U_0035	PAIR_ESR1_TFF1_b777e8d26b68	regulatory_rna_mediated_indirect_regulation	TFF1e	19	24	79.2	3	"GLM,Grok,Biomni"	6	0
+T2U_0017	PAIR_GATA1_RRAGD_756ca2d86c26	combinatorial_tf_regulation	TAL1	18	24	75	2	"Gemini,GLM"	6	0
+T2U_0169	PAIR_NFE2L2_TXNRD1_c4ae77cf358f	combinatorial_tf_regulation	"small-Maf TFs MAFG/MAFF, with MAFK partial redundancy"	18	24	75	3	"Claude,Gemini,GLM"	6	0
+T2U_0195	PAIR_ETV4_NOTCH4_c39dfdd19ec5	combinatorial_tf_regulation	c-JUN/FRA1 AP-1 complex	17	24	70.8	3	"GLM,Grok,Biomni"	6	0
+T2U_0040	PAIR_PPARA_HMGCS2_3abcd07550fa	combinatorial_tf_regulation	BHLHE40	14	24	58.3	1	Gemini	6	0
+T2U_0150	PAIR_SMAD3_PTPRK_984d80e568f9	combinatorial_tf_regulation	SMAD4; NOTCH1 intracellular-domain/RBPJ pathway	14	24	58.3	2	"Claude,GLM"	6	0
+T2U_0039	PAIR_PPARA_ANGPTL4_ffa341522e51	combinatorial_tf_regulation	BHLHE40	13	24	54.2	1	Gemini	6	0
+T2U_0041	PAIR_PPARA_PDK4_2604cf75050e	combinatorial_tf_regulation	BHLHE40	13	24	54.2	1	Gemini	6	0
+T2U_0175	PAIR_ZNF263_CUL3_3c1ecc1f6d8b	direct_cis_regulatory_dna	CUL3 first-intron ZNF263 ChIP-seq peak; sgRNA 1 of two guides spaced 30 bp apart (hg19 coordinates shown in source Figure 4; exact guide sequence/coordinate is not machine-readable in the article text) | CUL3 first-intron ZNF263 ChIP-seq peak; sgRNA 2 of two guides spaced 30 bp apart (hg19 coordinates shown in source Figure 4; exact guide sequence/coordinate is not machine-readable in the article text)	11	24	45.8	0		5	0
+T2U_0199	PAIR_GATA2_GATA1_5ec36938703c	chromatin_mediated_regulation	LSD1/KDM1A-dependent H3K4 demethylation at the GATA1 double-GATA element and IE promoter	10	24	41.7	1	GLM	4	0
+T2U_0142	PAIR_POU5F1_PAX6_b7d737cd5915	direct_cis_regulatory_dna	Oct4 ChIP-seq site in the Pax6 regulatory region; exact site/guide coordinates retained in Stable1	7	24	29.2	0		5	0
+T2U_0001	PAIR_CDX2_SCIN_8264b38dc7f6	chromatin_mediated_regulation	PRC2/H3K27me3 repressive domain around CDX2-linked regulatory region	6	24	25	0		4	0
+T2U_0002	PAIR_CDX2_SLC26A6_07edfb783a17	chromatin_mediated_regulation	PRC2/H3K27me3 repressive domain around CDX2-linked regulatory region	6	24	25	0		4	0
+T2U_0143	PAIR_POU5F1_UTF1_97eba4ab1f1b	direct_cis_regulatory_dna	"Oct4 site in the Utf1 regulatory sequence 1,825 bp downstream of the Utf1 TSS"	6	24	25	0		3	0
+T2U_0148	PAIR_SMAD3_PTPRK_984d80e568f9	combinatorial_tf_regulation	SMAD4; NOTCH1 intracellular-domain/RBPJ pathway	6	24	25	0		5	0
+T2U_0149	PAIR_SMAD3_PTPRK_984d80e568f9	combinatorial_tf_regulation	SMAD4; NOTCH1 intracellular-domain/RBPJ pathway	6	24	25	0		4	0
+T2U_0152	PAIR_PPARA_CDH1_10bc3221cf1b	chromatin_mediated_regulation	"E2F8-induced UHRF1/DNMT1/HDAC1 repression at an H3K9me3-marked, methylated target promoter region"	6	24	25	0		3	0
+T2U_0154	PAIR_PPARA_SMPD3_dab549a3c2da	chromatin_mediated_regulation	"E2F8-induced UHRF1/DNMT1/HDAC1 repression at an H3K9me3-marked, methylated target promoter region"	5	24	20.8	0		3	0
+T2U_0164	PAIR_TP63_L3HYPDH_0e885931dc49	combinatorial_tf_regulation	FOXK1	5	24	20.8	0		2	0
+T2U_0165	PAIR_TP63_NABP2_9672d5d7e44f	combinatorial_tf_regulation	FOXK1	5	24	20.8	0		2	0
+T2U_0197	PAIR_ETV4_NOTCH4_c39dfdd19ec5	combinatorial_tf_regulation	c-JUN/FRA1 AP-1 complex	5	24	20.8	0		2	0
+T2U_0153	PAIR_PPARA_CDH3_73f923d3ad19	chromatin_mediated_regulation	"E2F8-induced UHRF1/DNMT1/HDAC1 repression at an H3K9me3-marked, methylated target promoter region"	4	24	16.7	0		3	0
+T2U_0163	PAIR_TP63_HNRNPL_d22ca3b99be4	combinatorial_tf_regulation	FOXK1	4	24	16.7	0		2	0
+T2U_0167	PAIR_TP63_TIMM50_8d982295b8db	combinatorial_tf_regulation	FOXK1	4	24	16.7	0		2	0
+T2U_0180	PAIR_GATA1_YWHAZ_d99fcbe022fc	regulatory_rna_mediated_indirect_regulation	miR-451 from the bicistronic miR-144/451 locus	4	24	16.7	0		2	0
+T2U_0190	PAIR_STAT3_CYLD_870ad9a86052	regulatory_rna_mediated_indirect_regulation	miR-181b-1	4	24	16.7	0		3	0
+T2U_0141	PAIR_NANOG_NANOG_e71b1e5b0be5	direct_cis_regulatory_dna	Nanog ChIP-seq site approximately 4.9 kb upstream of the Nanog TSS	3	24	12.5	0		2	0
+T2U_0145	PAIR_TP53_SUV39H1_e8ad999e9161	regulatory_rna_mediated_indirect_regulation	lincRNA-p21 (Gm16197)	3	24	12.5	0		2	0
+T2U_0151	PAIR_SMAD3_PTPRK_984d80e568f9	combinatorial_tf_regulation	SMAD4; NOTCH1 intracellular-domain/RBPJ pathway	3	24	12.5	0		2	0
+T2U_0179	PAIR_CTCF_CUL3_50bc2e73dd36	direct_cis_regulatory_dna	CUL3 downstream CTCF core motif at a vemurafenib-enriched noncoding site (hg19 coordinates shown in source Figure 4; exact guide sequence/coordinate is not machine-readable in the article text)	3	24	12.5	0		2	0
+T2U_0186	PAIR_GATA1_SLC22A4_222c96984243	chromatin_mediated_regulation	KMT2D/COMPASS-dependent H3K4me1/H3K27ac active-enhancer state at GATA1-bound erythroid CREs	3	24	12.5	0		2	0
+T2U_0189	PAIR_STAT3_CYLD_870ad9a86052	regulatory_rna_mediated_indirect_regulation	miR-181b-1	3	24	12.5	0		2	0
+T2U_0196	PAIR_ETV4_NOTCH4_c39dfdd19ec5	combinatorial_tf_regulation	c-JUN/FRA1 AP-1 complex	3	24	12.5	0		2	0
+T2U_0010	PAIR_ESR1_ELOVL2_bb029e92ff93	chromatin_mediated_regulation	TET2-dependent low-CpG-methylation/5hmC enhancer state required for efficient ERα recruitment	2	24	8.3	0		1	0
+T2U_0012	PAIR_ESR1_WIPF1_3f42f4f74eda	chromatin_mediated_regulation	TET2-dependent low-CpG-methylation/5hmC enhancer state required for efficient ERα recruitment	2	24	8.3	0		1	0
+T2U_0144	PAIR_TP53_MTAP4_d4aacba6eba6	regulatory_rna_mediated_indirect_regulation	lincRNA-p21 (Gm16197)	2	24	8.3	0		1	0
+T2U_0146	PAIR_TP53_VCAN_e1c672ff2ce9	regulatory_rna_mediated_indirect_regulation	lincRNA-p21 (Gm16197)	2	24	8.3	0		1	0
+T2U_0147	PAIR_HIF1A_E2F3_c7315afb1aed	regulatory_rna_mediated_indirect_regulation	miR-210	2	24	8.3	0		1	0
+T2U_0155	PAIR_HIF1A_E2F3_c7315afb1aed	regulatory_rna_mediated_indirect_regulation	miR-210	2	24	8.3	0		1	0
+T2U_0156	PAIR_POU5F1_NANOG_0dcfec11796a	direct_cis_regulatory_dna	Nanog promoter Oct4 site 137_151 bp upstream of Nanog TSS | Nanog promoter Oct4 site; source reports an approximately 230 bp deletion including the site	2	24	8.3	0		1	0
+T2U_0157	PAIR_RELA_TBC1D4_22dbf0be6869	direct_cis_regulatory_dna	Intronic TBC1D4 NF-kB binding site; three human-specific sequence changes within 7 bp; approximately 182 kb from the TBC1D4 promoter; hg38 chr13:75300362 (0-based source p65-retarget-guide start; guide=AAAGCTGTCTATATTGGTAT; DNA-methylation source window chr13:75298677-75302646)	2	24	8.3	0		1	0
+T2U_0158	PAIR_MYC_PRKCQ_787ef9e4170b	direct_cis_regulatory_dna	chr10:6622603-6622609 (hg19; MYC E-box chr10_BS212_CACATG_1; source nearest-gene link PRKCQ distance 340 bp)	2	24	8.3	0		1	0
+T2U_0159	PAIR_MYC_PRKCQ-AS1_2adfaa04d346	direct_cis_regulatory_dna	chr10:6622603-6622609 (hg19; MYC E-box chr10_BS212_CACATG_1; source nearest-gene link PRKCQ distance 340 bp)	2	24	8.3	0		1	0
+T2U_0160	PAIR_MYC_PFAS_f60a9406a746	direct_cis_regulatory_dna	chr17:8152654-8152660 (hg19; MYC E-box chr17_BS377_CACGTG_1; source nearest-gene link PFAS distance 59 bp)	2	24	8.3	0		1	0
+T2U_0161	PAIR_TP63_ANKRD27_bbb8162c5f8f	combinatorial_tf_regulation	FOXK1	2	24	8.3	0		1	0
+T2U_0162	PAIR_TP63_HNRNPA1_33b0de336520	combinatorial_tf_regulation	FOXK1	2	24	8.3	0		1	0
+T2U_0166	PAIR_TP63_RPS16_a5beb6faedf5	combinatorial_tf_regulation	FOXK1	2	24	8.3	0		1	0
+T2U_0168	PAIR_NFE2L2_TXNRD1_c4ae77cf358f	combinatorial_tf_regulation	"small-Maf TFs MAFG/MAFF, with MAFK partial redundancy"	2	24	8.3	0		1	0
+T2U_0170	PAIR_GATA1_YWHAZ_d99fcbe022fc	regulatory_rna_mediated_indirect_regulation	miR-451 from the bicistronic miR-144/451 locus	2	24	8.3	0		1	0
+T2U_0171	PAIR_STAT3_KLF4_7d7101f0fb5c	direct_cis_regulatory_dna	Klf4 enhancer E2 STAT3-binding motif (source Figure 2B-E/4C; exact genomic interval is shown in the source figure and GEO Stat3 peak file)	2	24	8.3	0		1	0
+T2U_0172	PAIR_GATA1_ATP2B4_7b467754efbc	direct_cis_regulatory_dna	98-bp core erythroid enhancer in ATP2B4 intron 1; sg8 cuts directly over a GATA1 motif	2	24	8.3	0		1	0
+T2U_0173	PAIR_REST_L1CAM_5351890653f8	chromatin_mediated_regulation	BRG1/SMARCA4 ATP-dependent SWI/SNF chromatin-remodeling activity and acetylation-sensitive BRG1 bromodomain function	2	24	8.3	0		1	0
+T2U_0174	PAIR_REST_SNAP25_e584d89ce3d2	chromatin_mediated_regulation	BRG1/SMARCA4 ATP-dependent SWI/SNF chromatin-remodeling activity and acetylation-sensitive BRG1 bromodomain function	2	24	8.3	0		1	0
+T2U_0176	PAIR_YY1_CUL3_5adade748f69	direct_cis_regulatory_dna	CUL3 noncoding YY1 ChIP peak / motif; one sgRNA near the motif (hg19 coordinates shown in source Figure 4; exact guide sequence/coordinate is not machine-readable in the article text) | CUL3 noncoding YY1 ChIP peak / motif; sgRNA cut overlaps the motif (hg19 coordinates shown in source Figure 4; exact guide sequence/coordinate is not machine-readable in the article text)	2	24	8.3	0		1	0
+T2U_0181	PAIR_GATA1_EPOR_01ff598b680c	chromatin_mediated_regulation	KMT2D/COMPASS-dependent H3K4me1/H3K27ac active-enhancer state at GATA1-bound erythroid CREs	2	24	8.3	0		1	0
+T2U_0182	PAIR_GATA1_SLC25A37_b066e7543caa	chromatin_mediated_regulation	KMT2D/COMPASS-dependent H3K4me1/H3K27ac active-enhancer state at GATA1-bound erythroid CREs	2	24	8.3	0		1	0
+T2U_0183	PAIR_TWIST1_HOXD10_2d8ed112b281	regulatory_rna_mediated_indirect_regulation	miR-10b	2	24	8.3	0		1	0
+T2U_0188	PAIR_GATA1_ZFPM1_7f2128792e70	chromatin_mediated_regulation	KMT2D/COMPASS-dependent H3K4me1/H3K27ac active-enhancer state at GATA1-bound erythroid CREs	2	24	8.3	0		1	0
+T2U_0191	PAIR_STAT3_PTEN_603a068c04af	regulatory_rna_mediated_indirect_regulation	miR-21	2	24	8.3	0		1	0
+T2U_0192	PAIR_HIF1A_ISCU_5322a09cd4b2	regulatory_rna_mediated_indirect_regulation	miR-210	2	24	8.3	0		1	0
+T2U_0193	PAIR_STAT3_CYLD_870ad9a86052	regulatory_rna_mediated_indirect_regulation	miR-181b-1	2	24	8.3	0		1	0
+T2U_0198	PAIR_TP53_CDKN1A_38d502e24dc9	regulatory_rna_mediated_indirect_regulation	LED (LncRNA activator of Enhancer Domains)	2	24	8.3	0		1	0
+T2U_0011	PAIR_ESR1_PTGES_a012dc2ca7e7	chromatin_mediated_regulation	TET2-dependent low-CpG-methylation/5hmC enhancer state required for efficient ERα recruitment	1	24	4.2	0		1	0
+T2U_0095	PAIR_ZNF143_PROSER3_ce680dd9ce31	direct_cis_regulatory_dna	chr19:35756183-35760183 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0096	PAIR_ZNF143_PSMC6_868a0c536046	direct_cis_regulatory_dna	chr14:52705237-52709237 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0097	PAIR_ZNF143_PTPMT1_b1fb08c5df20	direct_cis_regulatory_dna	chr11:47563558-47567558 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0098	PAIR_ZNF143_PTRHD1_b7f23fbb2a60	direct_cis_regulatory_dna	chr2:24791354-24795354 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0099	PAIR_ZNF143_RDH11_dc3367e0a418	direct_cis_regulatory_dna	chr14:67693759-67697759 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0100	PAIR_ZNF143_RIC8A_e56f63887f89	direct_cis_regulatory_dna	chr11:205711-209711 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0101	PAIR_ZNF143_RNF40_a1e6a59b9205	direct_cis_regulatory_dna	chr16:30760321-30764321 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0102	PAIR_ZNF143_RPAIN_9955aaed78c7	direct_cis_regulatory_dna	chr17:5418184-5422184 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0103	PAIR_ZNF143_RPL6_6d5fbe66c485	direct_cis_regulatory_dna	chr12:112407605-112411605 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0104	PAIR_ZNF143_RSBN1_7f1fc8af7f02	direct_cis_regulatory_dna	chr1:113810262-113814262 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0105	PAIR_ZNF143_SAMD13_4df722524c2e	direct_cis_regulatory_dna	chr1:84296538-84300538 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0106	PAIR_ZNF143_SAV1_7560f46225cb	direct_cis_regulatory_dna	chr14:50666297-50670297 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0107	PAIR_ZNF143_SEPTIN8_1ca9f366bb7f	direct_cis_regulatory_dna	chr5:132775239-132779239 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0108	PAIR_ZNF143_SFT2D2_79481c246769	direct_cis_regulatory_dna	chr1:168224003-168228003 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0109	PAIR_ZNF143_SGF29_1771a211af33	direct_cis_regulatory_dna	chr16:28551940-28555940 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0110	PAIR_ZNF143_SLC7A6OS_85bd5dadd53d	direct_cis_regulatory_dna	chr16:68308946-68312946 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0111	PAIR_ZNF143_SLC9A6_acdd152049eb	direct_cis_regulatory_dna	chrX:135983502-135987502 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0112	PAIR_ZNF143_SNRNP48_f17771774185	direct_cis_regulatory_dna	chr6:7588220-7592220 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0113	PAIR_ZNF143_SNRNP70_fea975b4fbf2	direct_cis_regulatory_dna	chr19:49083457-49087457 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0114	PAIR_ZNF143_SNRPD3_20915e6ccf89	direct_cis_regulatory_dna	chr22:24553998-24557998 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0115	PAIR_ZNF143_SSB_cb6f87e40ef5	direct_cis_regulatory_dna	chr2:169796870-169800870 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0116	PAIR_ZNF143_STARD10_a8cc0f940ae3	direct_cis_regulatory_dna	chr11:72792047-72796047 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0117	PAIR_ZNF143_TFAM_f84053ab37f0	direct_cis_regulatory_dna	chr10:58383409-58387409 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0118	PAIR_ZNF143_THOC7_5a2b41a4ebc7	direct_cis_regulatory_dna	chr3:63861779-63865779 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0119	PAIR_ZNF143_THOP1_3d900927c20d	direct_cis_regulatory_dna	chr19:2783543-2787543 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0120	PAIR_ZNF143_TIMM17A_d12613b00182	direct_cis_regulatory_dna	chr1:201953502-201957502 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0121	PAIR_ZNF143_TMEM258_9ed2f8af71b4	direct_cis_regulatory_dna	chr11:61790575-61794575 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0122	PAIR_ZNF143_TMOD2_be1361637b83	direct_cis_regulatory_dna	chr15:51749596-51753596 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0123	PAIR_ZNF143_TOMM70_b58d759e093a	direct_cis_regulatory_dna	chr3:100399042-100403042 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0124	PAIR_ZNF143_TPRA1_fa80a8ddc5c3	direct_cis_regulatory_dna	chr3:127588721-127592721 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0125	PAIR_ZNF143_UBALD1_624e301b76be	direct_cis_regulatory_dna	chr16:4612888-4616888 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0126	PAIR_ZNF143_UBFD1_7bbc6244eb23	direct_cis_regulatory_dna	chr16:23555735-23559735 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0127	PAIR_ZNF143_UQCR10_45b4ef23f22d	direct_cis_regulatory_dna	chr22:29765383-29769383 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0128	PAIR_ZNF143_VASP_f84482b5ecfe	direct_cis_regulatory_dna	chr19:45505501-45509501 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0129	PAIR_ZNF143_ZBTB10_5ae35dfdfa7a	direct_cis_regulatory_dna	chr8:80484225-80488225 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0130	PAIR_ZNF143_ZFTA_28daa65369ef	direct_cis_regulatory_dna	chr11:63766785-63770785 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0131	PAIR_ZNF143_ZMYM6_3d91f7b7cc98	direct_cis_regulatory_dna	chr1:35029690-35033690 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0132	PAIR_ZNF143_ZNF200_a7d2d69e54c0	direct_cis_regulatory_dna	chr16:3233126-3237126 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0133	PAIR_ZNF143_ZNF24_8f7354b62aa5	direct_cis_regulatory_dna	chr18:35342447-35346447 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0134	PAIR_ZNF143_ZNF354A_b8a3386c0f98	direct_cis_regulatory_dna	chr5:178728659-178732659 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0135	PAIR_ZNF143_ZNF382_d7ef6c461f06	direct_cis_regulatory_dna	chr19:36602945-36606945 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0136	PAIR_ZNF143_ZNF473_f61269685aeb	direct_cis_regulatory_dna	chr19:50024004-50028004 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0137	PAIR_ZNF143_ZNF485_629db61159bf	direct_cis_regulatory_dna	chr10:43604437-43608437 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0138	PAIR_ZNF143_ZNF607_49bfdb8d44a8	direct_cis_regulatory_dna	chr19:37717734-37721734 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0139	PAIR_ZNF143_ZNF746_6e6e85a759d7	direct_cis_regulatory_dna	chr7:149495736-149499736 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0140	PAIR_ZNF143_ZW10_06853815050d	direct_cis_regulatory_dna	chr11:113771692-113775692 (hg38; TSS +/-2 kb)	1	24	4.2	0		1	0
+T2U_0024	PAIR_HIF1A_ISCU_5322a09cd4b2	regulatory_rna_mediated_indirect_regulation	miR-210	0	24	0	0		0	0
+T2U_0025	PAIR_TWIST1_HOXD10_2d8ed112b281	regulatory_rna_mediated_indirect_regulation	miR-10b	0	24	0	0		0	0
+T2U_0042	PAIR_ZNF143_ABCF2_ccd79092fe66	direct_cis_regulatory_dna	chr7:151225184-151229184 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0043	PAIR_ZNF143_ADAT3_a30b1f7b9b29	direct_cis_regulatory_dna	chr19:1903398-1907398 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0044	PAIR_ZNF143_AKR1A1_e50466427ae7	direct_cis_regulatory_dna	chr1:45548840-45552840 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0045	PAIR_ZNF143_ANKRD13B_8b607147965d	direct_cis_regulatory_dna	chr17:29591160-29595160 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0046	PAIR_ZNF143_AP1S3_464b6745d7fd	direct_cis_regulatory_dna	chr2:223835582-223839582 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0047	PAIR_ZNF143_ARID5A_8d1b4db05c6e	direct_cis_regulatory_dna	chr2:96534751-96538751 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0048	PAIR_ZNF143_ASB13_c6e95b5f27fb	direct_cis_regulatory_dna	chr10:5664618-5668618 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0049	PAIR_ZNF143_BIRC5_863988ee77da	direct_cis_regulatory_dna	chr17:78212272-78216272 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0050	PAIR_ZNF143_CASC3_14a46bf171f7	direct_cis_regulatory_dna	chr17:40138536-40142536 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0051	PAIR_ZNF143_CCDC157_c2f23d4f60d2	direct_cis_regulatory_dna	chr22:30354660-30358660 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0052	PAIR_ZNF143_CCDC92_dd4664be3a54	direct_cis_regulatory_dna	chr12:123970831-123974831 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0053	PAIR_ZNF143_CCPG1_e55550d41459	direct_cis_regulatory_dna	chr15:55406294-55410294 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0054	PAIR_ZNF143_CKAP2L_52e559d04b5c	direct_cis_regulatory_dna	chr2:112762609-112766609 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0055	PAIR_ZNF143_CNIH1_2ebc0b765063	direct_cis_regulatory_dna	chr14:54439391-54443391 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0056	PAIR_ZNF143_CPOX_1c9e46311bb9	direct_cis_regulatory_dna	chr3:98591666-98595666 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0057	PAIR_ZNF143_CPSF4_690aef85cea5	direct_cis_regulatory_dna	chr7:99436945-99440945 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0058	PAIR_ZNF143_CRCP_74e1df1a373d	direct_cis_regulatory_dna	chr7:66112840-66116840 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0059	PAIR_ZNF143_CREBL2_54b6b08bd831	direct_cis_regulatory_dna	chr12:12609911-12613911 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0060	PAIR_ZNF143_CWC15_5a077c274e6d	direct_cis_regulatory_dna	chr11:94971547-94975547 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0061	PAIR_ZNF143_CYB5R1_bf5dc9e1f7d1	direct_cis_regulatory_dna	chr1:202965255-202969255 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0062	PAIR_ZNF143_EGR1_e8041906998d	direct_cis_regulatory_dna	chr5:138463479-138467479 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0063	PAIR_ZNF143_EMC1_7554bff396c7	direct_cis_regulatory_dna	chr1:19249522-19253522 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0064	PAIR_ZNF143_ENKD1_122131f042ad	direct_cis_regulatory_dna	chr16:67664737-67668737 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0065	PAIR_ZNF143_ERAL1_383c0efe6527	direct_cis_regulatory_dna	chr17:28853033-28857033 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0066	PAIR_ZNF143_ERP44_29a9b7ac9ab4	direct_cis_regulatory_dna	chr9:100097000-100101000 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0067	PAIR_ZNF143_FASTK_fae7d40dafe2	direct_cis_regulatory_dna	chr7:151078809-151082809 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0068	PAIR_ZNF143_FH_22d388949745	direct_cis_regulatory_dna	chr1:241517711-241521711 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0069	PAIR_ZNF143_GAMT_e314303c34b2	direct_cis_regulatory_dna	chr19:1399532-1403532 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0070	PAIR_ZNF143_GOLGA2_9ac224d2a2e2	direct_cis_regulatory_dna	chr9:128273998-128277998 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0071	PAIR_ZNF143_GTPBP8_c62b63b02fdf	direct_cis_regulatory_dna	chr3:112988995-112992995 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0072	PAIR_ZNF143_HMGCL_2e0b44a38852	direct_cis_regulatory_dna	chr1:23823428-23827428 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0073	PAIR_ZNF143_HSPA14_09d4cf97346b	direct_cis_regulatory_dna	chr10:14836373-14840373 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0074	PAIR_ZNF143_IK_b8baed3ece5d	direct_cis_regulatory_dna	chr5:140645858-140649858 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0075	PAIR_ZNF143_JMJD8_16f49a7216fe	direct_cis_regulatory_dna	chr16:682407-686407 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0076	PAIR_ZNF143_JUN_2742c3faa719	direct_cis_regulatory_dna	chr1:58782043-58786043 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0077	PAIR_ZNF143_JUND_abc3b6e208bc	direct_cis_regulatory_dna	chr19:18279622-18283622 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0078	PAIR_ZNF143_KDELR2_f4aab97c5899	direct_cis_regulatory_dna	chr7:6482190-6486190 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0079	PAIR_ZNF143_KLC2_065868e0ae9e	direct_cis_regulatory_dna	chr11:66255767-66259767 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0080	PAIR_ZNF143_KPNA5_c0dda55de937	direct_cis_regulatory_dna	chr6:116679210-116683210 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0081	PAIR_ZNF143_LATS1_2b9a9b76e443	direct_cis_regulatory_dna	chr6:149716082-149720082 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0082	PAIR_ZNF143_MED16_d3ee82022246	direct_cis_regulatory_dna	chr19:891187-895187 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0083	PAIR_ZNF143_MFSD3_52b2316a51ee	direct_cis_regulatory_dna	chr8:144507071-144511071 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0084	PAIR_ZNF143_MRPL46_9c91622ac31b	direct_cis_regulatory_dna	chr15:88465388-88469388 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0085	PAIR_ZNF143_MRPL54_12b2e4cf45b8	direct_cis_regulatory_dna	chr19:3760681-3764681 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0086	PAIR_ZNF143_MRPS11_d782120bd375	direct_cis_regulatory_dna	chr15:88465707-88469707 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0087	PAIR_ZNF143_MTMR1_7b3b87ec46c4	direct_cis_regulatory_dna	chrX:150691402-150695402 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0088	PAIR_ZNF143_NUTF2_f7e51c747077	direct_cis_regulatory_dna	chr16:67844934-67848934 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0089	PAIR_ZNF143_PAPOLG_49fc5ecc185d	direct_cis_regulatory_dna	chr2:60754322-60758322 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0090	PAIR_ZNF143_PLAGL2_b84b09493c9a	direct_cis_regulatory_dna	chr20:32205731-32209731 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0091	PAIR_ZNF143_PNKD_7d03f2e4a533	direct_cis_regulatory_dna	chr2:218268513-218272513 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0092	PAIR_ZNF143_POMT2_656b91206023	direct_cis_regulatory_dna	chr14:77318876-77322876 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0093	PAIR_ZNF143_PRIM1_2200971b8f34	direct_cis_regulatory_dna	chr12:56750320-56754320 (hg38; TSS +/-2 kb)	0	24	0	0		0	0
+T2U_0094	PAIR_ZNF143_PRKAA2_7d43aa0c8960	direct_cis_regulatory_dna	chr1:56643374-56647374 (hg38; TSS +/-2 kb)	0	24	0	0		0	0

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Full Results Audit — MechanismBench v3.7.0</title><style>
+body{font-family:'Times New Roman',serif;font-size:10.5pt;max-width:1000px;margin:32px auto;color:#111;line-height:1.55;}
+h1{font-size:14pt;} h2{font-size:12pt;margin:26px 0 8px;border-bottom:1px solid #999;padding-bottom:3px;}
+h3{font-size:11pt;margin:16px 0 4px;}
+p{margin:7px 0;}
+table{border-collapse:collapse;margin:10px 0;width:100%;}
+th,td{border:1px solid #bbb;padding:3px 6px;font-size:8.5pt;text-align:center;}
+th{background:#efefef;} td:first-child,th:first-child{text-align:left;}
+tr.mean td{background:#f7f7ee;}
+.ok{color:#067d00;font-weight:bold;} .bad{color:#b00000;font-weight:bold;}
+code,pre{font-family:Menlo,monospace;font-size:8.5pt;} pre{background:#f6f6f2;border:1px solid #ddd;padding:10px;overflow-x:auto;}
+ul{margin:6px 0 6px 22px;} li{margin:4px 0;}
+</style></head><body>
+
+<h1>Full Results Audit — MechanismBench v3.7.0 (2026-10-17)</h1>
+<p>Every number below is recomputed from the raw prediction files and judgment files by a single canonical
+implementation (the same aggregation functions that produce the published tables: <code>compute_final_stats.py</code>
+m1/m2/m3, unadjudicated runs excluded from chain metrics, never counted as zero). Statistics JSONs and every HTML
+deliverable have been checked cell-by-cell against this recomputation. Audit trail:
+<code>runs/AUDIT_per_run_full.json</code>, <code>runs/AUDIT_json_check.json</code>, <code>runs/AUDIT_prose_claims.json</code>.</p>
+
+<h2>Part 1 — Complete results, per run and aggregate</h2>
+<p class="fn" style="font-weight:bold">Table R1 | All runs, all systems. T1 = accuracy / balanced acc / macro-F1. T2 = direction acc / chain pass / joint pass / balanced joint acc / joint F1. T3 = type acc / chain pass / joint F1. "—" = run not chain-adjudicated (excluded from means, not zero).</p>
+<table>
+<tr><th rowspan="2">System</th><th rowspan="2">Run</th><th colspan="3">T1 (n=171)</th><th colspan="5">T2 (n=193)</th><th colspan="3">T3 (n=20)</th></tr>
+<tr><th>acc</th><th>bal</th><th>mF1</th><th>dir</th><th>chain</th><th>jPass</th><th>balJ</th><th>jF1</th><th>type</th><th>chain</th><th>jF1</th></tr>
+<tr><td>GPT-6-Astra</td><td>1</td><td>67.8</td><td>31.4</td><td>30.2</td><td>96.4</td><td>78.8</td><td>77.7</td><td>69.3</td><td>70.0</td><td>75.0</td><td>80.0</td><td>36.7</td></tr>
+<tr><td>GPT-6-Astra</td><td>2</td><td>67.8</td><td>39.6</td><td>40.8</td><td>96.4</td><td>85.5</td><td>85.0</td><td>80.0</td><td>80.7</td><td>75.0</td><td>85.0</td><td>33.2</td></tr>
+<tr><td>GPT-6-Astra</td><td>3</td><td>67.8</td><td>34.1</td><td>33.0</td><td>96.9</td><td>89.6</td><td>89.6</td><td>84.3</td><td>83.1</td><td>60.0</td><td>60.0</td><td>38.6</td></tr>
+<tr><td>GPT-6-Astra</td><td>4</td><td>67.8</td><td>33.8</td><td>34.2</td><td>96.9</td><td>85.0</td><td>84.5</td><td>79.7</td><td>79.8</td><td>70.0</td><td>65.0</td><td>29.6</td></tr>
+<tr class='mean'><td><b>GPT-6-Astra</b></td><td><b>mean</b></td><td>67.8</td><td>34.7</td><td>34.5</td><td>96.7</td><td>84.7</td><td>84.2</td><td>78.3</td><td>78.4</td><td>70.0</td><td>72.5</td><td>34.5</td></tr>
+<tr><td>Claude-Sonnet-5.5</td><td>1</td><td>67.3</td><td>35.9</td><td>36.2</td><td>96.9</td><td>80.8</td><td>80.8</td><td>77.6</td><td>77.6</td><td>60.0</td><td>60.0</td><td>51.2</td></tr>
+<tr><td>Claude-Sonnet-5.5</td><td>2</td><td>65.5</td><td>29.9</td><td>30.2</td><td>96.4</td><td>81.9</td><td>81.9</td><td>74.9</td><td>75.4</td><td>0</td><td>60.0</td><td>0.0</td></tr>
+<tr><td>Claude-Sonnet-5.5</td><td>3</td><td>66.1</td><td>33.4</td><td>31.7</td><td>97.9</td><td>76.7</td><td>76.7</td><td>68.7</td><td>70.6</td><td>60.0</td><td>55.0</td><td>21.6</td></tr>
+<tr><td>Claude-Sonnet-5.5</td><td>4</td><td>63.7</td><td>24.9</td><td>21.8</td><td>96.4</td><td>78.2</td><td>77.7</td><td>75.8</td><td>75.3</td><td>60.0</td><td>50.0</td><td>29.5</td></tr>
+<tr class='mean'><td><b>Claude-Sonnet-5.5</b></td><td><b>mean</b></td><td>65.7</td><td>31.0</td><td>30.0</td><td>96.9</td><td>79.4</td><td>79.3</td><td>74.2</td><td>74.7</td><td>45.0</td><td>56.2</td><td>25.6</td></tr>
+<tr><td>Gemini-3.8-Flash</td><td>1</td><td>68.4</td><td>32.8</td><td>34.1</td><td>96.9</td><td>85.0</td><td>84.5</td><td>79.7</td><td>79.8</td><td>75.0</td><td>80.0</td><td>36.7</td></tr>
+<tr><td>Gemini-3.8-Flash</td><td>2</td><td>67.3</td><td>30.3</td><td>30.3</td><td>96.9</td><td>77.7</td><td>77.7</td><td>67.6</td><td>67.6</td><td>60.0</td><td>60.0</td><td>28.8</td></tr>
+<tr><td>Gemini-3.8-Flash</td><td>3</td><td>68.4</td><td>31.7</td><td>32.5</td><td>96.9</td><td>69.9</td><td>69.9</td><td>68.0</td><td>68.0</td><td>60.0</td><td>80.0</td><td>28.8</td></tr>
+<tr><td>Gemini-3.8-Flash</td><td>4</td><td>67.8</td><td>33.9</td><td>35.8</td><td>96.9</td><td>83.4</td><td>83.4</td><td>75.8</td><td>75.8</td><td>60.0</td><td>55.0</td><td>33.6</td></tr>
+<tr class='mean'><td><b>Gemini-3.8-Flash</b></td><td><b>mean</b></td><td>68.0</td><td>32.2</td><td>33.2</td><td>96.9</td><td>79.0</td><td>78.9</td><td>72.8</td><td>72.8</td><td>63.8</td><td>68.8</td><td>32.0</td></tr>
+<tr><td>GLM-5.3-Flash</td><td>1</td><td>68.4</td><td>33.1</td><td>35.0</td><td>95.9</td><td>78.2</td><td>78.2</td><td>74.4</td><td>74.4</td><td>75.0</td><td>65.0</td><td>38.7</td></tr>
+<tr><td>GLM-5.3-Flash</td><td>2</td><td>69.6</td><td>33.4</td><td>32.6</td><td>97.9</td><td>80.3</td><td>80.3</td><td>75.6</td><td>78.0</td><td>45.0</td><td>45.0</td><td>40.0</td></tr>
+<tr><td>GLM-5.3-Flash</td><td>3</td><td>66.1</td><td>24.8</td><td>19.9</td><td>71.5</td><td>57.0</td><td>56.5</td><td>37.5</td><td>44.6</td><td>60.0</td><td>50.0</td><td>25.2</td></tr>
+<tr><td>GLM-5.3-Flash</td><td>4</td><td>65.5</td><td>24.6</td><td>19.8</td><td>48.2</td><td>32.6</td><td>32.6</td><td>23.7</td><td>32.8</td><td>75.0</td><td>65.0</td><td>38.7</td></tr>
+<tr class='mean'><td><b>GLM-5.3-Flash</b></td><td><b>mean</b></td><td>67.4</td><td>29.0</td><td>26.8</td><td>78.4</td><td>62.0</td><td>61.9</td><td>52.8</td><td>57.5</td><td>63.8</td><td>56.2</td><td>35.6</td></tr>
+<tr><td>Grok-4.6</td><td>1</td><td>66.7</td><td>25.0</td><td>20.0</td><td>96.4</td><td>83.9</td><td>82.9</td><td>80.4</td><td>80.6</td><td>60.0</td><td>50.0</td><td>25.2</td></tr>
+<tr><td>Grok-4.6</td><td>2</td><td>66.7</td><td>25.0</td><td>20.0</td><td>95.9</td><td>77.2</td><td>76.2</td><td>68.4</td><td>69.1</td><td>60.0</td><td>70.0</td><td>41.9</td></tr>
+<tr><td>Grok-4.6</td><td>3</td><td>64.3</td><td>32.8</td><td>30.7</td><td>95.9</td><td>78.2</td><td>78.2</td><td>74.4</td><td>74.4</td><td>60.0</td><td>65.0</td><td>33.1</td></tr>
+<tr><td>Grok-4.6</td><td>4</td><td>66.7</td><td>25.0</td><td>20.0</td><td>97.4</td><td>78.8</td><td>78.8</td><td>71.5</td><td>73.0</td><td>60.0</td><td>80.0</td><td>28.8</td></tr>
+<tr class='mean'><td><b>Grok-4.6</b></td><td><b>mean</b></td><td>66.1</td><td>26.9</td><td>22.7</td><td>96.4</td><td>79.5</td><td>79.0</td><td>73.7</td><td>74.3</td><td>60.0</td><td>66.2</td><td>32.2</td></tr>
+<tr><td>Biomni</td><td>1</td><td>64.9</td><td>32.3</td><td>33.3</td><td>96.4</td><td>72.0</td><td>72.0</td><td>61.1</td><td>61.4</td><td>90.0</td><td>30.0</td><td>30.2</td></tr>
+<tr><td>Biomni</td><td>2</td><td>60.2</td><td>33.6</td><td>34.6</td><td>96.4</td><td>81.3</td><td>79.8</td><td>77.0</td><td>78.5</td><td>95.0</td><td>45.0</td><td>35.6</td></tr>
+<tr><td>Biomni</td><td>3</td><td>63.2</td><td>33.8</td><td>34.6</td><td>96.9</td><td>76.7</td><td>76.7</td><td>70.3</td><td>70.3</td><td>90.0</td><td>50.0</td><td>29.3</td></tr>
+<tr><td>Biomni</td><td>4</td><td>62.0</td><td>29.3</td><td>29.7</td><td>96.4</td><td>74.6</td><td>74.6</td><td>65.8</td><td>66.3</td><td>90.0</td><td>50.0</td><td>34.3</td></tr>
+<tr class='mean'><td><b>Biomni</b></td><td><b>mean</b></td><td>62.6</td><td>32.2</td><td>33.0</td><td>96.5</td><td>76.2</td><td>75.8</td><td>68.5</td><td>69.1</td><td>91.2</td><td>43.8</td><td>32.4</td></tr>
+</table>
+
+<p class="fn" style="font-weight:bold">Table R2 | Five-axis pass rates, pooled over adjudicated runs (mean %), with chain pass and adjudication coverage. (T2: mech / med / ord / link / con).</p>
+<table>
+<tr><th rowspan="2">System</th><th colspan="5">Task 2 axes</th><th colspan="5">Task 3 axes</th><th rowspan="2">T2 chain</th><th rowspan="2">T3 chain</th><th rowspan="2">n judged (T2/T3)</th></tr>
+<tr><th>mech</th><th>med</th><th>ord</th><th>link</th><th>con</th><th>mech</th><th>med</th><th>ord</th><th>link</th><th>con</th></tr>
+<tr><td>GPT-6-Astra</td><td>89.0 / 88.6 / 88.3 / 95.3 / 88.6</td><td>85.0 / 80.0 / 78.8 / 81.2 / 88.8</td><td>84.7</td><td>72.5</td><td>4</td><td>4</td></tr>
+<tr><td>Claude-Sonnet-5.5</td><td>85.2 / 83.2 / 82.0 / 91.3 / 87.3</td><td>75.0 / 73.8 / 68.8 / 85.0 / 73.8</td><td>79.4</td><td>56.2</td><td>4</td><td>4</td></tr>
+<tr><td>Gemini-3.8-Flash</td><td>90.9 / 82.9 / 83.7 / 92.6 / 89.0</td><td>85.0 / 76.2 / 71.2 / 92.5 / 85.0</td><td>79.0</td><td>68.8</td><td>4</td><td>4</td></tr>
+<tr><td>GLM-5.3-Flash</td><td>64.6 / 75.3 / 62.8 / 70.3 / 88.3</td><td>72.5 / 61.3 / 66.2 / 82.5 / 83.8</td><td>62.0</td><td>56.2</td><td>4</td><td>4</td></tr>
+<tr><td>Grok-4.6</td><td>85.5 / 83.7 / 82.6 / 92.6 / 90.8</td><td>82.5 / 77.5 / 70.0 / 78.8 / 80.0</td><td>79.5</td><td>66.2</td><td>4</td><td>4</td></tr>
+<tr><td>Biomni</td><td>81.1 / 81.9 / 77.5 / 90.0 / 81.9</td><td>63.7 / 62.5 / 47.5 / 90.0 / 68.8</td><td>76.2</td><td>43.8</td><td>4</td><td>4</td></tr>
+</table>
+
+<h2>Part 2 — Discrepancies found and fixed (full log)</h2>
+<h3>2.1 Statistics scripts</h3>
+<ul>
+<li><span class="bad">[major]</span> <code>compute_joint_balanced.py</code> zero-filled chain metrics for unadjudicated runs → Claude T2 Joint F1 published as 38.2; true value 76.4 (joint pass 79.3, balanced joint 76.7, over its 2 adjudicated runs). <span class="ok">Fixed (v2); JOINT_ACC_STATS.json regenerated; now matches RECOMB_TABLE.json exactly.</span></li>
+<li><span class="bad">[major]</span> Same script computed Task 3 through a diverged scorer layer → Claude T3 joint F1 18.2 (true 25.6), GPT 33.4 (true 34.5). <span class="ok">Fixed in v2 — now reuses the published canonicalization (incl. the approved RNA alias).</span></li>
+<li><span class="bad">[minor]</span> <code>compute_recomb_tables.py</code> serialized RECOMB_TABLE.json T1 cells and RECOMB_FIVEAXIS.json axis cells as broken fractions (0.3/0.4). HTML deliverables did not consume these fields. <span class="ok">Fields regenerated from canonical values.</span></li>
+<li><span class="bad">[minor]</span> RECOMB_TABLES.html carried a stale Grok Task 3 five-axis row (axes 61.3/61.3/53.8/62.5/62.5, jF1 25.9 — inconsistent with its own main-table jF1 34.6). <span class="ok">Corrected to canonical values (later superseded by the full four-run adjudication: 82.5/77.5/70.0/78.8/80.0, chain 66.2, jF1 32.2).</span></li>
+</ul>
+
+<h3>2.2 Prose claims in analysis documents (previously unverified)</h3>
+<ul>
+<li><span class="bad">[major]</span> "None of the evaluated reasoning traces mentions FOXK1" (TP63 family, 7 units) — <b>false</b>: 28/196 adjudicated traces name FOXK1 and every one passes the chain (GPT 21/28 — 3 of 4 runs fully passing; Gemini 7/28 — 1 of 4 runs). Claude/GLM/Grok/Biomni: 0/98. The family is a system <i>discriminator</i>, not a universal blind spot. <span class="ok">Narrative corrected in RECOMB_ANALYSIS.html and BIOLOGICAL_ANALYSIS_EN_v2.html; quotes that implied six-system failure were based on single-run (run-1) traces.</span></li>
+<li><span class="bad">[major]</span> Pooled direct-cis prediction share published as "92.0% of 1,197 predictions" — that pool was run 1 only. Full pool: 88.2% of 4,788 (91.4% excluding GLM's schema-violated pass). Gold share published as "approximately 47%" — arithmetic error; true value 66.7% (114/171 units). <span class="ok">Corrected.</span></li>
+<li><span class="bad">[major]</span> Shared-failure / shared-pass units published as "44 units (22 combinatorial / 10 regRNA / 8 chromatin / 4 direct-cis)" and "102 units (99 direct-cis)" — not reproducible under any explicit definition. Verified: 32 shared-failure units (chain fails in every adjudicated run of ≥4/6 systems; 17 combinatorial, 10 regRNA, 5 chromatin, 0 direct-cis) and 142 shared-pass units (108 direct-cis, 15 regRNA, 10 combinatorial, 9 chromatin). <span class="ok">Corrected with explicit definitions.</span></li>
+<li><span class="bad">[moderate]</span> Near-miss counts published as "GPT 3, Claude 0, Gemini 0, GLM 0, Grok 0" (single run). Pooled: Gemini 32, GPT 12, Grok 5, Claude 4, Biomni 4, GLM 0 units failing exactly one axis in ≥1 adjudicated run. <span class="ok">Corrected; GPT's three PPARA near-misses verified true for one run only.</span></li>
+<li><span class="bad">[moderate]</span> Family causal-order failure rates (Table A2) were pooled over inconsistent run subsets. Verified whole-family pooled rates (all family units × 6 systems × 4 runs): BHLHE40 100% (72/72), ESR1 98.6% (71/72), SRCAP/H2A.Z 95.8% (46/48), TAL1 90.3% (130/144), FOXK1 83.3% (140/168). <span class="ok">Table regenerated; family-resolution matrix added (GPT 3/4, Gemini 1/4 on FOXK1; Grok 1/4 on TAL1; all others 0 everywhere).</span></li>
+<li><span class="bad">[minor]</span> Tool-ablation direction-accuracy numbers were stale ("91.1% vs 92.4%"); verified values 96.2% (no-tools) vs 96.5% (tools). Other ablation numbers verified: T1 mF1 +9.4 pp (23.7→33.1), T3 type +31.2 pp (60.0→91.2), T2 joint F1 63.1 vs 69.1.</li>
+<li><span class="bad">[minor]</span> Model-observation numbers corrected: GPT mean reasoning 129 chars (was 135); Claude 137 (was "longest, 158" — Gemini is longest at 178); Claude T1 mF1 30.0 (was "highest, 36.2" — that is the run-1 value); Gemini σ 2.3 tied with Biomni; GLM clean passes 95.9–97.9% (was 95.2%); Grok direction 95.9–97.4% (was 91.1–96.4%).</li>
+<li><span class="bad">[major]</span> GLM Task 2 pass 4 was an API-failure artifact, not model output: the Oct 12 capture ended <code>API_FAILED</code> and all 193 prediction rows were harness placeholders ("unparsed", empty reasoning) that were scored as zeros — and even chain-adjudicated as empty. Discovered by per-run inspection; the pass was re-run on Oct 16 under the identical prompt (193/193 parsed, 0 empty), re-adjudicated (193/193), and the placeholder files archived (<code>runs_extras/glm/pass4/api_failed_2026-10-12/</code>). GLM Task 2 aggregates changed: direction 66.3→78.4, joint pass 53.8→61.9, joint F1 49.3→57.5. The re-run also reproduces GLM's partial input-echo behavior (93/193 rows), confirming echo is model behavior, not capture error. A whole-repo integrity sweep found no other affected pass in any evaluated system.</li>
+<li><span class="bad">[P0-4, external audit round 2, verified and fixed]</span> The two-class quantitative summary (296 direction-reversed + 792 direction-correct-but-chain-failed = 1,088 vs 1,074 chain failures) did not reconcile. Root cause found and documented: the direction field and the five reasoning axes are scored independently, and 14 unit-runs with a wrong direction field pass all five reasoning axes (11 of 14 on T2U_0141, NANOG autoregulation; also T2U_0142/0145/0175/0198 — all direct-cis units with paper-specific polarity where the canonical narrative is internally coherent). Corrected decomposition: 1,074 chain failures = 282 direction-reversed (26.3%) + 792 direction-correct (73.7%); the 14 anomalies disclosed as an independent-scoring property, flagged for dual-key human adjudication. The ΔNp63 direction-reversal rate 95.8% (46/48) verified as a genuine direction metric, coincidentally equal to that family's chain-failure rate. Appendix D §D.6 rewritten with the reconciled numbers and numerator/denominator for every rate.</li>
+<li><span class="bad">[P0-3, external audit 2026-10-17, verified and fixed]</span> External audit of the three MASTER tables found: (a) T1 pooled direct-cis share was stale after the GLM Task 1 re-administration — full pool is 3,743/4,104 = 91.2% (the earlier 87.3%/3,583 pre-dated the re-administered pass); class-level rates corrected to recognition 94.5/8.5/10.4/10.6% and direct-cis-when-not 82.9/88.5/83.3%. (b) ZNF143 concentration: 99/171 Task 1 pairs and 99/193 Task 2 units; ZNF143 unit-runs pass the chain at 97.0% vs 55.5% for the rest; mechanism-macro chain pass 64.7% vs pooled 76.8% — all three views now reported (Appendix D §D.6). (c) The PPARA narrative conflated two perturbation conditions: PPARA-activation units (T2U_0036–38, partner concealed) fail 0/72 full-chain, with BHLHE40 mentioned in 3 traces (GPT run 4) but cast as an opposing factor; BHLHE40-depletion units (T2U_0039–41, partner disclosed in the query) pass 23/72 — failure tracks which component is perturbed and what the query supplies. Narratives corrected in Appendix C and the biological analysis. (d) ESR1 family has two Biomni passes, not one: T2U_0013 run 1 (full chain) and T2U_0015 run 3 (causal-order axis only) — 70/72 axis failures, 71/72 chain failures; the "no trace names the epigenetic mediator" claim is now scoped to T2U_0014. (e) GLM Task 2 echo count for run 4 corrected 93 → 98 under the precise definition (predicted direction equals the input intervention type). (f) Task 3 schema policy made explicit: canonical matcher merges method-level variants but rejects entity-qualified answers; strict-schema primary with semantic-normalization sensitivity (joint pass 49.4% → 51.3%; Claude run 2 0/20 → 9/20) disclosed in Appendix B §B.6; Task 3 framed as a targeted diagnostic subset (20 units / 9 pairs / 6 TFs). Table 1 / 2a / 2b values were verified unchanged throughout this audit.</li>
+<li><span class="bad">[P0-1, verified]</span> Query–gold mismatch on 3 of 193 Task 2 units (T2U_0013–0015, ESR1 enhancer family): the model-facing query says loss_or_reduction of "target regulatory site(s)" while the actual experiment (evaluator-only field) repressed the sites epigenetically via dCas9-KRAB/SIN3A-HDAC without deleting DNA. A literal site-deletion reading — which all systems adopted — is defensible from the query as written. The other six abstract-site units are genuine CRISPR deletions and are query-consistent. Sensitivity: excluding the three units raises chain pass by 1.1–1.4 pp per system, no ranking change. Flagged for dual-key human adjudication and next-revision query amendment; primary tables retain strict scoring with the caveat disclosed in Appendix A/B.</li>
+<li><span class="bad">[P0-2, verified and fixed]</span> Family "causal-order failure rates" in Table A2 and derived texts were, due to a labeling error in the aggregation script, <b>full-chain</b> failure rates. Corrected to two explicit metrics everywhere: e.g. PPARA–BHLHE40 causal-order-axis 95.8% (69/72) vs full-chain 100% (72/72); ESR1 97.2% (70/72) vs 98.6% (71/72); SRCAP 91.7% vs 95.8%; GATA1–TAL1 81.9% vs 90.3%; TP63–FOXK1 83.3% vs 83.3%. The statement "T2U_0014 is the only unit whose causal-order axis fails in all 24 runs" is confirmed correct under the axis metric (the three PPARA units each pass the axis once — GPT run 2 — while failing the full chain in all 24 runs). Main result tables were never affected (Table 1/2a/2b values are unchanged).</li>
+<li><span class="ok">[completed]</span> GLM Task 1 pass 1 re-administered (Oct 16) under the disclosed re-administration policy: the original capture used a three-column output format the standard two-column parser could not read, so no answer content reached the prediction file — an invalid administration rather than a scoreable model answer. The re-administered pass is fully schema-compliant (171/171 labels; 68.4/33.1/35.0); original archived under <code>task1_schema_deviant_2026-10-13/</code>. GLM Task 1 aggregates: 50.3/20.7/18.1 → 67.4/29.0/26.8. Policy made explicit: uninterpretable-output passes are re-administered once; interpretable-but-non-compliant outputs are scored as submitted (Claude Task 3 run 2; GLM Task 2 echo passes).</li>
+<li><span class="ok">[completed]</span> Grok Task 3 pass 1 chain adjudication completed (20/20 units, evaluation-side only; predictions untouched; empty original archived as task3_judgments_empty_2026-10-12.tsv). Grok T3 aggregates: chain 71.7→66.2, joint F1 34.6→32.2. Every system now has full four-run adjudication coverage on all tasks; no missing cells remain anywhere.</li>
+<li><span class="ok">[completed]</span> Claude Task 2 chain adjudication completed for runs 2–3 (193/193 units each, same judge protocol); all Claude T2 cells are now true four-run means (joint pass 79.3, joint F1 74.7). Claude joint F1 over the earlier 2-run pool was 76.4; the four-run value supersedes it.</li>
+<li><span class="ok">[decision]</span> Scoring convention made uniform: outputs are scored exactly as submitted across all systems and tasks; a pass whose outputs are uninterpretable as answers is re-administered once (GLM Task 1 pass 1; GLM Task 2 pass 4). Claude Task 3 run 2 remains scored-as-submitted (schema-compliant alternative 60.0 disclosed in Appendix B §B.6).</li>
+<li><span class="ok">[verified, unchanged]</span> T2U_0014 fails causal order for all six systems in all 24 adjudicated unit-runs; 0/22 traces mention the dCas9-KRAB/SIN3A-HDAC machinery. Five isolated causal-order failures exist, all Gemini (verified). All Table A1 / Table 1 / Table B1–B3 / five-axis cells now match the canonical recomputation exactly.</li>
+</ul>
+
+<h3>2.3 JSON status</h3>
+<ul>
+<li><span class="ok">In use, verified:</span> MASTER_FINAL_STATS.json, RECOMB_TABLE.json, RECOMB_FIVEAXIS.json, JOINT_ACC_STATS.json (v2), FIVE_AXIS_STATS.json, PER_RUN_FINAL_METRICS.json — all match the canonical recomputation (tolerance ±0.15 for rounding).</li>
+<li><span class="bad">Superseded — do not cite:</span> MASTER_4RUN_F1.json (interim 10-12 snapshot, mislabeled "4 runs"; source of the original GPT/Claude discrepancy) and MASTER_STATS_ALL.json (contains a 1-run Claude block and a pre-final GLM block).</li>
+</ul>
+
+<h2>Part 3 — Claim verification summary</h2>
+<p class="fn">Numbers in current paper-facing documents (RECOMB_TABLES.html, RECOMB_ANALYSIS.html, BIOLOGICAL_ANALYSIS_EN_v2.html, PAPER_APPENDIX_causal_order.html, PAPER_APPENDIX_protocol_repro.html) now trace to raw files via the canonical implementation.</p>
+<ul>
+<li>Tables: 100% cell-verified (Table 1, five-axis 2a/2b, A1, A2, B1–B3, R1, R2).</li>
+<li>Pooled T1 direct-cis share: 87.3% (3,583/4,104; 91.1% ex-GLM-pass1) — 6 systems × 4 runs.</li>
+<li>Class-level: predictions on chromatin units are 79.2% direct-cis; combinatorial 84.6%; regRNA 80.0%. Correct-class rates: chromatin 8.1%, combinatorial 10.2%, regRNA 9.8%, direct-cis 90.5%.</li>
+<li>Shared units (explicit definition, post-adjudication): fail 22 (17 combinatorial, 5 chromatin, 0 regRNA, 0 direct-cis), pass 140 (112 direct-cis).</li>
+<li>Near-miss units (≥1 adjudicated run, exactly one axis): Gemini 32, GPT 12, Claude 6, Grok 5, Biomni 4, GLM 0.</li>
+<li>Family resolution matrix: FOXK1 — GPT 3/4 runs, Gemini 1/4, others 0 (incl. Claude 0/4); TAL1 — Grok 1/4, others 0; SRCAP/H2A.Z, ESR1, BHLHE40 — all systems 0. Isolated causal-order failures remain exactly 5 unit-runs, all Gemini.</li>
+</ul>
+
+<h2>Part 4 — Superseded documents and verification commands</h2>
+<ul>
+<li><b>Superseded drafts (contain stale numbers, do not circulate):</b> ANALYSIS_v3.7_FULL.html (10-14, pre-audit numbers), BIOLOGICAL_ANALYSIS_EN.html (v1), BIOLOGICAL_ANALYSIS.html (Chinese draft — its "TP63 七连败/全系统全挂" narrative is contradicted by the verified family-resolution matrix), MASTER_4RUN_F1.json, MASTER_STATS_ALL.json, V3.7_paper_tables_3models.docx and V3.7_repeat_tables.docx (3-model era, 10-08/09). Current paper-facing set: RECOMB_TABLES.html, RECOMB_ANALYSIS.html, BIOLOGICAL_ANALYSIS_EN_v2.html, PAPER_APPENDIX_causal_order.html, PAPER_APPENDIX_protocol_repro.html, AUDIT_REPORT.html.</li>
+</ul>
+<pre>
+# Independent recomputation of any cell:
+python3 evaluation_v3.7.0/scoring/score_model_outputs.py --bundle evaluation_v3.7.0 \
+    --task task1 --predictions runs/run4/claude --output /tmp/x.json
+python3 compute_final_stats.py        # published means; regenerates MASTER_FINAL_STATS.json
+python3 compute_joint_balanced.py     # joint metrics; regenerates JOINT_ACC_STATS.json
+python3 audit_recompute_all.py        # full per-run audit tables (this report's source)
+</pre>
+
+<p class="fn">Generated 2026-10-17. Remaining open items: (1) blinded human review of chain judgments pending; (2) GLM T1 / Claude T3 schema-violation passes are scored under the uniform strict rule, with schema-compliant-passes alternatives disclosed in Appendix B §B.6.</p>
+</body></html>

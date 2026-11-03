@@ -1,0 +1,3 @@
+I don't have that earlier answer — this conversation starts fresh for me, so there's no table, header, or unit list to work from. There's nothing for me to diff against.
+
+Paste the previous answer (or just its header plus the rows you already have) and tell me which units are missing, and I'll return only those rows in the same tab-separated format.

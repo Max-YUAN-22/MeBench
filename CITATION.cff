@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: "MeBench: Benchmarking Biological Mechanism Reasoning in Language Models through TF-Gene Regulation"
+message: "If you use MeBench, please cite the companion paper (citation to be added upon publication) and this repository."
+type: dataset
+authors:
+  - family-names: Wang
+    given-names: Haochuan
+  - family-names: Yuan
+    given-names: Tianzuo
+  - family-names: Li
+    given-names: Yurui
+  - family-names: Wu
+    given-names: Dehao
+  - family-names: Yuan
+    given-names: Xiaopeng
+  - family-names: Kuang
+    given-names: Peng
+  - family-names: Bao
+    given-names: Jingxuan
+  - family-names: Mu
+    given-names: Shizhuo
+  - family-names: Li
+    given-names: Yang
+  - family-names: Wang
+    given-names: Haohan
+version: v3.7.0
+date-released: "2026-11-04"
+license: CC-BY-4.0
+repository-code: "https://github.com/Max-YUAN-22/MeBench"
+keywords:
+  - benchmark
+  - language-models
+  - gene-regulation
+  - transcription-factors
+  - perturbation
+  - mechanistic-reasoning

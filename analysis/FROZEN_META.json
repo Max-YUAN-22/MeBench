@@ -1,0 +1,10 @@
+{
+ "version": 16,
+ "frozen_at": "2026-10-17 11:40:29",
+ "n_files": 597,
+ "rule": "FROZEN v16 \u2014 final. No further model runs, re-administrations, re-judging, or value changes.",
+ "changelog_since_v15": [
+  "Two-class quantitative summary reconciled (external audit round 2): 1,074 chain failures = 282 direction-reversed (26.3%) + 792 direction-correct (73.7%). The 14-unit-run gap identified: direction field wrong but all five reasoning axes pass, concentrated on T2U_0141 (NANOG autoregulation, 9/14) and four other direct-cis units with paper-specific polarity \u2014 direction field and reasoning axes are scored independently; disclosed in Appendix D D.6, flagged for dual-key adjudication. \u0394Np63 direction-reversal rate verified 95.8% (46/48) with numerator/denominator. No table values changed."
+ ],
+ "verify_cmd": "shasum -a 256 -c runs/FROZEN_MANIFEST.sha256"
+}

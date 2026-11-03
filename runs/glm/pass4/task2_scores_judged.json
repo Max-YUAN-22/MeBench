@@ -1,0 +1,44 @@
+{
+  "task": "task2",
+  "n_units": 193,
+  "direction_metrics": {
+    "accuracy": 0.48186528497409326,
+    "balanced_accuracy": 0.3758636573007831,
+    "macro_f1": 0.52734375,
+    "invalid_outputs": [
+      "gain_or_activation",
+      "loss_or_reduction",
+      "regulatory_site_perturbation"
+    ],
+    "per_class": {
+      "down": {
+        "support": 167,
+        "precision": 0.9775280898876404,
+        "recall": 0.5209580838323353,
+        "f1": 0.6796875
+      },
+      "up": {
+        "support": 26,
+        "precision": 1.0,
+        "recall": 0.23076923076923078,
+        "f1": 0.375
+      }
+    }
+  },
+  "reasoning_present_rate": 1.0,
+  "exact_mechanism_label_mention_rate_diagnostic_only": 0.0,
+  "label_mention_is_not_chain_credit": true,
+  "reasoning_chain_status": "scored_by_supplied_blinded_adjudication",
+  "full_reasoning_chain_accuracy": 0.32642487046632124,
+  "mean_reasoning_chain_component_score": 0.49740932642487046,
+  "per_axis_accuracy": {
+    "mechanism_correct": 0.33678756476683935,
+    "mediator_correct": 0.5544041450777202,
+    "causal_role_order_correct": 0.32642487046632124,
+    "intervention_outcome_link_correct": 0.37823834196891193,
+    "no_material_contradiction": 0.8911917098445595
+  },
+  "full_chain_correct_units": 63,
+  "full_chain_incorrect_units": 130,
+  "direction_and_full_reasoning_chain_joint_accuracy": 0.32642487046632124
+}

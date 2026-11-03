@@ -1,0 +1,194 @@
+unit_id	predicted_direction	mechanism_reasoning
+T2U_0001	up	CDX2-bound intestinal target loci carry PRC2/EED-deposited H3K27me3 repressive chromatin; losing EED erases this repressive mark so the cis-linked Scin locus is de-repressed and Scin goes up.
+T2U_0002	up	PRC2/EED maintains the repressive H3K27me3 chromatin state over the CDX2-bound Slc26a6 locus; EED loss removes that repressive state and Slc26a6 is de-repressed, so expression rises.
+T2U_0003	down	TP63 directly occupies the cis-regulatory element of ANKRD27 and activates it; removing TP63 abolishes this direct cis-regulatory activation so ANKRD27 expression falls.
+T2U_0004	down	TP63 binds the HNRNPA1 regulatory element and supplies direct activation; TP63 loss removes this direct input so HNRNPA1 goes down.
+T2U_0005	down	HNRNPL is directly driven by TP63 through its target-linked cis-element; losing TP63 removes that activation so HNRNPL falls.
+T2U_0006	down	TP63 activates L3HYPDH directly via its bound cis-regulatory DNA; loss of TP63 eliminates this direct activation so L3HYPDH goes down.
+T2U_0007	down	The NABP2 locus is directly activated by TP63 at its cis-element; removing TP63 removes the direct activator so NABP2 expression falls.
+T2U_0008	down	TP63 directly occupies and activates the RPS16 regulatory element; TP63 loss abolishes this direct cis activation so RPS16 falls.
+T2U_0009	down	TIMM50 is directly activated through TP63 binding at its cis-regulatory DNA; losing TP63 removes this direct activation so TIMM50 goes down.
+T2U_0010	down	TET2-dependent DNA demethylation keeps the ESR1-bound ELOVL2 element competent for activation; TET2 loss leaves the locus hypermethylated and blocks ESR1-driven transcription so ELOVL2 falls.
+T2U_0011	down	The ESR1-bound PTGES regulatory element requires TET2-mediated demethylation to stay active; without TET2 the locus becomes hypermethylated and PTGES expression falls.
+T2U_0012	down	TET2 keeps the ESR1-bound WIPF1 element unmethylated and activatable; TET2 loss permits hypermethylation that blocks ESR1 activation so WIPF1 goes down.
+T2U_0013	down	The perturbed ESR1-binding regulatory site is the cis-regulatory DNA element through which ESR1 activates CISH; losing that element uncouples CISH from ESR1 so expression falls.
+T2U_0014	down	G0S2 is driven by ESR1 through the perturbed target-linked cis-regulatory site; destroying that site removes ESR1-driven activation so G0S2 falls.
+T2U_0015	down	The perturbed ESR1 site is the cis-DNA element mediating direct activation of MMP17; without it MMP17 loses ESR1-dependent transcription and goes down.
+T2U_0016	down	GATA1 D218G damages the N-finger surface that recruits the partner FOG1/ZFPM1, so the combinatorial GATA1-FOG1 complex cannot activate Lrrc39 and expression falls.
+T2U_0017	down	The D218G variant abolishes GATA1's partner-dependent (FOG1/ZFPM1) activation complex at the Rragd locus, so Rragd expression falls.
+T2U_0018	down	GATA1 D218G prevents assembly of the required partner complex with FOG1/ZFPM1 on Slc4a1 regulatory DNA, so Slc4a1 transcription falls.
+T2U_0019	down	GATA1 R216Q weakens direct binding of the factor to its cognate GATA cis-element, so the variant fails to directly activate Lrrc39 and expression falls.
+T2U_0020	down	R216Q impairs direct GATA1 occupancy of the Rragd cis-regulatory element, removing direct activation so Rragd goes down.
+T2U_0021	down	The R216Q variant reduces direct GATA1 binding to the Slc4a1 element, so direct activation is lost and Slc4a1 falls.
+T2U_0022	down	H2A.Z-containing nucleosomes set the chromatin state required at TP63-bound promoters; H2A.Z loss disrupts this permissive chromatin so TP63 cannot activate SAMD9L and expression falls.
+T2U_0023	down	Loss of H2A.Z removes the chromatin context needed for TP63-driven transcription at the ZHX2 locus, so ZHX2 expression falls.
+T2U_0024	down	HIF1A-induced miR-210 is the intermediate regulatory RNA that base-pairs with ISCU mRNA and represses it; extra miR-210 lowers ISCU output.
+T2U_0025	up	TWIST1-driven miR-10b is the intermediate regulatory RNA repressing HOXD10; removing miR-10b relieves that repression so HOXD10 rises.
+T2U_0026	down	The CA12 enhancer is the target-linked cis-regulatory DNA element through which ESR1 drives CA12; losing the element uncouples CA12 from ESR1 activation so expression falls.
+T2U_0027	down	ESR1 activates FOXC1 through the perturbed FOXC1 enhancer; destroying this cis-element removes ESR1-driven transcription so FOXC1 falls.
+T2U_0028	down	The GREB1 enhancer is the cis-DNA element mediating ESR1 activation of GREB1; its loss uncouples the gene from ESR1 so GREB1 goes down.
+T2U_0029	down	KCNK5 is driven by ESR1 through its own enhancer element; losing that cis-regulatory DNA removes ESR1 activation so KCNK5 falls.
+T2U_0030	down	The NRIP1 enhancer is the target-linked cis-element for ESR1 activation; its loss removes ESR1-driven transcription so NRIP1 falls.
+T2U_0031	down	ESR1 activates P2RY2 through the P2RY2 enhancer cis-element; destroying that element uncouples P2RY2 from ESR1 so expression falls.
+T2U_0032	down	The PGR enhancer is the cis-regulatory DNA through which ESR1 induces PGR; losing it removes ESR1-dependent activation so PGR falls.
+T2U_0033	down	SIAH2 is activated by ESR1 via its own enhancer; loss of this cis-element removes ESR1-driven transcription so SIAH2 falls.
+T2U_0034	down	The SMAD7 enhancer carries the cis-regulatory input from ESR1; its loss uncouples SMAD7 from ESR1 activation so SMAD7 falls.
+T2U_0035	down	The TFF1 enhancer is the cis-element mediating direct ESR1 activation; destroying it removes ESR1-driven transcription so TFF1 falls.
+T2U_0036	up	Activated PPARA binds the PPRE cis-regulatory element of Angptl4 and directly induces it, so Angptl4 expression rises.
+T2U_0037	up	PPARA activation directly drives Hmgcs2 through its PPRE cis-element, so Hmgcs2 transcription rises.
+T2U_0038	up	Ligand-activated PPARA occupies the Pdk4 PPRE and directly activates it, so Pdk4 expression rises.
+T2U_0039	down	PPARA-driven activation of Angptl4 requires the partner bHLH factor BHLHE40 co-bound at the same regulatory loci; losing the partner impairs PPARA-dependent transcription so Angptl4 falls.
+T2U_0040	down	The PPARA effect on Hmgcs2 depends on the required partner factor BHLHE40 at the locus; removing BHLHE40 breaks the combinatorial activation so Hmgcs2 falls.
+T2U_0041	down	PPARA's activation of Pdk4 requires co-bound partner BHLHE40; losing this partner impairs the combinatorial activation so Pdk4 goes down.
+T2U_0042	down	ZNF143 directly binds the SBS cis-element in the ABCF2 promoter and activates transcription; losing ZNF143 removes this direct cis-regulatory activation so ABCF2 goes down.
+T2U_0043	down	ADAT3 is directly driven by ZNF143 through its promoter SBS element; ZNF143 loss abolishes this direct activation so ADAT3 falls.
+T2U_0044	down	ZNF143 occupies the AKR1A1 promoter cis-element and supplies direct activation; removing ZNF143 removes this direct input so AKR1A1 goes down.
+T2U_0045	down	The ANKRD13B promoter is directly activated by ZNF143 at its SBS element; ZNF143 loss eliminates this direct activation so ANKRD13B falls.
+T2U_0046	down	ZNF143 directly binds the AP1S3 promoter element and activates it; losing ZNF143 removes this direct cis-regulatory activation so AP1S3 goes down.
+T2U_0047	down	ARID5A is directly activated by ZNF143 binding its promoter SBS; loss of ZNF143 removes this direct activation so ARID5A falls.
+T2U_0048	down	ZNF143 directly drives ASB13 from its promoter cis-element; removing ZNF143 removes the direct activator so ASB13 expression falls.
+T2U_0049	down	The BIRC5 promoter is directly activated through ZNF143 binding; ZNF143 loss abolishes this direct cis-regulatory activation so BIRC5 goes down.
+T2U_0050	down	ZNF143 occupies the CASC3 promoter SBS element and directly activates it; losing ZNF143 removes this direct input so CASC3 falls.
+T2U_0051	down	CCDC157 is directly driven by ZNF143 at its promoter element; ZNF143 loss eliminates direct activation so CCDC157 goes down.
+T2U_0052	down	ZNF143 directly binds and activates the CCDC92 promoter cis-element; removing ZNF143 removes this direct activation so CCDC92 falls.
+T2U_0053	down	The CCPG1 promoter is directly activated by ZNF143; loss of the factor abolishes this direct cis-regulatory input so CCPG1 goes down.
+T2U_0054	down	ZNF143 directly occupies the CKAP2L promoter SBS and activates transcription; ZNF143 loss eliminates this direct activation so CKAP2L falls.
+T2U_0055	down	CNIH1 is directly activated via ZNF143 binding at its promoter element; losing ZNF143 removes this direct activation so CNIH1 goes down.
+T2U_0056	down	ZNF143 directly drives CPOX from its promoter cis-element; removal of ZNF143 removes the direct activator so CPOX falls.
+T2U_0057	down	The CPSF4 promoter is directly activated by ZNF143 at its SBS; ZNF143 loss abolishes this direct activation so CPSF4 goes down.
+T2U_0058	down	ZNF143 binds the CRCP promoter cis-element and directly activates it; losing ZNF143 removes this direct input so CRCP falls.
+T2U_0059	down	CREBL2 is directly driven by ZNF143 through its promoter element; ZNF143 loss eliminates direct activation so CREBL2 goes down.
+T2U_0060	down	ZNF143 directly activates the CWC15 promoter via its SBS cis-element; removing ZNF143 removes this direct activation so CWC15 falls.
+T2U_0061	down	The CYB5R1 promoter is directly activated by ZNF143; loss of the factor abolishes this direct cis-regulatory input so CYB5R1 goes down.
+T2U_0062	down	ZNF143 directly occupies and activates the EGR1 promoter element; ZNF143 loss eliminates this direct activation so EGR1 falls.
+T2U_0063	down	EMC1 is directly activated via ZNF143 binding its promoter cis-element; losing ZNF143 removes this direct activation so EMC1 goes down.
+T2U_0064	down	ZNF143 directly drives ENKD1 from its promoter SBS; removal of ZNF143 removes the direct activator so ENKD1 falls.
+T2U_0065	down	The ERAL1 promoter is directly activated by ZNF143 at its cis-element; ZNF143 loss abolishes this direct activation so ERAL1 goes down.
+T2U_0066	down	ZNF143 binds and directly activates the ERP44 promoter; losing ZNF143 removes this direct cis-regulatory input so ERP44 falls.
+T2U_0067	down	FASTK is directly driven by ZNF143 through its promoter element; ZNF143 loss eliminates direct activation so FASTK goes down.
+T2U_0068	down	ZNF143 directly activates the FH promoter via its SBS cis-element; removing ZNF143 removes this direct activation so FH falls.
+T2U_0069	down	The GAMT promoter is directly activated by ZNF143; loss of the factor abolishes this direct cis-regulatory input so GAMT goes down.
+T2U_0070	down	ZNF143 directly occupies and activates the GOLGA2 promoter element; ZNF143 loss eliminates this direct activation so GOLGA2 falls.
+T2U_0071	down	GTPBP8 is directly activated via ZNF143 binding its promoter cis-element; losing ZNF143 removes this direct activation so GTPBP8 goes down.
+T2U_0072	down	ZNF143 directly drives HMGCL from its promoter SBS; removal of ZNF143 removes the direct activator so HMGCL falls.
+T2U_0073	down	The HSPA14 promoter is directly activated by ZNF143 at its cis-element; ZNF143 loss abolishes this direct activation so HSPA14 goes down.
+T2U_0074	down	ZNF143 binds and directly activates the IK promoter; losing ZNF143 removes this direct cis-regulatory input so IK falls.
+T2U_0075	down	JMJD8 is directly driven by ZNF143 through its promoter element; ZNF143 loss eliminates direct activation so JMJD8 goes down.
+T2U_0076	down	ZNF143 directly activates the JUN promoter via its SBS cis-element; removing ZNF143 removes this direct activation so JUN falls.
+T2U_0077	down	The JUND promoter is directly activated by ZNF143; loss of the factor abolishes this direct cis-regulatory input so JUND goes down.
+T2U_0078	down	ZNF143 directly occupies and activates the KDELR2 promoter element; ZNF143 loss eliminates this direct activation so KDELR2 falls.
+T2U_0079	down	KLC2 is directly activated via ZNF143 binding its promoter cis-element; losing ZNF143 removes this direct activation so KLC2 goes down.
+T2U_0080	down	ZNF143 directly drives KPNA5 from its promoter SBS; removal of ZNF143 removes the direct activator so KPNA5 falls.
+T2U_0081	down	The LATS1 promoter is directly activated by ZNF143 at its cis-element; ZNF143 loss abolishes this direct activation so LATS1 goes down.
+T2U_0082	down	ZNF143 binds and directly activates the MED16 promoter; losing ZNF143 removes this direct cis-regulatory input so MED16 falls.
+T2U_0083	down	MFSD3 is directly driven by ZNF143 through its promoter element; ZNF143 loss eliminates direct activation so MFSD3 goes down.
+T2U_0084	down	ZNF143 directly activates the MRPL46 promoter via its SBS cis-element; removing ZNF143 removes this direct activation so MRPL46 falls.
+T2U_0085	down	The MRPL54 promoter is directly activated by ZNF143; loss of the factor abolishes this direct cis-regulatory input so MRPL54 goes down.
+T2U_0086	down	ZNF143 directly occupies and activates the MRPS11 promoter element; ZNF143 loss eliminates this direct activation so MRPS11 falls.
+T2U_0087	down	MTMR1 is directly activated via ZNF143 binding its promoter cis-element; losing ZNF143 removes this direct activation so MTMR1 goes down.
+T2U_0088	down	ZNF143 directly drives NUTF2 from its promoter SBS; removal of ZNF143 removes the direct activator so NUTF2 falls.
+T2U_0089	down	The PAPOLG promoter is directly activated by ZNF143 at its cis-element; ZNF143 loss abolishes this direct activation so PAPOLG goes down.
+T2U_0090	down	ZNF143 binds and directly activates the PLAGL2 promoter; losing ZNF143 removes this direct cis-regulatory input so PLAGL2 falls.
+T2U_0091	down	PNKD is directly driven by ZNF143 through its promoter element; ZNF143 loss eliminates direct activation so PNKD goes down.
+T2U_0092	down	ZNF143 directly activates the POMT2 promoter via its SBS cis-element; removing ZNF143 removes this direct activation so POMT2 falls.
+T2U_0093	down	The PRIM1 promoter is directly activated by ZNF143; loss of the factor abolishes this direct cis-regulatory input so PRIM1 goes down.
+T2U_0094	down	ZNF143 directly occupies and activates the PRKAA2 promoter element; ZNF143 loss eliminates this direct activation so PRKAA2 falls.
+T2U_0095	down	PROSER3 is directly activated via ZNF143 binding its promoter cis-element; losing ZNF143 removes this direct activation so PROSER3 goes down.
+T2U_0096	down	ZNF143 directly drives PSMC6 from its promoter SBS; removal of ZNF143 removes the direct activator so PSMC6 falls.
+T2U_0097	down	The PTPMT1 promoter is directly activated by ZNF143 at its cis-element; ZNF143 loss abolishes this direct activation so PTPMT1 goes down.
+T2U_0098	down	ZNF143 binds and directly activates the PTRHD1 promoter; losing ZNF143 removes this direct cis-regulatory input so PTRHD1 falls.
+T2U_0099	down	RDH11 is directly driven by ZNF143 through its promoter element; ZNF143 loss eliminates direct activation so RDH11 goes down.
+T2U_0100	down	ZNF143 directly activates the RIC8A promoter via its SBS cis-element; removing ZNF143 removes this direct activation so RIC8A falls.
+T2U_0101	down	The RNF40 promoter is directly activated by ZNF143; loss of the factor abolishes this direct cis-regulatory input so RNF40 goes down.
+T2U_0102	down	ZNF143 directly occupies and activates the RPAIN promoter element; ZNF143 loss eliminates this direct activation so RPAIN falls.
+T2U_0103	down	RPL6 is directly activated via ZNF143 binding its promoter cis-element; losing ZNF143 removes this direct activation so RPL6 goes down.
+T2U_0104	down	ZNF143 directly drives RSBN1 from its promoter SBS; removal of ZNF143 removes the direct activator so RSBN1 falls.
+T2U_0105	down	The SAMD13 promoter is directly activated by ZNF143 at its cis-element; ZNF143 loss abolishes this direct activation so SAMD13 goes down.
+T2U_0106	down	ZNF143 binds and directly activates the SAV1 promoter; losing ZNF143 removes this direct cis-regulatory input so SAV1 falls.
+T2U_0107	down	SEPTIN8 is directly driven by ZNF143 through its promoter element; ZNF143 loss eliminates direct activation so SEPTIN8 goes down.
+T2U_0108	down	ZNF143 directly activates the SFT2D2 promoter via its SBS cis-element; removing ZNF143 removes this direct activation so SFT2D2 falls.
+T2U_0109	down	The SGF29 promoter is directly activated by ZNF143; loss of the factor abolishes this direct cis-regulatory input so SGF29 goes down.
+T2U_0110	down	ZNF143 directly occupies and activates the SLC7A6OS promoter element; ZNF143 loss eliminates this direct activation so SLC7A6OS falls.
+T2U_0111	down	SLC9A6 is directly activated via ZNF143 binding its promoter cis-element; losing ZNF143 removes this direct activation so SLC9A6 goes down.
+T2U_0112	down	ZNF143 directly drives SNRNP48 from its promoter SBS; removal of ZNF143 removes the direct activator so SNRNP48 falls.
+T2U_0113	down	The SNRNP70 promoter is directly activated by ZNF143 at its cis-element; ZNF143 loss abolishes this direct activation so SNRNP70 goes down.
+T2U_0114	down	ZNF143 binds and directly activates the SNRPD3 promoter; losing ZNF143 removes this direct cis-regulatory input so SNRPD3 falls.
+T2U_0115	down	SSB is directly driven by ZNF143 through its promoter element; ZNF143 loss eliminates direct activation so SSB goes down.
+T2U_0116	down	ZNF143 directly activates the STARD10 promoter via its SBS cis-element; removing ZNF143 removes this direct activation so STARD10 falls.
+T2U_0117	down	The TFAM promoter is directly activated by ZNF143; loss of the factor abolishes this direct cis-regulatory input so TFAM goes down.
+T2U_0118	down	ZNF143 directly occupies and activates the THOC7 promoter element; ZNF143 loss eliminates this direct activation so THOC7 falls.
+T2U_0119	down	THOP1 is directly activated via ZNF143 binding its promoter cis-element; losing ZNF143 removes this direct activation so THOP1 goes down.
+T2U_0120	down	ZNF143 directly drives TIMM17A from its promoter SBS; removal of ZNF143 removes the direct activator so TIMM17A falls.
+T2U_0121	down	The TMEM258 promoter is directly activated by ZNF143 at its cis-element; ZNF143 loss abolishes this direct activation so TMEM258 goes down.
+T2U_0122	down	ZNF143 binds and directly activates the TMOD2 promoter; losing ZNF143 removes this direct cis-regulatory input so TMOD2 falls.
+T2U_0123	down	TOMM70 is directly driven by ZNF143 through its promoter element; ZNF143 loss eliminates direct activation so TOMM70 goes down.
+T2U_0124	down	ZNF143 directly activates the TPRA1 promoter via its SBS cis-element; removing ZNF143 removes this direct activation so TPRA1 falls.
+T2U_0125	down	The UBALD1 promoter is directly activated by ZNF143; loss of the factor abolishes this direct cis-regulatory input so UBALD1 goes down.
+T2U_0126	down	ZNF143 directly occupies and activates the UBFD1 promoter element; ZNF143 loss eliminates this direct activation so UBFD1 falls.
+T2U_0127	down	UQCR10 is directly activated via ZNF143 binding its promoter cis-element; losing ZNF143 removes this direct activation so UQCR10 goes down.
+T2U_0128	down	ZNF143 directly drives VASP from its promoter SBS; removal of ZNF143 removes the direct activator so VASP falls.
+T2U_0129	down	The ZBTB10 promoter is directly activated by ZNF143 at its cis-element; ZNF143 loss abolishes this direct activation so ZBTB10 goes down.
+T2U_0130	down	ZNF143 binds and directly activates the ZFTA promoter; losing ZNF143 removes this direct cis-regulatory input so ZFTA falls.
+T2U_0131	down	ZMYM6 is directly driven by ZNF143 through its promoter element; ZNF143 loss eliminates direct activation so ZMYM6 goes down.
+T2U_0132	down	ZNF143 directly activates the ZNF200 promoter via its SBS cis-element; removing ZNF143 removes this direct activation so ZNF200 falls.
+T2U_0133	down	The ZNF24 promoter is directly activated by ZNF143; loss of the factor abolishes this direct cis-regulatory input so ZNF24 goes down.
+T2U_0134	down	ZNF143 directly occupies and activates the ZNF354A promoter element; ZNF143 loss eliminates this direct activation so ZNF354A falls.
+T2U_0135	down	ZNF382 is directly activated via ZNF143 binding its promoter cis-element; losing ZNF143 removes this direct activation so ZNF382 goes down.
+T2U_0136	down	ZNF143 directly drives ZNF473 from its promoter SBS; removal of ZNF143 removes the direct activator so ZNF473 falls.
+T2U_0137	down	The ZNF485 promoter is directly activated by ZNF143 at its cis-element; ZNF143 loss abolishes this direct activation so ZNF485 goes down.
+T2U_0138	down	ZNF143 binds and directly activates the ZNF607 promoter; losing ZNF143 removes this direct cis-regulatory input so ZNF607 falls.
+T2U_0139	down	ZNF746 is directly driven by ZNF143 through its promoter element; ZNF143 loss eliminates direct activation so ZNF746 goes down.
+T2U_0140	down	ZNF143 directly activates the ZW10 promoter via its SBS cis-element; removing ZNF143 removes this direct activation so ZW10 falls.
+T2U_0141	down	NANOG binds its own promoter and sustains autoregulatory direct activation; losing NANOG protein removes this direct positive input so Nanog transcription falls.
+T2U_0142	up	OCT4/POU5F1 binds the Pax6 cis-regulatory element and directly represses this differentiation gene; losing OCT4 removes that direct repression so Pax6 rises.
+T2U_0143	down	OCT4/POU5F1 binds the Utf1 promoter element and directly activates it; losing OCT4 removes this direct activation so Utf1 falls.
+T2U_0144	up	TP53-induced lincRNA-p21 is the intermediate regulatory RNA that represses MTAP4 in trans; losing lincRNA-p21 relieves this RNA-mediated repression so MTAP4 rises.
+T2U_0145	up	lincRNA-p21 relays TP53-dependent repression of SUV39H1; removing the intermediate RNA abolishes that repression so SUV39H1 rises.
+T2U_0146	up	VCAN silencing downstream of TP53 is relayed by lincRNA-p21; losing this intermediate regulatory RNA de-represses VCAN so expression rises.
+T2U_0147	up	MiR-210 is the HIF1A-induced intermediate regulatory RNA that represses E2F3; losing miR-210 de-represses E2F3 so expression rises.
+T2U_0148	up	NOTCH1 and TGF-beta/SMAD3 co-occupy the PTPRK regulatory region and jointly activate it; boosting both partners strengthens the combinatorial activation so PTPRK rises.
+T2U_0149	down	SMAD3-driven activation of PTPRK requires the partner factor NOTCH1 at the same element; losing NOTCH1 breaks the combinatorial activation so PTPRK falls.
+T2U_0150	down	SMAD3 binds the PTPRK cis-regulatory element and directly activates it; removing SMAD3 eliminates this direct activation so PTPRK falls.
+T2U_0151	down	SMAD3 needs its obligate partner SMAD4 to activate PTPRK; losing SMAD4 breaks the partner-dependent complex so PTPRK falls.
+T2U_0152	up	UHRF1 maintains the DNA methylation that keeps the Cdh1 locus silenced; losing UHRF1 causes passive demethylation of this chromatin mark and de-represses Cdh1 so expression rises.
+T2U_0153	up	UHRF1-dependent maintenance methylation holds Cdh3 repressed; UHRF1 loss erases this repressive chromatin state and de-represses Cdh3 so expression rises.
+T2U_0154	up	The repressive methylation state at Smpd3 is maintained by UHRF1; losing UHRF1 allows demethylation and de-repression so Smpd3 rises.
+T2U_0155	down	Extra miR-210 increases the intermediate regulatory RNA that represses E2F3, so E2F3 expression falls.
+T2U_0156	down	Perturbing the Nanog upstream regulatory site destroys the OCT4-bound cis-element; OCT4 can no longer directly activate Nanog so Nanog falls.
+T2U_0157	down	The TBC1D4 intronic NF-kB site is the cis-regulatory DNA element through which RELA directly activates TBC1D4; perturbing it removes RELA-driven activation so TBC1D4 falls.
+T2U_0158	down	The MYC E-box is the cis-element MYC uses to directly activate PRKCQ; perturbing the E-box abolishes MYC-driven transcription so PRKCQ falls.
+T2U_0159	down	Perturbing the MYC E-box removes the cis-element through which MYC directly activates the PRKCQ-AS1 transcription unit, so PRKCQ-AS1 falls.
+T2U_0160	down	The MYC E-box at chr17 is the cis-regulatory DNA element mediating direct MYC activation of PFAS; perturbing it removes that activation so PFAS falls.
+T2U_0161	down	TP63-dependent activation of ANKRD27 requires the partner forkhead factor FOXK1 co-bound at the same loci; losing FOXK1 impairs this combinatorial activation so ANKRD27 falls.
+T2U_0162	down	TP63's activation of HNRNPA1 depends on the required partner factor FOXK1 at the same element; losing the partner breaks the combinatorial activation so HNRNPA1 falls.
+T2U_0163	down	The TP63 effect on HNRNPL requires co-bound partner FOXK1; losing FOXK1 impairs this partner-dependent activation so HNRNPL falls.
+T2U_0164	down	L3HYPDH activation by TP63 requires the partner factor FOXK1 at the shared regulatory loci; losing FOXK1 breaks this combinatorial regulation so L3HYPDH falls.
+T2U_0165	down	TP63-driven NABP2 expression requires co-bound partner FOXK1; removing the partner impairs the combinatorial activation so NABP2 falls.
+T2U_0166	down	RPS16 activation downstream of TP63 depends on the required partner FOXK1 at the same element; losing the partner breaks this combinatorial regulation so RPS16 falls.
+T2U_0167	down	TP63's activation of TIMM50 requires the partner factor FOXK1 co-bound at the locus; losing FOXK1 impairs this combinatorial activation so TIMM50 falls.
+T2U_0168	down	NFE2L2/NRF2 activates Txnrd1 only as a heterodimer with small MAF partners; losing MAFG/MAFF removes the required partner TF so Txnrd1 activity falls.
+T2U_0169	down	NFE2L2 binds the ARE in Txnrd1's cis-regulatory DNA and directly activates it; losing NFE2L2 removes this direct activation so Txnrd1 falls.
+T2U_0170	up	GATA1-induced miR-451 is the intermediate regulatory RNA repressing Ywhaz; losing miR-451 relieves this RNA-mediated repression so Ywhaz rises.
+T2U_0171	down	The Klf4 regulatory site E2 is the cis-element through which STAT3 directly activates Klf4; perturbing it removes STAT3-driven activation so Klf4 falls.
+T2U_0172	down	The intronic ATP2B4 element is the GATA1-bound cis-regulatory site driving ATP2B4; perturbing it removes GATA1-dependent activation so ATP2B4 falls.
+T2U_0173	up	REST represses L1CAM through a BRG1/SMARCA4-containing chromatin-remodeling complex; losing BRG1 abolishes this remodeler-dependent repression so L1CAM is de-repressed and rises.
+T2U_0174	up	REST-mediated repression of SNAP25 requires BRG1-containing chromatin remodeling; BRG1 loss abolishes this repressive chromatin mechanism so SNAP25 is de-repressed and rises.
+T2U_0175	down	The CUL3 intronic regulatory region is the ZNF263-bound cis-element supporting CUL3 transcription; perturbing it removes this direct activation so CUL3 falls.
+T2U_0176	down	CUL3 regulatory site B is the cis-element through which YY1 directly activates CUL3; perturbing the site removes YY1-driven transcription so CUL3 falls.
+T2U_0179	down	CUL3 regulatory site A is the CTCF-bound cis-regulatory element supporting CUL3 expression; perturbing this target-linked element removes the cis input so CUL3 falls.
+T2U_0180	down	Extra GATA1-induced miR-451 increases intermediate-RNA-mediated repression of Ywhaz so Ywhaz expression falls.
+T2U_0181	down	KMT2D deposits H3K4 methylation at the GATA1-bound EPOR enhancer, providing the chromatin state needed for activation; losing KMT2D abolishes this permissive chromatin so EPOR falls.
+T2U_0182	down	The GATA1-driven SLC25A37 locus requires KMT2D-dependent H3K4 methylation for an active chromatin state; KMT2D loss removes this mark so SLC25A37 falls.
+T2U_0183	down	Extra TWIST1-driven miR-10b increases intermediate-RNA-mediated repression of HOXD10 so HOXD10 expression falls.
+T2U_0186	down	KMT2D-dependent H3K4 methylation creates the active chromatin required at the GATA1-bound SLC22A4 locus; losing KMT2D removes this mark so SLC22A4 falls.
+T2U_0188	down	GATA1 activation of ZFPM1 requires KMT2D-deposited H3K4 methylation at its enhancer; KMT2D loss disrupts this chromatin state so ZFPM1 falls.
+T2U_0189	up	STAT3-induced miR-181b is the intermediate regulatory RNA repressing CYLD; losing miR-181b relieves this RNA-mediated repression so CYLD rises.
+T2U_0190	up	The miR-181b-1 hairpin supplies the intermediate regulatory RNA that represses CYLD; removing it de-represses CYLD so expression rises.
+T2U_0191	up	MiR-21 is the intermediate regulatory RNA that represses PTEN; losing miR-21 relieves this repression so PTEN rises.
+T2U_0192	up	MiR-210 is the HIF1A-induced intermediate regulatory RNA repressing ISCU; losing miR-210 de-represses ISCU so expression rises.
+T2U_0193	down	Extra miR-181b increases intermediate-RNA-mediated repression of CYLD so CYLD expression falls.
+T2U_0195	down	ETV4 binds the NOTCH4 cis-regulatory element and directly activates it; losing ETV4 removes this direct activation so NOTCH4 falls.
+T2U_0196	down	ETV4-driven NOTCH4 activation requires the AP-1 partner FOSL1 co-bound at the same element; losing the partner breaks this combinatorial activation so NOTCH4 falls.
+T2U_0197	down	ETV4-driven NOTCH4 activation requires the AP-1 partner JUN co-bound at the same element; losing JUN breaks this combinatorial activation so NOTCH4 falls.
+T2U_0198	down	TP53-induced LED lncRNA is the intermediate regulatory RNA required to relay p53-dependent activation of CDKN1A; losing LED breaks this RNA relay so CDKN1A falls.
+T2U_0199	down	LSD1/KDM1A provides the chromatin state at the GATA1 locus that permits GATA2-driven activation; losing LSD1 impairs this chromatin-mediated activation so GATA1 falls.

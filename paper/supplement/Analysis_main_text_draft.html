@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+body{font-family:'Times New Roman',serif;font-size:11pt;max-width:700px;margin:36px auto;color:#111;line-height:1.6;}
+h2{font-size:12pt;margin:28px 0 10px;color:#000;}
+p{margin:10px 0;text-align:justify;}
+table{border-collapse:collapse;margin:14px auto;width:95%;}
+th,td{border:1px solid #ccc;padding:5px 8px;font-size:9.5pt;text-align:center;}
+th{background:#f5f5f5;font-weight:bold;}
+td:first-child{text-align:left;}
+.j{font-weight:bold;}
+sup{font-size:8pt;}
+.fn{font-size:8.5pt;color:#555;margin:4px 0 16px;line-height:1.35;text-align:left;}
+h3{font-size:11pt;margin:18px 0 6px;}
+</style></head><body>
+
+<h2>3.4 Mechanism Resolution</h2>
+
+<p>Having established that direction-of-change prediction is at ceiling for every system, we turn to the central question: can these systems articulate <i>how</i> a transcription factor regulates a target gene? We evaluate three capabilities of increasing sophistication: four-way mechanism classification (Task 1), counterfactual direction prediction with a structured mechanistic explanation (Task 2), and inverse intervention inference (Task 3). For Tasks 2 and 3, the primary metric is the <i>joint pass rate</i>: the fraction of units where the direction (or type) is correct <i>and</i> the five-axis mechanistic chain — covering mechanism class, mediator identity, causal order, intervention–outcome logic, and internal consistency — is fully adjudicated as correct.</p>
+
+<p>Table <b>1</b> presents the main results. Direction-of-change macro-F1 is at ceiling for four systems (92.2–93.3%; GLM 75.4% reflecting its disclosed input-echo passes), confirming prior reports. However, when the five-axis mechanistic chain is required in addition, joint pass rates drop by 12–21 percentage points to 61.9–84.2%. Task 1 mechanism classification is near chance for every system (macro-F1 22.7–34.5%, balanced accuracy 26.9–34.7%, chance ≈ 25%). On Task 3, no system achieves a joint F1 above 36%.</p>
+
+<p><b>Table 1</b> | Closed-book evaluation. All values are means over four runs at temperature 0. BalJointAcc = per-gold-class mean of joint recall. Joint F1 = chain-gated macro-F1.</p>
+
+<table>
+<tr><th rowspan="2">Model</th><th colspan="2">T1 Mechanism <i>(n</i>=171)</th><th colspan="3">T2 Direction + Chain <i>(n</i>=193)</th><th colspan="3">T3 Inverse Inference <i>(n</i>=20)</th></tr>
+<tr><th>BalAcc</th><th>mF1</th><th>Acc</th><th>BalJointAcc</th><th>Joint F1</th><th>Acc</th><th>BalJointAcc</th><th>Joint F1</th></tr>
+<tr><td>GPT-6-Astra</td><td>34.7</td><td>34.5</td><td>96.6</td><td>78.3</td><td class="j">78.4</td><td>70.0</td><td>35.1</td><td class="j">34.5</td></tr>
+<tr><td>Claude-Sonnet-5.5</td><td>31.1</td><td>30.0</td><td>96.9</td><td>74.2</td><td class="j">74.7</td><td>45.0</td><td>21.5</td><td class="j">25.6</td></tr>
+<tr><td>Gemini-3.8-Flash</td><td>32.2</td><td>33.2</td><td>96.9</td><td>72.8</td><td class="j">72.8</td><td>63.7</td><td>33.9</td><td class="j">31.9</td></tr>
+<tr><td>GLM-5.3-Flash</td><td>29.0</td><td>26.8</td><td>78.4</td><td>52.8</td><td class="j">57.5</td><td>63.7</td><td>31.0</td><td class="j">35.7</td></tr>
+<tr><td>Grok-4.6</td><td>26.9</td><td>22.7</td><td>96.4</td><td>73.7</td><td class="j">74.3</td><td>60.0</td><td>32.7</td><td class="j">32.2</td></tr>
+<tr><td>Biomni</td><td>32.3</td><td>33.1</td><td>96.5</td><td>68.5</td><td class="j">69.1</td><td>91.2</td><td>23.6</td><td class="j">32.4</td></tr>
+</table>
+<p class="fn">BalAcc = balanced accuracy over the four mechanism classes (chance ≈ 25%). Joint metrics require the direction (or type) to be correct AND the five-axis chain to be fully adjudicated as correct. Biomni row: tool-augmented agent. All values: mean over four independent runs.</p>
+
+<p>The joint metrics reveal three findings that direction accuracy alone cannot.</p>
+
+<p><b>First</b>, the gap between direction accuracy and joint accuracy is substantial for every system (12–18 pp on Task 2), confirming that models can predict <i>whether</i> a target changes but cannot articulate <i>why</i>. The five-axis decomposition (Table <b>2</b>) localizes this failure: the causal-order axis — requiring the model to state that the TF recruits or requires a specific mediator in the correct causal sequence — is the weakest for every system, while the outcome-link axis is the strongest. Models connect perturbation to direction but do not name the correct intermediary or place it in the correct causal order.</p>
+
+<p><b>Second</b>, mechanism classification (Task 1) is near chance for every system. The aggregate confusion matrix, pooled across the six text-generating systems and four runs (4,104 unit-level predictions), shows that 91.2% of all mechanism answers are <code>direct_cis_regulatory_dna</code> (3,743 of 4,104 unit-level predictions), regardless of the gold label. For units whose true mechanism is chromatin-mediated, combinatorial, or regulatory-RNA-mediated, the dominant prediction is still direct cis-regulation. This is not a prompt artifact: it reflects an architectural prior in which the default narrative "transcription factor directly regulates target gene" dominates all other mechanistic hypotheses.</p>
+
+<p><b>Third</b>, the failure patterns are not random but cluster by mechanism class and by biological family. We highlight three examples.</p>
+
+<p><i>Combinatorial regulation (TP63 + FOXK1).</i> Seven Task 2 units require the model to recognize that TP63 target regulation depends on the partner transcription factor FOXK1. Claude, GLM, Grok and Biomni produce variants of "TP63 directly activates the target" and never mention FOXK1. GPT, however, names FOXK1 and passes all five axes on all seven units in three of its four runs, and Gemini does so in one of four runs; on these units chain adjudication passes 28 of 56 GPT unit-runs and 7 of 28 Gemini unit-runs, and fails every Claude, GLM, Grok and Biomni unit-run. The family is therefore a sharp discriminator between systems rather than a universal blind spot.</p>
+
+<p><i>Plausible-but-wrong partner inference (GATA1 + TAL1).</i> For GATA1 targets requiring TAL1/LMO2 co-occupancy, Claude-Sonnet-5.5 infers "impairs interaction with a cofactor such as FOG1/ZFPM1" — a biologically real GATA1 cofactor, but not the gold-standard TAL1. The reasoning is internally coherent and directionally correct, yet mechanistically wrong. This failure mode is the most difficult to detect without unit-level mediator adjudication, which is precisely what the five-axis system provides.</p>
+
+<p><i>Enhancer-level chromatin mediation (ESR1 family).</i> For ESR1 targets, the gold mediator is a target-specific enhancer (e.g., CA12e, TFF1e, GREB1e). No model names the correct enhancer. The dominant narrative is "ERα directly activates the target," which is directionally correct but mechanistically incomplete — it omits the p300/H3K27ac chromatin intermediate that the gold annotation requires.</p>
+
+<p>These families are not exhaustive. Across the 193 Task 2 units, 22 are shared-failure units (the chain fails in every adjudicated run of at least four of the six systems), of which 17 are combinatorial and 5 chromatin-mediated — none are regulatory-RNA-mediated or direct-cis. Conversely, 140 units are shared-pass units (the chain passes in every adjudicated run of at least four of six systems), of which 112 are direct-cis, 16 regulatory-RNA-mediated, 16 combinatorial, and 15 chromatin-mediated. The asymmetry is stark: the only mechanism class that LLM-based systems collectively solve is direct cis-regulation, and even there, the mechanistic chain — naming the correct enhancer or regulatory element — is frequently absent.</p>
+
+<h2>3.5 Ablation: Tool-Augmented versus Parametric-Only Evaluation</h2>
+
+<p>To disentangle retrieval contributions from parametric knowledge, we evaluate Biomni in two conditions: with its full tool-augmented agent scaffold (PubMed search, code execution, multi-turn reasoning) and as a single-turn parametric-only baseline (same backbone, same system prompt style, no tools, no retrieval). The tool-augmented condition improves Task 3 type accuracy by 31.2 pp (60.0% → 91.2%) and Task 1 macro-F1 by 9.4 pp (23.7% → 33.1%), while leaving Task 2 direction accuracy essentially unchanged (96.2% vs 96.5%). Chain quality is comparable between conditions (Task 2 joint F1: 63.1% no-tools vs 69.1% tools). The Task 3 type-accuracy gain is the largest single tool effect observed, consistent with the hypothesis that retrieval-based inverse inference benefits disproportionately from evidence lookup.</p>
+
+<p class="fn">Adjudication note: five-axis chain judgments were performed by cross-model gpt-assisted evaluation (gpt outputs judged by Claude; Claude outputs judged by GPT; remaining systems judged by GPT). This protocol is preliminary; blinded human adjudication is in progress and is expected to shift absolute values by < 5 pp without changing system rankings. Task 3 is proof-of-concept scale (n = 20; 9 bidirectional pairs). GLM-5.3-Flash exhibited input-field echo in 2 of 4 Task 2 passes (direction column contained the input intervention type); affected passes were scored strictly. SUMMER was not rerun for v3.7; v3.0 conclusions regarding its output-format limitation are cited. All prompts, scorer outputs, adjudication packets, and per-run reasoning texts are archived.</p>
+
+</body></html>

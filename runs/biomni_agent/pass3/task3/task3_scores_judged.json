@@ -1,0 +1,31 @@
+{
+  "task": "task3",
+  "n_units": 20,
+  "n_pairs": 9,
+  "scorer": "v3.7.0 + amendment rna_knockdown_alias_v1 (designer-approved 2026-10-08)",
+  "amendment": "for regulatory-RNA entities, canonical knockdown accepted as inhibition",
+  "accepted_intervention_type_accuracy": 0.05,
+  "exact_pre_normalization_intervention_type_accuracy": 0.05,
+  "synonym_rescued_units": 0,
+  "synonym_rescued_unit_ids": [],
+  "alias_rescued_units": 0,
+  "alias_rescued_unit_ids": [],
+  "perturbed_entity_is_input_and_not_predicted": true,
+  "direction_is_input_and_not_scored": true,
+  "reasoning_present_rate": 1.0,
+  "exact_mechanism_label_mention_rate_diagnostic_only": 0.0,
+  "label_mention_is_not_chain_credit": true,
+  "reasoning_chain_status": "scored_by_supplied_blinded_adjudication",
+  "full_reasoning_chain_accuracy": 0.5,
+  "mean_reasoning_chain_component_score": 0.71,
+  "per_axis_accuracy": {
+    "mechanism_correct": 0.75,
+    "mediator_correct": 0.65,
+    "causal_role_order_correct": 0.5,
+    "intervention_outcome_link_correct": 0.95,
+    "no_material_contradiction": 0.7
+  },
+  "full_chain_correct_units": 10,
+  "full_chain_incorrect_units": 10,
+  "intervention_type_and_full_reasoning_chain_joint_accuracy": 0.0
+}

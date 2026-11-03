@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+body{font-family:'Times New Roman',serif;font-size:11pt;max-width:940px;margin:24px auto;}
+h2{font-size:12pt;margin:18px 0 6px;} p{font-size:9.5pt;line-height:1.45;}
+table{border-collapse:collapse;margin:6px 0 4px;width:100%;}
+th,td{border:1px solid #444;padding:4px 7px;text-align:center;font-size:10pt;}
+th{background:#e8e8e8;} th.group{background:#d0d0d0;}
+td:first-child,th:first-child{text-align:left;}
+.joint{font-weight:bold;background:#f5f5f5;}
+.note{font-size:8.5pt;color:#333;margin:2px 0 14px;}
+</style></head><body>
+
+<h2>Table 1. Main results — closed-book evaluation across six frontier systems (%, mean of 4 runs)</h2>
+<table>
+<tr><th rowspan="2">Model</th><th colspan="2" class="group">T1 Mechanism (n=171)</th><th colspan="2" class="group">T2 Direction + Chain (n=193)</th><th colspan="2" class="group">T3 Inverse Inference (n=20)</th></tr>
+<tr><th>Balanced Acc</th><th>Macro-F1</th><th>BalJointAcc</th><th>Joint F1</th><th>BalJointAcc</th><th>Joint F1</th></tr>
+<tr><td>GPT-6-Astra</td><td>34.7</td><td>34.5</td><td>78.3</td><td>78.4</td><td>35.1</td><td>34.5</td></tr>
+<tr><td>Claude-Sonnet-5.5</td><td>31.1</td><td>30.0</td><td>74.2</td><td>74.7</td><td>21.5</td><td>25.6</td></tr>
+<tr><td>Gemini-3.8-Flash</td><td>32.2</td><td>33.2</td><td>72.8</td><td>72.8</td><td>33.9</td><td>31.9</td></tr>
+<tr><td>GLM-5.3-Flash</td><td>29.0</td><td>26.8</td><td>52.8</td><td>57.5</td><td>31.0</td><td>35.7</td></tr>
+<tr><td>Grok-4.6</td><td>26.9</td><td>22.7</td><td>73.7</td><td>74.3</td><td>32.7</td><td>32.2</td></tr>
+<tr><td>Biomni</td><td>32.3</td><td>33.1</td><td>68.5</td><td>69.1</td><td>23.6</td><td>32.4</td></tr>
+</table>
+<p class="note">T1 Balanced Acc = balanced accuracy over the four mechanism classes (chance ≈ 25). T2/T3 BalJointAcc = per-gold-class mean of (direction/type correct AND five-axis chain pass). Joint F1 additionally requires chain pass. All values: mean over four runs at temperature 0, released prompts and scorer.</p>
+
+<h2>Table 2a. Task 2 — five-axis component pass rates, chain, and joint (%, mean of 4 runs)</h2>
+<table>
+<tr><th>Model</th><th>Mechanism</th><th>Mediator</th><th>Causal order</th><th>Outcome link</th><th>No contradiction</th><th>Chain pass (all five)</th><th>Joint F1</th></tr>
+<tr><td>GPT-6-Astra</td><td>89.0</td><td>88.6</td><td>88.3</td><td>95.3</td><td>88.6</td><td>84.7</td><td>78.4</td></tr>
+<tr><td>Claude-Sonnet-5.5</td><td>85.2</td><td>83.2</td><td>82.0</td><td>91.3</td><td>87.3</td><td>79.4</td><td>74.7</td></tr>
+<tr><td>Gemini-3.8-Flash</td><td>90.9</td><td>82.9</td><td>83.7</td><td>92.6</td><td>89.0</td><td>79.0</td><td>72.8</td></tr>
+<tr><td>GLM-5.3-Flash</td><td>64.6</td><td>75.3</td><td>62.8</td><td>70.3</td><td>88.3</td><td>62.0</td><td>57.5</td></tr>
+<tr><td>Grok-4.6</td><td>85.5</td><td>83.7</td><td>82.6</td><td>92.6</td><td>90.8</td><td>79.5</td><td>74.3</td></tr>
+<tr><td>Biomni</td><td>81.1</td><td>81.9</td><td>77.5</td><td>90.0</td><td>81.9</td><td>76.2</td><td>69.1</td></tr>
+</table>
+<p class="note">Component columns: per-axis adjudication pass rates. Chain pass requires all five axes (one-vote veto). Joint F1 = chain-gated macro-F1 (direction additionally correct) — identical to Table 1's T2 Joint F1.</p>
+
+<h2>Table 2b. Task 3 — five-axis component pass rates, chain, and joint (%, mean of 4 runs)</h2>
+<table>
+<tr><th>Model</th><th>Mechanism</th><th>Mediator</th><th>Causal order</th><th>Outcome link</th><th>No contradiction</th><th>Chain pass (all five)</th><th>Joint F1</th></tr>
+<tr><td>GPT-6-Astra</td><td>85.0</td><td>80.0</td><td>78.8</td><td>81.2</td><td>88.8</td><td>72.5</td><td>34.5</td></tr>
+<tr><td>Claude-Sonnet-5.5</td><td>75.0</td><td>73.8</td><td>68.8</td><td>85.0</td><td>73.8</td><td>56.2</td><td>25.6</td></tr>
+<tr><td>Gemini-3.8-Flash</td><td>85.0</td><td>76.2</td><td>71.2</td><td>92.5</td><td>85.0</td><td>68.8</td><td>31.9</td></tr>
+<tr><td>GLM-5.3-Flash</td><td>72.5</td><td>61.3</td><td>66.2</td><td>82.5</td><td>83.8</td><td>56.2</td><td>35.7</td></tr>
+<tr><td>Grok-4.6</td><td>82.5</td><td>77.5</td><td>70.0</td><td>78.8</td><td>80.0</td><td>66.2</td><td>32.2</td></tr>
+<tr><td>Biomni</td><td>63.7</td><td>62.5</td><td>47.5</td><td>90.0</td><td>68.8</td><td>43.8</td><td>32.4</td></tr>
+</table>
+<p class="note">Task 3 additionally requires the inferred intervention type to be accepted (synonym whitelist). The causal-order axis is the weakest component across all systems.</p>
+
+<p class="note" style="margin-top:14px;">Adjudication: gpt-assisted cross-judging (preliminary; blinded human review in progress). Claude Task 2 chain/joint computed over 2 adjudicated runs of 4. Task 3 n=20: proof-of-concept scale, disclosed. SUMMER not rerun (v3.0 format-limitation conclusions stand, cited).</p>
+
+</body></html>

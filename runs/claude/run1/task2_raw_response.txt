@@ -1,0 +1,194 @@
+unit_id	predicted_direction	mechanism_reasoning
+T2U_0001	up	CDX2 target activation depends on a PRC2/EED-governed chromatin state; reducing EED/PRC2 loses H3K27me3 repression and alters chromatin at the locus, so the target rises.
+T2U_0002	up	Loss of EED/PRC2 removes H3K27me3-mediated chromatin repression at the CDX2 target locus, which derepresses the target.
+T2U_0003	down	TP63 binds a cis-regulatory element near the target and activates it directly, so TP63 loss lowers expression.
+T2U_0004	down	TP63 acts directly through a target-linked cis-regulatory element to activate the gene; its loss reduces expression.
+T2U_0005	down	TP63 directly activates the target through a bound enhancer or promoter element; its loss lowers expression.
+T2U_0006	down	TP63 directly activates the target through a bound cis-regulatory element; its loss reduces transcription.
+T2U_0007	down	TP63 directly activates the target through its cis-regulatory element; its loss lowers expression.
+T2U_0008	down	TP63 directly drives the target through a bound cis-regulatory element; its loss decreases expression.
+T2U_0009	down	TP63 directly activates the target via a cis-regulatory element; its loss reduces expression.
+T2U_0010	down	ESR1 activation of the target needs TET2-dependent demethylation to keep the enhancer open; TET2 loss compromises ESR1-driven chromatin and lowers expression.
+T2U_0011	down	TET2 maintains an accessible, demethylated chromatin state at the ESR1 enhancer, so TET2 loss reduces ESR1-driven target expression.
+T2U_0012	down	TET2-mediated enhancer demethylation is required for ESR1 to activate the target; TET2 loss lowers expression.
+T2U_0013	down	ESR1 activates the target through a bound cis-regulatory element; disrupting the site removes ESR1 input and lowers expression.
+T2U_0014	down	Perturbing the ESR1-bound regulatory element removes direct enhancer activation of the target, lowering expression.
+T2U_0015	down	Disrupting the ESR1-bound cis-regulatory site removes direct ESR1 activation, lowering target expression.
+T2U_0016	down	The GATA1 D218G variant impairs GATA1 function, probably its interaction with a cofactor such as FOG1/ZFPM1, so the partner-dependent target activation falls.
+T2U_0017	up	The GATA1 variant weakens partner-dependent repressive activity at the target, relieving repression so the target rises.
+T2U_0018	down	The GATA1 variant disrupts partner (FOG1)-dependent combinatorial activation of the target, lowering it.
+T2U_0019	down	The GATA1 R216Q variant impairs cofactor-dependent GATA1 activity, lowering the target.
+T2U_0020	up	The GATA1 variant loses partner-dependent repression of the target, so it rises.
+T2U_0021	down	The GATA1 variant disrupts partner-dependent activation, lowering the target.
+T2U_0022	down	H2A.Z loss alters the chromatin state that TP63 needs to activate the target, so expression falls.
+T2U_0023	down	TP63 activation of the target requires H2A.Z-marked permissive chromatin; losing H2A.Z reduces expression.
+T2U_0024	down	HIF1A induces miR-210, which acts as the intermediate regulatory RNA that represses ISCU; miR-210 gain lowers ISCU.
+T2U_0025	up	TWIST1 induces miR-10b, which represses HOXD10; reducing miR-10b releases HOXD10, so it rises.
+T2U_0026	down	ESR1 activates CA12 through its cis-regulatory enhancer; disrupting the enhancer lowers expression.
+T2U_0027	down	The ESR1-bound enhancer drives FOXC1 directly; its loss lowers expression.
+T2U_0028	down	The ESR1-bound GREB1 enhancer drives expression directly; its loss lowers it.
+T2U_0029	down	The ESR1-bound enhancer drives KCNK5 directly; its loss lowers expression.
+T2U_0030	down	The ESR1-bound NRIP1 enhancer directly drives expression; its loss lowers it.
+T2U_0031	down	The ESR1-bound enhancer directly drives P2RY2; its loss lowers expression.
+T2U_0032	down	The ESR1-bound PGR enhancer directly drives expression; its loss lowers it.
+T2U_0033	down	The ESR1-bound SIAH2 enhancer directly drives expression; its loss lowers it.
+T2U_0034	down	The ESR1-bound SMAD7 enhancer directly drives expression; its loss lowers it.
+T2U_0035	down	The ESR1-bound TFF1 enhancer directly drives expression; its loss lowers it.
+T2U_0036	up	Activated PPARA binds cis-regulatory PPAR response elements at the target and directly induces it.
+T2U_0037	up	Activated PPARA directly induces the target through its cis-regulatory elements.
+T2U_0038	up	Activated PPARA directly induces the target via a PPRE regulatory element.
+T2U_0039	down	BHLHE40 acts as a partner of PPARA at the target; losing the partner reduces PPARA-driven expression.
+T2U_0040	down	PPARA-driven activation requires the partner BHLHE40; its loss lowers the target.
+T2U_0041	down	BHLHE40 is a required cooperating TF for PPARA activation; its loss lowers the target.
+T2U_0042	down	ZNF143 binds the target's promoter cis-regulatory element and activates it directly; its loss lowers expression.
+T2U_0043	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0044	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0045	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0046	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0047	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0048	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0049	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0050	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0051	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0052	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0053	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0054	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0055	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0056	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0057	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0058	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0059	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0060	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0061	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0062	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0063	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0064	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0065	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0066	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0067	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0068	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0069	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0070	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0071	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0072	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0073	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0074	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0075	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0076	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0077	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0078	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0079	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0080	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0081	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0082	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0083	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0084	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0085	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0086	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0087	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0088	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0089	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0090	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0091	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0092	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0093	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0094	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0095	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0096	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0097	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0098	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0099	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0100	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0101	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0102	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0103	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0104	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0105	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0106	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0107	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0108	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0109	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0110	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0111	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0112	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0113	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0114	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0115	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0116	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0117	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0118	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0119	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0120	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0121	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0122	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0123	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0124	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0125	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0126	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0127	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0128	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0129	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0130	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0131	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0132	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0133	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0134	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0135	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0136	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0137	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0138	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0139	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0140	down	ZNF143 activates the target directly via a promoter element; its loss lowers expression.
+T2U_0141	down	NANOG protein binds its own cis-regulatory element and autoactivates the gene; reducing the protein lowers Nanog expression.
+T2U_0142	up	POU5F1/OCT4 represses Pax6 through a chromatin-based mechanism; reducing OCT4 releases Pax6, so it rises.
+T2U_0143	down	POU5F1 directly activates Utf1 through a cis-regulatory element; OCT4 loss lowers it.
+T2U_0144	up	TP53 induces lincRNA-p21, which acts as an intermediate regulatory RNA that represses the target; lincRNA-p21 loss derepresses it.
+T2U_0145	up	TP53 induces lincRNA-p21, which acts as an intermediate repressive RNA; its loss derepresses the target.
+T2U_0146	up	TP53 induces lincRNA-p21, an intermediate RNA that represses the target; its loss raises the target.
+T2U_0147	up	HIF1A induces miR-210, which represses E2F3; reducing miR-210 releases E2F3, so it rises.
+T2U_0148	up	NOTCH1 and TGF-beta/SMAD3 signaling cooperate as combinatorial partners in activating PTPRK; activating them increases PTPRK.
+T2U_0149	down	SMAD3 activation of PTPRK requires the partner NOTCH1; its loss lowers PTPRK.
+T2U_0150	down	SMAD3 binds with partners to activate PTPRK; its loss lowers PTPRK.
+T2U_0151	down	SMAD4 is the SMAD3 partner needed for PTPRK activation; its loss lowers PTPRK.
+T2U_0152	up	PPARA-dependent repression of the target requires UHRF1-mediated chromatin and DNA methylation silencing; UHRF1 loss derepresses the target.
+T2U_0153	up	UHRF1 loss removes methylation-based chromatin silencing, derepressing the target.
+T2U_0154	up	UHRF1 loss removes methylation-based chromatin silencing, derepressing the target.
+T2U_0155	down	HIF1A induces miR-210, which represses E2F3; miR-210 gain lowers E2F3.
+T2U_0156	down	Disrupting the POU5F1-bound upstream regulatory site removes direct activation of Nanog, lowering expression.
+T2U_0157	down	Disrupting the intronic NF-kB site removes direct RELA enhancer activation, lowering TBC1D4.
+T2U_0158	down	Disrupting the MYC E-box removes direct MYC activation of PRKCQ, lowering expression.
+T2U_0159	down	Disrupting the MYC E-box removes direct MYC activation of the antisense transcript, lowering expression.
+T2U_0160	down	Disrupting the MYC E-box removes direct MYC activation of PFAS, lowering expression.
+T2U_0161	down	FOXK1 is a partner TF cooperating with TP63 at the target; its loss lowers expression.
+T2U_0162	down	FOXK1 is a partner TF cooperating with TP63; its loss lowers expression.
+T2U_0163	down	FOXK1 is a partner TF cooperating with TP63; its loss lowers expression.
+T2U_0164	down	FOXK1 is a partner TF cooperating with TP63; its loss lowers expression.
+T2U_0165	down	FOXK1 is a partner TF cooperating with TP63; its loss lowers expression.
+T2U_0166	down	FOXK1 is a partner TF cooperating with TP63; its loss lowers expression.
+T2U_0167	down	FOXK1 is a partner TF cooperating with TP63; its loss lowers expression.
+T2U_0168	down	NFE2L2 needs the small MAF partners MAFG/MAFF to bind and activate Txnrd1; their loss lowers it.
+T2U_0169	down	NFE2L2 directly activates Txnrd1 through an ARE cis-regulatory element; its loss lowers expression.
+T2U_0170	up	GATA1 induces miR-451, which represses Ywhaz; miR-451 loss derepresses Ywhaz.
+T2U_0171	down	Disrupting the STAT3-bound regulatory site E2 removes direct activation of Klf4, lowering expression.
+T2U_0172	down	Disrupting the GATA1-bound intronic site removes direct activation, lowering ATP2B4.
+T2U_0173	up	REST represses neuronal genes with BRG1/SMARCA4 chromatin remodeling; BRG1 loss weakens REST-mediated repression, so the target rises.
+T2U_0174	up	REST repression needs the BRG1 chromatin remodeler; its loss derepresses SNAP25.
+T2U_0175	up	Disrupting the ZNF263-bound intronic regulatory region removes a repressive input, raising CUL3.
+T2U_0176	down	Disrupting the YY1-bound regulatory site B removes direct activation of CUL3, lowering it.
+T2U_0179	down	Disrupting the CTCF-bound regulatory site A removes direct regulatory input to CUL3, lowering it.
+T2U_0180	down	GATA1 induces miR-451, which represses Ywhaz; miR-451 gain lowers Ywhaz.
+T2U_0181	down	GATA1 activation of EPOR needs KMT2D-dependent enhancer chromatin (H3K4me1); KMT2D loss lowers it.
+T2U_0182	down	GATA1 activation of SLC25A37 needs KMT2D-dependent enhancer chromatin; KMT2D loss lowers it.
+T2U_0183	down	TWIST1 induces miR-10b, which represses HOXD10; miR-10b gain lowers HOXD10.
+T2U_0186	down	GATA1 activation needs KMT2D-dependent enhancer chromatin; KMT2D loss lowers SLC22A4.
+T2U_0188	down	GATA1 activation needs KMT2D-dependent enhancer chromatin; KMT2D loss lowers ZFPM1.
+T2U_0189	up	STAT3 induces miR-181b, which represses CYLD; miR-181b loss raises CYLD.
+T2U_0190	up	STAT3 induces miR-181b-1, which represses CYLD; its loss raises CYLD.
+T2U_0191	up	STAT3 induces miR-21, which represses PTEN; miR-21 loss raises PTEN.
+T2U_0192	up	HIF1A induces miR-210, which represses ISCU; miR-210 loss raises ISCU.
+T2U_0193	down	STAT3 induces miR-181b, which represses CYLD; miR-181b gain lowers CYLD.
+T2U_0195	down	ETV4 partners with AP-1 factors to activate NOTCH4; ETV4 loss lowers it.
+T2U_0196	down	FOSL1 is an AP-1 partner required with ETV4 for NOTCH4 activation; its loss lowers it.
+T2U_0197	down	JUN is an AP-1 partner required with ETV4 for NOTCH4 activation; its loss lowers it.
+T2U_0198	down	TP53 induces LED lncRNA, the intermediate regulatory RNA that promotes CDKN1A; its loss lowers CDKN1A.
+T2U_0199	up	GATA2 repression of GATA1 requires LSD1/KDM1A chromatin demethylase activity; LSD1 loss relieves repression, so GATA1 rises.

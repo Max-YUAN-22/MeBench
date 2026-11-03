@@ -1,0 +1,169 @@
+{
+  "version": "v3.7.0",
+  "base_release": "v3.6.1",
+  "training_split_created": false,
+  "mechanism_reasoning_rule": "Task 2/3 mechanism_reasoning remains natural prose. It is adjudicated against a hidden pair-specific ground-truth causal chain; a correct mechanism label without the correct mediator, causal role/order, and intervention-to-outcome logic does not pass.",
+  "task1": {
+    "units": 171,
+    "input_fields": [
+      "tf",
+      "target_gene"
+    ],
+    "output": [
+      "mechanism"
+    ],
+    "status": "unchanged from v3.4.1"
+  },
+  "task2": {
+    "units": 193,
+    "pairs": 168,
+    "input_fields": [
+      "tf",
+      "target_gene",
+      "perturbation.perturbed_entity",
+      "perturbation.intervention_type"
+    ],
+    "output_fields": [
+      "direction",
+      "mechanism_reasoning"
+    ],
+    "metrics": [
+      "direction_accuracy",
+      "full_reasoning_chain_accuracy",
+      "mean_reasoning_chain_component_score",
+      "direction_and_full_reasoning_chain_joint_accuracy"
+    ],
+    "note": "v3.4.1 Task2A and Task2B are merged; log2FC magnitude is not predicted",
+    "reasoning_output_format": "natural_language_single_line",
+    "reasoning_chain_adjudication_axes": [
+      "mechanism_correct",
+      "mediator_correct",
+      "causal_role_order_correct",
+      "intervention_outcome_link_correct",
+      "no_material_contradiction"
+    ],
+    "reasoning_chain_exact_rule": "all five axes pass",
+    "label_only_reasoning_passes": false,
+    "reasoning_chain_primary_metric": "full_reasoning_chain_accuracy",
+    "primary_metric": "direction_and_full_reasoning_chain_joint_accuracy",
+    "unit_pass_rule": "predicted direction is correct AND all five reasoning-chain axes pass",
+    "direction_is_required_for_unit_pass": true,
+    "full_reasoning_chain_is_required_for_unit_pass": true,
+    "component_metrics_are_diagnostic_only": true,
+    "perturbation_input_policy": "minimal coarse representation; exact method, dose, time, route, reagent and guide are evaluator-only",
+    "allowed_intervention_types": [
+      "functional_variant",
+      "gain_or_activation",
+      "loss_or_reduction",
+      "regulatory_site_perturbation"
+    ],
+    "duplicate_policy": "identical simplified model inputs with identical labels are collapsed to one unit and all provenance is retained evaluator-side",
+    "source_unit_count": 199,
+    "collapsed_redundant_units": 6
+  },
+  "task3": {
+    "definition": "entity-conditioned inverse intervention reasoning over nine bidirectional pairs",
+    "pairs": 9,
+    "units": 20,
+    "input_fields": [
+      "tf",
+      "target_gene",
+      "direction",
+      "perturbation.perturbed_entity"
+    ],
+    "output_fields": [
+      "predicted_intervention_type",
+      "mechanism_reasoning"
+    ],
+    "metrics": [
+      "accepted_perturbation_accuracy",
+      "full_reasoning_chain_accuracy",
+      "mean_reasoning_chain_component_score",
+      "perturbation_and_full_reasoning_chain_joint_accuracy"
+    ],
+    "multiple_answer_policy": "any accepted perturbation for the same pair and supplied direction is correct",
+    "direction_is_input_and_is_not_scored": true,
+    "reasoning_output_format": "natural_language_single_line",
+    "reasoning_chain_adjudication_axes": [
+      "mechanism_correct",
+      "mediator_correct",
+      "causal_role_order_correct",
+      "intervention_outcome_link_correct",
+      "no_material_contradiction"
+    ],
+    "reasoning_chain_exact_rule": "all five axes pass",
+    "label_only_reasoning_passes": false,
+    "reasoning_chain_primary_metric": "full_reasoning_chain_accuracy",
+    "primary_metric": "intervention_type_and_full_reasoning_chain_joint_accuracy",
+    "unit_pass_rule": "synonym-normalized intervention type matches an accepted type for the supplied entity AND all five reasoning-chain axes pass",
+    "accepted_perturbation_is_required_for_unit_pass": true,
+    "full_reasoning_chain_is_required_for_unit_pass": true,
+    "component_metrics_are_diagnostic_only": true,
+    "perturbation_matching": {
+      "entity": "exact after case and punctuation normalization",
+      "intervention_type": "curated synonym whitelist normalization before accepted-set comparison",
+      "fuzzy_matching": false,
+      "alias_groups": {
+        "agonist_activation": [
+          "agonist_activation",
+          "agonist_treatment",
+          "agonist",
+          "activation"
+        ],
+        "knockdown": [
+          "siRNA_knockdown",
+          "shRNA_knockdown",
+          "knockdown",
+          "RNA_interference",
+          "RNAi"
+        ],
+        "overexpression": [
+          "overexpression",
+          "forced_expression",
+          "ectopic_expression"
+        ],
+        "inhibition": [
+          "inhibition",
+          "inhibitor_treatment",
+          "pharmacological_inhibition"
+        ],
+        "sponge_inhibition": [
+          "sponge_inhibition",
+          "microRNA_sponge",
+          "sponge"
+        ],
+        "genetic_knockout": [
+          "genetic_knockout",
+          "knockout",
+          "gene_deletion"
+        ],
+        "combined_ligand_stimulation": [
+          "combined_ligand_stimulation",
+          "ligand_stimulation",
+          "co_stimulation",
+          "combined_stimulation"
+        ]
+      }
+    },
+    "visible_perturbation_information": "perturbed entity only",
+    "hidden_perturbation_information": "intervention type and exact experimental implementation",
+    "entity_conditioning_policy": "one unit per pair, direction and distinct accepted perturbed entity; miR-181b and miR-181b-1 are collapsed to the vague entity miR-181b"
+  },
+  "allowed_mechanism_labels": [
+    "direct_cis_regulatory_dna",
+    "chromatin_mediated_regulation",
+    "combinatorial_tf_regulation",
+    "regulatory_rna_mediated_indirect_regulation"
+  ],
+  "hidden_data_policy": "mechanism labels, accepted perturbation sets, controls, assays, contexts, sources and evidence are evaluator-only",
+  "reasoning_adjudication": {
+    "method": "blinded semantic adjudication against evaluator-only per-unit ground-truth chain rubrics",
+    "workflow": [
+      "Run prepare_reasoning_review.py on model predictions.",
+      "An adjudicator fills the five binary rubric axes without changing predictions or ground truth.",
+      "Run score_model_outputs.py with --reasoning-judgments to compute chain and joint metrics."
+    ],
+    "diagnostic_only": "Exact standard-label mention may be reported but is not the chain score."
+  },
+  "primary_scoring_principle": "Outcome correctness and full ground-truth-chain correctness are jointly hard-gated at the unit level."
+}

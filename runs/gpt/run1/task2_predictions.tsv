@@ -1,0 +1,194 @@
+unit_id	predicted_direction	mechanism_reasoning
+T2U_0001	up	Chromatin-mediated regulation: loss of EED/PRC2 reduces repressive chromatin at the CDX2-linked locus, allowing Scin expression to rise.
+T2U_0002	up	Chromatin-mediated regulation: loss of EED/PRC2 reduces repressive chromatin at the CDX2-linked locus, allowing Slc26a6 expression to rise.
+T2U_0003	down	Direct cis-regulatory DNA: TP63 loss reduces transcription through the ANKRD27-linked regulatory element, lowering ANKRD27 expression.
+T2U_0004	down	Direct cis-regulatory DNA: TP63 loss reduces transcription through the HNRNPA1-linked regulatory element, lowering HNRNPA1 expression.
+T2U_0005	down	Direct cis-regulatory DNA: TP63 loss reduces transcription through the HNRNPL-linked regulatory element, lowering HNRNPL expression.
+T2U_0006	down	Direct cis-regulatory DNA: TP63 loss reduces transcription through the L3HYPDH-linked regulatory element, lowering L3HYPDH expression.
+T2U_0007	down	Direct cis-regulatory DNA: TP63 loss reduces transcription through the NABP2-linked regulatory element, lowering NABP2 expression.
+T2U_0008	down	Direct cis-regulatory DNA: TP63 loss reduces transcription through the RPS16-linked regulatory element, lowering RPS16 expression.
+T2U_0009	down	Direct cis-regulatory DNA: TP63 loss reduces transcription through the TIMM50-linked regulatory element, lowering TIMM50 expression.
+T2U_0010	down	Chromatin-mediated regulation: TET2 loss disrupts the chromatin state supporting ESR1-dependent activation, lowering ELOVL2 expression.
+T2U_0011	down	Chromatin-mediated regulation: TET2 loss disrupts the chromatin state supporting ESR1-dependent activation, lowering PTGES expression.
+T2U_0012	down	Chromatin-mediated regulation: TET2 loss disrupts the chromatin state supporting ESR1-dependent activation, lowering WIPF1 expression.
+T2U_0013	down	Direct cis-regulatory DNA: loss of the CISH regulatory site weakens ESR1-linked transcription, lowering CISH expression.
+T2U_0014	down	Direct cis-regulatory DNA: loss of the G0S2 regulatory site weakens ESR1-linked transcription, lowering G0S2 expression.
+T2U_0015	down	Direct cis-regulatory DNA: loss of the MMP17 regulatory site weakens ESR1-linked transcription, lowering MMP17 expression.
+T2U_0016	down	Direct cis-regulatory DNA: the GATA1 D218G functional variant weakens GATA1 action at the Lrrc39 regulatory element, lowering Lrrc39 expression.
+T2U_0017	down	Direct cis-regulatory DNA: the GATA1 D218G functional variant weakens GATA1 action at the Rragd regulatory element, lowering Rragd expression.
+T2U_0018	down	Direct cis-regulatory DNA: the GATA1 D218G functional variant weakens GATA1 action at the Slc4a1 regulatory element, lowering Slc4a1 expression.
+T2U_0019	down	Direct cis-regulatory DNA: the GATA1 R216Q functional variant weakens GATA1 action at the Lrrc39 regulatory element, lowering Lrrc39 expression.
+T2U_0020	down	Direct cis-regulatory DNA: the GATA1 R216Q functional variant weakens GATA1 action at the Rragd regulatory element, lowering Rragd expression.
+T2U_0021	down	Direct cis-regulatory DNA: the GATA1 R216Q functional variant weakens GATA1 action at the Slc4a1 regulatory element, lowering Slc4a1 expression.
+T2U_0022	down	Chromatin-mediated regulation: H2A.Z loss disrupts the chromatin state required for TP63-dependent activation, lowering SAMD9L expression.
+T2U_0023	down	Chromatin-mediated regulation: H2A.Z loss disrupts the chromatin state required for TP63-dependent activation, lowering ZHX2 expression.
+T2U_0024	down	Regulatory RNA-mediated indirect regulation: miR-210 activation increases RNA-mediated repression of ISCU downstream of HIF1A, lowering ISCU expression.
+T2U_0025	up	Regulatory RNA-mediated indirect regulation: miR-10b loss removes RNA-mediated repression of HOXD10 downstream of TWIST1, increasing HOXD10 expression.
+T2U_0026	down	Direct cis-regulatory DNA: loss of the CA12e regulatory element weakens ESR1-linked transcription, lowering CA12 expression.
+T2U_0027	down	Direct cis-regulatory DNA: loss of the FOXC1e regulatory element weakens ESR1-linked transcription, lowering FOXC1 expression.
+T2U_0028	down	Direct cis-regulatory DNA: loss of the GREB1e regulatory element weakens ESR1-linked transcription, lowering GREB1 expression.
+T2U_0029	down	Direct cis-regulatory DNA: loss of the KCNK5e regulatory element weakens ESR1-linked transcription, lowering KCNK5 expression.
+T2U_0030	down	Direct cis-regulatory DNA: loss of the NRIP1e regulatory element weakens ESR1-linked transcription, lowering NRIP1 expression.
+T2U_0031	down	Direct cis-regulatory DNA: loss of the P2RY2e regulatory element weakens ESR1-linked transcription, lowering P2RY2 expression.
+T2U_0032	down	Direct cis-regulatory DNA: loss of the PGRe regulatory element weakens ESR1-linked transcription, lowering PGR expression.
+T2U_0033	down	Direct cis-regulatory DNA: loss of the SIAH2e regulatory element weakens ESR1-linked transcription, lowering SIAH2 expression.
+T2U_0034	down	Direct cis-regulatory DNA: loss of the SMAD7e regulatory element weakens ESR1-linked transcription, lowering SMAD7 expression.
+T2U_0035	down	Direct cis-regulatory DNA: loss of the TFF1e regulatory element weakens ESR1-linked transcription, lowering TFF1 expression.
+T2U_0036	up	Direct cis-regulatory DNA: PPARA activation increases transcription through the Angptl4-linked regulatory element, raising Angptl4 expression.
+T2U_0037	up	Direct cis-regulatory DNA: PPARA activation increases transcription through the Hmgcs2-linked regulatory element, raising Hmgcs2 expression.
+T2U_0038	up	Direct cis-regulatory DNA: PPARA activation increases transcription through the Pdk4-linked regulatory element, raising Pdk4 expression.
+T2U_0039	up	Combinatorial TF regulation: BHLHE40 loss relieves partner-mediated restraint on PPARA at Angptl4, increasing Angptl4 expression.
+T2U_0040	up	Combinatorial TF regulation: BHLHE40 loss relieves partner-mediated restraint on PPARA at Hmgcs2, increasing Hmgcs2 expression.
+T2U_0041	up	Combinatorial TF regulation: BHLHE40 loss relieves partner-mediated restraint on PPARA at Pdk4, increasing Pdk4 expression.
+T2U_0042	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the ABCF2-linked regulatory element, lowering ABCF2 expression.
+T2U_0043	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the ADAT3-linked regulatory element, lowering ADAT3 expression.
+T2U_0044	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the AKR1A1-linked regulatory element, lowering AKR1A1 expression.
+T2U_0045	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the ANKRD13B-linked regulatory element, lowering ANKRD13B expression.
+T2U_0046	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the AP1S3-linked regulatory element, lowering AP1S3 expression.
+T2U_0047	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the ARID5A-linked regulatory element, lowering ARID5A expression.
+T2U_0048	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the ASB13-linked regulatory element, lowering ASB13 expression.
+T2U_0049	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the BIRC5-linked regulatory element, lowering BIRC5 expression.
+T2U_0050	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the CASC3-linked regulatory element, lowering CASC3 expression.
+T2U_0051	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the CCDC157-linked regulatory element, lowering CCDC157 expression.
+T2U_0052	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the CCDC92-linked regulatory element, lowering CCDC92 expression.
+T2U_0053	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the CCPG1-linked regulatory element, lowering CCPG1 expression.
+T2U_0054	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the CKAP2L-linked regulatory element, lowering CKAP2L expression.
+T2U_0055	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the CNIH1-linked regulatory element, lowering CNIH1 expression.
+T2U_0056	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the CPOX-linked regulatory element, lowering CPOX expression.
+T2U_0057	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the CPSF4-linked regulatory element, lowering CPSF4 expression.
+T2U_0058	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the CRCP-linked regulatory element, lowering CRCP expression.
+T2U_0059	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the CREBL2-linked regulatory element, lowering CREBL2 expression.
+T2U_0060	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the CWC15-linked regulatory element, lowering CWC15 expression.
+T2U_0061	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the CYB5R1-linked regulatory element, lowering CYB5R1 expression.
+T2U_0062	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the EGR1-linked regulatory element, lowering EGR1 expression.
+T2U_0063	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the EMC1-linked regulatory element, lowering EMC1 expression.
+T2U_0064	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the ENKD1-linked regulatory element, lowering ENKD1 expression.
+T2U_0065	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the ERAL1-linked regulatory element, lowering ERAL1 expression.
+T2U_0066	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the ERP44-linked regulatory element, lowering ERP44 expression.
+T2U_0067	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the FASTK-linked regulatory element, lowering FASTK expression.
+T2U_0068	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the FH-linked regulatory element, lowering FH expression.
+T2U_0069	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the GAMT-linked regulatory element, lowering GAMT expression.
+T2U_0070	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the GOLGA2-linked regulatory element, lowering GOLGA2 expression.
+T2U_0071	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the GTPBP8-linked regulatory element, lowering GTPBP8 expression.
+T2U_0072	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the HMGCL-linked regulatory element, lowering HMGCL expression.
+T2U_0073	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the HSPA14-linked regulatory element, lowering HSPA14 expression.
+T2U_0074	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the IK-linked regulatory element, lowering IK expression.
+T2U_0075	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the JMJD8-linked regulatory element, lowering JMJD8 expression.
+T2U_0076	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the JUN-linked regulatory element, lowering JUN expression.
+T2U_0077	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the JUND-linked regulatory element, lowering JUND expression.
+T2U_0078	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the KDELR2-linked regulatory element, lowering KDELR2 expression.
+T2U_0079	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the KLC2-linked regulatory element, lowering KLC2 expression.
+T2U_0080	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the KPNA5-linked regulatory element, lowering KPNA5 expression.
+T2U_0081	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the LATS1-linked regulatory element, lowering LATS1 expression.
+T2U_0082	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the MED16-linked regulatory element, lowering MED16 expression.
+T2U_0083	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the MFSD3-linked regulatory element, lowering MFSD3 expression.
+T2U_0084	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the MRPL46-linked regulatory element, lowering MRPL46 expression.
+T2U_0085	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the MRPL54-linked regulatory element, lowering MRPL54 expression.
+T2U_0086	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the MRPS11-linked regulatory element, lowering MRPS11 expression.
+T2U_0087	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the MTMR1-linked regulatory element, lowering MTMR1 expression.
+T2U_0088	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the NUTF2-linked regulatory element, lowering NUTF2 expression.
+T2U_0089	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the PAPOLG-linked regulatory element, lowering PAPOLG expression.
+T2U_0090	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the PLAGL2-linked regulatory element, lowering PLAGL2 expression.
+T2U_0091	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the PNKD-linked regulatory element, lowering PNKD expression.
+T2U_0092	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the POMT2-linked regulatory element, lowering POMT2 expression.
+T2U_0093	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the PRIM1-linked regulatory element, lowering PRIM1 expression.
+T2U_0094	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the PRKAA2-linked regulatory element, lowering PRKAA2 expression.
+T2U_0095	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the PROSER3-linked regulatory element, lowering PROSER3 expression.
+T2U_0096	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the PSMC6-linked regulatory element, lowering PSMC6 expression.
+T2U_0097	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the PTPMT1-linked regulatory element, lowering PTPMT1 expression.
+T2U_0098	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the PTRHD1-linked regulatory element, lowering PTRHD1 expression.
+T2U_0099	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the RDH11-linked regulatory element, lowering RDH11 expression.
+T2U_0100	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the RIC8A-linked regulatory element, lowering RIC8A expression.
+T2U_0101	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the RNF40-linked regulatory element, lowering RNF40 expression.
+T2U_0102	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the RPAIN-linked regulatory element, lowering RPAIN expression.
+T2U_0103	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the RPL6-linked regulatory element, lowering RPL6 expression.
+T2U_0104	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the RSBN1-linked regulatory element, lowering RSBN1 expression.
+T2U_0105	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the SAMD13-linked regulatory element, lowering SAMD13 expression.
+T2U_0106	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the SAV1-linked regulatory element, lowering SAV1 expression.
+T2U_0107	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the SEPTIN8-linked regulatory element, lowering SEPTIN8 expression.
+T2U_0108	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the SFT2D2-linked regulatory element, lowering SFT2D2 expression.
+T2U_0109	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the SGF29-linked regulatory element, lowering SGF29 expression.
+T2U_0110	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the SLC7A6OS-linked regulatory element, lowering SLC7A6OS expression.
+T2U_0111	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the SLC9A6-linked regulatory element, lowering SLC9A6 expression.
+T2U_0112	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the SNRNP48-linked regulatory element, lowering SNRNP48 expression.
+T2U_0113	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the SNRNP70-linked regulatory element, lowering SNRNP70 expression.
+T2U_0114	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the SNRPD3-linked regulatory element, lowering SNRPD3 expression.
+T2U_0115	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the SSB-linked regulatory element, lowering SSB expression.
+T2U_0116	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the STARD10-linked regulatory element, lowering STARD10 expression.
+T2U_0117	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the TFAM-linked regulatory element, lowering TFAM expression.
+T2U_0118	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the THOC7-linked regulatory element, lowering THOC7 expression.
+T2U_0119	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the THOP1-linked regulatory element, lowering THOP1 expression.
+T2U_0120	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the TIMM17A-linked regulatory element, lowering TIMM17A expression.
+T2U_0121	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the TMEM258-linked regulatory element, lowering TMEM258 expression.
+T2U_0122	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the TMOD2-linked regulatory element, lowering TMOD2 expression.
+T2U_0123	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the TOMM70-linked regulatory element, lowering TOMM70 expression.
+T2U_0124	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the TPRA1-linked regulatory element, lowering TPRA1 expression.
+T2U_0125	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the UBALD1-linked regulatory element, lowering UBALD1 expression.
+T2U_0126	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the UBFD1-linked regulatory element, lowering UBFD1 expression.
+T2U_0127	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the UQCR10-linked regulatory element, lowering UQCR10 expression.
+T2U_0128	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the VASP-linked regulatory element, lowering VASP expression.
+T2U_0129	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the ZBTB10-linked regulatory element, lowering ZBTB10 expression.
+T2U_0130	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the ZFTA-linked regulatory element, lowering ZFTA expression.
+T2U_0131	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the ZMYM6-linked regulatory element, lowering ZMYM6 expression.
+T2U_0132	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the ZNF200-linked regulatory element, lowering ZNF200 expression.
+T2U_0133	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the ZNF24-linked regulatory element, lowering ZNF24 expression.
+T2U_0134	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the ZNF354A-linked regulatory element, lowering ZNF354A expression.
+T2U_0135	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the ZNF382-linked regulatory element, lowering ZNF382 expression.
+T2U_0136	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the ZNF473-linked regulatory element, lowering ZNF473 expression.
+T2U_0137	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the ZNF485-linked regulatory element, lowering ZNF485 expression.
+T2U_0138	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the ZNF607-linked regulatory element, lowering ZNF607 expression.
+T2U_0139	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the ZNF746-linked regulatory element, lowering ZNF746 expression.
+T2U_0140	down	Direct cis-regulatory DNA: ZNF143 loss reduces transcription through the ZW10-linked regulatory element, lowering ZW10 expression.
+T2U_0141	down	Direct cis-regulatory DNA: NANOG protein loss reduces NANOG-driven transcription at the Nanog regulatory locus, lowering Nanog expression.
+T2U_0142	down	Direct cis-regulatory DNA: POU5F1/OCT4 protein loss reduces transcription through the Pax6-linked regulatory element, lowering Pax6 expression.
+T2U_0143	down	Direct cis-regulatory DNA: POU5F1/OCT4 protein loss reduces transcription through the Utf1-linked regulatory element, lowering Utf1 expression.
+T2U_0144	up	Regulatory RNA-mediated indirect regulation: lincRNA-p21 loss removes its intermediate repression of MTAP4 downstream of TP53, increasing MTAP4 expression.
+T2U_0145	up	Regulatory RNA-mediated indirect regulation: lincRNA-p21 loss removes its intermediate repression of SUV39H1 downstream of TP53, increasing SUV39H1 expression.
+T2U_0146	up	Regulatory RNA-mediated indirect regulation: lincRNA-p21 loss removes its intermediate repression of VCAN downstream of TP53, increasing VCAN expression.
+T2U_0147	up	Regulatory RNA-mediated indirect regulation: miR-210 loss removes RNA-mediated repression of E2F3 downstream of HIF1A, increasing E2F3 expression.
+T2U_0148	up	Combinatorial TF regulation: activation of NOTCH1 together with TGF-beta/SMAD3 strengthens the cooperative SMAD3 input at PTPRK, increasing PTPRK expression.
+T2U_0149	down	Combinatorial TF regulation: NOTCH1 loss weakens the partner input required for SMAD3-dependent PTPRK activation, lowering PTPRK expression.
+T2U_0150	down	Direct cis-regulatory DNA: SMAD3 loss reduces transcription through the PTPRK-linked regulatory element, lowering PTPRK expression.
+T2U_0151	down	Combinatorial TF regulation: SMAD4 loss disrupts the SMAD3-associated partner complex required for PTPRK activation, lowering PTPRK expression.
+T2U_0152	up	Chromatin-mediated regulation: UHRF1 loss reduces repressive chromatin or DNA methylation at the PPARA-responsive Cdh1 locus, increasing Cdh1 expression.
+T2U_0153	up	Chromatin-mediated regulation: UHRF1 loss reduces repressive chromatin or DNA methylation at the PPARA-responsive Cdh3 locus, increasing Cdh3 expression.
+T2U_0154	up	Chromatin-mediated regulation: UHRF1 loss reduces repressive chromatin or DNA methylation at the PPARA-responsive Smpd3 locus, increasing Smpd3 expression.
+T2U_0155	down	Regulatory RNA-mediated indirect regulation: miR-210 activation increases RNA-mediated repression of E2F3 downstream of HIF1A, lowering E2F3 expression.
+T2U_0156	down	Direct cis-regulatory DNA: perturbing the Nanog upstream regulatory site weakens POU5F1-dependent transcription, lowering Nanog expression.
+T2U_0157	down	Direct cis-regulatory DNA: perturbing the TBC1D4 intronic NF-kB site weakens RELA-linked transcription, lowering TBC1D4 expression.
+T2U_0158	down	Direct cis-regulatory DNA: perturbing the MYC E-box weakens MYC-dependent transcription of PRKCQ, lowering PRKCQ expression.
+T2U_0159	down	Direct cis-regulatory DNA: perturbing the MYC E-box weakens MYC-dependent transcription of PRKCQ-AS1, lowering PRKCQ-AS1 expression.
+T2U_0160	down	Direct cis-regulatory DNA: perturbing the MYC E-box weakens MYC-dependent transcription of PFAS, lowering PFAS expression.
+T2U_0161	down	Combinatorial TF regulation: FOXK1 loss removes the partner input required for TP63-dependent ANKRD27 activation, lowering ANKRD27 expression.
+T2U_0162	down	Combinatorial TF regulation: FOXK1 loss removes the partner input required for TP63-dependent HNRNPA1 activation, lowering HNRNPA1 expression.
+T2U_0163	down	Combinatorial TF regulation: FOXK1 loss removes the partner input required for TP63-dependent HNRNPL activation, lowering HNRNPL expression.
+T2U_0164	down	Combinatorial TF regulation: FOXK1 loss removes the partner input required for TP63-dependent L3HYPDH activation, lowering L3HYPDH expression.
+T2U_0165	down	Combinatorial TF regulation: FOXK1 loss removes the partner input required for TP63-dependent NABP2 activation, lowering NABP2 expression.
+T2U_0166	down	Combinatorial TF regulation: FOXK1 loss removes the partner input required for TP63-dependent RPS16 activation, lowering RPS16 expression.
+T2U_0167	down	Combinatorial TF regulation: FOXK1 loss removes the partner input required for TP63-dependent TIMM50 activation, lowering TIMM50 expression.
+T2U_0168	down	Combinatorial TF regulation: MAFG/MAFF loss weakens the partner complex required for NFE2L2-dependent Txnrd1 activation, lowering Txnrd1 expression.
+T2U_0169	down	Direct cis-regulatory DNA: NFE2L2 loss reduces transcription through the Txnrd1-linked regulatory element, lowering Txnrd1 expression.
+T2U_0170	up	Regulatory RNA-mediated indirect regulation: miR-451 loss removes RNA-mediated repression of Ywhaz downstream of GATA1, increasing Ywhaz expression.
+T2U_0171	down	Direct cis-regulatory DNA: perturbing Klf4 regulatory site E2 weakens STAT3-linked transcription, lowering Klf4 expression.
+T2U_0172	down	Direct cis-regulatory DNA: perturbing the ATP2B4 intronic regulatory site weakens GATA1-linked transcription, lowering ATP2B4 expression.
+T2U_0173	up	Chromatin-mediated regulation: BRG1/SMARCA4 loss disrupts REST-associated repressive chromatin at L1CAM, relieving repression and increasing L1CAM expression.
+T2U_0174	up	Chromatin-mediated regulation: BRG1/SMARCA4 loss disrupts REST-associated repressive chromatin at SNAP25, relieving repression and increasing SNAP25 expression.
+T2U_0175	down	Direct cis-regulatory DNA: perturbing the CUL3 intronic regulatory region weakens ZNF263-linked transcription, lowering CUL3 expression.
+T2U_0176	down	Direct cis-regulatory DNA: perturbing CUL3 regulatory site B weakens YY1-linked transcription, lowering CUL3 expression.
+T2U_0179	down	Direct cis-regulatory DNA: perturbing CUL3 regulatory site A weakens CTCF-linked transcription, lowering CUL3 expression.
+T2U_0180	down	Regulatory RNA-mediated indirect regulation: miR-451 activation increases RNA-mediated repression of Ywhaz downstream of GATA1, lowering Ywhaz expression.
+T2U_0181	down	Chromatin-mediated regulation: KMT2D loss disrupts activating chromatin at the GATA1-responsive EPOR locus, lowering EPOR expression.
+T2U_0182	down	Chromatin-mediated regulation: KMT2D loss disrupts activating chromatin at the GATA1-responsive SLC25A37 locus, lowering SLC25A37 expression.
+T2U_0183	down	Regulatory RNA-mediated indirect regulation: miR-10b activation increases RNA-mediated repression of HOXD10 downstream of TWIST1, lowering HOXD10 expression.
+T2U_0186	down	Chromatin-mediated regulation: KMT2D loss disrupts activating chromatin at the GATA1-responsive SLC22A4 locus, lowering SLC22A4 expression.
+T2U_0188	down	Chromatin-mediated regulation: KMT2D loss disrupts activating chromatin at the GATA1-responsive ZFPM1 locus, lowering ZFPM1 expression.
+T2U_0189	up	Regulatory RNA-mediated indirect regulation: miR-181b loss removes RNA-mediated repression of CYLD downstream of STAT3, increasing CYLD expression.
+T2U_0190	up	Regulatory RNA-mediated indirect regulation: miR-181b-1 loss removes RNA-mediated repression of CYLD downstream of STAT3, increasing CYLD expression.
+T2U_0191	up	Regulatory RNA-mediated indirect regulation: miR-21 loss removes RNA-mediated repression of PTEN downstream of STAT3, increasing PTEN expression.
+T2U_0192	up	Regulatory RNA-mediated indirect regulation: miR-210 loss removes RNA-mediated repression of ISCU downstream of HIF1A, increasing ISCU expression.
+T2U_0193	down	Regulatory RNA-mediated indirect regulation: miR-181b activation increases RNA-mediated repression of CYLD downstream of STAT3, lowering CYLD expression.
+T2U_0195	down	Direct cis-regulatory DNA: ETV4 loss reduces transcription through the NOTCH4-linked regulatory element, lowering NOTCH4 expression.
+T2U_0196	down	Combinatorial TF regulation: FOSL1 loss removes the partner input required for ETV4-dependent NOTCH4 activation, lowering NOTCH4 expression.
+T2U_0197	down	Combinatorial TF regulation: JUN loss removes the partner input required for ETV4-dependent NOTCH4 activation, lowering NOTCH4 expression.
+T2U_0198	down	Regulatory RNA-mediated indirect regulation: LED lncRNA loss removes the RNA intermediate supporting TP53-dependent CDKN1A activation, lowering CDKN1A expression.
+T2U_0199	up	Chromatin-mediated regulation: LSD1/KDM1A loss relieves repressive chromatin imposed with GATA2 at the GATA1 locus, increasing GATA1 expression.

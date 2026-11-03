@@ -1,0 +1,33 @@
+{
+  "task": "task2",
+  "n_units": 193,
+  "direction_metrics": {
+    "accuracy": 0.0,
+    "balanced_accuracy": 0.0,
+    "macro_f1": 0.0,
+    "invalid_outputs": [
+      "unparsed"
+    ],
+    "per_class": {
+      "down": {
+        "support": 167,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "up": {
+        "support": 26,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    }
+  },
+  "reasoning_present_rate": 0.0,
+  "exact_mechanism_label_mention_rate_diagnostic_only": 0.0,
+  "label_mention_is_not_chain_credit": true,
+  "reasoning_chain_status": "not_scored: provide --reasoning-judgments after blinded semantic adjudication",
+  "full_reasoning_chain_accuracy": null,
+  "mean_reasoning_chain_component_score": null,
+  "direction_and_full_reasoning_chain_joint_accuracy": null
+}

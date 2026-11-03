@@ -1,0 +1,68 @@
+{
+ "shared_fail": [
+  "T2U_0003",
+  "T2U_0004",
+  "T2U_0005",
+  "T2U_0006",
+  "T2U_0007",
+  "T2U_0008",
+  "T2U_0009",
+  "T2U_0013",
+  "T2U_0014",
+  "T2U_0015",
+  "T2U_0016",
+  "T2U_0017",
+  "T2U_0018",
+  "T2U_0019",
+  "T2U_0020",
+  "T2U_0021",
+  "T2U_0022",
+  "T2U_0023",
+  "T2U_0036",
+  "T2U_0037",
+  "T2U_0038",
+  "T2U_0169"
+ ],
+ "shared_pass_n": 159,
+ "shared_fail_comp": {
+  "combinatorial_tf_regulation": 17,
+  "chromatin_mediated_regulation": 5
+ },
+ "shared_pass_comp": {
+  "chromatin_mediated_regulation": 15,
+  "regulatory_rna_mediated_indirect_regulation": 16,
+  "combinatorial_tf_regulation": 16,
+  "direct_cis_regulatory_dna": 112
+ },
+ "near_miss_unitruns": {
+  "gpt": 12,
+  "claude": 9,
+  "gemini": 32,
+  "glm": 0,
+  "grok": 5,
+  "biomni": 4
+ },
+ "near_miss_units": {
+  "gpt": 12,
+  "claude": 6,
+  "gemini": 32,
+  "glm": 0,
+  "grok": 5,
+  "biomni": 4
+ },
+ "family_co": {
+  "FOXK1": 83.3,
+  "ESR1": 95.8,
+  "TAL1": 95.8,
+  "SRCAP": 95.8,
+  "BHLHE40": 100.0
+ },
+ "foxk1_mentions": {
+  "total": 168,
+  "mentions": 28,
+  "by_system": {
+   "gpt": 21,
+   "gemini": 7
+  }
+ }
+}

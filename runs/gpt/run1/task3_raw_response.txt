@@ -1,0 +1,21 @@
+unit_id	predicted_intervention_type	mechanism_reasoning
+T3VP_0001	overexpression	Regulatory RNA-mediated indirect regulation: STAT3 induces miR-181b, which represses CYLD; miR-181b overexpression therefore lowers CYLD.
+T3VP_0002	knockdown	Combinatorial TF regulation: PPARA and BHLHE40 cooperate to activate Pdk4, so BHLHE40 knockdown reduces Pdk4.
+T3VP_0003	knockdown	Regulatory RNA-mediated indirect regulation: TWIST1 induces miR-10b, which represses HOXD10; miR-10b knockdown releases HOXD10 and raises its expression.
+T3VP_0004	overexpression	Direct cis-regulatory DNA regulation: increased PPARA binds the Angptl4 regulatory element and activates Angptl4.
+T3VP_0005	overexpression	Direct cis-regulatory DNA regulation: increased PPARA binds the Hmgcs2 regulatory element and activates Hmgcs2.
+T3VP_0006	knockdown	Combinatorial TF regulation: NOTCH1 cooperates with SMAD3 in activating PTPRK, so NOTCH1 knockdown lowers PTPRK.
+T3VP_0007	knockdown	Combinatorial TF regulation: SMAD3 directly participates with its cooperating complex at PTPRK regulatory DNA; SMAD3 knockdown lowers PTPRK.
+T3VP_0008	knockdown	Combinatorial TF regulation: SMAD4 is the partner component required with SMAD3 for PTPRK activation, so SMAD4 knockdown lowers PTPRK.
+T3VP_0009	activation	Combinatorial TF regulation: activated TGF-beta/SMAD3 and NOTCH1 signaling cooperatively stimulates the PTPRK regulatory complex, increasing PTPRK.
+T3VP_0010	overexpression	Regulatory RNA-mediated indirect regulation: HIF1A induces miR-210, which represses ISCU; miR-210 overexpression lowers ISCU.
+T3VP_0011	knockdown	Regulatory RNA-mediated indirect regulation: STAT3 induces miR-181b, which represses CYLD; miR-181b knockdown relieves repression and raises CYLD.
+T3VP_0012	overexpression	Direct cis-regulatory DNA regulation: increased PPARA binds the Pdk4 regulatory element and activates Pdk4.
+T3VP_0013	knockdown	Regulatory RNA-mediated indirect regulation: HIF1A-induced miR-210 represses E2F3, so miR-210 knockdown releases E2F3 and raises its expression.
+T3VP_0014	overexpression	Regulatory RNA-mediated indirect regulation: TWIST1 induces miR-10b, which represses HOXD10; miR-10b overexpression lowers HOXD10.
+T3VP_0015	knockdown	Regulatory RNA-mediated indirect regulation: GATA1 induces miR-451, which represses Ywhaz; miR-451 knockdown relieves repression and raises Ywhaz.
+T3VP_0016	knockdown	Regulatory RNA-mediated indirect regulation: HIF1A-induced miR-210 represses ISCU, so miR-210 knockdown relieves repression and raises ISCU.
+T3VP_0017	overexpression	Regulatory RNA-mediated indirect regulation: GATA1 induces miR-451, which represses Ywhaz; miR-451 overexpression lowers Ywhaz.
+T3VP_0018	knockdown	Combinatorial TF regulation: PPARA and BHLHE40 cooperate to activate Hmgcs2, so BHLHE40 knockdown reduces Hmgcs2.
+T3VP_0019	overexpression	Regulatory RNA-mediated indirect regulation: HIF1A induces miR-210, which represses E2F3; miR-210 overexpression lowers E2F3.
+T3VP_0020	knockdown	Combinatorial TF regulation: PPARA and BHLHE40 cooperate to activate Angptl4, so BHLHE40 knockdown reduces Angptl4.

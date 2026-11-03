@@ -1,0 +1,194 @@
+unit_id	predicted_direction	mechanism_reasoning
+T2U_0001	up	EED/PRC2 maintains repressive chromatin at CDX2-regulated Scin; reducing PRC2 relieves that repression and raises Scin expression.
+T2U_0002	up	EED/PRC2 maintains repressive chromatin at CDX2-regulated Slc26a6; reducing PRC2 relieves that repression and raises Slc26a6 expression.
+T2U_0003	down	TP63 cooperates with FOXK1 to activate ANKRD27; reducing TP63 weakens their joint transcriptional activity and lowers ANKRD27.
+T2U_0004	down	TP63 cooperates with FOXK1 to activate HNRNPA1; reducing TP63 weakens their joint transcriptional activity and lowers HNRNPA1.
+T2U_0005	down	TP63 cooperates with FOXK1 to activate HNRNPL; reducing TP63 weakens their joint transcriptional activity and lowers HNRNPL.
+T2U_0006	down	TP63 cooperates with FOXK1 to activate L3HYPDH; reducing TP63 weakens their joint transcriptional activity and lowers L3HYPDH.
+T2U_0007	down	TP63 cooperates with FOXK1 to activate NABP2; reducing TP63 weakens their joint transcriptional activity and lowers NABP2.
+T2U_0008	down	TP63 cooperates with FOXK1 to activate RPS16; reducing TP63 weakens their joint transcriptional activity and lowers RPS16.
+T2U_0009	down	TP63 cooperates with FOXK1 to activate TIMM50; reducing TP63 weakens their joint transcriptional activity and lowers TIMM50.
+T2U_0010	down	TET2 supports a permissive chromatin state for ESR1-dependent ELOVL2 activation; reducing TET2 lowers ELOVL2 expression.
+T2U_0011	down	TET2 supports a permissive chromatin state for ESR1-dependent PTGES activation; reducing TET2 lowers PTGES expression.
+T2U_0012	down	TET2 supports a permissive chromatin state for ESR1-dependent WIPF1 activation; reducing TET2 lowers WIPF1 expression.
+T2U_0013	down	ESR1 acts through CISH-linked regulatory DNA to promote transcription; reducing those sites weakens cis-regulatory activation and lowers CISH.
+T2U_0014	down	ESR1 acts through G0S2-linked regulatory DNA to promote transcription; reducing those sites weakens cis-regulatory activation and lowers G0S2.
+T2U_0015	down	ESR1 acts through MMP17-linked regulatory DNA to promote transcription; reducing those sites weakens cis-regulatory activation and lowers MMP17.
+T2U_0016	down	GATA1 requires a partner TF for Lrrc39 activation; the D218G variant disrupts that cooperation and lowers Lrrc39.
+T2U_0017	down	GATA1 requires a partner TF for Rragd activation; the D218G variant disrupts that cooperation and lowers Rragd.
+T2U_0018	down	GATA1 requires a partner TF for Slc4a1 activation; the D218G variant disrupts that cooperation and lowers Slc4a1.
+T2U_0019	down	GATA1 requires a partner TF for Lrrc39 activation; the R216Q variant disrupts that cooperation and lowers Lrrc39.
+T2U_0020	down	GATA1 requires a partner TF for Rragd activation; the R216Q variant disrupts that cooperation and lowers Rragd.
+T2U_0021	down	GATA1 requires a partner TF for Slc4a1 activation; the R216Q variant disrupts that cooperation and lowers Slc4a1.
+T2U_0022	down	H2A.Z helps maintain chromatin permissive for TP63-dependent SAMD9L transcription; reducing H2A.Z lowers SAMD9L.
+T2U_0023	down	H2A.Z helps maintain chromatin permissive for TP63-dependent ZHX2 transcription; reducing H2A.Z lowers ZHX2.
+T2U_0024	down	HIF1A promotes miR-210, which represses ISCU; increasing miR-210 strengthens this RNA-mediated repression and lowers ISCU.
+T2U_0025	up	TWIST1 promotes miR-10b, which represses HOXD10; reducing miR-10b releases HOXD10 from RNA-mediated repression.
+T2U_0026	down	CA12e is target-linked regulatory DNA through which ESR1 activates CA12; reducing the enhancer lowers CA12 expression.
+T2U_0027	down	FOXC1e is target-linked regulatory DNA through which ESR1 activates FOXC1; reducing the enhancer lowers FOXC1 expression.
+T2U_0028	down	GREB1e is target-linked regulatory DNA through which ESR1 activates GREB1; reducing the enhancer lowers GREB1 expression.
+T2U_0029	down	KCNK5e is target-linked regulatory DNA through which ESR1 activates KCNK5; reducing the enhancer lowers KCNK5 expression.
+T2U_0030	down	NRIP1e is target-linked regulatory DNA through which ESR1 activates NRIP1; reducing the enhancer lowers NRIP1 expression.
+T2U_0031	down	P2RY2e is target-linked regulatory DNA through which ESR1 activates P2RY2; reducing the enhancer lowers P2RY2 expression.
+T2U_0032	down	PGRe is target-linked regulatory DNA through which ESR1 activates PGR; reducing the enhancer lowers PGR expression.
+T2U_0033	down	SIAH2e is target-linked regulatory DNA through which ESR1 activates SIAH2; reducing the enhancer lowers SIAH2 expression.
+T2U_0034	down	SMAD7e is target-linked regulatory DNA through which ESR1 activates SMAD7; reducing the enhancer lowers SMAD7 expression.
+T2U_0035	down	TFF1e is target-linked regulatory DNA through which ESR1 activates TFF1; reducing the enhancer lowers TFF1 expression.
+T2U_0036	up	PPARA activates Angptl4 in a regulatory program opposed by BHLHE40; increasing PPARA raises Angptl4 transcription.
+T2U_0037	up	PPARA activates Hmgcs2 in a regulatory program opposed by BHLHE40; increasing PPARA raises Hmgcs2 transcription.
+T2U_0038	up	PPARA activates Pdk4 in a regulatory program opposed by BHLHE40; increasing PPARA raises Pdk4 transcription.
+T2U_0039	up	BHLHE40 opposes PPARA-dependent Angptl4 activation; reducing BHLHE40 releases that restraint and raises Angptl4.
+T2U_0040	up	BHLHE40 opposes PPARA-dependent Hmgcs2 activation; reducing BHLHE40 releases that restraint and raises Hmgcs2.
+T2U_0041	up	BHLHE40 opposes PPARA-dependent Pdk4 activation; reducing BHLHE40 releases that restraint and raises Pdk4.
+T2U_0042	down	ZNF143 activates ABCF2 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers ABCF2.
+T2U_0043	down	ZNF143 activates ADAT3 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers ADAT3.
+T2U_0044	down	ZNF143 activates AKR1A1 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers AKR1A1.
+T2U_0045	down	ZNF143 activates ANKRD13B through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers ANKRD13B.
+T2U_0046	down	ZNF143 activates AP1S3 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers AP1S3.
+T2U_0047	down	ZNF143 activates ARID5A through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers ARID5A.
+T2U_0048	down	ZNF143 activates ASB13 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers ASB13.
+T2U_0049	down	ZNF143 activates BIRC5 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers BIRC5.
+T2U_0050	down	ZNF143 activates CASC3 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers CASC3.
+T2U_0051	down	ZNF143 activates CCDC157 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers CCDC157.
+T2U_0052	down	ZNF143 activates CCDC92 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers CCDC92.
+T2U_0053	down	ZNF143 activates CCPG1 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers CCPG1.
+T2U_0054	down	ZNF143 activates CKAP2L through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers CKAP2L.
+T2U_0055	down	ZNF143 activates CNIH1 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers CNIH1.
+T2U_0056	down	ZNF143 activates CPOX through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers CPOX.
+T2U_0057	down	ZNF143 activates CPSF4 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers CPSF4.
+T2U_0058	down	ZNF143 activates CRCP through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers CRCP.
+T2U_0059	down	ZNF143 activates CREBL2 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers CREBL2.
+T2U_0060	down	ZNF143 activates CWC15 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers CWC15.
+T2U_0061	down	ZNF143 activates CYB5R1 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers CYB5R1.
+T2U_0062	down	ZNF143 activates EGR1 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers EGR1.
+T2U_0063	down	ZNF143 activates EMC1 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers EMC1.
+T2U_0064	down	ZNF143 activates ENKD1 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers ENKD1.
+T2U_0065	down	ZNF143 activates ERAL1 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers ERAL1.
+T2U_0066	down	ZNF143 activates ERP44 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers ERP44.
+T2U_0067	down	ZNF143 activates FASTK through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers FASTK.
+T2U_0068	down	ZNF143 activates FH through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers FH.
+T2U_0069	down	ZNF143 activates GAMT through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers GAMT.
+T2U_0070	down	ZNF143 activates GOLGA2 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers GOLGA2.
+T2U_0071	down	ZNF143 activates GTPBP8 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers GTPBP8.
+T2U_0072	down	ZNF143 activates HMGCL through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers HMGCL.
+T2U_0073	down	ZNF143 activates HSPA14 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers HSPA14.
+T2U_0074	down	ZNF143 activates IK through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers IK.
+T2U_0075	down	ZNF143 activates JMJD8 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers JMJD8.
+T2U_0076	down	ZNF143 activates JUN through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers JUN.
+T2U_0077	down	ZNF143 activates JUND through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers JUND.
+T2U_0078	down	ZNF143 activates KDELR2 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers KDELR2.
+T2U_0079	down	ZNF143 activates KLC2 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers KLC2.
+T2U_0080	down	ZNF143 activates KPNA5 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers KPNA5.
+T2U_0081	down	ZNF143 activates LATS1 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers LATS1.
+T2U_0082	down	ZNF143 activates MED16 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers MED16.
+T2U_0083	down	ZNF143 activates MFSD3 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers MFSD3.
+T2U_0084	down	ZNF143 activates MRPL46 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers MRPL46.
+T2U_0085	down	ZNF143 activates MRPL54 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers MRPL54.
+T2U_0086	down	ZNF143 activates MRPS11 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers MRPS11.
+T2U_0087	down	ZNF143 activates MTMR1 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers MTMR1.
+T2U_0088	down	ZNF143 activates NUTF2 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers NUTF2.
+T2U_0089	down	ZNF143 activates PAPOLG through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers PAPOLG.
+T2U_0090	down	ZNF143 activates PLAGL2 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers PLAGL2.
+T2U_0091	down	ZNF143 activates PNKD through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers PNKD.
+T2U_0092	down	ZNF143 activates POMT2 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers POMT2.
+T2U_0093	down	ZNF143 activates PRIM1 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers PRIM1.
+T2U_0094	down	ZNF143 activates PRKAA2 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers PRKAA2.
+T2U_0095	down	ZNF143 activates PROSER3 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers PROSER3.
+T2U_0096	down	ZNF143 activates PSMC6 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers PSMC6.
+T2U_0097	down	ZNF143 activates PTPMT1 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers PTPMT1.
+T2U_0098	down	ZNF143 activates PTRHD1 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers PTRHD1.
+T2U_0099	down	ZNF143 activates RDH11 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers RDH11.
+T2U_0100	down	ZNF143 activates RIC8A through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers RIC8A.
+T2U_0101	down	ZNF143 activates RNF40 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers RNF40.
+T2U_0102	down	ZNF143 activates RPAIN through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers RPAIN.
+T2U_0103	down	ZNF143 activates RPL6 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers RPL6.
+T2U_0104	down	ZNF143 activates RSBN1 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers RSBN1.
+T2U_0105	down	ZNF143 activates SAMD13 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers SAMD13.
+T2U_0106	down	ZNF143 activates SAV1 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers SAV1.
+T2U_0107	down	ZNF143 activates SEPTIN8 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers SEPTIN8.
+T2U_0108	down	ZNF143 activates SFT2D2 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers SFT2D2.
+T2U_0109	down	ZNF143 activates SGF29 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers SGF29.
+T2U_0110	down	ZNF143 activates SLC7A6OS through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers SLC7A6OS.
+T2U_0111	down	ZNF143 activates SLC9A6 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers SLC9A6.
+T2U_0112	down	ZNF143 activates SNRNP48 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers SNRNP48.
+T2U_0113	down	ZNF143 activates SNRNP70 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers SNRNP70.
+T2U_0114	down	ZNF143 activates SNRPD3 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers SNRPD3.
+T2U_0115	down	ZNF143 activates SSB through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers SSB.
+T2U_0116	down	ZNF143 activates STARD10 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers STARD10.
+T2U_0117	down	ZNF143 activates TFAM through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers TFAM.
+T2U_0118	down	ZNF143 activates THOC7 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers THOC7.
+T2U_0119	down	ZNF143 activates THOP1 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers THOP1.
+T2U_0120	down	ZNF143 activates TIMM17A through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers TIMM17A.
+T2U_0121	down	ZNF143 activates TMEM258 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers TMEM258.
+T2U_0122	down	ZNF143 activates TMOD2 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers TMOD2.
+T2U_0123	down	ZNF143 activates TOMM70 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers TOMM70.
+T2U_0124	down	ZNF143 activates TPRA1 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers TPRA1.
+T2U_0125	down	ZNF143 activates UBALD1 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers UBALD1.
+T2U_0126	down	ZNF143 activates UBFD1 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers UBFD1.
+T2U_0127	down	ZNF143 activates UQCR10 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers UQCR10.
+T2U_0128	down	ZNF143 activates VASP through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers VASP.
+T2U_0129	down	ZNF143 activates ZBTB10 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers ZBTB10.
+T2U_0130	down	ZNF143 activates ZFTA through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers ZFTA.
+T2U_0131	down	ZNF143 activates ZMYM6 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers ZMYM6.
+T2U_0132	down	ZNF143 activates ZNF200 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers ZNF200.
+T2U_0133	down	ZNF143 activates ZNF24 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers ZNF24.
+T2U_0134	down	ZNF143 activates ZNF354A through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers ZNF354A.
+T2U_0135	down	ZNF143 activates ZNF382 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers ZNF382.
+T2U_0136	down	ZNF143 activates ZNF473 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers ZNF473.
+T2U_0137	down	ZNF143 activates ZNF485 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers ZNF485.
+T2U_0138	down	ZNF143 activates ZNF607 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers ZNF607.
+T2U_0139	down	ZNF143 activates ZNF746 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers ZNF746.
+T2U_0140	down	ZNF143 activates ZW10 through target-linked regulatory DNA; reducing ZNF143 weakens that cis-regulatory input and lowers ZW10.
+T2U_0141	down	NANOG supports its own transcription through Nanog-linked regulatory DNA; reducing NANOG protein weakens this positive cis-regulatory input and lowers Nanog.
+T2U_0142	up	POU5F1 acts with partner TFs to restrain Pax6 transcription; reducing POU5F1 releases that combinatorial repression and raises Pax6.
+T2U_0143	down	POU5F1 acts with partner TFs to activate Utf1; reducing POU5F1 weakens their combined input and lowers Utf1.
+T2U_0144	up	TP53 acts upstream of lincRNA-p21, which relays repression to MTAP4; reducing the RNA releases MTAP4 expression.
+T2U_0145	up	TP53 acts upstream of lincRNA-p21, which relays repression to SUV39H1; reducing the RNA releases SUV39H1 expression.
+T2U_0146	up	TP53 acts upstream of lincRNA-p21, which relays repression to VCAN; reducing the RNA releases VCAN expression.
+T2U_0147	up	HIF1A promotes miR-210, which represses E2F3; reducing miR-210 relieves this RNA-mediated repression and raises E2F3.
+T2U_0148	up	NOTCH1 supplies a cooperating transcriptional input to TGF-beta-activated SMAD3 and SMAD4 at PTPRK; activating both inputs raises PTPRK.
+T2U_0149	down	NOTCH1 cooperates with SMAD3 and SMAD4 to activate PTPRK; reducing NOTCH1 weakens that joint input and lowers PTPRK.
+T2U_0150	down	SMAD3 cooperates with NOTCH1 and SMAD4 to activate PTPRK; reducing SMAD3 weakens that joint input and lowers PTPRK.
+T2U_0151	down	SMAD4 partners with SMAD3 in NOTCH1-dependent PTPRK activation; reducing SMAD4 weakens that joint input and lowers PTPRK.
+T2U_0152	up	UHRF1 maintains repressive chromatin that limits PPARA-dependent Cdh1 expression; reducing UHRF1 relieves repression and raises Cdh1.
+T2U_0153	up	UHRF1 maintains repressive chromatin that limits PPARA-dependent Cdh3 expression; reducing UHRF1 relieves repression and raises Cdh3.
+T2U_0154	up	UHRF1 maintains repressive chromatin that limits PPARA-dependent Smpd3 expression; reducing UHRF1 relieves repression and raises Smpd3.
+T2U_0155	down	HIF1A promotes miR-210, which represses E2F3; increasing miR-210 strengthens this RNA-mediated repression and lowers E2F3.
+T2U_0156	down	POU5F1 acts through the Nanog upstream regulatory site to support Nanog transcription; perturbing that cis element lowers Nanog.
+T2U_0157	down	RELA acts through the intronic NF-kB regulatory site to activate TBC1D4; perturbing that cis element lowers TBC1D4.
+T2U_0158	down	MYC acts through the specified E-box to activate PRKCQ-linked transcription; perturbing that cis element lowers PRKCQ.
+T2U_0159	down	MYC acts through the specified E-box to activate PRKCQ-AS1-linked transcription; perturbing that cis element lowers PRKCQ-AS1.
+T2U_0160	down	MYC acts through the specified E-box to activate PFAS; perturbing that cis element lowers PFAS.
+T2U_0161	down	FOXK1 partners with TP63 to activate ANKRD27; reducing FOXK1 weakens the combined transcriptional input and lowers ANKRD27.
+T2U_0162	down	FOXK1 partners with TP63 to activate HNRNPA1; reducing FOXK1 weakens the combined transcriptional input and lowers HNRNPA1.
+T2U_0163	down	FOXK1 partners with TP63 to activate HNRNPL; reducing FOXK1 weakens the combined transcriptional input and lowers HNRNPL.
+T2U_0164	down	FOXK1 partners with TP63 to activate L3HYPDH; reducing FOXK1 weakens the combined transcriptional input and lowers L3HYPDH.
+T2U_0165	down	FOXK1 partners with TP63 to activate NABP2; reducing FOXK1 weakens the combined transcriptional input and lowers NABP2.
+T2U_0166	down	FOXK1 partners with TP63 to activate RPS16; reducing FOXK1 weakens the combined transcriptional input and lowers RPS16.
+T2U_0167	down	FOXK1 partners with TP63 to activate TIMM50; reducing FOXK1 weakens the combined transcriptional input and lowers TIMM50.
+T2U_0168	down	MAFG/MAFF are partner TFs required for NFE2L2-mediated Txnrd1 activation; reducing them weakens the complex and lowers Txnrd1.
+T2U_0169	down	NFE2L2 activates Txnrd1 together with MAFG/MAFF; reducing NFE2L2 weakens that combinatorial input and lowers Txnrd1.
+T2U_0170	up	GATA1 promotes miR-451, which represses Ywhaz; reducing miR-451 releases that RNA-mediated repression and raises Ywhaz.
+T2U_0171	down	STAT3 supports Klf4 transcription through regulatory site E2; perturbing that target-linked cis element lowers Klf4.
+T2U_0172	down	GATA1 supports ATP2B4 transcription through its intronic regulatory site; perturbing that cis element lowers ATP2B4.
+T2U_0173	up	REST uses BRG1/SMARCA4-dependent chromatin regulation to repress L1CAM; reducing the remodeler relieves repression and raises L1CAM.
+T2U_0174	up	REST uses BRG1/SMARCA4-dependent chromatin regulation to repress SNAP25; reducing the remodeler relieves repression and raises SNAP25.
+T2U_0175	down	ZNF263 acts through the CUL3 intronic regulatory region to support CUL3 transcription; perturbing that cis region lowers CUL3.
+T2U_0176	down	YY1 acts through CUL3 regulatory site B to support transcription; perturbing that cis site lowers CUL3.
+T2U_0179	down	CTCF acts through CUL3 regulatory site A to support transcription; perturbing that cis site lowers CUL3.
+T2U_0180	down	GATA1 promotes miR-451, which represses Ywhaz; increasing miR-451 strengthens that RNA-mediated repression and lowers Ywhaz.
+T2U_0181	down	KMT2D establishes chromatin permissive for GATA1-dependent EPOR activation; reducing KMT2D lowers EPOR.
+T2U_0182	down	KMT2D establishes chromatin permissive for GATA1-dependent SLC25A37 activation; reducing KMT2D lowers SLC25A37.
+T2U_0183	down	TWIST1 promotes miR-10b, which represses HOXD10; increasing miR-10b strengthens that RNA-mediated repression and lowers HOXD10.
+T2U_0186	down	KMT2D establishes chromatin permissive for GATA1-dependent SLC22A4 activation; reducing KMT2D lowers SLC22A4.
+T2U_0188	down	KMT2D establishes chromatin permissive for GATA1-dependent ZFPM1 activation; reducing KMT2D lowers ZFPM1.
+T2U_0189	up	STAT3 promotes miR-181b, which represses CYLD; reducing miR-181b releases CYLD from RNA-mediated repression.
+T2U_0190	up	STAT3 promotes miR-181b-1, whose miR-181b product represses CYLD; reducing miR-181b-1 releases CYLD expression.
+T2U_0191	up	STAT3 promotes miR-21, which represses PTEN; reducing miR-21 releases PTEN from RNA-mediated repression.
+T2U_0192	up	HIF1A promotes miR-210, which represses ISCU; reducing miR-210 releases ISCU from RNA-mediated repression.
+T2U_0193	down	STAT3 promotes miR-181b, which represses CYLD; increasing miR-181b strengthens that RNA-mediated repression and lowers CYLD.
+T2U_0195	down	ETV4 cooperates with FOSL1 and JUN to activate NOTCH4; reducing ETV4 weakens their joint transcriptional input and lowers NOTCH4.
+T2U_0196	down	FOSL1 cooperates with JUN and ETV4 to activate NOTCH4; reducing FOSL1 weakens their joint transcriptional input and lowers NOTCH4.
+T2U_0197	down	JUN cooperates with FOSL1 and ETV4 to activate NOTCH4; reducing JUN weakens their joint transcriptional input and lowers NOTCH4.
+T2U_0198	down	TP53 acts upstream of LED lncRNA, which relays an activating effect to CDKN1A; reducing LED lowers CDKN1A.
+T2U_0199	up	LSD1/KDM1A supplies chromatin-dependent repression in GATA2 regulation of GATA1; reducing LSD1 relieves that repression and raises GATA1.

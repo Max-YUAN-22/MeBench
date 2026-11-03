@@ -1,0 +1,194 @@
+unit_id	predicted_direction	mechanism_reasoning
+T2U_0001	up	Under chromatin_mediated_regulation, CDX2 relies on the repressive chromatin regulator EED/PRC2 to maintain silencing of Scin, and loss of EED/PRC2 relieves chromatin repression to increase target expression.
+T2U_0002	up	Under chromatin_mediated_regulation, CDX2 recruits the repressive chromatin regulator EED/PRC2 to repress Slc26a6, and loss of EED/PRC2 causes derepression and increased target expression.
+T2U_0003	down	Under combinatorial_tf_regulation, TP63 functions together with partner transcription factor FOXK1 at the ANKRD27 locus to activate transcription, and loss of TP63 reduces target expression.
+T2U_0004	down	Under combinatorial_tf_regulation, TP63 operates with cofactor FOXK1 to drive HNRNPA1 transcription, and loss of TP63 decreases target expression.
+T2U_0005	down	Under combinatorial_tf_regulation, TP63 acts with FOXK1 as a combinatorial activator complex at HNRNPL, and loss of TP63 impairs transcriptional activation resulting in decreased target expression.
+T2U_0006	down	Under combinatorial_tf_regulation, TP63 partners with FOXK1 to stimulate L3HYPDH expression, and loss of TP63 diminishes target expression.
+T2U_0007	down	Under combinatorial_tf_regulation, TP63 co-regulates NABP2 activation alongside partner TF FOXK1, and reduction of TP63 attenuates transcription to downregulate the target.
+T2U_0008	down	Under combinatorial_tf_regulation, TP63 collaborates with FOXK1 to activate RPS16 expression, and loss of TP63 leads to decreased target expression.
+T2U_0009	down	Under combinatorial_tf_regulation, TP63 cooperates with FOXK1 to positively regulate TIMM50, and loss of TP63 causes reduced target expression.
+T2U_0010	down	Under chromatin_mediated_regulation, ESR1 depends on the DNA demethylase TET2 to maintain an active chromatin environment at ELOVL2, and loss of TET2 reduces chromatin accessibility and decreases target expression.
+T2U_0011	down	Under chromatin_mediated_regulation, ESR1 activation of PTGES requires chromatin modifier TET2 to sustain active transcription, and loss of TET2 impairs transcription leading to decreased target expression.
+T2U_0012	down	Under chromatin_mediated_regulation, ESR1-mediated induction of WIPF1 requires the chromatin regulator TET2, and loss of TET2 impedes transcriptional activation resulting in down-regulation.
+T2U_0013	down	Under direct_cis_regulatory_dna, ESR1 activates CISH via its cognate cis-regulatory DNA element, and perturbation or loss of this regulatory site impairs ESR1 binding and decreases target expression.
+T2U_0014	down	Under direct_cis_regulatory_dna, ESR1 promotes G0S2 expression through a target-linked cis-regulatory site, and loss of this regulatory element abolishes ESR1-mediated transactivation to downregulate target expression.
+T2U_0015	down	Under direct_cis_regulatory_dna, ESR1 drives MMP17 transcription by engaging its cis-regulatory DNA element, and loss of the regulatory site reduces transcription and decreases target expression.
+T2U_0016	down	Under combinatorial_tf_regulation, GATA1 requires interaction with its partner cofactor FOG1 (ZFPM1) to activate Lrrc39, and the GATA1 D218G functional variant disrupts this combinatorial interaction, leading to decreased target expression.
+T2U_0017	down	Under combinatorial_tf_regulation, GATA1 cooperates with partner protein FOG1 to induce Rragd, and the D218G functional variant perturbs FOG1 binding, diminishing activation and decreasing target expression.
+T2U_0018	down	Under combinatorial_tf_regulation, GATA1 activation of Slc4a1 is dependent on cooperation with its partner FOG1, and the GATA1 D218G variant disrupts FOG1 recruitment, resulting in reduced target expression.
+T2U_0019	down	Under combinatorial_tf_regulation, GATA1 coordinates with cofactor FOG1 to transactivate Lrrc39, and the GATA1 R216Q functional variant impairs FOG1 binding and decreases target expression.
+T2U_0020	down	Under combinatorial_tf_regulation, GATA1 relies on partner TF FOG1 to drive Rragd transcription, and the R216Q functional variant compromises this partnership, leading to down-regulation of target expression.
+T2U_0021	down	Under combinatorial_tf_regulation, GATA1 collaborates with FOG1 to stimulate Slc4a1 expression, and the R216Q variant impairs interaction with FOG1, causing decreased target expression.
+T2U_0022	down	Under chromatin_mediated_regulation, TP63 requires the histone variant H2A.Z to facilitate an accessible chromatin architecture at SAMD9L, and loss of H2A.Z prevents proper activation, decreasing target expression.
+T2U_0023	down	Under chromatin_mediated_regulation, TP63 activates ZHX2 within a permissive chromatin state established by H2A.Z, and loss of H2A.Z diminishes promoter competence and downregulates target expression.
+T2U_0024	down	Under regulatory_rna_mediated_indirect_regulation, HIF1A induces the intermediate regulatory RNA miR-210 which post-transcriptionally represses ISCU, and gain of miR-210 directly enhances ISCU repression, decreasing target expression.
+T2U_0025	up	Under regulatory_rna_mediated_indirect_regulation, TWIST1 stimulates the intermediate regulatory RNA miR-10b to repress HOXD10, and loss of miR-10b relieves repression, increasing HOXD10 expression.
+T2U_0026	down	Under direct_cis_regulatory_dna, ESR1 activates CA12 by binding its specific enhancer CA12e, and loss of CA12e eliminates transcription factor recruitment, decreasing target expression.
+T2U_0027	down	Under direct_cis_regulatory_dna, ESR1 drives FOXC1 expression through the cis-acting enhancer FOXC1e, and deletion or loss of FOXC1e diminishes transcription, decreasing target expression.
+T2U_0028	down	Under direct_cis_regulatory_dna, ESR1 induces GREB1 via the GREB1e cis-regulatory enhancer, and loss of GREB1e abolishes ESR1-mediated transactivation, decreasing target expression.
+T2U_0029	down	Under direct_cis_regulatory_dna, ESR1 promotes KCNK5 expression through the KCNK5e regulatory element, and loss of KCNK5e reduces promoter activation and decreases target expression.
+T2U_0030	down	Under direct_cis_regulatory_dna, ESR1 activates NRIP1 transcription via the NRIP1e enhancer, and disruption or loss of NRIP1e blocks enhancer-driven activation, leading to decreased target expression.
+T2U_0031	down	Under direct_cis_regulatory_dna, ESR1 stimulates P2RY2 by engaging the cis-regulatory element P2RY2e, and loss of P2RY2e impairs transcriptional activation, decreasing target expression.
+T2U_0032	down	Under direct_cis_regulatory_dna, ESR1 drives PGR expression through its cis-regulatory enhancer PGRe, and loss of PGRe diminishes receptor-mediated transactivation, decreasing target expression.
+T2U_0033	down	Under direct_cis_regulatory_dna, ESR1 activates SIAH2 by binding to the SIAH2e regulatory enhancer, and loss of SIAH2e impairs cis-regulation, resulting in reduced target expression.
+T2U_0034	down	Under direct_cis_regulatory_dna, ESR1 directs SMAD7 expression through the cis-regulatory element SMAD7e, and loss of SMAD7e abolishes enhancer activity, decreasing target expression.
+T2U_0035	down	Under direct_cis_regulatory_dna, ESR1 transactivates TFF1 via the cis-regulatory enhancer TFF1e, and loss of TFF1e abrogates estrogen-responsive activation, leading to decreased target expression.
+T2U_0036	up	Under direct_cis_regulatory_dna, PPARA binds directly to the peroxisome proliferator response element of Angptl4 to activate transcription, and gain of PPARA activity directly increases target expression.
+T2U_0037	up	Under direct_cis_regulatory_dna, PPARA directly binds cis-regulatory DNA elements to transactivate Hmgcs2, and gain of PPARA stimulates promoter activity, increasing target expression.
+T2U_0038	up	Under direct_cis_regulatory_dna, PPARA binds directly to cis-regulatory response elements at Pdk4 to stimulate expression, and activation of PPARA increases target expression.
+T2U_0039	up	Under combinatorial_tf_regulation, partner repressor BHLHE40 antagonizes PPARA-mediated transactivation at the Angptl4 promoter, and loss of BHLHE40 relieves competitive repression, leading to increased target expression.
+T2U_0040	up	Under combinatorial_tf_regulation, BHLHE40 acts as a partner repressor competing with PPARA at Hmgcs2 regulatory regions, and loss of BHLHE40 derepresses transcription to increase target expression.
+T2U_0041	up	Under combinatorial_tf_regulation, the transcription factor BHLHE40 represses PPARA activity at Pdk4, and loss of BHLHE40 removes transcriptional repression, increasing target expression.
+T2U_0042	down	Under direct_cis_regulatory_dna, ZNF143 acts as a sequence-specific transcription factor binding the ABCF2 promoter, and loss of ZNF143 reduces transcription, resulting in decreased target expression.
+T2U_0043	down	Under direct_cis_regulatory_dna, ZNF143 binds promoter cis-regulatory DNA to drive ADAT3 expression, and reduction of ZNF143 decreases target expression.
+T2U_0044	down	Under direct_cis_regulatory_dna, ZNF143 directly engages the AKR1A1 cis-regulatory region to activate transcription, and loss of ZNF143 leads to decreased target expression.
+T2U_0045	down	Under direct_cis_regulatory_dna, ZNF143 transactivates ANKRD13B via promoter cis-regulatory elements, and loss of ZNF143 downregulates target expression.
+T2U_0046	down	Under direct_cis_regulatory_dna, ZNF143 directly occupies the AP1S3 cis-regulatory promoter to stimulate transcription, and loss of ZNF143 leads to decreased target expression.
+T2U_0047	down	Under direct_cis_regulatory_dna, ZNF143 binds cis-regulatory elements at ARID5A to promote expression, and loss of ZNF143 results in decreased target expression.
+T2U_0048	down	Under direct_cis_regulatory_dna, ZNF143 activates ASB13 by binding its cis-regulatory promoter, and loss of ZNF143 causes decreased target expression.
+T2U_0049	down	Under direct_cis_regulatory_dna, ZNF143 directly binds the BIRC5 promoter element to stimulate transcription, and loss of ZNF143 reduces target expression.
+T2U_0050	down	Under direct_cis_regulatory_dna, ZNF143 promotes CASC3 expression through direct promoter cis-regulatory interaction, and loss of ZNF143 decreases target expression.
+T2U_0051	down	Under direct_cis_regulatory_dna, ZNF143 activates CCDC157 transcription via cis-regulatory promoter binding, and loss of ZNF143 decreases target expression.
+T2U_0052	down	Under direct_cis_regulatory_dna, ZNF143 occupies cis-regulatory elements to drive CCDC92 expression, and loss of ZNF143 decreases target expression.
+T2U_0053	down	Under direct_cis_regulatory_dna, ZNF143 directly binds the CCPG1 promoter to activate transcription, and loss of ZNF143 diminishes target expression.
+T2U_0054	down	Under direct_cis_regulatory_dna, ZNF143 drives CKAP2L transcription by directly engaging cis-regulatory DNA, and loss of ZNF143 decreases target expression.
+T2U_0055	down	Under direct_cis_regulatory_dna, ZNF143 binds the CNIH1 cis-regulatory promoter to sustain activation, and loss of ZNF143 leads to decreased target expression.
+T2U_0056	down	Under direct_cis_regulatory_dna, ZNF143 directly activates CPOX through its cis-regulatory promoter, and loss of ZNF143 reduces target expression.
+T2U_0057	down	Under direct_cis_regulatory_dna, ZNF143 binds cis-regulatory elements at CPSF4 to drive transcription, and loss of ZNF143 decreases target expression.
+T2U_0058	down	Under direct_cis_regulatory_dna, ZNF143 transactivates CRCP via direct cis-regulatory DNA binding, and loss of ZNF143 decreases target expression.
+T2U_0059	down	Under direct_cis_regulatory_dna, ZNF143 activates CREBL2 through direct promoter binding, and loss of ZNF143 results in decreased target expression.
+T2U_0060	down	Under direct_cis_regulatory_dna, ZNF143 binds cis-regulatory promoter DNA to drive CWC15 expression, and loss of ZNF143 decreases target expression.
+T2U_0061	down	Under direct_cis_regulatory_dna, ZNF143 directly binds the CYB5R1 promoter to activate transcription, and loss of ZNF143 reduces target expression.
+T2U_0062	down	Under direct_cis_regulatory_dna, ZNF143 stimulates EGR1 expression via promoter cis-regulatory elements, and loss of ZNF143 causes decreased target expression.
+T2U_0063	down	Under direct_cis_regulatory_dna, ZNF143 directly occupies the EMC1 cis-regulatory region to promote transcription, and loss of ZNF143 decreases target expression.
+T2U_0064	down	Under direct_cis_regulatory_dna, ZNF143 activates ENKD1 via promoter cis-regulatory interactions, and loss of ZNF143 leads to decreased target expression.
+T2U_0065	down	Under direct_cis_regulatory_dna, ZNF143 binds ERAL1 cis-regulatory DNA to drive transcription, and loss of ZNF143 results in decreased target expression.
+T2U_0066	down	Under direct_cis_regulatory_dna, ZNF143 directly stimulates ERP44 expression through promoter binding, and loss of ZNF143 decreases target expression.
+T2U_0067	down	Under direct_cis_regulatory_dna, ZNF143 binds cis-regulatory promoter elements at FASTK, and loss of ZNF143 decreases target expression.
+T2U_0068	down	Under direct_cis_regulatory_dna, ZNF143 drives FH transcription by directly binding its promoter, and loss of ZNF143 decreases target expression.
+T2U_0069	down	Under direct_cis_regulatory_dna, ZNF143 activates GAMT expression through cis-regulatory promoter binding, and loss of ZNF143 leads to decreased target expression.
+T2U_0070	down	Under direct_cis_regulatory_dna, ZNF143 promotes GOLGA2 transcription via direct promoter interaction, and loss of ZNF143 decreases target expression.
+T2U_0071	down	Under direct_cis_regulatory_dna, ZNF143 binds cis-regulatory promoter elements of GTPBP8 to stimulate expression, and loss of ZNF143 decreases target expression.
+T2U_0072	down	Under direct_cis_regulatory_dna, ZNF143 activates HMGCL through promoter cis-regulatory DNA binding, and loss of ZNF143 decreases target expression.
+T2U_0073	down	Under direct_cis_regulatory_dna, ZNF143 binds the HSPA14 cis-regulatory region to promote transcription, and loss of ZNF143 downregulates target expression.
+T2U_0074	down	Under direct_cis_regulatory_dna, ZNF143 activates IK expression by binding promoter cis-regulatory DNA, and loss of ZNF143 decreases target expression.
+T2U_0075	down	Under direct_cis_regulatory_dna, ZNF143 directly engages the JMJD8 cis-regulatory promoter to drive transcription, and loss of ZNF143 decreases target expression.
+T2U_0076	down	Under direct_cis_regulatory_dna, ZNF143 occupies the JUN promoter cis-regulatory element to drive expression, and loss of ZNF143 decreases target expression.
+T2U_0077	down	Under direct_cis_regulatory_dna, ZNF143 binds the JUND promoter to stimulate transcription, and loss of ZNF143 results in decreased target expression.
+T2U_0078	down	Under direct_cis_regulatory_dna, ZNF143 transactivates KDELR2 through direct cis-regulatory DNA binding, and loss of ZNF143 decreases target expression.
+T2U_0079	down	Under direct_cis_regulatory_dna, ZNF143 activates KLC2 by binding to promoter cis-regulatory elements, and loss of ZNF143 causes decreased target expression.
+T2U_0080	down	Under direct_cis_regulatory_dna, ZNF143 promotes KPNA5 transcription by occupying cis-regulatory promoter sites, and loss of ZNF143 decreases target expression.
+T2U_0081	down	Under direct_cis_regulatory_dna, ZNF143 directly binds the LATS1 promoter to drive transcription, and loss of ZNF143 decreases target expression.
+T2U_0082	down	Under direct_cis_regulatory_dna, ZNF143 binds cis-regulatory elements at MED16 to activate expression, and loss of ZNF143 leads to decreased target expression.
+T2U_0083	down	Under direct_cis_regulatory_dna, ZNF143 activates MFSD3 through direct promoter binding, and loss of ZNF143 downregulates target expression.
+T2U_0084	down	Under direct_cis_regulatory_dna, ZNF143 stimulates MRPL46 transcription by binding cis-regulatory promoter DNA, and loss of ZNF143 decreases target expression.
+T2U_0085	down	Under direct_cis_regulatory_dna, ZNF143 binds MRPL54 cis-regulatory promoter sites to drive expression, and loss of ZNF143 decreases target expression.
+T2U_0086	down	Under direct_cis_regulatory_dna, ZNF143 occupies cis-regulatory elements at MRPS11 to promote transcription, and loss of ZNF143 reduces target expression.
+T2U_0087	down	Under direct_cis_regulatory_dna, ZNF143 binds the MTMR1 promoter to activate transcription, and loss of ZNF143 causes decreased target expression.
+T2U_0088	down	Under direct_cis_regulatory_dna, ZNF143 directly engages the NUTF2 promoter cis-regulatory element, and loss of ZNF143 leads to decreased target expression.
+T2U_0089	down	Under direct_cis_regulatory_dna, ZNF143 binds cis-regulatory DNA to activate PAPOLG transcription, and loss of ZNF143 results in decreased target expression.
+T2U_0090	down	Under direct_cis_regulatory_dna, ZNF143 promotes PLAGL2 expression via direct promoter interaction, and loss of ZNF143 decreases target expression.
+T2U_0091	down	Under direct_cis_regulatory_dna, ZNF143 drives PNKD transcription through promoter cis-regulatory binding, and loss of ZNF143 decreases target expression.
+T2U_0092	down	Under direct_cis_regulatory_dna, ZNF143 directly stimulates POMT2 by binding its cis-regulatory promoter, and loss of ZNF143 decreases target expression.
+T2U_0093	down	Under direct_cis_regulatory_dna, ZNF143 binds PRIM1 cis-regulatory DNA to activate expression, and loss of ZNF143 leads to decreased target expression.
+T2U_0094	down	Under direct_cis_regulatory_dna, ZNF143 occupies the PRKAA2 promoter to promote transcription, and loss of ZNF143 decreases target expression.
+T2U_0095	down	Under direct_cis_regulatory_dna, ZNF143 activates PROSER3 through direct cis-regulatory DNA binding, and loss of ZNF143 diminishes target expression.
+T2U_0096	down	Under direct_cis_regulatory_dna, ZNF143 binds PSMC6 promoter elements to drive transcription, and loss of ZNF143 decreases target expression.
+T2U_0097	down	Under direct_cis_regulatory_dna, ZNF143 stimulates PTPMT1 expression via direct promoter cis-regulation, and loss of ZNF143 causes decreased target expression.
+T2U_0098	down	Under direct_cis_regulatory_dna, ZNF143 engages PTRHD1 cis-regulatory promoter DNA to activate transcription, and loss of ZNF143 decreases target expression.
+T2U_0099	down	Under direct_cis_regulatory_dna, ZNF143 directly binds the RDH11 promoter to promote expression, and loss of ZNF143 downregulates target expression.
+T2U_0100	down	Under direct_cis_regulatory_dna, ZNF143 binds RIC8A cis-regulatory elements to drive transcription, and loss of ZNF143 leads to decreased target expression.
+T2U_0101	down	Under direct_cis_regulatory_dna, ZNF143 activates RNF40 through direct promoter cis-regulatory binding, and loss of ZNF143 decreases target expression.
+T2U_0102	down	Under direct_cis_regulatory_dna, ZNF143 promotes RPAIN transcription via cis-regulatory promoter binding, and loss of ZNF143 decreases target expression.
+T2U_0103	down	Under direct_cis_regulatory_dna, ZNF143 stimulates RPL6 expression by directly binding promoter cis-regulatory DNA, and loss of ZNF143 reduces target expression.
+T2U_0104	down	Under direct_cis_regulatory_dna, ZNF143 binds the RSBN1 promoter to activate transcription, and loss of ZNF143 causes decreased target expression.
+T2U_0105	down	Under direct_cis_regulatory_dna, ZNF143 occupies cis-regulatory elements at SAMD13 to drive transcription, and loss of ZNF143 decreases target expression.
+T2U_0106	down	Under direct_cis_regulatory_dna, ZNF143 directly activates SAV1 expression through promoter cis-regulation, and loss of ZNF143 leads to decreased target expression.
+T2U_0107	down	Under direct_cis_regulatory_dna, ZNF143 binds SEPTIN8 promoter cis-regulatory DNA to sustain transcription, and loss of ZNF143 decreases target expression.
+T2U_0108	down	Under direct_cis_regulatory_dna, ZNF143 drives SFT2D2 expression through cis-regulatory promoter interaction, and loss of ZNF143 decreases target expression.
+T2U_0109	down	Under direct_cis_regulatory_dna, ZNF143 directly occupies SGF29 promoter elements to promote transcription, and loss of ZNF143 decreases target expression.
+T2U_0110	down	Under direct_cis_regulatory_dna, ZNF143 activates SLC7A6OS by binding cis-regulatory promoter DNA, and loss of ZNF143 downregulates target expression.
+T2U_0111	down	Under direct_cis_regulatory_dna, ZNF143 stimulates SLC9A6 transcription through promoter cis-regulatory binding, and loss of ZNF143 decreases target expression.
+T2U_0112	down	Under direct_cis_regulatory_dna, ZNF143 directly binds SNRNP48 cis-regulatory DNA to drive transcription, and loss of ZNF143 decreases target expression.
+T2U_0113	down	Under direct_cis_regulatory_dna, ZNF143 promotes SNRNP70 expression via promoter cis-regulatory interactions, and loss of ZNF143 reduces target expression.
+T2U_0114	down	Under direct_cis_regulatory_dna, ZNF143 binds the SNRPD3 promoter to activate transcription, and loss of ZNF143 causes decreased target expression.
+T2U_0115	down	Under direct_cis_regulatory_dna, ZNF143 directly engages SSB cis-regulatory promoter elements, and loss of ZNF143 leads to decreased target expression.
+T2U_0116	down	Under direct_cis_regulatory_dna, ZNF143 activates STARD10 by binding cis-regulatory promoter DNA, and loss of ZNF143 decreases target expression.
+T2U_0117	down	Under direct_cis_regulatory_dna, ZNF143 occupies the TFAM promoter to drive transcriptional activation, and loss of ZNF143 decreases target expression.
+T2U_0118	down	Under direct_cis_regulatory_dna, ZNF143 binds THOC7 cis-regulatory DNA to promote transcription, and loss of ZNF143 decreases target expression.
+T2U_0119	down	Under direct_cis_regulatory_dna, ZNF143 stimulates THOP1 expression through promoter cis-regulatory binding, and loss of ZNF143 diminishes target expression.
+T2U_0120	down	Under direct_cis_regulatory_dna, ZNF143 directly activates TIMM17A via cis-regulatory promoter elements, and loss of ZNF143 decreases target expression.
+T2U_0121	down	Under direct_cis_regulatory_dna, ZNF143 binds TMEM258 promoter DNA to activate expression, and loss of ZNF143 leads to decreased target expression.
+T2U_0122	down	Under direct_cis_regulatory_dna, ZNF143 occupies cis-regulatory elements at TMOD2 to stimulate transcription, and loss of ZNF143 decreases target expression.
+T2U_0123	down	Under direct_cis_regulatory_dna, ZNF143 promotes TOMM70 expression through promoter cis-regulatory binding, and loss of ZNF143 downregulates target expression.
+T2U_0124	down	Under direct_cis_regulatory_dna, ZNF143 binds TPRA1 cis-regulatory DNA to drive transcription, and loss of ZNF143 results in decreased target expression.
+T2U_0125	down	Under direct_cis_regulatory_dna, ZNF143 directly engages the UBALD1 promoter to activate expression, and loss of ZNF143 decreases target expression.
+T2U_0126	down	Under direct_cis_regulatory_dna, ZNF143 stimulates UBFD1 transcription via promoter cis-regulatory interactions, and loss of ZNF143 decreases target expression.
+T2U_0127	down	Under direct_cis_regulatory_dna, ZNF143 binds UQCR10 cis-regulatory promoter elements to drive transcription, and loss of ZNF143 decreases target expression.
+T2U_0128	down	Under direct_cis_regulatory_dna, ZNF143 occupies the VASP promoter to promote expression, and loss of ZNF143 causes decreased target expression.
+T2U_0129	down	Under direct_cis_regulatory_dna, ZNF143 binds cis-regulatory elements at ZBTB10 to activate transcription, and loss of ZNF143 leads to decreased target expression.
+T2U_0130	down	Under direct_cis_regulatory_dna, ZNF143 drives ZFTA expression through direct promoter cis-regulatory binding, and loss of ZNF143 decreases target expression.
+T2U_0131	down	Under direct_cis_regulatory_dna, ZNF143 activates ZMYM6 by binding to its promoter cis-regulatory element, and loss of ZNF143 reduces target expression.
+T2U_0132	down	Under direct_cis_regulatory_dna, ZNF143 engages the ZNF200 promoter to promote transcription, and loss of ZNF143 decreases target expression.
+T2U_0133	down	Under direct_cis_regulatory_dna, ZNF143 stimulates ZNF24 transcription via cis-regulatory promoter elements, and loss of ZNF143 decreases target expression.
+T2U_0134	down	Under direct_cis_regulatory_dna, ZNF143 binds ZNF354A promoter DNA to activate expression, and loss of ZNF143 leads to decreased target expression.
+T2U_0135	down	Under direct_cis_regulatory_dna, ZNF143 occupies cis-regulatory elements of ZNF382 to promote transcription, and loss of ZNF143 decreases target expression.
+T2U_0136	down	Under direct_cis_regulatory_dna, ZNF143 drives ZNF473 expression through promoter cis-regulatory binding, and loss of ZNF143 downregulates target expression.
+T2U_0137	down	Under direct_cis_regulatory_dna, ZNF143 activates ZNF485 by directly binding cis-regulatory promoter elements, and loss of ZNF143 causes decreased target expression.
+T2U_0138	down	Under direct_cis_regulatory_dna, ZNF143 binds the ZNF607 promoter to stimulate transcription, and loss of ZNF143 decreases target expression.
+T2U_0139	down	Under direct_cis_regulatory_dna, ZNF143 promotes ZNF746 expression via direct cis-regulatory DNA interaction, and loss of ZNF143 decreases target expression.
+T2U_0140	down	Under direct_cis_regulatory_dna, ZNF143 directly binds the ZW10 promoter to maintain active transcription, and loss of ZNF143 decreases target expression.
+T2U_0141	down	Under direct_cis_regulatory_dna, NANOG positively autoregulates Nanog expression via its cis-regulatory elements, and loss of NANOG protein impairs this self-activation, decreasing target expression.
+T2U_0142	up	Under direct_cis_regulatory_dna, POU5F1 directly binds cis-regulatory elements at Pax6 to repress transcription in pluripotent cells, and loss of POU5F1 relieves repression, increasing target expression.
+T2U_0143	down	Under direct_cis_regulatory_dna, POU5F1 binds the cis-regulatory element of Utf1 to activate its expression, and loss of POU5F1 protein decreases target expression.
+T2U_0144	up	Under regulatory_rna_mediated_indirect_regulation, TP53 induces intermediate regulatory RNA lincRNA-p21 which acts as a transcriptional repressor of MTAP4, and loss of lincRNA-p21 derepresses MTAP4, increasing target expression.
+T2U_0145	up	Under regulatory_rna_mediated_indirect_regulation, TP53 activates the intermediate long noncoding RNA lincRNA-p21 to mediate repression of SUV39H1, and loss of lincRNA-p21 relieves repression, leading to increased target expression.
+T2U_0146	up	Under regulatory_rna_mediated_indirect_regulation, TP53 utilizes intermediate regulatory RNA lincRNA-p21 to repress VCAN transcription, and loss of lincRNA-p21 abolishes repression, increasing target expression.
+T2U_0147	up	Under regulatory_rna_mediated_indirect_regulation, HIF1A transcriptionally upregulates intermediate regulatory RNA miR-210 to repress E2F3, and loss of miR-210 relieves translational repression and mRNA degradation, increasing target expression.
+T2U_0148	up	Under combinatorial_tf_regulation, SMAD3 cooperates with NOTCH1 pathway transcription factors to form an active co-regulatory complex driving PTPRK transcription, and combined activation of NOTCH1 and TGF-beta/SMAD3 synergistically increases target expression.
+T2U_0149	down	Under combinatorial_tf_regulation, SMAD3 requires partner factor NOTCH1 (NICD/RBPJ) to activate PTPRK, and loss of NOTCH1 disrupts the combinatorial complex, decreasing target expression.
+T2U_0150	down	Under combinatorial_tf_regulation, SMAD3 acts together with partner NOTCH1 to induce PTPRK, and loss of SMAD3 prevents assembly of the activating transcriptional complex, decreasing target expression.
+T2U_0151	down	Under combinatorial_tf_regulation, SMAD3 requires partner cofactor SMAD4 to form functional transcription complexes at PTPRK, and loss of SMAD4 eliminates combinatorial activation, decreasing target expression.
+T2U_0152	up	Under chromatin_mediated_regulation, PPARA associates with the chromatin/epigenetic regulator UHRF1 to repress Cdh1 via promoter DNA methylation and repressive histone marks, and loss of UHRF1 disrupts chromatin repression, increasing target expression.
+T2U_0153	up	Under chromatin_mediated_regulation, PPARA-mediated epigenetic silencing of Cdh3 requires chromatin regulator UHRF1, and loss of UHRF1 relieves chromatin-mediated repression, resulting in increased target expression.
+T2U_0154	up	Under chromatin_mediated_regulation, PPARA relies on epigenetic regulator UHRF1 to silence Smpd3, and loss of UHRF1 impairs chromatin-mediated silencing, leading to increased target expression.
+T2U_0155	down	Under regulatory_rna_mediated_indirect_regulation, HIF1A induces the intermediate regulatory RNA miR-210 to post-transcriptionally target E2F3, and gain of miR-210 accelerates repression and mRNA decay, decreasing target expression.
+T2U_0156	down	Under direct_cis_regulatory_dna, POU5F1 binds an upstream cis-regulatory enhancer to activate Nanog, and regulatory site perturbation disrupts POU5F1 binding, decreasing target expression.
+T2U_0157	down	Under direct_cis_regulatory_dna, RELA binds directly to the TBC1D4 intronic NF-kB cis-regulatory site to drive transcription, and perturbation of this regulatory site prevents RELA binding, decreasing target expression.
+T2U_0158	down	Under direct_cis_regulatory_dna, MYC activates PRKCQ by binding directly to the intronic E-box cis-regulatory motif, and perturbation of this E-box site disrupts MYC binding, decreasing target expression.
+T2U_0159	down	Under direct_cis_regulatory_dna, MYC transactivates PRKCQ-AS1 through the shared E-box cis-regulatory element, and regulatory site perturbation abolishes MYC-dependent activation, decreasing target expression.
+T2U_0160	down	Under direct_cis_regulatory_dna, MYC drives PFAS expression by binding directly to the promoter-proximal E-box cis-regulatory site, and perturbation of this E-box prevents MYC occupancy, decreasing target expression.
+T2U_0161	down	Under combinatorial_tf_regulation, TP63 requires partner transcription factor FOXK1 to activate ANKRD27 expression, and loss of FOXK1 impairs the activating transcriptional complex, decreasing target expression.
+T2U_0162	down	Under combinatorial_tf_regulation, TP63 collaborates with cofactor FOXK1 to promote HNRNPA1 transcription, and loss of FOXK1 compromises combinatorial activation, decreasing target expression.
+T2U_0163	down	Under combinatorial_tf_regulation, TP63 depends on partner factor FOXK1 to activate HNRNPL, and loss of FOXK1 disrupts this cooperative interaction, decreasing target expression.
+T2U_0164	down	Under combinatorial_tf_regulation, TP63 functions in concert with FOXK1 to drive L3HYPDH transcription, and loss of FOXK1 attenuates cooperative activation, resulting in decreased target expression.
+T2U_0165	down	Under combinatorial_tf_regulation, TP63 and partner TF FOXK1 jointly activate NABP2 expression, and loss of FOXK1 prevents full complex assembly, decreasing target expression.
+T2U_0166	down	Under combinatorial_tf_regulation, TP63 relies on partner factor FOXK1 for RPS16 transcriptional stimulation, and loss of FOXK1 diminishes transcription, decreasing target expression.
+T2U_0167	down	Under combinatorial_tf_regulation, TP63 cooperates with FOXK1 to stimulate TIMM50 expression, and loss of FOXK1 leads to impaired activation and decreased target expression.
+T2U_0168	down	Under combinatorial_tf_regulation, NFE2L2 obligately heterodimerizes with partner small Maf transcription factors (MAFG/MAFF) to bind ARE motifs and activate Txnrd1, and loss of MAFG/MAFF eliminates heterodimer formation, decreasing target expression.
+T2U_0169	down	Under direct_cis_regulatory_dna, NFE2L2 binds the cis-regulatory antioxidant response element of Txnrd1 to drive transcription, and loss of NFE2L2 abrogates transactivation, decreasing target expression.
+T2U_0170	up	Under regulatory_rna_mediated_indirect_regulation, GATA1 activates intermediate regulatory RNA miR-451 which post-transcriptionally represses Ywhaz, and loss of miR-451 relieves repression, increasing target expression.
+T2U_0171	down	Under direct_cis_regulatory_dna, STAT3 binds the E2 enhancer cis-regulatory element to induce Klf4 transcription, and perturbation of regulatory site E2 abolishes STAT3 recruitment, decreasing target expression.
+T2U_0172	down	Under direct_cis_regulatory_dna, GATA1 transactivates ATP2B4 by directly engaging an intronic cis-regulatory site, and regulatory site perturbation impairs GATA1 binding, decreasing target expression.
+T2U_0173	up	Under chromatin_mediated_regulation, REST recruits the SWI/SNF chromatin remodeling regulator BRG1/SMARCA4 to repress L1CAM, and loss of BRG1 relieves chromatin-mediated transcriptional repression, increasing target expression.
+T2U_0174	up	Under chromatin_mediated_regulation, REST relies on chromatin remodeler BRG1/SMARCA4 to mediate chromatin compaction and repression of SNAP25, and loss of BRG1 leads to derepression and increased target expression.
+T2U_0175	down	Under direct_cis_regulatory_dna, ZNF263 binds an intronic cis-regulatory region of CUL3 to promote transcription, and regulatory site perturbation disrupts ZNF263 occupancy, decreasing target expression.
+T2U_0176	down	Under direct_cis_regulatory_dna, YY1 stimulates CUL3 transcription through regulatory site B, and perturbation of this cis-regulatory DNA element prevents YY1 binding, decreasing target expression.
+T2U_0179	down	Under direct_cis_regulatory_dna, CTCF binds regulatory site A to maintain cis-regulatory architecture and expression of CUL3, and perturbation of this regulatory site decreases target expression.
+T2U_0180	down	Under regulatory_rna_mediated_indirect_regulation, GATA1 induces intermediate regulatory RNA miR-451 to repress Ywhaz, and gain of miR-451 enhances post-transcriptional repression, decreasing target expression.
+T2U_0181	down	Under chromatin_mediated_regulation, GATA1 utilizes the histone methyltransferase KMT2D to deposit activating H3K4 methylation at EPOR, and loss of KMT2D impairs the permissive chromatin state, decreasing target expression.
+T2U_0182	down	Under chromatin_mediated_regulation, GATA1-driven activation of SLC25A37 requires the chromatin regulator KMT2D to maintain active enhancer chromatin marks, and loss of KMT2D results in decreased target expression.
+T2U_0183	down	Under regulatory_rna_mediated_indirect_regulation, TWIST1 acts through intermediate regulatory RNA miR-10b to repress HOXD10, and gain of miR-10b enhances targeted silencing, decreasing target expression.
+T2U_0186	down	Under chromatin_mediated_regulation, GATA1 depends on chromatin modifier KMT2D to establish an open chromatin landscape at SLC22A4, and loss of KMT2D decreases target expression.
+T2U_0188	down	Under chromatin_mediated_regulation, GATA1 recruits the histone methyltransferase KMT2D to facilitate chromatin activation at ZFPM1, and loss of KMT2D attenuates transcription, decreasing target expression.
+T2U_0189	up	Under regulatory_rna_mediated_indirect_regulation, STAT3 induces intermediate regulatory RNA miR-181b which represses CYLD, and loss of miR-181b relieves post-transcriptional repression, increasing target expression.
+T2U_0190	up	Under regulatory_rna_mediated_indirect_regulation, STAT3 upregulates intermediate regulatory RNA miR-181b-1 to inhibit CYLD expression, and loss of miR-181b-1 derepresses CYLD, increasing target expression.
+T2U_0191	up	Under regulatory_rna_mediated_indirect_regulation, STAT3 promotes the intermediate regulatory RNA miR-21 to target and suppress PTEN, and loss of miR-21 abolishes repression, increasing target expression.
+T2U_0192	up	Under regulatory_rna_mediated_indirect_regulation, HIF1A mediates repression of ISCU through intermediate regulatory RNA miR-210, and loss of miR-210 relieves translational inhibition and mRNA decay, increasing target expression.
+T2U_0193	down	Under regulatory_rna_mediated_indirect_regulation, STAT3 induces intermediate regulatory RNA miR-181b which targets CYLD for repression, and gain of miR-181b enhances repression, decreasing target expression.
+T2U_0195	down	Under combinatorial_tf_regulation, ETV4 cooperates with AP-1 partner factors to transactivate NOTCH4, and loss of ETV4 prevents combinatorial promoter activation, decreasing target expression.
+T2U_0196	down	Under combinatorial_tf_regulation, ETV4 requires partner transcription factor FOSL1 (AP-1) to cooperatively activate NOTCH4, and loss of FOSL1 disrupts the activating complex, decreasing target expression.
+T2U_0197	down	Under combinatorial_tf_regulation, ETV4 relies on partner transcription factor JUN to stimulate NOTCH4 expression, and loss of JUN abrogates cooperative transactivation, decreasing target expression.
+T2U_0198	down	Under regulatory_rna_mediated_indirect_regulation, TP53 induces intermediate regulatory RNA LED lncRNA which acts as an activator of CDKN1A, and loss of LED lncRNA reduces CDKN1A transactivation, decreasing target expression.
+T2U_0199	up	Under chromatin_mediated_regulation, GATA2 recruits the repressive histone demethylase LSD1/KDM1A to suppress GATA1 transcription, and loss of LSD1/KDM1A impairs chromatin repression, leading to increased target expression.

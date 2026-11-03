@@ -1,0 +1,45 @@
+{
+ "note": "v2: two metrics disambiguated. v1 of this file mislabeled full-chain failure rates as 'causal-order failure rates' (caught by designer review 2026-10-17).",
+ "families": {
+  "PPARA+BHLHE40": {
+   "co_axis_fail": 69,
+   "co_total": 72,
+   "co_rate": 95.8,
+   "chain_fail": 72,
+   "chain_total": 72,
+   "chain_rate": 100.0
+  },
+  "ESR1-enhancer": {
+   "co_axis_fail": 70,
+   "co_total": 72,
+   "co_rate": 97.2,
+   "chain_fail": 71,
+   "chain_total": 72,
+   "chain_rate": 98.6
+  },
+  "SRCAP/H2A.Z": {
+   "co_axis_fail": 44,
+   "co_total": 48,
+   "co_rate": 91.7,
+   "chain_fail": 46,
+   "chain_total": 48,
+   "chain_rate": 95.8
+  },
+  "GATA1+TAL1": {
+   "co_axis_fail": 118,
+   "co_total": 144,
+   "co_rate": 81.9,
+   "chain_fail": 130,
+   "chain_total": 144,
+   "chain_rate": 90.3
+  },
+  "TP63+FOXK1": {
+   "co_axis_fail": 140,
+   "co_total": 168,
+   "co_rate": 83.3,
+   "chain_fail": 140,
+   "chain_total": 168,
+   "chain_rate": 83.3
+  }
+ }
+}

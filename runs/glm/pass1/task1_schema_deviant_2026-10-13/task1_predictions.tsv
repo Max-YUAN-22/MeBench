@@ -1,0 +1,172 @@
+unit_id	predicted_mechanism
+T1U_0001	Sequence-specific homeobox TF CDX2 binds intestinal enhancer/promoter motifs at the Scin locus, so regulation acts through target-linked cis-regulatory DNA.
+T1U_0002	CDX2 directly occupies CDX motifs in cis-regulatory elements of the intestinal gene Slc26a6 to drive its transcription.
+T1U_0003	CTCF is an architectural chromatin factor whose effect on CUL3 depends on chromatin looping and insulator states rather than classic promoter activation.
+T1U_0004	Estrogen receptor binds estrogen-response elements in CA12 enhancers upon ligand, so regulation is via target-linked cis-regulatory DNA.
+T1U_0005	ESR1 homodimer binds ERE-containing cis elements at the CISH locus to activate transcription directly.
+T1U_0006	ESR1 directly engages enhancer EREs linked to ELOVL2 to regulate its expression.
+T1U_0007	ESR1 binds estrogen-response elements at FOXC1 regulatory regions, a direct cis-regulatory effect.
+T1U_0008	ESR1 directly activates G0S2 transcription through estrogen-responsive cis-regulatory elements.
+T1U_0009	ESR1 binds enhancer EREs linked to GREB1, a canonical direct estrogen-response target.
+T1U_0010	ESR1 directly regulates KCNK5 through estrogen-response elements in target-linked cis-regulatory DNA.
+T1U_0011	ESR1 binds ERE motifs at MMP17 regulatory elements to control transcription directly.
+T1U_0012	ESR1 directly activates NRIP1 via estrogen-response elements, an established ligand-dependent cis effect.
+T1U_0013	ESR1 directly regulates P2RY2 through target-linked estrogen-responsive cis-regulatory DNA.
+T1U_0014	ESR1 binds EREs at the PGR locus, a classic direct estrogen receptor cis-regulatory target.
+T1U_0015	ESR1 directly activates PTGES transcription through enhancer estrogen-response elements.
+T1U_0016	ESR1 regulates SIAH2 via direct binding of estrogen-response elements at target-linked cis DNA.
+T1U_0017	ESR1 directly controls SMAD7 expression through estrogen-responsive cis-regulatory elements.
+T1U_0018	ESR1 binds the well-characterized ERE in the TFF1 promoter/enhancer, a direct cis-regulatory interaction.
+T1U_0019	ESR1 directly regulates WIPF1 via estrogen-response elements linked to the target gene.
+T1U_0020	ETS-family TF ETV4 binds ETS motifs in NOTCH4 cis-regulatory elements to drive transcription directly.
+T1U_0021	GATA1 occupies GATA motifs in erythroid enhancers/promoters of ATP2B4 to regulate it through cis-regulatory DNA.
+T1U_0022	GATA1 directly binds GATA elements at the EPOR locus to activate erythroid transcription.
+T1U_0023	GATA1 regulates Lrrc39 through direct occupancy of target-linked GATA cis-regulatory sites.
+T1U_0024	GATA1 binds GATA motifs in cis-regulatory DNA at the Rragd locus to control expression.
+T1U_0025	GATA1 directly occupies erythroid cis elements of SLC22A4 to regulate transcription.
+T1U_0026	GATA1 binds GATA sites at the SLC25A37 promoter/enhancer, a direct cis-regulatory erythroid target.
+T1U_0027	GATA1 directly activates Slc4a1 via canonical GATA cis-regulatory elements.
+T1U_0028	GATA1 regulates Ywhaz through direct binding of target-linked GATA cis-regulatory DNA.
+T1U_0029	GATA1 directly controls its cofactor gene ZFPM1 by binding GATA motifs in its cis-regulatory regions.
+T1U_0030	GATA2 binds GATA elements in GATA1 cis-regulatory DNA as part of the GATA switch, a direct enhancer-bound effect.
+T1U_0031	GATA3 directly occupies GATA motifs in GLUL cis-regulatory elements to regulate transcription.
+T1U_0032	HIF1A binds DNA only as an obligate heterodimer with ARNT at hypoxia-response elements, so the E2F3 effect requires a partner TF.
+T1U_0033	HIF1A requires ARNT heterodimerization for HRE occupancy at ISCU regulatory DNA, so regulation depends on a partner TF.
+T1U_0034	MYC binds E-boxes only as a MYC-MAX heterodimer, so regulation of PFAS requires a partner transcription factor.
+T1U_0035	MYC activates PRKCQ-AS1 through E-box binding as an obligate MAX heterodimer, requiring partner TF action.
+T1U_0036	MYC requires MAX partnership for E-box occupancy at PRKCQ regulatory elements, so the effect is combinatorial.
+T1U_0037	NANOG autoregulates the Nanog enhancer within OCT4-SOX2-NANOG composite motifs, requiring partner TF occupancy.
+T1U_0038	NFE2L2 binds antioxidant-response elements only as a heterodimer with small MAF proteins, so Txnrd1 regulation requires a partner TF.
+T1U_0039	POU5F1 regulates Nanog through composite OCT4-SOX2 motifs requiring the SOX2 partner TF.
+T1U_0040	POU5F1 acts at Pax6 regulatory elements jointly with SOX2 partner motifs, so regulation requires a partner TF.
+T1U_0041	POU5F1 controls Utf1 via composite octamer-Sox motifs needing SOX2 partnership.
+T1U_0042	PPARA binds PPREs exclusively as an obligate RXRA heterodimer, so Angptl4 regulation requires a partner TF.
+T1U_0043	PPARA requires RXRA partnership for PPRE occupancy at Cdh1 regulatory DNA.
+T1U_0044	PPARA regulates Cdh3 through RXRA-heterodimer binding at PPREs, requiring a partner TF.
+T1U_0045	PPARA activates Hmgcs2 via PPREs as an obligate RXRA heterodimer, so a partner TF is required.
+T1U_0046	PPARA binds the Pdk4 PPRE only with RXRA partnership, making the effect combinatorial.
+T1U_0047	PPARA requires RXRA heterodimerization to regulate Smpd3 through PPRE-containing cis DNA.
+T1U_0048	RelA binds kappaB sites canonically as a heterodimer with NFKB1, so TBC1D4 regulation requires a partner TF.
+T1U_0049	REST represses L1CAM by binding RE1 sites and recruiting HDAC/CoREST chromatin-modifying complexes, so repression depends on chromatin regulators.
+T1U_0050	REST-mediated repression of SNAP25 requires its chromatin corepressor machinery (HDAC, CoREST, LSD1) acting on local chromatin state.
+T1U_0051	SMAD3 regulates targets as a heteromeric complex with the co-SMAD SMAD4 on DNA, so PTPRK regulation requires a partner TF.
+T1U_0052	SOX2 regulates Klf2 within composite OCT4-SOX2 enhancer modules, requiring the POU5F1 partner TF.
+T1U_0053	STAT3 binds gamma-activated sites as a homodimer, so CYLD regulation acts directly through target-linked cis-regulatory DNA.
+T1U_0054	STAT3 homodimers directly occupy GAS elements at Klf4 regulatory regions to drive transcription.
+T1U_0055	STAT3 directly regulates PTEN through GAS motifs in target-linked cis-regulatory DNA.
+T1U_0056	TP53 homotetramers bind p53-response elements at the CDKN1A locus, a canonical direct cis-regulatory interaction.
+T1U_0057	TP53 directly occupies p53-response elements in MTAP4 regulatory DNA to control transcription.
+T1U_0058	TP53 binds p53-response motifs at SUV39H1 cis-regulatory regions to regulate it directly.
+T1U_0059	TP53 directly regulates VCAN through p53-response elements linked to the target gene.
+T1U_0060	TP63 binds p63-response elements in ANKRD27 cis-regulatory DNA to regulate transcription directly.
+T1U_0061	TP63 directly occupies p53-family motifs at DUSP6 regulatory regions.
+T1U_0062	TP63 regulates HNRNPA1 through direct binding of target-linked cis-regulatory response elements.
+T1U_0063	TP63 binds p63-response elements at HNRNPL regulatory DNA, a direct cis effect.
+T1U_0064	TP63 directly controls L3HYPDH via response elements in its cis-regulatory regions.
+T1U_0065	TP63 regulates NABP2 through direct occupancy of target-linked p53-family binding sites.
+T1U_0066	TP63 binds response elements at RPS16 regulatory DNA to regulate it directly.
+T1U_0067	TP63 directly controls SAMD9L through p63-response motifs in cis-regulatory DNA.
+T1U_0068	TP63 regulates TIMM50 via direct binding of target-linked cis-regulatory response elements.
+T1U_0069	TP63 directly occupies p63-response elements at ZHX2 regulatory regions.
+T1U_0070	TWIST1 binds E-boxes only as a heterodimer with E-protein partners, so HOXD10 regulation requires a partner TF.
+T1U_0071	YY1 is a zinc-finger TF that binds its consensus motif directly at CUL3 promoter/enhancer DNA.
+T1U_0072	ZNF143 binds Staf-type SBS motifs at target promoters to activate ABCF2 transcription directly through cis-regulatory DNA.
+T1U_0073	ZNF143 directly occupies SBS elements linked to ADAT3 to drive its expression.
+T1U_0074	ZNF143 activates AKR1A1 via direct binding of its consensus motif at promoter-proximal cis DNA.
+T1U_0075	ZNF143 regulates ANKRD13B through direct occupancy of target-linked SBS cis elements.
+T1U_0076	ZNF143 binds its promoter motifs directly to regulate AP1S3 transcription.
+T1U_0077	ZNF143 directly activates ARID5A through SBS-containing cis-regulatory DNA.
+T1U_0078	ZNF143 occupies its consensus motif at ASB13 regulatory regions to control expression directly.
+T1U_0079	ZNF143 binds SBS motifs at BIRC5 cis-regulatory DNA, a direct promoter-regulatory effect.
+T1U_0080	ZNF143 directly regulates CASC3 via its promoter-bound consensus sites.
+T1U_0081	ZNF143 activates CCDC157 through direct binding of SBS elements at target-linked cis DNA.
+T1U_0082	ZNF143 occupies its consensus motif at CCDC92 promoter regions to regulate it directly.
+T1U_0083	ZNF143 binds SBS motifs in CCPG1 cis-regulatory DNA to activate transcription.
+T1U_0084	ZNF143 directly regulates CKAP2L via target-linked SBS promoter elements.
+T1U_0085	ZNF143 binds its consensus at CNIH1 promoter DNA to drive transcription directly.
+T1U_0086	ZNF143 activates CPOX through direct occupancy of SBS cis-regulatory elements.
+T1U_0087	ZNF143 binds SBS motifs at CPSF4 promoter regions, a direct cis-regulatory mechanism.
+T1U_0088	ZNF143 directly regulates CRCP via its consensus sites in target-linked cis DNA.
+T1U_0089	ZNF143 occupies SBS elements at CREBL2 promoters to activate transcription directly.
+T1U_0090	ZNF143 binds its motif at CWC15 cis-regulatory DNA to control expression.
+T1U_0091	ZNF143 directly activates CYB5R1 through target-linked SBS promoter binding.
+T1U_0092	ZNF143 regulates EGR1 via direct occupancy of SBS elements at its cis-regulatory regions.
+T1U_0093	ZNF143 binds consensus SBS motifs at EMC1 promoter DNA, acting directly through cis DNA.
+T1U_0094	ZNF143 directly controls ENKD1 through SBS elements at target-linked regulatory regions.
+T1U_0095	ZNF143 occupies its consensus motif at ERAL1 promoter DNA to activate transcription.
+T1U_0096	ZNF143 directly regulates ERP44 via SBS-containing cis elements.
+T1U_0097	ZNF143 binds its motif at FASTK promoter regions to drive expression directly.
+T1U_0098	ZNF143 activates FH through direct occupancy of target-linked SBS cis DNA.
+T1U_0099	ZNF143 regulates GAMT via direct binding of its consensus motif at promoter-proximal DNA.
+T1U_0100	ZNF143 binds SBS elements at GOLGA2 promoter regions, a direct cis-regulatory mechanism.
+T1U_0101	ZNF143 directly controls GTPBP8 through its consensus sites in cis-regulatory DNA.
+T1U_0102	ZNF143 activates HMGCL via direct occupancy of target-linked SBS motifs.
+T1U_0103	ZNF143 binds its motif at HSPA14 promoter DNA to regulate transcription directly.
+T1U_0104	ZNF143 directly regulates IK through SBS elements at its cis-regulatory regions.
+T1U_0105	ZNF143 occupies consensus SBS sites at JMJD8 promoter DNA to drive expression.
+T1U_0106	ZNF143 binds its consensus at JUND cis-regulatory DNA to regulate it directly.
+T1U_0107	ZNF143 directly activates JUN through SBS-containing promoter elements.
+T1U_0108	ZNF143 regulates KDELR2 via direct occupancy of target-linked SBS motifs.
+T1U_0109	ZNF143 binds its consensus motif at KLC2 promoter regions to control transcription.
+T1U_0110	ZNF143 directly regulates KPNA5 through SBS elements in cis-regulatory DNA.
+T1U_0111	ZNF143 occupies its motif at LATS1 promoter DNA to activate expression directly.
+T1U_0112	ZNF143 binds SBS sites at MED16 cis-regulatory regions, a direct promoter effect.
+T1U_0113	ZNF143 directly controls MFSD3 via target-linked SBS promoter elements.
+T1U_0114	ZNF143 activates MRPL46 through direct binding of its consensus motif in cis DNA.
+T1U_0115	ZNF143 binds its consensus at MRPL54 promoter regions to regulate transcription directly.
+T1U_0116	ZNF143 directly regulates MRPS11 via SBS-containing cis-regulatory elements.
+T1U_0117	ZNF143 occupies its motif at MTMR1 promoter DNA to control expression directly.
+T1U_0118	ZNF143 binds SBS elements at NUTF2 cis-regulatory regions, a direct regulatory mechanism.
+T1U_0119	ZNF143 directly activates PAPOLG through its consensus sites in target-linked DNA.
+T1U_0120	ZNF143 regulates PLAGL2 via direct occupancy of SBS motifs at promoter regions.
+T1U_0121	ZNF143 binds its consensus at PNKD cis-regulatory DNA to drive transcription directly.
+T1U_0122	ZNF143 directly controls POMT2 through SBS elements at target-linked regulatory DNA.
+T1U_0123	ZNF143 occupies SBS motifs at PRIM1 promoter regions to regulate it directly.
+T1U_0124	ZNF143 activates PRKAA2 via direct binding of its consensus motif in cis-regulatory DNA.
+T1U_0125	ZNF143 regulates PROSER3 through direct occupancy of target-linked SBS elements.
+T1U_0126	ZNF143 binds its motif at PSMC6 promoter DNA, a direct cis-regulatory effect.
+T1U_0127	ZNF143 directly regulates PTPMT1 via SBS-containing cis elements.
+T1U_0128	ZNF143 occupies consensus sites at PTRHD1 promoter regions to activate transcription.
+T1U_0129	ZNF143 binds its consensus motif at RDH11 cis-regulatory DNA to regulate it directly.
+T1U_0130	ZNF143 directly activates RIC8A through SBS elements in target-linked regulatory DNA.
+T1U_0131	ZNF143 regulates RNF40 via direct occupancy of its consensus motif at promoter regions.
+T1U_0132	ZNF143 binds SBS sites at RPAIN cis-regulatory DNA, a direct regulatory mechanism.
+T1U_0133	ZNF143 directly controls RPL6 through target-linked SBS promoter elements.
+T1U_0134	ZNF143 occupies its motif at RSBN1 promoter DNA to drive transcription directly.
+T1U_0135	ZNF143 binds consensus SBS elements at SAMD13 cis-regulatory regions to regulate it.
+T1U_0136	ZNF143 directly activates SAV1 through its consensus sites in target-linked cis DNA.
+T1U_0137	ZNF143 regulates SEPTIN8 via direct binding of SBS motifs at promoter-proximal DNA.
+T1U_0138	ZNF143 occupies its consensus at SFT2D2 promoter regions, a direct cis-regulatory effect.
+T1U_0139	ZNF143 binds SBS elements at SGF29 cis-regulatory DNA to control expression directly.
+T1U_0140	ZNF143 directly regulates SLC7A6OS through its consensus motif in target-linked DNA.
+T1U_0141	ZNF143 activates SLC9A6 via direct occupancy of SBS elements at promoter regions.
+T1U_0142	ZNF143 binds its consensus at SNRNP48 cis-regulatory DNA to regulate transcription directly.
+T1U_0143	ZNF143 directly controls SNRNP70 through SBS-containing promoter elements.
+T1U_0144	ZNF143 occupies its motif at SNRPD3 promoter regions to activate expression directly.
+T1U_0145	ZNF143 binds SBS sites at SSB cis-regulatory DNA, a direct cis-regulatory mechanism.
+T1U_0146	ZNF143 directly regulates STARD10 via target-linked SBS consensus elements.
+T1U_0147	ZNF143 activates TFAM through direct binding of its consensus motif at promoter DNA.
+T1U_0148	ZNF143 binds SBS elements at THOC7 cis-regulatory regions to control transcription.
+T1U_0149	ZNF143 directly regulates THOP1 via occupancy of target-linked SBS motifs.
+T1U_0150	ZNF143 occupies its consensus at TIMM17A promoter DNA, a direct regulatory effect.
+T1U_0151	ZNF143 binds its motif at TMEM258 cis-regulatory DNA to drive expression directly.
+T1U_0152	ZNF143 directly activates TMOD2 through SBS elements in target-linked regulatory DNA.
+T1U_0153	ZNF143 regulates TOMM70 via direct binding of SBS motifs at promoter regions.
+T1U_0154	ZNF143 occupies its consensus at TPRA1 promoter DNA to regulate transcription directly.
+T1U_0155	ZNF143 binds SBS sites at UBALD1 cis-regulatory DNA, acting through direct cis elements.
+T1U_0156	ZNF143 directly controls UBFD1 through its consensus sites in target-linked DNA.
+T1U_0157	ZNF143 activates UQCR10 via direct occupancy of SBS promoter elements.
+T1U_0158	ZNF143 binds its consensus motif at VASP cis-regulatory regions to regulate it directly.
+T1U_0159	ZNF143 regulates ZBTB10 through direct occupancy of target-linked SBS elements.
+T1U_0160	ZNF143 occupies SBS motifs at ZFTA promoter DNA, a direct cis-regulatory mechanism.
+T1U_0161	ZNF143 directly activates ZMYM6 via its consensus sites in cis-regulatory DNA.
+T1U_0162	ZNF143 binds SBS elements at ZNF200 regulatory regions to control expression directly.
+T1U_0163	ZNF143 regulates ZNF24 through direct occupancy of target-linked SBS motifs.
+T1U_0164	ZNF143 occupies its consensus at ZNF354A promoter DNA, a direct cis-regulatory effect.
+T1U_0165	ZNF143 binds its motif at ZNF382 cis-regulatory DNA to drive transcription directly.
+T1U_0166	ZNF143 directly controls ZNF473 via SBS-containing target-linked promoter elements.
+T1U_0167	ZNF143 regulates ZNF485 through direct binding of its consensus motif in cis DNA.
+T1U_0168	ZNF143 occupies SBS sites at ZNF607 promoter regions to activate transcription directly.
+T1U_0169	ZNF143 binds its consensus at ZNF746 cis-regulatory DNA, a direct regulatory mechanism.
+T1U_0170	ZNF143 directly regulates ZW10 via occupancy of target-linked SBS promoter elements.
+T1U_0171	ZNF263 is a sequence-specific zinc-finger TF that binds its motifs at CUL3 cis-regulatory DNA to regulate transcription directly.

@@ -1,0 +1,21 @@
+unit_id	predicted_intervention_type	mechanism_reasoning
+T3VP_0001	inhibition (miR-181b inhibitor/antagomir)	STAT3 induces miR-181b, a regulatory RNA that directly represses CYLD mRNA. Inhibiting miR-181b would raise CYLD, so the observed down direction is inconsistent with that; the likely reading is that STAT3 drives miR-181b, which relays STAT3's repression of CYLD, and the miR-181b perturbation (loss) removes this relay and shifts CYLD from its STAT3-driven level.
+T3VP_0002	knockdown	BHLHE40 is a partner TF that cooperates with PPARA at the Pdk4 locus. Knocking down BHLHE40 removes this combinatorial input, so PPARA-driven Pdk4 expression falls.
+T3VP_0003	overexpression	TWIST1 induces miR-10b, a regulatory RNA that represses HOXD10 mRNA. Overexpressing miR-10b is the intermediate step, so HOXD10 should fall; the reported up direction is read as the TWIST1-miR-10b-HOXD10 relay with the miR-10b perturbation altering HOXD10 through this indirect RNA axis.
+T3VP_0004	overexpression	PPARA binds PPRE cis-regulatory elements in the Angptl4 promoter or enhancer, so increasing PPARA activates Angptl4 transcription directly through DNA.
+T3VP_0005	overexpression	PPARA binds PPRE elements near Hmgcs2, so raising PPARA activity directly increases Hmgcs2 transcription.
+T3VP_0006	knockdown	NOTCH1 signaling is required alongside SMAD3 for PTPRK expression, so the SMAD3 partner pathway is necessary. Loss of NOTCH1 removes the partner input and lowers PTPRK.
+T3VP_0007	knockdown	SMAD3 acts with partner factors such as NOTCH1 and SMAD4 to activate PTPRK. Loss of SMAD3 breaks the complex and lowers PTPRK.
+T3VP_0008	knockdown	SMAD4 is the co-SMAD partner of SMAD3, and PTPRK activation needs the SMAD3/SMAD4 complex. Its loss reduces PTPRK.
+T3VP_0009	overexpression	Combined NOTCH1 activation and TGF-beta/SMAD3 signaling cooperate as partner pathways. Together they increase PTPRK expression synergistically.
+T3VP_0010	overexpression	HIF1A induces miR-210, a regulatory RNA that targets ISCU mRNA. Increasing miR-210 represses ISCU, so it falls.
+T3VP_0011	inhibition	miR-181b is a STAT3-induced regulatory RNA that targets CYLD. Inhibiting miR-181b relieves the repression and CYLD rises.
+T3VP_0012	overexpression	PPARA binds the Pdk4 cis-regulatory element, likely with BHLHE40 as a cofactor. Increasing PPARA activates Pdk4 transcription.
+T3VP_0013	inhibition	HIF1A induces miR-210, which targets E2F3 mRNA. Inhibiting miR-210 relieves the repression, so E2F3 rises.
+T3VP_0014	inhibition	TWIST1 induces miR-10b, which represses HOXD10. Inhibiting miR-10b lowers this repression; the reported down direction is read as the effect of the TWIST1-miR-10b relay on HOXD10.
+T3VP_0015	inhibition	GATA1 drives miR-451, a regulatory RNA that targets Ywhaz mRNA. Inhibiting miR-451 relieves the repression, so Ywhaz rises.
+T3VP_0016	inhibition	HIF1A induces miR-210, which represses ISCU. Inhibiting miR-210 relieves the repression and ISCU rises.
+T3VP_0017	overexpression	GATA1 induces miR-451, which represses Ywhaz mRNA. Raising miR-451 lowers Ywhaz.
+T3VP_0018	knockdown	BHLHE40 is a partner TF that cooperates with PPARA at Hmgcs2. Its loss removes the combinatorial input, so Hmgcs2 falls.
+T3VP_0019	overexpression	HIF1A induces miR-210, which targets E2F3 mRNA. Increasing miR-210 represses E2F3, so it falls.
+T3VP_0020	knockdown	BHLHE40 is a partner TF that cooperates with PPARA at Angptl4. Its loss removes the combinatorial input, so Angptl4 falls.

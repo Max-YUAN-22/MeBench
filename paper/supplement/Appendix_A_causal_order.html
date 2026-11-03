@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Appendix A — Causal-Order Failure Analysis</title><style>
+body{font-family:'Times New Roman',serif;font-size:11pt;max-width:720px;margin:36px auto;color:#111;line-height:1.6;}
+h1{font-size:13pt;} h2{font-size:11.5pt;margin:22px 0 6px;} h3{font-size:11pt;margin:14px 0 4px;color:#222;font-style:italic;}
+p{margin:8px 0;text-align:justify;}
+table{border-collapse:collapse;margin:12px auto;width:100%;}
+th,td{border:1px solid #bbb;padding:4px 7px;font-size:9.5pt;text-align:center;}
+th{background:#f2f2f2;} td:first-child{text-align:left;}
+blockquote{border-left:3px solid #aaa;margin:10px 0;padding:4px 14px;font-size:10pt;}
+.fn{font-size:8.5pt;color:#555;margin:5px 0;line-height:1.4;text-align:left;}
+</style></head><body>
+
+<h1>Appendix A: The Causal-Order Axis — Where Mechanistic Reasoning Breaks (Task 2)</h1>
+
+<p>Direction-of-change prediction is saturated across all evaluated systems. The informative signal is therefore in the five-axis chain adjudication, and within it in one axis in particular. For every system, the strongest axis is the intervention–outcome link (90.0–95.3%): given a perturbation, systems reliably connect it to the correct direction. The weakest or second-weakest axis is, without exception, <i>causal order</i> — the requirement that the answer place the transcription factor, the required mediator, and the target gene into an explicit ordered dependency. Pooled per-axis pass rates over all adjudicated runs are shown in Table A1.</p>
+
+<p class="fn" style="font-weight:bold">Table A1 | Five-axis pass rates on Task 2, pooled over all adjudicated runs per system (mean %).</p>
+<table>
+<tr><th>System</th><th>Mechanism</th><th>Mediator</th><th><b>Causal order</b></th><th>Outcome link</th><th>No contradiction</th></tr>
+<tr><td>GPT-6-Astra</td><td>89.0</td><td>88.6</td><td><b>88.3</b></td><td>95.3</td><td>88.6</td></tr><tr><td>Claude-Sonnet-5.5</td><td>85.2</td><td>83.2</td><td><b>82.0</b></td><td>91.3</td><td>87.3</td></tr><tr><td>Gemini-3.8-Flash</td><td>90.9</td><td>82.9</td><td><b>83.7</b></td><td>92.6</td><td>89.0</td></tr><tr><td>GLM-5.3-Flash</td><td>64.6</td><td>75.3</td><td><b>62.8</b></td><td>70.3</td><td>88.3</td></tr><tr><td>Grok-4.6</td><td>85.5</td><td>83.7</td><td><b>82.6</b></td><td>92.6</td><td>90.8</td></tr><tr><td>Biomni</td><td>81.1</td><td>81.9</td><td><b>77.5</b></td><td>90.0</td><td>81.9</td></tr>
+</table>
+<p class="fn">Adjudicated runs: 4 per system for all six systems (all 193 Task 2 units adjudicated in all 24 system-runs). Judgments produced by cross-model adjudication against unit-level gold mediators (Appendix B, §B.4).</p>
+
+<p>This pattern localizes the failure precisely. Systems do not fail because they cannot name entities — the mediator axis (77.5–88.6%) is passed nearly as often as the mechanism axis. They fail because the relational structure between the entities they name is absent from their explanations. We distinguish three qualitatively different failure categories.</p>
+
+<h3>A.1 Category 1: the one-layer default narrative</h3>
+
+<p>A single Task 2 unit fails the causal-order axis for all six systems in every adjudicated run: <b>T2U_0014</b> (ESR1 → G0S2; perturbation = loss of the target regulatory sites). The gold annotation is chromatin-mediated regulation: the source experiment disrupted the ERBS H3K27ac-positive enhancer state by targeted recruitment of SID4X-dCas9-KRAB/SIN3A-HDAC, so the required causal chain is enhancer chromatin state → ESR1-dependent transcription → target expression. All six systems predict the correct direction (down). All six produce a one-layer narrative in which ESR1 binds DNA directly and site loss merely removes that binding:</p>
+
+<blockquote>
+<p><b>GPT-6-Astra:</b> "Direct cis-regulatory DNA: loss of the G0S2 regulatory site weakens ESR1-linked transcription, lowering G0S2 expression."</p>
+<p><b>Claude-Sonnet-5.5:</b> "Perturbing the ESR1-bound regulatory element removes direct enhancer activation of the target, lowering expression."</p>
+<p><b>Gemini-3.8-Flash:</b> "…perturbation of this binding site eliminates ESR1 recruitment leading to downregulation."</p>
+<p><b>GLM-5.3-Flash:</b> "…loss_or_reduction of this cis-regulatory site removes the ESR1 enhancer input, so G0S2 decreases."</p>
+<p><b>Grok-4.6:</b> "Loss of target cis-regulatory sites prevents ESR1 binding and activation, lowering G0S2."</p>
+<p><b>Biomni:</b> "ESR1 … binds to estrogen response elements (EREs) in the regulatory regions of target genes …"</p>
+</blockquote>
+
+<p>None of the six traces mentions the epigenetic silencing machinery (dCas9-KRAB/SIN3A-HDAC recruitment; loss of H3K27ac) that constitutes the actual experimental manipulation. Each system answers a different question from the one posed: <i>what happens if ESR1 cannot bind</i>, rather than <i>what happens when the enhancer's chromatin state is altered</i>. The causal-order axis fails because the ordered dependency between chromatin state and TF occupancy — the actual topology of the experiment — is absent from every answer.</p>
+
+<h3>A.2 Category 2: mediator named, causal role inverted</h3>
+
+<p>Units T2U_0022–0023 (ΔNp63 → SAMD9L/ZHX2; perturbation = H2A.Z loss) show that naming the correct mediator is not sufficient. The gold annotation specifies that ΔNp63α recruits SRCAP subunits for <i>repressive</i> H2A.Z deposition; loss of the repressive mark therefore relieves repression, and the gold direction is <i>up</i>. Four systems pass the mechanism and mediator axes (each names H2A.Z) and then fail both the causal-order and outcome-link axes by applying the textbook prior that H2A.Z marks accessible, permissive chromatin:</p>
+
+<blockquote>
+<p><b>Claude-Sonnet-5.5:</b> "H2A.Z loss alters the chromatin state that TP63 needs to activate the target, so expression falls." <i>(predicted direction: down; gold: up)</i></p>
+<p><b>Biomni:</b> "H2A.Z … maintains chromatin accessibility … Loss of H2A.Z reduces chromatin accessibility … impairing TP63's ability to bind …"</p>
+</blockquote>
+
+<p>The entity is correct; its position and polarity in the chain are not. This category demonstrates that the causal-order axis measures a property the mediator axis cannot: whether the model represents <i>what the mediator does to whom</i>, not merely <i>which</i> mediator is involved.</p>
+
+<h3>A.3 Category 3: isolated causal-order failures — entities known, dependency unstated</h3>
+
+<p>The most instructive cases are units on which exactly one axis — causal order — fails while the other four pass. Five such unit-runs occur in the entire adjudicated pool, all by Gemini-3.8-Flash, all on chromatin-mediated units, and in each the model names the correct mediator class and the correct direction. We flag these as boundary cases by construction: the causal-order axis is judged semantically — on whether the functional dependency among TF, chromatin mediator, perturbation, and outcome is correctly described — not by keyword matching, and in each of these five responses the dependency statement is absent rather than wrong. They delimit what the axis requires; the emblematic errors are the role inversions and invented mediators documented in §A.2 and Appendix C:</p>
+
+<blockquote>
+<p><b>Gemini-3.8-Flash, CDX2 → Scin</b> (gold mediator: PRC2/H3K27me3 repressive domain): "EED/PRC2 acts as a repressive chromatin regulator at the CDX2-regulated target locus, and its loss reduces repressive H3K27me3 marks leading to target gene upregulation."</p>
+<p><b>Gemini-3.8-Flash, PPARA → Cdh1</b> (gold mediator: E2F8-induced UHRF1/DNMT1/HDAC1 repression): "UHRF1 acts as a repressive chromatin regulator maintaining DNA methylation and gene silencing, and its loss relieves chromatin-mediated repression leading to target upregulation."</p>
+</blockquote>
+
+<p>These sentences are biologically literate: PRC2/H3K27me3 and UHRF1 are named, the repressive role is stated correctly, and the direction follows. What is missing is the dependency structure that the gold topology requires (TF → required chromatin regulator → transcription): nothing states that the target requires the PRC2-maintained H3K27me3 domain through which CDX2 acts, or that E2F8 sits upstream of the UHRF1/DNMT1/HDAC1 repressive complex. The mediator is described as a static attribute of the locus rather than as a node in an ordered causal path. This category shows that the failure is representational rather than epistemic: the models produce lists of mechanistic ingredients without serializing them into a dependency chain.</p>
+
+<p>A query-wording caveat applies to the ESR1 enhancer units and is disclosed here: the model-facing query describes the perturbation abstractly as <i>loss_or_reduction of "target regulatory site(s)"</i>, while the source experiment repressed the sites epigenetically (dCas9-KRAB/SIN3A-HDAC) without altering the DNA sequence — the method is recorded in evaluator-only fields. A literal reading of the query ("the sites are deleted") makes a direct-cis answer defensible, so the causal-order failures on these three units conflate mechanism knowledge with query interpretation. Excluding them raises every system's chain-pass rate by only 1.1–1.4 percentage points and changes no ranking; the units are flagged for dual-key human adjudication and for query amendment in the next benchmark revision.</p>
+
+<h3>A.4 Family-level clustering</h3>
+
+<p>Causal-order failures are not distributed uniformly across the 193 Task 2 units; they concentrate in a small number of biological families, and the same families recur across systems (Table A2).</p>
+
+<p class="fn" style="font-weight:bold">Table A2 | Task 2 families with the highest failure rates, by two explicit metrics: the causal-order <i>axis</i> (that single axis scored 0) and the <i>full five-axis chain</i> (all axes 0; one-vote veto). The two metrics differ wherever a system passes the causal-order axis but fails another axis.</p>
+<table>
+<tr><th>Units</th><th>Family</th><th>Gold mediator</th><th>Causal-order-axis failure</th><th>Full-chain failure</th></tr>
+<tr><td style="text-align:left">T2U_0013–0015</td><td style="text-align:left">ESR1 ERBS enhancer state (CISH, G0S2, MMP17)</td><td style="text-align:left">H3K27ac+ enhancer state disrupted by dCas9-KRAB/SIN3A-HDAC</td><td><b>97.2%</b> (70/72)</td><td><b>98.6%</b> (71/72)</td></tr>
+<tr><td style="text-align:left">T2U_0036–0038</td><td style="text-align:left">PPARA + BHLHE40 cooperative activation (Angptl4, Hmgcs2, Pdk4)</td><td style="text-align:left">BHLHE40 (partner TF)</td><td><b>95.8%</b> (69/72)</td><td><b>100%</b> (72/72)</td></tr>
+<tr><td style="text-align:left">T2U_0022–0023</td><td style="text-align:left">ΔNp63 → SRCAP / H2A.Z deposition</td><td style="text-align:left">SRCAP subunits; repressive H2A.Z</td><td>91.7% (44/48)</td><td><b>95.8%</b> (46/48)</td></tr>
+<tr><td style="text-align:left">T2U_0016–0021</td><td style="text-align:left">GATA1 interface mutants D218G / R216Q (Slc4a1, Lrrc39, Rragd)</td><td style="text-align:left">TAL1 (partner TF)</td><td>81.9% (118/144)</td><td><b>90.3%</b> (130/144)</td></tr>
+<tr><td style="text-align:left">T2U_0003–0009</td><td style="text-align:left">TP63 + FOXK1 combinatorial targets in SCC</td><td style="text-align:left">FOXK1 (partner TF)</td><td>83.3% (140/168)</td><td>83.3% (140/168)</td></tr>
+</table>
+<p class="fn">Termination note (2026-10-17, designer review): an earlier version of this table — and of family rates quoted elsewhere — labeled the full-chain rates as "causal-order failure rates". The two metrics are now reported separately everywhere. Per-unit tier enumeration: causal-order-axis 24/24 failures occur for exactly one unit (T2U_0014); full-chain 24/24 failures occur for five units (T2U_0014, 0015, 0036–0038). Family rates pool all member units × 6 systems × 4 runs.</p>
+
+<p>The concentration is informative in both directions. Every family above 80% requires a second entity in the chain — a partner transcription factor, a chromatin regulator, or an enhancer state — whereas units that systems pass are overwhelmingly single-input direct-cis units. Family resolution also separates systems: GPT resolves the TP63–FOXK1 family in three of four runs and Gemini in one, Grok resolves the GATA1–TAL1 family in one, and no system ever resolves the SRCAP/H2A.Z, ESR1-enhancer, or BHLHE40 families. The causal-order axis thus functions as the benchmark's primary discriminator between genuine mechanism resolution and direction-level pattern matching; its systematic weakness across all systems, on precisely the units where a mediator must be placed between perturbation and transcription, is the central empirical finding of the mechanistic-reasoning analysis.</p>
+
+<p class="fn">Reasoning texts are quoted verbatim from the released per-run outputs; gold annotations are from evaluator-only files and are not visible to evaluated systems. Family failure rates pool all adjudicated unit-runs of all family members across the six systems and four runs (denominators in the table). All adjudicated traces cited here are archived with their judgment records.</p>
+</body></html>

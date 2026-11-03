@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+body{font-family:'Times New Roman',serif;font-size:11pt;max-width:700px;margin:32px auto;color:#111;line-height:1.6;}
+h2{font-size:12pt;margin:24px 0 8px;color:#000;}
+h3{font-size:11pt;margin:16px 0 4px;color:#222;}
+p{margin:8px 0;text-align:justify;}
+table{border-collapse:collapse;margin:10px 0;width:100%;}
+th,td{border:1px solid #bbb;padding:4px 8px;font-size:9.5pt;text-align:center;}
+th{background:#f0f0f0;} td:first-child{text-align:left;}
+.fn{font-size:8.5pt;color:#555;margin:6px 0;line-height:1.35;}
+blockquote{border-left:3px solid #bbb;margin:10px 0;padding:4px 14px;color:#333;}
+</style></head><body>
+
+<p>We analyze the mechanistic reasoning chains produced by the evaluated systems on Task 2 and Task 3. The analysis draws on verbatim model outputs from four independent runs, scored by the released five-axis adjudication protocol. Gold annotations are from evaluator-only files.</p>
+
+<h2>The direct-activation default</h2>
+
+<p>The most consistent failure across all systems and mechanism classes is the default to a direct-activation narrative. On Task 2, six systems provided comparable reasoning traces on the seven TP63 target units (ANKRD27, HNRNPA1, HNRNPL, L3HYPDH, NABP2, RPS16, TIMM50), where the gold mechanism is combinatorial regulation requiring the partner transcription factor FOXK1. The reasoning produced by each system on the first of these units illustrates the convergence:</p>
+
+<blockquote>
+<p><b>GPT-6-Astra:</b> "TP63 loss reduces transcription through the ANKRD27-linked regulatory element, lowering ANKRD27 expression."</p>
+<p><b>Claude-Sonnet-5.5:</b> "TP63 binds a cis-regulatory element near the target and activates it directly, so TP63 loss lowers expression."</p>
+<p><b>Gemini-3.8-Flash:</b> "TP63 directly binds target-linked cis-regulatory DNA to activate transcription, and loss of TP63 reduces this activation."</p>
+<p><b>GLM-5.3-Flash:</b> "TP63 binds cis-regulatory elements of ANKRD27 and directly activates its transcription."</p>
+<p><b>Grok-4.6:</b> "Loss of activator TP63 reduces its occupancy of target-linked cis-regulatory DNA, lowering ANKRD27 transcription."</p>
+<p><b>Biomni:</b> "TP63 is a transcription factor from the p53 family that binds to regulatory elements in the promoter or enhancer regions of its target genes."</p>
+</blockquote>
+
+<p>The direct-activation default is not universal, however. On these same seven units, GPT-6-Astra names FOXK1 in 21 of its 28 adjudicated traces (three of four runs) and passes all five axes on every trace that names it; Gemini-3.8-Flash does so in 7 of 28 traces (one of four runs). The four remaining systems never name FOXK1 (0 of 112 traces across all four of their runs). For those four systems the default holds without exception. It recurs for the ESR1 targets requiring p300/H3K27ac enhancer activation and the PPARA targets requiring BHLHE40 cooperative binding; the GATA1–TAL1 family is resolved by no system in any adjudicated run except Grok in one of four. Across the non-default mechanism classes the dominant error is the same: a one-layer causal model with no partner, chromatin state, or RNA intermediary.</p>
+
+<h2>Near-miss analysis</h2>
+
+<p>A subset of Task 2 units fails chain adjudication on exactly one axis, revealing which component of mechanistic reasoning is most fragile. In one adjudicated run, GPT-6-Astra produces exactly three such units (PPARA → Cdh1, Cdh3, Smpd3), all failing on the mediator axis alone; in its other runs these units pass entirely. The gold mediator for these units is "E2F8-induced UHRF1/DNMT1/HDAC1 repression at an H3K9me3-marked, methylated target promoter region" — an indirect, chromatin-level mechanism. The model correctly distinguishes this from direct cis-regulation (mechanism axis passes) but cannot name the chromatin-level mediator at entity resolution (mediator axis fails). Pooled over all adjudicated runs, the near-miss population (units failing exactly one axis in at least one run) is larger than single-run inspection suggests: Gemini 32 units, GPT 12, Claude 6, Grok 5, Biomni 4, GLM 0. Most chain failures still fail on multiple axes simultaneously: when a model misidentifies the mechanism class it typically also fails to name the correct mediator and place it in the correct causal order.</p>
+
+<h2>Shared failure families</h2>
+
+<h3>TP63–FOXK1 family (7 consecutive shared-failure units)</h3>
+<p>Gold: combinatorial_tf_regulation; mediator = FOXK1 (partner transcription factor). Four of six systems (Claude, GLM, Grok, Biomni) describe TP63 as directly activating the target through cis-regulatory elements and never mention FOXK1; their reasoning texts on these units are structurally interchangeable. GPT names FOXK1 and passes all five axes on all seven units in three of its four runs, and Gemini does so in one of four runs — the family discriminates sharply between systems rather than failing universally.</p>
+
+<h3>GATA1–TAL1 family (interface-defect mutants)</h3>
+<p>Gold: combinatorial_tf_regulation; mediator = TAL1 (partner transcription factor, disrupted by D218G/R216Q interface mutants). Claude-Sonnet-5.5 infers "a cofactor such as FOG1/ZFPM1" — a biologically real GATA1 cofactor, but not the gold-standard TAL1. Grok-4.6 correctly identifies "impairs partner interaction so combinatorial activation falls" on some units. The discrepancy between Grok's performance and the other systems' on this family reflects a genuine difference in reasoning quality that the five-axis adjudication can detect.</p>
+
+<h3>ESR1 enhancer family</h3>
+<p>Gold: ERBS H3K27ac-positive enhancer state disrupted by SID4X-dCas9-KRAB/SIN3A-HDAC recruitment. Claude correctly identifies "disrupting the site removes ESR1 input" but does not name the chromatin mediator (H3K27ac state or SRCAP/HDAC complex). The enhancer-level mediator is the component that no evaluated reasoning trace names at the resolution required by the gold annotation.</p>
+
+<h3>PPARA–BHLHE40 family</h3>
+<p>Gold: PPARA and BHLHE40 cooperatively activate Angptl4, Hmgcs2, and Pdk4. Models describe PPARA activation but omit BHLHE40 as the required partner. GPT-6-Astra states "PPARA binds the regulatory element and activates the target" — directionally correct but missing the partner entirely.</p>
+
+<h2>Task 3: the inverse inference problem</h2>
+
+<p>Task 3 requires the model to infer, from the direction of target change and the perturbed entity, what intervention was performed. Three categories of error are observed:</p>
+
+<h3>Vocabulary mismatch (recoverable)</h3>
+<p>GPT-6-Astra answers "knockdown" for miR-210 (T3VP_0013), miR-181b (T3VP_0011), miR-10b (T3VP_0003), and miR-451 (T3VP_0015). The accepted interventions include <code>inhibition</code>, <code>sponge_inhibition</code>, or <code>genetic_knockout</code>. The reasoning is biologically correct — "miR-210 knockdown relieves repression" — but "knockdown" does not normalize to <code>inhibition</code> or <code>sponge_inhibition</code> under the current synonym whitelist. Four GPT units fail for this reason alone. This is a vocabulary coverage gap that could be addressed by expanding the synonym whitelist to include regulatory-RNA knockdown as a synonym for inhibition.</p>
+
+<h3>Method inference error (genuine knowledge gap)</h3>
+<p>For PPARA targets (T3VP_0004, 0005, 0012), the gold intervention is <code>agonist_activation</code> — the experiment used a ligand agonist, not cDNA overexpression. GPT-6-Astra answers "overexpression." Both are gain-of-function and produce the same direction, but the specific experimental method differs. The model cannot distinguish between overexpression and agonist treatment without paper-level knowledge of the experimental design.</p>
+
+<h3>Precision error</h3>
+<p>For the SMAD3/PTPRK unit (T3VP_0009), the gold intervention is <code>combined_ligand_stimulation</code> — simultaneous NOTCH1 and TGF-β ligand treatment. GPT-6-Astra answers "activation." The model correctly identifies that stimulation produces up-regulation but does not specify that two pathways must be co-stimulated.</p>
+
+<h2>Underrepresentation of non-default mechanisms</h2>
+
+<p>Pooled across the six systems and four runs (4,104 Task 1 unit-level predictions), the aggregate confusion matrix reveals that <code>direct_cis_regulatory_dna</code> accounts for 91.2% of all mechanism predictions (3,743 of 4,104 unit-level predictions, pooled over the six systems and four runs). This is a substantial overrepresentation relative to the gold-label frequency: direct-cis units comprise 66.7% of the benchmark (114 of 171 units), but receive 88.2% of predictions. The three non-default mechanisms are collectively compressed: over all adjudicated runs, 82.9% of predictions on chromatin-mediated units, 88.5% on combinatorial units, and 83.3% on regulatory-RNA units are direct-cis. Exact class-level recognition outside direct-cis is rare: 8.5% of chromatin, 10.4% of combinatorial, and 10.6% of regulatory-RNA unit-runs are answered with the correct class, against 94.5% for direct-cis units.</p>
+
+<p>This is not a prompt artifact (identical prompts across systems and runs) nor a scoring bias (the scorer counts all four classes symmetrically). It is consistent with an architectural prior in LLMs: the default narrative "transcription factor directly regulates target gene expression" dominates all other mechanistic hypotheses, regardless of biological context.</p>
+
+<h2>Model-specific observations</h2>
+
+<p><b>GPT-6-Astra</b> produces the most concise reasoning among the text models (mean 129 characters per Task 2 explanation) with high direction accuracy (96.6%). Failure mode: in one of four runs it defaults to direct-activation on the TP63 target set; in the other three runs it names FOXK1 and passes the full chain on all seven units.</p>
+
+<p><b>Claude-Sonnet-5.5</b> produces compact reasoning (mean 137 characters; Gemini is the longest text model at 178) with a Task 1 macro-F1 of 30.0%. Failure mode: on combinatorial targets, infers plausible-but-wrong cofactors (FOG1/ZFPM1 instead of TAL1). The reasoning is internally coherent but mechanistically incomplete.</p>
+
+<p><b>Gemini-3.8-Flash</b> produces the most consistent outputs across runs (lowest inter-run variance on Task 1, σ = 2.3, tied with Biomni). Direction accuracy is tied for highest (96.9%). The reasoning tends toward conservative mechanism assignments, and it resolves the TP63–FOXK1 family in one of four runs — the only run besides GPT's in which any system resolves that family besides GPT.</p>
+
+<p><b>GLM-5.3-Flash</b> exhibits task-comprehension instability: in 2 of 4 Task 2 passes the model copies the input intervention type into the direction column (51 and 98 of 193 rows respectively); its two clean passes achieve 95.9–97.9% direction accuracy, comparable to other systems. The affected passes are scored exactly as submitted and disclosed. (GLM's fourth Task 2 pass was initially lost to an API failure on Oct 12 and re-run on Oct 16 under the identical prompt; the re-run is the pass analyzed here.)</p>
+
+<p><b>Grok-4.6</b> produces compact reasoning (mean 137 characters) with direction accuracy 95.9–97.4% across runs. It is the only system that ever resolves the GATA1–TAL1 family (one of four runs).</p>
+
+<p><b>Biomni (tool-augmented)</b> shows the largest tool effect on Task 3 type accuracy (+31.2 pp over its no-tools condition), consistent with the hypothesis that retrieval benefits entity-specific inference. Chain quality is comparable between conditions.</p>
+
+<h2>Evaluation limitations</h2>
+
+<p>Five-axis chain adjudication was performed by gpt-6-astra cross-judging (gpt outputs judged by Claude; Claude outputs judged by GPT; other systems judged by GPT). The mediator-axis false-negative rate is 0/193 — no case was identified where the gold mediator was named in the reasoning but the mediator axis was scored 0. However, potential self-preference bias in cross-model judging cannot be excluded without blinded human review. Human adjudication remains the definitive validation step for mediator-resolution accuracy. Adjudication packets generated by the released tooling are archived for this purpose.</p>
+
+<p class="fn">Class-level statistics are computed from the aggregate pooling of all Task 1 unit-level predictions over the six evaluated systems and four runs (4,104 predictions; GLM Task 1 pass 1 is the re-administered, schema-compliant pass). Gold-label frequencies are unit counts over the 171 Task 1 units. All prompts are byte-identical per run; temperature 0; released scorer unmodified. Task 3 is proof-of-concept scale (n = 20; 9 bidirectional pairs; 95% CI ± 20 pp on pass rates). SUMMER was not rerun for v3.7; v3.0 conclusions regarding its output-format limitation are cited.</p>
+
+</body></html>

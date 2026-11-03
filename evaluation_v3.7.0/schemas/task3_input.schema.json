@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "v3.7.0_task3_vague_perturbation_input",
+  "type": "object",
+  "required": [
+    "tf",
+    "target_gene",
+    "direction",
+    "perturbation"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "tf": {
+      "type": "string"
+    },
+    "target_gene": {
+      "type": "string"
+    },
+    "direction": {
+      "enum": [
+        "up",
+        "down"
+      ]
+    },
+    "perturbation": {
+      "type": "object",
+      "required": [
+        "perturbed_entity"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "perturbed_entity": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

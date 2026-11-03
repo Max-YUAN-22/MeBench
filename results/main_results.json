@@ -1,0 +1,57 @@
+{
+ "GPT-6-Astra": {
+  "T1_BalAcc": 34.7,
+  "T1_mF1": 34.5,
+  "T2_BalJointAcc": 78.3,
+  "T2_JointF1": 78.4,
+  "T3_BalJointAcc": 35.1,
+  "T3_JointF1": 34.5,
+  "n_runs": 4
+ },
+ "Claude-Sonnet-5.5": {
+  "T1_BalAcc": 31.1,
+  "T1_mF1": 30.0,
+  "T2_BalJointAcc": 74.2,
+  "T2_JointF1": 74.7,
+  "T3_BalJointAcc": 21.5,
+  "T3_JointF1": 25.6,
+  "n_runs": 4
+ },
+ "Gemini-3.8-Flash": {
+  "T1_BalAcc": 32.2,
+  "T1_mF1": 33.2,
+  "T2_BalJointAcc": 72.8,
+  "T2_JointF1": 72.8,
+  "T3_BalJointAcc": 33.9,
+  "T3_JointF1": 31.9,
+  "n_runs": 4
+ },
+ "GLM-5.3-Flash": {
+  "T1_BalAcc": 29.0,
+  "T1_mF1": 26.8,
+  "T2_BalJointAcc": 52.8,
+  "T2_JointF1": 57.5,
+  "T3_BalJointAcc": 31.0,
+  "T3_JointF1": 35.7,
+  "n_runs": 4,
+  "note_T1": "All four Task 1 passes schema-compliant (pass 1 re-administered once on Oct 16 after its original capture used a three-column output format that the standard parser could not read; archived under task1_schema_deviant_2026-10-13/)"
+ },
+ "Grok-4.6": {
+  "T1_BalAcc": 26.9,
+  "T1_mF1": 22.7,
+  "T2_BalJointAcc": 73.7,
+  "T2_JointF1": 74.3,
+  "T3_BalJointAcc": 32.7,
+  "T3_JointF1": 32.2,
+  "n_runs": 4
+ },
+ "Biomni (tools)": {
+  "T1_BalAcc": 32.3,
+  "T1_mF1": 33.1,
+  "T2_BalJointAcc": 68.5,
+  "T2_JointF1": 69.1,
+  "T3_BalJointAcc": 23.6,
+  "T3_JointF1": 32.4,
+  "n_runs": 4
+ }
+}

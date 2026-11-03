@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "v3.5.0_task2_output",
+  "type": "object",
+  "required": [
+    "direction",
+    "mechanism_reasoning"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "direction": {
+      "enum": [
+        "up",
+        "down"
+      ]
+    },
+    "mechanism_reasoning": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

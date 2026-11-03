@@ -1,0 +1,73 @@
+system	task	metric	per_run_values	mean	published	formula
+GPT-6-Astra	Task1	T1 Balanced Acc	31.41;39.56;34.10;33.78	34.714	34.7	mean over runs of (mean per-class recall, 4 classes)
+GPT-6-Astra	Task1	T1 Macro-F1	30.17;40.79;32.96;34.23	34.535	34.5	mean over runs of (mean per-class F1, 4 classes)
+GPT-6-Astra	Task2	T2 BalJointAcc	69.27;79.95;84.27;79.65	78.285	78.3	mean over adjudicated runs of (mean per-gold-direction joint recall)
+GPT-6-Astra	Task2	T2 Joint F1	69.95;80.67;83.12;79.78	78.381	78.4	mean over adjudicated runs of (mean per-class chain-gated F1)
+GPT-6-Astra	Task3	T3 BalJointAcc	40.48;35.71;33.33;30.95	35.119	35.1	mean over adjudicated runs of (mean per-gold-class joint recall)
+GPT-6-Astra	Task3	T3 Joint F1	36.67;33.21;38.56;29.56	34.503	34.5	mean over adjudicated runs of (mean per-gold-class chain-gated F1)
+GPT-6-Astra	Task2	joint pass	77.72;84.97;89.64;84.46	84.197	84.2	mean of per-run joint passes /193
+GPT-6-Astra	Task2	joint F1	69.95;80.67;83.12;79.78	78.381	78.4	mean of per-run chain-gated macro-F1
+GPT-6-Astra	Task3	chain pass	80.00;85.00;60.00;65.00	72.500	72.5	mean of per-run all-five-axis passes /20
+GPT-6-Astra	Task3	joint F1	36.67;33.21;38.56;29.56	34.503	34.5	mean of per-run type∧chain-gated macro-F1
+Claude-Sonnet-5.5	Task1	T1 Balanced Acc	35.94;29.91;33.44;24.93	31.055	31.1	mean over runs of (mean per-class recall, 4 classes)
+Claude-Sonnet-5.5	Task1	T1 Macro-F1	36.23;30.17;31.65;21.77	29.956	30.0	mean over runs of (mean per-class F1, 4 classes)
+Claude-Sonnet-5.5	Task2	T2 BalJointAcc	77.56;74.91;68.67;75.76	74.223	74.2	mean over adjudicated runs of (mean per-gold-direction joint recall)
+Claude-Sonnet-5.5	Task2	T2 Joint F1	77.56;75.42;70.60;75.31	74.721	74.7	mean over adjudicated runs of (mean per-class chain-gated F1)
+Claude-Sonnet-5.5	Task3	T3 BalJointAcc	28.81;0.00;28.57;28.57	21.488	21.5	mean over adjudicated runs of (mean per-gold-class joint recall)
+Claude-Sonnet-5.5	Task3	T3 Joint F1	51.25;0.00;21.63;29.54	25.605	25.6	mean over adjudicated runs of (mean per-gold-class chain-gated F1)
+Claude-Sonnet-5.5	Task2	joint pass	80.83;81.87;76.68;77.72	79.275	79.3	mean of per-run joint passes /193
+Claude-Sonnet-5.5	Task2	joint F1	77.56;75.42;70.60;75.31	74.721	74.7	mean of per-run chain-gated macro-F1
+Claude-Sonnet-5.5	Task3	chain pass	60.00;60.00;55.00;50.00	56.250	56.2	mean of per-run all-five-axis passes /20
+Claude-Sonnet-5.5	Task3	joint F1	51.25;0.00;21.63;29.54	25.605	25.6	mean of per-run type∧chain-gated macro-F1
+Gemini-3.8-Flash	Task1	T1 Balanced Acc	32.75;30.25;31.72;33.88	32.152	32.2	mean over runs of (mean per-class recall, 4 classes)
+Gemini-3.8-Flash	Task1	T1 Macro-F1	34.11;30.32;32.53;35.79	33.188	33.2	mean over runs of (mean per-class F1, 4 classes)
+Gemini-3.8-Flash	Task2	T2 BalJointAcc	79.65;67.64;68.02;75.81	72.780	72.8	mean over adjudicated runs of (mean per-gold-direction joint recall)
+Gemini-3.8-Flash	Task2	T2 Joint F1	79.78;67.64;68.02;75.81	72.813	72.8	mean over adjudicated runs of (mean per-class chain-gated F1)
+Gemini-3.8-Flash	Task3	T3 BalJointAcc	40.48;30.95;33.33;30.95	33.929	33.9	mean over adjudicated runs of (mean per-gold-class joint recall)
+Gemini-3.8-Flash	Task3	T3 Joint F1	36.67;28.77;28.77;33.56	31.945	31.9	mean over adjudicated runs of (mean per-gold-class chain-gated F1)
+Gemini-3.8-Flash	Task2	joint pass	84.46;77.72;69.95;83.42	78.886	78.9	mean of per-run joint passes /193
+Gemini-3.8-Flash	Task2	joint F1	79.78;67.64;68.02;75.81	72.813	72.8	mean of per-run chain-gated macro-F1
+Gemini-3.8-Flash	Task3	chain pass	80.00;60.00;80.00;55.00	68.750	68.8	mean of per-run all-five-axis passes /20
+Gemini-3.8-Flash	Task3	joint F1	36.67;28.77;28.77;33.56	31.945	31.9	mean of per-run type∧chain-gated macro-F1
+GLM-5.3-Flash	Task1	T1 Balanced Acc	33.07;33.41;24.78;24.56	28.955	29.0	mean over runs of (mean per-class recall, 4 classes)
+GLM-5.3-Flash	Task1	T1 Macro-F1	35.04;32.63;19.89;19.79	26.838	26.8	mean over runs of (mean per-class F1, 4 classes)
+GLM-5.3-Flash	Task2	T2 BalJointAcc	74.44;75.63;37.51;23.73	52.827	52.8	mean over adjudicated runs of (mean per-gold-direction joint recall)
+GLM-5.3-Flash	Task2	T2 Joint F1	74.44;78.03;44.59;32.81	57.468	57.5	mean over adjudicated runs of (mean per-class chain-gated F1)
+GLM-5.3-Flash	Task3	T3 BalJointAcc	35.71;24.05;28.57;35.71	31.012	31.0	mean over adjudicated runs of (mean per-gold-class joint recall)
+GLM-5.3-Flash	Task3	T3 Joint F1	38.75;40.00;25.23;38.75	35.681	35.7	mean over adjudicated runs of (mean per-gold-class chain-gated F1)
+GLM-5.3-Flash	Task2	joint pass	78.24;80.31;56.48;32.64	61.917	61.9	mean of per-run joint passes /193
+GLM-5.3-Flash	Task2	joint F1	74.44;78.03;44.59;32.81	57.468	57.5	mean of per-run chain-gated macro-F1
+GLM-5.3-Flash	Task3	chain pass	65.00;45.00;50.00;65.00	56.250	56.2	mean of per-run all-five-axis passes /20
+GLM-5.3-Flash	Task3	joint F1	38.75;40.00;25.23;38.75	35.681	35.7	mean of per-run type∧chain-gated macro-F1
+Grok-4.6	Task1	T1 Balanced Acc	25.00;25.00;32.78;25.00	26.945	26.9	mean over runs of (mean per-class recall, 4 classes)
+Grok-4.6	Task1	T1 Macro-F1	20.00;20.00;30.67;20.00	22.669	22.7	mean over runs of (mean per-class F1, 4 classes)
+Grok-4.6	Task2	T2 BalJointAcc	80.38;68.37;74.44;71.49	73.667	73.7	mean over adjudicated runs of (mean per-gold-direction joint recall)
+Grok-4.6	Task2	T2 Joint F1	80.63;69.05;74.44;73.01	74.282	74.3	mean over adjudicated runs of (mean per-class chain-gated F1)
+Grok-4.6	Task3	T3 BalJointAcc	28.57;35.71;33.33;33.33	32.738	32.7	mean over adjudicated runs of (mean per-gold-class joint recall)
+Grok-4.6	Task3	T3 Joint F1	25.23;41.90;33.06;28.77	32.239	32.2	mean over adjudicated runs of (mean per-gold-class chain-gated F1)
+Grok-4.6	Task2	joint pass	82.90;76.17;78.24;78.76	79.016	79.0	mean of per-run joint passes /193
+Grok-4.6	Task2	joint F1	80.63;69.05;74.44;73.01	74.282	74.3	mean of per-run chain-gated macro-F1
+Grok-4.6	Task3	chain pass	50.00;70.00;65.00;80.00	66.250	66.2	mean of per-run all-five-axis passes /20
+Grok-4.6	Task3	joint F1	25.23;41.90;33.06;28.77	32.239	32.2	mean of per-run type∧chain-gated macro-F1
+Biomni	Task1	T1 Balanced Acc	32.35;33.63;33.75;29.31	32.260	32.3	mean over runs of (mean per-class recall, 4 classes)
+Biomni	Task1	T1 Macro-F1	33.32;34.61;34.62;29.66	33.052	33.1	mean over runs of (mean per-class F1, 4 classes)
+Biomni	Task2	T2 BalJointAcc	61.10;76.96;70.29;65.85	68.548	68.5	mean over adjudicated runs of (mean per-gold-direction joint recall)
+Biomni	Task2	T2 Joint F1	61.44;78.54;70.29;66.26	69.132	69.1	mean over adjudicated runs of (mean per-class chain-gated F1)
+Biomni	Task3	T3 BalJointAcc	15.95;26.90;25.95;25.71	23.631	23.6	mean over adjudicated runs of (mean per-gold-class joint recall)
+Biomni	Task3	T3 Joint F1	30.16;35.65;29.29;34.34	32.358	32.4	mean over adjudicated runs of (mean per-gold-class chain-gated F1)
+Biomni	Task2	joint pass	72.02;79.79;76.68;74.61	75.777	75.8	mean of per-run joint passes /193
+Biomni	Task2	joint F1	61.44;78.54;70.29;66.26	69.132	69.1	mean of per-run chain-gated macro-F1
+Biomni	Task3	chain pass	30.00;45.00;50.00;50.00	43.750	43.8	mean of per-run all-five-axis passes /20
+Biomni	Task3	joint F1	30.16;35.65;29.29;34.34	32.358	32.4	mean of per-run type∧chain-gated macro-F1
+GPT-6-Astra	Task2	five-axis	mechanism 89.0;mediator 88.6;causal order 88.3;outcome link 95.3;no contradiction 88.6	84.7	84.7	pooled axis rates; chain = pooled all-five passes
+GPT-6-Astra	Task3	five-axis	mechanism 85.0;mediator 80.0;causal order 78.8;outcome link 81.2;no contradiction 88.8	72.5	72.5	pooled axis rates; chain = pooled all-five passes
+Claude-Sonnet-5.5	Task2	five-axis	mechanism 85.2;mediator 83.2;causal order 82.0;outcome link 91.3;no contradiction 87.3	79.4	79.4	pooled axis rates; chain = pooled all-five passes
+Claude-Sonnet-5.5	Task3	five-axis	mechanism 75.0;mediator 73.8;causal order 68.8;outcome link 85.0;no contradiction 73.8	56.2	56.2	pooled axis rates; chain = pooled all-five passes
+Gemini-3.8-Flash	Task2	five-axis	mechanism 90.9;mediator 82.9;causal order 83.7;outcome link 92.6;no contradiction 89.0	79.0	79.0	pooled axis rates; chain = pooled all-five passes
+Gemini-3.8-Flash	Task3	five-axis	mechanism 85.0;mediator 76.2;causal order 71.2;outcome link 92.5;no contradiction 85.0	68.8	68.8	pooled axis rates; chain = pooled all-five passes
+GLM-5.3-Flash	Task2	five-axis	mechanism 64.6;mediator 75.3;causal order 62.8;outcome link 70.3;no contradiction 88.3	62.0	62.0	pooled axis rates; chain = pooled all-five passes
+GLM-5.3-Flash	Task3	five-axis	mechanism 72.5;mediator 61.3;causal order 66.2;outcome link 82.5;no contradiction 83.8	56.2	56.2	pooled axis rates; chain = pooled all-five passes
+Grok-4.6	Task2	five-axis	mechanism 85.5;mediator 83.7;causal order 82.6;outcome link 92.6;no contradiction 90.8	79.5	79.5	pooled axis rates; chain = pooled all-five passes
+Grok-4.6	Task3	five-axis	mechanism 82.5;mediator 77.5;causal order 70.0;outcome link 78.8;no contradiction 80.0	66.2	66.2	pooled axis rates; chain = pooled all-five passes
+Biomni	Task2	five-axis	mechanism 81.1;mediator 81.9;causal order 77.5;outcome link 90.0;no contradiction 81.9	76.2	76.2	pooled axis rates; chain = pooled all-five passes
+Biomni	Task3	five-axis	mechanism 63.7;mediator 62.5;causal order 47.5;outcome link 90.0;no contradiction 68.8	43.8	43.8	pooled axis rates; chain = pooled all-five passes

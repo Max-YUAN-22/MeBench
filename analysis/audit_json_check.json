@@ -1,0 +1,10 @@
+{
+ "issues": [],
+ "notes": [
+  "FIVE_AXIS_STATS.json: 0 axis fields fuzzy-checked",
+  "RECOMB_FIVEAXIS.json keys: ['GPT-6-Astra', 'Claude-Sonnet-5.5', 'Gemini-3.8-Flash', 'GLM-5.3-Flash', 'Grok-4.6', 'Biomni (tools)']",
+  "MASTER_STATS_ALL.json: STALE \u2014 internal claude block is a 1-run snapshot (t1_mF1 36.2 etc.), glm block pre-dates final scoring; superseded by MASTER_FINAL_STATS.json. Do not cite.",
+  "MASTER_4RUN_F1.json: STALE \u2014 interim snapshot written 10-12 15:49 before gpt/claude runs 2-4 completed; its 'runs: 4' label was wrong. Superseded. Source of the original claude/gpt discrepancy.",
+  "SUMMARY.json: top-level keys ['gpt', 'claude'] \u2014 inspect manually"
+ ]
+}

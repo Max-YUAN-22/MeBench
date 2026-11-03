@@ -1,0 +1,117 @@
+{
+ "five_axis_html": [
+  [
+   "GPT-6-Astra",
+   "t2",
+   "MATCH"
+  ],
+  [
+   "Claude-Sonnet-5.5",
+   "t2",
+   "MATCH"
+  ],
+  [
+   "Gemini-3.8-Flash",
+   "t2",
+   "MATCH"
+  ],
+  [
+   "GLM-5.3-Flash",
+   "t2",
+   "MATCH"
+  ],
+  [
+   "Grok-4.6",
+   "t2",
+   "MATCH"
+  ],
+  [
+   "Biomni",
+   "t2",
+   "MATCH"
+  ],
+  [
+   "GPT-6-Astra",
+   "t3",
+   "MATCH"
+  ],
+  [
+   "Claude-Sonnet-5.5",
+   "t3",
+   "MATCH"
+  ],
+  [
+   "Gemini-3.8-Flash",
+   "t3",
+   "MATCH"
+  ],
+  [
+   "GLM-5.3-Flash",
+   "t3",
+   "MATCH"
+  ],
+  [
+   "Grok-4.6",
+   "t3",
+   "MATCH"
+  ],
+  [
+   "Biomni",
+   "t3",
+   "MATCH"
+  ]
+ ],
+ "near_miss": {
+  "gpt": 12,
+  "claude": 9,
+  "gemini": 32,
+  "grok": 5,
+  "biomni-agent": 4,
+  "glm": 0
+ },
+ "shared_fail_units": 22,
+ "shared_pass_units": 140,
+ "pooled_t1": {
+  "n": 4788,
+  "direct_cis": 4222,
+  "share": 88.2
+ },
+ "confusion_to_directcis": {
+  "chromatin_mediated_regulation": 472,
+  "regulatory_rna_mediated_indirect_regulation": 457,
+  "combinatorial_tf_regulation": 385
+ },
+ "gold_counts": {
+  "chromatin_mediated_regulation": 21,
+  "direct_cis_regulatory_dna": 114,
+  "regulatory_rna_mediated_indirect_regulation": 20,
+  "combinatorial_tf_regulation": 16
+ },
+ "family_co_fail": {
+  "0003-0009": [
+   20,
+   24,
+   83.3
+  ],
+  "0013-0015": [
+   23,
+   24,
+   95.8
+  ],
+  "0016-0021": [
+   23,
+   24,
+   95.8
+  ],
+  "0022-0023": [
+   23,
+   24,
+   95.8
+  ],
+  "0036-0038": [
+   24,
+   24,
+   100.0
+  ]
+ }
+}

@@ -1,0 +1,7 @@
+{
+ "model": "gpt-6-astra",
+ "task": "task3",
+ "n_expected": 20,
+ "n_parsed": 20,
+ "missing_after_continuation": []
+}

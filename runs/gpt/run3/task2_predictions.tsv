@@ -1,0 +1,194 @@
+unit_id	predicted_direction	mechanism_reasoning
+T2U_0001	up	Predicted chromatin-mediated regulation: EED/PRC2 supplies repressive chromatin that constrains CDX2-dependent Scin transcription; reducing it permits greater expression.
+T2U_0002	up	Predicted chromatin-mediated regulation: EED/PRC2 supplies repressive chromatin that constrains CDX2-dependent Slc26a6 transcription; reducing it permits greater expression.
+T2U_0003	down	Predicted combinatorial TF regulation: TP63 cooperates with FOXK1 to activate ANKRD27; reducing TP63 weakens their joint transcriptional output.
+T2U_0004	down	Predicted combinatorial TF regulation: TP63 cooperates with FOXK1 to activate HNRNPA1; reducing TP63 weakens their joint transcriptional output.
+T2U_0005	down	Predicted combinatorial TF regulation: TP63 cooperates with FOXK1 to activate HNRNPL; reducing TP63 weakens their joint transcriptional output.
+T2U_0006	down	Predicted combinatorial TF regulation: TP63 cooperates with FOXK1 to activate L3HYPDH; reducing TP63 weakens their joint transcriptional output.
+T2U_0007	down	Predicted combinatorial TF regulation: TP63 cooperates with FOXK1 to activate NABP2; reducing TP63 weakens their joint transcriptional output.
+T2U_0008	down	Predicted combinatorial TF regulation: TP63 cooperates with FOXK1 to activate RPS16; reducing TP63 weakens their joint transcriptional output.
+T2U_0009	down	Predicted combinatorial TF regulation: TP63 cooperates with FOXK1 to activate TIMM50; reducing TP63 weakens their joint transcriptional output.
+T2U_0010	down	Predicted chromatin-mediated regulation: TET2-mediated DNA demethylation supports a regulatory state permissive for ESR1 activation of ELOVL2; TET2 reduction weakens that activation.
+T2U_0011	down	Predicted chromatin-mediated regulation: TET2-mediated DNA demethylation supports a regulatory state permissive for ESR1 activation of PTGES; TET2 reduction weakens that activation.
+T2U_0012	down	Predicted chromatin-mediated regulation: TET2-mediated DNA demethylation supports a regulatory state permissive for ESR1 activation of WIPF1; TET2 reduction weakens that activation.
+T2U_0013	down	Predicted direct cis regulation: ESR1 activates CISH through target-linked regulatory DNA; reducing the regulatory sites weakens transcriptional activation.
+T2U_0014	down	Predicted direct cis regulation: ESR1 activates G0S2 through target-linked regulatory DNA; reducing the regulatory sites weakens transcriptional activation.
+T2U_0015	down	Predicted direct cis regulation: ESR1 activates MMP17 through target-linked regulatory DNA; reducing the regulatory sites weakens transcriptional activation.
+T2U_0016	down	Assuming D218G impairs GATA1 function, predicted combinatorial regulation involves weakened cooperation with ZFPM1/FOG1, reducing activation of Lrrc39.
+T2U_0017	down	Assuming D218G impairs GATA1 function, predicted combinatorial regulation involves weakened cooperation with ZFPM1/FOG1, reducing activation of Rragd.
+T2U_0018	down	Assuming D218G impairs GATA1 function, predicted combinatorial regulation involves weakened cooperation with ZFPM1/FOG1, reducing activation of Slc4a1.
+T2U_0019	down	Assuming R216Q weakens GATA1 recognition of regulatory DNA, predicted direct cis regulation loses activating input at Lrrc39, lowering expression.
+T2U_0020	down	Assuming R216Q weakens GATA1 recognition of regulatory DNA, predicted direct cis regulation loses activating input at Rragd, lowering expression.
+T2U_0021	down	Assuming R216Q weakens GATA1 recognition of regulatory DNA, predicted direct cis regulation loses activating input at Slc4a1, lowering expression.
+T2U_0022	down	Predicted chromatin-mediated regulation: H2A.Z-containing nucleosomes support a regulatory state permissive for TP63 activation of SAMD9L; H2A.Z reduction weakens expression.
+T2U_0023	down	Predicted chromatin-mediated regulation: H2A.Z-containing nucleosomes support a regulatory state permissive for TP63 activation of ZHX2; H2A.Z reduction weakens expression.
+T2U_0024	down	Predicted regulatory RNA relay: HIF1A induces miR-210, which represses ISCU RNA; increasing miR-210 strengthens the downstream repression.
+T2U_0025	up	Predicted regulatory RNA relay: TWIST1 induces miR-10b, which represses HOXD10 RNA; reducing miR-10b releases HOXD10 from repression.
+T2U_0026	down	Assuming CA12e denotes an enhancer RNA, ESR1 induces this regulatory RNA to support CA12 transcription; reducing CA12e interrupts the RNA-mediated activating relay.
+T2U_0027	down	Assuming FOXC1e denotes an enhancer RNA, ESR1 induces this regulatory RNA to support FOXC1 transcription; reducing FOXC1e interrupts the RNA-mediated activating relay.
+T2U_0028	down	Assuming GREB1e denotes an enhancer RNA, ESR1 induces this regulatory RNA to support GREB1 transcription; reducing GREB1e interrupts the RNA-mediated activating relay.
+T2U_0029	down	Assuming KCNK5e denotes an enhancer RNA, ESR1 induces this regulatory RNA to support KCNK5 transcription; reducing KCNK5e interrupts the RNA-mediated activating relay.
+T2U_0030	down	Assuming NRIP1e denotes an enhancer RNA, ESR1 induces this regulatory RNA to support NRIP1 transcription; reducing NRIP1e interrupts the RNA-mediated activating relay.
+T2U_0031	down	Assuming P2RY2e denotes an enhancer RNA, ESR1 induces this regulatory RNA to support P2RY2 transcription; reducing P2RY2e interrupts the RNA-mediated activating relay.
+T2U_0032	down	Assuming PGRe denotes an enhancer RNA, ESR1 induces this regulatory RNA to support PGR transcription; reducing PGRe interrupts the RNA-mediated activating relay.
+T2U_0033	down	Assuming SIAH2e denotes an enhancer RNA, ESR1 induces this regulatory RNA to support SIAH2 transcription; reducing SIAH2e interrupts the RNA-mediated activating relay.
+T2U_0034	down	Assuming SMAD7e denotes an enhancer RNA, ESR1 induces this regulatory RNA to support SMAD7 transcription; reducing SMAD7e interrupts the RNA-mediated activating relay.
+T2U_0035	down	Assuming TFF1e denotes an enhancer RNA, ESR1 induces this regulatory RNA to support TFF1 transcription; reducing TFF1e interrupts the RNA-mediated activating relay.
+T2U_0036	up	Predicted direct cis regulation: increased PPARA activity strengthens activation through an Angptl4-linked response element, increasing transcription.
+T2U_0037	up	Predicted direct cis regulation: increased PPARA activity strengthens activation through an Hmgcs2-linked response element, increasing transcription.
+T2U_0038	up	Predicted direct cis regulation: increased PPARA activity strengthens activation through a Pdk4-linked response element, increasing transcription.
+T2U_0039	up	Predicted combinatorial TF regulation: BHLHE40 provides an inhibitory TF input opposing PPARA activation of Angptl4; reducing BHLHE40 releases that inhibition.
+T2U_0040	up	Predicted combinatorial TF regulation: BHLHE40 provides an inhibitory TF input opposing PPARA activation of Hmgcs2; reducing BHLHE40 releases that inhibition.
+T2U_0041	up	Predicted combinatorial TF regulation: BHLHE40 provides an inhibitory TF input opposing PPARA activation of Pdk4; reducing BHLHE40 releases that inhibition.
+T2U_0042	down	Predicted direct cis regulation: ZNF143 activates ABCF2 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0043	down	Predicted direct cis regulation: ZNF143 activates ADAT3 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0044	down	Predicted direct cis regulation: ZNF143 activates AKR1A1 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0045	down	Predicted direct cis regulation: ZNF143 activates ANKRD13B through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0046	down	Predicted direct cis regulation: ZNF143 activates AP1S3 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0047	down	Predicted direct cis regulation: ZNF143 activates ARID5A through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0048	down	Predicted direct cis regulation: ZNF143 activates ASB13 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0049	down	Predicted direct cis regulation: ZNF143 activates BIRC5 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0050	down	Predicted direct cis regulation: ZNF143 activates CASC3 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0051	down	Predicted direct cis regulation: ZNF143 activates CCDC157 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0052	down	Predicted direct cis regulation: ZNF143 activates CCDC92 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0053	down	Predicted direct cis regulation: ZNF143 activates CCPG1 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0054	down	Predicted direct cis regulation: ZNF143 activates CKAP2L through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0055	down	Predicted direct cis regulation: ZNF143 activates CNIH1 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0056	down	Predicted direct cis regulation: ZNF143 activates CPOX through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0057	down	Predicted direct cis regulation: ZNF143 activates CPSF4 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0058	down	Predicted direct cis regulation: ZNF143 activates CRCP through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0059	down	Predicted direct cis regulation: ZNF143 activates CREBL2 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0060	down	Predicted direct cis regulation: ZNF143 activates CWC15 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0061	down	Predicted direct cis regulation: ZNF143 activates CYB5R1 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0062	down	Predicted direct cis regulation: ZNF143 activates EGR1 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0063	down	Predicted direct cis regulation: ZNF143 activates EMC1 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0064	down	Predicted direct cis regulation: ZNF143 activates ENKD1 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0065	down	Predicted direct cis regulation: ZNF143 activates ERAL1 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0066	down	Predicted direct cis regulation: ZNF143 activates ERP44 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0067	down	Predicted direct cis regulation: ZNF143 activates FASTK through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0068	down	Predicted direct cis regulation: ZNF143 activates FH through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0069	down	Predicted direct cis regulation: ZNF143 activates GAMT through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0070	down	Predicted direct cis regulation: ZNF143 activates GOLGA2 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0071	down	Predicted direct cis regulation: ZNF143 activates GTPBP8 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0072	down	Predicted direct cis regulation: ZNF143 activates HMGCL through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0073	down	Predicted direct cis regulation: ZNF143 activates HSPA14 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0074	down	Predicted direct cis regulation: ZNF143 activates IK through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0075	down	Predicted direct cis regulation: ZNF143 activates JMJD8 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0076	down	Predicted direct cis regulation: ZNF143 activates JUN through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0077	down	Predicted direct cis regulation: ZNF143 activates JUND through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0078	down	Predicted direct cis regulation: ZNF143 activates KDELR2 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0079	down	Predicted direct cis regulation: ZNF143 activates KLC2 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0080	down	Predicted direct cis regulation: ZNF143 activates KPNA5 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0081	down	Predicted direct cis regulation: ZNF143 activates LATS1 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0082	down	Predicted direct cis regulation: ZNF143 activates MED16 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0083	down	Predicted direct cis regulation: ZNF143 activates MFSD3 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0084	down	Predicted direct cis regulation: ZNF143 activates MRPL46 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0085	down	Predicted direct cis regulation: ZNF143 activates MRPL54 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0086	down	Predicted direct cis regulation: ZNF143 activates MRPS11 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0087	down	Predicted direct cis regulation: ZNF143 activates MTMR1 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0088	down	Predicted direct cis regulation: ZNF143 activates NUTF2 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0089	down	Predicted direct cis regulation: ZNF143 activates PAPOLG through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0090	down	Predicted direct cis regulation: ZNF143 activates PLAGL2 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0091	down	Predicted direct cis regulation: ZNF143 activates PNKD through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0092	down	Predicted direct cis regulation: ZNF143 activates POMT2 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0093	down	Predicted direct cis regulation: ZNF143 activates PRIM1 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0094	down	Predicted direct cis regulation: ZNF143 activates PRKAA2 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0095	down	Predicted direct cis regulation: ZNF143 activates PROSER3 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0096	down	Predicted direct cis regulation: ZNF143 activates PSMC6 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0097	down	Predicted direct cis regulation: ZNF143 activates PTPMT1 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0098	down	Predicted direct cis regulation: ZNF143 activates PTRHD1 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0099	down	Predicted direct cis regulation: ZNF143 activates RDH11 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0100	down	Predicted direct cis regulation: ZNF143 activates RIC8A through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0101	down	Predicted direct cis regulation: ZNF143 activates RNF40 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0102	down	Predicted direct cis regulation: ZNF143 activates RPAIN through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0103	down	Predicted direct cis regulation: ZNF143 activates RPL6 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0104	down	Predicted direct cis regulation: ZNF143 activates RSBN1 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0105	down	Predicted direct cis regulation: ZNF143 activates SAMD13 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0106	down	Predicted direct cis regulation: ZNF143 activates SAV1 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0107	down	Predicted direct cis regulation: ZNF143 activates SEPTIN8 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0108	down	Predicted direct cis regulation: ZNF143 activates SFT2D2 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0109	down	Predicted direct cis regulation: ZNF143 activates SGF29 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0110	down	Predicted direct cis regulation: ZNF143 activates SLC7A6OS through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0111	down	Predicted direct cis regulation: ZNF143 activates SLC9A6 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0112	down	Predicted direct cis regulation: ZNF143 activates SNRNP48 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0113	down	Predicted direct cis regulation: ZNF143 activates SNRNP70 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0114	down	Predicted direct cis regulation: ZNF143 activates SNRPD3 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0115	down	Predicted direct cis regulation: ZNF143 activates SSB through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0116	down	Predicted direct cis regulation: ZNF143 activates STARD10 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0117	down	Predicted direct cis regulation: ZNF143 activates TFAM through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0118	down	Predicted direct cis regulation: ZNF143 activates THOC7 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0119	down	Predicted direct cis regulation: ZNF143 activates THOP1 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0120	down	Predicted direct cis regulation: ZNF143 activates TIMM17A through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0121	down	Predicted direct cis regulation: ZNF143 activates TMEM258 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0122	down	Predicted direct cis regulation: ZNF143 activates TMOD2 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0123	down	Predicted direct cis regulation: ZNF143 activates TOMM70 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0124	down	Predicted direct cis regulation: ZNF143 activates TPRA1 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0125	down	Predicted direct cis regulation: ZNF143 activates UBALD1 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0126	down	Predicted direct cis regulation: ZNF143 activates UBFD1 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0127	down	Predicted direct cis regulation: ZNF143 activates UQCR10 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0128	down	Predicted direct cis regulation: ZNF143 activates VASP through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0129	down	Predicted direct cis regulation: ZNF143 activates ZBTB10 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0130	down	Predicted direct cis regulation: ZNF143 activates ZFTA through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0131	down	Predicted direct cis regulation: ZNF143 activates ZMYM6 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0132	down	Predicted direct cis regulation: ZNF143 activates ZNF200 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0133	down	Predicted direct cis regulation: ZNF143 activates ZNF24 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0134	down	Predicted direct cis regulation: ZNF143 activates ZNF354A through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0135	down	Predicted direct cis regulation: ZNF143 activates ZNF382 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0136	down	Predicted direct cis regulation: ZNF143 activates ZNF473 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0137	down	Predicted direct cis regulation: ZNF143 activates ZNF485 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0138	down	Predicted direct cis regulation: ZNF143 activates ZNF607 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0139	down	Predicted direct cis regulation: ZNF143 activates ZNF746 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0140	down	Predicted direct cis regulation: ZNF143 activates ZW10 through target-linked regulatory DNA; reducing ZNF143 weakens this activating input.
+T2U_0141	up	Predicted direct cis autoregulation: NANOG protein provides negative feedback through Nanog-linked regulatory DNA; reducing the protein releases this repression of Nanog transcription.
+T2U_0142	up	Predicted chromatin-mediated regulation: OCT4 supports repressive chromatin at the differentiation gene Pax6; reducing OCT4 weakens that repression and permits expression.
+T2U_0143	down	Predicted combinatorial TF regulation: OCT4 cooperates with SOX2 to activate Utf1; reducing OCT4 weakens the joint activating complex.
+T2U_0144	up	Predicted regulatory RNA relay: TP53 induces lincRNA-p21, which supports transcriptional repression of MTAP4; reducing the RNA releases this downstream repression.
+T2U_0145	up	Predicted regulatory RNA relay: TP53 induces lincRNA-p21, which supports transcriptional repression of SUV39H1; reducing the RNA releases this downstream repression.
+T2U_0146	up	Predicted regulatory RNA relay: TP53 induces lincRNA-p21, which supports transcriptional repression of VCAN; reducing the RNA releases this downstream repression.
+T2U_0147	up	Predicted regulatory RNA relay: HIF1A induces miR-210, which represses E2F3 RNA; reducing miR-210 releases E2F3 from repression.
+T2U_0148	up	Predicted combinatorial regulation: activated NOTCH1 nuclear signaling cooperates with SMAD3 and SMAD4 to activate PTPRK; increasing both signaling inputs strengthens transcription.
+T2U_0149	down	Predicted combinatorial regulation: NOTCH1 supplies a cooperating nuclear input for SMAD3/SMAD4 activation of PTPRK; reducing NOTCH1 weakens this joint activation.
+T2U_0150	down	Predicted combinatorial regulation: SMAD3 cooperates with SMAD4 and the NOTCH1 nuclear regulatory complex to activate PTPRK; reducing SMAD3 weakens transcription.
+T2U_0151	down	Predicted combinatorial regulation: SMAD4 is a cooperating TF partner for SMAD3 in NOTCH1-supported PTPRK activation; reducing SMAD4 weakens the activating complex.
+T2U_0152	up	Predicted chromatin-mediated regulation: UHRF1-maintained DNA methylation represses Cdh1 downstream of PPARA regulation; reducing UHRF1 weakens methylation-dependent repression.
+T2U_0153	up	Predicted chromatin-mediated regulation: UHRF1-maintained DNA methylation represses Cdh3 downstream of PPARA regulation; reducing UHRF1 weakens methylation-dependent repression.
+T2U_0154	up	Predicted chromatin-mediated regulation: UHRF1-maintained DNA methylation represses Smpd3 downstream of PPARA regulation; reducing UHRF1 weakens methylation-dependent repression.
+T2U_0155	down	Predicted regulatory RNA relay: HIF1A induces miR-210, which represses E2F3 RNA; increasing miR-210 strengthens this downstream repression.
+T2U_0156	down	Assuming the site perturbation disrupts its function, predicted direct cis regulation loses OCT4-dependent activation through the Nanog upstream element, lowering Nanog transcription.
+T2U_0157	down	Assuming the site perturbation disrupts its function, predicted direct cis regulation loses RELA-dependent activation through the TBC1D4 intronic NF-kB site, lowering transcription.
+T2U_0158	down	Assuming the E-box perturbation disrupts MYC binding, predicted direct cis regulation loses activating input through chr10_BS212_CACATG_1, lowering PRKCQ transcription.
+T2U_0159	down	Assuming the E-box perturbation disrupts MYC binding, predicted direct cis regulation loses activating input through chr10_BS212_CACATG_1, lowering PRKCQ-AS1 transcription.
+T2U_0160	down	Assuming the E-box perturbation disrupts MYC binding, predicted direct cis regulation loses activating input through chr17_BS377_CACGTG_1, lowering PFAS transcription.
+T2U_0161	down	Predicted combinatorial TF regulation: FOXK1 cooperates with TP63 to activate ANKRD27; reducing FOXK1 weakens their joint transcriptional output.
+T2U_0162	down	Predicted combinatorial TF regulation: FOXK1 cooperates with TP63 to activate HNRNPA1; reducing FOXK1 weakens their joint transcriptional output.
+T2U_0163	down	Predicted combinatorial TF regulation: FOXK1 cooperates with TP63 to activate HNRNPL; reducing FOXK1 weakens their joint transcriptional output.
+T2U_0164	down	Predicted combinatorial TF regulation: FOXK1 cooperates with TP63 to activate L3HYPDH; reducing FOXK1 weakens their joint transcriptional output.
+T2U_0165	down	Predicted combinatorial TF regulation: FOXK1 cooperates with TP63 to activate NABP2; reducing FOXK1 weakens their joint transcriptional output.
+T2U_0166	down	Predicted combinatorial TF regulation: FOXK1 cooperates with TP63 to activate RPS16; reducing FOXK1 weakens their joint transcriptional output.
+T2U_0167	down	Predicted combinatorial TF regulation: FOXK1 cooperates with TP63 to activate TIMM50; reducing FOXK1 weakens their joint transcriptional output.
+T2U_0168	down	Predicted combinatorial TF regulation: MAFG/MAFF provide dimerization partners for NFE2L2-dependent Txnrd1 activation; reducing these partners weakens transcription.
+T2U_0169	down	Predicted combinatorial TF regulation: NFE2L2 cooperates with MAFG/MAFF to activate Txnrd1; reducing NFE2L2 weakens the activating heterodimer input.
+T2U_0170	up	Predicted regulatory RNA relay: GATA1 induces miR-451, which represses Ywhaz RNA; reducing miR-451 releases Ywhaz from repression.
+T2U_0171	down	Assuming E2 function is disrupted, predicted direct cis regulation loses STAT3-dependent activation through the Klf4 E2 regulatory site, lowering transcription.
+T2U_0172	down	Assuming the intronic site is disrupted, predicted direct cis regulation loses GATA1-dependent activation through ATP2B4 regulatory DNA, lowering transcription.
+T2U_0173	up	Predicted chromatin-mediated regulation: REST uses BRG1/SMARCA4-dependent nucleosome remodeling to repress L1CAM; reducing the remodeler weakens repression and increases expression.
+T2U_0174	up	Predicted chromatin-mediated regulation: REST uses BRG1/SMARCA4-dependent nucleosome remodeling to repress SNAP25; reducing the remodeler weakens repression and increases expression.
+T2U_0175	up	Assuming the intronic region is disrupted, predicted direct cis regulation loses a ZNF263-dependent repressive input at CUL3, increasing transcription.
+T2U_0176	down	Assuming site B is disrupted, predicted direct cis regulation loses YY1-dependent activation through this CUL3-linked element, lowering transcription.
+T2U_0179	down	Assuming site A is disrupted, predicted direct cis regulation loses CTCF-dependent organization of productive CUL3 regulatory contacts, lowering transcription.
+T2U_0180	down	Predicted regulatory RNA relay: GATA1 induces miR-451, which represses Ywhaz RNA; increasing miR-451 strengthens this downstream repression.
+T2U_0181	down	Predicted chromatin-mediated regulation: KMT2D-dependent activating histone methylation supports GATA1-driven EPOR transcription; reducing KMT2D weakens the permissive chromatin state.
+T2U_0182	down	Predicted chromatin-mediated regulation: KMT2D-dependent activating histone methylation supports GATA1-driven SLC25A37 transcription; reducing KMT2D weakens the permissive chromatin state.
+T2U_0183	down	Predicted regulatory RNA relay: TWIST1 induces miR-10b, which represses HOXD10 RNA; increasing miR-10b strengthens this downstream repression.
+T2U_0186	down	Predicted chromatin-mediated regulation: KMT2D-dependent activating histone methylation supports GATA1-driven SLC22A4 transcription; reducing KMT2D weakens the permissive chromatin state.
+T2U_0188	down	Predicted chromatin-mediated regulation: KMT2D-dependent activating histone methylation supports GATA1-driven ZFPM1 transcription; reducing KMT2D weakens the permissive chromatin state.
+T2U_0189	up	Predicted regulatory RNA relay: STAT3 induces miR-181b, which represses CYLD RNA; reducing miR-181b releases CYLD from repression.
+T2U_0190	up	Predicted regulatory RNA relay: STAT3 induces miR-181b-1, whose mature regulatory RNA represses CYLD; reducing this RNA releases CYLD from repression.
+T2U_0191	up	Predicted regulatory RNA relay: STAT3 induces miR-21, which represses PTEN RNA; reducing miR-21 releases PTEN from repression.
+T2U_0192	up	Predicted regulatory RNA relay: HIF1A induces miR-210, which represses ISCU RNA; reducing miR-210 releases ISCU from repression.
+T2U_0193	down	Predicted regulatory RNA relay: STAT3 induces miR-181b, which represses CYLD RNA; increasing miR-181b strengthens this downstream repression.
+T2U_0195	down	Predicted combinatorial TF regulation: ETV4 cooperates with FOSL1/JUN AP-1 to activate NOTCH4; reducing ETV4 weakens this joint activating input.
+T2U_0196	down	Predicted combinatorial TF regulation: FOSL1 partners with JUN in an AP-1 complex cooperating with ETV4 to activate NOTCH4; reducing FOSL1 weakens activation.
+T2U_0197	down	Predicted combinatorial TF regulation: JUN partners with FOSL1 in an AP-1 complex cooperating with ETV4 to activate NOTCH4; reducing JUN weakens activation.
+T2U_0198	down	Predicted regulatory RNA relay: TP53 induces LED lncRNA, which supports enhancer-dependent CDKN1A activation; reducing LED interrupts this RNA-mediated activating input.
+T2U_0199	up	Predicted chromatin-mediated regulation: GATA2 uses LSD1/KDM1A-dependent removal of activating histone methylation to repress GATA1; reducing LSD1 weakens repression and increases expression.

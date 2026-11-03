@@ -1,0 +1,194 @@
+unit_id	predicted_direction	mechanism_reasoning
+T2U_0001	up	Chromatin-mediated regulation: CDX2-dependent expression of Scin depends on the PRC2/EED-repressive chromatin state at the target locus, and removing this Polycomb repressive layer de-represses the locus, so Scin goes up.
+T2U_0002	up	Chromatin-mediated regulation: CDX2-dependent expression of Slc26a6 depends on the PRC2/EED-repressive chromatin state at the target locus, and removing this Polycomb repressive layer de-represses the locus, so Slc26a6 goes up.
+T2U_0003	down	Direct cis-regulatory DNA mechanism: TP63 directly activates ANKRD27 through target-linked enhancer/promoter elements, and reducing TP63 removes this cis activation, so ANKRD27 goes down.
+T2U_0004	down	Direct cis-regulatory DNA mechanism: TP63 directly activates HNRNPA1 through target-linked regulatory elements, and reducing TP63 removes this cis activation, so HNRNPA1 goes down.
+T2U_0005	down	Direct cis-regulatory DNA mechanism: TP63 directly activates HNRNPL through target-linked regulatory elements, and reducing TP63 removes this cis activation, so HNRNPL goes down.
+T2U_0006	down	Direct cis-regulatory DNA mechanism: TP63 directly activates L3HYPDH through target-linked regulatory elements, and reducing TP63 removes this cis activation, so L3HYPDH goes down.
+T2U_0007	down	Direct cis-regulatory DNA mechanism: TP63 directly activates NABP2 through target-linked regulatory elements, and reducing TP63 removes this cis activation, so NABP2 goes down.
+T2U_0008	down	Direct cis-regulatory DNA mechanism: TP63 directly activates RPS16 through target-linked regulatory elements, and reducing TP63 removes this cis activation, so RPS16 goes down.
+T2U_0009	down	Direct cis-regulatory DNA mechanism: TP63 directly activates TIMM50 through target-linked regulatory elements, and reducing TP63 removes this cis activation, so TIMM50 goes down.
+T2U_0010	down	Chromatin-mediated regulation: ESR1-driven activation of ELOVL2 requires TET2-mediated DNA demethylation at the target's regulatory chromatin, and loss of TET2 removes this permissive epigenetic input, so ELOVL2 goes down.
+T2U_0011	down	Chromatin-mediated regulation: ESR1-driven activation of PTGES requires TET2-mediated DNA demethylation at the target's regulatory chromatin, and loss of TET2 removes this permissive epigenetic input, so PTGES goes down.
+T2U_0012	down	Chromatin-mediated regulation: ESR1-driven activation of WIPF1 requires TET2-mediated DNA demethylation at the target's regulatory chromatin, and loss of TET2 removes this permissive epigenetic input, so WIPF1 goes down.
+T2U_0013	down	Direct cis-regulatory DNA mechanism: ESR1 activates CISH through target-linked estrogen-response regulatory sites, and removing those cis sites eliminates ESR1's activating input, so CISH goes down.
+T2U_0014	down	Direct cis-regulatory DNA mechanism: ESR1 activates G0S2 through target-linked estrogen-response regulatory sites, and removing those cis sites eliminates ESR1's activating input, so G0S2 goes down.
+T2U_0015	down	Direct cis-regulatory DNA mechanism: ESR1 activates MMP17 through target-linked estrogen-response regulatory sites, and removing those cis sites eliminates ESR1's activating input, so MMP17 goes down.
+T2U_0016	down	Direct cis-regulatory DNA mechanism: the GATA1 D218G zinc-finger functional variant impairs GATA1 binding and activation at cis-regulatory elements linked to Lrrc39, so Lrrc39 goes down.
+T2U_0017	down	Direct cis-regulatory DNA mechanism: the GATA1 D218G zinc-finger functional variant impairs GATA1 binding and activation at cis-regulatory elements linked to Rragd, so Rragd goes down.
+T2U_0018	down	Direct cis-regulatory DNA mechanism: the GATA1 D218G zinc-finger functional variant impairs GATA1 binding and activation at cis-regulatory elements linked to Slc4a1, so Slc4a1 goes down.
+T2U_0019	down	Direct cis-regulatory DNA mechanism: the GATA1 R216Q zinc-finger functional variant impairs GATA1 DNA binding and activation at cis-regulatory elements linked to Lrrc39, so Lrrc39 goes down.
+T2U_0020	down	Direct cis-regulatory DNA mechanism: the GATA1 R216Q zinc-finger functional variant impairs GATA1 DNA binding and activation at cis-regulatory elements linked to Rragd, so Rragd goes down.
+T2U_0021	down	Direct cis-regulatory DNA mechanism: the GATA1 R216Q zinc-finger functional variant impairs GATA1 DNA binding and activation at cis-regulatory elements linked to Slc4a1, so Slc4a1 goes down.
+T2U_0022	down	Chromatin-mediated regulation: TP63-dependent activation of SAMD9L requires the H2A.Z-decorated chromatin state at its regulatory elements, and loss of H2A.Z disrupts this permissive chromatin, so SAMD9L goes down.
+T2U_0023	down	Chromatin-mediated regulation: TP63-dependent activation of ZHX2 requires the H2A.Z-decorated chromatin state at its regulatory elements, and loss of H2A.Z disrupts this permissive chromatin, so ZHX2 goes down.
+T2U_0024	down	Regulatory RNA-mediated indirect regulation: HIF1A induces miR-210, which post-transcriptionally represses ISCU, so gain of miR-210 strengthens this miRNA-mediated repression and ISCU goes down.
+T2U_0025	up	Regulatory RNA-mediated indirect regulation: TWIST1 induces miR-10b, which post-transcriptionally represses HOXD10, so reducing miR-10b relieves this repression and HOXD10 goes up.
+T2U_0026	down	Direct cis-regulatory DNA mechanism: ESR1 activates CA12 through its target-linked enhancer CA12e, and deleting the enhancer removes ESR1's cis activation, so CA12 goes down.
+T2U_0027	down	Direct cis-regulatory DNA mechanism: ESR1 activates FOXC1 through its target-linked enhancer FOXC1e, and deleting the enhancer removes ESR1's cis activation, so FOXC1 goes down.
+T2U_0028	down	Direct cis-regulatory DNA mechanism: ESR1 activates GREB1 through its target-linked enhancer GREB1e, and deleting the enhancer removes ESR1's cis activation, so GREB1 goes down.
+T2U_0029	down	Direct cis-regulatory DNA mechanism: ESR1 activates KCNK5 through its target-linked enhancer KCNK5e, and deleting the enhancer removes ESR1's cis activation, so KCNK5 goes down.
+T2U_0030	down	Direct cis-regulatory DNA mechanism: ESR1 activates NRIP1 through its target-linked enhancer NRIP1e, and deleting the enhancer removes ESR1's cis activation, so NRIP1 goes down.
+T2U_0031	down	Direct cis-regulatory DNA mechanism: ESR1 activates P2RY2 through its target-linked enhancer P2RY2e, and deleting the enhancer removes ESR1's cis activation, so P2RY2 goes down.
+T2U_0032	down	Direct cis-regulatory DNA mechanism: ESR1 activates PGR through its target-linked enhancer PGRe, and deleting the enhancer removes ESR1's cis activation, so PGR goes down.
+T2U_0033	down	Direct cis-regulatory DNA mechanism: ESR1 activates SIAH2 through its target-linked enhancer SIAH2e, and deleting the enhancer removes ESR1's cis activation, so SIAH2 goes down.
+T2U_0034	down	Direct cis-regulatory DNA mechanism: ESR1 activates SMAD7 through its target-linked enhancer SMAD7e, and deleting the enhancer removes ESR1's cis activation, so SMAD7 goes down.
+T2U_0035	down	Direct cis-regulatory DNA mechanism: ESR1 activates TFF1 through its target-linked enhancer TFF1e, and deleting the enhancer removes ESR1's cis activation, so TFF1 goes down.
+T2U_0036	up	Direct cis-regulatory DNA mechanism: PPARA binds cis-regulatory elements linked to Angptl4 and activates transcription, so gain or activation of PPARA strengthens this direct enhancer-driven activation and Angptl4 goes up.
+T2U_0037	up	Direct cis-regulatory DNA mechanism: PPARA binds cis-regulatory elements linked to Hmgcs2 and activates transcription, so gain or activation of PPARA strengthens this direct enhancer-driven activation and Hmgcs2 goes up.
+T2U_0038	up	Direct cis-regulatory DNA mechanism: PPARA binds cis-regulatory elements linked to Pdk4 and activates transcription, so gain or activation of PPARA strengthens this direct enhancer-driven activation and Pdk4 goes up.
+T2U_0039	down	Combinatorial TF regulation: BHLHE40 acts as the partner transcription factor required for PPARA's activation of Angptl4, and reducing BHLHE40 disrupts the cooperative TF activation at the target, so Angptl4 goes down.
+T2U_0040	down	Combinatorial TF regulation: BHLHE40 acts as the partner transcription factor required for PPARA's activation of Hmgcs2, and reducing BHLHE40 disrupts the cooperative TF activation at the target, so Hmgcs2 goes down.
+T2U_0041	down	Combinatorial TF regulation: BHLHE40 acts as the partner transcription factor required for PPARA's activation of Pdk4, and reducing BHLHE40 disrupts the cooperative TF activation at the target, so Pdk4 goes down.
+T2U_0042	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates ABCF2 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so ABCF2 goes down.
+T2U_0043	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates ADAT3 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so ADAT3 goes down.
+T2U_0044	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates AKR1A1 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so AKR1A1 goes down.
+T2U_0045	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates ANKRD13B through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so ANKRD13B goes down.
+T2U_0046	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates AP1S3 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so AP1S3 goes down.
+T2U_0047	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates ARID5A through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so ARID5A goes down.
+T2U_0048	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates ASB13 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so ASB13 goes down.
+T2U_0049	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates BIRC5 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so BIRC5 goes down.
+T2U_0050	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates CASC3 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so CASC3 goes down.
+T2U_0051	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates CCDC157 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so CCDC157 goes down.
+T2U_0052	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates CCDC92 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so CCDC92 goes down.
+T2U_0053	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates CCPG1 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so CCPG1 goes down.
+T2U_0054	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates CKAP2L through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so CKAP2L goes down.
+T2U_0055	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates CNIH1 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so CNIH1 goes down.
+T2U_0056	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates CPOX through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so CPOX goes down.
+T2U_0057	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates CPSF4 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so CPSF4 goes down.
+T2U_0058	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates CRCP through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so CRCP goes down.
+T2U_0059	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates CREBL2 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so CREBL2 goes down.
+T2U_0060	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates CWC15 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so CWC15 goes down.
+T2U_0061	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates CYB5R1 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so CYB5R1 goes down.
+T2U_0062	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates EGR1 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so EGR1 goes down.
+T2U_0063	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates EMC1 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so EMC1 goes down.
+T2U_0064	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates ENKD1 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so ENKD1 goes down.
+T2U_0065	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates ERAL1 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so ERAL1 goes down.
+T2U_0066	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates ERP44 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so ERP44 goes down.
+T2U_0067	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates FASTK through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so FASTK goes down.
+T2U_0068	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates FH through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so FH goes down.
+T2U_0069	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates GAMT through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so GAMT goes down.
+T2U_0070	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates GOLGA2 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so GOLGA2 goes down.
+T2U_0071	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates GTPBP8 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so GTPBP8 goes down.
+T2U_0072	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates HMGCL through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so HMGCL goes down.
+T2U_0073	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates HSPA14 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so HSPA14 goes down.
+T2U_0074	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates IK through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so IK goes down.
+T2U_0075	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates JMJD8 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so JMJD8 goes down.
+T2U_0076	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates JUN through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so JUN goes down.
+T2U_0077	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates JUND through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so JUND goes down.
+T2U_0078	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates KDELR2 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so KDELR2 goes down.
+T2U_0079	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates KLC2 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so KLC2 goes down.
+T2U_0080	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates KPNA5 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so KPNA5 goes down.
+T2U_0081	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates LATS1 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so LATS1 goes down.
+T2U_0082	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates MED16 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so MED16 goes down.
+T2U_0083	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates MFSD3 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so MFSD3 goes down.
+T2U_0084	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates MRPL46 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so MRPL46 goes down.
+T2U_0085	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates MRPL54 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so MRPL54 goes down.
+T2U_0086	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates MRPS11 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so MRPS11 goes down.
+T2U_0087	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates MTMR1 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so MTMR1 goes down.
+T2U_0088	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates NUTF2 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so NUTF2 goes down.
+T2U_0089	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates PAPOLG through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so PAPOLG goes down.
+T2U_0090	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates PLAGL2 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so PLAGL2 goes down.
+T2U_0091	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates PNKD through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so PNKD goes down.
+T2U_0092	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates POMT2 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so POMT2 goes down.
+T2U_0093	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates PRIM1 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so PRIM1 goes down.
+T2U_0094	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates PRKAA2 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so PRKAA2 goes down.
+T2U_0095	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates PROSER3 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so PROSER3 goes down.
+T2U_0096	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates PSMC6 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so PSMC6 goes down.
+T2U_0097	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates PTPMT1 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so PTPMT1 goes down.
+T2U_0098	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates PTRHD1 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so PTRHD1 goes down.
+T2U_0099	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates RDH11 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so RDH11 goes down.
+T2U_0100	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates RIC8A through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so RIC8A goes down.
+T2U_0101	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates RNF40 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so RNF40 goes down.
+T2U_0102	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates RPAIN through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so RPAIN goes down.
+T2U_0103	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates RPL6 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so RPL6 goes down.
+T2U_0104	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates RSBN1 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so RSBN1 goes down.
+T2U_0105	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates SAMD13 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so SAMD13 goes down.
+T2U_0106	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates SAV1 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so SAV1 goes down.
+T2U_0107	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates SEPTIN8 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so SEPTIN8 goes down.
+T2U_0108	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates SFT2D2 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so SFT2D2 goes down.
+T2U_0109	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates SGF29 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so SGF29 goes down.
+T2U_0110	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates SLC7A6OS through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so SLC7A6OS goes down.
+T2U_0111	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates SLC9A6 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so SLC9A6 goes down.
+T2U_0112	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates SNRNP48 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so SNRNP48 goes down.
+T2U_0113	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates SNRNP70 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so SNRNP70 goes down.
+T2U_0114	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates SNRPD3 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so SNRPD3 goes down.
+T2U_0115	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates SSB through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so SSB goes down.
+T2U_0116	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates STARD10 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so STARD10 goes down.
+T2U_0117	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates TFAM through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so TFAM goes down.
+T2U_0118	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates THOC7 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so THOC7 goes down.
+T2U_0119	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates THOP1 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so THOP1 goes down.
+T2U_0120	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates TIMM17A through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so TIMM17A goes down.
+T2U_0121	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates TMEM258 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so TMEM258 goes down.
+T2U_0122	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates TMOD2 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so TMOD2 goes down.
+T2U_0123	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates TOMM70 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so TOMM70 goes down.
+T2U_0124	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates TPRA1 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so TPRA1 goes down.
+T2U_0125	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates UBALD1 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so UBALD1 goes down.
+T2U_0126	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates UBFD1 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so UBFD1 goes down.
+T2U_0127	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates UQCR10 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so UQCR10 goes down.
+T2U_0128	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates VASP through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so VASP goes down.
+T2U_0129	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates ZBTB10 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so ZBTB10 goes down.
+T2U_0130	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates ZFTA through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so ZFTA goes down.
+T2U_0131	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates ZMYM6 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so ZMYM6 goes down.
+T2U_0132	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates ZNF200 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so ZNF200 goes down.
+T2U_0133	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates ZNF24 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so ZNF24 goes down.
+T2U_0134	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates ZNF354A through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so ZNF354A goes down.
+T2U_0135	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates ZNF382 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so ZNF382 goes down.
+T2U_0136	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates ZNF473 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so ZNF473 goes down.
+T2U_0137	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates ZNF485 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so ZNF485 goes down.
+T2U_0138	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates ZNF607 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so ZNF607 goes down.
+T2U_0139	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates ZNF746 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so ZNF746 goes down.
+T2U_0140	down	Direct cis-regulatory DNA mechanism: ZNF143 directly activates ZW10 through target-linked ZNF143 binding sites, and reducing ZNF143 removes this cis activation, so ZW10 goes down.
+T2U_0141	down	Direct cis-regulatory DNA mechanism: NANOG sustains Nanog through positive autoregulation at its own regulatory elements, and reducing NANOG protein removes this autoregulatory drive, so Nanog goes down.
+T2U_0142		
+T2U_0143	loss_or_reduction	POU5F1/OCT4 protein
+T2U_0144	loss_or_reduction	lincRNA-p21
+T2U_0145	loss_or_reduction	lincRNA-p21
+T2U_0146	loss_or_reduction	lincRNA-p21
+T2U_0147	loss_or_reduction	miR-210
+T2U_0148	gain_or_activation	NOTCH1; TGF-beta/SMAD3
+T2U_0149	loss_or_reduction	NOTCH1
+T2U_0150	loss_or_reduction	SMAD3
+T2U_0151	loss_or_reduction	SMAD4
+T2U_0152	loss_or_reduction	UHRF1
+T2U_0153	loss_or_reduction	UHRF1
+T2U_0154	loss_or_reduction	UHRF1
+T2U_0155	gain_or_activation	miR-210
+T2U_0156	regulatory_site_perturbation	Nanog upstream regulatory site
+T2U_0157	regulatory_site_perturbation	TBC1D4 intronic NF-kB site
+T2U_0158	regulatory_site_perturbation	MYC E-box chr10_BS212_CACATG_1
+T2U_0159	regulatory_site_perturbation	MYC E-box chr10_BS212_CACATG_1
+T2U_0160	regulatory_site_perturbation	MYC E-box chr17_BS377_CACGTG_1
+T2U_0161	loss_or_reduction	FOXK1
+T2U_0162	loss_or_reduction	FOXK1
+T2U_0163	loss_or_reduction	FOXK1
+T2U_0164	loss_or_reduction	FOXK1
+T2U_0165	loss_or_reduction	FOXK1
+T2U_0166	loss_or_reduction	FOXK1
+T2U_0167	loss_or_reduction	FOXK1
+T2U_0168	loss_or_reduction	MAFG/MAFF
+T2U_0169	loss_or_reduction	NFE2L2
+T2U_0170	loss_or_reduction	miR-451
+T2U_0171	regulatory_site_perturbation	Klf4 regulatory site E2
+T2U_0172	regulatory_site_perturbation	ATP2B4 intronic regulatory site
+T2U_0173	loss_or_reduction	BRG1/SMARCA4
+T2U_0174	loss_or_reduction	BRG1/SMARCA4
+T2U_0175	regulatory_site_perturbation	CUL3 intronic regulatory region
+T2U_0176	regulatory_site_perturbation	CUL3 regulatory site B
+T2U_0179	regulatory_site_perturbation	CUL3 regulatory site A
+T2U_0180	gain_or_activation	miR-451
+T2U_0181	loss_or_reduction	KMT2D
+T2U_0182	loss_or_reduction	KMT2D
+T2U_0183	gain_or_activation	miR-10b
+T2U_0186	loss_or_reduction	KMT2D
+T2U_0188	loss_or_reduction	KMT2D
+T2U_0189	loss_or_reduction	miR-181b
+T2U_0190	loss_or_reduction	miR-181b-1
+T2U_0191	loss_or_reduction	miR-21
+T2U_0192	loss_or_reduction	miR-210
+T2U_0193	gain_or_activation	miR-181b
+T2U_0195	loss_or_reduction	ETV4
+T2U_0196	loss_or_reduction	FOSL1
+T2U_0197	loss_or_reduction	JUN
+T2U_0198	loss_or_reduction	LED lncRNA
+T2U_0199	loss_or_reduction	LSD1/KDM1A

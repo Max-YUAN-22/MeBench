@@ -1,0 +1,194 @@
+unit_id	predicted_direction	mechanism_reasoning
+T2U_0001	up	chromatin_mediated_regulation: EED/PRC2 acts as a repressive chromatin regulator at the CDX2-regulated target locus, and its loss reduces repressive H3K27me3 marks leading to target gene upregulation.
+T2U_0002	up	chromatin_mediated_regulation: EED/PRC2 functions as a repressive chromatin regulator mediating transcriptional silencing, and its loss relieves repressive chromatin modifications at the CDX2 target gene to increase expression.
+T2U_0003	down	direct_cis_regulatory_dna: TP63 directly binds target-linked cis-regulatory DNA to activate transcription, and loss of TP63 reduces this activation leading to target downregulation.
+T2U_0004	down	direct_cis_regulatory_dna: TP63 directly occupies cis-regulatory DNA elements to drive target gene expression, and loss of TP63 impairs transcriptional activation resulting in downregulation.
+T2U_0005	down	direct_cis_regulatory_dna: TP63 acts through target-linked cis-regulatory DNA to positively regulate transcription, and reduction of TP63 decreases target expression.
+T2U_0006	down	direct_cis_regulatory_dna: TP63 binds cis-regulatory DNA elements to stimulate transcription, and loss of TP63 decreases target gene expression.
+T2U_0007	down	direct_cis_regulatory_dna: TP63 directly interacts with cis-regulatory DNA to promote target expression, so loss of TP63 leads to downregulation.
+T2U_0008	down	direct_cis_regulatory_dna: TP63 binds promoter or enhancer cis-regulatory DNA to activate transcription, and TP63 loss results in target downregulation.
+T2U_0009	down	direct_cis_regulatory_dna: TP63 activates transcription via direct binding to cis-regulatory DNA, and its loss causes target gene downregulation.
+T2U_0010	down	chromatin_mediated_regulation: TET2 functions as an active DNA demethylation chromatin regulator required for ESR1-dependent transcriptional activation, and its loss impairs chromatin opening resulting in target downregulation.
+T2U_0011	down	chromatin_mediated_regulation: TET2 acts as a chromatin regulator enabling ESR1-mediated activation through DNA demethylation, and loss of TET2 reduces permissive chromatin leading to target downregulation.
+T2U_0012	down	chromatin_mediated_regulation: TET2 serves as an epigenetic chromatin regulator facilitating ESR1-dependent transcription, and its reduction diminishes target gene activation causing downregulation.
+T2U_0013	down	direct_cis_regulatory_dna: The targeted cis-regulatory DNA element is required for ESR1 binding and transcriptional activation, and its disruption decreases target gene expression.
+T2U_0014	down	direct_cis_regulatory_dna: ESR1 activates transcription through the target cis-regulatory DNA element, and perturbation of this binding site eliminates ESR1 recruitment leading to downregulation.
+T2U_0015	down	direct_cis_regulatory_dna: ESR1 mediates transactivation via the linked cis-regulatory DNA site, and disruption of this regulatory element reduces target expression.
+T2U_0016	down	combinatorial_tf_regulation: GATA1 requires interaction with its partner transcription factor FOG1/ZFPM1 to activate the target, and the D218G functional variant impairs this cooperative regulation leading to target downregulation.
+T2U_0017	down	combinatorial_tf_regulation: The GATA1 D218G functional variant disrupts cooperative recruitment of partner transcription factor FOG1/ZFPM1, impairing combinatorial activation and causing target downregulation.
+T2U_0018	down	combinatorial_tf_regulation: GATA1 activates Slc4a1 through combinatorial cooperation with partner transcription factor FOG1/ZFPM1, and the D218G mutation disrupts this interaction leading to downregulation.
+T2U_0019	down	combinatorial_tf_regulation: GATA1 requires partner transcription factor FOG1/ZFPM1 binding for target induction, and the R216Q functional variant compromises this partnership leading to target downregulation.
+T2U_0020	down	combinatorial_tf_regulation: The GATA1 R216Q functional variant impairs combinatorial interaction with partner transcription factor FOG1/ZFPM1, decreasing transcriptional activation of the target gene.
+T2U_0021	down	combinatorial_tf_regulation: GATA1 drives Slc4a1 expression cooperatively with partner transcription factor FOG1/ZFPM1, and the R216Q variant impairs this combinatorial assembly leading to downregulation.
+T2U_0022	down	chromatin_mediated_regulation: H2A.Z serves as a chromatin regulator that maintains accessible chromatin for TP63-mediated activation, and its loss impedes transcriptional activation leading to target downregulation.
+T2U_0023	down	chromatin_mediated_regulation: TP63 requires chromatin regulator H2A.Z for permissive chromatin architecture, and reduction of H2A.Z diminishes target gene transactivation causing downregulation.
+T2U_0024	down	regulatory_rna_mediated_indirect_regulation: miR-210 is an intermediate regulatory RNA that post-transcriptionally represses ISCU, so gain of miR-210 increases target repression leading to downregulation.
+T2U_0025	up	regulatory_rna_mediated_indirect_regulation: miR-10b is a downstream regulatory RNA that represses HOXD10, and loss of miR-10b relieves this repression leading to target gene upregulation.
+T2U_0026	down	regulatory_rna_mediated_indirect_regulation: CA12e functions as an intermediate enhancer regulatory RNA required for ESR1-dependent target transcription, and its loss reduces target gene expression.
+T2U_0027	down	regulatory_rna_mediated_indirect_regulation: FOXC1e is a functional enhancer regulatory RNA that mediates ESR1 transcriptional activation, and its reduction leads to target downregulation.
+T2U_0028	down	regulatory_rna_mediated_indirect_regulation: GREB1e acts as an activating enhancer regulatory RNA facilitating ESR1-driven transcription, and its loss decreases target gene expression.
+T2U_0029	down	regulatory_rna_mediated_indirect_regulation: KCNK5e serves as an enhancer regulatory RNA necessary for ESR1 transactivation, and loss of this RNA causes target downregulation.
+T2U_0030	down	regulatory_rna_mediated_indirect_regulation: NRIP1e is an intermediate enhancer regulatory RNA that promotes ESR1-mediated target expression, and its loss leads to downregulation.
+T2U_0031	down	regulatory_rna_mediated_indirect_regulation: P2RY2e is an enhancer regulatory RNA mediating transcriptional activation by ESR1, and its depletion results in target downregulation.
+T2U_0032	down	regulatory_rna_mediated_indirect_regulation: PGRe operates as an enhancer regulatory RNA supporting ESR1-driven activation, and its reduction leads to target gene downregulation.
+T2U_0033	down	regulatory_rna_mediated_indirect_regulation: SIAH2e acts as an intermediate enhancer regulatory RNA required for ESR1-mediated transactivation, and its loss causes target downregulation.
+T2U_0034	down	regulatory_rna_mediated_indirect_regulation: SMAD7e is an activating enhancer regulatory RNA in ESR1-dependent signaling, and its loss leads to decreased target gene expression.
+T2U_0035	down	regulatory_rna_mediated_indirect_regulation: TFF1e functions as an essential enhancer regulatory RNA for ESR1-induced transcription, and its depletion causes target gene downregulation.
+T2U_0036	up	direct_cis_regulatory_dna: PPARA directly binds cis-regulatory DNA peroxisome proliferator response elements to drive transcription, so activation of PPARA increases target expression.
+T2U_0037	up	direct_cis_regulatory_dna: PPARA binds directly to promoter cis-regulatory DNA to activate transcription, and gain of PPARA leads to target upregulation.
+T2U_0038	up	direct_cis_regulatory_dna: PPARA transactivates the target via direct binding to cis-regulatory DNA elements, and PPARA activation leads to increased target expression.
+T2U_0039	up	combinatorial_tf_regulation: BHLHE40 acts as a partner transcription factor that competitively represses PPARA target gene transcription, and loss of BHLHE40 relieves this repression leading to target upregulation.
+T2U_0040	up	combinatorial_tf_regulation: BHLHE40 functions as a combinatorial transcriptional repressor counteracting PPARA activation, and reduction of BHLHE40 derepresses the target gene causing upregulation.
+T2U_0041	up	combinatorial_tf_regulation: BHLHE40 antagonistically partners at cis-regulatory sites to repress PPARA-mediated induction, so loss of BHLHE40 leads to target gene upregulation.
+T2U_0042	down	direct_cis_regulatory_dna: ZNF143 directly binds promoter-proximal cis-regulatory DNA elements to stimulate transcription, and its loss decreases target expression.
+T2U_0043	down	direct_cis_regulatory_dna: ZNF143 acts through target cis-regulatory DNA to drive transcription, and reduction of ZNF143 leads to target downregulation.
+T2U_0044	down	direct_cis_regulatory_dna: ZNF143 activates gene expression via direct binding to cis-regulatory DNA motifs, and loss of ZNF143 impairs transcription leading to downregulation.
+T2U_0045	down	direct_cis_regulatory_dna: ZNF143 binds directly to cis-regulatory DNA to promote transcription, and its depletion results in target downregulation.
+T2U_0046	down	direct_cis_regulatory_dna: ZNF143 directly occupies cis-regulatory DNA to mediate transcriptional activation, and loss of ZNF143 causes target downregulation.
+T2U_0047	down	direct_cis_regulatory_dna: ZNF143 functions as a transcriptional activator binding cis-regulatory DNA, and its loss decreases target gene expression.
+T2U_0048	down	direct_cis_regulatory_dna: ZNF143 directly engages target cis-regulatory DNA to stimulate expression, so loss of ZNF143 leads to downregulation.
+T2U_0049	down	direct_cis_regulatory_dna: ZNF143 binds promoter cis-regulatory DNA to drive transactivation, and reduction of ZNF143 results in target downregulation.
+T2U_0050	down	direct_cis_regulatory_dna: ZNF143 directly binds cis-regulatory DNA elements to maintain gene transcription, and its depletion leads to target downregulation.
+T2U_0051	down	direct_cis_regulatory_dna: ZNF143 activates expression via direct cis-regulatory DNA binding, and loss of ZNF143 decreases target mRNA levels.
+T2U_0052	down	direct_cis_regulatory_dna: ZNF143 promotes target transcription through direct binding to cis-regulatory DNA, and its loss causes target downregulation.
+T2U_0053	down	direct_cis_regulatory_dna: ZNF143 directly occupies cis-regulatory DNA motifs to activate the target, and reduction of ZNF143 leads to downregulation.
+T2U_0054	down	direct_cis_regulatory_dna: ZNF143 binds to target-linked cis-regulatory DNA to drive transcription, and its loss results in target gene downregulation.
+T2U_0055	down	direct_cis_regulatory_dna: ZNF143 functions through cis-regulatory DNA elements to stimulate transcription, and loss of ZNF143 reduces target expression.
+T2U_0056	down	direct_cis_regulatory_dna: ZNF143 directly binds cis-regulatory DNA sequences to induce gene expression, and its loss leads to target downregulation.
+T2U_0057	down	direct_cis_regulatory_dna: ZNF143 stimulates transcription via direct cis-regulatory DNA occupancy, and depletion of ZNF143 causes target downregulation.
+T2U_0058	down	direct_cis_regulatory_dna: ZNF143 directly binds promoter cis-regulatory DNA to activate transcription, and loss of ZNF143 decreases target expression.
+T2U_0059	down	direct_cis_regulatory_dna: ZNF143 acts via direct interaction with cis-regulatory DNA to drive expression, and its reduction causes target downregulation.
+T2U_0060	down	direct_cis_regulatory_dna: ZNF143 binds target-associated cis-regulatory DNA to activate transcription, and loss of ZNF143 leads to downregulation.
+T2U_0061	down	direct_cis_regulatory_dna: ZNF143 directly binds cis-regulatory DNA elements to enhance transcription, and its loss results in target downregulation.
+T2U_0062	down	direct_cis_regulatory_dna: ZNF143 directly occupies cis-regulatory DNA motifs to drive transcription, and loss of ZNF143 decreases target expression.
+T2U_0063	down	direct_cis_regulatory_dna: ZNF143 binds to cis-regulatory DNA to maintain basal transcriptional activation, and its loss leads to target downregulation.
+T2U_0064	down	direct_cis_regulatory_dna: ZNF143 mediates transcriptional activation by binding cis-regulatory DNA, and reduction of ZNF143 causes target downregulation.
+T2U_0065	down	direct_cis_regulatory_dna: ZNF143 directly interacts with cis-regulatory DNA elements to promote transcription, and its depletion leads to target downregulation.
+T2U_0066	down	direct_cis_regulatory_dna: ZNF143 drives expression through direct binding to cis-regulatory DNA, and loss of ZNF143 results in target downregulation.
+T2U_0067	down	direct_cis_regulatory_dna: ZNF143 occupies promoter cis-regulatory DNA to activate transcription, and its reduction decreases target expression.
+T2U_0068	down	direct_cis_regulatory_dna: ZNF143 binds cis-regulatory DNA elements directly to stimulate gene expression, and loss of ZNF143 leads to downregulation.
+T2U_0069	down	direct_cis_regulatory_dna: ZNF143 acts through direct cis-regulatory DNA binding to drive transcription, and depletion of ZNF143 causes target downregulation.
+T2U_0070	down	direct_cis_regulatory_dna: ZNF143 directly engages cis-regulatory DNA to promote target gene expression, and its loss leads to downregulation.
+T2U_0071	down	direct_cis_regulatory_dna: ZNF143 activates transcription via direct cis-regulatory DNA binding, and reduction of ZNF143 causes target downregulation.
+T2U_0072	down	direct_cis_regulatory_dna: ZNF143 binds promoter cis-regulatory DNA motifs to stimulate transcription, and its loss decreases target expression.
+T2U_0073	down	direct_cis_regulatory_dna: ZNF143 directly binds target cis-regulatory DNA to activate transcription, and its loss leads to target downregulation.
+T2U_0074	down	direct_cis_regulatory_dna: ZNF143 functions via direct cis-regulatory DNA binding to maintain transcription, and depletion of ZNF143 causes downregulation.
+T2U_0075	down	direct_cis_regulatory_dna: ZNF143 occupies cis-regulatory DNA to promote transcription, and loss of ZNF143 results in target downregulation.
+T2U_0076	down	direct_cis_regulatory_dna: ZNF143 directly binds cis-regulatory DNA elements to induce transcription, and its reduction causes target downregulation.
+T2U_0077	down	direct_cis_regulatory_dna: ZNF143 acts through direct cis-regulatory DNA occupancy to activate expression, and its loss leads to target downregulation.
+T2U_0078	down	direct_cis_regulatory_dna: ZNF143 binds to target cis-regulatory DNA sequences to stimulate transcription, and loss of ZNF143 leads to downregulation.
+T2U_0079	down	direct_cis_regulatory_dna: ZNF143 activates gene transcription via direct cis-regulatory DNA binding, and its loss causes target downregulation.
+T2U_0080	down	direct_cis_regulatory_dna: ZNF143 directly interacts with promoter cis-regulatory DNA to drive expression, and its depletion leads to downregulation.
+T2U_0081	down	direct_cis_regulatory_dna: ZNF143 occupies cis-regulatory DNA elements to stimulate transcription, and loss of ZNF143 decreases target expression.
+T2U_0082	down	direct_cis_regulatory_dna: ZNF143 directly binds cis-regulatory DNA to promote target gene expression, and its loss causes target downregulation.
+T2U_0083	down	direct_cis_regulatory_dna: ZNF143 mediates transcriptional activation through cis-regulatory DNA motifs, and loss of ZNF143 leads to downregulation.
+T2U_0084	down	direct_cis_regulatory_dna: ZNF143 directly binds promoter cis-regulatory DNA to maintain expression, and its reduction results in target downregulation.
+T2U_0085	down	direct_cis_regulatory_dna: ZNF143 activates target transcription via direct binding to cis-regulatory DNA, and loss of ZNF143 leads to downregulation.
+T2U_0086	down	direct_cis_regulatory_dna: ZNF143 binds cis-regulatory DNA elements to stimulate target gene expression, and its loss causes downregulation.
+T2U_0087	down	direct_cis_regulatory_dna: ZNF143 occupies target cis-regulatory DNA to drive transcription, and depletion of ZNF143 leads to target downregulation.
+T2U_0088	down	direct_cis_regulatory_dna: ZNF143 directly binds cis-regulatory DNA sequences to promote transcription, and loss of ZNF143 causes downregulation.
+T2U_0089	down	direct_cis_regulatory_dna: ZNF143 functions via direct cis-regulatory DNA binding to activate expression, and its loss results in target downregulation.
+T2U_0090	down	direct_cis_regulatory_dna: ZNF143 drives target gene transcription through cis-regulatory DNA binding, and its reduction leads to downregulation.
+T2U_0091	down	direct_cis_regulatory_dna: ZNF143 directly interacts with cis-regulatory DNA elements to induce transcription, and its loss causes target downregulation.
+T2U_0092	down	direct_cis_regulatory_dna: ZNF143 binds to target cis-regulatory DNA to stimulate expression, and loss of ZNF143 results in downregulation.
+T2U_0093	down	direct_cis_regulatory_dna: ZNF143 directly occupies cis-regulatory DNA to promote transcription, and depletion of ZNF143 leads to target downregulation.
+T2U_0094	down	direct_cis_regulatory_dna: ZNF143 activates transcription via direct cis-regulatory DNA binding, and loss of ZNF143 causes target downregulation.
+T2U_0095	down	direct_cis_regulatory_dna: ZNF143 directly binds promoter cis-regulatory DNA motifs to enhance transcription, and its loss causes downregulation.
+T2U_0096	down	direct_cis_regulatory_dna: ZNF143 functions through cis-regulatory DNA to maintain active transcription, and reduction of ZNF143 leads to target downregulation.
+T2U_0097	down	direct_cis_regulatory_dna: ZNF143 directly binds cis-regulatory DNA sequences to stimulate target expression, and its loss causes downregulation.
+T2U_0098	down	direct_cis_regulatory_dna: ZNF143 occupies cis-regulatory DNA to activate target transcription, and depletion of ZNF143 results in downregulation.
+T2U_0099	down	direct_cis_regulatory_dna: ZNF143 binds target cis-regulatory DNA elements to promote transcription, and its loss leads to target downregulation.
+T2U_0100	down	direct_cis_regulatory_dna: ZNF143 acts via direct cis-regulatory DNA binding to drive gene expression, and loss of ZNF143 leads to downregulation.
+T2U_0101	down	direct_cis_regulatory_dna: ZNF143 directly engages cis-regulatory DNA to activate transcription, and reduction of ZNF143 causes target downregulation.
+T2U_0102	down	direct_cis_regulatory_dna: ZNF143 promotes target expression through direct cis-regulatory DNA binding, and its loss results in target downregulation.
+T2U_0103	down	direct_cis_regulatory_dna: ZNF143 directly binds promoter cis-regulatory DNA to stimulate transcription, and its loss leads to target downregulation.
+T2U_0104	down	direct_cis_regulatory_dna: ZNF143 functions via direct cis-regulatory DNA interaction to drive expression, and depletion of ZNF143 leads to downregulation.
+T2U_0105	down	direct_cis_regulatory_dna: ZNF143 occupies cis-regulatory DNA motifs to activate transcription, and loss of ZNF143 causes target downregulation.
+T2U_0106	down	direct_cis_regulatory_dna: ZNF143 directly binds cis-regulatory DNA to promote target gene transcription, and its reduction leads to downregulation.
+T2U_0107	down	direct_cis_regulatory_dna: ZNF143 acts through target cis-regulatory DNA binding to maintain transcription, and its loss causes downregulation.
+T2U_0108	down	direct_cis_regulatory_dna: ZNF143 binds directly to cis-regulatory DNA to stimulate expression, and loss of ZNF143 results in target downregulation.
+T2U_0109	down	direct_cis_regulatory_dna: ZNF143 drives target transcription via direct cis-regulatory DNA binding, and depletion of ZNF143 leads to downregulation.
+T2U_0110	down	direct_cis_regulatory_dna: ZNF143 directly occupies cis-regulatory DNA elements to activate transcription, and its loss leads to target downregulation.
+T2U_0111	down	direct_cis_regulatory_dna: ZNF143 activates gene transcription via direct cis-regulatory DNA binding, and reduction of ZNF143 causes target downregulation.
+T2U_0112	down	direct_cis_regulatory_dna: ZNF143 binds to target cis-regulatory DNA to induce expression, and its loss leads to target downregulation.
+T2U_0113	down	direct_cis_regulatory_dna: ZNF143 directly binds promoter cis-regulatory DNA to promote transcription, and loss of ZNF143 causes downregulation.
+T2U_0114	down	direct_cis_regulatory_dna: ZNF143 functions via direct cis-regulatory DNA occupancy to stimulate transcription, and its loss results in downregulation.
+T2U_0115	down	direct_cis_regulatory_dna: ZNF143 directly binds cis-regulatory DNA sequences to drive target expression, and depletion of ZNF143 leads to downregulation.
+T2U_0116	down	direct_cis_regulatory_dna: ZNF143 acts through cis-regulatory DNA binding to activate transcription, and its loss causes target gene downregulation.
+T2U_0117	down	direct_cis_regulatory_dna: ZNF143 occupies target cis-regulatory DNA to enhance transcription, and reduction of ZNF143 leads to target downregulation.
+T2U_0118	down	direct_cis_regulatory_dna: ZNF143 directly binds cis-regulatory DNA motifs to stimulate transcription, and its loss results in target downregulation.
+T2U_0119	down	direct_cis_regulatory_dna: ZNF143 promotes target expression via direct cis-regulatory DNA binding, and loss of ZNF143 causes downregulation.
+T2U_0120	down	direct_cis_regulatory_dna: ZNF143 directly engages cis-regulatory DNA to drive transcription, and depletion of ZNF143 leads to target downregulation.
+T2U_0121	down	direct_cis_regulatory_dna: ZNF143 activates gene transcription through cis-regulatory DNA binding, and its loss leads to target downregulation.
+T2U_0122	down	direct_cis_regulatory_dna: ZNF143 binds target-associated cis-regulatory DNA to promote expression, and reduction of ZNF143 causes downregulation.
+T2U_0123	down	direct_cis_regulatory_dna: ZNF143 directly binds promoter cis-regulatory DNA to stimulate transcription, and loss of ZNF143 results in downregulation.
+T2U_0124	down	direct_cis_regulatory_dna: ZNF143 functions via direct cis-regulatory DNA binding to maintain transcription, and its loss leads to target downregulation.
+T2U_0125	down	direct_cis_regulatory_dna: ZNF143 occupies cis-regulatory DNA elements to activate transcription, and depletion of ZNF143 causes downregulation.
+T2U_0126	down	direct_cis_regulatory_dna: ZNF143 directly binds cis-regulatory DNA to stimulate target gene expression, and its loss leads to downregulation.
+T2U_0127	down	direct_cis_regulatory_dna: ZNF143 drives expression through direct interaction with cis-regulatory DNA, and loss of ZNF143 results in target downregulation.
+T2U_0128	down	direct_cis_regulatory_dna: ZNF143 binds directly to cis-regulatory DNA motifs to promote transcription, and its reduction causes target downregulation.
+T2U_0129	down	direct_cis_regulatory_dna: ZNF143 activates target transcription via cis-regulatory DNA binding, and loss of ZNF143 leads to downregulation.
+T2U_0130	down	direct_cis_regulatory_dna: ZNF143 directly occupies cis-regulatory DNA to stimulate transcription, and depletion of ZNF143 causes target downregulation.
+T2U_0131	down	direct_cis_regulatory_dna: ZNF143 acts through direct cis-regulatory DNA binding to drive transcription, and its loss leads to target downregulation.
+T2U_0132	down	direct_cis_regulatory_dna: ZNF143 promotes target expression via direct cis-regulatory DNA binding, and reduction of ZNF143 results in downregulation.
+T2U_0133	down	direct_cis_regulatory_dna: ZNF143 binds promoter cis-regulatory DNA to activate transcription, and loss of ZNF143 causes target downregulation.
+T2U_0134	down	direct_cis_regulatory_dna: ZNF143 directly binds cis-regulatory DNA elements to stimulate transcription, and its loss leads to target downregulation.
+T2U_0135	down	direct_cis_regulatory_dna: ZNF143 functions via direct cis-regulatory DNA occupancy to drive expression, and depletion of ZNF143 results in downregulation.
+T2U_0136	down	direct_cis_regulatory_dna: ZNF143 occupies target cis-regulatory DNA sequences to promote transcription, and loss of ZNF143 causes downregulation.
+T2U_0137	down	direct_cis_regulatory_dna: ZNF143 directly binds cis-regulatory DNA to maintain transcriptional activation, and its loss leads to target downregulation.
+T2U_0138	down	direct_cis_regulatory_dna: ZNF143 activates gene transcription via direct cis-regulatory DNA binding, and reduction of ZNF143 causes target downregulation.
+T2U_0139	down	direct_cis_regulatory_dna: ZNF143 drives target expression through direct cis-regulatory DNA interaction, and loss of ZNF143 leads to downregulation.
+T2U_0140	down	direct_cis_regulatory_dna: ZNF143 directly engages promoter cis-regulatory DNA to stimulate transcription, and depletion of ZNF143 causes target downregulation.
+T2U_0141	down	direct_cis_regulatory_dna: NANOG binds directly to its autoregulatory cis-regulatory DNA element to sustain its own transcription, and loss of NANOG protein impairs this self-activation causing downregulation.
+T2U_0142	up	direct_cis_regulatory_dna: POU5F1/OCT4 directly binds target cis-regulatory DNA to repress Pax6 transcription during pluripotency, and loss of POU5F1 relieves this repression leading to target upregulation.
+T2U_0143	down	direct_cis_regulatory_dna: POU5F1/OCT4 directly binds cis-regulatory DNA elements to activate Utf1 transcription, and reduction of POU5F1 protein decreases target expression.
+T2U_0144	up	regulatory_rna_mediated_indirect_regulation: lincRNA-p21 functions as an intermediate regulatory RNA downstream of TP53 that mediates target gene repression, and its loss relieves repression leading to target upregulation.
+T2U_0145	up	regulatory_rna_mediated_indirect_regulation: lincRNA-p21 acts as an intermediate regulatory RNA repressing SUV39H1, and reduction of lincRNA-p21 relieves transcriptional repression resulting in upregulation.
+T2U_0146	up	regulatory_rna_mediated_indirect_regulation: lincRNA-p21 is an intermediate repressive regulatory RNA, and its loss relieves post-transcriptional/epigenetic repression leading to target upregulation.
+T2U_0147	up	regulatory_rna_mediated_indirect_regulation: miR-210 is an intermediate regulatory microRNA that post-transcriptionally represses E2F3, and loss of miR-210 relieves repression causing target upregulation.
+T2U_0148	up	combinatorial_tf_regulation: NOTCH1 and SMAD3 act as cooperative partner transcription factors at the target locus, and simultaneous activation of these partners enhances transcription leading to target upregulation.
+T2U_0149	down	combinatorial_tf_regulation: NOTCH1 functions as an essential partner transcription factor cooperating with SMAD3, and loss of NOTCH1 disrupts this combinatorial activation leading to target downregulation.
+T2U_0150	down	combinatorial_tf_regulation: SMAD3 requires cooperative assembly with partner transcription factors to drive PTPRK expression, and loss of SMAD3 impairs combinatorial transactivation causing downregulation.
+T2U_0151	down	combinatorial_tf_regulation: SMAD4 serves as an obligate partner transcription factor with SMAD3 for target gene activation, and loss of SMAD4 impairs the combinatorial complex leading to downregulation.
+T2U_0152	up	chromatin_mediated_regulation: UHRF1 acts as a repressive chromatin regulator maintaining DNA methylation and gene silencing, and its loss relieves chromatin-mediated repression leading to target upregulation.
+T2U_0153	up	chromatin_mediated_regulation: UHRF1 functions as an epigenetic chromatin regulator that represses transcription, and its reduction relieves repressive chromatin marks causing target gene upregulation.
+T2U_0154	up	chromatin_mediated_regulation: UHRF1 is a repressive chromatin regulator mediating promoter silencing, and loss of UHRF1 disrupts this repression leading to target gene upregulation.
+T2U_0155	down	regulatory_rna_mediated_indirect_regulation: miR-210 functions as an intermediate regulatory RNA that represses E2F3, and gain of miR-210 strengthens post-transcriptional repression leading to target downregulation.
+T2U_0156	down	direct_cis_regulatory_dna: The upstream cis-regulatory DNA site directly recruits POU5F1 to activate Nanog transcription, and perturbation of this regulatory element impairs binding leading to target downregulation.
+T2U_0157	down	direct_cis_regulatory_dna: The intronic cis-regulatory DNA motif binds RELA to stimulate transcription, and perturbation of this regulatory site blocks RELA-mediated activation leading to target downregulation.
+T2U_0158	down	direct_cis_regulatory_dna: The specific E-box cis-regulatory DNA motif is directly bound by MYC to drive transcription, and perturbation of this site impairs MYC transactivation leading to target downregulation.
+T2U_0159	down	direct_cis_regulatory_dna: MYC directly binds the E-box cis-regulatory DNA element to activate transcription, and disruption of this regulatory site reduces expression of the target transcript.
+T2U_0160	down	direct_cis_regulatory_dna: The E-box cis-regulatory DNA site is directly required for MYC binding and activation of PFAS, and perturbation of this element results in target downregulation.
+T2U_0161	down	combinatorial_tf_regulation: FOXK1 operates as a partner transcription factor with TP63 to co-activate target gene expression, and loss of FOXK1 disrupts combinatorial activation leading to target downregulation.
+T2U_0162	down	combinatorial_tf_regulation: FOXK1 cooperates as a partner transcription factor alongside TP63, and reduction of FOXK1 impairs combinatorial transactivation causing target downregulation.
+T2U_0163	down	combinatorial_tf_regulation: FOXK1 functions as a collaborative partner transcription factor with TP63, and its loss compromises combinatorial activation resulting in target downregulation.
+T2U_0164	down	combinatorial_tf_regulation: TP63 requires partner transcription factor FOXK1 for full target gene induction, and loss of FOXK1 diminishes this cooperative regulation leading to downregulation.
+T2U_0165	down	combinatorial_tf_regulation: FOXK1 acts as a partner transcription factor required for TP63-dependent transactivation, and loss of FOXK1 impairs cooperative activation causing target downregulation.
+T2U_0166	down	combinatorial_tf_regulation: FOXK1 partners with TP63 to cooperatively drive target transcription, and depletion of FOXK1 disrupts combinatorial regulation leading to target downregulation.
+T2U_0167	down	combinatorial_tf_regulation: FOXK1 functions as an essential partner transcription factor cooperating with TP63, and its loss reduces combinatorial target gene activation causing downregulation.
+T2U_0168	down	combinatorial_tf_regulation: MAFG/MAFF proteins serve as obligate partner transcription factors that heterodimerize with NFE2L2 to drive transcription, and their loss disrupts combinatorial activation causing target downregulation.
+T2U_0169	down	direct_cis_regulatory_dna: NFE2L2 binds directly to antioxidant response cis-regulatory DNA elements to activate transcription, and loss of NFE2L2 diminishes this activation leading to target downregulation.
+T2U_0170	up	regulatory_rna_mediated_indirect_regulation: miR-451 functions as an intermediate regulatory microRNA that post-transcriptionally represses Ywhaz, and loss of miR-451 relieves repression leading to target upregulation.
+T2U_0171	down	direct_cis_regulatory_dna: Regulatory site E2 is a target cis-regulatory DNA element directly bound by STAT3 to activate Klf4, and its perturbation abolishes STAT3 transactivation leading to downregulation.
+T2U_0172	down	direct_cis_regulatory_dna: The intronic cis-regulatory DNA element is required for direct GATA1 binding and activation, and perturbation of this regulatory site causes target downregulation.
+T2U_0173	up	chromatin_mediated_regulation: BRG1/SMARCA4 acts as a corepressive chromatin regulator recruited by REST to silence neuronal genes, and its loss relieves chromatin-mediated repression leading to target upregulation.
+T2U_0174	up	chromatin_mediated_regulation: BRG1/SMARCA4 is a chromatin remodeling regulator essential for REST-mediated transcriptional silencing, and its depletion relieves repression causing target gene upregulation.
+T2U_0175	down	direct_cis_regulatory_dna: The intronic cis-regulatory DNA region is required for ZNF263-dependent transcriptional activation, and perturbation of this regulatory site impairs expression leading to target downregulation.
+T2U_0176	down	direct_cis_regulatory_dna: Regulatory site B is a cis-regulatory DNA element directly bound by YY1 to stimulate transcription, and perturbation of this site leads to target downregulation.
+T2U_0179	down	direct_cis_regulatory_dna: Regulatory site A functions as a cis-regulatory DNA element that recruits CTCF to maintain promoter-enhancer activation, and perturbation of this site causes target downregulation.
+T2U_0180	down	regulatory_rna_mediated_indirect_regulation: miR-451 acts as an intermediate regulatory microRNA that represses Ywhaz, and gain of miR-451 enhances post-transcriptional repression leading to target downregulation.
+T2U_0181	down	chromatin_mediated_regulation: KMT2D acts as a histone methyltransferase chromatin regulator required for active enhancer chromatin at GATA1 targets, and its loss impairs transcriptional activation causing target downregulation.
+T2U_0182	down	chromatin_mediated_regulation: KMT2D functions as an epigenetic chromatin regulator facilitating GATA1-mediated transcription through H3K4 methylation, and loss of KMT2D leads to target downregulation.
+T2U_0186	down	chromatin_mediated_regulation: KMT2D serves as a chromatin regulator establishing permissive enhancer chromatin for GATA1 transactivation, and its loss reduces target gene expression.
+T2U_0188	down	chromatin_mediated_regulation: KMT2D is a histone-modifying chromatin regulator required for GATA1-driven activation, and depletion of KMT2D leads to target gene downregulation.
+T2U_0183	down	regulatory_rna_mediated_indirect_regulation: miR-10b is an intermediate regulatory microRNA downstream of TWIST1 that represses HOXD10, so gain of miR-10b enhances repression leading to target downregulation.
+T2U_0189	up	regulatory_rna_mediated_indirect_regulation: miR-181b functions as an intermediate regulatory microRNA that represses CYLD, and loss of miR-181b relieves post-transcriptional repression causing target upregulation.
+T2U_0190	up	regulatory_rna_mediated_indirect_regulation: miR-181b-1 serves as an intermediate regulatory RNA repressing CYLD expression, and its loss abolishes repression leading to target gene upregulation.
+T2U_0191	up	regulatory_rna_mediated_indirect_regulation: miR-21 acts as an intermediate regulatory microRNA that represses PTEN, and loss of miR-21 relieves post-transcriptional repression leading to target upregulation.
+T2U_0192	up	regulatory_rna_mediated_indirect_regulation: miR-210 is an intermediate regulatory microRNA that represses ISCU, and its reduction relieves target repression resulting in upregulation.
+T2U_0193	down	regulatory_rna_mediated_indirect_regulation: miR-181b functions as an intermediate regulatory RNA that represses CYLD, so gain of miR-181b increases post-transcriptional silencing causing target downregulation.
+T2U_0195	down	direct_cis_regulatory_dna: ETV4 directly binds cis-regulatory DNA elements to stimulate NOTCH4 transcription, and loss of ETV4 diminishes this activation leading to target downregulation.
+T2U_0196	down	combinatorial_tf_regulation: FOSL1 functions as an essential partner transcription factor cooperating with ETV4 to activate the target, and its loss disrupts combinatorial activation causing downregulation.
+T2U_0197	down	combinatorial_tf_regulation: JUN acts as a partner transcription factor that cooperates with ETV4 at the target promoter, and loss of JUN impairs combinatorial transactivation leading to downregulation.
+T2U_0198	down	regulatory_rna_mediated_indirect_regulation: LED lncRNA acts as an intermediate regulatory RNA that facilitates TP53-dependent enhancer activation of CDKN1A, and its loss impairs activation leading to target downregulation.
+T2U_0199	up	chromatin_mediated_regulation: LSD1/KDM1A functions as a repressive chromatin regulator mediating histone demethylation at the GATA1 locus, and its loss relieves repressive chromatin constraints leading to target upregulation.

@@ -1,0 +1,1009 @@
+{
+ "GPT-6-Astra": {
+  "runner": "run_v37.py (teamorouter relay, temperature 0)",
+  "judge": "Claude (cross-model)",
+  "tasks": {
+   "task1": [
+    {
+     "dir": "runs/gpt",
+     "pred": "runs/gpt/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-08 09:03",
+     "sha8": "c7fcd6f8",
+     "scorefile": "runs/gpt/task1_scores.json"
+    },
+    {
+     "dir": "runs/run2/gpt",
+     "pred": "runs/run2/gpt/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-13 22:20",
+     "sha8": "35aef0b2",
+     "scorefile": "runs/run2/gpt/task1_scores.json"
+    },
+    {
+     "dir": "runs/run3/gpt",
+     "pred": "runs/run3/gpt/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-13 22:38",
+     "sha8": "8bb11dee",
+     "scorefile": "runs/run3/gpt/task1_scores.json"
+    },
+    {
+     "dir": "runs/run4/gpt",
+     "pred": "runs/run4/gpt/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-13 23:22",
+     "sha8": "de6f2436",
+     "scorefile": "runs/run4/gpt/task1_scores.json"
+    }
+   ],
+   "task2": [
+    {
+     "dir": "runs/gpt",
+     "pred": "runs/gpt/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-08 09:06",
+     "sha8": "e0e8e9e4",
+     "judg": "runs/gpt/task2_judge_raw_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-08 09:09",
+     "scorefile": "runs/gpt/task2_scores.json"
+    },
+    {
+     "dir": "runs/run2/gpt",
+     "pred": "runs/run2/gpt/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-13 22:21",
+     "sha8": "213521fa",
+     "judg": "runs/run2/gpt/task2_judge_raw_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-14 01:44",
+     "scorefile": "runs/run2/gpt/task2_scores.json"
+    },
+    {
+     "dir": "runs/run3/gpt",
+     "pred": "runs/run3/gpt/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-13 22:42",
+     "sha8": "8010123b",
+     "judg": "runs/run3/gpt/task2_judge_raw_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-14 01:46",
+     "scorefile": "runs/run3/gpt/task2_scores.json"
+    },
+    {
+     "dir": "runs/run4/gpt",
+     "pred": "runs/run4/gpt/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-13 23:24",
+     "sha8": "8bab2963",
+     "judg": "runs/run4/gpt/task2_judge_raw_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-13 23:37",
+     "scorefile": "runs/run4/gpt/task2_scores.json"
+    }
+   ],
+   "task3": [
+    {
+     "dir": "runs/gpt",
+     "pred": "runs/gpt/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-08 09:07",
+     "sha8": "d52b574c",
+     "judg": "runs/gpt/task3_judge_raw_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-08 09:09",
+     "scorefile": "runs/gpt/task3_scores.json"
+    },
+    {
+     "dir": "runs/run2/gpt",
+     "pred": "runs/run2/gpt/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-13 22:21",
+     "sha8": "1717f97b",
+     "judg": "runs/run2/gpt/task3_judge_raw_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-13 22:36",
+     "scorefile": "runs/run2/gpt/task3_scores.json"
+    },
+    {
+     "dir": "runs/run3/gpt",
+     "pred": "runs/run3/gpt/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-13 22:43",
+     "sha8": "1882128e",
+     "judg": "runs/run3/gpt/task3_judge_raw_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-13 23:21",
+     "scorefile": "runs/run3/gpt/task3_scores.json"
+    },
+    {
+     "dir": "runs/run4/gpt",
+     "pred": "runs/run4/gpt/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-13 23:24",
+     "sha8": "95808ca8",
+     "judg": "runs/run4/gpt/task3_judge_raw_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-13 23:38",
+     "scorefile": "runs/run4/gpt/task3_scores.json"
+    }
+   ]
+  }
+ },
+ "Claude-Sonnet-5.5": {
+  "runner": "run_v37.py (teamorouter relay, temperature 0)",
+  "judge": "GPT (cross-model)",
+  "tasks": {
+   "task1": [
+    {
+     "dir": "runs/claude",
+     "pred": "runs/claude/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-08 09:07",
+     "sha8": "18b7bedc",
+     "scorefile": "runs/claude/task1_scores.json"
+    },
+    {
+     "dir": "runs/run2/claude",
+     "pred": "runs/run2/claude/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-14 01:27",
+     "sha8": "a844826b"
+    },
+    {
+     "dir": "runs/run3/claude",
+     "pred": "runs/run3/claude/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-13 22:46",
+     "sha8": "d9ca502b",
+     "scorefile": "runs/run3/claude/task1_scores.json"
+    },
+    {
+     "dir": "runs/run4/claude",
+     "pred": "runs/run4/claude/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-13 23:28",
+     "sha8": "a148abad",
+     "scorefile": "runs/run4/claude/task1_scores.json"
+    }
+   ],
+   "task2": [
+    {
+     "dir": "runs/claude",
+     "pred": "runs/claude/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-08 09:08",
+     "sha8": "5f44277f",
+     "judg": "runs/claude/task2_judge_raw_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-08 09:10",
+     "scorefile": "runs/claude/task2_scores.json"
+    },
+    {
+     "dir": "runs/run2/claude",
+     "pred": "runs/run2/claude/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-14 01:35",
+     "sha8": "52a1a833"
+    },
+    {
+     "dir": "runs/run3/claude",
+     "pred": "runs/run3/claude/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-14 01:42",
+     "sha8": "7482d015"
+    },
+    {
+     "dir": "runs/run4/claude",
+     "pred": "runs/run4/claude/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-13 23:32",
+     "sha8": "aef3e716",
+     "judg": "runs/run4/claude/task2_judge_raw_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-13 23:39",
+     "scorefile": "runs/run4/claude/task2_scores.json"
+    }
+   ],
+   "task3": [
+    {
+     "dir": "runs/claude",
+     "pred": "runs/claude/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-08 09:08",
+     "sha8": "77154e1d",
+     "judg": "runs/claude/task3_judge_raw_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-08 09:11",
+     "scorefile": "runs/claude/task3_scores.json"
+    },
+    {
+     "dir": "runs/run2/claude",
+     "pred": "runs/run2/claude/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-13 22:33",
+     "sha8": "eed411ce",
+     "judg": "runs/run2/claude/task3_judge_raw_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-13 22:37",
+     "scorefile": "runs/run2/claude/task3_scores.json"
+    },
+    {
+     "dir": "runs/run3/claude",
+     "pred": "runs/run3/claude/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-14 02:02",
+     "sha8": "ab9de0f2",
+     "judg": "runs/run3/claude/task3_judge_raw_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-14 02:07",
+     "scorefile": "runs/run3/claude/task3_scores_judged.json"
+    },
+    {
+     "dir": "runs/run4/claude",
+     "pred": "runs/run4/claude/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-13 23:35",
+     "sha8": "42af8235",
+     "judg": "runs/run4/claude/task3_judge_raw_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-13 23:39",
+     "scorefile": "runs/run4/claude/task3_scores.json"
+    }
+   ]
+  }
+ },
+ "Gemini-3.8-Flash": {
+  "runner": "run_v37_gemini.py",
+  "judge": "GPT",
+  "tasks": {
+   "task1": [
+    {
+     "dir": "runs_gemini/official",
+     "pred": "runs_gemini/official/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-08 21:30",
+     "sha8": "38ce7d17",
+     "scorefile": "runs_gemini/official/task1_scores.json"
+    },
+    {
+     "dir": "runs_gemini/rep1",
+     "pred": "runs_gemini/rep1/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-08 21:42",
+     "sha8": "fc78e20e",
+     "scorefile": "runs_gemini/rep1/task1_scores.json"
+    },
+    {
+     "dir": "runs_gemini/rep2",
+     "pred": "runs_gemini/rep2/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-08 21:48",
+     "sha8": "9e2df3b4",
+     "scorefile": "runs_gemini/rep2/task1_scores.json"
+    },
+    {
+     "dir": "runs_gemini/rep3",
+     "pred": "runs_gemini/rep3/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-08 21:57",
+     "sha8": "6c567001",
+     "scorefile": "runs_gemini/rep3/task1_scores.json"
+    }
+   ],
+   "task2": [
+    {
+     "dir": "runs_gemini/official",
+     "pred": "runs_gemini/official/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-08 21:31",
+     "sha8": "f429e32f",
+     "judg": "runs_gemini/official/task2_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-08 21:34",
+     "scorefile": "runs_gemini/official/task2_scores.json"
+    },
+    {
+     "dir": "runs_gemini/rep1",
+     "pred": "runs_gemini/rep1/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-08 21:44",
+     "sha8": "19cc24b4",
+     "judg": "runs_gemini/rep1/task2_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-08 21:45",
+     "scorefile": "runs_gemini/rep1/task2_scores.json"
+    },
+    {
+     "dir": "runs_gemini/rep2",
+     "pred": "runs_gemini/rep2/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-08 21:50",
+     "sha8": "90e1a08d",
+     "judg": "runs_gemini/rep2/task2_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-08 21:54",
+     "scorefile": "runs_gemini/rep2/task2_scores.json"
+    },
+    {
+     "dir": "runs_gemini/rep3",
+     "pred": "runs_gemini/rep3/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-08 21:59",
+     "sha8": "1c5d249f",
+     "judg": "runs_gemini/rep3/task2_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-08 22:05",
+     "scorefile": "runs_gemini/rep3/task2_scores.json"
+    }
+   ],
+   "task3": [
+    {
+     "dir": "runs_gemini/official",
+     "pred": "runs_gemini/official/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-08 21:41",
+     "sha8": "0da599fc",
+     "judg": "runs_gemini/official/task3_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-08 21:41",
+     "scorefile": "runs_gemini/official/task3_scores.json"
+    },
+    {
+     "dir": "runs_gemini/rep1",
+     "pred": "runs_gemini/rep1/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-08 21:46",
+     "sha8": "fec06015",
+     "judg": "runs_gemini/rep1/task3_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-08 21:48",
+     "scorefile": "runs_gemini/rep1/task3_scores.json"
+    },
+    {
+     "dir": "runs_gemini/rep2",
+     "pred": "runs_gemini/rep2/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-08 21:55",
+     "sha8": "bb0457e2",
+     "judg": "runs_gemini/rep2/task3_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-08 21:55",
+     "scorefile": "runs_gemini/rep2/task3_scores.json"
+    },
+    {
+     "dir": "runs_gemini/rep3",
+     "pred": "runs_gemini/rep3/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-08 22:06",
+     "sha8": "46f4c395",
+     "judg": "runs_gemini/rep3/task3_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-08 22:07",
+     "scorefile": "runs_gemini/rep3/task3_scores.json"
+    }
+   ]
+  }
+ },
+ "GLM-5.3-Flash": {
+  "runner": "run_v37_extras.py",
+  "judge": "GPT",
+  "tasks": {
+   "task1": [
+    {
+     "dir": "runs_extras/glm/pass1",
+     "pred": "runs_extras/glm/pass1/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-13 23:11",
+     "sha8": "ced17b19",
+     "scorefile": "runs_extras/glm/pass1/task1_scores.json"
+    },
+    {
+     "dir": "runs_extras/glm/pass2",
+     "pred": "runs_extras/glm/pass2/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-10 11:58",
+     "sha8": "a04be418",
+     "scorefile": "runs_extras/glm/pass2/task1_scores.json"
+    },
+    {
+     "dir": "runs_extras/glm/pass3",
+     "pred": "runs_extras/glm/pass3/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-14 00:53",
+     "sha8": "765e3cf6",
+     "scorefile": "runs_extras/glm/pass3/task1_scores.json"
+    },
+    {
+     "dir": "runs_extras/glm/pass4",
+     "pred": "runs_extras/glm/pass4/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-12 00:07",
+     "sha8": "5427c7eb",
+     "scorefile": "runs_extras/glm/pass4/task1_scores.json"
+    }
+   ],
+   "task2": [
+    {
+     "dir": "runs_extras/glm/pass1",
+     "pred": "runs_extras/glm/pass1/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-13 23:37",
+     "sha8": "381e984f",
+     "judg": "runs_extras/glm/pass1/task2_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-13 23:38",
+     "scorefile": "runs_extras/glm/pass1/task2_scores.json"
+    },
+    {
+     "dir": "runs_extras/glm/pass2",
+     "pred": "runs_extras/glm/pass2/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-10 12:24",
+     "sha8": "c37ac98f",
+     "judg": "runs_extras/glm/pass2/task2_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-10 12:25",
+     "scorefile": "runs_extras/glm/pass2/task2_scores.json"
+    },
+    {
+     "dir": "runs_extras/glm/pass3",
+     "pred": "runs_extras/glm/pass3/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-14 01:32",
+     "sha8": "aff33610",
+     "judg": "runs_extras/glm/pass3/task2_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-14 01:34",
+     "scorefile": "runs_extras/glm/pass3/task2_scores.json"
+    },
+    {
+     "dir": "runs_extras/glm/pass4",
+     "pred": "runs_extras/glm/pass4/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-12 00:54",
+     "sha8": "324e90d3",
+     "judg": "runs_extras/glm/pass4/task2_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-12 00:56",
+     "scorefile": "runs_extras/glm/pass4/task2_scores.json"
+    }
+   ],
+   "task3": [
+    {
+     "dir": "runs_extras/glm/pass1",
+     "pred": "runs_extras/glm/pass1/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-13 23:47",
+     "sha8": "59aba565",
+     "judg": "runs_extras/glm/pass1/task3_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-13 23:47",
+     "scorefile": "runs_extras/glm/pass1/task3_scores.json"
+    },
+    {
+     "dir": "runs_extras/glm/pass2",
+     "pred": "runs_extras/glm/pass2/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-10 12:32",
+     "sha8": "d13ac276",
+     "judg": "runs_extras/glm/pass2/task3_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-10 12:33",
+     "scorefile": "runs_extras/glm/pass2/task3_scores.json"
+    },
+    {
+     "dir": "runs_extras/glm/pass3",
+     "pred": "runs_extras/glm/pass3/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-14 01:38",
+     "sha8": "2580e52f",
+     "judg": "runs_extras/glm/pass3/task3_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-14 01:38",
+     "scorefile": "runs_extras/glm/pass3/task3_scores.json"
+    },
+    {
+     "dir": "runs_extras/glm/pass4",
+     "pred": "runs_extras/glm/pass4/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-12 00:59",
+     "sha8": "a37fbd9c",
+     "judg": "runs_extras/glm/pass4/task3_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-12 01:40",
+     "scorefile": "runs_extras/glm/pass4/task3_scores.json"
+    }
+   ]
+  }
+ },
+ "Grok-4.6": {
+  "runner": "run_v37_extras.py",
+  "judge": "GPT",
+  "tasks": {
+   "task1": [
+    {
+     "dir": "runs_extras/grok/pass1",
+     "pred": "runs_extras/grok/pass1/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-10 13:00",
+     "sha8": "13bbbc2f",
+     "scorefile": "runs_extras/grok/pass1/task1_scores.json"
+    },
+    {
+     "dir": "runs_extras/grok/pass2",
+     "pred": "runs_extras/grok/pass2/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-11 16:11",
+     "sha8": "13bbbc2f",
+     "scorefile": "runs_extras/grok/pass2/task1_scores.json"
+    },
+    {
+     "dir": "runs_extras/grok/pass3",
+     "pred": "runs_extras/grok/pass3/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-11 16:28",
+     "sha8": "3d67bcdc",
+     "scorefile": "runs_extras/grok/pass3/task1_scores.json"
+    },
+    {
+     "dir": "runs_extras/grok/pass4",
+     "pred": "runs_extras/grok/pass4/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-12 01:43",
+     "sha8": "13bbbc2f",
+     "scorefile": "runs_extras/grok/pass4/task1_scores.json"
+    }
+   ],
+   "task2": [
+    {
+     "dir": "runs_extras/grok/pass1",
+     "pred": "runs_extras/grok/pass1/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-10 13:14",
+     "sha8": "d6f53fad",
+     "judg": "runs_extras/grok/pass1/task2_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-10 13:18",
+     "scorefile": "runs_extras/grok/pass1/task2_scores.json"
+    },
+    {
+     "dir": "runs_extras/grok/pass2",
+     "pred": "runs_extras/grok/pass2/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-11 16:19",
+     "sha8": "540c9387",
+     "judg": "runs_extras/grok/pass2/task2_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-11 16:19",
+     "scorefile": "runs_extras/grok/pass2/task2_scores.json"
+    },
+    {
+     "dir": "runs_extras/grok/pass3",
+     "pred": "runs_extras/grok/pass3/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-11 16:35",
+     "sha8": "e6099ebc",
+     "judg": "runs_extras/grok/pass3/task2_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-11 16:37",
+     "scorefile": "runs_extras/grok/pass3/task2_scores.json"
+    },
+    {
+     "dir": "runs_extras/grok/pass4",
+     "pred": "runs_extras/grok/pass4/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-12 02:04",
+     "sha8": "b0715860",
+     "judg": "runs_extras/grok/pass4/task2_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-12 02:05",
+     "scorefile": "runs_extras/grok/pass4/task2_scores.json"
+    }
+   ],
+   "task3": [
+    {
+     "dir": "runs_extras/grok/pass1",
+     "pred": "runs_extras/grok/pass1/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-10 13:20",
+     "sha8": "7f3bf7c7",
+     "judg": "runs_extras/grok/pass1/task3_judgments.tsv",
+     "judg_rows": 0,
+     "judg_mtime": "10-10 13:25",
+     "scorefile": "runs_extras/grok/pass1/task3_scores.json"
+    },
+    {
+     "dir": "runs_extras/grok/pass2",
+     "pred": "runs_extras/grok/pass2/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-11 16:22",
+     "sha8": "4f480616",
+     "judg": "runs_extras/grok/pass2/task3_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-11 16:22",
+     "scorefile": "runs_extras/grok/pass2/task3_scores.json"
+    },
+    {
+     "dir": "runs_extras/grok/pass3",
+     "pred": "runs_extras/grok/pass3/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-11 16:40",
+     "sha8": "54ee44e8",
+     "judg": "runs_extras/grok/pass3/task3_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-11 16:40",
+     "scorefile": "runs_extras/grok/pass3/task3_scores.json"
+    },
+    {
+     "dir": "runs_extras/grok/pass4",
+     "pred": "runs_extras/grok/pass4/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-12 02:10",
+     "sha8": "4e7a96ba",
+     "judg": "runs_extras/grok/pass4/task3_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-12 02:10",
+     "scorefile": "runs_extras/grok/pass4/task3_scores.json"
+    }
+   ]
+  }
+ },
+ "Biomni (agent)": {
+  "runner": "run_v37_biomni_agent.py (per-unit agent sessions)",
+  "judge": "GPT (first-line answer parsing)",
+  "tasks": {
+   "task1": [
+    {
+     "dir": "runs_biomni_agent/pass1",
+     "pred": "runs_biomni_agent/pass1/task1/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-11 21:17",
+     "sha8": "c9ef4f7b"
+    },
+    {
+     "dir": "runs_biomni_agent/pass2",
+     "pred": "runs_biomni_agent/pass2/task1/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-12 12:02",
+     "sha8": "164d0b29"
+    },
+    {
+     "dir": "runs_biomni_agent/pass3",
+     "pred": "runs_biomni_agent/pass3/task1/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-12 12:06",
+     "sha8": "545c21d9"
+    },
+    {
+     "dir": "runs_biomni_agent/pass4",
+     "pred": "runs_biomni_agent/pass4/task1/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-12 12:12",
+     "sha8": "992c53e8"
+    }
+   ],
+   "task2": [
+    {
+     "dir": "runs_biomni_agent/pass1",
+     "pred": "runs_biomni_agent/pass1/task2/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-12 13:53",
+     "sha8": "ce6e7e81",
+     "judg": "runs_biomni_agent/pass1/task2/task2_judge_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-11 22:58"
+    },
+    {
+     "dir": "runs_biomni_agent/pass2",
+     "pred": "runs_biomni_agent/pass2/task2/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-12 13:53",
+     "sha8": "c5401fd5",
+     "judg": "runs_biomni_agent/pass2/task2/task2_judge_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-12 12:06"
+    },
+    {
+     "dir": "runs_biomni_agent/pass3",
+     "pred": "runs_biomni_agent/pass3/task2/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-12 13:53",
+     "sha8": "1eb7e558",
+     "judg": "runs_biomni_agent/pass3/task2/task2_judge_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-12 12:08"
+    },
+    {
+     "dir": "runs_biomni_agent/pass4",
+     "pred": "runs_biomni_agent/pass4/task2/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-12 13:53",
+     "sha8": "a6f98913",
+     "judg": "runs_biomni_agent/pass4/task2/task2_judge_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-12 12:13"
+    }
+   ],
+   "task3": [
+    {
+     "dir": "runs_biomni_agent/pass1",
+     "pred": "runs_biomni_agent/pass1/task3/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-12 13:47",
+     "sha8": "bf85d2f6",
+     "judg": "runs_biomni_agent/pass1/task3/task3_judge_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-11 22:58"
+    },
+    {
+     "dir": "runs_biomni_agent/pass2",
+     "pred": "runs_biomni_agent/pass2/task3/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-12 13:47",
+     "sha8": "c04e6506",
+     "judg": "runs_biomni_agent/pass2/task3/task3_judge_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-12 12:06"
+    },
+    {
+     "dir": "runs_biomni_agent/pass3",
+     "pred": "runs_biomni_agent/pass3/task3/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-12 13:47",
+     "sha8": "e9ad2db8",
+     "judg": "runs_biomni_agent/pass3/task3/task3_judge_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-12 12:12"
+    },
+    {
+     "dir": "runs_biomni_agent/pass4",
+     "pred": "runs_biomni_agent/pass4/task3/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-12 13:47",
+     "sha8": "d383dfc6",
+     "judg": "runs_biomni_agent/pass4/task3/task3_judge_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-12 12:14"
+    }
+   ]
+  }
+ },
+ "Biomni (no-tools)": {
+  "runner": "biomni_notools_eval.py (single-turn, parametric only)",
+  "judge": "GPT",
+  "tasks": {
+   "task1": [
+    {
+     "dir": "runs_biomni_notools/official",
+     "pred": "runs_biomni_notools/official/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-10 11:09",
+     "sha8": "d4fdc2c1",
+     "scorefile": "runs_biomni_notools/official/task1_scores.json"
+    },
+    {
+     "dir": "runs_biomni_notools/rep1",
+     "pred": "runs_biomni_notools/rep1/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-10 13:05",
+     "sha8": "6ea29234",
+     "scorefile": "runs_biomni_notools/rep1/task1_scores.json"
+    },
+    {
+     "dir": "runs_biomni_notools/rep2",
+     "pred": "runs_biomni_notools/rep2/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-10 13:23",
+     "sha8": "f0772729",
+     "scorefile": "runs_biomni_notools/rep2/task1_scores.json"
+    },
+    {
+     "dir": "runs_biomni_notools/rep3",
+     "pred": "runs_biomni_notools/rep3/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-11 16:10",
+     "sha8": "68e2add5",
+     "scorefile": "runs_biomni_notools/rep3/task1_scores.json"
+    }
+   ],
+   "task2": [
+    {
+     "dir": "runs_biomni_notools/official",
+     "pred": "runs_biomni_notools/official/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-10 11:11",
+     "sha8": "bab4e085",
+     "judg": "runs_biomni_notools/official/task2_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-11 18:58",
+     "scorefile": "runs_biomni_notools/official/task2_scores.json"
+    },
+    {
+     "dir": "runs_biomni_notools/rep1",
+     "pred": "runs_biomni_notools/rep1/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-11 15:48",
+     "sha8": "4b26350f",
+     "judg": "runs_biomni_notools/rep1/task2_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-11 19:01",
+     "scorefile": "runs_biomni_notools/rep1/task2_scores.json"
+    },
+    {
+     "dir": "runs_biomni_notools/rep2",
+     "pred": "runs_biomni_notools/rep2/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-11 15:49",
+     "sha8": "138172e3",
+     "judg": "runs_biomni_notools/rep2/task2_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-11 19:04",
+     "scorefile": "runs_biomni_notools/rep2/task2_scores.json"
+    },
+    {
+     "dir": "runs_biomni_notools/rep3",
+     "pred": "runs_biomni_notools/rep3/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-11 15:52",
+     "sha8": "50097d44",
+     "judg": "runs_biomni_notools/rep3/task2_judgments.tsv",
+     "judg_rows": 193,
+     "judg_mtime": "10-11 19:05",
+     "scorefile": "runs_biomni_notools/rep3/task2_scores.json"
+    }
+   ],
+   "task3": [
+    {
+     "dir": "runs_biomni_notools/official",
+     "pred": "runs_biomni_notools/official/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-10 13:05",
+     "sha8": "c74c7922",
+     "judg": "runs_biomni_notools/official/task3_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-11 18:59",
+     "scorefile": "runs_biomni_notools/official/task3_scores.json"
+    },
+    {
+     "dir": "runs_biomni_notools/rep1",
+     "pred": "runs_biomni_notools/rep1/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-10 13:23",
+     "sha8": "52ebc51f",
+     "judg": "runs_biomni_notools/rep1/task3_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-11 19:01",
+     "scorefile": "runs_biomni_notools/rep1/task3_scores.json"
+    },
+    {
+     "dir": "runs_biomni_notools/rep2",
+     "pred": "runs_biomni_notools/rep2/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-11 15:50",
+     "sha8": "599e022b",
+     "judg": "runs_biomni_notools/rep2/task3_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-11 19:04",
+     "scorefile": "runs_biomni_notools/rep2/task3_scores.json"
+    },
+    {
+     "dir": "runs_biomni_notools/rep3",
+     "pred": "runs_biomni_notools/rep3/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-10 12:55",
+     "sha8": "0f2835a9",
+     "judg": "runs_biomni_notools/rep3/task3_judgments.tsv",
+     "judg_rows": 20,
+     "judg_mtime": "10-11 19:08",
+     "scorefile": "runs_biomni_notools/rep3/task3_scores.json"
+    }
+   ]
+  }
+ },
+ "rbio1": {
+  "runner": "run_v37_rbio1.py (local inference, M5 Max)",
+  "judge": "none (narrative-free outputs; chain metrics NA)",
+  "tasks": {
+   "task1": [
+    {
+     "dir": "runs_rbio1/pass1",
+     "pred": "runs_rbio1/pass1/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-11 16:06",
+     "sha8": "29fd846d",
+     "scorefile": "runs_rbio1/pass1/task1_scores.json"
+    },
+    {
+     "dir": "runs_rbio1/pass2",
+     "pred": "runs_rbio1/pass2/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-12 02:10",
+     "sha8": "29fd846d",
+     "scorefile": "runs_rbio1/pass2/task1_scores.json"
+    },
+    {
+     "dir": "runs_rbio1/pass3",
+     "pred": "runs_rbio1/pass3/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-12 06:09",
+     "sha8": "29fd846d",
+     "scorefile": "runs_rbio1/pass3/task1_scores.json"
+    },
+    {
+     "dir": "runs_rbio1/pass4",
+     "pred": "runs_rbio1/pass4/task1_predictions.tsv",
+     "rows": 171,
+     "mtime": "10-12 10:07",
+     "sha8": "29fd846d",
+     "scorefile": "runs_rbio1/pass4/task1_scores.json"
+    }
+   ],
+   "task2": [
+    {
+     "dir": "runs_rbio1/pass1",
+     "pred": "runs_rbio1/pass1/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-11 18:23",
+     "sha8": "7a935301",
+     "scorefile": "runs_rbio1/pass1/task2_scores.json"
+    },
+    {
+     "dir": "runs_rbio1/pass2",
+     "pred": "runs_rbio1/pass2/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-12 04:01",
+     "sha8": "7a935301",
+     "scorefile": "runs_rbio1/pass2/task2_scores.json"
+    },
+    {
+     "dir": "runs_rbio1/pass3",
+     "pred": "runs_rbio1/pass3/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-12 07:59",
+     "sha8": "7a935301",
+     "scorefile": "runs_rbio1/pass3/task2_scores.json"
+    },
+    {
+     "dir": "runs_rbio1/pass4",
+     "pred": "runs_rbio1/pass4/task2_predictions.tsv",
+     "rows": 193,
+     "mtime": "10-12 11:56",
+     "sha8": "7a935301",
+     "scorefile": "runs_rbio1/pass4/task2_scores.json"
+    }
+   ],
+   "task3": [
+    {
+     "dir": "runs_rbio1/pass1",
+     "pred": "runs_rbio1/pass1/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-11 18:39",
+     "sha8": "734e1b2a"
+    },
+    {
+     "dir": "runs_rbio1/pass2",
+     "pred": "runs_rbio1/pass2/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-12 04:14",
+     "sha8": "734e1b2a"
+    },
+    {
+     "dir": "runs_rbio1/pass3",
+     "pred": "runs_rbio1/pass3/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-12 08:12",
+     "sha8": "734e1b2a"
+    },
+    {
+     "dir": "runs_rbio1/pass4",
+     "pred": "runs_rbio1/pass4/task3_predictions.tsv",
+     "rows": 20,
+     "mtime": "10-12 12:10",
+     "sha8": "734e1b2a"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,194 @@
+unit_id	predicted_direction	mechanism_reasoning
+T2U_0001	up	EED/PRC2 maintains repressive chromatin at Scin; reducing it relieves repression of CDX2-linked expression.
+T2U_0002	up	EED/PRC2 maintains repressive chromatin at Slc26a6; reducing it relieves repression of CDX2-linked expression.
+T2U_0003	down	TP63 and partner FOXK1 support ANKRD27 transcription together, so reducing TP63 lowers expression.
+T2U_0004	down	TP63 and partner FOXK1 support HNRNPA1 transcription together, so reducing TP63 lowers expression.
+T2U_0005	down	TP63 and partner FOXK1 support HNRNPL transcription together, so reducing TP63 lowers expression.
+T2U_0006	down	TP63 and partner FOXK1 support L3HYPDH transcription together, so reducing TP63 lowers expression.
+T2U_0007	down	TP63 and partner FOXK1 support NABP2 transcription together, so reducing TP63 lowers expression.
+T2U_0008	down	TP63 and partner FOXK1 support RPS16 transcription together, so reducing TP63 lowers expression.
+T2U_0009	down	TP63 and partner FOXK1 support TIMM50 transcription together, so reducing TP63 lowers expression.
+T2U_0010	down	TET2 supports chromatin accessibility for ESR1-dependent ELOVL2 activation; reducing TET2 lowers expression.
+T2U_0011	down	TET2 supports chromatin accessibility for ESR1-dependent PTGES activation; reducing TET2 lowers expression.
+T2U_0012	down	TET2 supports chromatin accessibility for ESR1-dependent WIPF1 activation; reducing TET2 lowers expression.
+T2U_0013	down	ESR1 activates CISH through target-linked regulatory DNA; reducing those sites weakens activation.
+T2U_0014	down	ESR1 activates G0S2 through target-linked regulatory DNA; reducing those sites weakens activation.
+T2U_0015	down	ESR1 activates MMP17 through target-linked regulatory DNA; reducing those sites weakens activation.
+T2U_0016	down	GATA1-dependent activation of Lrrc39 requires a transcription-factor partner; the D218G variant impairs that cooperation and lowers expression.
+T2U_0017	down	GATA1-dependent activation of Rragd requires a transcription-factor partner; the D218G variant impairs that cooperation and lowers expression.
+T2U_0018	down	GATA1-dependent activation of Slc4a1 requires a transcription-factor partner; the D218G variant impairs that cooperation and lowers expression.
+T2U_0019	down	GATA1-dependent activation of Lrrc39 requires a transcription-factor partner; the R216Q variant impairs that cooperation and lowers expression.
+T2U_0020	down	GATA1-dependent activation of Rragd requires a transcription-factor partner; the R216Q variant impairs that cooperation and lowers expression.
+T2U_0021	down	GATA1-dependent activation of Slc4a1 requires a transcription-factor partner; the R216Q variant impairs that cooperation and lowers expression.
+T2U_0022	down	H2A.Z supports a chromatin state needed for TP63-dependent SAMD9L activation; reducing H2A.Z lowers expression.
+T2U_0023	down	H2A.Z supports a chromatin state needed for TP63-dependent ZHX2 activation; reducing H2A.Z lowers expression.
+T2U_0024	down	HIF1A induces miR-210, which suppresses ISCU; increasing this regulatory RNA lowers ISCU expression.
+T2U_0025	up	TWIST1 induces miR-10b, which suppresses HOXD10; reducing miR-10b releases HOXD10 from suppression.
+T2U_0026	down	CA12e is target-linked regulatory DNA through which ESR1 activates CA12; reducing it lowers expression.
+T2U_0027	down	FOXC1e is target-linked regulatory DNA through which ESR1 activates FOXC1; reducing it lowers expression.
+T2U_0028	down	GREB1e is target-linked regulatory DNA through which ESR1 activates GREB1; reducing it lowers expression.
+T2U_0029	down	KCNK5e is target-linked regulatory DNA through which ESR1 activates KCNK5; reducing it lowers expression.
+T2U_0030	down	NRIP1e is target-linked regulatory DNA through which ESR1 activates NRIP1; reducing it lowers expression.
+T2U_0031	down	P2RY2e is target-linked regulatory DNA through which ESR1 activates P2RY2; reducing it lowers expression.
+T2U_0032	down	PGRe is target-linked regulatory DNA through which ESR1 activates PGR; reducing it lowers expression.
+T2U_0033	down	SIAH2e is target-linked regulatory DNA through which ESR1 activates SIAH2; reducing it lowers expression.
+T2U_0034	down	SMAD7e is target-linked regulatory DNA through which ESR1 activates SMAD7; reducing it lowers expression.
+T2U_0035	down	TFF1e is target-linked regulatory DNA through which ESR1 activates TFF1; reducing it lowers expression.
+T2U_0036	up	PPARA activates Angptl4 in cooperation with partner TF activity; increasing PPARA strengthens that activation.
+T2U_0037	up	PPARA activates Hmgcs2 in cooperation with partner TF activity; increasing PPARA strengthens that activation.
+T2U_0038	up	PPARA activates Pdk4 in cooperation with partner TF activity; increasing PPARA strengthens that activation.
+T2U_0039	up	BHLHE40 restrains PPARA-dependent Angptl4 activation; reducing this partner removes restraint and raises expression.
+T2U_0040	up	BHLHE40 restrains PPARA-dependent Hmgcs2 activation; reducing this partner removes restraint and raises expression.
+T2U_0041	up	BHLHE40 restrains PPARA-dependent Pdk4 activation; reducing this partner removes restraint and raises expression.
+T2U_0042	down	ZNF143 supports ABCF2 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0043	down	ZNF143 supports ADAT3 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0044	down	ZNF143 supports AKR1A1 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0045	down	ZNF143 supports ANKRD13B transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0046	down	ZNF143 supports AP1S3 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0047	down	ZNF143 supports ARID5A transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0048	down	ZNF143 supports ASB13 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0049	down	ZNF143 supports BIRC5 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0050	down	ZNF143 supports CASC3 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0051	down	ZNF143 supports CCDC157 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0052	down	ZNF143 supports CCDC92 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0053	down	ZNF143 supports CCPG1 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0054	down	ZNF143 supports CKAP2L transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0055	down	ZNF143 supports CNIH1 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0056	down	ZNF143 supports CPOX transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0057	down	ZNF143 supports CPSF4 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0058	down	ZNF143 supports CRCP transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0059	down	ZNF143 supports CREBL2 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0060	down	ZNF143 supports CWC15 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0061	down	ZNF143 supports CYB5R1 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0062	down	ZNF143 supports EGR1 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0063	down	ZNF143 supports EMC1 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0064	down	ZNF143 supports ENKD1 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0065	down	ZNF143 supports ERAL1 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0066	down	ZNF143 supports ERP44 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0067	down	ZNF143 supports FASTK transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0068	down	ZNF143 supports FH transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0069	down	ZNF143 supports GAMT transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0070	down	ZNF143 supports GOLGA2 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0071	down	ZNF143 supports GTPBP8 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0072	down	ZNF143 supports HMGCL transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0073	down	ZNF143 supports HSPA14 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0074	down	ZNF143 supports IK transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0075	down	ZNF143 supports JMJD8 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0076	down	ZNF143 supports JUN transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0077	down	ZNF143 supports JUND transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0078	down	ZNF143 supports KDELR2 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0079	down	ZNF143 supports KLC2 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0080	down	ZNF143 supports KPNA5 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0081	down	ZNF143 supports LATS1 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0082	down	ZNF143 supports MED16 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0083	down	ZNF143 supports MFSD3 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0084	down	ZNF143 supports MRPL46 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0085	down	ZNF143 supports MRPL54 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0086	down	ZNF143 supports MRPS11 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0087	down	ZNF143 supports MTMR1 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0088	down	ZNF143 supports NUTF2 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0089	down	ZNF143 supports PAPOLG transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0090	down	ZNF143 supports PLAGL2 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0091	down	ZNF143 supports PNKD transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0092	down	ZNF143 supports POMT2 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0093	down	ZNF143 supports PRIM1 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0094	down	ZNF143 supports PRKAA2 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0095	down	ZNF143 supports PROSER3 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0096	down	ZNF143 supports PSMC6 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0097	down	ZNF143 supports PTPMT1 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0098	down	ZNF143 supports PTRHD1 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0099	down	ZNF143 supports RDH11 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0100	down	ZNF143 supports RIC8A transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0101	down	ZNF143 supports RNF40 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0102	down	ZNF143 supports RPAIN transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0103	down	ZNF143 supports RPL6 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0104	down	ZNF143 supports RSBN1 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0105	down	ZNF143 supports SAMD13 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0106	down	ZNF143 supports SAV1 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0107	down	ZNF143 supports SEPTIN8 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0108	down	ZNF143 supports SFT2D2 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0109	down	ZNF143 supports SGF29 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0110	down	ZNF143 supports SLC7A6OS transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0111	down	ZNF143 supports SLC9A6 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0112	down	ZNF143 supports SNRNP48 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0113	down	ZNF143 supports SNRNP70 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0114	down	ZNF143 supports SNRPD3 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0115	down	ZNF143 supports SSB transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0116	down	ZNF143 supports STARD10 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0117	down	ZNF143 supports TFAM transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0118	down	ZNF143 supports THOC7 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0119	down	ZNF143 supports THOP1 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0120	down	ZNF143 supports TIMM17A transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0121	down	ZNF143 supports TMEM258 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0122	down	ZNF143 supports TMOD2 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0123	down	ZNF143 supports TOMM70 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0124	down	ZNF143 supports TPRA1 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0125	down	ZNF143 supports UBALD1 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0126	down	ZNF143 supports UBFD1 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0127	down	ZNF143 supports UQCR10 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0128	down	ZNF143 supports VASP transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0129	down	ZNF143 supports ZBTB10 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0130	down	ZNF143 supports ZFTA transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0131	down	ZNF143 supports ZMYM6 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0132	down	ZNF143 supports ZNF200 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0133	down	ZNF143 supports ZNF24 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0134	down	ZNF143 supports ZNF354A transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0135	down	ZNF143 supports ZNF382 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0136	down	ZNF143 supports ZNF473 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0137	down	ZNF143 supports ZNF485 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0138	down	ZNF143 supports ZNF607 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0139	down	ZNF143 supports ZNF746 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0140	down	ZNF143 supports ZW10 transcription through target-linked regulatory DNA; reducing ZNF143 lowers expression.
+T2U_0141	down	NANOG sustains its own transcription with partner TF activity at Nanog regulatory DNA; reducing NANOG protein weakens this positive input.
+T2U_0142	up	POU5F1 acts with partner TF activity to restrain Pax6 transcription; reducing POU5F1 protein releases that restraint.
+T2U_0143	down	POU5F1 acts with partner TF activity to activate Utf1; reducing POU5F1 protein weakens that activation.
+T2U_0144	up	TP53 induces lincRNA-p21, which relays repression to MTAP4; reducing the RNA releases MTAP4 expression.
+T2U_0145	up	TP53 induces lincRNA-p21, which relays repression to SUV39H1; reducing the RNA releases SUV39H1 expression.
+T2U_0146	up	TP53 induces lincRNA-p21, which relays repression to VCAN; reducing the RNA releases VCAN expression.
+T2U_0147	up	HIF1A induces miR-210, which suppresses E2F3; reducing the RNA releases E2F3 expression.
+T2U_0148	up	Activated NOTCH1 cooperates with TGF-beta-activated SMAD3 and its partner SMAD4 to induce PTPRK, raising expression.
+T2U_0149	down	NOTCH1 supplies a partner signal for SMAD3-dependent PTPRK activation; reducing NOTCH1 weakens that cooperative induction.
+T2U_0150	down	SMAD3 cooperates with NOTCH1 and SMAD4 to activate PTPRK; reducing SMAD3 weakens that induction.
+T2U_0151	down	SMAD4 partners with SMAD3 in NOTCH1-linked PTPRK activation; reducing SMAD4 weakens that induction.
+T2U_0152	up	UHRF1 maintains repressive chromatin in the PPARA-linked regulation of Cdh1; reducing UHRF1 relieves repression.
+T2U_0153	up	UHRF1 maintains repressive chromatin in the PPARA-linked regulation of Cdh3; reducing UHRF1 relieves repression.
+T2U_0154	up	UHRF1 maintains repressive chromatin in the PPARA-linked regulation of Smpd3; reducing UHRF1 relieves repression.
+T2U_0155	down	HIF1A induces miR-210, which suppresses E2F3; increasing the RNA strengthens suppression and lowers E2F3.
+T2U_0156	down	POU5F1 activates Nanog through its upstream cis-regulatory site; perturbing that site weakens Nanog transcription.
+T2U_0157	down	RELA activates TBC1D4 through an intronic NF-kB cis-regulatory site; perturbing the site weakens activation.
+T2U_0158	down	MYC activates PRKCQ through the indicated E-box regulatory DNA; perturbing that site weakens transcription.
+T2U_0159	down	MYC activates PRKCQ-AS1 through the indicated E-box regulatory DNA; perturbing that site weakens transcription.
+T2U_0160	down	MYC activates PFAS through the indicated E-box regulatory DNA; perturbing that site weakens transcription.
+T2U_0161	down	FOXK1 partners with TP63 to activate ANKRD27; reducing FOXK1 weakens cooperative transcription.
+T2U_0162	down	FOXK1 partners with TP63 to activate HNRNPA1; reducing FOXK1 weakens cooperative transcription.
+T2U_0163	down	FOXK1 partners with TP63 to activate HNRNPL; reducing FOXK1 weakens cooperative transcription.
+T2U_0164	down	FOXK1 partners with TP63 to activate L3HYPDH; reducing FOXK1 weakens cooperative transcription.
+T2U_0165	down	FOXK1 partners with TP63 to activate NABP2; reducing FOXK1 weakens cooperative transcription.
+T2U_0166	down	FOXK1 partners with TP63 to activate RPS16; reducing FOXK1 weakens cooperative transcription.
+T2U_0167	down	FOXK1 partners with TP63 to activate TIMM50; reducing FOXK1 weakens cooperative transcription.
+T2U_0168	down	MAFG and MAFF are small-MAF partners needed for NFE2L2-dependent Txnrd1 activation; reducing them lowers expression.
+T2U_0169	down	NFE2L2 activates Txnrd1 with small-MAF partners MAFG and MAFF; reducing NFE2L2 lowers expression.
+T2U_0170	up	GATA1 induces miR-451, which suppresses Ywhaz; reducing miR-451 releases Ywhaz expression.
+T2U_0171	down	STAT3 activates Klf4 through regulatory site E2; perturbing that cis-regulatory site weakens expression.
+T2U_0172	down	GATA1 activates ATP2B4 through its intronic regulatory DNA; perturbing that site weakens expression.
+T2U_0173	up	BRG1/SMARCA4 supports chromatin-mediated REST repression of L1CAM; reducing BRG1 weakens repression and raises expression.
+T2U_0174	up	BRG1/SMARCA4 supports chromatin-mediated REST repression of SNAP25; reducing BRG1 weakens repression and raises expression.
+T2U_0175	down	ZNF263 regulates CUL3 through the specified intronic cis-regulatory region; perturbing this activating region lowers expression.
+T2U_0176	down	YY1 regulates CUL3 through cis-regulatory site B; perturbing this activating site lowers expression.
+T2U_0179	down	CTCF supports CUL3 expression through cis-regulatory site A; perturbing this site lowers expression.
+T2U_0180	down	GATA1 induces miR-451, which suppresses Ywhaz; increasing miR-451 strengthens suppression and lowers expression.
+T2U_0181	down	KMT2D establishes an activating chromatin state needed for GATA1-dependent EPOR expression; reducing KMT2D lowers expression.
+T2U_0182	down	KMT2D establishes an activating chromatin state needed for GATA1-dependent SLC25A37 expression; reducing KMT2D lowers expression.
+T2U_0183	down	TWIST1 induces miR-10b, which suppresses HOXD10; increasing miR-10b lowers HOXD10 expression.
+T2U_0186	down	KMT2D establishes an activating chromatin state needed for GATA1-dependent SLC22A4 expression; reducing KMT2D lowers expression.
+T2U_0188	down	KMT2D establishes an activating chromatin state needed for GATA1-dependent ZFPM1 expression; reducing KMT2D lowers expression.
+T2U_0189	up	STAT3 induces miR-181b, which suppresses CYLD; reducing the RNA releases CYLD expression.
+T2U_0190	up	STAT3 induces miR-181b-1, whose miR-181b product suppresses CYLD; reducing it releases CYLD expression.
+T2U_0191	up	STAT3 induces miR-21, which suppresses PTEN; reducing miR-21 releases PTEN expression.
+T2U_0192	up	HIF1A induces miR-210, which suppresses ISCU; reducing miR-210 releases ISCU expression.
+T2U_0193	down	STAT3 induces miR-181b, which suppresses CYLD; increasing miR-181b strengthens suppression and lowers expression.
+T2U_0195	down	ETV4 cooperates with the FOSL1-JUN transcription-factor complex to activate NOTCH4; reducing ETV4 weakens expression.
+T2U_0196	down	FOSL1 partners with JUN in ETV4-dependent NOTCH4 activation; reducing FOSL1 weakens expression.
+T2U_0197	down	JUN partners with FOSL1 in ETV4-dependent NOTCH4 activation; reducing JUN weakens expression.
+T2U_0198	down	TP53-dependent LED lncRNA supports CDKN1A activation; reducing this intermediate regulatory RNA lowers expression.
+T2U_0199	down	LSD1/KDM1A supports the chromatin state required for GATA2-linked activation of GATA1; reducing LSD1 lowers GATA1 expression.

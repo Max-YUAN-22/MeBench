@@ -1,0 +1,194 @@
+unit_id	predicted_direction	mechanism_reasoning
+T2U_0001	up	Chromatin-mediated regulation: the CDX2 effect on Scin depends on the EED/PRC2 Polycomb chromatin state at the Scin regulatory region; loss_or_reduction of EED/PRC2 removes the repressive H3K27me3 chromatin layer at this locus, so Scin is de-repressed and increases.
+T2U_0002	up	Chromatin-mediated regulation: the CDX2 effect on Slc26a6 depends on the EED/PRC2 Polycomb chromatin state at the Slc26a6 regulatory region; loss of EED/PRC2 removes this repressive chromatin layer, so Slc26a6 is de-repressed and increases.
+T2U_0003	down	Direct cis-regulatory DNA: TP63 binds cis-regulatory elements of ANKRD27 and directly activates its transcription; loss_or_reduction of TP63 removes this direct activating input, so ANKRD27 decreases.
+T2U_0004	down	Direct cis-regulatory DNA: TP63 binds cis-regulatory elements of HNRNPA1 and directly activates its transcription; loss_or_reduction of TP63 removes this direct activation, so HNRNPA1 decreases.
+T2U_0005	down	Direct cis-regulatory DNA: TP63 binds cis-regulatory elements of HNRNPL and directly activates its transcription; loss_or_reduction of TP63 removes this activation, so HNRNPL decreases.
+T2U_0006	down	Direct cis-regulatory DNA: TP63 binds cis-regulatory elements of L3HYPDH and directly activates its transcription; loss_or_reduction of TP63 removes this activation, so L3HYPDH decreases.
+T2U_0007	down	Direct cis-regulatory DNA: TP63 binds cis-regulatory elements of NABP2 and directly activates its transcription; loss_or_reduction of TP63 removes this activation, so NABP2 decreases.
+T2U_0008	down	Direct cis-regulatory DNA: TP63 binds cis-regulatory elements of RPS16 and directly activates its transcription; loss_or_reduction of TP63 removes this activation, so RPS16 decreases.
+T2U_0009	down	Direct cis-regulatory DNA: TP63 binds cis-regulatory elements of TIMM50 and directly activates its transcription; loss_or_reduction of TP63 removes this activation, so TIMM50 decreases.
+T2U_0010	down	Chromatin-mediated regulation: TET2 is the DNA-demethylating chromatin regulator that cooperates with ESR1 at ELOVL2 regulatory elements; loss of TET2 erodes the demethylated, active chromatin state needed for ESR1-driven transcription, so ELOVL2 decreases.
+T2U_0011	down	Chromatin-mediated regulation: TET2 demethylation activity sets the active chromatin state required for ESR1-driven PTGES transcription; loss of TET2 leaves a more methylated, less permissive chromatin state, so PTGES decreases.
+T2U_0012	down	Chromatin-mediated regulation: TET2 cooperates with ESR1 to keep WIPF1 regulatory elements in an active demethylated state; loss_or_reduction of TET2 removes this chromatin prerequisite, so WIPF1 decreases.
+T2U_0013	down	Direct cis-regulatory DNA: ESR1 activates CISH through its target-linked regulatory site; loss_or_reduction of this cis-regulatory site removes the estrogen-dependent enhancer input, so CISH decreases.
+T2U_0014	down	Direct cis-regulatory DNA: ESR1 activates G0S2 through its target-linked regulatory site; loss_or_reduction of this cis-regulatory site removes the ESR1 enhancer input, so G0S2 decreases.
+T2U_0015	down	Direct cis-regulatory DNA: ESR1 activates MMP17 through its target-linked regulatory site; loss_or_reduction of this cis-regulatory site removes the ESR1 enhancer input, so MMP17 decreases.
+T2U_0016	down	Direct cis-regulatory DNA: the D218G substitution compromises GATA1 transactivation at GATA motifs within the Lrrc39 regulatory element; carrying this functional variant reduces GATA1-driven transcription, so Lrrc39 decreases.
+T2U_0017	down	Direct cis-regulatory DNA: the D218G substitution impairs GATA1 activity at the Rragd regulatory element; the functional variant diminishes GATA1-dependent transcription, so Rragd decreases.
+T2U_0018	down	Direct cis-regulatory DNA: the D218G variant weakens GATA1 transactivation at the Slc4a1 erythroid regulatory element; reduced GATA1 function at this cis element lowers Slc4a1, so Slc4a1 decreases.
+T2U_0019	down	Direct cis-regulatory DNA: the R216Q substitution compromises GATA1 transactivation at GATA motifs in the Lrrc39 regulatory element; the functional variant reduces GATA1-driven transcription, so Lrrc39 decreases.
+T2U_0020	down	Direct cis-regulatory DNA: the R216Q variant impairs GATA1 activity at the Rragd regulatory element; reduced GATA1 function at this cis element lowers Rragd, so Rragd decreases.
+T2U_0021	down	Direct cis-regulatory DNA: the R216Q variant weakens GATA1 transactivation at the Slc4a1 regulatory element; reduced GATA1-dependent transcription means Slc4a1 decreases.
+T2U_0022	down	Chromatin-mediated regulation: H2A.Z is the histone variant that supports the open chromatin state at SAMD9L regulatory regions engaged by TP63; loss_or_reduction of H2A.Z compromises this permissive chromatin, so SAMD9L decreases.
+T2U_0023	down	Chromatin-mediated regulation: H2A.Z incorporation maintains active chromatin at the ZHX2 regulatory region where TP63 acts; loss_or_reduction of H2A.Z removes this chromatin support, so ZHX2 decreases.
+T2U_0024	down	Regulatory RNA-mediated indirect regulation: HIF1A induces miR-210, which base-pairs with ISCU mRNA and represses it; gain_or_activation of miR-210 strengthens this post-transcriptional repression downstream of HIF1A, so ISCU decreases.
+T2U_0025	up	Regulatory RNA-mediated indirect regulation: TWIST1 induces miR-10b, which represses HOXD10 mRNA; loss_or_reduction of miR-10b relieves this intermediate post-transcriptional repression, so HOXD10 increases.
+T2U_0026	down	Direct cis-regulatory DNA: the CA12e enhancer is the ESR1-bound cis-regulatory element driving CA12 expression; loss_or_reduction of this enhancer removes the estrogen-dependent input, so CA12 decreases.
+T2U_0027	down	Direct cis-regulatory DNA: the FOXC1e enhancer is the ESR1-bound element mediating FOXC1 transcription; deleting or reducing this cis element removes ESR1 enhancer input, so FOXC1 decreases.
+T2U_0028	down	Direct cis-regulatory DNA: the GREB1e enhancer is the ESR1-bound cis-regulatory element activating GREB1; loss_or_reduction of this element removes the estrogen-dependent enhancer input, so GREB1 decreases.
+T2U_0029	down	Direct cis-regulatory DNA: the KCNK5e enhancer is the ESR1-bound element driving KCNK5 expression; loss of this cis-regulatory element removes ESR1 enhancer input, so KCNK5 decreases.
+T2U_0030	down	Direct cis-regulatory DNA: the NRIP1e enhancer is the ESR1-bound cis element activating NRIP1; loss_or_reduction of this element removes the estrogen-dependent input, so NRIP1 decreases.
+T2U_0031	down	Direct cis-regulatory DNA: the P2RY2e enhancer is the ESR1-bound cis-regulatory element driving P2RY2 transcription; loss of this element removes ESR1 enhancer input, so P2RY2 decreases.
+T2U_0032	down	Direct cis-regulatory DNA: the PGRe enhancer is the ESR1-bound cis-regulatory element activating PGR; loss_or_reduction of this element removes the estrogen-dependent enhancer input, so PGR decreases.
+T2U_0033	down	Direct cis-regulatory DNA: the SIAH2e enhancer is the ESR1-bound element mediating SIAH2 transcription; loss of this cis element removes ESR1 enhancer input, so SIAH2 decreases.
+T2U_0034	down	Direct cis-regulatory DNA: the SMAD7e enhancer is the ESR1-bound cis-regulatory element activating SMAD7; loss_or_reduction of this element removes the estrogen-dependent input, so SMAD7 decreases.
+T2U_0035	down	Direct cis-regulatory DNA: the TFF1e enhancer is the ESR1-bound element driving TFF1 transcription; loss_or_reduction of this cis-regulatory element removes ESR1 enhancer input, so TFF1 decreases.
+T2U_0036	up	Direct cis-regulatory DNA: activated PPARA binds PPREs in the Angptl4 regulatory region and directly drives transcription; gain_or_activation of PPARA strengthens this direct cis input, so Angptl4 increases.
+T2U_0037	up	Direct cis-regulatory DNA: activated PPARA binds PPREs at the Hmgcs2 regulatory region and activates transcription; gain_or_activation of PPARA enhances this direct cis input, so Hmgcs2 increases.
+T2U_0038	up	Direct cis-regulatory DNA: activated PPARA binds PPREs in the Pdk4 regulatory region and drives transcription; gain_or_activation of PPARA strengthens this direct activating input, so Pdk4 increases.
+T2U_0039	down	Combinatorial TF regulation: BHLHE40 is the cooperating partner factor that supports PPARA-driven activation of Angptl4; loss_or_reduction of BHLHE40 removes this cooperative partner input, so Angptl4 decreases.
+T2U_0040	down	Combinatorial TF regulation: BHLHE40 cooperates with PPARA to sustain Hmgcs2 transcription; loss_or_reduction of BHLHE40 removes the partner contribution required for full PPARA-dependent activation, so Hmgcs2 decreases.
+T2U_0041	down	Combinatorial TF regulation: BHLHE40 is the required cooperating TF alongside PPARA at Pdk4 regulatory elements; loss_or_reduction of BHLHE40 disrupts this cooperative activation, so Pdk4 decreases.
+T2U_0042	down	Direct cis-regulatory DNA: ZNF143 binds Staf-type sites in the ABCF2 promoter and directly activates transcription; loss_or_reduction of ZNF143 removes this direct cis-regulatory input, so ABCF2 decreases.
+T2U_0043	down	Direct cis-regulatory DNA: ZNF143 occupies promoter elements of ADAT3 and directly activates its transcription; loss of ZNF143 removes this activating input, so ADAT3 decreases.
+T2U_0044	down	Direct cis-regulatory DNA: ZNF143 binds promoter Staf sites of AKR1A1 and drives transcription; loss_or_reduction of ZNF143 removes this direct activation, so AKR1A1 decreases.
+T2U_0045	down	Direct cis-regulatory DNA: ZNF143 directly activates ANKRD13B from promoter-bound sites; loss of ZNF143 removes this cis-regulatory activation, so ANKRD13B decreases.
+T2U_0046	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of AP1S3 and activates transcription; loss_or_reduction of ZNF143 removes this direct input, so AP1S3 decreases.
+T2U_0047	down	Direct cis-regulatory DNA: ZNF143 occupies promoter sites of ARID5A and drives transcription; loss of ZNF143 removes this direct activating input, so ARID5A decreases.
+T2U_0048	down	Direct cis-regulatory DNA: ZNF143 directly activates ASB13 through promoter-bound Staf sites; loss_or_reduction of ZNF143 removes this cis input, so ASB13 decreases.
+T2U_0049	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of BIRC5 and directly activates transcription; loss of ZNF143 removes this activation, so BIRC5 decreases.
+T2U_0050	down	Direct cis-regulatory DNA: ZNF143 activates CASC3 through promoter-bound Staf sites; loss_or_reduction of ZNF143 removes this direct cis-regulatory activation, so CASC3 decreases.
+T2U_0051	down	Direct cis-regulatory DNA: ZNF143 directly activates CCDC157 from promoter sites; loss of ZNF143 removes this activating input, so CCDC157 decreases.
+T2U_0052	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of CCDC92 and drives transcription; loss_or_reduction of ZNF143 removes this direct activation, so CCDC92 decreases.
+T2U_0053	down	Direct cis-regulatory DNA: ZNF143 directly activates CCPG1 through promoter Staf sites; loss of ZNF143 removes this cis-regulatory input, so CCPG1 decreases.
+T2U_0054	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of CKAP2L and activates transcription; loss_or_reduction of ZNF143 removes this direct activation, so CKAP2L decreases.
+T2U_0055	down	Direct cis-regulatory DNA: ZNF143 directly activates CNIH1 from promoter-bound sites; loss of ZNF143 removes this activating input, so CNIH1 decreases.
+T2U_0056	down	Direct cis-regulatory DNA: ZNF143 occupies promoter sites of CPOX and drives transcription; loss_or_reduction of ZNF143 removes this direct cis input, so CPOX decreases.
+T2U_0057	down	Direct cis-regulatory DNA: ZNF143 directly activates CPSF4 through promoter elements; loss of ZNF143 removes this activation, so CPSF4 decreases.
+T2U_0058	down	Direct cis-regulatory DNA: ZNF143 binds promoter sites of CRCP and activates transcription; loss_or_reduction of ZNF143 removes this direct input, so CRCP decreases.
+T2U_0059	down	Direct cis-regulatory DNA: ZNF143 directly activates CREBL2 from promoter Staf sites; loss of ZNF143 removes this cis-regulatory activation, so CREBL2 decreases.
+T2U_0060	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of CWC15 and drives transcription; loss_or_reduction of ZNF143 removes this direct activation, so CWC15 decreases.
+T2U_0061	down	Direct cis-regulatory DNA: ZNF143 directly activates CYB5R1 through promoter-bound sites; loss of ZNF143 removes this activating input, so CYB5R1 decreases.
+T2U_0062	down	Direct cis-regulatory DNA: ZNF143 occupies promoter elements of EGR1 and activates transcription; loss_or_reduction of ZNF143 removes this direct cis input, so EGR1 decreases.
+T2U_0063	down	Direct cis-regulatory DNA: ZNF143 directly activates EMC1 through promoter sites; loss of ZNF143 removes this activation, so EMC1 decreases.
+T2U_0064	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of ENKD1 and drives transcription; loss_or_reduction of ZNF143 removes this direct activation, so ENKD1 decreases.
+T2U_0065	down	Direct cis-regulatory DNA: ZNF143 directly activates ERAL1 from promoter Staf sites; loss of ZNF143 removes this cis-regulatory input, so ERAL1 decreases.
+T2U_0066	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of ERP44 and activates transcription; loss_or_reduction of ZNF143 removes this direct activating input, so ERP44 decreases.
+T2U_0067	down	Direct cis-regulatory DNA: ZNF143 directly activates FASTK through promoter-bound sites; loss of ZNF143 removes this activation, so FASTK decreases.
+T2U_0068	down	Direct cis-regulatory DNA: ZNF143 occupies promoter elements of FH and drives transcription; loss_or_reduction of ZNF143 removes this direct cis input, so FH decreases.
+T2U_0069	down	Direct cis-regulatory DNA: ZNF143 directly activates GAMT through promoter sites; loss of ZNF143 removes this activating input, so GAMT decreases.
+T2U_0070	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of GOLGA2 and activates transcription; loss_or_reduction of ZNF143 removes this direct activation, so GOLGA2 decreases.
+T2U_0071	down	Direct cis-regulatory DNA: ZNF143 directly activates GTPBP8 through promoter Staf sites; loss of ZNF143 removes this cis-regulatory activation, so GTPBP8 decreases.
+T2U_0072	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of HMGCL and drives transcription; loss_or_reduction of ZNF143 removes this direct input, so HMGCL decreases.
+T2U_0073	down	Direct cis-regulatory DNA: ZNF143 directly activates HSPA14 from promoter-bound sites; loss of ZNF143 removes this activation, so HSPA14 decreases.
+T2U_0074	down	Direct cis-regulatory DNA: ZNF143 occupies promoter elements of IK and activates transcription; loss_or_reduction of ZNF143 removes this direct cis input, so IK decreases.
+T2U_0075	down	Direct cis-regulatory DNA: ZNF143 directly activates JMJD8 through promoter sites; loss of ZNF143 removes this activating input, so JMJD8 decreases.
+T2U_0076	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of JUN and drives transcription; loss_or_reduction of ZNF143 removes this direct activation, so JUN decreases.
+T2U_0077	down	Direct cis-regulatory DNA: ZNF143 directly activates JUND through promoter Staf sites; loss of ZNF143 removes this cis-regulatory input, so JUND decreases.
+T2U_0078	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of KDELR2 and activates transcription; loss_or_reduction of ZNF143 removes this direct activation, so KDELR2 decreases.
+T2U_0079	down	Direct cis-regulatory DNA: ZNF143 directly activates KLC2 from promoter-bound sites; loss of ZNF143 removes this activating input, so KLC2 decreases.
+T2U_0080	down	Direct cis-regulatory DNA: ZNF143 occupies promoter elements of KPNA5 and drives transcription; loss_or_reduction of ZNF143 removes this direct cis input, so KPNA5 decreases.
+T2U_0081	down	Direct cis-regulatory DNA: ZNF143 directly activates LATS1 through promoter sites; loss of ZNF143 removes this activation, so LATS1 decreases.
+T2U_0082	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of MED16 and activates transcription; loss_or_reduction of ZNF143 removes this direct activation, so MED16 decreases.
+T2U_0083	down	Direct cis-regulatory DNA: ZNF143 directly activates MFSD3 through promoter Staf sites; loss of ZNF143 removes this cis-regulatory input, so MFSD3 decreases.
+T2U_0084	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of MRPL46 and drives transcription; loss_or_reduction of ZNF143 removes this direct activation, so MRPL46 decreases.
+T2U_0085	down	Direct cis-regulatory DNA: ZNF143 directly activates MRPL54 from promoter sites; loss of ZNF143 removes this activating input, so MRPL54 decreases.
+T2U_0086	down	Direct cis-regulatory DNA: ZNF143 occupies promoter elements of MRPS11 and activates transcription; loss_or_reduction of ZNF143 removes this direct cis input, so MRPS11 decreases.
+T2U_0087	down	Direct cis-regulatory DNA: ZNF143 directly activates MTMR1 through promoter-bound sites; loss of ZNF143 removes this activation, so MTMR1 decreases.
+T2U_0088	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of NUTF2 and drives transcription; loss_or_reduction of ZNF143 removes this direct activation, so NUTF2 decreases.
+T2U_0089	down	Direct cis-regulatory DNA: ZNF143 directly activates PAPOLG through promoter Staf sites; loss of ZNF143 removes this cis-regulatory activation, so PAPOLG decreases.
+T2U_0090	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of PLAGL2 and activates transcription; loss_or_reduction of ZNF143 removes this direct input, so PLAGL2 decreases.
+T2U_0091	down	Direct cis-regulatory DNA: ZNF143 directly activates PNKD from promoter sites; loss of ZNF143 removes this activating input, so PNKD decreases.
+T2U_0092	down	Direct cis-regulatory DNA: ZNF143 occupies promoter elements of POMT2 and drives transcription; loss_or_reduction of ZNF143 removes this direct cis input, so POMT2 decreases.
+T2U_0093	down	Direct cis-regulatory DNA: ZNF143 directly activates PRIM1 through promoter sites; loss of ZNF143 removes this activation, so PRIM1 decreases.
+T2U_0094	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of PRKAA2 and activates transcription; loss_or_reduction of ZNF143 removes this direct activation, so PRKAA2 decreases.
+T2U_0095	down	Direct cis-regulatory DNA: ZNF143 directly activates PROSER3 through promoter Staf sites; loss of ZNF143 removes this cis-regulatory input, so PROSER3 decreases.
+T2U_0096	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of PSMC6 and drives transcription; loss_or_reduction of ZNF143 removes this direct input, so PSMC6 decreases.
+T2U_0097	down	Direct cis-regulatory DNA: ZNF143 directly activates PTPMT1 from promoter-bound sites; loss of ZNF143 removes this activating input, so PTPMT1 decreases.
+T2U_0098	down	Direct cis-regulatory DNA: ZNF143 occupies promoter elements of PTRHD1 and activates transcription; loss_or_reduction of ZNF143 removes this direct cis input, so PTRHD1 decreases.
+T2U_0099	down	Direct cis-regulatory DNA: ZNF143 directly activates RDH11 through promoter sites; loss of ZNF143 removes this activation, so RDH11 decreases.
+T2U_0100	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of RIC8A and drives transcription; loss_or_reduction of ZNF143 removes this direct activation, so RIC8A decreases.
+T2U_0101	down	Direct cis-regulatory DNA: ZNF143 directly activates RNF40 through promoter Staf sites; loss of ZNF143 removes this cis-regulatory activation, so RNF40 decreases.
+T2U_0102	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of RPAIN and activates transcription; loss_or_reduction of ZNF143 removes this direct input, so RPAIN decreases.
+T2U_0103	down	Direct cis-regulatory DNA: ZNF143 directly activates RPL6 from promoter-bound sites; loss of ZNF143 removes this activating input, so RPL6 decreases.
+T2U_0104	down	Direct cis-regulatory DNA: ZNF143 occupies promoter elements of RSBN1 and drives transcription; loss_or_reduction of ZNF143 removes this direct cis input, so RSBN1 decreases.
+T2U_0105	down	Direct cis-regulatory DNA: ZNF143 directly activates SAMD13 through promoter sites; loss of ZNF143 removes this activation, so SAMD13 decreases.
+T2U_0106	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of SAV1 and activates transcription; loss_or_reduction of ZNF143 removes this direct activation, so SAV1 decreases.
+T2U_0107	down	Direct cis-regulatory DNA: ZNF143 directly activates SEPTIN8 through promoter Staf sites; loss of ZNF143 removes this cis-regulatory input, so SEPTIN8 decreases.
+T2U_0108	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of SFT2D2 and drives transcription; loss_or_reduction of ZNF143 removes this direct input, so SFT2D2 decreases.
+T2U_0109	down	Direct cis-regulatory DNA: ZNF143 directly activates SGF29 from promoter sites; loss of ZNF143 removes this activating input, so SGF29 decreases.
+T2U_0110	down	Direct cis-regulatory DNA: ZNF143 occupies promoter elements of SLC7A6OS and activates transcription; loss_or_reduction of ZNF143 removes this direct cis input, so SLC7A6OS decreases.
+T2U_0111	down	Direct cis-regulatory DNA: ZNF143 directly activates SLC9A6 through promoter-bound sites; loss of ZNF143 removes this activation, so SLC9A6 decreases.
+T2U_0112	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of SNRNP48 and drives transcription; loss_or_reduction of ZNF143 removes this direct activation, so SNRNP48 decreases.
+T2U_0113	down	Direct cis-regulatory DNA: ZNF143 directly activates SNRNP70 through promoter Staf sites; loss of ZNF143 removes this cis-regulatory activation, so SNRNP70 decreases.
+T2U_0114	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of SNRPD3 and activates transcription; loss_or_reduction of ZNF143 removes this direct input, so SNRPD3 decreases.
+T2U_0115	down	Direct cis-regulatory DNA: ZNF143 directly activates SSB from promoter sites; loss of ZNF143 removes this activating input, so SSB decreases.
+T2U_0116	down	Direct cis-regulatory DNA: ZNF143 occupies promoter elements of STARD10 and drives transcription; loss_or_reduction of ZNF143 removes this direct cis input, so STARD10 decreases.
+T2U_0117	down	Direct cis-regulatory DNA: ZNF143 directly activates TFAM through promoter sites; loss of ZNF143 removes this activation, so TFAM decreases.
+T2U_0118	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of THOC7 and activates transcription; loss_or_reduction of ZNF143 removes this direct activation, so THOC7 decreases.
+T2U_0119	down	Direct cis-regulatory DNA: ZNF143 directly activates THOP1 through promoter Staf sites; loss of ZNF143 removes this cis-regulatory input, so THOP1 decreases.
+T2U_0120	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of TIMM17A and drives transcription; loss_or_reduction of ZNF143 removes this direct input, so TIMM17A decreases.
+T2U_0121	down	Direct cis-regulatory DNA: ZNF143 directly activates TMEM258 from promoter-bound sites; loss of ZNF143 removes this activating input, so TMEM258 decreases.
+T2U_0122	down	Direct cis-regulatory DNA: ZNF143 occupies promoter elements of TMOD2 and activates transcription; loss_or_reduction of ZNF143 removes this direct cis input, so TMOD2 decreases.
+T2U_0123	down	Direct cis-regulatory DNA: ZNF143 directly activates TOMM70 through promoter sites; loss of ZNF143 removes this activation, so TOMM70 decreases.
+T2U_0124	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of TPRA1 and drives transcription; loss_or_reduction of ZNF143 removes this direct activation, so TPRA1 decreases.
+T2U_0125	down	Direct cis-regulatory DNA: ZNF143 directly activates UBALD1 through promoter Staf sites; loss of ZNF143 removes this cis-regulatory activation, so UBALD1 decreases.
+T2U_0126	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of UBFD1 and activates transcription; loss_or_reduction of ZNF143 removes this direct input, so UBFD1 decreases.
+T2U_0127	down	Direct cis-regulatory DNA: ZNF143 directly activates UQCR10 from promoter sites; loss of ZNF143 removes this activating input, so UQCR10 decreases.
+T2U_0128	down	Direct cis-regulatory DNA: ZNF143 occupies promoter elements of VASP and drives transcription; loss_or_reduction of ZNF143 removes this direct cis input, so VASP decreases.
+T2U_0129	down	Direct cis-regulatory DNA: ZNF143 directly activates ZBTB10 through promoter-bound sites; loss of ZNF143 removes this activation, so ZBTB10 decreases.
+T2U_0130	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of ZFTA and activates transcription; loss_or_reduction of ZNF143 removes this direct activation, so ZFTA decreases.
+T2U_0131	down	Direct cis-regulatory DNA: ZNF143 directly activates ZMYM6 through promoter Staf sites; loss of ZNF143 removes this cis-regulatory input, so ZMYM6 decreases.
+T2U_0132	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of ZNF200 and drives transcription; loss_or_reduction of ZNF143 removes this direct input, so ZNF200 decreases.
+T2U_0133	down	Direct cis-regulatory DNA: ZNF143 directly activates ZNF24 from promoter sites; loss of ZNF143 removes this activating input, so ZNF24 decreases.
+T2U_0134	down	Direct cis-regulatory DNA: ZNF143 occupies promoter elements of ZNF354A and activates transcription; loss_or_reduction of ZNF143 removes this direct cis input, so ZNF354A decreases.
+T2U_0135	down	Direct cis-regulatory DNA: ZNF143 directly activates ZNF382 through promoter-bound sites; loss of ZNF143 removes this activation, so ZNF382 decreases.
+T2U_0136	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of ZNF473 and drives transcription; loss_or_reduction of ZNF143 removes this direct activation, so ZNF473 decreases.
+T2U_0137	down	Direct cis-regulatory DNA: ZNF143 directly activates ZNF485 through promoter Staf sites; loss of ZNF143 removes this cis-regulatory activation, so ZNF485 decreases.
+T2U_0138	down	Direct cis-regulatory DNA: ZNF143 binds promoter elements of ZNF607 and activates transcription; loss_or_reduction of ZNF143 removes this direct input, so ZNF607 decreases.
+T2U_0139	down	Direct cis-regulatory DNA: ZNF143 directly activates ZNF746 from promoter sites; loss of ZNF143 removes this activating input, so ZNF746 decreases.
+T2U_0140	down	Direct cis-regulatory DNA: ZNF143 occupies promoter elements of ZW10 and drives transcription; loss_or_reduction of ZNF143 removes this direct cis input, so ZW10 decreases.
+T2U_0141	down	Direct cis-regulatory DNA: NANOG binds its own upstream regulatory elements to sustain Nanog through positive autoregulation; loss_or_reduction of NANOG protein removes this direct autoregulatory cis input, so Nanog decreases.
+T2U_0142	up	Direct cis-regulatory DNA: POU5F1/OCT4 directly represses Pax6 by occupying Pax6 regulatory elements in pluripotent cells; loss_or_reduction of OCT4 removes this repressive cis input, so Pax6 is de-repressed and increases.
+T2U_0143	down	Direct cis-regulatory DNA: POU5F1/OCT4 directly activates Utf1 from its regulatory elements as part of the core pluripotency circuitry; loss_or_reduction of OCT4 removes this activating cis input, so Utf1 decreases.
+T2U_0144	up	Regulatory RNA-mediated indirect regulation: TP53 induces lincRNA-p21, which relays p53 signaling to repression of MTAP4; loss_or_reduction of lincRNA-p21 removes this intermediate repressive RNA, so MTAP4 is de-repressed and increases.
+T2U_0145	up	Regulatory RNA-mediated indirect regulation: TP53-induced lincRNA-p21 mediates repression of SUV39H1 downstream of p53; loss_or_reduction of lincRNA-p21 relieves this RNA-mediated repression, so SUV39H1 increases.
+T2U_0146	up	Regulatory RNA-mediated indirect regulation: lincRNA-p21 is the intermediate repressive RNA downstream of TP53 that curbs VCAN expression; loss_or_reduction of lincRNA-p21 removes this repression, so VCAN increases.
+T2U_0147	up	Regulatory RNA-mediated indirect regulation: HIF1A induces miR-210, which represses E2F3 mRNA; loss_or_reduction of miR-210 relieves this intermediate post-transcriptional repression, so E2F3 increases.
+T2U_0148	up	Combinatorial TF regulation: NOTCH1 and TGF-beta/SMAD3 cooperate as activating inputs at PTPRK regulatory elements; gain_or_activation of NOTCH1 together with TGF-beta/SMAD3 strengthens this cooperative transcriptional activation, so PTPRK increases.
+T2U_0149	down	Combinatorial TF regulation: NOTCH1 is the partner factor required together with SMAD3 to activate PTPRK; loss_or_reduction of NOTCH1 removes this cooperating partner input, so PTPRK decreases.
+T2U_0150	down	Direct cis-regulatory DNA: SMAD3 binds SMAD-responsive elements at PTPRK and directly activates transcription; loss_or_reduction of SMAD3 removes this direct cis input, so PTPRK decreases.
+T2U_0151	down	Combinatorial TF regulation: SMAD4 is the common-partner mediator required with SMAD3 for PTPRK activation; loss_or_reduction of SMAD4 removes this cooperating partner input, so PTPRK decreases.
+T2U_0152	up	Chromatin-mediated regulation: the PPARA effect on Cdh1 is executed through UHRF1, the chromatin regulator that maintains repressive DNA methylation at the Cdh1 locus; loss_or_reduction of UHRF1 erodes this repressive methylation state, so Cdh1 is de-repressed and increases.
+T2U_0153	up	Chromatin-mediated regulation: UHRF1 maintains the methylated, repressive chromatin state through which PPARA influences Cdh3; loss_or_reduction of UHRF1 removes this maintenance activity, so Cdh3 is de-repressed and increases.
+T2U_0154	up	Chromatin-mediated regulation: UHRF1-dependent maintenance methylation mediates the PPARA effect on Smpd3; loss_or_reduction of UHRF1 dissolves the repressive chromatin state at Smpd3, so Smpd3 increases.
+T2U_0155	down	Regulatory RNA-mediated indirect regulation: HIF1A induces miR-210, which base-pairs with and represses E2F3 mRNA; gain_or_activation of miR-210 strengthens this intermediate post-transcriptional repression, so E2F3 decreases.
+T2U_0156	down	Direct cis-regulatory DNA: the Nanog upstream regulatory site is the POU5F1/OCT4-bound element that drives Nanog expression in pluripotent cells; perturbing this site removes the OCT4 cis-regulatory input, so Nanog decreases.
+T2U_0157	down	Direct cis-regulatory DNA: RELA (NF-kappaB) activates TBC1D4 through the intronic NF-kappaB site; perturbing this site removes RELA's cis-regulatory activating input, so TBC1D4 decreases.
+T2U_0158	down	Direct cis-regulatory DNA: MYC binds the chr10_BS212_CACATG_1 E-box at the PRKCQ regulatory region and activates transcription; perturbing this E-box removes MYC's cis-regulatory input, so PRKCQ decreases.
+T2U_0159	down	Direct cis-regulatory DNA: the MYC-bound chr10_BS212_CACATG_1 E-box also drives the PRKCQ antisense lncRNA PRKCQ-AS1; perturbing this E-box removes MYC's cis-regulatory input, so PRKCQ-AS1 decreases.
+T2U_0160	down	Direct cis-regulatory DNA: MYC binds the chr17_BS377_CACGTG_1 E-box at the PFAS regulatory region and activates transcription; perturbing this E-box removes MYC's cis-regulatory activating input, so PFAS decreases.
+T2U_0161	down	Combinatorial TF regulation: FOXK1 is the partner transcription factor cooperating with TP63 at shared ANKRD27 regulatory elements; loss_or_reduction of FOXK1 removes this cooperative partner input, so ANKRD27 decreases.
+T2U_0162	down	Combinatorial TF regulation: FOXK1 cooperates with TP63 to activate HNRNPA1; loss_or_reduction of FOXK1 removes the partner contribution required for the TP63-dependent activation, so HNRNPA1 decreases.
+T2U_0163	down	Combinatorial TF regulation: FOXK1 is the cooperating TF required with TP63 for HNRNPL activation; loss_or_reduction of FOXK1 disrupts this cooperative input, so HNRNPL decreases.
+T2U_0164	down	Combinatorial TF regulation: FOXK1 partners with TP63 at L3HYPDH regulatory elements to drive transcription; loss_or_reduction of FOXK1 removes this partner input, so L3HYPDH decreases.
+T2U_0165	down	Combinatorial TF regulation: FOXK1 cooperates with TP63 to sustain NABP2 expression; loss_or_reduction of FOXK1 removes the required cooperating TF input, so NABP2 decreases.
+T2U_0166	down	Combinatorial TF regulation: FOXK1 is the partner TF supporting TP63-driven RPS16 activation; loss_or_reduction of FOXK1 disrupts this cooperative activation, so RPS16 decreases.
+T2U_0167	down	Combinatorial TF regulation: FOXK1 cooperates with TP63 at TIMM50 regulatory elements; loss_or_reduction of FOXK1 removes this required partner contribution, so TIMM50 decreases.
+T2U_0168	down	Combinatorial TF regulation: NFE2L2 binds the ARE of Txnrd1 only as a heterodimer with the small MAF partners MAFG/MAFF; loss_or_reduction of MAFG/MAFF disrupts this obligatory partner dimerization, so NFE2L2 cannot activate Txnrd1 and Txnrd1 decreases.
+T2U_0169	down	Direct cis-regulatory DNA: NFE2L2 binds the antioxidant response element in the Txnrd1 regulatory region and directly activates transcription; loss_or_reduction of NFE2L2 removes this direct cis input, so Txnrd1 decreases.
+T2U_0170	up	Regulatory RNA-mediated indirect regulation: GATA1 drives the erythroid miRNA miR-451, which represses Ywhaz mRNA; loss_or_reduction of miR-451 relieves this intermediate post-transcriptional repression, so Ywhaz increases.
+T2U_0171	down	Direct cis-regulatory DNA: STAT3 activates Klf4 through the regulatory site E2 in the Klf4 regulatory region; perturbing this site removes STAT3's cis-regulatory activating input, so Klf4 decreases.
+T2U_0172	down	Direct cis-regulatory DNA: GATA1 activates ATP2B4 through the intronic regulatory site; perturbing this site removes GATA1's cis-regulatory activating input, so ATP2B4 decreases.
+T2U_0173	up	Chromatin-mediated regulation: BRG1/SMARCA4 is the SWI/SNF chromatin remodeler required for REST-mediated repressive chromatin at the L1CAM locus; loss_or_reduction of BRG1 dismantles this repressive chromatin state, so L1CAM is de-repressed and increases.
+T2U_0174	up	Chromatin-mediated regulation: REST represses the neuronal SNAP25 through a BRG1/SMARCA4-dependent chromatin state; loss_or_reduction of BRG1 removes the chromatin remodeler needed for REST repression, so SNAP25 is de-repressed and increases.
+T2U_0175	down	Direct cis-regulatory DNA: ZNF263 regulates CUL3 through the intronic regulatory region; perturbing this region removes ZNF263's cis-regulatory activating input at CUL3, so CUL3 decreases.
+T2U_0176	down	Direct cis-regulatory DNA: YY1 activates CUL3 through regulatory site B; perturbing site B removes YY1's cis-regulatory activating input, so CUL3 decreases.
+T2U_0179	down	Direct cis-regulatory DNA: CTCF supports productive CUL3 transcription through regulatory site A; perturbing site A disrupts the CTCF-dependent cis-regulatory architecture of the CUL3 locus, so CUL3 decreases.
+T2U_0180	down	Regulatory RNA-mediated indirect regulation: GATA1 drives miR-451, which base-pairs with Ywhaz mRNA and represses it; gain_or_activation of miR-451 strengthens this intermediate post-transcriptional repression, so Ywhaz decreases.
+T2U_0181	down	Chromatin-mediated regulation: KMT2D is the H3K4-methyltransferase co-activator recruited with GATA1 to erythroid enhancers; loss_or_reduction of KMT2D removes the permissive H3K4 methylation needed for EPOR activation, so EPOR decreases.
+T2U_0182	down	Chromatin-mediated regulation: GATA1-driven activation of SLC25A37 requires the KMT2D-deposited active chromatin state; loss_or_reduction of KMT2D erodes this chromatin co-activation, so SLC25A37 decreases.
+T2U_0183	down	Regulatory RNA-mediated indirect regulation: TWIST1 induces miR-10b, which represses HOXD10 mRNA; gain_or_activation of miR-10b strengthens this intermediate post-transcriptional repression, so HOXD10 decreases.
+T2U_0186	down	Chromatin-mediated regulation: KMT2D provides the active H3K4-methylated chromatin state required for GATA1-driven SLC22A4 transcription; loss_or_reduction of KMT2D removes this chromatin co-activation, so SLC22A4 decreases.
+T2U_0188	down	Chromatin-mediated regulation: GATA1 activation of ZFPM1 depends on the KMT2D-mediated active chromatin state at its regulatory elements; loss_or_reduction of KMT2D removes this requirement, so ZFPM1 decreases.
+T2U_0189	up	Regulatory RNA-mediated indirect regulation: STAT3 induces miR-181b, which represses the CYLD tumor-suppressor transcript; loss_or_reduction of miR-181b relieves this intermediate post-transcriptional repression, so CYLD increases.
+T2U_0190	up	Regulatory RNA-mediated indirect regulation: the STAT3-driven miR-181b-1 produces miR-181b that represses CYLD mRNA; loss_or_reduction of miR-181b-1 removes this intermediate repressive RNA, so CYLD increases.
+T2U_0191	up	Regulatory RNA-mediated indirect regulation: STAT3 induces miR-21, which targets PTEN mRNA for repression; loss_or_reduction of miR-21 relieves this intermediate post-transcriptional repression, so PTEN increases.
+T2U_0192	up	Regulatory RNA-mediated indirect regulation: HIF1A-induced miR-210 represses ISCU mRNA; loss_or_reduction of miR-210 removes this intermediate post-transcriptional repression, so ISCU increases.
+T2U_0193	down	Regulatory RNA-mediated indirect regulation: STAT3-driven miR-181b base-pairs with CYLD mRNA and represses it; gain_or_activation of miR-181b strengthens this intermediate post-transcriptional repression, so CYLD decreases.
+T2U_0195	down	Direct cis-regulatory DNA: ETV4 binds ETS motifs at NOTCH4 regulatory elements and directly activates transcription; loss_or_reduction of ETV4 removes this direct cis input, so NOTCH4 decreases.
+T2U_0196	down	Combinatorial TF regulation: FOSL1 (AP-1) is the cooperating partner factor required with ETV4 to activate NOTCH4; loss_or_reduction of FOSL1 removes this partner input, so NOTCH4 decreases.
+T2U_0197	down	Combinatorial TF regulation: JUN (AP-1) cooperates with ETV4 as the partner TF at NOTCH4 regulatory elements; loss_or_reduction of JUN removes this required cooperating input, so NOTCH4 decreases.
+T2U_0198	down	Regulatory RNA-mediated indirect regulation: the TP53-induced lncRNA LED supports p53-driven activation of CDKN1A; loss_or_reduction of LED removes this RNA-mediated intermediate supporting the p53-CDKN1A effect, so CDKN1A decreases.
+T2U_0199	down	Chromatin-mediated regulation: LSD1/KDM1A demethylates repressive histone marks to enable GATA2-driven Gata1 transcription; loss_or_reduction of LSD1 leaves repressive chromatin at the GATA1 locus, so GATA1 decreases.

@@ -1,0 +1,14 @@
+\section*{Data availability}
+
+All benchmark data, model outputs, evaluation artifacts, and analysis code are publicly available at \url{https://github.com/Max-YUAN-22/MeBench} (archived on Zenodo; DOI to be assigned upon acceptance). The repository contains:
+
+\begin{itemize}
+  \item \textbf{Benchmark bundle} (directory \texttt{evaluation\_v3.7.0/}, SHA-256 checksummed): per-task unit inputs, evaluator-only gold annotations including mechanism class, mediator, causal topology, and accepted intervention types for all 384 units (171 + 193 + 20), and the unmodified released scorer.
+  \item \textbf{Prompts} (\texttt{prompts/}): the byte-identical prompt files supplied to every closed-book system, with checksums.
+  \item \textbf{Model runs} (\texttt{runs/}): all predictions, raw model responses, five-axis adjudication records, and per-run scores for the six systems (four runs each; 4,632 Task 2 and 480 Task 3 judgments), consolidated into master tables (\texttt{runs/MASTER\_task*.tsv}) with a column dictionary.
+  \item \textbf{Results} (\texttt{results/}): every published number in machine-readable form, together with a cell-by-cell derivation table tracing each main-table value to per-run scores, and the mechanism-stratified and TF-concentration sensitivity analyses.
+  \item \textbf{Analysis} (\texttt{analysis/}): the complete audit trail, including exhaustive causal-order failure enumerations and the internal-review correction log.
+  \item \textbf{Scoring amendment} (\texttt{scoring\_amendment/}): the single disclosed amendment layer (regulatory-RNA alias), with its approval note; the released scorer itself is unmodified.
+\end{itemize}
+
+Integrity is verifiable via the included SHA-256 manifests (\texttt{MANIFEST.sha256}); every number in the paper can be recomputed from these artifacts with the included scripts. All five-axis chain judgments are preliminary pending blinded human adjudication; adjudication packets are included in the repository so that this review can be performed directly.

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "task1_output",
+  "type": "object",
+  "required": [
+    "mechanism"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "mechanism": {
+      "enum": [
+        "direct_cis_regulatory_dna",
+        "chromatin_mediated_regulation",
+        "combinatorial_tf_regulation",
+        "regulatory_rna_mediated_indirect_regulation"
+      ]
+    }
+  }
+}

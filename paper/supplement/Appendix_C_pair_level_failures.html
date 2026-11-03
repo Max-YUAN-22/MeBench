@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Appendix C — Universal Pair-Level Failures and Where Reasoning Breaks</title><style>
+body{font-family:'Times New Roman',serif;font-size:11pt;max-width:760px;margin:36px auto;color:#111;line-height:1.6;}
+h1{font-size:13pt;} h2{font-size:11.5pt;margin:22px 0 6px;} h3{font-size:11pt;margin:14px 0 4px;font-style:italic;color:#222;}
+p{margin:8px 0;text-align:justify;}
+table{border-collapse:collapse;margin:12px auto;width:100%;}
+th,td{border:1px solid #bbb;padding:4px 7px;font-size:9.5pt;text-align:center;}
+th{background:#f2f2f2;} td:first-child{text-align:left;}
+.fn{font-size:8.5pt;color:#555;margin:5px 0;line-height:1.4;text-align:left;}
+code{font-family:Menlo,monospace;font-size:8.5pt;background:#f6f6f2;padding:0 3px;}
+</style></head><body>
+
+<h1>Appendix C: Universal Pair-Level Failures and Where Reasoning Breaks</h1>
+
+<p>Two questions organize this appendix. First, are there TF–gene pairs that <i>every</i> system fails? Second, when a pair fails for every system, <i>where</i> in the mechanistic reasoning does it fail? We answer both by exhaustive enumeration: every one of the 4,632 Task 2 judgments (193 units × 6 systems × 4 runs) and 480 Task 3 judgments (20 units × 6 systems × 4 runs) was inspected, with all six systems holding full four-run adjudication coverage on both tasks. Complete per-unit tables are released as machine-readable supplements, so the enumeration is verifiable rather than illustrative.</p>
+
+<h2>C.1 Five pairs fail for every system</h2>
+
+<p>On Task 2, exactly five pairs fail the entire five-axis chain in every adjudicated run of every system. They belong to two biological families (Table C1). On the causal-order axis specifically, one further pair — ESR1 → G0S2 — is the benchmark's only perfect universal failure: 24 causal-order failures in 24 unit-runs. On Task 3, no pair is a literal zero, but the three PPARA pairs are rejected in 45 of 48 unit-runs and SMAD3 → PTPRK in 93 of 96 (Table C3).</p>
+
+<p class="fn" style="font-weight:bold">Table C1 | Task 2 pairs that fail the full five-axis chain in every adjudicated run of every system.</p>
+<table>
+<tr><th>Pair</th><th>Unit</th><th>Gold mechanism</th><th>Required mediator</th><th>Unit-runs failed</th></tr>
+<tr><td style="text-align:left">ESR1 → G0S2</td><td>T2U_0014</td><td style="text-align:left">chromatin-mediated</td><td style="text-align:left">H3K27ac+ enhancer state disrupted by dCas9-KRAB/SIN3A-HDAC</td><td>24 / 24</td></tr>
+<tr><td style="text-align:left">ESR1 → MMP17</td><td>T2U_0015</td><td style="text-align:left">chromatin-mediated</td><td style="text-align:left">same</td><td>24 / 24</td></tr>
+<tr><td style="text-align:left">PPARA → ANGPTL4</td><td>T2U_0036</td><td style="text-align:left">combinatorial (partner: BHLHE40)</td><td style="text-align:left">BHLHE40</td><td>24 / 24</td></tr>
+<tr><td style="text-align:left">PPARA → HMGCS2</td><td>T2U_0037</td><td style="text-align:left">combinatorial (partner: BHLHE40)</td><td style="text-align:left">BHLHE40</td><td>24 / 24</td></tr>
+<tr><td style="text-align:left">PPARA → PDK4</td><td>T2U_0038</td><td style="text-align:left">combinatorial (partner: BHLHE40)</td><td style="text-align:left">BHLHE40</td><td>24 / 24</td></tr>
+</table>
+
+<p>Beyond these five, the failure landscape falls off smoothly: 16 Task 2 units fail the full chain in all runs of at least four systems (adding the GATA1–TAL1, SRCAP/H2A.Z, and remaining TP63–FOXK1 units), and 37 units fail the chain in at least one run of every system. Two metrics are kept distinct throughout: on the causal-order <i>axis</i>, exactly one unit (T2U_0014) fails in all 24 runs; the three PPARA units each record one axis pass (GPT-6-Astra, run 2 — the same run that resolves the TP63–FOXK1 family), for family axis rates of 95.8–97.2%. On the <i>full chain</i>, the five units of Table C1 fail in all 24 runs, and the ESR1 family's chain failure rate is 98.6% (71/72; its causal-order-axis rate is 97.2%, 70/72 — the single axis pass is Biomni, one run).</p>
+
+<h2>C.2 The two families break at different steps</h2>
+
+<p>Although the five pairs of Table C1 share the same total outcome — no system ever assembles a correct chain — the per-axis decomposition shows that they break the chain at different steps (Table C2).</p>
+
+<p class="fn" style="font-weight:bold">Table C2 | Per-axis failure rates (%) across the 24 adjudicated unit-runs of each pair.</p>
+<table>
+<tr><th>Pair</th><th>Mechanism</th><th>Mediator</th><th><b>Causal order</b></th><th>Outcome link</th><th>No contradiction</th></tr>
+<tr><td style="text-align:left">ESR1 → G0S2 / MMP17</td><td>96–100</td><td>96–100</td><td><b>96–100</b></td><td>54–58</td><td>67–71</td></tr>
+<tr><td style="text-align:left">PPARA → ANGPTL4 / HMGCS2 / PDK4</td><td>92</td><td>96</td><td><b>96</b></td><td><b>4</b></td><td>17</td></tr>
+</table>
+
+<p><b>The ESR1 pairs break at the first step.</b> No system recognizes the mechanism as chromatin-mediated, and no system names the epigenetic mediator — the dCas9-KRAB/SIN3A-HDAC machinery responsible for the H3K27ac loss appears in none of the 48 traces. Because the narrative starts from "ESR1 binds its element", the error propagates: causal order fails and even the direction logic is dragged down (outcome-link failure 54–58%).</p>
+
+<p><b>The PPARA pairs break at the partner.</b> Here the direction logic is essentially intact (outcome-link failure 4%): every system correctly predicts that activating PPARA raises the target. What fails is everything between the perturbation and the outcome. BHLHE40 appears in only 3 of the 72 traces (GPT-6-Astra, run 4), which recast it as an opposing factor rather than the required coactivator; the remaining 69 traces answer with a one-layer "PPARA binds its element" narrative. Direction survives; mechanism does not. The benchmark's BHLHE40-depletion units (T2U_0039–0041), whose input names the partner explicitly, sharpen the point: the same six systems pass the full chain there in 23 of 72 unit-runs — failure tracks which component is perturbed and what information the query supplies.</p>
+
+<p>This contrast is the clearest argument for multi-axis adjudication: a single chain-pass bit records both profiles as identical total failures, while the axis decomposition shows that one is a failure of <i>recognition</i> (the experiment is not about what the systems think it is about) and the other a failure of <i>completeness</i> (the systems know the players but omit one).</p>
+
+<h2>C.3 In reverse, the same PPARA pairs fail for a different reason</h2>
+
+<p>On Task 3 — inferring the intervention from the observed direction — no pair is a literal zero, but the same three PPARA pairs are rejected in 45 of 48 unit-runs each, and SMAD3 → PTPRK in 93 of 96 (Table C3). The answer distributions identify the difficulty: it is not the direction but the experimental design.</p>
+
+<p class="fn" style="font-weight:bold">Table C3 | Task 3 near-universal failures: what systems answer instead of the accepted intervention.</p>
+<table>
+<tr><th>Pair</th><th>Accepted intervention</th><th>Accepted</th><th>What systems answer (unit-runs)</th></tr>
+<tr><td style="text-align:left">PPARA → ANGPTL4</td><td style="text-align:left"><code>agonist_activation</code></td><td>4 / 48</td><td style="text-align:left">overexpression 30 · knockdown 9 · agonist_activation 4 · activation 2</td></tr>
+<tr><td style="text-align:left">PPARA → HMGCS2</td><td style="text-align:left"><code>agonist_activation</code></td><td>4 / 48</td><td style="text-align:left">overexpression 30 · knockdown 9 · agonist_activation 4 · activation 2</td></tr>
+<tr><td style="text-align:left">PPARA → PDK4</td><td style="text-align:left"><code>siRNA_knockdown</code></td><td>3 / 48</td><td style="text-align:left">overexpression 33 · knockdown 8 · agonist_activation 3 · activation 2</td></tr>
+<tr><td style="text-align:left">SMAD3 → PTPRK</td><td style="text-align:left"><code>shRNA_knockdown</code></td><td>3 / 96</td><td style="text-align:left">knockdown-dominant · activation 14 · combined_ligand_stimulation 3</td></tr>
+</table>
+
+<p>For the PPARA pairs the dominant answer is "overexpression" (63 of 48×2 — a gain-of-function guess): systems recover the sign but cannot recover the experimental methodology, which is recoverable only from the source paper. For SMAD3 → PTPRK the difficulty is precision: the experiment co-stimulated NOTCH1 and TGF-β, and systems answer with single-pathway activation. By contrast, the five regulatory-RNA pairs are largely solved (type acceptance 44–45 of 48, ≈94%): inverse inference from an RNA-mediated direction is within reach of every system.</p>
+
+<h2>C.4 Summary</h2>
+
+<p>Universal pair-level failure is real but rare and structured: five Task 2 pairs, in two families, breaking at two different steps (recognition for ESR1, completeness for PPARA); four near-universal Task 3 pairs, failing on experimental-design inference; and one cross-task pattern — the PPARA pairs fail in both directions, for orthogonal reasons (partner omission forward, unguessable methodology inverse). Universal failure is therefore not noise: it concentrates exactly where mechanistic knowledge, rather than direction statistics, is required. All values remain preliminary pending blinded human adjudication; per-unit enumeration tables are released with the frozen artifacts.</p>
+
+<p class="fn">Prepared {today}. Sources: frozen judgment files (FROZEN v7); complete per-unit enumeration in <code>CO_FAILURE_COMPLETE_task2.tsv</code> (193 rows) and <code>CO_FAILURE_COMPLETE_task3.tsv</code> (20 rows). Full-chain failure rates: PPARA–BHLHE40 100% (72/72), ESR1 98.6% (71/72), SRCAP/H2A.Z 95.8% (46/48), GATA1–TAL1 90.3% (130/144), TP63–FOXK1 83.3% (140/168). Causal-order-axis failure rates: ESR1 97.2% (70/72), PPARA–BHLHE40 95.8% (69/72), SRCAP/H2A.Z 91.7% (44/48), TP63–FOXK1 83.3% (140/168), GATA1–TAL1 81.9% (118/144). An earlier draft labeled the chain rates as causal-order rates; corrected 2026-10-17.</p>
+</body></html>

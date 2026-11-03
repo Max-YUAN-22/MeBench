@@ -1,0 +1,21 @@
+unit_id	predicted_intervention_type	mechanism_reasoning
+T3VP_0001	overexpression	STAT3 induces miR-181b, an intermediate regulatory RNA that represses CYLD; increasing miR-181b lowers CYLD expression.
+T3VP_0002	overexpression	BHLHE40 acts as an antagonistic TF partner in PPARA-dependent regulation of Pdk4; increasing BHLHE40 reduces Pdk4 expression.
+T3VP_0003	knockdown	TWIST1 induces miR-10b, which represses HOXD10 downstream; reducing miR-10b releases HOXD10 expression.
+T3VP_0004	overexpression	PPARA activates Angptl4 through a target-linked cis-regulatory DNA element; increasing PPARA raises Angptl4 expression.
+T3VP_0005	overexpression	PPARA activates Hmgcs2 through a target-linked cis-regulatory DNA element; increasing PPARA raises Hmgcs2 expression.
+T3VP_0006	knockdown	NOTCH1 signaling cooperates with SMAD3 in TF-dependent activation of PTPRK; reducing NOTCH1 lowers PTPRK expression.
+T3VP_0007	knockdown	SMAD3 works with NOTCH1 signaling and SMAD4 to activate PTPRK; reducing SMAD3 lowers PTPRK expression.
+T3VP_0008	knockdown	SMAD4 partners with SMAD3 in NOTCH1-associated activation of PTPRK; reducing SMAD4 lowers PTPRK expression.
+T3VP_0009	activation	Activating NOTCH1 and TGF-beta/SMAD3 together promotes their cooperative TF-dependent regulation of PTPRK, raising its expression.
+T3VP_0010	overexpression	HIF1A induces miR-210, an intermediate regulatory RNA that represses ISCU; increasing miR-210 lowers ISCU expression.
+T3VP_0011	knockdown	STAT3 induces miR-181b, which represses CYLD downstream; reducing miR-181b releases CYLD expression.
+T3VP_0012	overexpression	PPARA activates Pdk4 through a target-linked cis-regulatory DNA element; increasing PPARA raises Pdk4 expression.
+T3VP_0013	knockdown	HIF1A induces miR-210, which represses E2F3 downstream; reducing miR-210 releases E2F3 expression.
+T3VP_0014	overexpression	TWIST1 induces miR-10b, an intermediate regulatory RNA that represses HOXD10; increasing miR-10b lowers HOXD10 expression.
+T3VP_0015	knockdown	GATA1 induces miR-451, which represses Ywhaz downstream; reducing miR-451 releases Ywhaz expression.
+T3VP_0016	knockdown	HIF1A induces miR-210, which represses ISCU downstream; reducing miR-210 releases ISCU expression.
+T3VP_0017	overexpression	GATA1 induces miR-451, an intermediate regulatory RNA that represses Ywhaz; increasing miR-451 lowers Ywhaz expression.
+T3VP_0018	overexpression	BHLHE40 acts as an antagonistic TF partner in PPARA-dependent regulation of Hmgcs2; increasing BHLHE40 reduces Hmgcs2 expression.
+T3VP_0019	overexpression	HIF1A induces miR-210, an intermediate regulatory RNA that represses E2F3; increasing miR-210 lowers E2F3 expression.
+T3VP_0020	overexpression	BHLHE40 acts as an antagonistic TF partner in PPARA-dependent regulation of Angptl4; increasing BHLHE40 reduces Angptl4 expression.

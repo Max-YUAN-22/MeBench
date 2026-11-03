@@ -1,0 +1,7 @@
+{
+ "model": "claude-sonnet-5-5",
+ "task": "task2",
+ "n_expected": 193,
+ "n_parsed": 193,
+ "missing_after_continuation": []
+}

@@ -1,0 +1,21 @@
+unit_id	predicted_intervention_type	mechanism_reasoning
+T3VP_0001	overexpression	regulatory_rna_mediated_indirect_regulation with miR-181b as the intermediate RNA mediator induced by STAT3 that post-transcriptionally represses CYLD; overexpression of miR-181b therefore decreases CYLD
+T3VP_0002	overexpression	combinatorial_tf_regulation with BHLHE40 as partner repressor TF that antagonizes PPARA at Pdk4 cis-elements; overexpression of BHLHE40 therefore decreases Pdk4
+T3VP_0003	knockdown	regulatory_rna_mediated_indirect_regulation with miR-10b as the intermediate RNA mediator induced by TWIST1 that represses HOXD10; knockdown of miR-10b therefore increases HOXD10 by derepression
+T3VP_0004	overexpression	direct_cis_regulatory_dna with PPARA directly binding Angptl4 PPRE cis-elements to activate transcription; overexpression of PPARA therefore increases Angptl4
+T3VP_0005	overexpression	direct_cis_regulatory_dna with PPARA directly binding Hmgcs2 PPRE cis-elements to activate transcription; overexpression of PPARA therefore increases Hmgcs2
+T3VP_0006	knockdown	combinatorial_tf_regulation with NOTCH1 as partner TF that cooperates with SMAD3 to activate PTPRK; knockdown of NOTCH1 therefore decreases PTPRK
+T3VP_0007	knockdown	direct_cis_regulatory_dna with SMAD3 directly binding PTPRK SMAD-binding cis-elements to activate transcription; knockdown of SMAD3 therefore decreases PTPRK
+T3VP_0008	knockdown	combinatorial_tf_regulation with SMAD4 as co-SMAD partner TF required by SMAD3 to activate PTPRK; knockdown of SMAD4 therefore decreases PTPRK
+T3VP_0009	activation	combinatorial_tf_regulation with NOTCH1 and SMAD3 as cooperating partner TFs that synergize at PTPRK; activation of NOTCH1 and TGF-beta/SMAD3 therefore increases PTPRK
+T3VP_0010	overexpression	regulatory_rna_mediated_indirect_regulation with miR-210 as the intermediate RNA mediator induced by HIF1A that post-transcriptionally represses ISCU; overexpression of miR-210 therefore decreases ISCU
+T3VP_0011	knockdown	regulatory_rna_mediated_indirect_regulation with miR-181b as the intermediate RNA mediator induced by STAT3 that represses CYLD; knockdown of miR-181b therefore increases CYLD by derepression
+T3VP_0012	overexpression	direct_cis_regulatory_dna with PPARA directly binding Pdk4 PPRE cis-elements to activate transcription; overexpression of PPARA therefore increases Pdk4
+T3VP_0013	knockdown	regulatory_rna_mediated_indirect_regulation with miR-210 as the intermediate RNA mediator induced by HIF1A that represses E2F3; knockdown of miR-210 therefore increases E2F3 by derepression
+T3VP_0014	overexpression	regulatory_rna_mediated_indirect_regulation with miR-10b as the intermediate RNA mediator induced by TWIST1 that represses HOXD10; overexpression of miR-10b therefore decreases HOXD10
+T3VP_0015	knockdown	regulatory_rna_mediated_indirect_regulation with miR-451 as the intermediate RNA mediator induced by GATA1 that represses Ywhaz; knockdown of miR-451 therefore increases Ywhaz by derepression
+T3VP_0016	knockdown	regulatory_rna_mediated_indirect_regulation with miR-210 as the intermediate RNA mediator induced by HIF1A that represses ISCU; knockdown of miR-210 therefore increases ISCU by derepression
+T3VP_0017	overexpression	regulatory_rna_mediated_indirect_regulation with miR-451 as the intermediate RNA mediator induced by GATA1 that represses Ywhaz; overexpression of miR-451 therefore decreases Ywhaz
+T3VP_0018	overexpression	combinatorial_tf_regulation with BHLHE40 as partner repressor TF that antagonizes PPARA at Hmgcs2 cis-elements; overexpression of BHLHE40 therefore decreases Hmgcs2
+T3VP_0019	overexpression	regulatory_rna_mediated_indirect_regulation with miR-210 as the intermediate RNA mediator induced by HIF1A that represses E2F3; overexpression of miR-210 therefore decreases E2F3
+T3VP_0020	overexpression	combinatorial_tf_regulation with BHLHE40 as partner repressor TF that antagonizes PPARA at Angptl4 cis-elements; overexpression of BHLHE40 therefore decreases Angptl4

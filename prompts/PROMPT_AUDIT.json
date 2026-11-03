@@ -1,0 +1,38 @@
+{
+  "version": "v3.7.0",
+  "status": "pass",
+  "tasks": {
+    "task1": {
+      "units": 171,
+      "input_fields": [
+        "target_gene",
+        "tf"
+      ]
+    },
+    "task2": {
+      "units": 193,
+      "input_fields": [
+        "perturbation",
+        "target_gene",
+        "tf"
+      ]
+    },
+    "task3": {
+      "units": 20,
+      "input_fields": [
+        "direction",
+        "perturbation",
+        "target_gene",
+        "tf"
+      ],
+      "output_fields": [
+        "unit_id",
+        "predicted_intervention_type",
+        "mechanism_reasoning"
+      ],
+      "visible_perturbation_fields": [
+        "perturbed_entity"
+      ]
+    }
+  }
+}

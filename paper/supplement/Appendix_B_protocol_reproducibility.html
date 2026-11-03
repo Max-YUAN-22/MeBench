@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Appendix B — Evaluation Protocol, Per-Run Variability, and Reproducibility</title><style>
+body{font-family:'Times New Roman',serif;font-size:11pt;max-width:760px;margin:36px auto;color:#111;line-height:1.6;}
+h1{font-size:13pt;} h2{font-size:11.5pt;margin:22px 0 6px;}
+p{margin:8px 0;text-align:justify;}
+table{border-collapse:collapse;margin:12px auto;width:100%;}
+th,td{border:1px solid #bbb;padding:4px 6px;font-size:9pt;text-align:center;}
+th{background:#f2f2f2;} td:first-child{text-align:left;}
+code{font-family:Menlo,monospace;font-size:8.5pt;background:#f6f6f2;padding:0 3px;}
+pre{background:#f6f6f2;border:1px solid #ddd;padding:10px 12px;font-size:8.5pt;overflow-x:auto;}
+.fn{font-size:8.5pt;color:#555;margin:5px 0;line-height:1.4;text-align:left;}
+</style></head><body>
+
+<h1>Appendix B: Evaluation Protocol, Per-Run Variability, and Reproducibility</h1>
+
+<h2>B.1 Systems and access configuration</h2>
+
+<p>We evaluate six systems spanning three access modes: (i) frontier closed-book models served through a unified relay (GPT-6-Astra, Claude-Sonnet-5.5, Gemini-3.8-Flash, GLM-5.3-Flash, Grok-4.6); (ii) a tool-augmented biomedical agent with retrieval and code execution (Biomni); and (iii) as an ablation, the same agent backbone restricted to single-turn parametric inference without tools. Each system completes four independent passes of the full benchmark. Prompts are byte-identical across systems and passes; sampling temperature is 0.</p>
+
+<p class="fn" style="font-weight:bold">Table B1 | Adjudication (judge) assignment for five-axis chain scoring.</p>
+<table>
+<tr><th>Evaluated system</th><th>Judge model</th><th>Rationale</th></tr>
+<tr><td style="text-align:left">GPT-6-Astra</td><td>Claude-Sonnet-5.5</td><td style="text-align:left">cross-family: outputs judged by a different model family</td></tr>
+<tr><td style="text-align:left">Claude-Sonnet-5.5</td><td>GPT-6-Astra</td><td style="text-align:left">cross-family</td></tr>
+<tr><td style="text-align:left">Gemini-3.8-Flash / GLM-5.3-Flash / Grok-4.6 / Biomni</td><td>GPT-6-Astra</td><td style="text-align:left">single judge; no judged output originates from the judge model itself</td></tr>
+</table>
+
+<h2>B.2 Benchmark integrity</h2>
+
+<p>All experiments use the frozen benchmark bundle v3.7.0 (27 files), whose SHA-256 manifest ships with the bundle and against which the bundle is verified before each campaign. Unit inputs are distributed to systems; gold mechanism labels, gold mediators, gold causal topologies, and accepted intervention types are held in evaluator-only files and are never visible to evaluated systems or to the prompt templates. The scorer (<code>score_model_outputs.py</code>) is shipped unmodified; the single amendment layer applied anywhere in this work is a designer-approved entity-conditional synonym rule for Task 3 (for regulatory-RNA entities, canonical <code>knockdown</code> is accepted as <code>inhibition</code>), applied identically to all systems and reported with the rescued unit identifiers.</p>
+
+<h2>B.3 Metrics</h2>
+
+<p>For Task 1 we report accuracy, balanced accuracy, and macro-F1 over the four mechanism classes (chance ≈ 25%). For Tasks 2 and 3, direction (respectively intervention-type) accuracy is accompanied by chain metrics: a unit's five-axis chain passes only if mechanism, mediator, causal order, outcome link, and internal consistency are all adjudicated correct (one-vote veto). Joint pass rate requires the direction (or type) to be correct <i>and</i> the chain to pass; joint F1 is the chain-gated macro-F1 over gold classes; balanced joint accuracy is the per-gold-class mean of joint recall.</p>
+
+<h2>B.4 Per-run results and run-to-run variability</h2>
+
+<p>Although every run uses temperature 0, serving through relay endpoints is not bit-deterministic, and run-to-run variation is material (Table B2). Claude-Sonnet-5.5's Task 1 macro-F1 ranges from 21.8 to 36.2 across four identically configured runs; GPT-6-Astra's raw accuracy is identical across its four runs (67.8) while its per-class errors migrate between mechanism classes (macro-F1 30.2–40.8). All main-text values are therefore means over four runs; per-run values and standard deviations are given here.</p>
+
+<p class="fn" style="font-weight:bold">Table B2 | Per-run results for all systems (%, four independent runs). Columns: T1 = accuracy / balanced accuracy / macro-F1; T2 = direction accuracy / joint pass rate; T3 = intervention-type accuracy / joint F1.</p>
+<table>
+<tr><th rowspan="2">System</th><th colspan="4">Run 1–4 (T1 acc / bal / mF1 | T2 dir / joint | T3 type / joint)</th></tr>
+<tr><th>Run 1</th><th>Run 2</th><th>Run 3</th><th>Run 4</th></tr>
+<tr><td>GPT-6-Astra</td><td>67.8 / 31.4 / 30.2</td><td>96.4</td><td>77.7</td><td>75.0</td><td>36.7</td><td>67.8 / 39.6 / 40.8</td><td>96.4</td><td>85.0</td><td>75.0</td><td>33.2</td><td>67.8 / 34.1 / 33.0</td><td>96.9</td><td>89.6</td><td>60.0</td><td>38.6</td><td>67.8 / 33.8 / 34.2</td><td>96.9</td><td>84.5</td><td>70.0</td><td>29.6</td></tr><tr><td>Claude-Sonnet-5.5</td><td>67.3 / 35.9 / 36.2</td><td>96.9</td><td>80.8</td><td>60.0</td><td>51.2</td><td>65.5 / 29.9 / 30.2</td><td>96.4</td><td>81.9</td><td>0.0<sup>c</sup></td><td>0.0<sup>c</sup></td><td>66.1 / 33.4 / 31.7</td><td>97.9</td><td>76.7</td><td>60.0</td><td>21.6</td><td>63.7 / 24.9 / 21.8</td><td>96.4</td><td>77.7</td><td>60.0</td><td>29.5</td></tr><tr><td>Gemini-3.8-Flash</td><td>68.4 / 32.8 / 34.1</td><td>96.9</td><td>84.5</td><td>75.0</td><td>36.7</td><td>67.3 / 30.3 / 30.3</td><td>96.9</td><td>77.7</td><td>60.0</td><td>28.8</td><td>68.4 / 31.7 / 32.5</td><td>96.9</td><td>69.9</td><td>60.0</td><td>28.8</td><td>67.8 / 33.9 / 35.8</td><td>96.9</td><td>83.4</td><td>60.0</td><td>33.6</td></tr><tr><td>GLM-5.3-Flash</td><td>68.4 / 33.1 / 35.0<sup>a</sup></td><td>95.9</td><td>78.2</td><td>75.0</td><td>38.7</td><td>69.6 / 33.4 / 32.6</td><td>97.9</td><td>80.3</td><td>45.0</td><td>40.0</td><td>66.1 / 24.8 / 19.9</td><td>71.5</td><td>56.5<sup>b</sup></td><td>60.0</td><td>25.2</td><td>65.5 / 24.6 / 19.8</td><td>48.2</td><td>32.6<sup>b</sup></td><td>75.0</td><td>38.7</td></tr><tr><td>Grok-4.6</td><td>66.7 / 25.0 / 20.0</td><td>96.4</td><td>82.9</td><td>60.0</td><td>25.2</td><td>66.7 / 25.0 / 20.0</td><td>95.9</td><td>76.2</td><td>60.0</td><td>41.9</td><td>64.3 / 32.8 / 30.7</td><td>95.9</td><td>78.2</td><td>60.0</td><td>33.1</td><td>66.7 / 25.0 / 20.0</td><td>97.4</td><td>78.8</td><td>60.0</td><td>28.8</td></tr><tr><td>Biomni</td><td>64.9 / 32.3 / 33.3</td><td>96.4</td><td>72.0</td><td>90.0</td><td>30.2</td><td>60.2 / 33.6 / 34.6</td><td>96.4</td><td>79.8</td><td>95.0</td><td>35.6</td><td>63.2 / 33.8 / 34.6</td><td>96.9</td><td>76.7</td><td>90.0</td><td>29.3</td><td>62.0 / 29.3 / 29.7</td><td>96.4</td><td>74.6</td><td>90.0</td><td>34.3</td></tr>
+</table>
+
+<p class="fn" style="font-weight:bold">Table B3 | Four-run mean ± standard deviation, from the same per-run values.</p>
+<table>
+<tr><th>System</th><th>T1 acc / bal / mF1</th><th>T2 dir / joint</th><th>T3 type / joint</th></tr>
+<tr><td>GPT-6-Astra (mean ± sd)</td><td>67.8±0.0 / 34.7±3.4 / 34.5±4.5</td><td>96.6±0.3</td><td>84.2±4.9</td><td>70.0±7.1</td><td>34.5±4.0</td></tr><tr><td>Claude-Sonnet-5.5 (mean ± sd)</td><td>65.6±1.5 / 31.1±4.8 / 30.0±6.0</td><td>96.9±0.7</td><td>79.3±2.5</td><td>45.0±30.0</td><td>25.6±21.2</td></tr><tr><td>Gemini-3.8-Flash (mean ± sd)</td><td>68.0±0.6 / 32.2±1.5 / 33.2±2.3</td><td>96.9±0.0</td><td>78.9±6.7</td><td>63.7±7.5</td><td>31.9±3.9</td></tr><tr><td>GLM-5.3-Flash (mean ± sd)</td><td>67.4±1.9 / 29.0±4.9 / 26.8±8.1</td><td>78.4±23.4</td><td>61.9±22.3</td><td>63.7±14.4</td><td>35.7±7.0</td></tr><tr><td>Grok-4.6 (mean ± sd)</td><td>66.1±1.2 / 26.9±3.9 / 22.7±5.3</td><td>96.4±0.7</td><td>79.0±2.8</td><td>60.0±0.0</td><td>32.2±7.2</td></tr><tr><td>Biomni (mean ± sd)</td><td>62.6±2.0 / 32.3±2.1 / 33.1±2.3</td><td>96.5±0.3</td><td>75.8±3.3</td><td>91.2±2.5</td><td>32.4±3.1</td></tr>
+</table>
+
+<p class="fn"><sup>a</sup> GLM Task 1 pass 1 was re-administered once (Oct 16) after its original capture proved unreadable by the standard parser: the model emitted a three-column output (unit_id, reasoning sentence, label) that the two-column parser could not interpret, so no answer content was recoverable into the prediction file. The re-administered pass is fully schema-compliant and is the pass analyzed here; the original capture is archived (<code>task1_schema_deviant_2026-10-13/</code>). Re-administration applies only to passes whose outputs are uninterpretable as answers; interpretable-but-non-compliant outputs are scored exactly as submitted (Claude Task 3 run 2, GLM Task 2 passes 3–4). <sup>b</sup> GLM Task 2 passes 3–4 show partial input-field echo (the direction field repeats the input intervention type in 51 and 98 of 193 rows respectively); outputs are scored exactly as submitted, which is why the per-run direction accuracy falls to 71.5 and 48.2. The two clean passes achieve 95.9–97.9. GLM's original pass-4 capture was lost to an API failure on Oct 12 (all 193 rows were harness placeholders); the pass was re-run on Oct 16 under the identical prompt and analyzed here. The re-run reproduces the echo behavior, confirming it is model output rather than a capture artifact. <sup>c</sup> In Claude run 2 on Task 3, the predicted intervention-type field embeds the entity name (e.g. "miRNA overexpression", "NOTCH1 knockdown") instead of the bare type ("overexpression", "knockdown"); the canonical-type matcher therefore accepts 0/20 answers for this pass. Outputs are scored exactly as submitted; the three remaining Claude passes score 60.0 each.</p>
+
+<p class="fn">Table B3 reports means under the single uniform scoring rule used throughout (outputs scored exactly as submitted; schema violations therefore score as incorrect). For the one remaining schema-violating pass (Claude Task 3 run 2), the schema-compliant-passes alternative is 60.0 (three compliant passes; footnote c). Both computations are reproducible from the released predictions.</p>
+
+<h2>B.5 Chain adjudication protocol and status</h2>
+
+<p>Five-axis chain adjudication is performed with the released packet tooling: for each Task 2/3 run, the model's verbatim reasoning is packaged per unit with the task rubric, and a judge model scores five binary axes. Judge assignments are chosen so that no system's outputs are judged by itself (Table B1). Judge outputs are archived verbatim. Two reliability checks support the preliminary judgments: (i) a mediator-axis false-negative audit found 0/193 Task 2 units in which a gold mediator was named in the reasoning yet scored 0; (ii) cross-system agreement on shared units is consistent with per-family failure patterns reported in the main text. All chain and joint values remain preliminary pending blinded human adjudication, for which the review packets are archived; we expect absolute values to shift by a small margin without changes to system ordering.</p>
+
+<h2>B.6 Coverage disclosures</h2>
+
+<ul>
+<li>Chain adjudication coverage per system is stated in Table B2 (footnotes a–d). Unadjudicated runs are excluded from chain/joint means, never counted as failures.</li>
+<li>Two complementary rules apply. (i) Scoring: outputs are scored exactly as submitted against the canonical matcher, with no output repair; interpretable-but-non-compliant outputs therefore score as incorrect (Claude Task 3 run 2, footnote c — schema-compliant-passes alternative 60.0; GLM Task 2 passes 3–4 input-field echo). (ii) Re-administration: a pass whose outputs are uninterpretable as answers — no answer content recoverable into the prediction file — is an invalid administration and is re-administered once under the identical prompt (GLM Task 1 pass 1, footnote a; GLM Task 2 pass 4, footnote b). Every re-administration and every schema violation is disclosed here and in the frozen audit log.</li>
+<li><b>Query–gold consistency check (2026-10-17, designer review).</b> All 193 Task 2 unit inputs were checked against their evaluator-only intervention records. Nine units describe the perturbation abstractly as <i>loss_or_reduction of "target regulatory site(s)"</i>; six of them are genuine CRISPR deletions of the site (direct-cis gold, query consistent). For the three ESR1 enhancer units (T2U_0013–0015) the actual experiment repressed the sites epigenetically (dCas9-KRAB/SIN3A-HDAC, evaluator-only) without altering the DNA sequence, so a literal "site deletion" reading — which all systems adopted — is a defensible interpretation of the query as written. Sensitivity: excluding these three units raises each system's chain-pass rate by 1.1–1.4 pp (e.g. GPT 84.7 → 86.1) and changes no ranking. The units are flagged for dual-key human adjudication (accepting either the direct-cis site-loss reading or the chromatin-mediated reading as mechanism-correct) and for query amendment in the next benchmark revision; primary tables retain the strict original scoring with this disclosure.</li>
+<li><b>Task 3 output-schema policy and sensitivity.</b> Task 3 type acceptance uses the canonical matcher, which already merges method-level variants (a bare <code>knockdown</code> is accepted for gold <code>siRNA_knockdown</code>/<code>shRNA_knockdown</code>; 94 unit-runs). Entity-qualified answers, however, are rejected as submitted — in Claude Task 3 run 2, five "miRNA overexpression" answers with gold <code>overexpression</code> and four "miRNA inhibition" answers with gold <code>inhibition</code> (all nine with chain_pass = 1) score 0. Under a semantic-normalization view that accepts these nine, Task 3 joint pass moves from 237/480 = 49.4% to 246/480 = 51.3%, and Claude run 2 from 0/20 to 9/20. Primary tables retain the strict-schema view (consistent with the uniform as-submitted rule) and label such cases schema-compliance failures; the normalized view is reported here as a sensitivity, and a versioned scorer implementing the chosen normalization policy is planned. Task 3's inference target is also not always identifiable from the input alone (agonist vs overexpression; siRNA vs shRNA vs knockout), so the task is framed as a targeted diagnostic subset (20 units, 9 pairs, 6 TFs) rather than a general inverse-inference benchmark.</li>
+<li>Task 3 comprises 20 units over 9 bidirectional perturbation pairs and is proof-of-concept scale; pass-rate confidence intervals are correspondingly wide (± ~20 pp).</li>
+<li>One locally deployed open model produced narrative-free outputs that cannot conform to the required answer schema; it is excluded from the v3.7 tables under the format-compatibility criterion, and one additional frontier agent evaluated under the v3.0 protocol was not re-evaluated for the same reason.</li>
+</ul>
+
+<h2>B.7 Reproducibility</h2>
+
+<p>The released artifact set contains: the frozen benchmark bundle (with SHA-256 manifest), all prompt templates, the unmodified scorer, the disclosed amendment layer with its approval note, per-run prediction files with raw model responses, all adjudication packets and judge outputs, and the aggregation script that produces every published table. Any cell of the main tables can be regenerated with the released tooling, e.g.:</p>
+
+<pre>
+# Task 1 scores for one run (official scorer, unmodified):
+python3 score_model_outputs.py --bundle &lt;bundle&gt; --task task1 \
+    --predictions &lt;run_dir&gt; --output out.json
+
+# Task 2 with chain judgments:
+python3 score_model_outputs.py --bundle &lt;bundle&gt; --task task2 \
+    --predictions &lt;run_dir&gt; \
+    --reasoning-judgments &lt;run_dir&gt;/task2_judgments.tsv --output out.json
+
+# Task 3 with the disclosed amendment:
+python3 score_model_outputs_amended.py --bundle &lt;bundle&gt; --task task3 \
+    --predictions &lt;run_dir&gt; --output out.json
+</pre>
+
+<p>Per-run means and standard deviations in Tables B2–B3 are produced by the same aggregation functions that produce the main-text tables; recomputing from the released predictions reproduces every published value.</p>
+
+<p class="fn">Prepared 2026-10-17.</p>
+</body></html>

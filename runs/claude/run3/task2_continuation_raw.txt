@@ -1,0 +1,1 @@
+I don't have that earlier answer — nothing before this message in our conversation. Paste the table you got (header plus the rows that came through) and tell me which units are missing, and I'll produce just those rows in the same tab-separated format.

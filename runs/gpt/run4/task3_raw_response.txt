@@ -1,0 +1,21 @@
+unit_id	predicted_intervention_type	mechanism_reasoning
+T3VP_0001	overexpression	STAT3 induces miR-181b, which represses CYLD through a regulatory RNA-mediated indirect mechanism; increasing miR-181b lowers CYLD.
+T3VP_0002	overexpression	BHLHE40 opposes PPARA-dependent transcription of Pdk4 as a partner TF; increasing BHLHE40 lowers Pdk4.
+T3VP_0003	inhibition	TWIST1 induces miR-10b, which represses HOXD10 through a regulatory RNA-mediated indirect mechanism; inhibiting miR-10b releases HOXD10.
+T3VP_0004	activation	Activated PPARA acts at target-linked cis-regulatory DNA to increase Angptl4 transcription.
+T3VP_0005	activation	Activated PPARA acts at target-linked cis-regulatory DNA to increase Hmgcs2 transcription.
+T3VP_0006	inhibition	NOTCH1 provides a cooperating signal for SMAD3-dependent PTPRK transcription; inhibiting NOTCH1 lowers PTPRK.
+T3VP_0007	knockdown	SMAD3 works with its transcriptional partners to activate PTPRK; reducing SMAD3 lowers PTPRK.
+T3VP_0008	knockdown	SMAD4 partners with SMAD3 in activating PTPRK; reducing SMAD4 lowers PTPRK.
+T3VP_0009	co-activation	Co-activating NOTCH1 and TGF-beta/SMAD3 promotes their cooperative transcriptional activation of PTPRK, increasing its expression.
+T3VP_0010	overexpression	HIF1A induces miR-210, which represses ISCU through a regulatory RNA-mediated indirect mechanism; increasing miR-210 lowers ISCU.
+T3VP_0011	inhibition	STAT3 induces miR-181b, which represses CYLD through a regulatory RNA-mediated indirect mechanism; inhibiting miR-181b releases CYLD.
+T3VP_0012	activation	Activated PPARA acts at target-linked cis-regulatory DNA to increase Pdk4 transcription.
+T3VP_0013	inhibition	HIF1A induces miR-210, which represses E2F3 through a regulatory RNA-mediated indirect mechanism; inhibiting miR-210 releases E2F3.
+T3VP_0014	overexpression	TWIST1 induces miR-10b, which represses HOXD10 through a regulatory RNA-mediated indirect mechanism; increasing miR-10b lowers HOXD10.
+T3VP_0015	inhibition	GATA1 induces miR-451, which represses Ywhaz through a regulatory RNA-mediated indirect mechanism; inhibiting miR-451 releases Ywhaz.
+T3VP_0016	inhibition	HIF1A induces miR-210, which represses ISCU through a regulatory RNA-mediated indirect mechanism; inhibiting miR-210 releases ISCU.
+T3VP_0017	overexpression	GATA1 induces miR-451, which represses Ywhaz through a regulatory RNA-mediated indirect mechanism; increasing miR-451 lowers Ywhaz.
+T3VP_0018	overexpression	BHLHE40 opposes PPARA-dependent transcription of Hmgcs2 as a partner TF; increasing BHLHE40 lowers Hmgcs2.
+T3VP_0019	overexpression	HIF1A induces miR-210, which represses E2F3 through a regulatory RNA-mediated indirect mechanism; increasing miR-210 lowers E2F3.
+T3VP_0020	overexpression	BHLHE40 opposes PPARA-dependent transcription of Angptl4 as a partner TF; increasing BHLHE40 lowers Angptl4.

@@ -1,0 +1,28 @@
+{
+ "pool": "6 paper systems x 4 runs (GLM T1 pass1 = re-administered compliant pass)",
+ "n": 4104,
+ "direct_cis": 3743,
+ "dc_share": 91.2,
+ "per_class": {
+  "chromatin_mediated_regulation": {
+   "n_unit_runs": 504,
+   "dc_rate": 82.9,
+   "correct_rate": 8.5
+  },
+  "direct_cis_regulatory_dna": {
+   "n_unit_runs": 2736,
+   "dc_rate": 94.5,
+   "correct_rate": 94.5
+  },
+  "regulatory_rna_mediated_indirect_regulation": {
+   "n_unit_runs": 480,
+   "dc_rate": 83.3,
+   "correct_rate": 10.6
+  },
+  "combinatorial_tf_regulation": {
+   "n_unit_runs": 384,
+   "dc_rate": 88.5,
+   "correct_rate": 10.4
+  }
+ }
+}

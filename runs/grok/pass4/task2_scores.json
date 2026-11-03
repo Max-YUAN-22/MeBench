@@ -1,0 +1,32 @@
+{
+  "task": "task2",
+  "n_units": 193,
+  "direction_metrics": {
+    "accuracy": 0.9740932642487047,
+    "balanced_accuracy": 0.9200829111008751,
+    "macro_f1": 0.9415611942106219,
+    "invalid_outputs": [],
+    "per_class": {
+      "down": {
+        "support": 167,
+        "precision": 0.9764705882352941,
+        "recall": 0.9940119760479041,
+        "f1": 0.9851632047477744
+      },
+      "up": {
+        "support": 26,
+        "precision": 0.9565217391304348,
+        "recall": 0.8461538461538461,
+        "f1": 0.8979591836734695
+      }
+    },
+    "mcc": 0.8853633524317303
+  },
+  "reasoning_present_rate": 1.0,
+  "exact_mechanism_label_mention_rate_diagnostic_only": 0.0,
+  "label_mention_is_not_chain_credit": true,
+  "reasoning_chain_status": "not_scored: provide --reasoning-judgments after blinded semantic adjudication",
+  "full_reasoning_chain_accuracy": null,
+  "mean_reasoning_chain_component_score": null,
+  "direction_and_full_reasoning_chain_joint_accuracy": null
+}

@@ -1,0 +1,232 @@
+# Claude Science prompt — v3.7.0 task2
+
+## Mandatory closed-book and no-tools rules
+
+- Do not access the internet, browse, search literature or databases, use retrieval, plugins, APIs, code execution, external files, or any other tools.
+- Do not use remembered papers, pair-specific published findings, database records, benchmark labels, or recalled experimental outcomes.
+- If you recognize a pair or experiment, disregard the recalled result.
+- Use only this prompt, the supplied input fields, and general biological reasoning not tied to a remembered source.
+
+The benchmark distinguishes four mechanisms:
+
+- `direct_cis_regulatory_dna`: the TF acts through a target-linked cis-regulatory DNA element.
+- `chromatin_mediated_regulation`: the TF-target effect requires a chromatin state or chromatin regulator.
+- `combinatorial_tf_regulation`: the TF-target effect requires a partner transcription factor.
+- `regulatory_rna_mediated_indirect_regulation`: the TF-target effect is relayed through an intermediate regulatory RNA.
+
+## Task
+
+Each unit supplies `tf`, `target_gene`, and a deliberately minimal `perturbation` containing only `perturbed_entity` and a coarse `intervention_type`.
+
+The four coarse intervention types are `loss_or_reduction`, `gain_or_activation`, `regulatory_site_perturbation`, and `functional_variant`. The exact experimental method, dose, time, route, reagent, guide and context are intentionally unavailable. Do not invent them.
+
+Predict target-expression `up` or `down`. In `mechanism_reasoning`, give a concise natural-language causal explanation using only the coarse perturbation information: identify the mechanism and key intermediate, assign its correct causal role/order, and connect the coarse perturbation to the target direction. Ordinary prose is required; a bare mechanism name or generic definition is insufficient.
+
+A unit passes the primary score only when both direction and the full ground-truth mechanism chain are correct.
+
+Do not ask for hidden labels, controls, contexts, evidence, sources, or curator notes. Do not reveal private chain-of-thought; provide only the requested concise causal reasoning summary.
+
+Return only tab-separated text with exactly this header:
+
+```text
+unit_id	predicted_direction	mechanism_reasoning
+```
+
+Copy every `unit_id` exactly and include every unit exactly once. Keep reasoning on one line without tabs or line breaks. Do not add citations, confidence scores, Markdown tables, code fences, or extra columns.
+
+----- BEGIN INPUT UNITS (JSONL) -----
+UNIT_COUNT: 193
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"EED/PRC2"},"target_gene":"Scin","tf":"CDX2"},"unit_id":"T2U_0001"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"EED/PRC2"},"target_gene":"Slc26a6","tf":"CDX2"},"unit_id":"T2U_0002"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"TP63"},"target_gene":"ANKRD27","tf":"TP63"},"unit_id":"T2U_0003"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"TP63"},"target_gene":"HNRNPA1","tf":"TP63"},"unit_id":"T2U_0004"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"TP63"},"target_gene":"HNRNPL","tf":"TP63"},"unit_id":"T2U_0005"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"TP63"},"target_gene":"L3HYPDH","tf":"TP63"},"unit_id":"T2U_0006"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"TP63"},"target_gene":"NABP2","tf":"TP63"},"unit_id":"T2U_0007"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"TP63"},"target_gene":"RPS16","tf":"TP63"},"unit_id":"T2U_0008"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"TP63"},"target_gene":"TIMM50","tf":"TP63"},"unit_id":"T2U_0009"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"TET2"},"target_gene":"ELOVL2","tf":"ESR1"},"unit_id":"T2U_0010"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"TET2"},"target_gene":"PTGES","tf":"ESR1"},"unit_id":"T2U_0011"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"TET2"},"target_gene":"WIPF1","tf":"ESR1"},"unit_id":"T2U_0012"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"target regulatory site(s)"},"target_gene":"CISH","tf":"ESR1"},"unit_id":"T2U_0013"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"target regulatory site(s)"},"target_gene":"G0S2","tf":"ESR1"},"unit_id":"T2U_0014"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"target regulatory site(s)"},"target_gene":"MMP17","tf":"ESR1"},"unit_id":"T2U_0015"}
+{"model_input":{"perturbation":{"intervention_type":"functional_variant","perturbed_entity":"GATA1 D218G"},"target_gene":"Lrrc39","tf":"GATA1"},"unit_id":"T2U_0016"}
+{"model_input":{"perturbation":{"intervention_type":"functional_variant","perturbed_entity":"GATA1 D218G"},"target_gene":"Rragd","tf":"GATA1"},"unit_id":"T2U_0017"}
+{"model_input":{"perturbation":{"intervention_type":"functional_variant","perturbed_entity":"GATA1 D218G"},"target_gene":"Slc4a1","tf":"GATA1"},"unit_id":"T2U_0018"}
+{"model_input":{"perturbation":{"intervention_type":"functional_variant","perturbed_entity":"GATA1 R216Q"},"target_gene":"Lrrc39","tf":"GATA1"},"unit_id":"T2U_0019"}
+{"model_input":{"perturbation":{"intervention_type":"functional_variant","perturbed_entity":"GATA1 R216Q"},"target_gene":"Rragd","tf":"GATA1"},"unit_id":"T2U_0020"}
+{"model_input":{"perturbation":{"intervention_type":"functional_variant","perturbed_entity":"GATA1 R216Q"},"target_gene":"Slc4a1","tf":"GATA1"},"unit_id":"T2U_0021"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"H2A.Z"},"target_gene":"SAMD9L","tf":"TP63"},"unit_id":"T2U_0022"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"H2A.Z"},"target_gene":"ZHX2","tf":"TP63"},"unit_id":"T2U_0023"}
+{"model_input":{"perturbation":{"intervention_type":"gain_or_activation","perturbed_entity":"miR-210"},"target_gene":"ISCU","tf":"HIF1A"},"unit_id":"T2U_0024"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"miR-10b"},"target_gene":"HOXD10","tf":"TWIST1"},"unit_id":"T2U_0025"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"CA12e"},"target_gene":"CA12","tf":"ESR1"},"unit_id":"T2U_0026"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"FOXC1e"},"target_gene":"FOXC1","tf":"ESR1"},"unit_id":"T2U_0027"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"GREB1e"},"target_gene":"GREB1","tf":"ESR1"},"unit_id":"T2U_0028"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"KCNK5e"},"target_gene":"KCNK5","tf":"ESR1"},"unit_id":"T2U_0029"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"NRIP1e"},"target_gene":"NRIP1","tf":"ESR1"},"unit_id":"T2U_0030"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"P2RY2e"},"target_gene":"P2RY2","tf":"ESR1"},"unit_id":"T2U_0031"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"PGRe"},"target_gene":"PGR","tf":"ESR1"},"unit_id":"T2U_0032"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"SIAH2e"},"target_gene":"SIAH2","tf":"ESR1"},"unit_id":"T2U_0033"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"SMAD7e"},"target_gene":"SMAD7","tf":"ESR1"},"unit_id":"T2U_0034"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"TFF1e"},"target_gene":"TFF1","tf":"ESR1"},"unit_id":"T2U_0035"}
+{"model_input":{"perturbation":{"intervention_type":"gain_or_activation","perturbed_entity":"PPARA"},"target_gene":"Angptl4","tf":"PPARA"},"unit_id":"T2U_0036"}
+{"model_input":{"perturbation":{"intervention_type":"gain_or_activation","perturbed_entity":"PPARA"},"target_gene":"Hmgcs2","tf":"PPARA"},"unit_id":"T2U_0037"}
+{"model_input":{"perturbation":{"intervention_type":"gain_or_activation","perturbed_entity":"PPARA"},"target_gene":"Pdk4","tf":"PPARA"},"unit_id":"T2U_0038"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"BHLHE40"},"target_gene":"Angptl4","tf":"PPARA"},"unit_id":"T2U_0039"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"BHLHE40"},"target_gene":"Hmgcs2","tf":"PPARA"},"unit_id":"T2U_0040"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"BHLHE40"},"target_gene":"Pdk4","tf":"PPARA"},"unit_id":"T2U_0041"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"ABCF2","tf":"ZNF143"},"unit_id":"T2U_0042"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"ADAT3","tf":"ZNF143"},"unit_id":"T2U_0043"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"AKR1A1","tf":"ZNF143"},"unit_id":"T2U_0044"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"ANKRD13B","tf":"ZNF143"},"unit_id":"T2U_0045"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"AP1S3","tf":"ZNF143"},"unit_id":"T2U_0046"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"ARID5A","tf":"ZNF143"},"unit_id":"T2U_0047"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"ASB13","tf":"ZNF143"},"unit_id":"T2U_0048"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"BIRC5","tf":"ZNF143"},"unit_id":"T2U_0049"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"CASC3","tf":"ZNF143"},"unit_id":"T2U_0050"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"CCDC157","tf":"ZNF143"},"unit_id":"T2U_0051"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"CCDC92","tf":"ZNF143"},"unit_id":"T2U_0052"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"CCPG1","tf":"ZNF143"},"unit_id":"T2U_0053"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"CKAP2L","tf":"ZNF143"},"unit_id":"T2U_0054"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"CNIH1","tf":"ZNF143"},"unit_id":"T2U_0055"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"CPOX","tf":"ZNF143"},"unit_id":"T2U_0056"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"CPSF4","tf":"ZNF143"},"unit_id":"T2U_0057"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"CRCP","tf":"ZNF143"},"unit_id":"T2U_0058"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"CREBL2","tf":"ZNF143"},"unit_id":"T2U_0059"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"CWC15","tf":"ZNF143"},"unit_id":"T2U_0060"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"CYB5R1","tf":"ZNF143"},"unit_id":"T2U_0061"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"EGR1","tf":"ZNF143"},"unit_id":"T2U_0062"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"EMC1","tf":"ZNF143"},"unit_id":"T2U_0063"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"ENKD1","tf":"ZNF143"},"unit_id":"T2U_0064"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"ERAL1","tf":"ZNF143"},"unit_id":"T2U_0065"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"ERP44","tf":"ZNF143"},"unit_id":"T2U_0066"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"FASTK","tf":"ZNF143"},"unit_id":"T2U_0067"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"FH","tf":"ZNF143"},"unit_id":"T2U_0068"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"GAMT","tf":"ZNF143"},"unit_id":"T2U_0069"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"GOLGA2","tf":"ZNF143"},"unit_id":"T2U_0070"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"GTPBP8","tf":"ZNF143"},"unit_id":"T2U_0071"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"HMGCL","tf":"ZNF143"},"unit_id":"T2U_0072"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"HSPA14","tf":"ZNF143"},"unit_id":"T2U_0073"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"IK","tf":"ZNF143"},"unit_id":"T2U_0074"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"JMJD8","tf":"ZNF143"},"unit_id":"T2U_0075"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"JUN","tf":"ZNF143"},"unit_id":"T2U_0076"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"JUND","tf":"ZNF143"},"unit_id":"T2U_0077"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"KDELR2","tf":"ZNF143"},"unit_id":"T2U_0078"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"KLC2","tf":"ZNF143"},"unit_id":"T2U_0079"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"KPNA5","tf":"ZNF143"},"unit_id":"T2U_0080"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"LATS1","tf":"ZNF143"},"unit_id":"T2U_0081"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"MED16","tf":"ZNF143"},"unit_id":"T2U_0082"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"MFSD3","tf":"ZNF143"},"unit_id":"T2U_0083"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"MRPL46","tf":"ZNF143"},"unit_id":"T2U_0084"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"MRPL54","tf":"ZNF143"},"unit_id":"T2U_0085"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"MRPS11","tf":"ZNF143"},"unit_id":"T2U_0086"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"MTMR1","tf":"ZNF143"},"unit_id":"T2U_0087"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"NUTF2","tf":"ZNF143"},"unit_id":"T2U_0088"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"PAPOLG","tf":"ZNF143"},"unit_id":"T2U_0089"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"PLAGL2","tf":"ZNF143"},"unit_id":"T2U_0090"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"PNKD","tf":"ZNF143"},"unit_id":"T2U_0091"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"POMT2","tf":"ZNF143"},"unit_id":"T2U_0092"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"PRIM1","tf":"ZNF143"},"unit_id":"T2U_0093"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"PRKAA2","tf":"ZNF143"},"unit_id":"T2U_0094"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"PROSER3","tf":"ZNF143"},"unit_id":"T2U_0095"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"PSMC6","tf":"ZNF143"},"unit_id":"T2U_0096"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"PTPMT1","tf":"ZNF143"},"unit_id":"T2U_0097"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"PTRHD1","tf":"ZNF143"},"unit_id":"T2U_0098"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"RDH11","tf":"ZNF143"},"unit_id":"T2U_0099"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"RIC8A","tf":"ZNF143"},"unit_id":"T2U_0100"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"RNF40","tf":"ZNF143"},"unit_id":"T2U_0101"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"RPAIN","tf":"ZNF143"},"unit_id":"T2U_0102"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"RPL6","tf":"ZNF143"},"unit_id":"T2U_0103"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"RSBN1","tf":"ZNF143"},"unit_id":"T2U_0104"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"SAMD13","tf":"ZNF143"},"unit_id":"T2U_0105"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"SAV1","tf":"ZNF143"},"unit_id":"T2U_0106"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"SEPTIN8","tf":"ZNF143"},"unit_id":"T2U_0107"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"SFT2D2","tf":"ZNF143"},"unit_id":"T2U_0108"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"SGF29","tf":"ZNF143"},"unit_id":"T2U_0109"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"SLC7A6OS","tf":"ZNF143"},"unit_id":"T2U_0110"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"SLC9A6","tf":"ZNF143"},"unit_id":"T2U_0111"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"SNRNP48","tf":"ZNF143"},"unit_id":"T2U_0112"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"SNRNP70","tf":"ZNF143"},"unit_id":"T2U_0113"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"SNRPD3","tf":"ZNF143"},"unit_id":"T2U_0114"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"SSB","tf":"ZNF143"},"unit_id":"T2U_0115"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"STARD10","tf":"ZNF143"},"unit_id":"T2U_0116"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"TFAM","tf":"ZNF143"},"unit_id":"T2U_0117"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"THOC7","tf":"ZNF143"},"unit_id":"T2U_0118"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"THOP1","tf":"ZNF143"},"unit_id":"T2U_0119"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"TIMM17A","tf":"ZNF143"},"unit_id":"T2U_0120"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"TMEM258","tf":"ZNF143"},"unit_id":"T2U_0121"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"TMOD2","tf":"ZNF143"},"unit_id":"T2U_0122"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"TOMM70","tf":"ZNF143"},"unit_id":"T2U_0123"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"TPRA1","tf":"ZNF143"},"unit_id":"T2U_0124"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"UBALD1","tf":"ZNF143"},"unit_id":"T2U_0125"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"UBFD1","tf":"ZNF143"},"unit_id":"T2U_0126"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"UQCR10","tf":"ZNF143"},"unit_id":"T2U_0127"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"VASP","tf":"ZNF143"},"unit_id":"T2U_0128"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"ZBTB10","tf":"ZNF143"},"unit_id":"T2U_0129"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"ZFTA","tf":"ZNF143"},"unit_id":"T2U_0130"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"ZMYM6","tf":"ZNF143"},"unit_id":"T2U_0131"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"ZNF200","tf":"ZNF143"},"unit_id":"T2U_0132"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"ZNF24","tf":"ZNF143"},"unit_id":"T2U_0133"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"ZNF354A","tf":"ZNF143"},"unit_id":"T2U_0134"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"ZNF382","tf":"ZNF143"},"unit_id":"T2U_0135"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"ZNF473","tf":"ZNF143"},"unit_id":"T2U_0136"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"ZNF485","tf":"ZNF143"},"unit_id":"T2U_0137"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"ZNF607","tf":"ZNF143"},"unit_id":"T2U_0138"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"ZNF746","tf":"ZNF143"},"unit_id":"T2U_0139"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ZNF143"},"target_gene":"ZW10","tf":"ZNF143"},"unit_id":"T2U_0140"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"NANOG protein"},"target_gene":"Nanog","tf":"NANOG"},"unit_id":"T2U_0141"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"POU5F1/OCT4 protein"},"target_gene":"Pax6","tf":"POU5F1"},"unit_id":"T2U_0142"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"POU5F1/OCT4 protein"},"target_gene":"Utf1","tf":"POU5F1"},"unit_id":"T2U_0143"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"lincRNA-p21"},"target_gene":"MTAP4","tf":"TP53"},"unit_id":"T2U_0144"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"lincRNA-p21"},"target_gene":"SUV39H1","tf":"TP53"},"unit_id":"T2U_0145"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"lincRNA-p21"},"target_gene":"VCAN","tf":"TP53"},"unit_id":"T2U_0146"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"miR-210"},"target_gene":"E2F3","tf":"HIF1A"},"unit_id":"T2U_0147"}
+{"model_input":{"perturbation":{"intervention_type":"gain_or_activation","perturbed_entity":"NOTCH1; TGF-beta/SMAD3"},"target_gene":"PTPRK","tf":"SMAD3"},"unit_id":"T2U_0148"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"NOTCH1"},"target_gene":"PTPRK","tf":"SMAD3"},"unit_id":"T2U_0149"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"SMAD3"},"target_gene":"PTPRK","tf":"SMAD3"},"unit_id":"T2U_0150"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"SMAD4"},"target_gene":"PTPRK","tf":"SMAD3"},"unit_id":"T2U_0151"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"UHRF1"},"target_gene":"Cdh1","tf":"PPARA"},"unit_id":"T2U_0152"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"UHRF1"},"target_gene":"Cdh3","tf":"PPARA"},"unit_id":"T2U_0153"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"UHRF1"},"target_gene":"Smpd3","tf":"PPARA"},"unit_id":"T2U_0154"}
+{"model_input":{"perturbation":{"intervention_type":"gain_or_activation","perturbed_entity":"miR-210"},"target_gene":"E2F3","tf":"HIF1A"},"unit_id":"T2U_0155"}
+{"model_input":{"perturbation":{"intervention_type":"regulatory_site_perturbation","perturbed_entity":"Nanog upstream regulatory site"},"target_gene":"Nanog","tf":"POU5F1"},"unit_id":"T2U_0156"}
+{"model_input":{"perturbation":{"intervention_type":"regulatory_site_perturbation","perturbed_entity":"TBC1D4 intronic NF-kB site"},"target_gene":"TBC1D4","tf":"RELA"},"unit_id":"T2U_0157"}
+{"model_input":{"perturbation":{"intervention_type":"regulatory_site_perturbation","perturbed_entity":"MYC E-box chr10_BS212_CACATG_1"},"target_gene":"PRKCQ","tf":"MYC"},"unit_id":"T2U_0158"}
+{"model_input":{"perturbation":{"intervention_type":"regulatory_site_perturbation","perturbed_entity":"MYC E-box chr10_BS212_CACATG_1"},"target_gene":"PRKCQ-AS1","tf":"MYC"},"unit_id":"T2U_0159"}
+{"model_input":{"perturbation":{"intervention_type":"regulatory_site_perturbation","perturbed_entity":"MYC E-box chr17_BS377_CACGTG_1"},"target_gene":"PFAS","tf":"MYC"},"unit_id":"T2U_0160"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"FOXK1"},"target_gene":"ANKRD27","tf":"TP63"},"unit_id":"T2U_0161"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"FOXK1"},"target_gene":"HNRNPA1","tf":"TP63"},"unit_id":"T2U_0162"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"FOXK1"},"target_gene":"HNRNPL","tf":"TP63"},"unit_id":"T2U_0163"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"FOXK1"},"target_gene":"L3HYPDH","tf":"TP63"},"unit_id":"T2U_0164"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"FOXK1"},"target_gene":"NABP2","tf":"TP63"},"unit_id":"T2U_0165"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"FOXK1"},"target_gene":"RPS16","tf":"TP63"},"unit_id":"T2U_0166"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"FOXK1"},"target_gene":"TIMM50","tf":"TP63"},"unit_id":"T2U_0167"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"MAFG/MAFF"},"target_gene":"Txnrd1","tf":"NFE2L2"},"unit_id":"T2U_0168"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"NFE2L2"},"target_gene":"Txnrd1","tf":"NFE2L2"},"unit_id":"T2U_0169"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"miR-451"},"target_gene":"Ywhaz","tf":"GATA1"},"unit_id":"T2U_0170"}
+{"model_input":{"perturbation":{"intervention_type":"regulatory_site_perturbation","perturbed_entity":"Klf4 regulatory site E2"},"target_gene":"Klf4","tf":"STAT3"},"unit_id":"T2U_0171"}
+{"model_input":{"perturbation":{"intervention_type":"regulatory_site_perturbation","perturbed_entity":"ATP2B4 intronic regulatory site"},"target_gene":"ATP2B4","tf":"GATA1"},"unit_id":"T2U_0172"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"BRG1/SMARCA4"},"target_gene":"L1CAM","tf":"REST"},"unit_id":"T2U_0173"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"BRG1/SMARCA4"},"target_gene":"SNAP25","tf":"REST"},"unit_id":"T2U_0174"}
+{"model_input":{"perturbation":{"intervention_type":"regulatory_site_perturbation","perturbed_entity":"CUL3 intronic regulatory region"},"target_gene":"CUL3","tf":"ZNF263"},"unit_id":"T2U_0175"}
+{"model_input":{"perturbation":{"intervention_type":"regulatory_site_perturbation","perturbed_entity":"CUL3 regulatory site B"},"target_gene":"CUL3","tf":"YY1"},"unit_id":"T2U_0176"}
+{"model_input":{"perturbation":{"intervention_type":"regulatory_site_perturbation","perturbed_entity":"CUL3 regulatory site A"},"target_gene":"CUL3","tf":"CTCF"},"unit_id":"T2U_0179"}
+{"model_input":{"perturbation":{"intervention_type":"gain_or_activation","perturbed_entity":"miR-451"},"target_gene":"Ywhaz","tf":"GATA1"},"unit_id":"T2U_0180"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"KMT2D"},"target_gene":"EPOR","tf":"GATA1"},"unit_id":"T2U_0181"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"KMT2D"},"target_gene":"SLC25A37","tf":"GATA1"},"unit_id":"T2U_0182"}
+{"model_input":{"perturbation":{"intervention_type":"gain_or_activation","perturbed_entity":"miR-10b"},"target_gene":"HOXD10","tf":"TWIST1"},"unit_id":"T2U_0183"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"KMT2D"},"target_gene":"SLC22A4","tf":"GATA1"},"unit_id":"T2U_0186"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"KMT2D"},"target_gene":"ZFPM1","tf":"GATA1"},"unit_id":"T2U_0188"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"miR-181b"},"target_gene":"CYLD","tf":"STAT3"},"unit_id":"T2U_0189"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"miR-181b-1"},"target_gene":"CYLD","tf":"STAT3"},"unit_id":"T2U_0190"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"miR-21"},"target_gene":"PTEN","tf":"STAT3"},"unit_id":"T2U_0191"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"miR-210"},"target_gene":"ISCU","tf":"HIF1A"},"unit_id":"T2U_0192"}
+{"model_input":{"perturbation":{"intervention_type":"gain_or_activation","perturbed_entity":"miR-181b"},"target_gene":"CYLD","tf":"STAT3"},"unit_id":"T2U_0193"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"ETV4"},"target_gene":"NOTCH4","tf":"ETV4"},"unit_id":"T2U_0195"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"FOSL1"},"target_gene":"NOTCH4","tf":"ETV4"},"unit_id":"T2U_0196"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"JUN"},"target_gene":"NOTCH4","tf":"ETV4"},"unit_id":"T2U_0197"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"LED lncRNA"},"target_gene":"CDKN1A","tf":"TP53"},"unit_id":"T2U_0198"}
+{"model_input":{"perturbation":{"intervention_type":"loss_or_reduction","perturbed_entity":"LSD1/KDM1A"},"target_gene":"GATA1","tf":"GATA2"},"unit_id":"T2U_0199"}
+----- END INPUT UNITS -----

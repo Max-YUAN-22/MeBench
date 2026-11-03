@@ -1,0 +1,21 @@
+unit_id	predicted_intervention_type	mechanism_reasoning
+T3VP_0001	overexpression	STAT3 induces miR-181b, which represses CYLD; increasing the intermediate miRNA lowers CYLD expression.
+T3VP_0002	overexpression	BHLHE40 antagonizes PPARA-dependent transcription of Pdk4; increasing this partner lowers Pdk4 expression.
+T3VP_0003	inhibition	TWIST1 induces miR-10b, which represses HOXD10; inhibiting the intermediate miRNA releases HOXD10 expression.
+T3VP_0004	activation	Activated PPARA acts through target-linked regulatory DNA to increase Angptl4 transcription.
+T3VP_0005	activation	Activated PPARA acts through target-linked regulatory DNA to increase Hmgcs2 transcription.
+T3VP_0006	knockdown	NOTCH1 supplies a cooperating signal for SMAD3-dependent PTPRK transcription; reducing NOTCH1 lowers PTPRK expression.
+T3VP_0007	knockdown	SMAD3 cooperates with NOTCH1 and SMAD4 to activate PTPRK; reducing SMAD3 lowers PTPRK expression.
+T3VP_0008	knockdown	SMAD4 partners with SMAD3 in NOTCH1-dependent PTPRK activation; reducing SMAD4 lowers PTPRK expression.
+T3VP_0009	coactivation	Activating NOTCH1 together with TGF-beta/SMAD3 promotes their cooperative transcriptional activation of PTPRK.
+T3VP_0010	overexpression	HIF1A induces miR-210, which represses ISCU; increasing the intermediate miRNA lowers ISCU expression.
+T3VP_0011	inhibition	STAT3 induces miR-181b, which represses CYLD; inhibiting the intermediate miRNA releases CYLD expression.
+T3VP_0012	activation	Activated PPARA acts through target-linked regulatory DNA to increase Pdk4 transcription.
+T3VP_0013	inhibition	HIF1A induces miR-210, which represses E2F3; inhibiting the intermediate miRNA releases E2F3 expression.
+T3VP_0014	overexpression	TWIST1 induces miR-10b, which represses HOXD10; increasing the intermediate miRNA lowers HOXD10 expression.
+T3VP_0015	inhibition	GATA1 induces miR-451, which represses Ywhaz; inhibiting the intermediate miRNA releases Ywhaz expression.
+T3VP_0016	inhibition	HIF1A induces miR-210, which represses ISCU; inhibiting the intermediate miRNA releases ISCU expression.
+T3VP_0017	overexpression	GATA1 induces miR-451, which represses Ywhaz; increasing the intermediate miRNA lowers Ywhaz expression.
+T3VP_0018	overexpression	BHLHE40 antagonizes PPARA-dependent transcription of Hmgcs2; increasing this partner lowers Hmgcs2 expression.
+T3VP_0019	overexpression	HIF1A induces miR-210, which represses E2F3; increasing the intermediate miRNA lowers E2F3 expression.
+T3VP_0020	overexpression	BHLHE40 antagonizes PPARA-dependent transcription of Angptl4; increasing this partner lowers Angptl4 expression.

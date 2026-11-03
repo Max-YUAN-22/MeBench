@@ -1,0 +1,57 @@
+# Claude Science prompt — v3.7.0 task3
+
+## Mandatory closed-book and no-tools rules
+
+- Do not access the internet, browse, search literature or databases, use retrieval, plugins, APIs, code execution, external files, or any other tools.
+- Do not use remembered papers, pair-specific published findings, database records, benchmark labels, or recalled experimental outcomes.
+- If you recognize a pair or experiment, disregard the recalled result.
+- Use only this prompt, the supplied input fields, and general biological reasoning not tied to a remembered source.
+
+The benchmark distinguishes four mechanisms:
+
+- `direct_cis_regulatory_dna`: the TF acts through a target-linked cis-regulatory DNA element.
+- `chromatin_mediated_regulation`: the TF-target effect requires a chromatin state or chromatin regulator.
+- `combinatorial_tf_regulation`: the TF-target effect requires a partner transcription factor.
+- `regulatory_rna_mediated_indirect_regulation`: the TF-target effect is relayed through an intermediate regulatory RNA.
+
+## Task
+
+Each unit supplies `tf`, `target_gene`, a known target-expression `direction`, and a deliberately vague `perturbation` containing only `perturbed_entity`. The exact intervention type and experimental implementation are hidden.
+
+Predict how the supplied entity was perturbed in `predicted_intervention_type`. Then give a concise natural-language `mechanism_reasoning` explanation that identifies the mechanism and key mediator, assigns the mediator the correct causal role/order, and connects the supplied entity plus inferred intervention to the supplied target direction.
+
+The evaluator uses a fixed intervention-type synonym whitelist, but the biological meaning must agree with an accepted intervention for the supplied entity. A unit passes the primary score only when the inferred intervention type is accepted and the complete five-axis mechanism chain is correct. Direction and perturbed entity are inputs and are not predicted.
+
+Do not ask for hidden labels, controls, contexts, evidence, sources, or curator notes. Do not reveal private chain-of-thought; provide only the requested concise causal reasoning summary.
+
+Return only tab-separated text with exactly this header:
+
+```text
+unit_id	predicted_intervention_type	mechanism_reasoning
+```
+
+Copy every `unit_id` exactly and include every unit exactly once. Keep reasoning on one line without tabs or line breaks. Do not add citations, confidence scores, Markdown tables, code fences, or extra columns.
+
+----- BEGIN INPUT UNITS (JSONL) -----
+UNIT_COUNT: 20
+{"model_input":{"direction":"down","perturbation":{"perturbed_entity":"miR-181b"},"target_gene":"CYLD","tf":"STAT3"},"unit_id":"T3VP_0001"}
+{"model_input":{"direction":"down","perturbation":{"perturbed_entity":"BHLHE40"},"target_gene":"Pdk4","tf":"PPARA"},"unit_id":"T3VP_0002"}
+{"model_input":{"direction":"up","perturbation":{"perturbed_entity":"miR-10b"},"target_gene":"HOXD10","tf":"TWIST1"},"unit_id":"T3VP_0003"}
+{"model_input":{"direction":"up","perturbation":{"perturbed_entity":"PPARA"},"target_gene":"Angptl4","tf":"PPARA"},"unit_id":"T3VP_0004"}
+{"model_input":{"direction":"up","perturbation":{"perturbed_entity":"PPARA"},"target_gene":"Hmgcs2","tf":"PPARA"},"unit_id":"T3VP_0005"}
+{"model_input":{"direction":"down","perturbation":{"perturbed_entity":"NOTCH1"},"target_gene":"PTPRK","tf":"SMAD3"},"unit_id":"T3VP_0006"}
+{"model_input":{"direction":"down","perturbation":{"perturbed_entity":"SMAD3"},"target_gene":"PTPRK","tf":"SMAD3"},"unit_id":"T3VP_0007"}
+{"model_input":{"direction":"down","perturbation":{"perturbed_entity":"SMAD4"},"target_gene":"PTPRK","tf":"SMAD3"},"unit_id":"T3VP_0008"}
+{"model_input":{"direction":"up","perturbation":{"perturbed_entity":"NOTCH1; TGF-beta/SMAD3"},"target_gene":"PTPRK","tf":"SMAD3"},"unit_id":"T3VP_0009"}
+{"model_input":{"direction":"down","perturbation":{"perturbed_entity":"miR-210"},"target_gene":"ISCU","tf":"HIF1A"},"unit_id":"T3VP_0010"}
+{"model_input":{"direction":"up","perturbation":{"perturbed_entity":"miR-181b"},"target_gene":"CYLD","tf":"STAT3"},"unit_id":"T3VP_0011"}
+{"model_input":{"direction":"up","perturbation":{"perturbed_entity":"PPARA"},"target_gene":"Pdk4","tf":"PPARA"},"unit_id":"T3VP_0012"}
+{"model_input":{"direction":"up","perturbation":{"perturbed_entity":"miR-210"},"target_gene":"E2F3","tf":"HIF1A"},"unit_id":"T3VP_0013"}
+{"model_input":{"direction":"down","perturbation":{"perturbed_entity":"miR-10b"},"target_gene":"HOXD10","tf":"TWIST1"},"unit_id":"T3VP_0014"}
+{"model_input":{"direction":"up","perturbation":{"perturbed_entity":"miR-451"},"target_gene":"Ywhaz","tf":"GATA1"},"unit_id":"T3VP_0015"}
+{"model_input":{"direction":"up","perturbation":{"perturbed_entity":"miR-210"},"target_gene":"ISCU","tf":"HIF1A"},"unit_id":"T3VP_0016"}
+{"model_input":{"direction":"down","perturbation":{"perturbed_entity":"miR-451"},"target_gene":"Ywhaz","tf":"GATA1"},"unit_id":"T3VP_0017"}
+{"model_input":{"direction":"down","perturbation":{"perturbed_entity":"BHLHE40"},"target_gene":"Hmgcs2","tf":"PPARA"},"unit_id":"T3VP_0018"}
+{"model_input":{"direction":"down","perturbation":{"perturbed_entity":"miR-210"},"target_gene":"E2F3","tf":"HIF1A"},"unit_id":"T3VP_0019"}
+{"model_input":{"direction":"down","perturbation":{"perturbed_entity":"BHLHE40"},"target_gene":"Angptl4","tf":"PPARA"},"unit_id":"T3VP_0020"}
+----- END INPUT UNITS -----

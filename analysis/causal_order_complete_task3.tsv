@@ -1,0 +1,21 @@
+unit_id	pair_id	gold_mechanism	mediator	CO_fail	CO_total	CO_fail_rate	n_systems_all_runs_fail	all_runs_fail_systems	n_systems_any_run_fail	tier_A_all_allfail
+T3VP_0004	PAIR_PPARA_ANGPTL4_ffa341522e51	combinatorial_tf_regulation	BHLHE40	24	24	100	6	"GPT,Claude,Gemini,GLM,Grok,Biomni"	6	1
+T3VP_0005	PAIR_PPARA_HMGCS2_3abcd07550fa	combinatorial_tf_regulation	BHLHE40	24	24	100	6	"GPT,Claude,Gemini,GLM,Grok,Biomni"	6	1
+T3VP_0012	PAIR_PPARA_PDK4_2604cf75050e	combinatorial_tf_regulation	BHLHE40	24	24	100	6	"GPT,Claude,Gemini,GLM,Grok,Biomni"	6	1
+T3VP_0007	PAIR_SMAD3_PTPRK_984d80e568f9	combinatorial_tf_regulation	SMAD4; NOTCH1 intracellular-domain/RBPJ pathway	17	24	70.8	1	GLM	6	0
+T3VP_0002	PAIR_PPARA_PDK4_2604cf75050e	combinatorial_tf_regulation	BHLHE40	13	24	54.2	0		6	0
+T3VP_0018	PAIR_PPARA_HMGCS2_3abcd07550fa	combinatorial_tf_regulation	BHLHE40	11	24	45.8	0		5	0
+T3VP_0020	PAIR_PPARA_ANGPTL4_ffa341522e51	combinatorial_tf_regulation	BHLHE40	11	24	45.8	0		5	0
+T3VP_0006	PAIR_SMAD3_PTPRK_984d80e568f9	combinatorial_tf_regulation	SMAD4; NOTCH1 intracellular-domain/RBPJ pathway	6	24	25	1	Biomni	3	0
+T3VP_0009	PAIR_SMAD3_PTPRK_984d80e568f9	combinatorial_tf_regulation	SMAD4; NOTCH1 intracellular-domain/RBPJ pathway	6	24	25	1	Biomni	3	0
+T3VP_0017	PAIR_GATA1_YWHAZ_d99fcbe022fc	regulatory_rna_mediated_indirect_regulation	miR-451 from the bicistronic miR-144/451 locus	4	24	16.7	0		2	0
+T3VP_0011	PAIR_STAT3_CYLD_870ad9a86052	regulatory_rna_mediated_indirect_regulation	miR-181b-1	3	24	12.5	0		1	0
+T3VP_0015	PAIR_GATA1_YWHAZ_d99fcbe022fc	regulatory_rna_mediated_indirect_regulation	miR-451 from the bicistronic miR-144/451 locus	3	24	12.5	0		2	0
+T3VP_0001	PAIR_STAT3_CYLD_870ad9a86052	regulatory_rna_mediated_indirect_regulation	miR-181b-1	2	24	8.3	0		1	0
+T3VP_0008	PAIR_SMAD3_PTPRK_984d80e568f9	combinatorial_tf_regulation	SMAD4; NOTCH1 intracellular-domain/RBPJ pathway	2	24	8.3	0		1	0
+T3VP_0013	PAIR_HIF1A_E2F3_c7315afb1aed	regulatory_rna_mediated_indirect_regulation	miR-210	2	24	8.3	0		1	0
+T3VP_0019	PAIR_HIF1A_E2F3_c7315afb1aed	regulatory_rna_mediated_indirect_regulation	miR-210	2	24	8.3	0		2	0
+T3VP_0003	PAIR_TWIST1_HOXD10_2d8ed112b281	regulatory_rna_mediated_indirect_regulation	miR-10b	1	24	4.2	0		1	0
+T3VP_0010	PAIR_HIF1A_ISCU_5322a09cd4b2	regulatory_rna_mediated_indirect_regulation	miR-210	1	24	4.2	0		1	0
+T3VP_0014	PAIR_TWIST1_HOXD10_2d8ed112b281	regulatory_rna_mediated_indirect_regulation	miR-10b	1	24	4.2	0		1	0
+T3VP_0016	PAIR_HIF1A_ISCU_5322a09cd4b2	regulatory_rna_mediated_indirect_regulation	miR-210	1	24	4.2	0		1	0

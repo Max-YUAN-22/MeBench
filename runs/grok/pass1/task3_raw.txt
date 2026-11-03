@@ -1,0 +1,21 @@
+unit_id	predicted_intervention_type	mechanism_reasoning
+T3VP_0001	overexpression	STAT3 transcriptionally induces miR-181b as the intermediate regulatory RNA that post-transcriptionally represses CYLD so overexpression of miR-181b downregulates CYLD via regulatory_rna_mediated_indirect_regulation
+T3VP_0002	overexpression	BHLHE40 functions as a repressive partner transcription factor that antagonizes PPARA at Pdk4 so BHLHE40 overexpression downregulates Pdk4 via combinatorial_tf_regulation
+T3VP_0003	knockdown	TWIST1 transcriptionally induces miR-10b as the intermediate regulatory RNA that post-transcriptionally represses HOXD10 so knockdown of miR-10b upregulates HOXD10 via regulatory_rna_mediated_indirect_regulation
+T3VP_0004	overexpression	PPARA binds a target-linked cis-regulatory DNA element to activate Angptl4 so PPARA overexpression upregulates Angptl4 via direct_cis_regulatory_dna
+T3VP_0005	overexpression	PPARA binds a target-linked cis-regulatory DNA element to activate Hmgcs2 so PPARA overexpression upregulates Hmgcs2 via direct_cis_regulatory_dna
+T3VP_0006	knockdown	NOTCH1 functions as a partner transcription factor required together with SMAD3 to activate PTPRK so NOTCH1 knockdown downregulates PTPRK via combinatorial_tf_regulation
+T3VP_0007	knockdown	SMAD3 requires partner transcription factors to activate PTPRK so SMAD3 knockdown downregulates PTPRK via combinatorial_tf_regulation
+T3VP_0008	knockdown	SMAD4 functions as the co-SMAD partner transcription factor required by SMAD3 to activate PTPRK so SMAD4 knockdown downregulates PTPRK via combinatorial_tf_regulation
+T3VP_0009	activation	NOTCH1 and TGF-beta/SMAD3 function as cooperating partner transcription factors that jointly activate PTPRK so their combined activation upregulates PTPRK via combinatorial_tf_regulation
+T3VP_0010	overexpression	HIF1A transcriptionally induces miR-210 as the intermediate regulatory RNA that post-transcriptionally represses ISCU so overexpression of miR-210 downregulates ISCU via regulatory_rna_mediated_indirect_regulation
+T3VP_0011	knockdown	STAT3 transcriptionally induces miR-181b as the intermediate regulatory RNA that post-transcriptionally represses CYLD so knockdown of miR-181b upregulates CYLD via regulatory_rna_mediated_indirect_regulation
+T3VP_0012	overexpression	PPARA binds a target-linked cis-regulatory DNA element to activate Pdk4 so PPARA overexpression upregulates Pdk4 via direct_cis_regulatory_dna
+T3VP_0013	knockdown	HIF1A transcriptionally induces miR-210 as the intermediate regulatory RNA that post-transcriptionally represses E2F3 so knockdown of miR-210 upregulates E2F3 via regulatory_rna_mediated_indirect_regulation
+T3VP_0014	overexpression	TWIST1 transcriptionally induces miR-10b as the intermediate regulatory RNA that post-transcriptionally represses HOXD10 so overexpression of miR-10b downregulates HOXD10 via regulatory_rna_mediated_indirect_regulation
+T3VP_0015	knockdown	GATA1 transcriptionally induces miR-451 as the intermediate regulatory RNA that post-transcriptionally represses Ywhaz so knockdown of miR-451 upregulates Ywhaz via regulatory_rna_mediated_indirect_regulation
+T3VP_0016	knockdown	HIF1A transcriptionally induces miR-210 as the intermediate regulatory RNA that post-transcriptionally represses ISCU so knockdown of miR-210 upregulates ISCU via regulatory_rna_mediated_indirect_regulation
+T3VP_0017	overexpression	GATA1 transcriptionally induces miR-451 as the intermediate regulatory RNA that post-transcriptionally represses Ywhaz so overexpression of miR-451 downregulates Ywhaz via regulatory_rna_mediated_indirect_regulation
+T3VP_0018	overexpression	BHLHE40 functions as a repressive partner transcription factor that antagonizes PPARA at Hmgcs2 so BHLHE40 overexpression downregulates Hmgcs2 via combinatorial_tf_regulation
+T3VP_0019	overexpression	HIF1A transcriptionally induces miR-210 as the intermediate regulatory RNA that post-transcriptionally represses E2F3 so overexpression of miR-210 downregulates E2F3 via regulatory_rna_mediated_indirect_regulation
+T3VP_0020	overexpression	BHLHE40 functions as a repressive partner transcription factor that antagonizes PPARA at Angptl4 so BHLHE40 overexpression downregulates Angptl4 via combinatorial_tf_regulation

@@ -1,0 +1,194 @@
+unit_id	predicted_direction	mechanism_reasoning
+T2U_0001	up	chromatin_mediated_regulation with EED/PRC2 as repressive chromatin regulator in the CDX2 effect on Scin; loss of EED/PRC2 relieves chromatin repression leading to Scin up
+T2U_0002	up	chromatin_mediated_regulation with EED/PRC2 as repressive chromatin regulator in the CDX2 effect on Slc26a6; loss of EED/PRC2 relieves chromatin repression leading to Slc26a6 up
+T2U_0003	down	direct_cis_regulatory_dna with TP63 binding cis-regulatory DNA of ANKRD27 to activate it; loss of TP63 reduces cis-activation leading to ANKRD27 down
+T2U_0004	down	direct_cis_regulatory_dna with TP63 binding cis-regulatory DNA of HNRNPA1 to activate it; loss of TP63 reduces cis-activation leading to HNRNPA1 down
+T2U_0005	down	direct_cis_regulatory_dna with TP63 binding cis-regulatory DNA of HNRNPL to activate it; loss of TP63 reduces cis-activation leading to HNRNPL down
+T2U_0006	down	direct_cis_regulatory_dna with TP63 binding cis-regulatory DNA of L3HYPDH to activate it; loss of TP63 reduces cis-activation leading to L3HYPDH down
+T2U_0007	down	direct_cis_regulatory_dna with TP63 binding cis-regulatory DNA of NABP2 to activate it; loss of TP63 reduces cis-activation leading to NABP2 down
+T2U_0008	down	direct_cis_regulatory_dna with TP63 binding cis-regulatory DNA of RPS16 to activate it; loss of TP63 reduces cis-activation leading to RPS16 down
+T2U_0009	down	direct_cis_regulatory_dna with TP63 binding cis-regulatory DNA of TIMM50 to activate it; loss of TP63 reduces cis-activation leading to TIMM50 down
+T2U_0010	down	chromatin_mediated_regulation with TET2 as DNA-demethylase chromatin regulator required for ESR1 activation of ELOVL2; loss of TET2 impairs active chromatin leading to ELOVL2 down
+T2U_0011	down	chromatin_mediated_regulation with TET2 as DNA-demethylase chromatin regulator required for ESR1 activation of PTGES; loss of TET2 impairs active chromatin leading to PTGES down
+T2U_0012	down	chromatin_mediated_regulation with TET2 as DNA-demethylase chromatin regulator required for ESR1 activation of WIPF1; loss of TET2 impairs active chromatin leading to WIPF1 down
+T2U_0013	down	direct_cis_regulatory_dna with ESR1 acting through target-linked cis-regulatory DNA sites of CISH to activate it; loss of the sites prevents ESR1 binding leading to CISH down
+T2U_0014	down	direct_cis_regulatory_dna with ESR1 acting through target-linked cis-regulatory DNA sites of G0S2 to activate it; loss of the sites prevents ESR1 binding leading to G0S2 down
+T2U_0015	down	direct_cis_regulatory_dna with ESR1 acting through target-linked cis-regulatory DNA sites of MMP17 to activate it; loss of the sites prevents ESR1 binding leading to MMP17 down
+T2U_0016	down	combinatorial_tf_regulation with GATA1 D218G variant disrupting partner TF interaction; impaired combinatorial activation by GATA1 leads to Lrrc39 down
+T2U_0017	down	combinatorial_tf_regulation with GATA1 D218G variant disrupting partner TF interaction; impaired combinatorial activation by GATA1 leads to Rragd down
+T2U_0018	down	combinatorial_tf_regulation with GATA1 D218G variant disrupting partner TF interaction; impaired combinatorial activation by GATA1 leads to Slc4a1 down
+T2U_0019	down	combinatorial_tf_regulation with GATA1 R216Q variant disrupting partner TF interaction; impaired combinatorial activation by GATA1 leads to Lrrc39 down
+T2U_0020	down	combinatorial_tf_regulation with GATA1 R216Q variant disrupting partner TF interaction; impaired combinatorial activation by GATA1 leads to Rragd down
+T2U_0021	down	combinatorial_tf_regulation with GATA1 R216Q variant disrupting partner TF interaction; impaired combinatorial activation by GATA1 leads to Slc4a1 down
+T2U_0022	down	chromatin_mediated_regulation with H2A.Z as histone-variant chromatin component required for TP63 activation of SAMD9L; loss of H2A.Z impairs active chromatin leading to SAMD9L down
+T2U_0023	down	chromatin_mediated_regulation with H2A.Z as histone-variant chromatin component required for TP63 activation of ZHX2; loss of H2A.Z impairs active chromatin leading to ZHX2 down
+T2U_0024	down	regulatory_rna_mediated_indirect_regulation with miR-210 as intermediate repressive RNA induced by HIF1A; gain of miR-210 increases mRNA targeting of ISCU leading to ISCU down
+T2U_0025	up	regulatory_rna_mediated_indirect_regulation with miR-10b as intermediate repressive RNA induced by TWIST1; loss of miR-10b reduces mRNA targeting of HOXD10 leading to HOXD10 up
+T2U_0026	down	direct_cis_regulatory_dna with ESR1 acting through the CA12e cis-regulatory enhancer DNA to activate CA12; loss of CA12e prevents ESR1-mediated activation leading to CA12 down
+T2U_0027	down	direct_cis_regulatory_dna with ESR1 acting through the FOXC1e cis-regulatory enhancer DNA to activate FOXC1; loss of FOXC1e prevents ESR1-mediated activation leading to FOXC1 down
+T2U_0028	down	direct_cis_regulatory_dna with ESR1 acting through the GREB1e cis-regulatory enhancer DNA to activate GREB1; loss of GREB1e prevents ESR1-mediated activation leading to GREB1 down
+T2U_0029	down	direct_cis_regulatory_dna with ESR1 acting through the KCNK5e cis-regulatory enhancer DNA to activate KCNK5; loss of KCNK5e prevents ESR1-mediated activation leading to KCNK5 down
+T2U_0030	down	direct_cis_regulatory_dna with ESR1 acting through the NRIP1e cis-regulatory enhancer DNA to activate NRIP1; loss of NRIP1e prevents ESR1-mediated activation leading to NRIP1 down
+T2U_0031	down	direct_cis_regulatory_dna with ESR1 acting through the P2RY2e cis-regulatory enhancer DNA to activate P2RY2; loss of P2RY2e prevents ESR1-mediated activation leading to P2RY2 down
+T2U_0032	down	direct_cis_regulatory_dna with ESR1 acting through the PGRe cis-regulatory enhancer DNA to activate PGR; loss of PGRe prevents ESR1-mediated activation leading to PGR down
+T2U_0033	down	direct_cis_regulatory_dna with ESR1 acting through the SIAH2e cis-regulatory enhancer DNA to activate SIAH2; loss of SIAH2e prevents ESR1-mediated activation leading to SIAH2 down
+T2U_0034	down	direct_cis_regulatory_dna with ESR1 acting through the SMAD7e cis-regulatory enhancer DNA to activate SMAD7; loss of SMAD7e prevents ESR1-mediated activation leading to SMAD7 down
+T2U_0035	down	direct_cis_regulatory_dna with ESR1 acting through the TFF1e cis-regulatory enhancer DNA to activate TFF1; loss of TFF1e prevents ESR1-mediated activation leading to TFF1 down
+T2U_0036	up	direct_cis_regulatory_dna with PPARA binding cis-regulatory DNA of Angptl4 to activate it; gain of PPARA increases cis-activation leading to Angptl4 up
+T2U_0037	up	direct_cis_regulatory_dna with PPARA binding cis-regulatory DNA of Hmgcs2 to activate it; gain of PPARA increases cis-activation leading to Hmgcs2 up
+T2U_0038	up	direct_cis_regulatory_dna with PPARA binding cis-regulatory DNA of Pdk4 to activate it; gain of PPARA increases cis-activation leading to Pdk4 up
+T2U_0039	up	combinatorial_tf_regulation with BHLHE40 as repressive partner TF opposing PPARA; loss of BHLHE40 relieves combinatorial repression leading to Angptl4 up
+T2U_0040	up	combinatorial_tf_regulation with BHLHE40 as repressive partner TF opposing PPARA; loss of BHLHE40 relieves combinatorial repression leading to Hmgcs2 up
+T2U_0041	up	combinatorial_tf_regulation with BHLHE40 as repressive partner TF opposing PPARA; loss of BHLHE40 relieves combinatorial repression leading to Pdk4 up
+T2U_0042	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of ABCF2 to activate it; loss of ZNF143 reduces cis-activation leading to ABCF2 down
+T2U_0043	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of ADAT3 to activate it; loss of ZNF143 reduces cis-activation leading to ADAT3 down
+T2U_0044	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of AKR1A1 to activate it; loss of ZNF143 reduces cis-activation leading to AKR1A1 down
+T2U_0045	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of ANKRD13B to activate it; loss of ZNF143 reduces cis-activation leading to ANKRD13B down
+T2U_0046	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of AP1S3 to activate it; loss of ZNF143 reduces cis-activation leading to AP1S3 down
+T2U_0047	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of ARID5A to activate it; loss of ZNF143 reduces cis-activation leading to ARID5A down
+T2U_0048	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of ASB13 to activate it; loss of ZNF143 reduces cis-activation leading to ASB13 down
+T2U_0049	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of BIRC5 to activate it; loss of ZNF143 reduces cis-activation leading to BIRC5 down
+T2U_0050	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of CASC3 to activate it; loss of ZNF143 reduces cis-activation leading to CASC3 down
+T2U_0051	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of CCDC157 to activate it; loss of ZNF143 reduces cis-activation leading to CCDC157 down
+T2U_0052	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of CCDC92 to activate it; loss of ZNF143 reduces cis-activation leading to CCDC92 down
+T2U_0053	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of CCPG1 to activate it; loss of ZNF143 reduces cis-activation leading to CCPG1 down
+T2U_0054	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of CKAP2L to activate it; loss of ZNF143 reduces cis-activation leading to CKAP2L down
+T2U_0055	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of CNIH1 to activate it; loss of ZNF143 reduces cis-activation leading to CNIH1 down
+T2U_0056	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of CPOX to activate it; loss of ZNF143 reduces cis-activation leading to CPOX down
+T2U_0057	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of CPSF4 to activate it; loss of ZNF143 reduces cis-activation leading to CPSF4 down
+T2U_0058	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of CRCP to activate it; loss of ZNF143 reduces cis-activation leading to CRCP down
+T2U_0059	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of CREBL2 to activate it; loss of ZNF143 reduces cis-activation leading to CREBL2 down
+T2U_0060	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of CWC15 to activate it; loss of ZNF143 reduces cis-activation leading to CWC15 down
+T2U_0061	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of CYB5R1 to activate it; loss of ZNF143 reduces cis-activation leading to CYB5R1 down
+T2U_0062	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of EGR1 to activate it; loss of ZNF143 reduces cis-activation leading to EGR1 down
+T2U_0063	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of EMC1 to activate it; loss of ZNF143 reduces cis-activation leading to EMC1 down
+T2U_0064	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of ENKD1 to activate it; loss of ZNF143 reduces cis-activation leading to ENKD1 down
+T2U_0065	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of ERAL1 to activate it; loss of ZNF143 reduces cis-activation leading to ERAL1 down
+T2U_0066	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of ERP44 to activate it; loss of ZNF143 reduces cis-activation leading to ERP44 down
+T2U_0067	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of FASTK to activate it; loss of ZNF143 reduces cis-activation leading to FASTK down
+T2U_0068	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of FH to activate it; loss of ZNF143 reduces cis-activation leading to FH down
+T2U_0069	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of GAMT to activate it; loss of ZNF143 reduces cis-activation leading to GAMT down
+T2U_0070	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of GOLGA2 to activate it; loss of ZNF143 reduces cis-activation leading to GOLGA2 down
+T2U_0071	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of GTPBP8 to activate it; loss of ZNF143 reduces cis-activation leading to GTPBP8 down
+T2U_0072	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of HMGCL to activate it; loss of ZNF143 reduces cis-activation leading to HMGCL down
+T2U_0073	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of HSPA14 to activate it; loss of ZNF143 reduces cis-activation leading to HSPA14 down
+T2U_0074	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of IK to activate it; loss of ZNF143 reduces cis-activation leading to IK down
+T2U_0075	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of JMJD8 to activate it; loss of ZNF143 reduces cis-activation leading to JMJD8 down
+T2U_0076	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of JUN to activate it; loss of ZNF143 reduces cis-activation leading to JUN down
+T2U_0077	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of JUND to activate it; loss of ZNF143 reduces cis-activation leading to JUND down
+T2U_0078	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of KDELR2 to activate it; loss of ZNF143 reduces cis-activation leading to KDELR2 down
+T2U_0079	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of KLC2 to activate it; loss of ZNF143 reduces cis-activation leading to KLC2 down
+T2U_0080	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of KPNA5 to activate it; loss of ZNF143 reduces cis-activation leading to KPNA5 down
+T2U_0081	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of LATS1 to activate it; loss of ZNF143 reduces cis-activation leading to LATS1 down
+T2U_0082	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of MED16 to activate it; loss of ZNF143 reduces cis-activation leading to MED16 down
+T2U_0083	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of MFSD3 to activate it; loss of ZNF143 reduces cis-activation leading to MFSD3 down
+T2U_0084	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of MRPL46 to activate it; loss of ZNF143 reduces cis-activation leading to MRPL46 down
+T2U_0085	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of MRPL54 to activate it; loss of ZNF143 reduces cis-activation leading to MRPL54 down
+T2U_0086	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of MRPS11 to activate it; loss of ZNF143 reduces cis-activation leading to MRPS11 down
+T2U_0087	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of MTMR1 to activate it; loss of ZNF143 reduces cis-activation leading to MTMR1 down
+T2U_0088	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of NUTF2 to activate it; loss of ZNF143 reduces cis-activation leading to NUTF2 down
+T2U_0089	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of PAPOLG to activate it; loss of ZNF143 reduces cis-activation leading to PAPOLG down
+T2U_0090	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of PLAGL2 to activate it; loss of ZNF143 reduces cis-activation leading to PLAGL2 down
+T2U_0091	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of PNKD to activate it; loss of ZNF143 reduces cis-activation leading to PNKD down
+T2U_0092	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of POMT2 to activate it; loss of ZNF143 reduces cis-activation leading to POMT2 down
+T2U_0093	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of PRIM1 to activate it; loss of ZNF143 reduces cis-activation leading to PRIM1 down
+T2U_0094	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of PRKAA2 to activate it; loss of ZNF143 reduces cis-activation leading to PRKAA2 down
+T2U_0095	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of PROSER3 to activate it; loss of ZNF143 reduces cis-activation leading to PROSER3 down
+T2U_0096	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of PSMC6 to activate it; loss of ZNF143 reduces cis-activation leading to PSMC6 down
+T2U_0097	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of PTPMT1 to activate it; loss of ZNF143 reduces cis-activation leading to PTPMT1 down
+T2U_0098	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of PTRHD1 to activate it; loss of ZNF143 reduces cis-activation leading to PTRHD1 down
+T2U_0099	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of RDH11 to activate it; loss of ZNF143 reduces cis-activation leading to RDH11 down
+T2U_0100	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of RIC8A to activate it; loss of ZNF143 reduces cis-activation leading to RIC8A down
+T2U_0101	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of RNF40 to activate it; loss of ZNF143 reduces cis-activation leading to RNF40 down
+T2U_0102	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of RPAIN to activate it; loss of ZNF143 reduces cis-activation leading to RPAIN down
+T2U_0103	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of RPL6 to activate it; loss of ZNF143 reduces cis-activation leading to RPL6 down
+T2U_0104	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of RSBN1 to activate it; loss of ZNF143 reduces cis-activation leading to RSBN1 down
+T2U_0105	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of SAMD13 to activate it; loss of ZNF143 reduces cis-activation leading to SAMD13 down
+T2U_0106	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of SAV1 to activate it; loss of ZNF143 reduces cis-activation leading to SAV1 down
+T2U_0107	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of SEPTIN8 to activate it; loss of ZNF143 reduces cis-activation leading to SEPTIN8 down
+T2U_0108	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of SFT2D2 to activate it; loss of ZNF143 reduces cis-activation leading to SFT2D2 down
+T2U_0109	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of SGF29 to activate it; loss of ZNF143 reduces cis-activation leading to SGF29 down
+T2U_0110	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of SLC7A6OS to activate it; loss of ZNF143 reduces cis-activation leading to SLC7A6OS down
+T2U_0111	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of SLC9A6 to activate it; loss of ZNF143 reduces cis-activation leading to SLC9A6 down
+T2U_0112	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of SNRNP48 to activate it; loss of ZNF143 reduces cis-activation leading to SNRNP48 down
+T2U_0113	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of SNRNP70 to activate it; loss of ZNF143 reduces cis-activation leading to SNRNP70 down
+T2U_0114	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of SNRPD3 to activate it; loss of ZNF143 reduces cis-activation leading to SNRPD3 down
+T2U_0115	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of SSB to activate it; loss of ZNF143 reduces cis-activation leading to SSB down
+T2U_0116	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of STARD10 to activate it; loss of ZNF143 reduces cis-activation leading to STARD10 down
+T2U_0117	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of TFAM to activate it; loss of ZNF143 reduces cis-activation leading to TFAM down
+T2U_0118	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of THOC7 to activate it; loss of ZNF143 reduces cis-activation leading to THOC7 down
+T2U_0119	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of THOP1 to activate it; loss of ZNF143 reduces cis-activation leading to THOP1 down
+T2U_0120	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of TIMM17A to activate it; loss of ZNF143 reduces cis-activation leading to TIMM17A down
+T2U_0121	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of TMEM258 to activate it; loss of ZNF143 reduces cis-activation leading to TMEM258 down
+T2U_0122	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of TMOD2 to activate it; loss of ZNF143 reduces cis-activation leading to TMOD2 down
+T2U_0123	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of TOMM70 to activate it; loss of ZNF143 reduces cis-activation leading to TOMM70 down
+T2U_0124	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of TPRA1 to activate it; loss of ZNF143 reduces cis-activation leading to TPRA1 down
+T2U_0125	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of UBALD1 to activate it; loss of ZNF143 reduces cis-activation leading to UBALD1 down
+T2U_0126	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of UBFD1 to activate it; loss of ZNF143 reduces cis-activation leading to UBFD1 down
+T2U_0127	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of UQCR10 to activate it; loss of ZNF143 reduces cis-activation leading to UQCR10 down
+T2U_0128	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of VASP to activate it; loss of ZNF143 reduces cis-activation leading to VASP down
+T2U_0129	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of ZBTB10 to activate it; loss of ZNF143 reduces cis-activation leading to ZBTB10 down
+T2U_0130	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of ZFTA to activate it; loss of ZNF143 reduces cis-activation leading to ZFTA down
+T2U_0131	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of ZMYM6 to activate it; loss of ZNF143 reduces cis-activation leading to ZMYM6 down
+T2U_0132	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of ZNF200 to activate it; loss of ZNF143 reduces cis-activation leading to ZNF200 down
+T2U_0133	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of ZNF24 to activate it; loss of ZNF143 reduces cis-activation leading to ZNF24 down
+T2U_0134	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of ZNF354A to activate it; loss of ZNF143 reduces cis-activation leading to ZNF354A down
+T2U_0135	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of ZNF382 to activate it; loss of ZNF143 reduces cis-activation leading to ZNF382 down
+T2U_0136	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of ZNF473 to activate it; loss of ZNF143 reduces cis-activation leading to ZNF473 down
+T2U_0137	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of ZNF485 to activate it; loss of ZNF143 reduces cis-activation leading to ZNF485 down
+T2U_0138	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of ZNF607 to activate it; loss of ZNF143 reduces cis-activation leading to ZNF607 down
+T2U_0139	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of ZNF746 to activate it; loss of ZNF143 reduces cis-activation leading to ZNF746 down
+T2U_0140	down	direct_cis_regulatory_dna with ZNF143 binding cis-regulatory DNA of ZW10 to activate it; loss of ZNF143 reduces cis-activation leading to ZW10 down
+T2U_0141	down	direct_cis_regulatory_dna with NANOG binding its own cis-regulatory DNA for positive autoregulation; loss of NANOG protein reduces autoactivation leading to Nanog down
+T2U_0142	up	direct_cis_regulatory_dna with POU5F1 binding cis-regulatory DNA of Pax6 to repress it; loss of POU5F1/OCT4 protein relieves cis-repression leading to Pax6 up
+T2U_0143	down	direct_cis_regulatory_dna with POU5F1 binding cis-regulatory DNA of Utf1 to activate it; loss of POU5F1/OCT4 protein reduces cis-activation leading to Utf1 down
+T2U_0144	up	regulatory_rna_mediated_indirect_regulation with lincRNA-p21 as intermediate repressive RNA induced by TP53; loss of lincRNA-p21 reduces repression of MTAP4 leading to MTAP4 up
+T2U_0145	up	regulatory_rna_mediated_indirect_regulation with lincRNA-p21 as intermediate repressive RNA induced by TP53; loss of lincRNA-p21 reduces repression of SUV39H1 leading to SUV39H1 up
+T2U_0146	up	regulatory_rna_mediated_indirect_regulation with lincRNA-p21 as intermediate repressive RNA induced by TP53; loss of lincRNA-p21 reduces repression of VCAN leading to VCAN up
+T2U_0147	up	regulatory_rna_mediated_indirect_regulation with miR-210 as intermediate repressive RNA induced by HIF1A; loss of miR-210 reduces mRNA targeting of E2F3 leading to E2F3 up
+T2U_0148	up	combinatorial_tf_regulation with NOTCH1 as partner cooperating with SMAD3; gain of NOTCH1 and TGF-beta/SMAD3 increases combinatorial activation of PTPRK leading to PTPRK up
+T2U_0149	down	combinatorial_tf_regulation with NOTCH1 as partner required for SMAD3 effect on PTPRK; loss of NOTCH1 impairs combinatorial regulation leading to PTPRK down
+T2U_0150	down	direct_cis_regulatory_dna with SMAD3 binding cis-regulatory DNA of PTPRK to activate it; loss of SMAD3 reduces cis-activation leading to PTPRK down
+T2U_0151	down	combinatorial_tf_regulation with SMAD4 as co-SMAD partner TF required with SMAD3; loss of SMAD4 impairs SMAD3 activation of PTPRK leading to PTPRK down
+T2U_0152	up	chromatin_mediated_regulation with UHRF1 as repressive DNA-methylation chromatin regulator in the PPARA effect on Cdh1; loss of UHRF1 relieves repression leading to Cdh1 up
+T2U_0153	up	chromatin_mediated_regulation with UHRF1 as repressive DNA-methylation chromatin regulator in the PPARA effect on Cdh3; loss of UHRF1 relieves repression leading to Cdh3 up
+T2U_0154	up	chromatin_mediated_regulation with UHRF1 as repressive DNA-methylation chromatin regulator in the PPARA effect on Smpd3; loss of UHRF1 relieves repression leading to Smpd3 up
+T2U_0155	down	regulatory_rna_mediated_indirect_regulation with miR-210 as intermediate repressive RNA induced by HIF1A; gain of miR-210 increases mRNA targeting of E2F3 leading to E2F3 down
+T2U_0156	down	direct_cis_regulatory_dna with POU5F1 acting through the Nanog upstream cis-regulatory site to activate Nanog; perturbation of the site prevents binding leading to Nanog down
+T2U_0157	down	direct_cis_regulatory_dna with RELA acting through the TBC1D4 intronic NF-kB cis site to activate TBC1D4; perturbation of the site prevents binding leading to TBC1D4 down
+T2U_0158	down	direct_cis_regulatory_dna with MYC acting through the E-box cis-regulatory DNA to activate PRKCQ; perturbation of the E-box prevents MYC binding leading to PRKCQ down
+T2U_0159	down	direct_cis_regulatory_dna with MYC acting through the E-box cis-regulatory DNA to activate PRKCQ-AS1; perturbation of the E-box prevents MYC binding leading to PRKCQ-AS1 down
+T2U_0160	down	direct_cis_regulatory_dna with MYC acting through the E-box cis-regulatory DNA to activate PFAS; perturbation of the E-box prevents MYC binding leading to PFAS down
+T2U_0161	down	combinatorial_tf_regulation with FOXK1 as partner TF cooperating with TP63; loss of FOXK1 impairs co-activation of ANKRD27 leading to ANKRD27 down
+T2U_0162	down	combinatorial_tf_regulation with FOXK1 as partner TF cooperating with TP63; loss of FOXK1 impairs co-activation of HNRNPA1 leading to HNRNPA1 down
+T2U_0163	down	combinatorial_tf_regulation with FOXK1 as partner TF cooperating with TP63; loss of FOXK1 impairs co-activation of HNRNPL leading to HNRNPL down
+T2U_0164	down	combinatorial_tf_regulation with FOXK1 as partner TF cooperating with TP63; loss of FOXK1 impairs co-activation of L3HYPDH leading to L3HYPDH down
+T2U_0165	down	combinatorial_tf_regulation with FOXK1 as partner TF cooperating with TP63; loss of FOXK1 impairs co-activation of NABP2 leading to NABP2 down
+T2U_0166	down	combinatorial_tf_regulation with FOXK1 as partner TF cooperating with TP63; loss of FOXK1 impairs co-activation of RPS16 leading to RPS16 down
+T2U_0167	down	combinatorial_tf_regulation with FOXK1 as partner TF cooperating with TP63; loss of FOXK1 impairs co-activation of TIMM50 leading to TIMM50 down
+T2U_0168	down	combinatorial_tf_regulation with MAFG/MAFF as obligatory partner TFs for NFE2L2; loss of MAFG/MAFF prevents NFE2L2 activation of Txnrd1 leading to Txnrd1 down
+T2U_0169	down	direct_cis_regulatory_dna with NFE2L2 binding cis-regulatory DNA of Txnrd1 to activate it; loss of NFE2L2 reduces cis-activation leading to Txnrd1 down
+T2U_0170	up	regulatory_rna_mediated_indirect_regulation with miR-451 as intermediate repressive RNA induced by GATA1; loss of miR-451 reduces mRNA targeting of Ywhaz leading to Ywhaz up
+T2U_0171	down	direct_cis_regulatory_dna with STAT3 acting through the Klf4 E2 cis-regulatory site to activate Klf4; perturbation of the site prevents STAT3 binding leading to Klf4 down
+T2U_0172	down	direct_cis_regulatory_dna with GATA1 acting through the ATP2B4 intronic cis-regulatory site to activate ATP2B4; perturbation of the site prevents GATA1 binding leading to ATP2B4 down
+T2U_0173	up	chromatin_mediated_regulation with BRG1/SMARCA4 as chromatin remodeler required for REST-mediated repression of L1CAM; loss of BRG1/SMARCA4 relieves repression leading to L1CAM up
+T2U_0174	up	chromatin_mediated_regulation with BRG1/SMARCA4 as chromatin remodeler required for REST-mediated repression of SNAP25; loss of BRG1/SMARCA4 relieves repression leading to SNAP25 up
+T2U_0175	up	direct_cis_regulatory_dna with ZNF263 acting through the CUL3 intronic cis-regulatory region to repress CUL3; perturbation of the region prevents repression leading to CUL3 up
+T2U_0176	down	direct_cis_regulatory_dna with YY1 acting through CUL3 regulatory site B to activate CUL3; perturbation of the site prevents YY1 binding leading to CUL3 down
+T2U_0179	down	direct_cis_regulatory_dna with CTCF acting through CUL3 regulatory site A for cis-activation of CUL3; perturbation of the site impairs CTCF-mediated regulation leading to CUL3 down
+T2U_0180	down	regulatory_rna_mediated_indirect_regulation with miR-451 as intermediate repressive RNA induced by GATA1; gain of miR-451 increases mRNA targeting of Ywhaz leading to Ywhaz down
+T2U_0181	down	chromatin_mediated_regulation with KMT2D as H3K4-methyltransferase chromatin regulator required for GATA1 activation of EPOR; loss of KMT2D impairs active chromatin leading to EPOR down
+T2U_0182	down	chromatin_mediated_regulation with KMT2D as H3K4-methyltransferase chromatin regulator required for GATA1 activation of SLC25A37; loss of KMT2D impairs active chromatin leading to SLC25A37 down
+T2U_0183	down	regulatory_rna_mediated_indirect_regulation with miR-10b as intermediate repressive RNA induced by TWIST1; gain of miR-10b increases mRNA targeting of HOXD10 leading to HOXD10 down
+T2U_0186	down	chromatin_mediated_regulation with KMT2D as H3K4-methyltransferase chromatin regulator required for GATA1 activation of SLC22A4; loss of KMT2D impairs active chromatin leading to SLC22A4 down
+T2U_0188	down	chromatin_mediated_regulation with KMT2D as H3K4-methyltransferase chromatin regulator required for GATA1 activation of ZFPM1; loss of KMT2D impairs active chromatin leading to ZFPM1 down
+T2U_0189	up	regulatory_rna_mediated_indirect_regulation with miR-181b as intermediate repressive RNA induced by STAT3; loss of miR-181b reduces mRNA targeting of CYLD leading to CYLD up
+T2U_0190	up	regulatory_rna_mediated_indirect_regulation with miR-181b-1 as intermediate repressive RNA induced by STAT3; loss of miR-181b-1 reduces mRNA targeting of CYLD leading to CYLD up
+T2U_0191	up	regulatory_rna_mediated_indirect_regulation with miR-21 as intermediate repressive RNA induced by STAT3; loss of miR-21 reduces mRNA targeting of PTEN leading to PTEN up
+T2U_0192	up	regulatory_rna_mediated_indirect_regulation with miR-210 as intermediate repressive RNA induced by HIF1A; loss of miR-210 reduces mRNA targeting of ISCU leading to ISCU up
+T2U_0193	down	regulatory_rna_mediated_indirect_regulation with miR-181b as intermediate repressive RNA induced by STAT3; gain of miR-181b increases mRNA targeting of CYLD leading to CYLD down
+T2U_0195	down	direct_cis_regulatory_dna with ETV4 binding cis-regulatory DNA of NOTCH4 to activate it; loss of ETV4 reduces cis-activation leading to NOTCH4 down
+T2U_0196	down	combinatorial_tf_regulation with FOSL1 as AP-1 partner TF cooperating with ETV4; loss of FOSL1 impairs co-activation of NOTCH4 leading to NOTCH4 down
+T2U_0197	down	combinatorial_tf_regulation with JUN as AP-1 partner TF cooperating with ETV4; loss of JUN impairs co-activation of NOTCH4 leading to NOTCH4 down
+T2U_0198	down	regulatory_rna_mediated_indirect_regulation with LED lncRNA as intermediate regulatory RNA induced by TP53 that supports CDKN1A activation; loss of LED lncRNA reduces CDKN1A expression leading to CDKN1A down
+T2U_0199	down	chromatin_mediated_regulation with LSD1/KDM1A as histone-demethylase chromatin regulator required for GATA2 activation of GATA1; loss of LSD1/KDM1A impairs the chromatin transition leading to GATA1 down

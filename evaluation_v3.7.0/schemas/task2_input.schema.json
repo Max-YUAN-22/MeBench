@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "v3.6.0_task2_minimal_perturbation_input",
+  "type": "object",
+  "required": [
+    "tf",
+    "target_gene",
+    "perturbation"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "tf": {
+      "type": "string"
+    },
+    "target_gene": {
+      "type": "string"
+    },
+    "perturbation": {
+      "type": "object",
+      "required": [
+        "perturbed_entity",
+        "intervention_type"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "perturbed_entity": {
+          "type": "string"
+        },
+        "intervention_type": {
+          "enum": [
+            "functional_variant",
+            "gain_or_activation",
+            "loss_or_reduction",
+            "regulatory_site_perturbation"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "task1_input_shape": {
+    "tf": "TF_SYMBOL",
+    "target_gene": "TARGET_SYMBOL"
+  },
+  "task2_input_shape": {
+    "tf": "TF_SYMBOL",
+    "target_gene": "TARGET_SYMBOL",
+    "perturbation": {
+      "perturbed_entity": "ENTITY",
+      "intervention_type": "COARSE_CLASS"
+    }
+  },
+  "task2_output_shape": {
+    "direction": "up|down",
+    "mechanism_reasoning": "Natural-language causal explanation connecting the supplied perturbation through the inferred mediator to the target direction."
+  },
+  "task3_input_shape": {
+    "tf": "TF_SYMBOL",
+    "target_gene": "TARGET_SYMBOL",
+    "direction": "up|down",
+    "perturbation": {
+      "perturbed_entity": "ENTITY"
+    }
+  },
+  "task3_output_shape": {
+    "predicted_intervention_type": "INTERVENTION",
+    "mechanism_reasoning": "Natural-language causal explanation from supplied entity through the inferred mechanism to the supplied direction."
+  }
+}

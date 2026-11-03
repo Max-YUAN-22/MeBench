@@ -1,0 +1,194 @@
+unit_id	predicted_direction	mechanism_reasoning
+T2U_0001	up	CDX2 represses Scin in a chromatin-mediated manner that requires the PRC2 complex to maintain H3K27me3; loss of EED/PRC2 therefore relieves repression and raises Scin.
+T2U_0002	up	CDX2 represses Slc26a6 in a chromatin-mediated manner that requires the PRC2 complex to maintain H3K27me3; loss of EED/PRC2 therefore relieves repression and raises Slc26a6.
+T2U_0003	down	TP63 is a direct activator that binds cis-regulatory DNA of ANKRD27; reducing TP63 therefore lowers ANKRD27.
+T2U_0004	down	TP63 is a direct activator that binds cis-regulatory DNA of HNRNPA1; reducing TP63 therefore lowers HNRNPA1.
+T2U_0005	down	TP63 is a direct activator that binds cis-regulatory DNA of HNRNPL; reducing TP63 therefore lowers HNRNPL.
+T2U_0006	down	TP63 is a direct activator that binds cis-regulatory DNA of L3HYPDH; reducing TP63 therefore lowers L3HYPDH.
+T2U_0007	down	TP63 is a direct activator that binds cis-regulatory DNA of NABP2; reducing TP63 therefore lowers NABP2.
+T2U_0008	down	TP63 is a direct activator that binds cis-regulatory DNA of RPS16; reducing TP63 therefore lowers RPS16.
+T2U_0009	down	TP63 is a direct activator that binds cis-regulatory DNA of TIMM50; reducing TP63 therefore lowers TIMM50.
+T2U_0010	down	ESR1 activates ELOVL2 in a chromatin-mediated manner that requires TET2-mediated DNA demethylation; reducing TET2 therefore lowers ELOVL2.
+T2U_0011	down	ESR1 activates PTGES in a chromatin-mediated manner that requires TET2-mediated DNA demethylation; reducing TET2 therefore lowers PTGES.
+T2U_0012	down	ESR1 activates WIPF1 in a chromatin-mediated manner that requires TET2-mediated DNA demethylation; reducing TET2 therefore lowers WIPF1.
+T2U_0013	down	ESR1 is a direct activator that operates through CISH-linked cis-regulatory sites; reducing those sites therefore lowers CISH.
+T2U_0014	down	ESR1 is a direct activator that operates through G0S2-linked cis-regulatory sites; reducing those sites therefore lowers G0S2.
+T2U_0015	down	ESR1 is a direct activator that operates through MMP17-linked cis-regulatory sites; reducing those sites therefore lowers MMP17.
+T2U_0016	down	The GATA1 D218G functional variant impairs the activator GATA1 so that it can no longer fully occupy cis-regulatory DNA of Lrrc39, lowering Lrrc39.
+T2U_0017	down	The GATA1 D218G functional variant impairs the activator GATA1 so that it can no longer fully occupy cis-regulatory DNA of Rragd, lowering Rragd.
+T2U_0018	down	The GATA1 D218G functional variant impairs the activator GATA1 so that it can no longer fully occupy cis-regulatory DNA of Slc4a1, lowering Slc4a1.
+T2U_0019	down	The GATA1 R216Q functional variant impairs the activator GATA1 so that it can no longer fully occupy cis-regulatory DNA of Lrrc39, lowering Lrrc39.
+T2U_0020	down	The GATA1 R216Q functional variant impairs the activator GATA1 so that it can no longer fully occupy cis-regulatory DNA of Rragd, lowering Rragd.
+T2U_0021	down	The GATA1 R216Q functional variant impairs the activator GATA1 so that it can no longer fully occupy cis-regulatory DNA of Slc4a1, lowering Slc4a1.
+T2U_0022	down	TP63 activates SAMD9L in a chromatin-mediated manner that requires the histone variant H2A.Z; reducing H2A.Z therefore lowers SAMD9L.
+T2U_0023	down	TP63 activates ZHX2 in a chromatin-mediated manner that requires the histone variant H2A.Z; reducing H2A.Z therefore lowers ZHX2.
+T2U_0024	down	HIF1A induces the intermediate regulatory RNA miR-210 which then represses ISCU; gaining miR-210 therefore lowers ISCU.
+T2U_0025	up	TWIST1 induces the intermediate regulatory RNA miR-10b which then represses HOXD10; reducing miR-10b therefore raises HOXD10.
+T2U_0026	down	ESR1 is a direct activator that operates through the CA12 enhancer; reducing that cis element therefore lowers CA12.
+T2U_0027	down	ESR1 is a direct activator that operates through the FOXC1 enhancer; reducing that cis element therefore lowers FOXC1.
+T2U_0028	down	ESR1 is a direct activator that operates through the GREB1 enhancer; reducing that cis element therefore lowers GREB1.
+T2U_0029	down	ESR1 is a direct activator that operates through the KCNK5 enhancer; reducing that cis element therefore lowers KCNK5.
+T2U_0030	down	ESR1 is a direct activator that operates through the NRIP1 enhancer; reducing that cis element therefore lowers NRIP1.
+T2U_0031	down	ESR1 is a direct activator that operates through the P2RY2 enhancer; reducing that cis element therefore lowers P2RY2.
+T2U_0032	down	ESR1 is a direct activator that operates through the PGR enhancer; reducing that cis element therefore lowers PGR.
+T2U_0033	down	ESR1 is a direct activator that operates through the SIAH2 enhancer; reducing that cis element therefore lowers SIAH2.
+T2U_0034	down	ESR1 is a direct activator that operates through the SMAD7 enhancer; reducing that cis element therefore lowers SMAD7.
+T2U_0035	down	ESR1 is a direct activator that operates through the TFF1 enhancer; reducing that cis element therefore lowers TFF1.
+T2U_0036	up	PPARA is a direct activator that binds cis-regulatory DNA of Angptl4; gaining PPARA therefore raises Angptl4.
+T2U_0037	up	PPARA is a direct activator that binds cis-regulatory DNA of Hmgcs2; gaining PPARA therefore raises Hmgcs2.
+T2U_0038	up	PPARA is a direct activator that binds cis-regulatory DNA of Pdk4; gaining PPARA therefore raises Pdk4.
+T2U_0039	down	PPARA requires the partner transcription factor BHLHE40 to activate Angptl4; reducing BHLHE40 therefore lowers Angptl4.
+T2U_0040	down	PPARA requires the partner transcription factor BHLHE40 to activate Hmgcs2; reducing BHLHE40 therefore lowers Hmgcs2.
+T2U_0041	down	PPARA requires the partner transcription factor BHLHE40 to activate Pdk4; reducing BHLHE40 therefore lowers Pdk4.
+T2U_0042	down	ZNF143 is a direct activator that binds cis-regulatory DNA of ABCF2; reducing ZNF143 therefore lowers ABCF2.
+T2U_0043	down	ZNF143 is a direct activator that binds cis-regulatory DNA of ADAT3; reducing ZNF143 therefore lowers ADAT3.
+T2U_0044	down	ZNF143 is a direct activator that binds cis-regulatory DNA of AKR1A1; reducing ZNF143 therefore lowers AKR1A1.
+T2U_0045	down	ZNF143 is a direct activator that binds cis-regulatory DNA of ANKRD13B; reducing ZNF143 therefore lowers ANKRD13B.
+T2U_0046	down	ZNF143 is a direct activator that binds cis-regulatory DNA of AP1S3; reducing ZNF143 therefore lowers AP1S3.
+T2U_0047	down	ZNF143 is a direct activator that binds cis-regulatory DNA of ARID5A; reducing ZNF143 therefore lowers ARID5A.
+T2U_0048	down	ZNF143 is a direct activator that binds cis-regulatory DNA of ASB13; reducing ZNF143 therefore lowers ASB13.
+T2U_0049	down	ZNF143 is a direct activator that binds cis-regulatory DNA of BIRC5; reducing ZNF143 therefore lowers BIRC5.
+T2U_0050	down	ZNF143 is a direct activator that binds cis-regulatory DNA of CASC3; reducing ZNF143 therefore lowers CASC3.
+T2U_0051	down	ZNF143 is a direct activator that binds cis-regulatory DNA of CCDC157; reducing ZNF143 therefore lowers CCDC157.
+T2U_0052	down	ZNF143 is a direct activator that binds cis-regulatory DNA of CCDC92; reducing ZNF143 therefore lowers CCDC92.
+T2U_0053	down	ZNF143 is a direct activator that binds cis-regulatory DNA of CCPG1; reducing ZNF143 therefore lowers CCPG1.
+T2U_0054	down	ZNF143 is a direct activator that binds cis-regulatory DNA of CKAP2L; reducing ZNF143 therefore lowers CKAP2L.
+T2U_0055	down	ZNF143 is a direct activator that binds cis-regulatory DNA of CNIH1; reducing ZNF143 therefore lowers CNIH1.
+T2U_0056	down	ZNF143 is a direct activator that binds cis-regulatory DNA of CPOX; reducing ZNF143 therefore lowers CPOX.
+T2U_0057	down	ZNF143 is a direct activator that binds cis-regulatory DNA of CPSF4; reducing ZNF143 therefore lowers CPSF4.
+T2U_0058	down	ZNF143 is a direct activator that binds cis-regulatory DNA of CRCP; reducing ZNF143 therefore lowers CRCP.
+T2U_0059	down	ZNF143 is a direct activator that binds cis-regulatory DNA of CREBL2; reducing ZNF143 therefore lowers CREBL2.
+T2U_0060	down	ZNF143 is a direct activator that binds cis-regulatory DNA of CWC15; reducing ZNF143 therefore lowers CWC15.
+T2U_0061	down	ZNF143 is a direct activator that binds cis-regulatory DNA of CYB5R1; reducing ZNF143 therefore lowers CYB5R1.
+T2U_0062	down	ZNF143 is a direct activator that binds cis-regulatory DNA of EGR1; reducing ZNF143 therefore lowers EGR1.
+T2U_0063	down	ZNF143 is a direct activator that binds cis-regulatory DNA of EMC1; reducing ZNF143 therefore lowers EMC1.
+T2U_0064	down	ZNF143 is a direct activator that binds cis-regulatory DNA of ENKD1; reducing ZNF143 therefore lowers ENKD1.
+T2U_0065	down	ZNF143 is a direct activator that binds cis-regulatory DNA of ERAL1; reducing ZNF143 therefore lowers ERAL1.
+T2U_0066	down	ZNF143 is a direct activator that binds cis-regulatory DNA of ERP44; reducing ZNF143 therefore lowers ERP44.
+T2U_0067	down	ZNF143 is a direct activator that binds cis-regulatory DNA of FASTK; reducing ZNF143 therefore lowers FASTK.
+T2U_0068	down	ZNF143 is a direct activator that binds cis-regulatory DNA of FH; reducing ZNF143 therefore lowers FH.
+T2U_0069	down	ZNF143 is a direct activator that binds cis-regulatory DNA of GAMT; reducing ZNF143 therefore lowers GAMT.
+T2U_0070	down	ZNF143 is a direct activator that binds cis-regulatory DNA of GOLGA2; reducing ZNF143 therefore lowers GOLGA2.
+T2U_0071	down	ZNF143 is a direct activator that binds cis-regulatory DNA of GTPBP8; reducing ZNF143 therefore lowers GTPBP8.
+T2U_0072	down	ZNF143 is a direct activator that binds cis-regulatory DNA of HMGCL; reducing ZNF143 therefore lowers HMGCL.
+T2U_0073	down	ZNF143 is a direct activator that binds cis-regulatory DNA of HSPA14; reducing ZNF143 therefore lowers HSPA14.
+T2U_0074	down	ZNF143 is a direct activator that binds cis-regulatory DNA of IK; reducing ZNF143 therefore lowers IK.
+T2U_0075	down	ZNF143 is a direct activator that binds cis-regulatory DNA of JMJD8; reducing ZNF143 therefore lowers JMJD8.
+T2U_0076	down	ZNF143 is a direct activator that binds cis-regulatory DNA of JUN; reducing ZNF143 therefore lowers JUN.
+T2U_0077	down	ZNF143 is a direct activator that binds cis-regulatory DNA of JUND; reducing ZNF143 therefore lowers JUND.
+T2U_0078	down	ZNF143 is a direct activator that binds cis-regulatory DNA of KDELR2; reducing ZNF143 therefore lowers KDELR2.
+T2U_0079	down	ZNF143 is a direct activator that binds cis-regulatory DNA of KLC2; reducing ZNF143 therefore lowers KLC2.
+T2U_0080	down	ZNF143 is a direct activator that binds cis-regulatory DNA of KPNA5; reducing ZNF143 therefore lowers KPNA5.
+T2U_0081	down	ZNF143 is a direct activator that binds cis-regulatory DNA of LATS1; reducing ZNF143 therefore lowers LATS1.
+T2U_0082	down	ZNF143 is a direct activator that binds cis-regulatory DNA of MED16; reducing ZNF143 therefore lowers MED16.
+T2U_0083	down	ZNF143 is a direct activator that binds cis-regulatory DNA of MFSD3; reducing ZNF143 therefore lowers MFSD3.
+T2U_0084	down	ZNF143 is a direct activator that binds cis-regulatory DNA of MRPL46; reducing ZNF143 therefore lowers MRPL46.
+T2U_0085	down	ZNF143 is a direct activator that binds cis-regulatory DNA of MRPL54; reducing ZNF143 therefore lowers MRPL54.
+T2U_0086	down	ZNF143 is a direct activator that binds cis-regulatory DNA of MRPS11; reducing ZNF143 therefore lowers MRPS11.
+T2U_0087	down	ZNF143 is a direct activator that binds cis-regulatory DNA of MTMR1; reducing ZNF143 therefore lowers MTMR1.
+T2U_0088	down	ZNF143 is a direct activator that binds cis-regulatory DNA of NUTF2; reducing ZNF143 therefore lowers NUTF2.
+T2U_0089	down	ZNF143 is a direct activator that binds cis-regulatory DNA of PAPOLG; reducing ZNF143 therefore lowers PAPOLG.
+T2U_0090	down	ZNF143 is a direct activator that binds cis-regulatory DNA of PLAGL2; reducing ZNF143 therefore lowers PLAGL2.
+T2U_0091	down	ZNF143 is a direct activator that binds cis-regulatory DNA of PNKD; reducing ZNF143 therefore lowers PNKD.
+T2U_0092	down	ZNF143 is a direct activator that binds cis-regulatory DNA of POMT2; reducing ZNF143 therefore lowers POMT2.
+T2U_0093	down	ZNF143 is a direct activator that binds cis-regulatory DNA of PRIM1; reducing ZNF143 therefore lowers PRIM1.
+T2U_0094	down	ZNF143 is a direct activator that binds cis-regulatory DNA of PRKAA2; reducing ZNF143 therefore lowers PRKAA2.
+T2U_0095	down	ZNF143 is a direct activator that binds cis-regulatory DNA of PROSER3; reducing ZNF143 therefore lowers PROSER3.
+T2U_0096	down	ZNF143 is a direct activator that binds cis-regulatory DNA of PSMC6; reducing ZNF143 therefore lowers PSMC6.
+T2U_0097	down	ZNF143 is a direct activator that binds cis-regulatory DNA of PTPMT1; reducing ZNF143 therefore lowers PTPMT1.
+T2U_0098	down	ZNF143 is a direct activator that binds cis-regulatory DNA of PTRHD1; reducing ZNF143 therefore lowers PTRHD1.
+T2U_0099	down	ZNF143 is a direct activator that binds cis-regulatory DNA of RDH11; reducing ZNF143 therefore lowers RDH11.
+T2U_0100	down	ZNF143 is a direct activator that binds cis-regulatory DNA of RIC8A; reducing ZNF143 therefore lowers RIC8A.
+T2U_0101	down	ZNF143 is a direct activator that binds cis-regulatory DNA of RNF40; reducing ZNF143 therefore lowers RNF40.
+T2U_0102	down	ZNF143 is a direct activator that binds cis-regulatory DNA of RPAIN; reducing ZNF143 therefore lowers RPAIN.
+T2U_0103	down	ZNF143 is a direct activator that binds cis-regulatory DNA of RPL6; reducing ZNF143 therefore lowers RPL6.
+T2U_0104	down	ZNF143 is a direct activator that binds cis-regulatory DNA of RSBN1; reducing ZNF143 therefore lowers RSBN1.
+T2U_0105	down	ZNF143 is a direct activator that binds cis-regulatory DNA of SAMD13; reducing ZNF143 therefore lowers SAMD13.
+T2U_0106	down	ZNF143 is a direct activator that binds cis-regulatory DNA of SAV1; reducing ZNF143 therefore lowers SAV1.
+T2U_0107	down	ZNF143 is a direct activator that binds cis-regulatory DNA of SEPTIN8; reducing ZNF143 therefore lowers SEPTIN8.
+T2U_0108	down	ZNF143 is a direct activator that binds cis-regulatory DNA of SFT2D2; reducing ZNF143 therefore lowers SFT2D2.
+T2U_0109	down	ZNF143 is a direct activator that binds cis-regulatory DNA of SGF29; reducing ZNF143 therefore lowers SGF29.
+T2U_0110	down	ZNF143 is a direct activator that binds cis-regulatory DNA of SLC7A6OS; reducing ZNF143 therefore lowers SLC7A6OS.
+T2U_0111	down	ZNF143 is a direct activator that binds cis-regulatory DNA of SLC9A6; reducing ZNF143 therefore lowers SLC9A6.
+T2U_0112	down	ZNF143 is a direct activator that binds cis-regulatory DNA of SNRNP48; reducing ZNF143 therefore lowers SNRNP48.
+T2U_0113	down	ZNF143 is a direct activator that binds cis-regulatory DNA of SNRNP70; reducing ZNF143 therefore lowers SNRNP70.
+T2U_0114	down	ZNF143 is a direct activator that binds cis-regulatory DNA of SNRPD3; reducing ZNF143 therefore lowers SNRPD3.
+T2U_0115	down	ZNF143 is a direct activator that binds cis-regulatory DNA of SSB; reducing ZNF143 therefore lowers SSB.
+T2U_0116	down	ZNF143 is a direct activator that binds cis-regulatory DNA of STARD10; reducing ZNF143 therefore lowers STARD10.
+T2U_0117	down	ZNF143 is a direct activator that binds cis-regulatory DNA of TFAM; reducing ZNF143 therefore lowers TFAM.
+T2U_0118	down	ZNF143 is a direct activator that binds cis-regulatory DNA of THOC7; reducing ZNF143 therefore lowers THOC7.
+T2U_0119	down	ZNF143 is a direct activator that binds cis-regulatory DNA of THOP1; reducing ZNF143 therefore lowers THOP1.
+T2U_0120	down	ZNF143 is a direct activator that binds cis-regulatory DNA of TIMM17A; reducing ZNF143 therefore lowers TIMM17A.
+T2U_0121	down	ZNF143 is a direct activator that binds cis-regulatory DNA of TMEM258; reducing ZNF143 therefore lowers TMEM258.
+T2U_0122	down	ZNF143 is a direct activator that binds cis-regulatory DNA of TMOD2; reducing ZNF143 therefore lowers TMOD2.
+T2U_0123	down	ZNF143 is a direct activator that binds cis-regulatory DNA of TOMM70; reducing ZNF143 therefore lowers TOMM70.
+T2U_0124	down	ZNF143 is a direct activator that binds cis-regulatory DNA of TPRA1; reducing ZNF143 therefore lowers TPRA1.
+T2U_0125	down	ZNF143 is a direct activator that binds cis-regulatory DNA of UBALD1; reducing ZNF143 therefore lowers UBALD1.
+T2U_0126	down	ZNF143 is a direct activator that binds cis-regulatory DNA of UBFD1; reducing ZNF143 therefore lowers UBFD1.
+T2U_0127	down	ZNF143 is a direct activator that binds cis-regulatory DNA of UQCR10; reducing ZNF143 therefore lowers UQCR10.
+T2U_0128	down	ZNF143 is a direct activator that binds cis-regulatory DNA of VASP; reducing ZNF143 therefore lowers VASP.
+T2U_0129	down	ZNF143 is a direct activator that binds cis-regulatory DNA of ZBTB10; reducing ZNF143 therefore lowers ZBTB10.
+T2U_0130	down	ZNF143 is a direct activator that binds cis-regulatory DNA of ZFTA; reducing ZNF143 therefore lowers ZFTA.
+T2U_0131	down	ZNF143 is a direct activator that binds cis-regulatory DNA of ZMYM6; reducing ZNF143 therefore lowers ZMYM6.
+T2U_0132	down	ZNF143 is a direct activator that binds cis-regulatory DNA of ZNF200; reducing ZNF143 therefore lowers ZNF200.
+T2U_0133	down	ZNF143 is a direct activator that binds cis-regulatory DNA of ZNF24; reducing ZNF143 therefore lowers ZNF24.
+T2U_0134	down	ZNF143 is a direct activator that binds cis-regulatory DNA of ZNF354A; reducing ZNF143 therefore lowers ZNF354A.
+T2U_0135	down	ZNF143 is a direct activator that binds cis-regulatory DNA of ZNF382; reducing ZNF143 therefore lowers ZNF382.
+T2U_0136	down	ZNF143 is a direct activator that binds cis-regulatory DNA of ZNF473; reducing ZNF143 therefore lowers ZNF473.
+T2U_0137	down	ZNF143 is a direct activator that binds cis-regulatory DNA of ZNF485; reducing ZNF143 therefore lowers ZNF485.
+T2U_0138	down	ZNF143 is a direct activator that binds cis-regulatory DNA of ZNF607; reducing ZNF143 therefore lowers ZNF607.
+T2U_0139	down	ZNF143 is a direct activator that binds cis-regulatory DNA of ZNF746; reducing ZNF143 therefore lowers ZNF746.
+T2U_0140	down	ZNF143 is a direct activator that binds cis-regulatory DNA of ZW10; reducing ZNF143 therefore lowers ZW10.
+T2U_0141	down	NANOG is a direct auto-activator that binds cis-regulatory DNA of Nanog; reducing NANOG protein therefore lowers Nanog.
+T2U_0142	up	POU5F1 is a direct repressor that binds cis-regulatory DNA of Pax6; reducing POU5F1 therefore raises Pax6.
+T2U_0143	down	POU5F1 is a direct activator that binds cis-regulatory DNA of Utf1; reducing POU5F1 therefore lowers Utf1.
+T2U_0144	up	TP53 induces the intermediate regulatory RNA lincRNA-p21 which then represses MTAP4; reducing lincRNA-p21 therefore raises MTAP4.
+T2U_0145	up	TP53 induces the intermediate regulatory RNA lincRNA-p21 which then represses SUV39H1; reducing lincRNA-p21 therefore raises SUV39H1.
+T2U_0146	up	TP53 induces the intermediate regulatory RNA lincRNA-p21 which then represses VCAN; reducing lincRNA-p21 therefore raises VCAN.
+T2U_0147	up	HIF1A induces the intermediate regulatory RNA miR-210 which then represses E2F3; reducing miR-210 therefore raises E2F3.
+T2U_0148	up	SMAD3 requires the partner transcription factor NOTCH1 to activate PTPRK; gaining both partners therefore raises PTPRK.
+T2U_0149	down	SMAD3 requires the partner transcription factor NOTCH1 to activate PTPRK; reducing NOTCH1 therefore lowers PTPRK.
+T2U_0150	down	SMAD3 is a direct activator that binds cis-regulatory DNA of PTPRK; reducing SMAD3 therefore lowers PTPRK.
+T2U_0151	down	SMAD3 requires the partner transcription factor SMAD4 to activate PTPRK; reducing SMAD4 therefore lowers PTPRK.
+T2U_0152	up	PPARA represses Cdh1 in a chromatin-mediated manner that requires UHRF1 to maintain DNA methylation; reducing UHRF1 therefore raises Cdh1.
+T2U_0153	up	PPARA represses Cdh3 in a chromatin-mediated manner that requires UHRF1 to maintain DNA methylation; reducing UHRF1 therefore raises Cdh3.
+T2U_0154	up	PPARA represses Smpd3 in a chromatin-mediated manner that requires UHRF1 to maintain DNA methylation; reducing UHRF1 therefore raises Smpd3.
+T2U_0155	down	HIF1A induces the intermediate regulatory RNA miR-210 which then represses E2F3; gaining miR-210 therefore lowers E2F3.
+T2U_0156	down	POU5F1 is a direct activator that operates through the Nanog upstream regulatory site; perturbing that cis element therefore lowers Nanog.
+T2U_0157	down	RELA is a direct activator that operates through the TBC1D4 intronic NF-kB site; perturbing that cis element therefore lowers TBC1D4.
+T2U_0158	down	MYC is a direct activator that operates through the indicated E-box; perturbing that cis element therefore lowers PRKCQ.
+T2U_0159	down	MYC is a direct activator that operates through the indicated E-box; perturbing that cis element therefore lowers PRKCQ-AS1.
+T2U_0160	down	MYC is a direct activator that operates through the indicated E-box; perturbing that cis element therefore lowers PFAS.
+T2U_0161	down	TP63 requires the partner transcription factor FOXK1 to activate ANKRD27; reducing FOXK1 therefore lowers ANKRD27.
+T2U_0162	down	TP63 requires the partner transcription factor FOXK1 to activate HNRNPA1; reducing FOXK1 therefore lowers HNRNPA1.
+T2U_0163	down	TP63 requires the partner transcription factor FOXK1 to activate HNRNPL; reducing FOXK1 therefore lowers HNRNPL.
+T2U_0164	down	TP63 requires the partner transcription factor FOXK1 to activate L3HYPDH; reducing FOXK1 therefore lowers L3HYPDH.
+T2U_0165	down	TP63 requires the partner transcription factor FOXK1 to activate NABP2; reducing FOXK1 therefore lowers NABP2.
+T2U_0166	down	TP63 requires the partner transcription factor FOXK1 to activate RPS16; reducing FOXK1 therefore lowers RPS16.
+T2U_0167	down	TP63 requires the partner transcription factor FOXK1 to activate TIMM50; reducing FOXK1 therefore lowers TIMM50.
+T2U_0168	down	NFE2L2 requires the partner transcription factors MAFG/MAFF to activate Txnrd1; reducing the MAF partners therefore lowers Txnrd1.
+T2U_0169	down	NFE2L2 is a direct activator that binds cis-regulatory DNA of Txnrd1; reducing NFE2L2 therefore lowers Txnrd1.
+T2U_0170	up	GATA1 induces the intermediate regulatory RNA miR-451 which then represses Ywhaz; reducing miR-451 therefore raises Ywhaz.
+T2U_0171	down	STAT3 is a direct activator that operates through Klf4 regulatory site E2; perturbing that cis element therefore lowers Klf4.
+T2U_0172	down	GATA1 is a direct activator that operates through the ATP2B4 intronic regulatory site; perturbing that cis element therefore lowers ATP2B4.
+T2U_0173	up	REST represses L1CAM in a chromatin-mediated manner that requires the remodeler BRG1/SMARCA4; reducing BRG1 therefore raises L1CAM.
+T2U_0174	up	REST represses SNAP25 in a chromatin-mediated manner that requires the remodeler BRG1/SMARCA4; reducing BRG1 therefore raises SNAP25.
+T2U_0175	up	ZNF263 is a direct repressor that operates through the CUL3 intronic regulatory region; perturbing that cis element therefore raises CUL3.
+T2U_0176	down	YY1 is a direct activator that operates through CUL3 regulatory site B; perturbing that cis element therefore lowers CUL3.
+T2U_0179	down	CTCF is a direct activator that operates through CUL3 regulatory site A; perturbing that cis element therefore lowers CUL3.
+T2U_0180	down	GATA1 induces the intermediate regulatory RNA miR-451 which then represses Ywhaz; gaining miR-451 therefore lowers Ywhaz.
+T2U_0181	down	GATA1 activates EPOR in a chromatin-mediated manner that requires the H3K4 methyltransferase KMT2D; reducing KMT2D therefore lowers EPOR.
+T2U_0182	down	GATA1 activates SLC25A37 in a chromatin-mediated manner that requires the H3K4 methyltransferase KMT2D; reducing KMT2D therefore lowers SLC25A37.
+T2U_0183	down	TWIST1 induces the intermediate regulatory RNA miR-10b which then represses HOXD10; gaining miR-10b therefore lowers HOXD10.
+T2U_0186	down	GATA1 activates SLC22A4 in a chromatin-mediated manner that requires the H3K4 methyltransferase KMT2D; reducing KMT2D therefore lowers SLC22A4.
+T2U_0188	down	GATA1 activates ZFPM1 in a chromatin-mediated manner that requires the H3K4 methyltransferase KMT2D; reducing KMT2D therefore lowers ZFPM1.
+T2U_0189	up	STAT3 induces the intermediate regulatory RNA miR-181b which then represses CYLD; reducing miR-181b therefore raises CYLD.
+T2U_0190	up	STAT3 induces the intermediate regulatory RNA miR-181b-1 which then represses CYLD; reducing miR-181b-1 therefore raises CYLD.
+T2U_0191	up	STAT3 induces the intermediate regulatory RNA miR-21 which then represses PTEN; reducing miR-21 therefore raises PTEN.
+T2U_0192	up	HIF1A induces the intermediate regulatory RNA miR-210 which then represses ISCU; reducing miR-210 therefore raises ISCU.
+T2U_0193	down	STAT3 induces the intermediate regulatory RNA miR-181b which then represses CYLD; gaining miR-181b therefore lowers CYLD.
+T2U_0195	down	ETV4 is a direct activator that binds cis-regulatory DNA of NOTCH4; reducing ETV4 therefore lowers NOTCH4.
+T2U_0196	down	ETV4 requires the partner transcription factor FOSL1 to activate NOTCH4; reducing FOSL1 therefore lowers NOTCH4.
+T2U_0197	down	ETV4 requires the partner transcription factor JUN to activate NOTCH4; reducing JUN therefore lowers NOTCH4.
+T2U_0198	down	TP53 induces the intermediate regulatory RNA LED lncRNA which then helps activate CDKN1A; reducing LED therefore lowers CDKN1A.
+T2U_0199	down	GATA2 activates GATA1 in a chromatin-mediated manner that requires the demethylase LSD1/KDM1A; reducing LSD1 therefore lowers GATA1.

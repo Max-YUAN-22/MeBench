@@ -1,0 +1,194 @@
+unit_id	predicted_direction	mechanism_reasoning
+T2U_0001	up	Chromatin-mediated regulation: EED/PRC2 loss erases H3K27me3 at the CDX2-bound Scin locus, relieving Polycomb repression so CDX2-driven transcription of this target rises; up.
+T2U_0002	up	Chromatin-mediated regulation: loss of EED/PRC2 removes H3K27me3 from the Slc26a6 regulatory region, so Polycomb-dependent silencing of this CDX2 target is lifted and expression increases; up.
+T2U_0003	down	TP63 loss vacates the TP63-binding cis element at the ANKRD27 promoter, removing direct activation by the TF so the target is transcribed less; down.
+T2U_0004	down	TP63 knockdown leaves the TP63 response element at HNRNPA1 unoccupied, so direct cis-driven activation of this target is lost and expression falls; down.
+T2U_0005	down	Loss of TP63 removes the activator from the HNRNPL regulatory element, so this direct TP63 target loses transcription and decreases; down.
+T2U_0006	down	TP63 loss removes TF occupancy at the L3HYPDH cis element, abolishing direct activation and lowering target expression; down.
+T2U_0007	down	The NABP2 regulatory element is activated directly through TP63 binding; on TP63 loss that cis-driven activation disappears and NABP2 falls; down.
+T2U_0008	down	TP63 loss frees the TP63-binding site at RPS16, so direct cis activation of this target is lost and its expression drops; down.
+T2U_0009	down	Loss of TP63 from the TIMM50 regulatory element removes direct activation of this target, so TIMM50 transcription declines; down.
+T2U_0010	down	Chromatin-mediated regulation: TET2 loss blocks 5hmC-dependent demethylation at the ESR1-bound ELOVL2 element, allowing repressive methylation and closed chromatin to accumulate so ESR1-driven ELOVL2 expression falls; down.
+T2U_0011	down	Chromatin-mediated regulation: TET2 loss leaves the ESR1-bound PTGES regulatory region hypermethylated in a repressive state, so ER-dependent activation of PTGES is impaired and the target drops; down.
+T2U_0012	down	Chromatin-mediated regulation: without TET2 the WIPF1 regulatory chromatin stays methylated and closed at the ESR1 site, weakening ESR1-driven transcription of WIPF1; down.
+T2U_0013	down	Loss of the target regulatory site deletes the ESR1 response element that drives CISH, so direct ER-dependent activation of CISH is abolished and expression falls; down.
+T2U_0014	down	Perturbing the G0S2 regulatory site removes the ESR1-bound cis element, so this direct ER target loses its activating input and decreases; down.
+T2U_0015	down	Removal of the MMP17 target regulatory site eliminates the ESR1 response element, so direct cis activation of MMP17 fails and expression drops; down.
+T2U_0016	down	The GATA1 D218G variant weakens GATA1 activity at the Lrrc39 GATA cis element, so direct activation of this target is impaired and expression falls; down.
+T2U_0017	down	GATA1 D218G reduces transactivation at the Rragd GATA element, so this direct GATA1 target is expressed less; down.
+T2U_0018	down	The GATA1 D218G variant impairs activation through the Slc4a1 GATA response element, so this strongly GATA1-dependent erythroid target decreases; down.
+T2U_0019	down	GATA1 R216Q lowers GATA1-driven activation at the Lrrc39 cis element, so this direct target is transcribed less and falls; down.
+T2U_0020	down	The GATA1 R216Q variant reduces transactivation at the Rragd GATA element, so direct GATA1-dependent expression of this target drops; down.
+T2U_0021	down	GATA1 R216Q weakens activation of the Slc4a1 GATA cis element, so this GATA1 target is expressed at a lower level; down.
+T2U_0022	down	Chromatin-mediated regulation: H2A.Z loss removes the H2A.Z nucleosome required at the TP63-bound SAMD9L element, so TP63 can no longer activate this target efficiently and SAMD9L falls; down.
+T2U_0023	down	Chromatin-mediated regulation: H2A.Z depletion disrupts the chromatin state at the TP63-bound ZHX2 element, so direct TP63 activation is lost and ZHX2 decreases; down.
+T2U_0024	down	Gain of miR-210 loads RISC onto the ISCU 3' UTR seed site and destabilizes ISCU mRNA, so the HIF1A-induced target is reduced; regulatory RNA relay; down.
+T2U_0025	up	Loss of the TWIST1-induced miR-10b removes RISC-mediated repression from the HOXD10 3' UTR, so HOXD10 mRNA escapes microRNA decay and rises; regulatory RNA relay; up.
+T2U_0026	down	Loss of the CA12e enhancer removes the ESR1-dependent cis element that drives CA12, so this target-linked regulatory DNA can no longer activate CA12 and expression falls; down.
+T2U_0027	down	Removing the FOXC1e enhancer deletes the ESR1-bound cis element driving FOXC1, so this direct ER-dependent target loses activation and decreases; down.
+T2U_0028	down	The GREB1e enhancer is the ESR1-bound element that activates GREB1; losing it abolishes direct cis activation and GREB1 falls; down.
+T2U_0029	down	Loss of the KCNK5e enhancer removes the ESR1 cis element that drives KCNK5, so ER-dependent transcription of this target fails; down.
+T2U_0030	down	Deleting the NRIP1e enhancer eliminates the ESR1 response element for NRIP1, so direct cis activation is lost and NRIP1 decreases; down.
+T2U_0031	down	Perturbing the P2RY2e enhancer removes the ESR1-bound element required for P2RY2 transcription, so this direct target falls; down.
+T2U_0032	down	Loss of the PGRe enhancer removes the ESR1 site that activates PGR, so this canonical ER target loses direct cis activation and drops; down.
+T2U_0033	down	The SIAH2e enhancer carries the ESR1 response element for SIAH2; its loss abolishes direct ER-dependent activation and SIAH2 falls; down.
+T2U_0034	down	Removing the SMAD7e enhancer deletes the ESR1 cis element driving SMAD7, so direct activation fails and this target decreases; down.
+T2U_0035	down	Loss of the TFF1e enhancer removes the ESR1-bound element that drives TFF1, so direct cis activation of this classic ER target is lost; down.
+T2U_0036	up	PPARA gain/activation drives constitutive occupancy of the PPRE in the Angptl4 regulatory region, directly inducing Angptl4 transcription; up.
+T2U_0037	up	Activated PPARA occupies the Hmgcs2 PPRE cis element continuously, so direct PPAR-driven activation raises Hmgcs2 expression; up.
+T2U_0038	up	PPARA gain/activation forces PPRE-dependent transcription at Pdk4, so this direct target-linked cis element drives increased Pdk4 expression; up.
+T2U_0039	up	BHLHE40 loss removes the repressive bHLH partner that cooperates with PPARA at the Angptl4 E-box, so PPARA-dependent transcription is derepressed; combinatorial; up.
+T2U_0040	up	Loss of BHLHE40 relieves the partner-TF repression imposed on the PPARA-bound Hmgcs2 regulatory region, so combinatorial repression is lost and Hmgcs2 rises; up.
+T2U_0041	up	Without BHLHE40 the repressive complex at the PPARA-bound Pdk4 E-box cannot assemble, so Pdk4 is derepressed; combinatorial partner loss; up.
+T2U_0042	down	ZNF143 loss removes the SBS-bound activator from the ABCF2 promoter, so this direct cis-regulatory target loses transcription and decreases; down.
+T2U_0043	down	ZNF143 knockdown leaves the ADAT3 promoter SBS unoccupied, so direct ZNF143 activation is lost and ADAT3 falls; down.
+T2U_0044	down	The AKR1A1 promoter depends on ZNF143 occupancy of its SBS motif; on ZNF143 loss this direct cis element is no longer activated and AKR1A1 drops; down.
+T2U_0045	down	Loss of ZNF143 removes the activator from the ANKRD13B SBS promoter element, so direct activation fails and expression falls; down.
+T2U_0046	down	ZNF143 loss frees the AP1S3 promoter SBS, abolishing direct cis activation so AP1S3 transcription declines; down.
+T2U_0047	down	With ZNF143 depleted the ARID5A SBS element is unoccupied, so this direct ZNF143 target is no longer activated and falls; down.
+T2U_0048	down	ZNF143 loss removes SBS-bound activation at the ASB13 promoter, so direct cis-driven transcription of ASB13 decreases; down.
+T2U_0049	down	The BIRC5 promoter SBS is activated directly by ZNF143; losing ZNF143 abolishes that cis activation and BIRC5 expression falls; down.
+T2U_0050	down	ZNF143 knockdown leaves the CASC3 SBS promoter element unbound, so direct activation is lost and CASC3 decreases; down.
+T2U_0051	down	Loss of ZNF143 removes the activator from the CCDC157 SBS promoter, so this direct cis target loses transcription and falls; down.
+T2U_0052	down	ZNF143 loss frees the CCDC92 promoter SBS, so direct ZNF143-dependent activation fails and CCDC92 drops; down.
+T2U_0053	down	The CCPG1 promoter is activated through direct ZNF143 SBS binding; on ZNF143 loss that activation disappears and CCPG1 falls; down.
+T2U_0054	down	ZNF143 knockdown leaves the CKAP2L promoter SBS unoccupied, so direct cis activation is lost and target expression decreases; down.
+T2U_0055	down	Loss of ZNF143 removes SBS-bound activation from the CNIH1 promoter, so CNIH1 transcription falls; down.
+T2U_0056	down	The CPOX promoter SBS requires ZNF143 for activation; losing ZNF143 abolishes this direct cis input and CPOX decreases; down.
+T2U_0057	down	ZNF143 loss leaves the CPSF4 SBS element unbound, so direct activation of this target fails and expression drops; down.
+T2U_0058	down	With ZNF143 depleted the CRCP promoter SBS is no longer occupied, so direct cis-driven transcription of CRCP declines; down.
+T2U_0059	down	ZNF143 loss removes the activator from the CREBL2 SBS promoter, so this direct target loses activation and falls; down.
+T2U_0060	down	The CWC15 promoter SBS is directly activated by ZNF143; on ZNF143 loss that cis input is gone and CWC15 falls; down.
+T2U_0061	down	ZNF143 knockdown frees the CYB5R1 promoter SBS, so direct activation is lost and CYB5R1 expression decreases; down.
+T2U_0062	down	Loss of ZNF143 removes SBS-bound activation at the EGR1 promoter, so direct cis-driven EGR1 transcription falls; down.
+T2U_0063	down	ZNF143 loss leaves the EMC1 SBS promoter element unoccupied, so this direct target loses activation and drops; down.
+T2U_0064	down	The ENKD1 promoter SBS depends on ZNF143; losing ZNF143 abolishes direct cis activation and ENKD1 transcription decreases; down.
+T2U_0065	down	ZNF143 knockdown leaves the ERAL1 promoter SBS unbound, so direct activation fails and ERAL1 falls; down.
+T2U_0066	down	Loss of ZNF143 from the ERP44 SBS promoter removes direct cis activation, so ERP44 expression declines; down.
+T2U_0067	down	ZNF143 loss frees the FASTK promoter SBS, so this direct ZNF143 target is no longer activated and falls; down.
+T2U_0068	down	The FH promoter is activated directly via ZNF143 SBS occupancy; on ZNF143 loss that activation is lost and FH drops; down.
+T2U_0069	down	ZNF143 knockdown leaves the GAMT promoter SBS unoccupied, so direct cis-driven activation fails and GAMT decreases; down.
+T2U_0070	down	Loss of ZNF143 removes SBS-bound activation from the GOLGA2 promoter, so this direct target falls; down.
+T2U_0071	down	ZNF143 loss leaves the GTPBP8 SBS promoter element unbound, so direct activation is lost and expression drops; down.
+T2U_0072	down	The HMGCL promoter SBS is activated by ZNF143; losing ZNF143 abolishes that direct cis input and HMGCL declines; down.
+T2U_0073	down	ZNF143 loss frees the HSPA14 promoter SBS, so direct activation of this target fails and HSPA14 falls; down.
+T2U_0074	down	With ZNF143 depleted the IK promoter SBS is no longer bound, so direct cis-driven IK transcription decreases; down.
+T2U_0075	down	ZNF143 loss removes SBS-bound activation at the JMJD8 promoter, so this direct target falls; down.
+T2U_0076	down	The JUN promoter SBS depends on ZNF143 occupancy; on ZNF143 loss direct activation is lost and JUN expression decreases; down.
+T2U_0077	down	ZNF143 knockdown leaves the JUND promoter SBS unoccupied, so direct activation fails and JUND drops; down.
+T2U_0078	down	Loss of ZNF143 from the KDELR2 SBS promoter removes direct cis activation, so KDELR2 falls; down.
+T2U_0079	down	ZNF143 loss frees the KLC2 promoter SBS, abolishing direct activation so KLC2 transcription declines; down.
+T2U_0080	down	The KPNA5 promoter is directly activated through ZNF143 SBS binding; losing ZNF143 removes that activation and KPNA5 decreases; down.
+T2U_0081	down	ZNF143 knockdown leaves the LATS1 promoter SBS unbound, so direct cis activation is lost and LATS1 falls; down.
+T2U_0082	down	Loss of ZNF143 removes SBS-bound activation from the MED16 promoter, so this direct target drops; down.
+T2U_0083	down	The MFSD3 promoter SBS is activated by ZNF143; on ZNF143 loss that direct cis input disappears and MFSD3 falls; down.
+T2U_0084	down	ZNF143 loss frees the MRPL46 promoter SBS, so direct activation fails and MRPL46 expression declines; down.
+T2U_0085	down	With ZNF143 depleted the MRPL54 SBS promoter element is unoccupied, so direct cis-driven transcription of MRPL54 falls; down.
+T2U_0086	down	ZNF143 loss removes the activator from the MRPS11 SBS promoter, so this direct target loses activation and drops; down.
+T2U_0087	down	The MTMR1 promoter SBS requires ZNF143; losing ZNF143 abolishes direct activation and MTMR1 decreases; down.
+T2U_0088	down	ZNF143 knockdown leaves the NUTF2 promoter SBS unbound, so direct activation is lost and NUTF2 falls; down.
+T2U_0089	down	Loss of ZNF143 from the PAPOLG SBS promoter removes direct cis activation, so PAPOLG expression drops; down.
+T2U_0090	down	The PLAGL2 promoter SBS is directly activated by ZNF143; on ZNF143 loss this activation is lost and PLAGL2 falls; down.
+T2U_0091	down	ZNF143 loss frees the PNKD promoter SBS, so direct activation fails and PNKD transcription decreases; down.
+T2U_0092	down	ZNF143 knockdown leaves the POMT2 SBS promoter element unoccupied, so direct cis activation is lost and POMT2 drops; down.
+T2U_0093	down	The PRIM1 promoter depends on ZNF143 SBS occupancy for activation; losing ZNF143 abolishes that input and PRIM1 falls; down.
+T2U_0094	down	Loss of ZNF143 removes SBS-bound activation at the PRKAA2 promoter, so this direct target decreases; down.
+T2U_0095	down	ZNF143 loss leaves the PROSER3 promoter SBS unbound, so direct activation fails and PROSER3 falls; down.
+T2U_0096	down	The PSMC6 promoter SBS is activated through ZNF143; on ZNF143 loss this direct cis input is lost and PSMC6 drops; down.
+T2U_0097	down	With ZNF143 depleted the PTPMT1 promoter SBS is unoccupied, so direct activation fails and PTPMT1 falls; down.
+T2U_0098	down	ZNF143 loss frees the PTRHD1 SBS promoter element, abolishing direct activation so PTRHD1 declines; down.
+T2U_0099	down	The RDH11 promoter is directly activated by ZNF143 via its SBS; losing ZNF143 removes that activation and RDH11 falls; down.
+T2U_0100	down	ZNF143 knockdown leaves the RIC8A promoter SBS unbound, so direct cis activation is lost and RIC8A drops; down.
+T2U_0101	down	Loss of ZNF143 from the RNF40 SBS promoter removes direct activation, so RNF40 expression decreases; down.
+T2U_0102	down	The RPAIN promoter SBS is activated by ZNF143; on ZNF143 loss that direct cis input disappears and RPAIN falls; down.
+T2U_0103	down	ZNF143 loss frees the RPL6 promoter SBS, so direct activation fails and RPL6 transcription declines; down.
+T2U_0104	down	With ZNF143 depleted the RSBN1 promoter SBS is unoccupied, so direct activation is lost and RSBN1 falls; down.
+T2U_0105	down	ZNF143 loss removes SBS-bound activation at the SAMD13 promoter, so this direct target drops; down.
+T2U_0106	down	The SAV1 promoter depends on ZNF143 SBS occupancy; on ZNF143 loss direct activation is lost and SAV1 decreases; down.
+T2U_0107	down	ZNF143 knockdown leaves the SEPTIN8 promoter SBS unbound, so direct activation fails and SEPTIN8 falls; down.
+T2U_0108	down	Loss of ZNF143 from the SFT2D2 SBS promoter removes direct cis activation, so SFT2D2 expression drops; down.
+T2U_0109	down	The SGF29 promoter SBS is activated directly by ZNF143; losing ZNF143 abolishes that input and SGF29 falls; down.
+T2U_0110	down	ZNF143 loss frees the SLC7A6OS promoter SBS, so direct activation is lost and this target decreases; down.
+T2U_0111	down	With ZNF143 depleted the SLC9A6 promoter SBS is unoccupied, so direct cis-driven transcription falls; down.
+T2U_0112	down	ZNF143 loss removes SBS-bound activation from the SNRNP48 promoter, so this direct target drops; down.
+T2U_0113	down	The SNRNP70 promoter requires ZNF143 at its SBS; on ZNF143 loss direct activation fails and SNRNP70 falls; down.
+T2U_0114	down	ZNF143 knockdown leaves the SNRPD3 promoter SBS unbound, so direct activation is lost and SNRPD3 decreases; down.
+T2U_0115	down	Loss of ZNF143 from the SSB SBS promoter removes direct activation, so SSB expression falls; down.
+T2U_0116	down	The STARD10 promoter SBS is activated by ZNF143; on ZNF143 loss this direct cis input is lost and STARD10 drops; down.
+T2U_0117	down	ZNF143 loss frees the TFAM promoter SBS, so direct activation fails and TFAM transcription declines; down.
+T2U_0118	down	With ZNF143 depleted the THOC7 SBS promoter element is unoccupied, so direct activation is lost and THOC7 falls; down.
+T2U_0119	down	ZNF143 loss removes SBS-bound activation at the THOP1 promoter, so this direct target decreases; down.
+T2U_0120	down	The TIMM17A promoter depends on ZNF143 SBS occupancy; losing ZNF143 abolishes direct activation and TIMM17A falls; down.
+T2U_0121	down	ZNF143 knockdown leaves the TMEM258 promoter SBS unbound, so direct activation fails and TMEM258 drops; down.
+T2U_0122	down	Loss of ZNF143 from the TMOD2 SBS promoter removes direct cis activation, so TMOD2 expression falls; down.
+T2U_0123	down	The TOMM70 promoter SBS is directly activated by ZNF143; on ZNF143 loss that input disappears and TOMM70 falls; down.
+T2U_0124	down	ZNF143 loss frees the TPRA1 promoter SBS, so direct activation is lost and TPRA1 decreases; down.
+T2U_0125	down	With ZNF143 depleted the UBALD1 promoter SBS is unoccupied, so direct cis-driven transcription falls; down.
+T2U_0126	down	ZNF143 loss removes SBS-bound activation from the UBFD1 promoter, so this direct target drops; down.
+T2U_0127	down	The UQCR10 promoter requires ZNF143 at its SBS; on ZNF143 loss direct activation fails and UQCR10 falls; down.
+T2U_0128	down	ZNF143 knockdown leaves the VASP promoter SBS unbound, so direct activation is lost and VASP decreases; down.
+T2U_0129	down	Loss of ZNF143 from the ZBTB10 SBS promoter removes direct activation, so ZBTB10 expression falls; down.
+T2U_0130	down	The ZFTA promoter SBS is activated by ZNF143; on ZNF143 loss this direct cis input is lost and ZFTA drops; down.
+T2U_0131	down	ZNF143 loss frees the ZMYM6 promoter SBS, so direct activation fails and ZMYM6 transcription declines; down.
+T2U_0132	down	With ZNF143 depleted the ZNF200 SBS promoter element is unoccupied, so direct activation is lost and ZNF200 falls; down.
+T2U_0133	down	ZNF143 loss removes SBS-bound activation at the ZNF24 promoter, so this direct target decreases; down.
+T2U_0134	down	The ZNF354A promoter depends on ZNF143 SBS occupancy; losing ZNF143 abolishes direct activation and ZNF354A falls; down.
+T2U_0135	down	ZNF143 knockdown leaves the ZNF382 promoter SBS unbound, so direct activation fails and ZNF382 drops; down.
+T2U_0136	down	Loss of ZNF143 from the ZNF473 SBS promoter removes direct cis activation, so ZNF473 expression falls; down.
+T2U_0137	down	The ZNF485 promoter SBS is directly activated by ZNF143; on ZNF143 loss that input disappears and ZNF485 falls; down.
+T2U_0138	down	ZNF143 loss frees the ZNF607 promoter SBS, so direct activation is lost and ZNF607 decreases; down.
+T2U_0139	down	With ZNF143 depleted the ZNF746 promoter SBS is unoccupied, so direct cis-driven transcription falls; down.
+T2U_0140	down	ZNF143 loss removes SBS-bound activation from the ZW10 promoter, so this direct target drops; down.
+T2U_0141	down	NANOG protein loss breaks the positive autoregulatory loop in which NANOG occupies its own upstream cis element, so Nanog transcription falls; direct; down.
+T2U_0142	up	POU5F1 loss removes OCT4 from the Pax6 regulatory element where the TF holds this neural gene repressed, so Pax6 is de-repressed and rises; direct cis; up.
+T2U_0143	down	POU5F1 loss removes OCT4 from the Utf1 regulatory element that OCT4 directly activates, so this pluripotency target drops; direct cis; down.
+T2U_0144	up	Loss of the p53-induced lincRNA-p21 removes the RNA scaffold that guides repressive chromatin factors to the MTAP4 locus, so this p53-repressed target is de-repressed; regulatory RNA relay; up.
+T2U_0145	up	Loss of lincRNA-p21 removes the repressive RNA intermediate acting at the SUV39H1 locus, so this p53-repressed target escapes repression and rises; regulatory RNA relay; up.
+T2U_0146	up	Without lincRNA-p21 the p53-dependent repressive complex cannot be delivered to VCAN, so VCAN is de-repressed; regulatory RNA relay; up.
+T2U_0147	up	miR-210 loss removes RISC-mediated repression of the E2F3 3' UTR, so E2F3 mRNA escapes microRNA decay and accumulates; regulatory RNA relay; up.
+T2U_0148	up	Combined NOTCH1 and SMAD3 activation assembles the SMAD3-containing complex with NOTCH1 at the PTPRK regulatory region, cooperatively driving PTPRK transcription; combinatorial; up.
+T2U_0149	down	NOTCH1 loss removes the Notch partner that SMAD3 requires at the PTPRK enhancer, so the combinatorial activation complex cannot form and PTPRK falls; down.
+T2U_0150	down	SMAD3 loss removes the TF itself from its PTPRK cis element, so direct SMAD3-dependent activation of PTPRK is lost; down.
+T2U_0151	down	SMAD4 loss removes the obligate SMAD partner needed to carry SMAD3 to the PTPRK element, so this combinatorial activation fails and PTPRK falls; down.
+T2U_0152	up	Chromatin-mediated regulation: UHRF1 loss removes the methylation-maintaining factor from the PPARA-bound Cdh1 locus, relaxing repressive chromatin so this target is de-repressed; up.
+T2U_0153	up	Chromatin-mediated regulation: without UHRF1 the repressive chromatin state at the PPARA-bound Cdh3 locus cannot be maintained, so Cdh3 is de-repressed; up.
+T2U_0154	up	Chromatin-mediated regulation: UHRF1 loss destabilizes repressive chromatin at the PPARA-associated Smpd3 regulatory region, so Smpd3 expression rises; up.
+T2U_0155	down	Gain of miR-210 loads RISC onto the E2F3 3' UTR and triggers microRNA-mediated decay, so E2F3 mRNA is reduced; regulatory RNA relay; down.
+T2U_0156	down	Perturbing the Nanog upstream regulatory site removes the POU5F1-bound element that activates Nanog, so direct OCT4-dependent cis activation is lost and Nanog falls; down.
+T2U_0157	down	Perturbing the TBC1D4 intronic NF-kB site removes the RELA binding element that drives TBC1D4 transcription, so direct NF-kB-dependent activation fails and TBC1D4 falls; down.
+T2U_0158	down	Mutating the MYC E-box chr10_BS212_CACATG_1 removes MYC occupancy at the PRKCQ promoter, so direct MYC-driven activation is lost and PRKCQ falls; down.
+T2U_0159	down	Loss of the MYC E-box chr10_BS212_CACATG_1 removes direct MYC activation of the PRKCQ-AS1 regulatory region, so this target falls; down.
+T2U_0160	down	Perturbing the MYC E-box chr17_BS377_CACGTG_1 abolishes MYC binding at the PFAS promoter, so direct cis activation is lost and PFAS decreases; down.
+T2U_0161	down	FOXK1 loss removes the partner TF that TP63 requires at the ANKRD27 regulatory element, so the TP63-FOXK1 combinatorial activation complex is lost and ANKRD27 falls; down.
+T2U_0162	down	Without FOXK1 the TP63 partner complex cannot assemble on the HNRNPA1 element, so combinatorial activation of this target fails and expression drops; down.
+T2U_0163	down	FOXK1 loss deprives TP63 of its required partner at the HNRNPL regulatory region, so combinatorial activation is lost and HNRNPL falls; down.
+T2U_0164	down	FOXK1 loss prevents the TP63-containing activation complex from forming at L3HYPDH, so this combinatorial target decreases; down.
+T2U_0165	down	Removing FOXK1 eliminates the partner TF needed by TP63 at the NABP2 element, so combinatorial activation fails and NABP2 falls; down.
+T2U_0166	down	FOXK1 loss blocks TP63-dependent combinatorial activation of RPS16 at its regulatory element, so RPS16 expression drops; down.
+T2U_0167	down	FOXK1 loss removes the partner required by TP63 at the TIMM50 regulatory region, so combinatorial activation is lost and TIMM50 falls; down.
+T2U_0168	down	MAFG/MAFF loss removes the small Maf partner needed by NFE2L2 to occupy the Txnrd1 ARE, so combinatorial NRF2 target activation fails and Txnrd1 falls; down.
+T2U_0169	down	NFE2L2 loss removes the TF itself from the Txnrd1 antioxidant response element, so direct NRF2-driven transcription of Txnrd1 is lost; down.
+T2U_0170	up	miR-451 loss removes the GATA1-induced microRNA that represses Ywhaz via its 3' UTR, so Ywhaz mRNA escapes RISC-mediated decay and rises; regulatory RNA relay; up.
+T2U_0171	down	Perturbing the Klf4 regulatory site E2 removes the STAT3 binding element that drives Klf4, so direct STAT3-dependent activation of Klf4 is lost and Klf4 falls; down.
+T2U_0172	down	Loss of the ATP2B4 intronic regulatory site removes the GATA1-bound erythroid enhancer, so direct GATA1 activation of ATP2B4 fails and expression falls; down.
+T2U_0173	up	Chromatin-mediated regulation: BRG1/SMARCA4 loss prevents the REST corepressor complex from establishing repressive chromatin at the L1CAM promoter, so REST-mediated repression is relieved and L1CAM rises; up.
+T2U_0174	up	Chromatin-mediated regulation: without BRG1/SMARCA4 the REST complex cannot remodel chromatin to silence SNAP25, so the neuronal target is de-repressed and increases; up.
+T2U_0175	up	Perturbing the CUL3 intronic regulatory region removes the ZNF263 binding site, relieving ZNF263-mediated repression of CUL3 so transcription rises; direct cis; up.
+T2U_0176	down	Loss of the CUL3 regulatory site B removes the YY1-bound element that activates CUL3, so YY1-dependent transcription of this target falls; direct cis; down.
+T2U_0179	down	Loss of the CUL3 regulatory site A removes the CTCF-bound element that supports CUL3 transcription, so CUL3 output decreases; direct cis; down.
+T2U_0180	down	Gain of miR-451 loads RISC on the Ywhaz 3' UTR and causes microRNA-mediated decay of Ywhaz mRNA, so this GATA1-regulated target drops; regulatory RNA relay; down.
+T2U_0181	down	Chromatin-mediated regulation: KMT2D loss removes H3K4 methylation at the GATA1-bound EPOR enhancer, so chromatin no longer supports GATA1-dependent activation and EPOR falls; down.
+T2U_0182	down	Chromatin-mediated regulation: KMT2D loss erases the active H3K4 mark at the GATA1-bound SLC25A37 element, weakening enhancer activity so SLC25A37 decreases; down.
+T2U_0183	down	Gain of miR-10b loads RISC onto the HOXD10 3' UTR and triggers microRNA-mediated decay, so HOXD10 mRNA is reduced; regulatory RNA relay; down.
+T2U_0186	down	Chromatin-mediated regulation: without KMT2D the GATA1-bound SLC22A4 regulatory region loses its activating H3K4 methylation, so GATA1-driven SLC22A4 expression falls; down.
+T2U_0188	down	Chromatin-mediated regulation: KMT2D loss deprives the GATA1-bound ZFPM1 enhancer of H3K4 methylation, so chromatin-mediated support of activation is lost and ZFPM1 drops; down.
+T2U_0189	up	miR-181b loss removes RISC-dependent repression of the CYLD 3' UTR, so CYLD mRNA, normally kept low in STAT3-driven cells, accumulates; regulatory RNA relay; up.
+T2U_0190	up	Loss of miR-181b-1 removes the microRNA-RISC complex that represses CYLD, so CYLD mRNA escapes decay and rises; regulatory RNA relay; up.
+T2U_0191	up	miR-21 loss removes RISC-mediated repression of the PTEN 3' UTR, so PTEN mRNA accumulates despite STAT3 signaling; regulatory RNA relay; up.
+T2U_0192	up	miR-210 loss removes RISC-mediated repression of the ISCU 3' UTR, so ISCU mRNA escapes microRNA decay and increases; regulatory RNA relay; up.
+T2U_0193	down	Gain of miR-181b loads RISC on the CYLD 3' UTR and drives microRNA-mediated decay, so CYLD mRNA falls; regulatory RNA relay; down.
+T2U_0195	down	ETV4 loss removes the ETS activator from the NOTCH4 promoter element, so direct ETV4-driven NOTCH4 transcription drops; down.
+T2U_0196	down	FOSL1 loss removes the AP-1 partner that ETV4 requires at the NOTCH4 enhancer, so combinatorial activation fails and NOTCH4 falls; down.
+T2U_0197	down	JUN loss removes the AP-1 partner that cooperates with ETV4 at the NOTCH4 regulatory region, so the combinatorial activation complex is lost and NOTCH4 falls; down.
+T2U_0198	down	LED lncRNA loss removes the p53-induced RNA intermediate that relays p53-dependent activation of CDKN1A, so CDKN1A induction fails and expression falls; regulatory RNA relay; down.
+T2U_0199	up	Chromatin-mediated regulation: LSD1/KDM1A loss removes the chromatin-modifying corepressor recruited by GATA2 to the Gata1 locus, so the repressive chromatin state is lost and Gata1 is de-repressed; up.

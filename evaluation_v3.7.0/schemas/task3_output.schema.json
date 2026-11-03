@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "v3.7.0_task3_vague_perturbation_output",
+  "type": "object",
+  "required": [
+    "predicted_intervention_type",
+    "mechanism_reasoning"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "predicted_intervention_type": {
+      "type": "string"
+    },
+    "mechanism_reasoning": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

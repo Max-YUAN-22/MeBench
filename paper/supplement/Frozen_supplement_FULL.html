@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>MechanismBench v3.7.0 — Frozen Results Supplement (2026-10-17)</title><style>
+body{font-family:'Times New Roman',serif;font-size:10.5pt;max-width:900px;margin:34px auto;color:#111;line-height:1.6;}
+h1{font-size:14pt;} h2{font-size:12pt;margin:26px 0 8px;border-bottom:1px solid #999;padding-bottom:3px;}
+h3{font-size:11pt;margin:15px 0 4px;font-style:italic;color:#222;}
+p{margin:7px 0;text-align:justify;}
+table{border-collapse:collapse;margin:10px auto;width:100%;}
+th,td{border:1px solid #bbb;padding:3px 6px;font-size:8.5pt;text-align:center;}
+th{background:#f0f0f0;} td:first-child,th:first-child{text-align:left;}
+td.j{font-weight:bold;}
+tr.mean td{background:#f7f7ee;}
+code,.mono{font-family:Menlo,monospace;font-size:8.5pt;}
+pre{background:#f6f6f2;border:1px solid #ddd;padding:10px;font-size:8.5pt;overflow-x:auto;}
+.fn{font-size:8.5pt;color:#555;margin:4px 0;line-height:1.45;text-align:left;}
+.freeze{background:#f4f8f4;border:2px solid #4a7a4a;padding:10px 14px;margin:12px 0;}
+ul{margin:5px 0 5px 22px;} li{margin:3px 0;}
+blockquote{border-left:3px solid #aaa;margin:8px 0;padding:3px 13px;font-size:10pt;}
+</style></head><body>
+
+<h1>MechanismBench v3.7.0 — Frozen Results and Analysis Supplement</h1>
+<div class="freeze">
+<b>FREEZE STATEMENT.</b> All data on this page were fixed on 2026-10-17 (01:31 local time).
+The freeze covers 597 files: every prediction file, raw model response, chain-adjudication file and packet,
+every statistics JSON, and every derived document, each recorded by SHA-256 in
+<code>runs/FROZEN_MANIFEST.sha256</code> (verify: <code>shasum -a 256 -c runs/FROZEN_MANIFEST.sha256</code>).
+No further model runs, re-judging, or value changes are permitted; post-freeze work must reference these files read-only.
+Every number below is reproducible from the frozen files with the released scorer and the canonical aggregation
+(<code>compute_final_stats.py</code> m1/m2/m3; chain metrics computed only over adjudicated runs, never counting
+unadjudicated runs as zero).
+</div>
+
+<h2>S1. Main results</h2>
+<p class="fn" style="font-weight:bold">Table S1 | Closed-book evaluation across six systems (%, mean of 4 runs, temperature 0, identical released prompts and scorer).</p>
+<table>
+<tr><th rowspan="2">System</th><th colspan="2">T1 Mechanism (n=171)</th><th colspan="2">T2 Direction + Chain (n=193)</th><th colspan="2">T3 Inverse Inference (n=20)</th></tr>
+<tr><th>Balanced Acc</th><th>Macro-F1</th><th>BalJointAcc</th><th>Joint F1</th><th>BalJointAcc</th><th>Joint F1</th></tr>
+<tr><td>GPT-6-Astra</td><td>34.7</td><td>34.5</td><td><b>78.3</b></td><td class='j'>78.4</td><td>35.1</td><td class='j'>34.5</td></tr>
+<tr><td>Claude-Sonnet-5.5</td><td>31.1</td><td>30.0</td><td><b>74.2</b></td><td class='j'>74.7</td><td>21.5</td><td class='j'>25.6</td></tr>
+<tr><td>Gemini-3.8-Flash</td><td>32.2</td><td>33.2</td><td><b>72.8</b></td><td class='j'>72.8</td><td>33.9</td><td class='j'>31.9</td></tr>
+<tr><td>GLM-5.3-Flash</td><td>29.0</td><td>26.8</td><td><b>52.8</b></td><td class='j'>57.5</td><td>31.0</td><td class='j'>35.7</td></tr>
+<tr><td>Grok-4.6</td><td>26.9</td><td>22.7</td><td><b>73.7</b></td><td class='j'>74.3</td><td>32.7</td><td class='j'>32.2</td></tr>
+<tr><td>Biomni</td><td>32.3</td><td>33.1</td><td><b>68.5</b></td><td class='j'>69.1</td><td>23.6</td><td class='j'>32.4</td></tr>
+</table>
+<p class="fn">T1 Balanced Acc = balanced accuracy over the four mechanism classes (chance ≈ 25). T2/T3 BalJointAcc = per-gold-class mean of (direction/type correct AND five-axis chain pass). Joint F1 is the chain-gated macro-F1. Scoring rules: outputs are scored exactly as submitted against the canonical matcher; interpretable-but-non-compliant outputs therefore score as incorrect (Claude Task 3 run 2; GLM Task 2 passes 3–4 — Claude's three schema-compliant Task 3 passes give 60.0). A pass whose outputs are uninterpretable as answers is an invalid administration and is re-administered once under the identical prompt (GLM Task 1 pass 1; GLM Task 2 pass 4); every re-administration is disclosed in §S4.</p>
+
+<p><b>Abstract-ready ranges.</b> Macro-F1 (T1): 22.7–34.5%. Joint F1 (T2): 57.5–78.4%. Joint F1 (T3): 25.6–35.7%. Direction accuracy on T2 is 96.4–96.9% for all systems except GLM (78.4%; its two clean passes reach 95.9–97.9%), confirming that direction prediction alone is saturated and the joint (direction + five-axis chain) metrics carry the signal.</p>
+
+<h2>S2. Five-axis decomposition</h2>
+<p class="fn" style="font-weight:bold">Table S2a | Task 2 — per-axis pass rates, chain, joint, and adjudication coverage (%, pooled over adjudicated runs).</p>
+<table>
+<tr><th rowspan="2">System</th><th colspan="5">Axes</th><th rowspan="2">Chain pass</th><th rowspan="2">Joint F1</th><th rowspan="2">Adjudicated runs</th></tr>
+<tr><th>Mechanism</th><th>Mediator</th><th>Causal order</th><th>Outcome link</th><th>No contradiction</th></tr>
+<tr><td>GPT-6-Astra</td><td>89.0</td><td>88.6</td><td>88.3</td><td>95.3</td><td>88.6</td><td><b>84.7</b></td><td class='j'>78.4</td><td>4</td></tr>
+<tr><td>Claude-Sonnet-5.5</td><td>85.2</td><td>83.2</td><td>82.0</td><td>91.3</td><td>87.3</td><td><b>79.4</b></td><td class='j'>74.7</td><td>4</td></tr>
+<tr><td>Gemini-3.8-Flash</td><td>90.9</td><td>82.9</td><td>83.7</td><td>92.6</td><td>89.0</td><td><b>79.0</b></td><td class='j'>72.8</td><td>4</td></tr>
+<tr><td>GLM-5.3-Flash</td><td>64.6</td><td>75.3</td><td>62.8</td><td>70.3</td><td>88.3</td><td><b>62.0</b></td><td class='j'>57.5</td><td>4</td></tr>
+<tr><td>Grok-4.6</td><td>85.5</td><td>83.7</td><td>82.6</td><td>92.6</td><td>90.8</td><td><b>79.5</b></td><td class='j'>74.3</td><td>4</td></tr>
+<tr><td>Biomni</td><td>81.1</td><td>81.9</td><td>77.5</td><td>90.0</td><td>81.9</td><td><b>76.2</b></td><td class='j'>69.1</td><td>4</td></tr>
+</table>
+<p class="fn" style="font-weight:bold">Table S2b | Task 3 — per-axis pass rates, chain, joint, and adjudication coverage (%, pooled over adjudicated runs). Task 3 additionally requires the inferred intervention type to be accepted (canonical matcher with the disclosed designer-approved rule that for regulatory-RNA entities canonical <code>knockdown</code> is accepted as <code>inhibition</code>).</p>
+<table>
+<tr><th rowspan="2">System</th><th colspan="5">Axes</th><th rowspan="2">Chain pass</th><th rowspan="2">Joint F1</th><th rowspan="2">Adjudicated runs</th></tr>
+<tr><th>Mechanism</th><th>Mediator</th><th>Causal order</th><th>Outcome link</th><th>No contradiction</th></tr>
+<tr><td>GPT-6-Astra</td><td>85.0</td><td>80.0</td><td>78.8</td><td>81.2</td><td>88.8</td><td><b>72.5</b></td><td class='j'>34.5</td><td>4</td></tr>
+<tr><td>Claude-Sonnet-5.5</td><td>75.0</td><td>73.8</td><td>68.8</td><td>85.0</td><td>73.8</td><td><b>56.2</b></td><td class='j'>25.6</td><td>4</td></tr>
+<tr><td>Gemini-3.8-Flash</td><td>85.0</td><td>76.2</td><td>71.2</td><td>92.5</td><td>85.0</td><td><b>68.8</b></td><td class='j'>32.0</td><td>4</td></tr>
+<tr><td>GLM-5.3-Flash</td><td>72.5</td><td>61.3</td><td>66.2</td><td>82.5</td><td>83.8</td><td><b>56.2</b></td><td class='j'>35.6</td><td>4</td></tr>
+<tr><td>Grok-4.6</td><td>82.5</td><td>77.5</td><td>70.0</td><td>78.8</td><td>80.0</td><td><b>66.2</b></td><td class='j'>32.2</td><td>4</td></tr>
+<tr><td>Biomni</td><td>63.7</td><td>62.5</td><td>47.5</td><td>90.0</td><td>68.8</td><td><b>43.8</b></td><td class='j'>32.4</td><td>4</td></tr>
+</table>
+<p class="fn">Chain pass requires all five axes (one-vote veto). The causal-order axis is the weakest or second-weakest component for every system on both tasks, while the intervention–outcome link is the strongest (S6).</p>
+
+<h2>S3. Per-run results (frozen)</h2>
+<p class="fn" style="font-weight:bold">Table S3 | All runs, all systems. T1 = accuracy / balanced acc / macro-F1. T2 = direction acc / chain pass / joint pass / balanced joint acc / joint F1. T3 = type acc / chain pass / joint F1.</p>
+<table>
+<tr><th rowspan="2">System</th><th rowspan="2">Run</th><th colspan="3">T1</th><th colspan="5">T2</th><th colspan="3">T3</th></tr>
+<tr><th>acc</th><th>bal</th><th>mF1</th><th>dir</th><th>chain</th><th>jPass</th><th>balJ</th><th>jF1</th><th>type</th><th>chain</th><th>jF1</th></tr>
+<tr><td>GPT-6-Astra</td><td>1</td><td>67.8</td><td>31.4</td><td>30.2</td><td>96.4</td><td>78.8</td><td>77.7</td><td>69.3</td><td>70.0</td><td>75.0</td><td>80.0</td><td>36.7</td></tr>
+<tr><td>GPT-6-Astra</td><td>2</td><td>67.8</td><td>39.6</td><td>40.8</td><td>96.4</td><td>85.5</td><td>85.0</td><td>80.0</td><td>80.7</td><td>75.0</td><td>85.0</td><td>33.2</td></tr>
+<tr><td>GPT-6-Astra</td><td>3</td><td>67.8</td><td>34.1</td><td>33.0</td><td>96.9</td><td>89.6</td><td>89.6</td><td>84.3</td><td>83.1</td><td>60.0</td><td>60.0</td><td>38.6</td></tr>
+<tr><td>GPT-6-Astra</td><td>4</td><td>67.8</td><td>33.8</td><td>34.2</td><td>96.9</td><td>85.0</td><td>84.5</td><td>79.7</td><td>79.8</td><td>70.0</td><td>65.0</td><td>29.6</td></tr>
+<tr class='mean'><td><b>GPT-6-Astra</b></td><td><b>mean</b></td><td>67.8</td><td>34.7</td><td>34.5</td><td>96.7</td><td>84.7</td><td>84.2</td><td>78.3</td><td>78.4</td><td>70.0</td><td>72.5</td><td>34.5</td></tr>
+<tr><td>Claude-Sonnet-5.5</td><td>1</td><td>67.3</td><td>35.9</td><td>36.2</td><td>96.9</td><td>80.8</td><td>80.8</td><td>77.6</td><td>77.6</td><td>60.0</td><td>60.0</td><td>51.2</td></tr>
+<tr><td>Claude-Sonnet-5.5</td><td>2</td><td>65.5</td><td>29.9</td><td>30.2</td><td>96.4</td><td>81.9</td><td>81.9</td><td>74.9</td><td>75.4</td><td>0</td><td>60.0</td><td>0.0</td></tr>
+<tr><td>Claude-Sonnet-5.5</td><td>3</td><td>66.1</td><td>33.4</td><td>31.7</td><td>97.9</td><td>76.7</td><td>76.7</td><td>68.7</td><td>70.6</td><td>60.0</td><td>55.0</td><td>21.6</td></tr>
+<tr><td>Claude-Sonnet-5.5</td><td>4</td><td>63.7</td><td>24.9</td><td>21.8</td><td>96.4</td><td>78.2</td><td>77.7</td><td>75.8</td><td>75.3</td><td>60.0</td><td>50.0</td><td>29.5</td></tr>
+<tr class='mean'><td><b>Claude-Sonnet-5.5</b></td><td><b>mean</b></td><td>65.7</td><td>31.0</td><td>30.0</td><td>96.9</td><td>79.4</td><td>79.3</td><td>74.2</td><td>74.7</td><td>45.0</td><td>56.2</td><td>25.6</td></tr>
+<tr><td>Gemini-3.8-Flash</td><td>1</td><td>68.4</td><td>32.8</td><td>34.1</td><td>96.9</td><td>85.0</td><td>84.5</td><td>79.7</td><td>79.8</td><td>75.0</td><td>80.0</td><td>36.7</td></tr>
+<tr><td>Gemini-3.8-Flash</td><td>2</td><td>67.3</td><td>30.3</td><td>30.3</td><td>96.9</td><td>77.7</td><td>77.7</td><td>67.6</td><td>67.6</td><td>60.0</td><td>60.0</td><td>28.8</td></tr>
+<tr><td>Gemini-3.8-Flash</td><td>3</td><td>68.4</td><td>31.7</td><td>32.5</td><td>96.9</td><td>69.9</td><td>69.9</td><td>68.0</td><td>68.0</td><td>60.0</td><td>80.0</td><td>28.8</td></tr>
+<tr><td>Gemini-3.8-Flash</td><td>4</td><td>67.8</td><td>33.9</td><td>35.8</td><td>96.9</td><td>83.4</td><td>83.4</td><td>75.8</td><td>75.8</td><td>60.0</td><td>55.0</td><td>33.6</td></tr>
+<tr class='mean'><td><b>Gemini-3.8-Flash</b></td><td><b>mean</b></td><td>68.0</td><td>32.2</td><td>33.2</td><td>96.9</td><td>79.0</td><td>78.9</td><td>72.8</td><td>72.8</td><td>63.8</td><td>68.8</td><td>32.0</td></tr>
+<tr><td>GLM-5.3-Flash</td><td>1</td><td>68.4</td><td>33.1</td><td>35.0</td><td>95.9</td><td>78.2</td><td>78.2</td><td>74.4</td><td>74.4</td><td>75.0</td><td>65.0</td><td>38.7</td></tr>
+<tr><td>GLM-5.3-Flash</td><td>2</td><td>69.6</td><td>33.4</td><td>32.6</td><td>97.9</td><td>80.3</td><td>80.3</td><td>75.6</td><td>78.0</td><td>45.0</td><td>45.0</td><td>40.0</td></tr>
+<tr><td>GLM-5.3-Flash</td><td>3</td><td>66.1</td><td>24.8</td><td>19.9</td><td>71.5</td><td>57.0</td><td>56.5</td><td>37.5</td><td>44.6</td><td>60.0</td><td>50.0</td><td>25.2</td></tr>
+<tr><td>GLM-5.3-Flash</td><td>4</td><td>65.5</td><td>24.6</td><td>19.8</td><td>48.2</td><td>32.6</td><td>32.6</td><td>23.7</td><td>32.8</td><td>75.0</td><td>65.0</td><td>38.7</td></tr>
+<tr class='mean'><td><b>GLM-5.3-Flash</b></td><td><b>mean</b></td><td>67.4</td><td>29.0</td><td>26.8</td><td>78.4</td><td>62.0</td><td>61.9</td><td>52.8</td><td>57.5</td><td>63.8</td><td>56.2</td><td>35.6</td></tr>
+<tr><td>Grok-4.6</td><td>1</td><td>66.7</td><td>25.0</td><td>20.0</td><td>96.4</td><td>83.9</td><td>82.9</td><td>80.4</td><td>80.6</td><td>60.0</td><td>50.0</td><td>25.2</td></tr>
+<tr><td>Grok-4.6</td><td>2</td><td>66.7</td><td>25.0</td><td>20.0</td><td>95.9</td><td>77.2</td><td>76.2</td><td>68.4</td><td>69.1</td><td>60.0</td><td>70.0</td><td>41.9</td></tr>
+<tr><td>Grok-4.6</td><td>3</td><td>64.3</td><td>32.8</td><td>30.7</td><td>95.9</td><td>78.2</td><td>78.2</td><td>74.4</td><td>74.4</td><td>60.0</td><td>65.0</td><td>33.1</td></tr>
+<tr><td>Grok-4.6</td><td>4</td><td>66.7</td><td>25.0</td><td>20.0</td><td>97.4</td><td>78.8</td><td>78.8</td><td>71.5</td><td>73.0</td><td>60.0</td><td>80.0</td><td>28.8</td></tr>
+<tr class='mean'><td><b>Grok-4.6</b></td><td><b>mean</b></td><td>66.1</td><td>26.9</td><td>22.7</td><td>96.4</td><td>79.5</td><td>79.0</td><td>73.7</td><td>74.3</td><td>60.0</td><td>66.2</td><td>32.2</td></tr>
+<tr><td>Biomni</td><td>1</td><td>64.9</td><td>32.3</td><td>33.3</td><td>96.4</td><td>72.0</td><td>72.0</td><td>61.1</td><td>61.4</td><td>90.0</td><td>30.0</td><td>30.2</td></tr>
+<tr><td>Biomni</td><td>2</td><td>60.2</td><td>33.6</td><td>34.6</td><td>96.4</td><td>81.3</td><td>79.8</td><td>77.0</td><td>78.5</td><td>95.0</td><td>45.0</td><td>35.6</td></tr>
+<tr><td>Biomni</td><td>3</td><td>63.2</td><td>33.8</td><td>34.6</td><td>96.9</td><td>76.7</td><td>76.7</td><td>70.3</td><td>70.3</td><td>90.0</td><td>50.0</td><td>29.3</td></tr>
+<tr><td>Biomni</td><td>4</td><td>62.0</td><td>29.3</td><td>29.7</td><td>96.4</td><td>74.6</td><td>74.6</td><td>65.8</td><td>66.3</td><td>90.0</td><td>50.0</td><td>34.3</td></tr>
+<tr class='mean'><td><b>Biomni</b></td><td><b>mean</b></td><td>62.6</td><td>32.2</td><td>33.0</td><td>96.5</td><td>76.2</td><td>75.8</td><td>68.5</td><td>69.1</td><td>91.2</td><td>43.8</td><td>32.4</td></tr>
+</table>
+
+<p class="fn" style="font-weight:bold">Table S4 | Mean ± standard deviation across runs (run-to-run variability at temperature 0 is material; all published values are means).</p>
+<table>
+<tr><th>System</th><th>T1 acc / bal / mF1</th><th>T2 dir / jPass / balJ / jF1</th><th>T3 type / chain / jF1</th></tr>
+<tr><td>GPT-6-Astra</td><td>67.8±0.0 / 34.7±3.5 / 34.5±4.5</td><td>96.7±0.3 / 84.2±4.9 / 78.3±6.4 / 78.4±5.8</td><td>70.0±7.1 / 72.5±11.9 / 34.5±4.0</td></tr>
+<tr><td>Claude-Sonnet-5.5</td><td>65.7±1.5 / 31.0±4.8 / 30.0±6.0</td><td>96.9±0.7 / 79.3±2.5 / 74.2±3.9 / 74.7±2.9</td><td>45.0±30.0 / 56.2±4.8 / 25.6±21.1</td></tr>
+<tr><td>Gemini-3.8-Flash</td><td>68.0±0.5 / 32.2±1.5 / 33.2±2.3</td><td>96.9±0.0 / 78.9±6.7 / 72.8±6.0 / 72.8±6.0</td><td>63.8±7.5 / 68.8±13.1 / 32.0±3.9</td></tr>
+<tr><td>GLM-5.3-Flash</td><td>67.4±1.9 / 29.0±4.9 / 26.8±8.1</td><td>78.4±23.4 / 61.9±22.3 / 52.8±26.3 / 57.5±22.2</td><td>63.8±14.4 / 56.2±10.3 / 35.6±7.0</td></tr>
+<tr><td>Grok-4.6</td><td>66.1±1.2 / 26.9±3.9 / 22.7±5.3</td><td>96.4±0.7 / 79.0±2.8 / 73.7±5.1 / 74.3±4.8</td><td>60.0±0.0 / 66.2±12.5 / 32.2±7.2</td></tr>
+<tr><td>Biomni</td><td>62.6±2.0 / 32.2±2.1 / 33.0±2.3</td><td>96.5±0.2 / 75.8±3.3 / 68.5±6.8 / 69.1±7.2</td><td>91.2±2.5 / 43.8±9.5 / 32.4±3.1</td></tr>
+</table>
+<p class="fn">Example of run-to-run spread: Claude's Task 1 macro-F1 ranges 21.8–36.2 across four identically configured runs; GPT's raw accuracy is identical (67.8) while its macro-F1 varies 30.2–40.8 because per-class errors migrate between runs. Relay serving at temperature 0 is not bit-deterministic; single-run values are therefore never reported.</p>
+
+<h2>S4. Scoring, adjudication coverage, and disclosed deviations</h2>
+<ul>
+<li><b>Scoring and re-administration rules.</b> (i) Scoring: outputs are scored exactly as submitted against the canonical matcher; interpretable-but-non-compliant outputs score as incorrect — Claude Task 3 run 2 embeds the entity name in the type field ("miRNA overexpression"), so 0/20 answers match canonically (its three schema-compliant passes give 60.0); GLM Task 2 passes 3–4 show partial input-field echo (51 and 98 of 193 rows; clean passes reach 95.9–97.9 direction accuracy). (ii) Re-administration: a pass whose outputs are uninterpretable as answers is re-administered once under the identical prompt — GLM Task 1 pass 1 (original capture used a three-column output the two-column parser could not read; the re-administered pass is fully compliant and the original is archived under <code>task1_schema_deviant_2026-10-13/</code>) and GLM Task 2 pass 4 (original capture lost to an API failure, archived under <code>api_failed_2026-10-12/</code>). All re-administrations and schema violations are disclosed.</li>
+<li><b>Chain adjudication.</b> Cross-model judging (GPT outputs judged by Claude; Claude outputs judged by GPT; all other systems judged by GPT; no system judged by itself) against unit-level gold mediators, five binary axes per unit. Every system has all four runs adjudicated on both Task 2 (193/193 units each) and Task 3 (20/20 each). Grok Task 3 pass 1's original judgment file was empty (a judging-side capture fault, not a model failure); the 20 units were adjudicated on Oct 16 with the identical judge protocol — evaluation-side only, with no prediction file touched — and the empty file is archived (<code>task3_judgments_empty_2026-10-12.tsv</code>). Mediator-axis false-negative audit: 0/193 Task 2 units name a gold mediator yet score 0.</li>
+<li><b>Invalidated capture, re-run (disclosed).</b> GLM Task 2 pass 4 was originally lost to an API failure (Oct 12): the raw capture ended <code>API_FAILED</code> and all 193 rows were harness placeholders. The pass was re-run on Oct 16 under the identical prompt (193/193 parsed, zero empty), re-adjudicated (193/193), and the invalid files are archived under <code>runs_extras/glm/pass4/api_failed_2026-10-12/</code>. A whole-repository integrity sweep confirmed no other pass in any evaluated system contains placeholder rows. The re-run reproduces GLM's partial input-echo behaviour, confirming echo is model output rather than a capture artifact.</li>
+<li><b>Task 3 schema policy and sensitivity.</b> The canonical matcher merges method-level variants (bare <code>knockdown</code> accepted for <code>siRNA/shRNA_knockdown</code> gold) but rejects entity-qualified answers as submitted; nine such Claude run-2 answers (chain otherwise passing) move Task 3 joint pass from 49.4% to 51.3% under a semantic-normalization sensitivity view (Claude run 2: 0/20 → 9/20). Strict-schema is the primary view; see Appendix B §B.6.</li>
+<li><b>Task composition.</b> Task 3 is a targeted diagnostic subset (20 units, 9 pairs, 6 TFs); several inference targets are not identifiable from the input alone (e.g. agonist vs overexpression), which is why type failures are interpreted as experimental-design knowledge gaps rather than pure reasoning errors.</li>
+<li><b>Status.</b> All chain/joint values are preliminary pending blinded human adjudication; packets are archived for that review.</li>
+</ul>
+
+<h2>S5. Where mechanistic reasoning breaks: the causal-order axis</h2>
+<p>Direction-of-change prediction is saturated, and the intervention–outcome link is the strongest adjudication axis for every system (S2). The weakest or second-weakest axis is, without exception, <b>causal order</b> — the requirement that an answer place the transcription factor, the required mediator, and the target gene into an explicit ordered dependency. Systems do not fail because they cannot name entities (the mediator axis is passed nearly as often as the mechanism axis); they fail because the relational structure between the entities they name is absent. Three failure categories are observed.</p>
+
+<h3>S5.1 The one-layer default narrative</h3>
+<p>A single Task 2 unit fails the causal-order axis for all six systems in all 24 adjudicated unit-runs: <b>T2U_0014</b> (ESR1 → G0S2; perturbation = loss of the target regulatory sites). The gold annotation is chromatin-mediated regulation — the experiment disrupted the ERBS H3K27ac-positive enhancer state by targeted recruitment of SID4X-dCas9-KRAB/SIN3A-HDAC. All six systems predict the correct direction (down) and produce a one-layer narrative in which ESR1 binds DNA directly; none of the 22–24 traces per unit mentions the epigenetic silencing machinery (verified 0 mentions of KRAB/SIN3A/dCas9/H3K27ac across all traces on this unit):</p>
+<blockquote>
+<p><b>GPT:</b> "Direct cis-regulatory DNA: loss of the G0S2 regulatory site weakens ESR1-linked transcription, lowering G0S2 expression." — <b>Claude:</b> "Perturbing the ESR1-bound regulatory element removes direct enhancer activation of the target, lowering expression." — <b>Gemini:</b> "…perturbation of this binding site eliminates ESR1 recruitment leading to downregulation." — <b>GLM:</b> "…loss_or_reduction of this cis-regulatory site removes the ESR1 enhancer input, so G0S2 decreases." — <b>Grok:</b> "Loss of target cis-regulatory sites prevents ESR1 binding and activation, lowering G0S2." — <b>Biomni:</b> "ESR1 … binds to estrogen response elements (EREs) in the regulatory regions of target genes …"</p>
+</blockquote>
+
+<h3>S5.2 Mediator named, causal role inverted</h3>
+<p>Units T2U_0022–0023 (ΔNp63 → SAMD9L/ZHX2; perturbation = H2A.Z loss): the gold annotation specifies repressive H2A.Z deposition (loss → gold direction <i>up</i>). Four systems pass the mechanism and mediator axes (each names H2A.Z) and then fail causal order and outcome link by applying the textbook prior that H2A.Z marks permissive chromatin: "H2A.Z loss alters the chromatin state that TP63 needs to activate the target, so expression falls" (Claude; predicted down, gold up). The entity is correct; its position and polarity in the chain are not.</p>
+
+<h3>S5.3 Isolated causal-order failures</h3>
+<p>Exactly five unit-runs in the entire adjudicated pool fail the causal-order axis while passing the other four — all by Gemini, all on chromatin-mediated units where the model names the correct mediator class and direction: "EED/PRC2 acts as a repressive chromatin regulator at the CDX2-regulated target locus, and its loss reduces repressive H3K27me3 marks leading to target gene upregulation." The dependency structure the gold topology requires (TF → required chromatin regulator → transcription) is absent: the mediator is described as a static attribute of the locus, not a node in an ordered causal path. The failure is representational rather than epistemic.</p>
+
+<h2>S6. Biological failure families</h2>
+<p class="fn" style="font-weight:bold">Table S5 | Whole-family causal-order failure rates, pooled over all family units × 6 systems × 4 adjudicated runs (denominators shown).</p>
+<table>
+<tr><th>Units</th><th>Family (gold mediator)</th><th>Causal-order-axis failure</th><th>Full-chain failure</th></tr>
+<tr><td style='text-align:left'>T2U_0036–0038</td><td style='text-align:left'>BHLHE40 (partner TF)</td><td><b>95.8%</b> (69/72)</td><td><b>100.0%</b> (72/72)</td></tr>
+<tr><td style='text-align:left'>T2U_0013–0015</td><td style='text-align:left'>H3K27ac+ enhancer state disrupted by dCas9-KRAB/SIN3A-HDAC</td><td><b>97.2%</b> (70/72)</td><td><b>98.6%</b> (71/72)</td></tr>
+<tr><td style='text-align:left'>T2U_0022–0023</td><td style='text-align:left'>SRCAP subunits; repressive H2A.Z</td><td><b>91.7%</b> (44/48)</td><td><b>95.8%</b> (46/48)</td></tr>
+<tr><td style='text-align:left'>T2U_0016–0021</td><td style='text-align:left'>TAL1 (partner TF)</td><td><b>81.9%</b> (118/144)</td><td><b>90.3%</b> (130/144)</td></tr>
+<tr><td style='text-align:left'>T2U_0003–0009</td><td style='text-align:left'>FOXK1 (partner TF)</td><td><b>83.3%</b> (140/168)</td><td><b>83.3%</b> (140/168)</td></tr>
+</table>
+
+<p><b>Family resolution matrix</b> (runs in which a system passes all five axes on all units of a family): TP63–FOXK1 — GPT 3 of 4 runs, Gemini 1 of 4, all others 0; GATA1–TAL1 — Grok 1 of 4, all others 0; SRCAP/H2A.Z, ESR1-enhancer, PPARA–BHLHE40 — no system ever resolves them. Two observations follow. First, every family above 80% requires a second entity in the chain, whereas units systems pass are overwhelmingly single-input direct-cis units; the causal-order axis is the benchmark's primary discriminator between mechanism resolution and direction-level pattern matching. Second, the TP63–FOXK1 family is a sharp system discriminator rather than a universal blind spot: on those seven units, GPT names FOXK1 in 21 of 28 adjudicated traces (passing all five axes on every trace that names it), Gemini in 7 of 28 (likewise all passing), while the four remaining systems never name it (0 of 112 traces).</p>
+
+<h3>S6.1 Cross-system failure overlap</h3>
+<ul>
+<li><b>Shared-failure units</b> (chain fails in every adjudicated run of at least four of six systems): <b>22</b> — 17 combinatorial, 5 chromatin-mediated, 0 regulatory-RNA, 0 direct-cis.</li>
+<li><b>Shared-pass units</b> (chain passes in every adjudicated run of at least four of six systems): <b>140</b> — 112 direct-cis, 16 regulatory-RNA, 16 combinatorial, 15 chromatin.</li>
+<li><b>Near-miss units</b> (fail exactly one axis in at least one adjudicated run): Gemini 32, GPT 12, Claude 6, Grok 5, Biomni 4, GLM 0. Most chain failures still fail on multiple axes simultaneously.</li>
+</ul>
+
+<h2>S7. The direct-activation prior (Task 1 pooling)</h2>
+<p>Pooled over the six systems and four runs (4,104 Task 1 unit-level predictions; GLM Task 1 pass 1 is the re-administered, schema-compliant pass), <code>direct_cis_regulatory_dna</code> accounts for <b>91.2%</b> of all mechanism predictions (3,743 of 4,104), against a gold frequency of 66.7% (114 of 171 units). On the non-default classes, 82.9% of predictions on chromatin-mediated units, 88.5% on combinatorial units, and 83.3% on regulatory-RNA units are direct-cis. Exact class-level recognition outside direct-cis is rare: 8.5% (chromatin), 10.4% (combinatorial), 10.6% (regulatory-RNA), against 94.5% for direct-cis units. This is not a prompt artifact (prompts are byte-identical across systems and runs) nor a scoring bias (all four classes are counted symmetrically); it is consistent with a default narrative — "TF directly regulates target" — dominating all other mechanistic hypotheses.</p>
+
+<h2>S8. Task 3 error taxonomy (post-amendment)</h2>
+<p>With the disclosed RNA-alias rule in force, the earlier "vocabulary mismatch" failures largely disappear (canonical <code>knockdown</code> on regulatory-RNA units is accepted as <code>inhibition</code>). The remaining Task 3 type errors fall into two verifiable categories:</p>
+<ul>
+<li><b>Method inference.</b> For PPARA targets (T3VP_0004/0005/0012) the gold intervention is <code>agonist_activation</code> (ligand agonist, not cDNA overexpression); systems answer "overexpression" — same sign, different experiment, indistinguishable without paper-level knowledge.</li>
+<li><b>Precision.</b> For the SMAD3/PTPRK unit (T3VP_0009) the gold is <code>combined_ligand_stimulation</code> (simultaneous NOTCH1 + TGF-β stimulation); systems answer "activation", capturing the sign but not the two-pathway design. A third, borderline case is miR-451 (T3VP_0015), accepted only as <code>genetic_knockout</code>: a "knockdown" answer is genuinely a different experiment and is not rescued by the alias.</li>
+</ul>
+
+<h2>S9. Systems, reproducibility</h2>
+<ul>
+<li><b>Systems:</b> GPT-6-Astra, Claude-Sonnet-5.5, Gemini-3.8-Flash, GLM-5.3-Flash, Grok-4.6 (closed-book, unified relay, temperature 0); Biomni (tool-augmented biomedical agent). Four independent runs each; prompts byte-identical.</li>
+<li><b>Integrity:</b> frozen benchmark bundle v3.7.0 with SHA-256 manifest; released scorer unmodified; the single amendment (RNA alias) is designer-approved and disclosed with rescued unit identifiers.</li>
+<li><b>Recompute:</b> any cell of any table regenerates from the frozen files, e.g.
+<pre>
+python3 evaluation_v3.7.0/scoring/score_model_outputs.py --bundle evaluation_v3.7.0     --task task1 --predictions runs/run4/claude --output /tmp/x.json
+python3 compute_final_stats.py        # published means
+python3 audit_recompute_all.py        # full per-run audit (source of Tables S3–S4)
+shasum -a 256 -c runs/FROZEN_MANIFEST.sha256
+</pre></li>
+<li><b>Frozen:</b> 597 files, SHA-256 manifest <code>runs/FROZEN_MANIFEST.sha256</code>, frozen at 2026-10-17 01:31:05.</li>
+</ul>
+
+<p class="fn">Prepared 2026-10-17. Frozen — do not regenerate or re-run. Open validation step: blinded human adjudication of chain judgments (packets archived). Evaluator-only gold (mechanism labels, mediators, causal topologies, accepted intervention types) is never visible to evaluated systems.</p>
+</body></html>

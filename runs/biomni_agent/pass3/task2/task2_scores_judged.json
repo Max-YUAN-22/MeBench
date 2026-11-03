@@ -1,0 +1,42 @@
+{
+  "task": "task2",
+  "n_units": 193,
+  "direction_metrics": {
+    "accuracy": 0.8290155440414507,
+    "balanced_accuracy": 0.738830032243206,
+    "macro_f1": 0.8251748251748252,
+    "invalid_outputs": [
+      "unparsed"
+    ],
+    "per_class": {
+      "down": {
+        "support": 167,
+        "precision": 0.993103448275862,
+        "recall": 0.8622754491017964,
+        "f1": 0.9230769230769231
+      },
+      "up": {
+        "support": 26,
+        "precision": 0.8888888888888888,
+        "recall": 0.6153846153846154,
+        "f1": 0.7272727272727274
+      }
+    }
+  },
+  "reasoning_present_rate": 1.0,
+  "exact_mechanism_label_mention_rate_diagnostic_only": 0.0,
+  "label_mention_is_not_chain_credit": true,
+  "reasoning_chain_status": "scored_by_supplied_blinded_adjudication",
+  "full_reasoning_chain_accuracy": 0.7668393782383419,
+  "mean_reasoning_chain_component_score": 0.8487046632124353,
+  "per_axis_accuracy": {
+    "mechanism_correct": 0.8652849740932642,
+    "mediator_correct": 0.8393782383419689,
+    "causal_role_order_correct": 0.8031088082901554,
+    "intervention_outcome_link_correct": 0.8963730569948186,
+    "no_material_contradiction": 0.8393782383419689
+  },
+  "full_chain_correct_units": 148,
+  "full_chain_incorrect_units": 45,
+  "direction_and_full_reasoning_chain_joint_accuracy": 0.6476683937823834
+}
