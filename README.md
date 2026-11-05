@@ -66,7 +66,7 @@ The [data and results index](docs/SUPPLEMENT_INDEX.md) maps every appendix to it
 
 - Mechanism references describe specific experimental contexts. The compressed task inputs do not establish universal regulatory mechanisms or unique inverse interventions.
 - Task 2/3 headline scores are **joint** answer-and-chain metrics. Their protocol-specific F1 implementations differ from ordinary answer-only macro-F1; exact definitions are in [SCORING.md](docs/SCORING.md).
-- Chain judgments remain preliminary pending blinded expert validation. Automated agreement measures judge/protocol sensitivity, not biological correctness.
+- All authors discussed the results, and author spot checks covered all five scoring dimensions. Chain judgments remain subject to independent blinded validation; automated agreement measures judge/protocol sensitivity, not biological correctness.
 - Task 3 is a targeted 20-unit subset. Only one unit has two annotated accepted labels; singleton sets do not prove unique biological identifiability.
 - Source studies are concentrated. Cluster intervals condition on the frozen labels, judgments and observed runs; small rank differences require care.
 

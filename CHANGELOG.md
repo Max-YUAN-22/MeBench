@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-05 — Author review and collaborative validation scope
+
+- Documented author discussion and spot checks across all five scoring dimensions, distinguished from exhaustive reannotation and independent blinded validation.
+- Added future collaborative curation and validation directions; clarified the scope of supplementary reassessment and source-cluster analyses.
+- Kept the abstract, all figures and all experimental scores unchanged.
+
 ## 2026-11-05 — Reviewer-facing documentation cleanup
 
 - Removed internal editing notes from the current public file tree.
