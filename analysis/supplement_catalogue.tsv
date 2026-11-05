@@ -1,0 +1,132 @@
+appendix	supplement_pages	description	path	reproduce	status
+A	S1	Protocol, source metadata and all-record audit	evaluation_v3.7.0/task2/evaluator_metadata.tsv.gz	scripts/reproduce_release.py	current
+A	S1	Protocol, source metadata and all-record audit	analysis/release_audit/independent_audit.json	scripts/reproduce_release.py	current
+A	S1	Protocol, source metadata and all-record audit	runs/MASTER_data_dictionary.md	scripts/reproduce_release.py	current
+B	S2	Metric definitions and answer/chain/joint summaries	analysis/release_audit/diagnostic_metrics.tsv	scripts/reproduce_release.py	current
+B	S2	Metric definitions and answer/chain/joint summaries	analysis/release_audit/main_table_recomputed.tsv	scripts/reproduce_release.py	current
+C	S3	Outcome-mechanism dissociation	analysis/release_audit/diagnostic_metrics.tsv	scripts/reproduce_release.py; scripts/analyze_dependency_modules.py	current
+C	S3	Outcome-mechanism dissociation	analysis/mechanism_modules/T2_answer_wrong_chain_pass_review.tsv	scripts/reproduce_release.py; scripts/analyze_dependency_modules.py	current
+D	S4	Mechanism strata and intervention contrasts	analysis/release_audit/mechanism_strata.tsv	scripts/reproduce_release.py; scripts/analyze_dependency_modules.py	current
+D	S4	Mechanism strata and intervention contrasts	analysis/mechanism_modules/modules.tsv	scripts/reproduce_release.py; scripts/analyze_dependency_modules.py	current
+D	S4	Mechanism strata and intervention contrasts	analysis/mechanism_modules/PPARA_activation_responses.tsv	scripts/reproduce_release.py; scripts/analyze_dependency_modules.py	current
+D	S4	Mechanism strata and intervention contrasts	analysis/mechanism_modules/BHLHE40_depletion_responses.tsv	scripts/reproduce_release.py; scripts/analyze_dependency_modules.py	current
+D	S4	Mechanism strata and intervention contrasts	analysis/mechanism_modules/TP63_TF_loss_responses.tsv	scripts/reproduce_release.py; scripts/analyze_dependency_modules.py	current
+D	S4	Mechanism strata and intervention contrasts	analysis/mechanism_modules/FOXK1_loss_responses.tsv	scripts/reproduce_release.py; scripts/analyze_dependency_modules.py	current
+E	S5	PPARA-BHLHE40 and TP63-FOXK1 dependency modules	analysis/mechanism_modules/claim_audit.json	scripts/analyze_dependency_modules.py	current
+E	S5	PPARA-BHLHE40 and TP63-FOXK1 dependency modules	analysis/mechanism_modules/PPARA_activation_responses.tsv	scripts/analyze_dependency_modules.py	current
+E	S5	PPARA-BHLHE40 and TP63-FOXK1 dependency modules	analysis/mechanism_modules/FOXK1_loss_responses.tsv	scripts/analyze_dependency_modules.py	current
+F	S6	GATA1 recruitment and H2A.Z role diagnostics	analysis/mechanism_modules/GATA1_TAL1_responses.tsv	scripts/analyze_dependency_modules.py	current
+F	S6	GATA1 recruitment and H2A.Z role diagnostics	analysis/mechanism_modules/SRCAP_H2AZ_responses.tsv	scripts/analyze_dependency_modules.py	current
+G	S7	Input ambiguity and pair weighting	analysis/release_audit/sensitivity.tsv	scripts/reproduce_release.py; scripts/analyze_dependency_modules.py	current
+G	S7	Input ambiguity and pair weighting	analysis/mechanism_modules/ESR1_enhancer_responses.tsv	scripts/reproduce_release.py; scripts/analyze_dependency_modules.py	current
+H	S8	Strict shared failures and inverse ambiguity	analysis/mechanism_modules/T2_all24_fail_units.tsv	scripts/analyze_dependency_modules.py	current
+H	S8	Strict shared failures and inverse ambiguity	analysis/mechanism_modules/T3_all24_fail_units.tsv	scripts/analyze_dependency_modules.py	current
+H	S8	Strict shared failures and inverse ambiguity	analysis/mechanism_modules/T2_all_interventions_fail_pairs.tsv	scripts/analyze_dependency_modules.py	current
+H	S8	Strict shared failures and inverse ambiguity	analysis/mechanism_modules/T3VP_0002_responses.tsv	scripts/analyze_dependency_modules.py	current
+H	S8	Strict shared failures and inverse ambiguity	analysis/mechanism_modules/T3VP_0004_responses.tsv	scripts/analyze_dependency_modules.py	current
+I	S9	Task 1 concentration and adjudication flags	runs/MASTER_task1.tsv	scripts/reproduce_release.py; scripts/analyze_dependency_modules.py	current
+I	S9	Task 1 concentration and adjudication flags	analysis/mechanism_modules/T2_answer_wrong_chain_pass_review.tsv	scripts/reproduce_release.py; scripts/analyze_dependency_modules.py	current
+I	S9	Task 1 concentration and adjudication flags	analysis/mechanism_modules/GATA1_TAL1_responses.tsv	scripts/reproduce_release.py; scripts/analyze_dependency_modules.py	current
+J	S10	Training hypotheses and traceable examples	paper/manuscript/appendix.tex	Hypotheses, not a training experiment; scripts/analyze_dependency_modules.py for example records	current
+J	S10	Training hypotheses and traceable examples	analysis/mechanism_modules/T2U_0036_responses.tsv	Hypotheses, not a training experiment; scripts/analyze_dependency_modules.py for example records	current
+K	S11-S12	Gemini sample, original-axis manifests and independently reviewed metrics	sensitivity/K_judge_robustness/sample_design.json	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini sample, original-axis manifests and independently reviewed metrics	sensitivity/K_judge_robustness/packets/task2_manifest.json	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini sample, original-axis manifests and independently reviewed metrics	sensitivity/K_judge_robustness/packets/task3_manifest.json	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini sample, original-axis manifests and independently reviewed metrics	sensitivity/reviewed/team_judge_audit.json	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini sample, original-axis manifests and independently reviewed metrics	sensitivity/reviewed/gemini_reassessment_by_record.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini sample, original-axis manifests and independently reviewed metrics	sensitivity/reviewed/gemini_agreement_metrics.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini sample, original-axis manifests and independently reviewed metrics	sensitivity/reviewed/gemini_system_changes.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini sample, original-axis manifests and independently reviewed metrics	sensitivity/reviewed/cross_protocol_overlap.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini supplied packet; system identity is visible	sensitivity/K_judge_robustness/packets/task2_rejudge_batch01.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini supplied packet; system identity is visible	sensitivity/K_judge_robustness/packets/task2_rejudge_batch02.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini supplied packet; system identity is visible	sensitivity/K_judge_robustness/packets/task2_rejudge_batch03.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini supplied packet; system identity is visible	sensitivity/K_judge_robustness/packets/task2_rejudge_batch04.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini supplied packet; system identity is visible	sensitivity/K_judge_robustness/packets/task2_rejudge_batch05.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini supplied packet; system identity is visible	sensitivity/K_judge_robustness/packets/task2_rejudge_batch06.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini supplied packet; system identity is visible	sensitivity/K_judge_robustness/packets/task2_rejudge_batch07.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini supplied packet; system identity is visible	sensitivity/K_judge_robustness/packets/task2_rejudge_batch08.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini supplied packet; system identity is visible	sensitivity/K_judge_robustness/packets/task2_rejudge_batch09.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini supplied packet; system identity is visible	sensitivity/K_judge_robustness/packets/task3_rejudge_batch01.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini supplied packet; system identity is visible	sensitivity/K_judge_robustness/packets/task3_rejudge_batch02.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini supplied packet; system identity is visible	sensitivity/K_judge_robustness/packets/task3_rejudge_batch03.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini supplied packet; system identity is visible	sensitivity/K_judge_robustness/packets/task3_rejudge_batch04.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini supplied packet; system identity is visible	sensitivity/K_judge_robustness/packets/task3_rejudge_batch05.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini supplied packet; system identity is visible	sensitivity/K_judge_robustness/packets/task3_rejudge_batch06.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini supplied packet; system identity is visible	sensitivity/K_judge_robustness/packets/task3_rejudge_batch07.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini supplied packet; system identity is visible	sensitivity/K_judge_robustness/packets/task3_rejudge_batch08.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini supplied packet; system identity is visible	sensitivity/K_judge_robustness/packets/task3_rejudge_batch09.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini supplied packet; system identity is visible	sensitivity/K_judge_robustness/packets/task3_rejudge_batch10.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini supplied packet; system identity is visible	sensitivity/K_judge_robustness/packets/task3_rejudge_batch11.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini supplied packet; system identity is visible	sensitivity/K_judge_robustness/packets/task3_rejudge_batch12.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task2_rejudge_batch01_judgments.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task2_rejudge_batch01_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task2_rejudge_batch02_judgments.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task2_rejudge_batch02_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task2_rejudge_batch03_judgments.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task2_rejudge_batch03_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task2_rejudge_batch04_judgments.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task2_rejudge_batch04_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task2_rejudge_batch05_judgments.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task2_rejudge_batch05_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task2_rejudge_batch06_judgments.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task2_rejudge_batch06_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task2_rejudge_batch07_judgments.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task2_rejudge_batch07_raw.continuation_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task2_rejudge_batch07_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task2_rejudge_batch08_judgments.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task2_rejudge_batch08_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task2_rejudge_batch09_judgments.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task2_rejudge_batch09_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch01_judgments.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch01_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch02_judgments.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch02_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch03_judgments.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch03_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch04_judgments.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch04_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch05_judgments.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch05_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch06_judgments.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch06_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch07_judgments.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch07_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch08_judgments.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch08_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch09_judgments.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch09_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch10_judgments.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch10_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch11_judgments.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch11_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch12_judgments.tsv	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Gemini raw or parsed archived output	sensitivity/K_judge_robustness/judgments/task3_rejudge_batch12_raw.txt	scripts/audit_team_sensitivity.py	current
+K	S11-S12	Earlier independent-agent pilot; different information interface	analysis/robustness/judge_protocol.json	scripts/analyze_judge_robustness.py	current
+K	S11-S12	Earlier independent-agent pilot; different information interface	analysis/robustness/judge_blinded_cases.jsonl	scripts/analyze_judge_robustness.py	current
+K	S11-S12	Earlier independent-agent pilot; different information interface	analysis/robustness/judge_sample_mapping.json	scripts/analyze_judge_robustness.py	current
+K	S11-S12	Earlier independent-agent pilot; different information interface	analysis/robustness/judge_sampling_strata.json	scripts/analyze_judge_robustness.py	current
+K	S11-S12	Earlier independent-agent pilot; different information interface	analysis/robustness/judge_rubric.md	scripts/analyze_judge_robustness.py	current
+K	S11-S12	Earlier independent-agent pilot; different information interface	analysis/robustness/judge_reassessment_by_record.tsv	scripts/analyze_judge_robustness.py	current
+K	S11-S12	Earlier independent-agent pilot; different information interface	analysis/robustness/judge_agreement_metrics.tsv	scripts/analyze_judge_robustness.py	current
+K	S11-S12	Earlier independent-agent pilot; different information interface	analysis/robustness/judge_system_pass_rate_changes.tsv	scripts/analyze_judge_robustness.py	current
+K	S11-S12	Earlier independent-agent pilot; different information interface	analysis/robustness/judge_robustness_analysis.json	scripts/analyze_judge_robustness.py	current
+K	S11-S12	Earlier independent-agent pilot; different information interface	analysis/robustness/judge_raw_batch_1.json	scripts/analyze_judge_robustness.py	current
+K	S11-S12	Earlier independent-agent pilot; different information interface	analysis/robustness/judge_raw_batch_2.json	scripts/analyze_judge_robustness.py	current
+K	S11-S12	Earlier independent-agent pilot; different information interface	analysis/robustness/judge_raw_batch_3.json	scripts/analyze_judge_robustness.py	current
+K	S11-S12	Earlier independent-agent pilot; different information interface	analysis/robustness/judge_raw_batch_4.json	scripts/analyze_judge_robustness.py	current
+K	S11-S12	Earlier independent-agent pilot; different information interface	analysis/robustness/judge_raw_batch_5.json	scripts/analyze_judge_robustness.py	current
+K	S11-S12	Earlier independent-agent pilot; different information interface	analysis/robustness/judge_raw_batch_6.json	scripts/analyze_judge_robustness.py	current
+L	S13-S14	All accepted sets, predictions and matching outcomes	analysis/robustness/task3_accepted_sets_by_unit.tsv	scripts/analyze_task3_accepted_sets.py	current
+L	S13-S14	All accepted sets, predictions and matching outcomes	analysis/robustness/task3_matching_by_record.tsv	scripts/analyze_task3_accepted_sets.py	current
+L	S13-S14	All accepted sets, predictions and matching outcomes	analysis/robustness/task3_accepted_set_metrics.tsv	scripts/analyze_task3_accepted_sets.py	current
+L	S13-S14	All accepted sets, predictions and matching outcomes	analysis/robustness/task3_accepted_set_analysis.json	scripts/analyze_task3_accepted_sets.py	current
+L	S13-S14	All accepted sets, predictions and matching outcomes	sensitivity/L_accepted_set/outputs/L_ACCEPTED_SET.json	scripts/analyze_task3_accepted_sets.py	current
+M	S15-S16	Primary unit-weighted joint BAcc and pair/source cluster replicates	analysis/robustness/study_components.tsv	scripts/cluster_bootstrap.py	current
+M	S15-S16	Primary unit-weighted joint BAcc and pair/source cluster replicates	analysis/robustness/cluster_bootstrap_ci.tsv	scripts/cluster_bootstrap.py	current
+M	S15-S16	Primary unit-weighted joint BAcc and pair/source cluster replicates	analysis/robustness/GPT_Claude_paired_differences.tsv	scripts/cluster_bootstrap.py	current
+M	S15-S16	Primary unit-weighted joint BAcc and pair/source cluster replicates	analysis/robustness/bootstrap_rank_stability.tsv	scripts/cluster_bootstrap.py	current
+M	S15-S16	Primary unit-weighted joint BAcc and pair/source cluster replicates	analysis/robustness/bootstrap_pair_replicates.npz	scripts/cluster_bootstrap.py	current
+M	S15-S16	Primary unit-weighted joint BAcc and pair/source cluster replicates	analysis/robustness/bootstrap_study_component_replicates.npz	scripts/cluster_bootstrap.py	current
+M	S15-S16	Primary unit-weighted joint BAcc and pair/source cluster replicates	analysis/robustness/cluster_bootstrap_analysis.json	scripts/cluster_bootstrap.py	current
+M	S15-S16	Reviewed equal-pair chain/joint estimates and corrected ranking	sensitivity/reviewed/M_CORRECTED_RANKING.json	scripts/compute_M_corrected.py	current
+M	S15-S16	Reviewed equal-pair chain/joint estimates and corrected ranking	sensitivity/reviewed/verification_report.json	scripts/compute_M_corrected.py	current

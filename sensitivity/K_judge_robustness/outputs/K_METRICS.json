@@ -1,0 +1,293 @@
+{
+ "judge": "gemini-3.8-flash",
+ "task2": {
+  "n_sampled": 360,
+  "n_parsed": 358,
+  "parse_coverage": 99.4,
+  "axes": {
+   "mechanism_correct": {
+    "n": 358,
+    "agreement": 97.2,
+    "kappa": 0.942,
+    "orig1_new0": 5,
+    "orig0_new1": 5,
+    "orig_pos_rate": 59.8,
+    "new_pos_rate": 59.8
+   },
+   "mediator_correct": {
+    "n": 358,
+    "agreement": 93.9,
+    "kappa": 0.873,
+    "orig1_new0": 16,
+    "orig0_new1": 6,
+    "orig_pos_rate": 60.3,
+    "new_pos_rate": 57.5
+   },
+   "causal_role_order_correct": {
+    "n": 358,
+    "agreement": 97.2,
+    "kappa": 0.944,
+    "orig1_new0": 6,
+    "orig0_new1": 4,
+    "orig_pos_rate": 53.1,
+    "new_pos_rate": 52.5
+   },
+   "intervention_outcome_link_correct": {
+    "n": 358,
+    "agreement": 86.6,
+    "kappa": 0.513,
+    "orig1_new0": 2,
+    "orig0_new1": 46,
+    "orig_pos_rate": 77.9,
+    "new_pos_rate": 90.2
+   },
+   "no_material_contradiction": {
+    "n": 358,
+    "agreement": 77.9,
+    "kappa": 0.493,
+    "orig1_new0": 44,
+    "orig0_new1": 35,
+    "orig_pos_rate": 69.3,
+    "new_pos_rate": 66.8
+   }
+  },
+  "chain": {
+   "n_valid": 358,
+   "agreement": 96.4,
+   "kappa": 0.927,
+   "orig_pass_rate": 50.0,
+   "new_pass_rate": 52.5,
+   "delta": 2.5,
+   "fail_to_pass": 11,
+   "pass_to_fail": 2
+  },
+  "per_system": {
+   "GPT-6-Astra": {
+    "n": 60,
+    "orig_pass": 50.0,
+    "new_pass": 48.3,
+    "fail_to_pass": 0,
+    "pass_to_fail": 1
+   },
+   "Claude-Sonnet-5.5": {
+    "n": 59,
+    "orig_pass": 50.8,
+    "new_pass": 52.5,
+    "fail_to_pass": 1,
+    "pass_to_fail": 0
+   },
+   "Gemini-3.8-Flash": {
+    "n": 60,
+    "orig_pass": 50.0,
+    "new_pass": 61.7,
+    "fail_to_pass": 7,
+    "pass_to_fail": 0
+   },
+   "GLM-5.3-Flash": {
+    "n": 60,
+    "orig_pass": 50.0,
+    "new_pass": 50.0,
+    "fail_to_pass": 0,
+    "pass_to_fail": 0
+   },
+   "Grok-4.6": {
+    "n": 59,
+    "orig_pass": 49.2,
+    "new_pass": 50.8,
+    "fail_to_pass": 1,
+    "pass_to_fail": 0
+   },
+   "Biomni": {
+    "n": 60,
+    "orig_pass": 50.0,
+    "new_pass": 51.7,
+    "fail_to_pass": 2,
+    "pass_to_fail": 1
+   }
+  },
+  "self_preference": {
+   "gemini_rows": 60,
+   "other_rows": 298,
+   "gemini_f2p": 7,
+   "gemini_p2f": 0,
+   "other_f2p": 4,
+   "other_p2f": 2,
+   "gemini_fail_rows": 30,
+   "other_fail_rows": 149,
+   "axis_agreement_gemini_rows": 89.0,
+   "axis_agreement_other_rows": 90.9,
+   "pass_delta_gemini_rows": 11.7,
+   "pass_delta_other_rows": 0.7
+  },
+  "leniency": {},
+  "ranking": {
+   "ranking_applicable": false,
+   "design_note": "task2 sample is balanced by design (30 pass / 30 fail per system), so per-system chain-pass levels on the sample are pinned at ~50% and the sample cannot support a ranking claim; ranking stability is assessed on the task3 full enumeration and at the population level in Appendix M",
+   "order_original_judge": [
+    "Claude-Sonnet-5.5",
+    "GPT-6-Astra",
+    "Gemini-3.8-Flash",
+    "GLM-5.3-Flash",
+    "Biomni",
+    "Grok-4.6"
+   ],
+   "order_rejudge": [
+    "Gemini-3.8-Flash",
+    "Claude-Sonnet-5.5",
+    "Biomni",
+    "Grok-4.6",
+    "GLM-5.3-Flash",
+    "GPT-6-Astra"
+   ],
+   "kendall_tau": 0.067,
+   "identical_order": false,
+   "top_system_same": false,
+   "bottom_system_same": false
+  }
+ },
+ "task3": {
+  "n_sampled": 480,
+  "n_parsed": 480,
+  "parse_coverage": 100.0,
+  "axes": {
+   "mechanism_correct": {
+    "n": 480,
+    "agreement": 94.8,
+    "kappa": 0.862,
+    "orig1_new0": 24,
+    "orig0_new1": 1,
+    "orig_pos_rate": 77.3,
+    "new_pos_rate": 72.5
+   },
+   "mediator_correct": {
+    "n": 480,
+    "agreement": 91.2,
+    "kappa": 0.777,
+    "orig1_new0": 14,
+    "orig0_new1": 28,
+    "orig_pos_rate": 71.9,
+    "new_pos_rate": 74.8
+   },
+   "causal_role_order_correct": {
+    "n": 480,
+    "agreement": 93.5,
+    "kappa": 0.856,
+    "orig1_new0": 21,
+    "orig0_new1": 10,
+    "orig_pos_rate": 67.1,
+    "new_pos_rate": 64.8
+   },
+   "intervention_outcome_link_correct": {
+    "n": 480,
+    "agreement": 91.9,
+    "kappa": 0.633,
+    "orig1_new0": 8,
+    "orig0_new1": 31,
+    "orig_pos_rate": 85.0,
+    "new_pos_rate": 89.8
+   },
+   "no_material_contradiction": {
+    "n": 480,
+    "agreement": 85.2,
+    "kappa": 0.563,
+    "orig1_new0": 43,
+    "orig0_new1": 28,
+    "orig_pos_rate": 80.0,
+    "new_pos_rate": 76.9
+   }
+  },
+  "chain": {
+   "n_valid": 480,
+   "agreement": 89.8,
+   "kappa": 0.783,
+   "orig_pass_rate": 60.6,
+   "new_pass_rate": 64.2,
+   "delta": 3.5,
+   "fail_to_pass": 33,
+   "pass_to_fail": 16
+  },
+  "per_system": {
+   "GPT-6-Astra": {
+    "n": 80,
+    "orig_pass": 72.5,
+    "new_pass": 67.5,
+    "fail_to_pass": 1,
+    "pass_to_fail": 5
+   },
+   "Claude-Sonnet-5.5": {
+    "n": 80,
+    "orig_pass": 56.2,
+    "new_pass": 62.5,
+    "fail_to_pass": 6,
+    "pass_to_fail": 1
+   },
+   "Gemini-3.8-Flash": {
+    "n": 80,
+    "orig_pass": 68.8,
+    "new_pass": 72.5,
+    "fail_to_pass": 6,
+    "pass_to_fail": 3
+   },
+   "GLM-5.3-Flash": {
+    "n": 80,
+    "orig_pass": 56.2,
+    "new_pass": 67.5,
+    "fail_to_pass": 9,
+    "pass_to_fail": 0
+   },
+   "Grok-4.6": {
+    "n": 80,
+    "orig_pass": 66.2,
+    "new_pass": 66.2,
+    "fail_to_pass": 3,
+    "pass_to_fail": 3
+   },
+   "Biomni": {
+    "n": 80,
+    "orig_pass": 43.8,
+    "new_pass": 48.8,
+    "fail_to_pass": 8,
+    "pass_to_fail": 4
+   }
+  },
+  "self_preference": {
+   "gemini_rows": 80,
+   "other_rows": 400,
+   "gemini_f2p": 6,
+   "gemini_p2f": 3,
+   "other_f2p": 27,
+   "other_p2f": 13,
+   "gemini_fail_rows": 25,
+   "other_fail_rows": 164,
+   "axis_agreement_gemini_rows": 93.5,
+   "axis_agreement_other_rows": 90.9,
+   "pass_delta_gemini_rows": 3.7,
+   "pass_delta_other_rows": 3.5
+  },
+  "leniency": {},
+  "ranking": {
+   "ranking_applicable": true,
+   "design_note": "",
+   "order_original_judge": [
+    "GPT-6-Astra",
+    "Gemini-3.8-Flash",
+    "Grok-4.6",
+    "Claude-Sonnet-5.5",
+    "GLM-5.3-Flash",
+    "Biomni"
+   ],
+   "order_rejudge": [
+    "Gemini-3.8-Flash",
+    "GPT-6-Astra",
+    "GLM-5.3-Flash",
+    "Grok-4.6",
+    "Claude-Sonnet-5.5",
+    "Biomni"
+   ],
+   "kendall_tau": 0.333,
+   "identical_order": false,
+   "top_system_same": false,
+   "bottom_system_same": true
+  }
+ }
+}

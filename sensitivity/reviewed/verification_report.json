@@ -1,0 +1,12 @@
+{
+  "task2_all_manifest_axes_match_master": true,
+  "task2_all_parsed_axes_match_raw": true,
+  "task3_all_manifest_axes_match_master": true,
+  "task3_all_parsed_axes_match_raw": true,
+  "task2_seed_sample_reproduced": true,
+  "corrected_M_preserves_all_points_intervals_and_differences": true,
+  "L_pooled_matches_independent_native_CSV_analysis": true,
+  "L_cardinality_strata_match_independent_analysis": true,
+  "31_source_partitions_identical_to_connected_components": true,
+  "author_L_and_M_JSON_reproduced_exactly": true
+}

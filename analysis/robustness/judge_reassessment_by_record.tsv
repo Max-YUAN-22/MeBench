@@ -1,0 +1,121 @@
+case_id	task	system	run	unit_id	pair_id	stratum	weight	old_chain	new_chain	adjudicator_notes	old_mechanism_correct	new_mechanism_correct	old_mediator_correct	new_mediator_correct	old_causal_role_order_correct	new_causal_role_order_correct	old_intervention_outcome_link_correct	new_intervention_outcome_link_correct	old_no_material_contradiction	new_no_material_contradiction
+J0001	3	Claude-Sonnet-5.5	3	T3VP_0020	PAIR_PPARA_ANGPTL4_ffa341522e51	T3|Claude-Sonnet-5.5|0100	7.0	0	0	Names BHLHE40 but reverses its required activating role and infers unaccepted overexpression.	0	0	1	1	0	0	0	0	0	0
+J0002	2	GPT-6-Astra	4	T2U_0036	PAIR_PPARA_ANGPTL4_ffa341522e51	T2|GPT-6-Astra|0100	8.0	0	0	BHLHE40 is named but described as opposing rather than required for induction; direction alone is insufficient.	0	0	1	1	0	0	1	0	0	0
+J0003	3	GPT-6-Astra	3	T3VP_0009	PAIR_SMAD3_PTPRK_984d80e568f9	T3|GPT-6-Astra|1010	2.0	0	0	Cooperation is plausible but SMAD4 and the specific NOTCH1 intracellular-domain/RBPJ mediator are not named; combined activation is consistent.	1	1	0	0	1	0	1	0	1	1
+J0004	3	Claude-Sonnet-5.5	1	T3VP_0012	PAIR_PPARA_PDK4_2604cf75050e	T3|Claude-Sonnet-5.5|1100	5.0	0	0	BHLHE40 is a tentative cofactor; overexpression is not the accepted agonist intervention.	1	1	1	1	0	1	1	0	1	0
+J0005	3	Biomni	1	T3VP_0015	PAIR_GATA1_YWHAZ_d99fcbe022fc	T3|Biomni|0100	5.0	0	0	Names miR-451 and its repression but places GATA1 on a separate direct activating path; knockdown differs from accepted knockout.	0	0	1	1	0	0	1	0	0	0
+J0006	2	Biomni	1	T2U_0180	PAIR_GATA1_YWHAZ_d99fcbe022fc	T2|Biomni|0100	18.0	0	0	Makes GATA1 the downstream mediator and substitutes feedback for miR-451 repression of Ywhaz.	0	0	1	0	0	0	1	0	0	0
+J0007	2	Biomni	3	T2U_0153	PAIR_PPARA_CDH3_73f923d3ad19	T2|Biomni|1111	147.0	1	1	E2F8-UHRF1/DNMT1/HDAC1 chromatin repression and loss-induced derepression are linked.	1	1	1	1	1	1	1	1	1	1
+J0008	3	GLM-5.3-Flash	3	T3VP_0003	PAIR_TWIST1_HOXD10_2d8ed112b281	T3|GLM-5.3-Flash|1111	9.0	1	1	TWIST1-induced miR-10b repression and inhibition-induced HOXD10 increase are explicit.	1	1	1	1	1	1	1	1	1	1
+J0009	2	Gemini-3.8-Flash	2	T2U_0142	PAIR_POU5F1_PAX6_b7d737cd5915	T2|Gemini-3.8-Flash|1110	4.0	0	1	Direct binding of target-linked cis DNA and relief of repression are stated without exact site coordinates.	1	1	1	1	1	1	0	1	0	1
+J0010	3	Gemini-3.8-Flash	1	T3VP_0008	PAIR_SMAD3_PTPRK_984d80e568f9	T3|Gemini-3.8-Flash|1111	9.166666666666666	1	0	SMAD4 cooperation and knockdown are correct, but the additionally required NOTCH1 pathway is omitted.	1	1	1	0	1	0	1	0	1	1
+J0011	3	GPT-6-Astra	1	T3VP_0012	PAIR_PPARA_PDK4_2604cf75050e	T3|GPT-6-Astra|0000	12.0	0	0	Direct-cis explanation omits BHLHE40; overexpression differs from accepted agonist activation.	0	0	0	0	0	0	0	0	0	0
+J0012	3	Biomni	4	T3VP_0019	PAIR_HIF1A_E2F3_c7315afb1aed	T3|Biomni|1111	8.75	1	1	Explicit HIF1A-to-miR-210-to-E2F3 repression and overexpression link; an additional unspecified HIF1A action is not necessarily contradictory.	1	1	1	1	1	1	1	1	1	1
+J0013	2	GPT-6-Astra	3	T2U_0017	PAIR_GATA1_RRAGD_756ca2d86c26	T2|GPT-6-Astra|1000	9.0	0	0	Substitutes FOG1 for the specified TAL1 partner and attributes the variant effect to that substitution.	1	0	0	0	0	0	0	0	0	0
+J0014	3	GLM-5.3-Flash	4	T3VP_0007	PAIR_SMAD3_PTPRK_984d80e568f9	T3|GLM-5.3-Flash|0000	11.0	0	0	Direct-cis explanation omits the required cooperative mediators; knockdown direction is compatible.	0	0	0	0	0	0	0	0	0	1
+J0015	3	Gemini-3.8-Flash	2	T3VP_0019	PAIR_HIF1A_E2F3_c7315afb1aed	T3|Gemini-3.8-Flash|1111	9.166666666666666	1	1	miR-210 is downstream of HIF1A and represses E2F3 after overexpression.	1	1	1	1	1	1	1	1	1	1
+J0016	2	Grok-4.6	2	T2U_0108	PAIR_ZNF143_SFT2D2_79481c246769	T2|Grok-4.6|1111	153.5	1	1	Target-linked ZNF143 cis motifs are sufficient without coordinates.	1	1	1	1	1	1	1	1	1	1
+J0017	3	GLM-5.3-Flash	3	T3VP_0019	PAIR_HIF1A_E2F3_c7315afb1aed	T3|GLM-5.3-Flash|1111	9.0	1	1	Complete HIF1A-miR-210-E2F3 chain with accepted gain intervention.	1	1	1	1	1	1	1	1	1	1
+J0018	3	Grok-4.6	4	T3VP_0002	PAIR_PPARA_PDK4_2604cf75050e	T3|Grok-4.6|1111	8.833333333333334	1	0	Names BHLHE40 but reverses its role and predicts unaccepted overexpression.	1	0	1	1	1	0	1	0	1	0
+J0019	2	Biomni	3	T2U_0015	PAIR_ESR1_MMP17_c7ee7d547be2	T2|Biomni|1110	8.0	0	1	Links the ER-bound H3K27ac enhancer state to target activation and site loss; exact repression method is not required for task2.	1	1	1	1	1	1	0	1	0	1
+J0020	2	GLM-5.3-Flash	4	T2U_0032	PAIR_ESR1_PGR_76559135d372	T2|GLM-5.3-Flash|0000	95.5	0	0	Confuses PGRe enhancer RNA with the DNA enhancer and assigns loss to the element.	0	0	0	0	0	0	0	0	0	0
+J0021	2	Grok-4.6	4	T2U_0141	PAIR_NANOG_NANOG_e71b1e5b0be5	T2|Grok-4.6|1110	16.0	0	0	Target cis element identified, but activation and predicted direction reverse the reference.	1	1	1	1	1	0	0	0	0	0
+J0022	3	Biomni	1	T3VP_0006	PAIR_SMAD3_PTPRK_984d80e568f9	T3|Biomni|0000	12.0	0	0	Pathway crosstalk is not the required cooperative SMAD4 and NOTCH1 transcriptional pathway; knockdown is compatible.	0	0	0	0	0	0	1	0	0	1
+J0023	3	Biomni	3	T3VP_0013	PAIR_HIF1A_E2F3_c7315afb1aed	T3|Biomni|1111	8.75	1	0	Correct repression chain, but knockdown is not the accepted inhibition and the answer explicitly excludes inhibition.	1	1	1	1	1	1	1	0	1	0
+J0024	2	Claude-Sonnet-5.5	2	T2U_0151	PAIR_SMAD3_PTPRK_984d80e568f9	T2|Claude-Sonnet-5.5|1000	10.0	0	0	Correct SMAD4 role but omits required NOTCH1 pathway.	1	1	0	0	0	0	1	0	1	1
+J0025	2	Claude-Sonnet-5.5	3	T2U_0151	PAIR_SMAD3_PTPRK_984d80e568f9	T2|Claude-Sonnet-5.5|1010	11.0	0	0	Correct SMAD4 role but omits required NOTCH1 pathway.	1	1	0	0	1	0	1	0	1	1
+J0026	2	Grok-4.6	2	T2U_0148	PAIR_SMAD3_PTPRK_984d80e568f9	T2|Grok-4.6|1010	7.0	0	0	Cooperation is described but neither SMAD4 nor the specific intracellular-domain/RBPJ pathway is identified.	1	1	0	0	1	0	1	0	1	1
+J0027	2	Grok-4.6	4	T2U_0021	PAIR_GATA1_SLC4A1_c0ca7b13445c	T2|Grok-4.6|0000	111.0	0	0	Omits TAL1 and claims loss of GATA1 occupancy contrary to preserved focal occupancy.	0	0	0	0	0	0	1	0	0	0
+J0028	2	Gemini-3.8-Flash	3	T2U_0057	PAIR_ZNF143_CPSF4_690aef85cea5	T2|Gemini-3.8-Flash|1010	32.0	0	1	Target-linked cis element and activation loss are explicit.	1	1	0	1	1	1	1	1	1	1
+J0029	3	Gemini-3.8-Flash	1	T3VP_0003	PAIR_TWIST1_HOXD10_2d8ed112b281	T3|Gemini-3.8-Flash|1111	9.166666666666666	1	0	Chain is correct; generic knockdown is not one of the specified accepted interventions.	1	1	1	1	1	1	1	0	1	0
+J0030	2	Claude-Sonnet-5.5	1	T2U_0175	PAIR_ZNF263_CUL3_3c1ecc1f6d8b	T2|Claude-Sonnet-5.5|1100	15.0	0	0	Correct intronic element, but reverses its effect and expected direction.	1	1	1	1	0	0	0	0	0	0
+J0031	3	Gemini-3.8-Flash	2	T3VP_0007	PAIR_SMAD3_PTPRK_984d80e568f9	T3|Gemini-3.8-Flash|1010	2.0	0	0	Cooperation with NOTCH1 is stated but required SMAD4 and specific NOTCH1 transcriptional pathway are omitted.	1	1	0	0	1	0	1	0	1	1
+J0032	3	Grok-4.6	1	T3VP_0001	PAIR_STAT3_CYLD_870ad9a86052	T3|Grok-4.6|1111	8.833333333333334	1	0	miR-181b does not unambiguously identify the annotated miR-181b-1 locus, although the stated direction is compatible.	1	1	1	0	1	0	1	0	1	1
+J0033	2	GPT-6-Astra	2	T2U_0182	PAIR_GATA1_SLC25A37_b066e7543caa	T2|GPT-6-Astra|1111	218.0	1	1	KMT2D-dependent activating chromatin is identified and linked to GATA1 and target loss; marks are not specified.	1	1	1	1	1	1	1	1	1	1
+J0034	3	GLM-5.3-Flash	2	T3VP_0002	PAIR_PPARA_PDK4_2604cf75050e	T3|GLM-5.3-Flash|1100	4.0	0	0	BHLHE40 is named but assigned the opposite role; overexpression is unaccepted.	1	0	1	1	0	0	0	0	0	0
+J0035	2	Claude-Sonnet-5.5	1	T2U_0037	PAIR_PPARA_HMGCS2_3abcd07550fa	T2|Claude-Sonnet-5.5|0000	109.0	0	0	Direct induction omits required BHLHE40; direction is compatible.	0	0	0	0	0	0	1	0	1	1
+J0036	2	GLM-5.3-Flash	4	T2U_0180	PAIR_GATA1_YWHAZ_d99fcbe022fc	T2|GLM-5.3-Flash|0100	82.0	0	0	Bare restatement of miR-451 does not identify its mediator role or explain direction.	0	0	1	0	0	0	0	0	1	1
+J0037	3	Biomni	4	T3VP_0004	PAIR_PPARA_ANGPTL4_ffa341522e51	T3|Biomni|0000	12.0	0	0	Agonist and direction are correct, but RXR/direct PPRE account omits required BHLHE40.	0	0	0	0	0	0	1	0	1	1
+J0038	3	Grok-4.6	3	T3VP_0003	PAIR_TWIST1_HOXD10_2d8ed112b281	T3|Grok-4.6|1111	8.833333333333334	1	0	Chain correct; generic knockdown is not the specified inhibition or sponge intervention.	1	1	1	1	1	1	1	0	1	0
+J0039	3	Claude-Sonnet-5.5	2	T3VP_0007	PAIR_SMAD3_PTPRK_984d80e568f9	T3|Claude-Sonnet-5.5|0000	13.0	0	0	Knockdown is compatible but direct cis account omits both required cooperative mediators.	0	0	0	0	0	0	1	0	1	1
+J0040	3	Gemini-3.8-Flash	1	T3VP_0013	PAIR_HIF1A_E2F3_c7315afb1aed	T3|Gemini-3.8-Flash|1111	9.166666666666666	1	0	Correct miRNA chain; knockdown differs from accepted inhibition.	1	1	1	1	1	1	1	0	1	0
+J0041	3	Biomni	3	T3VP_0006	PAIR_SMAD3_PTPRK_984d80e568f9	T3|Biomni|1000	6.0	0	0	Correct NOTCH1 ICD/RBPJ input but required SMAD4 omitted.	1	1	0	0	0	0	1	0	1	1
+J0042	2	GLM-5.3-Flash	1	T2U_0058	PAIR_ZNF143_CRCP_74e1df1a373d	T2|GLM-5.3-Flash|1111	95.8	1	1	Target promoter binding and activation loss are explicit.	1	1	1	1	1	1	1	1	1	1
+J0043	3	Grok-4.6	2	T3VP_0002	PAIR_PPARA_PDK4_2604cf75050e	T3|Grok-4.6|1100	9.0	0	0	BHLHE40 role reversed and unaccepted overexpression inferred.	1	0	1	1	0	0	0	0	0	0
+J0044	3	Grok-4.6	4	T3VP_0006	PAIR_SMAD3_PTPRK_984d80e568f9	T3|Grok-4.6|1111	8.833333333333334	1	0	Generic NOTCH1 cooperation omits SMAD4 and specific ICD/RBPJ pathway.	1	1	1	0	1	0	1	0	1	1
+J0045	2	GLM-5.3-Flash	4	T2U_0093	PAIR_ZNF143_PRIM1_2200971b8f34	T2|GLM-5.3-Flash|1111	95.8	1	1	Target promoter element and activation loss correctly linked.	1	1	1	1	1	1	1	1	1	1
+J0046	3	GPT-6-Astra	4	T3VP_0007	PAIR_SMAD3_PTPRK_984d80e568f9	T3|GPT-6-Astra|1000	2.0	0	0	Generic partners do not identify the required mediators.	1	1	0	0	0	0	1	0	1	1
+J0047	2	GPT-6-Astra	3	T2U_0134	PAIR_ZNF143_ZNF354A_b8a3386c0f98	T2|GPT-6-Astra|1111	218.0	1	1	Target-linked regulatory DNA conveys activating input.	1	1	1	1	1	1	1	1	1	1
+J0048	3	Biomni	3	T3VP_0008	PAIR_SMAD3_PTPRK_984d80e568f9	T3|Biomni|1111	8.75	1	0	SMAD4 cooperation and knockdown correct but required NOTCH1 transcriptional pathway omitted.	1	1	1	0	1	0	1	0	1	1
+J0049	2	GLM-5.3-Flash	2	T2U_0148	PAIR_SMAD3_PTPRK_984d80e568f9	T2|GLM-5.3-Flash|1111	95.8	1	0	Generic NOTCH1 input does not name SMAD4 or ICD/RBPJ.	1	1	1	0	1	0	1	0	1	1
+J0050	3	GPT-6-Astra	2	T3VP_0002	PAIR_PPARA_PDK4_2604cf75050e	T3|GPT-6-Astra|1111	11.6	1	0	Antagonism reverses BHLHE40 role and overexpression is not accepted.	1	0	1	1	1	0	1	0	1	0
+J0051	2	Gemini-3.8-Flash	3	T2U_0121	PAIR_ZNF143_TMEM258_9ed2f8af71b4	T2|Gemini-3.8-Flash|1111	122.0	1	1	Target promoter and loss of activating TF are connected.	1	1	1	1	1	1	1	1	1	1
+J0052	2	Gemini-3.8-Flash	4	T2U_0155	PAIR_HIF1A_E2F3_c7315afb1aed	T2|Gemini-3.8-Flash|1111	122.0	1	1	HIF1A-induced miR-210 represses target and gain reduces it.	1	1	1	1	1	1	1	1	1	1
+J0053	2	Claude-Sonnet-5.5	3	T2U_0065	PAIR_ZNF143_ERAL1_383c0efe6527	T2|Claude-Sonnet-5.5|1111	153.25	1	1	Target promoter cis-element conveys direct activation.	1	1	1	1	1	1	1	1	1	1
+J0054	2	Claude-Sonnet-5.5	1	T2U_0059	PAIR_ZNF143_CREBL2_54b6b08bd831	T2|Claude-Sonnet-5.5|1111	153.25	1	1	Target-linked promoter element and loss of activation identified.	1	1	1	1	1	1	1	1	1	1
+J0055	3	Claude-Sonnet-5.5	3	T3VP_0010	PAIR_HIF1A_ISCU_5322a09cd4b2	T3|Claude-Sonnet-5.5|1111	9.0	1	1	Correct HIF1A-miR-210-ISCU relay and intervention.	1	1	1	1	1	1	1	1	1	1
+J0056	2	Gemini-3.8-Flash	2	T2U_0020	PAIR_GATA1_RRAGD_756ca2d86c26	T2|Gemini-3.8-Flash|1000	30.0	0	0	Substitutes FOG1 for required TAL1 and assigns variant effect to that complex.	1	0	0	0	0	0	1	0	0	0
+J0057	3	Gemini-3.8-Flash	1	T3VP_0007	PAIR_SMAD3_PTPRK_984d80e568f9	T3|Gemini-3.8-Flash|1000	5.0	0	0	Unspecified partners fail to identify the required mediators.	1	1	0	0	0	0	1	0	1	1
+J0058	3	GLM-5.3-Flash	4	T3VP_0009	PAIR_SMAD3_PTPRK_984d80e568f9	T3|GLM-5.3-Flash|1000	1.0	0	0	Combined activation is compatible but SMAD4 and specific NOTCH1 pathway are omitted.	1	1	0	0	0	0	1	0	0	1
+J0059	3	GPT-6-Astra	3	T3VP_0020	PAIR_PPARA_ANGPTL4_ffa341522e51	T3|GPT-6-Astra|1100	3.0	0	0	BHLHE40 role reversed and unaccepted overexpression inferred.	1	0	1	1	0	0	0	0	0	0
+J0060	2	Gemini-3.8-Flash	1	T2U_0009	PAIR_TP63_TIMM50_8d982295b8db	T2|Gemini-3.8-Flash|0000	70.0	0	0	Direct cis mechanism omits required FOXK1; direction is compatible.	0	0	0	0	0	0	1	0	1	1
+J0061	3	Grok-4.6	1	T3VP_0013	PAIR_HIF1A_E2F3_c7315afb1aed	T3|Grok-4.6|1111	8.833333333333334	1	0	Correct chain; knockdown differs from accepted inhibition.	1	1	1	1	1	1	1	0	1	0
+J0062	3	Biomni	4	T3VP_0017	PAIR_GATA1_YWHAZ_d99fcbe022fc	T3|Biomni|1100	7.0	0	0	Direct miR-451 repression is correct but places miR-451 upstream of GATA1 instead of downstream.	1	0	1	1	0	0	1	0	0	0
+J0063	3	GLM-5.3-Flash	3	T3VP_0014	PAIR_TWIST1_HOXD10_2d8ed112b281	T3|GLM-5.3-Flash|1111	9.0	1	1	Complete TWIST1-miR-10b-HOXD10 chain and gain.	1	1	1	1	1	1	1	1	1	1
+J0064	2	Biomni	1	T2U_0077	PAIR_ZNF143_JUND_abc3b6e208bc	T2|Biomni|1111	147.0	1	1	JUND promoter occupancy and loss of activation linked.	1	1	1	1	1	1	1	1	1	1
+J0065	3	Grok-4.6	3	T3VP_0013	PAIR_HIF1A_E2F3_c7315afb1aed	T3|Grok-4.6|1111	8.833333333333334	1	0	Correct chain; generic knockdown is not the accepted inhibition.	1	1	1	1	1	1	1	0	1	0
+J0066	3	GLM-5.3-Flash	3	T3VP_0011	PAIR_STAT3_CYLD_870ad9a86052	T3|GLM-5.3-Flash|1111	9.0	1	0	miR-181b does not unambiguously specify annotated miR-181b-1 locus; inhibition is accepted.	1	1	1	0	1	0	1	0	1	1
+J0067	2	Grok-4.6	1	T2U_0160	PAIR_MYC_PFAS_f60a9406a746	T2|Grok-4.6|1111	153.5	1	1	MYC E-box and its disruption correctly connected to PFAS.	1	1	1	1	1	1	1	1	1	1
+J0068	2	GPT-6-Astra	2	T2U_0049	PAIR_ZNF143_BIRC5_863988ee77da	T2|GPT-6-Astra|1111	218.0	1	1	Target-linked regulatory DNA conveys positive input.	1	1	1	1	1	1	1	1	1	1
+J0069	3	Claude-Sonnet-5.5	1	T3VP_0013	PAIR_HIF1A_E2F3_c7315afb1aed	T3|Claude-Sonnet-5.5|1111	9.0	1	1	Complete miR-210 relay and inhibition-induced derepression.	1	1	1	1	1	1	1	1	1	1
+J0070	2	Gemini-3.8-Flash	3	T2U_0022	PAIR_TP63_SAMD9L_5c730d243f23	T2|Gemini-3.8-Flash|1100	26.0	0	0	Names H2A.Z but omits SRCAP and reverses repressive chromatin role and direction.	1	0	1	0	0	0	0	0	0	0
+J0071	3	Claude-Sonnet-5.5	1	T3VP_0003	PAIR_TWIST1_HOXD10_2d8ed112b281	T3|Claude-Sonnet-5.5|1110	2.0	0	0	Correct relay but predicts overexpression and a fall despite supplied rise.	1	1	1	1	1	1	0	0	0	0
+J0072	3	Grok-4.6	1	T3VP_0006	PAIR_SMAD3_PTPRK_984d80e568f9	T3|Grok-4.6|1010	3.0	0	0	Generic NOTCH1 cooperation omits SMAD4 and the specific ICD/RBPJ pathway.	1	1	0	0	1	0	1	0	1	1
+J0073	2	Claude-Sonnet-5.5	2	T2U_0141	PAIR_NANOG_NANOG_e71b1e5b0be5	T2|Claude-Sonnet-5.5|1110	9.0	0	0	Correct cis element but positive autoregulation predicts the reverse of supplied reference direction.	1	1	1	1	1	0	0	0	0	0
+J0074	2	GPT-6-Astra	1	T2U_0022	PAIR_TP63_SAMD9L_5c730d243f23	T2|GPT-6-Astra|0000	67.0	0	0	H2A.Z named but SRCAP omitted and chromatin function and direction reversed.	0	0	0	0	0	0	0	0	0	0
+J0075	2	Gemini-3.8-Flash	4	T2U_0067	PAIR_ZNF143_FASTK_fae7d40dafe2	T2|Gemini-3.8-Flash|1111	122.0	1	1	Target cis DNA occupancy loss explains reduced expression.	1	1	1	1	1	1	1	1	1	1
+J0076	3	Claude-Sonnet-5.5	1	T3VP_0011	PAIR_STAT3_CYLD_870ad9a86052	T3|Claude-Sonnet-5.5|1111	9.0	1	0	miR-181b alone does not unambiguously identify miR-181b-1 locus; inhibition is accepted.	1	1	1	0	1	0	1	0	1	1
+J0077	3	GLM-5.3-Flash	2	T3VP_0004	PAIR_PPARA_ANGPTL4_ffa341522e51	T3|GLM-5.3-Flash|0000	11.0	0	0	Direct cis account omits BHLHE40 and overexpression is not accepted agonist activation.	0	0	0	0	0	0	1	0	1	0
+J0078	2	GLM-5.3-Flash	3	T2U_0007	PAIR_TP63_NABP2_9672d5d7e44f	T2|GLM-5.3-Flash|0000	95.5	0	0	Direct cis account omits required FOXK1; outcome compatible.	0	0	0	0	0	0	1	0	1	1
+J0079	3	Claude-Sonnet-5.5	1	T3VP_0007	PAIR_SMAD3_PTPRK_984d80e568f9	T3|Claude-Sonnet-5.5|1111	9.0	1	0	SMAD4 and NOTCH1 named but NOTCH1 ICD/RBPJ transcriptional pathway not specifically identified.	1	1	1	0	1	0	1	0	1	1
+J0080	2	GLM-5.3-Flash	2	T2U_0141	PAIR_NANOG_NANOG_e71b1e5b0be5	T2|GLM-5.3-Flash|1110	6.0	0	0	Target cis element identified but positive autoregulation reverses expected direction.	1	1	1	1	1	0	0	0	0	0
+J0081	2	GPT-6-Astra	3	T2U_0041	PAIR_PPARA_PDK4_2604cf75050e	T2|GPT-6-Astra|1100	6.0	0	0	BHLHE40 is named but role and direction reversed.	1	0	1	1	0	0	0	0	0	0
+J0082	2	Claude-Sonnet-5.5	3	T2U_0010	PAIR_ESR1_ELOVL2_bb029e92ff93	T2|Claude-Sonnet-5.5|1111	153.25	1	1	TET2-dependent low methylation enables ESR1 activation; loss blocks it.	1	1	1	1	1	1	1	1	1	1
+J0083	3	Gemini-3.8-Flash	4	T3VP_0002	PAIR_PPARA_PDK4_2604cf75050e	T3|Gemini-3.8-Flash|1100	6.0	0	0	Repressor role reverses required activating partnership; overexpression unaccepted.	1	0	1	1	0	0	0	0	0	0
+J0084	2	GLM-5.3-Flash	3	T2U_0085	PAIR_ZNF143_MRPL54_12b2e4cf45b8	T2|GLM-5.3-Flash|1111	95.8	1	1	Target-linked binding site and activation loss identified.	1	1	1	1	1	1	1	1	1	1
+J0085	3	Biomni	4	T3VP_0010	PAIR_HIF1A_ISCU_5322a09cd4b2	T3|Biomni|1111	8.75	1	1	HIF1A-miR-210-ISCU repression and gain are explicit.	1	1	1	1	1	1	1	1	1	1
+J0086	2	Grok-4.6	3	T2U_0079	PAIR_ZNF143_KLC2_065868e0ae9e	T2|Grok-4.6|1111	153.5	1	1	Target cis DNA activation and loss are linked.	1	1	1	1	1	1	1	1	1	1
+J0087	3	GLM-5.3-Flash	1	T3VP_0002	PAIR_PPARA_PDK4_2604cf75050e	T3|GLM-5.3-Flash|1111	9.0	1	1	Correct BHLHE40 required partner and knockdown effect.	1	1	1	1	1	1	1	1	1	1
+J0088	3	GPT-6-Astra	3	T3VP_0013	PAIR_HIF1A_E2F3_c7315afb1aed	T3|GPT-6-Astra|1111	11.6	1	0	Correct relay; predicted knockdown differs from accepted inhibition.	1	1	1	1	1	1	1	0	1	0
+J0089	2	Gemini-3.8-Flash	1	T2U_0138	PAIR_ZNF143_ZNF607_49bfdb8d44a8	T2|Gemini-3.8-Flash|1111	122.0	1	0	Generic cis binding lacks a target-linked element identification.	1	1	1	0	1	0	1	0	1	1
+J0090	2	GPT-6-Astra	4	T2U_0035	PAIR_ESR1_TFF1_b777e8d26b68	T2|GPT-6-Astra|0110	10.0	0	0	Treats TFF1e enhancer RNA as regulatory DNA.	0	0	1	0	1	0	1	0	0	0
+J0091	2	Grok-4.6	2	T2U_0022	PAIR_TP63_SAMD9L_5c730d243f23	T2|Grok-4.6|1000	8.0	0	0	H2A.Z named but SRCAP omitted; activation and direction reverse reference.	1	0	0	0	0	0	0	0	0	0
+J0092	3	Biomni	2	T3VP_0016	PAIR_HIF1A_ISCU_5322a09cd4b2	T3|Biomni|1110	3.0	0	1	Correct miR-210 relay and inhibition; additional positive HIF1A arm is not excluded by supplied reference.	1	1	1	1	1	1	1	1	0	1
+J0093	3	GPT-6-Astra	4	T3VP_0015	PAIR_GATA1_YWHAZ_d99fcbe022fc	T3|GPT-6-Astra|1111	11.6	1	0	Correct relay but inhibition differs from specified genetic knockout.	1	1	1	1	1	1	1	0	1	0
+J0094	3	Grok-4.6	1	T3VP_0007	PAIR_SMAD3_PTPRK_984d80e568f9	T3|Grok-4.6|1000	1.0	0	0	Unspecified partners do not identify SMAD4 and NOTCH1 transcriptional pathway.	1	1	0	0	0	0	0	0	1	1
+J0095	2	Biomni	3	T2U_0025	PAIR_TWIST1_HOXD10_2d8ed112b281	T2|Biomni|1111	147.0	1	1	Correct miR-10b relay and coarse loss-induced derepression.	1	1	1	1	1	1	1	1	1	1
+J0096	3	Gemini-3.8-Flash	1	T3VP_0012	PAIR_PPARA_PDK4_2604cf75050e	T3|Gemini-3.8-Flash|0000	12.0	0	0	Direct cis account omits BHLHE40; overexpression differs from accepted agonist.	0	0	0	0	0	0	1	0	0	0
+J0097	3	Claude-Sonnet-5.5	2	T3VP_0009	PAIR_SMAD3_PTPRK_984d80e568f9	T3|Claude-Sonnet-5.5|1111	9.0	1	0	SMAD4 and NOTCH1-RBPJ cooperate, but combined overexpression differs from ligand stimulation.	1	1	1	1	1	1	1	0	1	0
+J0098	2	GLM-5.3-Flash	3	T2U_0129	PAIR_ZNF143_ZBTB10_5ae35dfdfa7a	T2|GLM-5.3-Flash|1111	95.8	1	1	Target-linked sites and loss of activation identified.	1	1	1	1	1	1	1	1	1	1
+J0099	3	GPT-6-Astra	3	T3VP_0017	PAIR_GATA1_YWHAZ_d99fcbe022fc	T3|GPT-6-Astra|1111	11.6	1	1	GATA1-miR-451-Ywhaz repression and gain linked.	1	1	1	1	1	1	1	1	1	1
+J0100	3	Claude-Sonnet-5.5	3	T3VP_0008	PAIR_SMAD3_PTPRK_984d80e568f9	T3|Claude-Sonnet-5.5|1010	8.0	0	0	SMAD4 role is correct but required NOTCH1 transcriptional pathway omitted.	1	1	0	0	1	0	1	0	1	1
+J0101	3	Grok-4.6	4	T3VP_0005	PAIR_PPARA_HMGCS2_3abcd07550fa	T3|Grok-4.6|0000	14.0	0	0	Direct cis explanation omits BHLHE40; overexpression differs from accepted agonist.	0	0	0	0	0	0	0	0	0	0
+J0102	3	GPT-6-Astra	2	T3VP_0007	PAIR_SMAD3_PTPRK_984d80e568f9	T3|GPT-6-Astra|1111	11.6	1	0	SMAD4 and NOTCH1 named but the specific NOTCH1 ICD/RBPJ pathway is not identified.	1	1	1	0	1	0	1	0	1	1
+J0103	2	Biomni	3	T2U_0023	PAIR_TP63_ZHX2_c3148f2a3d0b	T2|Biomni|1100	18.0	0	0	H2A.Z named but SRCAP omitted; permissive activation and down direction reverse reference.	1	0	1	0	0	0	0	0	0	0
+J0104	2	Claude-Sonnet-5.5	2	T2U_0146	PAIR_TP53_VCAN_e1c672ff2ce9	T2|Claude-Sonnet-5.5|1111	153.25	1	1	p53-dependent lincRNA-p21 repression and loss-induced increase are linked.	1	1	1	1	1	1	1	1	1	1
+J0105	3	GPT-6-Astra	4	T3VP_0020	PAIR_PPARA_ANGPTL4_ffa341522e51	T3|GPT-6-Astra|1110	3.0	0	0	BHLHE40 assigned opposite role and overexpression unaccepted.	1	0	1	1	1	0	0	0	0	0
+J0106	2	GPT-6-Astra	2	T2U_0019	PAIR_GATA1_LRRC39_bb11760f860f	T2|GPT-6-Astra|1010	12.0	0	0	Partner-dependent activation stated but TAL1 is not identified.	1	1	0	0	1	0	1	0	1	1
+J0107	2	GPT-6-Astra	2	T2U_0199	PAIR_GATA2_GATA1_5ec36938703c	T2|GPT-6-Astra|1110	6.0	0	0	LSD1 named but activation and direction reverse reference repression.	1	0	1	1	1	0	0	0	0	0
+J0108	2	Claude-Sonnet-5.5	4	T2U_0022	PAIR_TP63_SAMD9L_5c730d243f23	T2|Claude-Sonnet-5.5|0100	5.0	0	0	H2A.Z named but SRCAP omitted and role/direction reversed.	0	0	1	0	0	0	0	0	0	0
+J0109	2	Grok-4.6	4	T2U_0196	PAIR_ETV4_NOTCH4_c39dfdd19ec5	T2|Grok-4.6|1111	153.5	1	0	FOSL1/FRA1 is named but c-JUN/AP-1 complex is not identified.	1	1	1	0	1	0	1	0	1	1
+J0110	3	GLM-5.3-Flash	1	T3VP_0006	PAIR_SMAD3_PTPRK_984d80e568f9	T3|GLM-5.3-Flash|1010	8.0	0	0	NOTCH1 cooperation noted; SMAD4 and specific ICD/RBPJ pathway omitted.	1	1	0	0	1	0	1	0	1	1
+J0111	2	Grok-4.6	2	T2U_0169	PAIR_NFE2L2_TXNRD1_c4ae77cf358f	T2|Grok-4.6|0110	1.0	0	0	Small MAF class is named but specific MAFG/MAFF mediators are not; direct cis label is incomplete.	0	1	1	0	1	0	1	0	1	1
+J0112	2	Gemini-3.8-Flash	2	T2U_0012	PAIR_ESR1_WIPF1_3f42f4f74eda	T2|Gemini-3.8-Flash|1111	122.0	1	1	TET2-mediated hydroxymethylation supports ESR1 activation and its loss lowers target.	1	1	1	1	1	1	1	1	1	1
+J0113	3	Gemini-3.8-Flash	2	T3VP_0010	PAIR_HIF1A_ISCU_5322a09cd4b2	T3|Gemini-3.8-Flash|1111	9.166666666666666	1	1	miR-210 downstream of HIF1A represses ISCU under overexpression.	1	1	1	1	1	1	1	1	1	1
+J0114	2	Biomni	1	T2U_0038	PAIR_PPARA_PDK4_2604cf75050e	T2|Biomni|0000	128.0	0	0	RXR and direct PPRE account omit required BHLHE40; direction compatible.	0	0	0	0	0	0	1	0	1	1
+J0115	2	Biomni	1	T2U_0018	PAIR_GATA1_SLC4A1_c0ca7b13445c	T2|Biomni|1000	10.0	0	0	Substitutes FOG1 for required TAL1 despite correctly preserving occupancy.	1	0	0	0	0	0	1	0	0	0
+J0116	2	Biomni	3	T2U_0140	PAIR_ZNF143_ZW10_06853815050d	T2|Biomni|1111	147.0	1	1	Target promoter occupancy and loss of activation linked.	1	1	1	1	1	1	1	1	1	1
+J0117	3	Gemini-3.8-Flash	2	T3VP_0008	PAIR_SMAD3_PTPRK_984d80e568f9	T3|Gemini-3.8-Flash|1111	9.166666666666666	1	0	SMAD4 and generic NOTCH complex mentioned; NOTCH1 ICD/RBPJ pathway not specifically named.	1	1	1	0	1	0	1	0	1	1
+J0118	2	Grok-4.6	3	T2U_0175	PAIR_ZNF263_CUL3_3c1ecc1f6d8b	T2|Grok-4.6|1100	15.0	0	0	Intronic cis region correct but repression and effect direction reversed.	1	1	1	1	0	0	0	0	0	0
+J0119	2	GLM-5.3-Flash	4	T2U_0023	PAIR_TP63_ZHX2_c3148f2a3d0b	T2|GLM-5.3-Flash|1100	14.0	0	0	H2A.Z named but SRCAP omitted and permissive role and direction reversed.	1	0	1	0	0	0	0	0	0	0
+J0120	2	Biomni	3	T2U_0149	PAIR_SMAD3_PTPRK_984d80e568f9	T2|Biomni|1010	2.0	0	0	NOTCH1 ICD/RBPJ cooperation and loss explained but required SMAD4 omitted.	1	1	0	0	1	0	1	0	1	1

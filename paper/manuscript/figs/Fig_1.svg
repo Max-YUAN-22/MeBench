@@ -1,0 +1,812 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1536" height="1024" viewBox="0 0 1536 1024" version="1.1" id="benchmark-figure-editable" font-family="Times New Roman, Tinos, Liberation Serif, serif" text-rendering="auto" shape-rendering="geometricPrecision">
+  <title>Construction and evaluation of a mechanism-grounded TF–gene benchmark</title>
+  <desc>Editable vector reconstruction of the user-supplied four-panel benchmark figure. All visible text is retained as SVG text, and all diagrams are independent vector paths and shapes. No raster image, embedded font, script, or external asset is included. Panels A–D and their components are named groups.</desc>
+  <defs>
+    <linearGradient id="panel-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8f9f9"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="neutral-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f9fafb"/>
+      <stop offset="100%" stop-color="#f2f5f6"/>
+    </linearGradient>
+    <linearGradient id="blue-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eaf5ff"/>
+      <stop offset="100%" stop-color="#f7fbff"/>
+    </linearGradient>
+    <linearGradient id="purple-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0ebfc"/>
+      <stop offset="100%" stop-color="#faf8ff"/>
+    </linearGradient>
+    <linearGradient id="orange-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff1df"/>
+      <stop offset="100%" stop-color="#fffaf5"/>
+    </linearGradient>
+    <linearGradient id="green-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eaf7ef"/>
+      <stop offset="100%" stop-color="#f7fcf8"/>
+    </linearGradient>
+    <linearGradient id="pink-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff0f5"/>
+      <stop offset="100%" stop-color="#fffafc"/>
+    </linearGradient>
+    <linearGradient id="input-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eff9ff"/>
+      <stop offset="100%" stop-color="#f9fcff"/>
+    </linearGradient>
+    <linearGradient id="output-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff6eb"/>
+      <stop offset="100%" stop-color="#fffaf4"/>
+    </linearGradient>
+    <linearGradient id="tf-blue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#afd8ff"/>
+      <stop offset="100%" stop-color="#edf7ff"/>
+    </linearGradient>
+    <linearGradient id="tf-purple" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d9c3f6"/>
+      <stop offset="100%" stop-color="#f1e9ff"/>
+    </linearGradient>
+    <linearGradient id="tf-orange" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffe0b9"/>
+      <stop offset="100%" stop-color="#fff4e4"/>
+    </linearGradient>
+    <linearGradient id="cylinder-body" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#466e93"/>
+      <stop offset="100%" stop-color="#234665"/>
+    </linearGradient>
+    <linearGradient id="cylinder-top" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#83a6c3"/>
+      <stop offset="100%" stop-color="#608aaa"/>
+    </linearGradient>
+    <linearGradient id="histone-body" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#cbd6e0"/>
+      <stop offset="100%" stop-color="#7e97ac"/>
+    </linearGradient>
+    <linearGradient id="histone-face" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d9e0e5"/>
+      <stop offset="100%" stop-color="#adbac8"/>
+    </linearGradient>
+    <linearGradient id="bar-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8795a4"/>
+      <stop offset="100%" stop-color="#4d5e70"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1536" height="1024" rx="0" ry="0" fill="white" stroke="none" stroke-width="0.65"/>
+  <g id="panel-a" inkscape:label="A | Evidence-grounded pair curation" inkscape:groupmode="layer" transform="translate(0,-42)">
+    <rect x="14" y="56" width="1512" height="286" rx="6" ry="6" fill="url(#panel-bg)" stroke="#708a9a" stroke-width="0.7"/>
+    <text x="27.00" y="90.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="37.00" font-weight="700" text-anchor="start" fill="#111722" id="text-002">
+      <tspan x="27.00" y="90.00">A</tspan>
+    </text>
+    <text x="77.00" y="88.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="29.50" font-weight="700" text-anchor="start" fill="#111722" id="text-003">
+      <tspan x="77.00" y="88.00">Evidence-grounded pair curation</tspan>
+    </text>
+    <g id="a-literature-datasets" inkscape:label="Literature and experimental data">
+      <rect x="29" y="104" width="234" height="227" rx="5" ry="5" fill="url(#neutral-bg)" stroke="#7892a3" stroke-width="0.65"/>
+      <text x="146.00" y="128.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="21.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-004">
+        <tspan x="146.00" y="128.00">Literature and</tspan>
+        <tspan x="146.00" y="150.00">experimental data</tspan>
+      </text>
+      <g id="literature-document-icon" transform="translate(68,173) scale(0.99)">
+        <g id="document-sheet-1" transform="translate(12,-4) rotate(10,20,34)">
+          <rect x="0" y="0" width="42" height="66" rx="0" ry="0" fill="#fff" stroke="#50585e" stroke-width="1.1"/>
+          <line x1="7" y1="11.0" x2="27" y2="11.0" stroke="#56606a" stroke-width="0.9"/>
+          <line x1="7" y1="17.0" x2="34" y2="17.0" stroke="#56606a" stroke-width="0.9"/>
+          <line x1="7" y1="23.0" x2="34" y2="23.0" stroke="#56606a" stroke-width="0.9"/>
+          <line x1="7" y1="29.0" x2="34" y2="29.0" stroke="#56606a" stroke-width="0.9"/>
+          <line x1="7" y1="35.0" x2="34" y2="35.0" stroke="#56606a" stroke-width="0.9"/>
+          <line x1="7" y1="41.0" x2="34" y2="41.0" stroke="#56606a" stroke-width="0.9"/>
+          <line x1="7" y1="47.0" x2="34" y2="47.0" stroke="#56606a" stroke-width="0.9"/>
+          <line x1="7" y1="53.0" x2="34" y2="53.0" stroke="#56606a" stroke-width="0.9"/>
+        </g>
+        <g id="document-sheet-2" transform="translate(5,-9) rotate(4,20,34)">
+          <rect x="0" y="0" width="42" height="66" rx="0" ry="0" fill="#fff" stroke="#50585e" stroke-width="1.1"/>
+          <line x1="7" y1="11.0" x2="27" y2="11.0" stroke="#56606a" stroke-width="0.9"/>
+          <line x1="7" y1="17.0" x2="34" y2="17.0" stroke="#56606a" stroke-width="0.9"/>
+          <line x1="7" y1="23.0" x2="34" y2="23.0" stroke="#56606a" stroke-width="0.9"/>
+          <line x1="7" y1="29.0" x2="34" y2="29.0" stroke="#56606a" stroke-width="0.9"/>
+          <line x1="7" y1="35.0" x2="34" y2="35.0" stroke="#56606a" stroke-width="0.9"/>
+          <line x1="7" y1="41.0" x2="34" y2="41.0" stroke="#56606a" stroke-width="0.9"/>
+          <line x1="7" y1="47.0" x2="34" y2="47.0" stroke="#56606a" stroke-width="0.9"/>
+          <line x1="7" y1="53.0" x2="34" y2="53.0" stroke="#56606a" stroke-width="0.9"/>
+        </g>
+        <g id="document-sheet-3" transform="translate(0,0) rotate(0,20,34)">
+          <rect x="0" y="0" width="42" height="66" rx="0" ry="0" fill="#fff" stroke="#50585e" stroke-width="1.1"/>
+          <line x1="7" y1="11.0" x2="27" y2="11.0" stroke="#56606a" stroke-width="0.9"/>
+          <line x1="7" y1="17.0" x2="34" y2="17.0" stroke="#56606a" stroke-width="0.9"/>
+          <line x1="7" y1="23.0" x2="34" y2="23.0" stroke="#56606a" stroke-width="0.9"/>
+          <line x1="7" y1="29.0" x2="34" y2="29.0" stroke="#56606a" stroke-width="0.9"/>
+          <line x1="7" y1="35.0" x2="34" y2="35.0" stroke="#56606a" stroke-width="0.9"/>
+          <line x1="7" y1="41.0" x2="34" y2="41.0" stroke="#56606a" stroke-width="0.9"/>
+          <line x1="7" y1="47.0" x2="34" y2="47.0" stroke="#56606a" stroke-width="0.9"/>
+          <line x1="7" y1="53.0" x2="34" y2="53.0" stroke="#56606a" stroke-width="0.9"/>
+        </g>
+      </g>
+      <g id="a-source-database">
+        <path d="M162,178.1 L162,240.9 C162,251.025 216,251.025 216,240.9 L216,178.1 Z" fill="url(#cylinder-body)" stroke="#102e55" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M162,193.7 C171.72,204.23 206.28,204.23 216,193.7" fill="none" stroke="#f5f8fa" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M162,214.24 C171.72,224.77 206.28,224.77 216,214.24" fill="none" stroke="#f5f8fa" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M162,232.41 C171.72,242.94 206.28,242.94 216,232.41" fill="none" stroke="#f5f8fa" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse cx="189.0" cy="178.1" rx="27.0" ry="8.1" fill="url(#cylinder-top)" stroke="#102e55" stroke-width="0.85"/>
+      </g>
+      <circle cx="46" cy="265" r="2.25" fill="#111722" stroke="none" stroke-width="0.8"/>
+      <text x="57.00" y="270.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="16.50" font-weight="400" text-anchor="start" fill="#111722" id="text-005">
+        <tspan x="57.00" y="270.00">Published literature</tspan>
+      </text>
+      <circle cx="46" cy="287" r="2.25" fill="#111722" stroke="none" stroke-width="0.8"/>
+      <text x="57.00" y="292.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="16.50" font-weight="400" text-anchor="start" fill="#111722" id="text-006">
+        <tspan x="57.00" y="292.00">Public experimental datasets</tspan>
+      </text>
+      <circle cx="46" cy="310" r="2.25" fill="#111722" stroke="none" stroke-width="0.8"/>
+      <text x="57.00" y="315.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="16.50" font-weight="400" text-anchor="start" fill="#111722" id="text-007">
+        <tspan x="57.00" y="315.00">e.g., PubMed, GEO, SRA ...</tspan>
+      </text>
+    </g>
+    <g id="arrow-008">
+      <path d="M 267.00 215.00 L 278.00 215.00" fill="none" stroke="#343d48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="288.00,215.00 278.00,221.10 278.00,208.90" fill="#343d48" stroke="none" stroke-width="1"/>
+    </g>
+    <g id="a-pair-context-extraction" inkscape:label="TF–target pair extraction and context annotation">
+      <rect x="290" y="104" width="263" height="227" rx="5" ry="5" fill="url(#neutral-bg)" stroke="#7892a3" stroke-width="0.65"/>
+      <text x="421.50" y="128.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="20.00" font-weight="400" text-anchor="middle" fill="#111722" id="text-009">
+        <tspan x="421.50" y="128.00">TF–target pair extraction</tspan>
+        <tspan x="421.50" y="149.00">and context annotation</tspan>
+      </text>
+      <g id="a-extraction-dna">
+        <line x1="320" y1="235.0" x2="320" y2="235.0" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="325" y1="242.34572885504218" x2="325" y2="227.65427114495782" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="330" y1="240.8189891325844" x2="330" y2="229.1810108674156" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="335" y1="232.26383885339465" x2="335" y2="237.73616114660535" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="340" y1="227.01353473382986" x2="340" y2="242.98646526617014" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="345" y1="231.4096065583963" x2="345" y2="238.5903934416037" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="350" y1="240.14230087749232" x2="350" y2="229.85769912250768" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="355" y1="242.6639160985239" x2="355" y2="227.3360839014761" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="360" y1="235.92874331300186" x2="360" y2="234.07125668699814" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="365" y1="228.0717967697245" x2="365" y2="241.9282032302755" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="370" y1="228.58301445795965" x2="370" y2="241.41698554204035" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="375" y1="236.84492696593952" x2="375" y2="233.15507303406048" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="380" y1="242.87846202409767" x2="380" y2="227.12153797590233" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="385" y1="239.39607182456646" x2="385" y2="230.60392817543354" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="390" y1="230.60392817543357" x2="390" y2="239.39607182456643" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="395" y1="227.12153797590233" x2="395" y2="242.87846202409767" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="400" y1="233.15507303406048" x2="400" y2="236.84492696593952" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="405" y1="241.41698554204035" x2="405" y2="228.58301445795965" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="410" y1="241.9282032302755" x2="410" y2="228.0717967697245" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="415" y1="234.07125668699814" x2="415" y2="235.92874331300186" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="420" y1="227.3360839014761" x2="420" y2="242.6639160985239" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="425" y1="229.85769912250768" x2="425" y2="240.14230087749232" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="430" y1="238.5903934416037" x2="430" y2="231.4096065583963" stroke="#68798a" stroke-width="0.85"/>
+        <line x1="435" y1="242.98646526617014" x2="435" y2="227.01353473382986" stroke="#68798a" stroke-width="0.85"/>
+        <path d="M 320.00 235.00 L 320.74 236.38 L 321.49 237.71 L 322.23 238.97 L 322.98 240.11 L 323.72 241.09 L 324.46 241.89 L 325.21 242.49 L 325.95 242.86 L 326.69 243.00 L 327.44 242.90 L 328.18 242.56 L 328.93 242.00 L 329.67 241.22 L 330.41 240.27 L 331.16 239.15 L 331.90 237.91 L 332.64 236.58 L 333.39 235.21 L 334.13 233.83 L 334.88 232.48 L 335.62 231.21 L 336.36 230.06 L 337.11 229.05 L 337.85 228.22 L 338.59 227.59 L 339.34 227.18 L 340.08 227.01 L 340.82 227.07 L 341.57 227.37 L 342.31 227.90 L 343.06 228.65 L 343.80 229.58 L 344.54 230.67 L 345.29 231.90 L 346.03 233.21 L 346.77 234.58 L 347.52 235.96 L 348.26 237.32 L 349.01 238.60 L 349.75 239.78 L 350.49 240.81 L 351.24 241.67 L 351.98 242.33 L 352.73 242.77 L 353.47 242.98 L 354.21 242.95 L 354.96 242.69 L 355.70 242.19 L 356.44 241.48 L 357.19 240.57 L 357.93 239.50 L 358.68 238.30 L 359.42 236.99 L 360.16 235.63 L 360.91 234.24 L 361.65 232.88 L 362.39 231.59 L 363.14 230.39 L 363.88 229.33 L 364.62 228.45 L 365.37 227.75 L 366.11 227.28 L 366.86 227.03 L 367.60 227.03 L 368.34 227.26 L 369.09 227.72 L 369.83 228.40 L 370.57 229.28 L 371.32 230.33 L 372.06 231.51 L 372.81 232.81 L 373.55 234.16 L 374.29 235.55 L 375.04 236.91 L 375.78 238.22 L 376.52 239.43 L 377.27 240.52 L 378.01 241.43 L 378.76 242.15 L 379.50 242.66 L 380.24 242.94 L 380.99 242.99 L 381.73 242.79 L 382.48 242.36 L 383.22 241.72 L 383.96 240.87 L 384.71 239.84 L 385.45 238.67 L 386.19 237.39 L 386.94 236.04 L 387.68 234.66 L 388.43 233.29 L 389.17 231.97 L 389.91 230.74 L 390.66 229.64 L 391.40 228.70 L 392.14 227.94 L 392.89 227.40 L 393.63 227.08 L 394.38 227.00 L 395.12 227.16 L 395.86 227.56 L 396.61 228.17 L 397.35 228.99 L 398.09 229.99 L 398.84 231.14 L 399.58 232.41 L 400.32 233.75 L 401.07 235.13 L 401.81 236.50 L 402.56 237.83 L 403.30 239.08 L 404.04 240.20 L 404.79 241.17 L 405.53 241.96 L 406.27 242.53 L 407.02 242.88 L 407.76 243.00 L 408.51 242.88 L 409.25 242.52 L 409.99 241.93 L 410.74 241.14 L 411.48 240.17 L 412.23 239.04 L 412.97 237.79 L 413.71 236.46 L 414.46 235.08 L 415.20 233.70 L 415.94 232.36 L 416.69 231.10 L 417.43 229.96 L 418.18 228.96 L 418.92 228.15 L 419.66 227.54 L 420.41 227.15 L 421.15 227.00 L 421.89 227.09 L 422.64 227.41 L 423.38 227.96 L 424.12 228.72 L 424.87 229.67 L 425.61 230.78 L 426.36 232.01 L 427.10 233.34 L 427.84 234.71 L 428.59 236.09 L 429.33 237.44 L 430.07 238.71 L 430.82 239.88 L 431.56 240.90 L 432.31 241.74 L 433.05 242.38 L 433.79 242.80 L 434.54 242.99 L 435.28 242.94 L 436.02 242.65 L 436.77 242.13 L 437.51 241.40 L 438.26 240.48 L 439.00 239.40" fill="none" stroke="#102e55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M 320.00 235.00 L 320.74 233.62 L 321.49 232.29 L 322.23 231.03 L 322.98 229.89 L 323.72 228.91 L 324.46 228.11 L 325.21 227.51 L 325.95 227.14 L 326.69 227.00 L 327.44 227.10 L 328.18 227.44 L 328.93 228.00 L 329.67 228.78 L 330.41 229.73 L 331.16 230.85 L 331.90 232.09 L 332.64 233.42 L 333.39 234.79 L 334.13 236.17 L 334.88 237.52 L 335.62 238.79 L 336.36 239.94 L 337.11 240.95 L 337.85 241.78 L 338.59 242.41 L 339.34 242.82 L 340.08 242.99 L 340.82 242.93 L 341.57 242.63 L 342.31 242.10 L 343.06 241.35 L 343.80 240.42 L 344.54 239.33 L 345.29 238.10 L 346.03 236.79 L 346.77 235.42 L 347.52 234.04 L 348.26 232.68 L 349.01 231.40 L 349.75 230.22 L 350.49 229.19 L 351.24 228.33 L 351.98 227.67 L 352.73 227.23 L 353.47 227.02 L 354.21 227.05 L 354.96 227.31 L 355.70 227.81 L 356.44 228.52 L 357.19 229.43 L 357.93 230.50 L 358.68 231.70 L 359.42 233.01 L 360.16 234.37 L 360.91 235.76 L 361.65 237.12 L 362.39 238.41 L 363.14 239.61 L 363.88 240.67 L 364.62 241.55 L 365.37 242.25 L 366.11 242.72 L 366.86 242.97 L 367.60 242.97 L 368.34 242.74 L 369.09 242.28 L 369.83 241.60 L 370.57 240.72 L 371.32 239.67 L 372.06 238.49 L 372.81 237.19 L 373.55 235.84 L 374.29 234.45 L 375.04 233.09 L 375.78 231.78 L 376.52 230.57 L 377.27 229.48 L 378.01 228.57 L 378.76 227.85 L 379.50 227.34 L 380.24 227.06 L 380.99 227.01 L 381.73 227.21 L 382.48 227.64 L 383.22 228.28 L 383.96 229.13 L 384.71 230.16 L 385.45 231.33 L 386.19 232.61 L 386.94 233.96 L 387.68 235.34 L 388.43 236.71 L 389.17 238.03 L 389.91 239.26 L 390.66 240.36 L 391.40 241.30 L 392.14 242.06 L 392.89 242.60 L 393.63 242.92 L 394.38 243.00 L 395.12 242.84 L 395.86 242.44 L 396.61 241.83 L 397.35 241.01 L 398.09 240.01 L 398.84 238.86 L 399.58 237.59 L 400.32 236.25 L 401.07 234.87 L 401.81 233.50 L 402.56 232.17 L 403.30 230.92 L 404.04 229.80 L 404.79 228.83 L 405.53 228.04 L 406.27 227.47 L 407.02 227.12 L 407.76 227.00 L 408.51 227.12 L 409.25 227.48 L 409.99 228.07 L 410.74 228.86 L 411.48 229.83 L 412.23 230.96 L 412.97 232.21 L 413.71 233.54 L 414.46 234.92 L 415.20 236.30 L 415.94 237.64 L 416.69 238.90 L 417.43 240.04 L 418.18 241.04 L 418.92 241.85 L 419.66 242.46 L 420.41 242.85 L 421.15 243.00 L 421.89 242.91 L 422.64 242.59 L 423.38 242.04 L 424.12 241.28 L 424.87 240.33 L 425.61 239.22 L 426.36 237.99 L 427.10 236.66 L 427.84 235.29 L 428.59 233.91 L 429.33 232.56 L 430.07 231.29 L 430.82 230.12 L 431.56 229.10 L 432.31 228.26 L 433.05 227.62 L 433.79 227.20 L 434.54 227.01 L 435.28 227.06 L 436.02 227.35 L 436.77 227.87 L 437.51 228.60 L 438.26 229.52 L 439.00 230.60" fill="none" stroke="#102e55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <g id="a-extraction-tf">
+        <line x1="360" y1="207" x2="360" y2="235" stroke="#347eb9" stroke-width="1.5"/>
+        <circle cx="360" cy="229" r="4.5" fill="#347eb9" stroke="#347eb9" stroke-width="0.7"/>
+        <ellipse cx="360" cy="190" rx="30" ry="17" fill="url(#tf-blue)" stroke="#347eb9" stroke-width="1.0"/>
+        <text x="360.00" y="195.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="17.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-010">
+          <tspan x="360.00" y="195.00">TF</tspan>
+        </text>
+      </g>
+      <rect x="440" y="215" width="94" height="31" rx="2" ry="2" fill="url(#tf-blue)" stroke="#4a92d3" stroke-width="0.8"/>
+      <text x="487.00" y="237.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="17.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-011">
+        <tspan x="487.00" y="237.00">Target gene</tspan>
+      </text>
+      <g id="arrow-012">
+        <path d="M 426.00 221.00 L 426.00 199.00 L 459.00 199.00" fill="none" stroke="#102e55" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <polygon points="466.00,199.00 459.00,203.27 459.00,194.73" fill="#102e55" stroke="none" stroke-width="1"/>
+      </g>
+      <circle cx="308" cy="268" r="2.2" fill="#111722" stroke="none" stroke-width="0.8"/>
+      <text x="319.00" y="273.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="16.60" font-weight="400" text-anchor="start" fill="#111722" id="text-013">
+        <tspan x="319.00" y="273.00">TF–target pair</tspan>
+      </text>
+      <circle cx="308" cy="290" r="2.2" fill="#111722" stroke="none" stroke-width="0.8"/>
+      <text x="319.00" y="295.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="15.79" font-weight="400" text-anchor="start" fill="#111722" id="text-014">
+        <tspan x="319.00" y="295.00">Biological context (tissue/cell type)</tspan>
+      </text>
+      <circle cx="308" cy="312" r="2.2" fill="#111722" stroke="none" stroke-width="0.8"/>
+      <text x="319.00" y="317.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="16.60" font-weight="400" text-anchor="start" fill="#111722" id="text-015">
+        <tspan x="319.00" y="317.00">Mechanism evidence</tspan>
+      </text>
+    </g>
+    <g id="arrow-016">
+      <path d="M 558.00 215.00 L 562.00 215.00" fill="none" stroke="#343d48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="571.00,215.00 562.00,220.49 562.00,209.51" fill="#343d48" stroke="none" stroke-width="1"/>
+    </g>
+    <g id="a-four-mechanisms" inkscape:label="Four curated regulatory mechanisms">
+      <rect x="573" y="105" width="703" height="226" rx="5" ry="5" fill="url(#input-bg)" stroke="#72a9cf" stroke-width="0.65"/>
+      <text x="924.50" y="128.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="20.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-017">
+        <tspan x="924.50" y="128.00">Curated TF–gene pairs across four regulatory mechanisms</tspan>
+      </text>
+      <g id="a-mechanism-direct-cis" inkscape:label="Direct cis- regulatory DNA">
+        <rect x="579" y="140" width="171" height="191" rx="4" ry="4" fill="url(#blue-bg)" stroke="#347eb9" stroke-width="0.55"/>
+        <path d="M583,140 H746 Q750,140 750,144 V190 H579 V144 Q579,140 583,140 Z" fill="#a7cdf6" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="664.50" y="162.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="18.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-018">
+          <tspan x="664.50" y="162.00">Direct cis-</tspan>
+          <tspan x="664.50" y="181.00">regulatory DNA</tspan>
+        </text>
+        <text x="664.50" y="315.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="23.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-019">
+          <tspan x="664.50" y="315.00">114 pairs</tspan>
+        </text>
+        <g id="a-direct-dna">
+          <line x1="601" y1="253.0" x2="601" y2="253.0" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="606" y1="260.7130152977943" x2="606" y2="245.2869847022057" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="611" y1="259.1099385892136" x2="611" y2="246.8900614107864" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="616" y1="250.1270307960644" x2="616" y2="255.8729692039356" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="621" y1="244.61421147052135" x2="621" y2="261.38578852947865" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="626" y1="249.23008688631612" x2="626" y2="256.7699131136839" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="631" y1="258.39941592136694" x2="631" y2="247.60058407863306" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="636" y1="261.0471119034501" x2="636" y2="244.95288809654988" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="641" y1="253.97518047865194" x2="641" y2="252.02481952134806" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="646" y1="245.72538660821073" x2="646" y2="260.2746133917893" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="651" y1="246.26216518085764" x2="651" y2="259.7378348191424" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="656" y1="254.9371733142365" x2="656" y2="251.0628266857635" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="661" y1="261.27238512530255" x2="661" y2="244.72761487469745" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="666" y1="257.6158754157948" x2="666" y2="248.3841245842052" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="671" y1="248.38412458420524" x2="671" y2="257.6158754157948" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="676" y1="244.72761487469745" x2="676" y2="261.27238512530255" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="681" y1="251.0628266857635" x2="681" y2="254.9371733142365" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="686" y1="259.7378348191424" x2="686" y2="246.26216518085764" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="691" y1="260.2746133917893" x2="691" y2="245.72538660821073" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="696" y1="252.02481952134806" x2="696" y2="253.97518047865194" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="701" y1="244.95288809654988" x2="701" y2="261.0471119034501" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="706" y1="247.60058407863306" x2="706" y2="258.39941592136694" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="711" y1="256.7699131136839" x2="711" y2="249.23008688631612" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="716" y1="261.38578852947865" x2="716" y2="244.61421147052135" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="721" y1="255.87296920393564" x2="721" y2="250.12703079606436" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="726" y1="246.89006141078642" x2="726" y2="259.1099385892136" stroke="#68798a" stroke-width="0.85"/>
+          <path d="M 601.00 253.00 L 601.79 254.54 L 602.59 256.03 L 603.38 257.42 L 604.17 258.66 L 604.97 259.70 L 605.76 260.52 L 606.56 261.08 L 607.35 261.36 L 608.14 261.36 L 608.94 261.08 L 609.73 260.52 L 610.52 259.71 L 611.32 258.67 L 612.11 257.43 L 612.91 256.04 L 613.70 254.55 L 614.49 253.01 L 615.29 251.47 L 616.08 249.98 L 616.88 248.59 L 617.67 247.35 L 618.46 246.31 L 619.26 245.49 L 620.05 244.93 L 620.84 244.64 L 621.64 244.63 L 622.43 244.92 L 623.23 245.47 L 624.02 246.28 L 624.81 247.33 L 625.61 248.56 L 626.40 249.94 L 627.19 251.43 L 627.99 252.98 L 628.78 254.52 L 629.58 256.01 L 630.37 257.40 L 631.16 258.64 L 631.96 259.69 L 632.75 260.51 L 633.54 261.07 L 634.34 261.36 L 635.13 261.37 L 635.92 261.09 L 636.72 260.53 L 637.51 259.72 L 638.31 258.68 L 639.10 257.45 L 639.89 256.07 L 640.69 254.58 L 641.48 253.04 L 642.27 251.49 L 643.07 250.00 L 643.86 248.61 L 644.66 247.37 L 645.45 246.32 L 646.24 245.50 L 647.04 244.93 L 647.83 244.64 L 648.62 244.63 L 649.42 244.91 L 650.21 245.46 L 651.01 246.27 L 651.80 247.31 L 652.59 248.54 L 653.39 249.92 L 654.18 251.41 L 654.98 252.95 L 655.77 254.49 L 656.56 255.99 L 657.36 257.38 L 658.15 258.62 L 658.94 259.67 L 659.74 260.50 L 660.53 261.06 L 661.33 261.36 L 662.12 261.37 L 662.91 261.09 L 663.71 260.54 L 664.50 259.74 L 665.29 258.70 L 666.09 257.47 L 666.88 256.09 L 667.67 254.60 L 668.47 253.06 L 669.26 251.52 L 670.06 250.02 L 670.85 248.63 L 671.64 247.39 L 672.44 246.34 L 673.23 245.51 L 674.02 244.94 L 674.82 244.64 L 675.61 244.63 L 676.41 244.90 L 677.20 245.45 L 677.99 246.25 L 678.79 247.29 L 679.58 248.52 L 680.38 249.90 L 681.17 251.39 L 681.96 252.93 L 682.76 254.47 L 683.55 255.96 L 684.34 257.36 L 685.14 258.60 L 685.93 259.66 L 686.73 260.48 L 687.52 261.06 L 688.31 261.36 L 689.11 261.37 L 689.90 261.10 L 690.69 260.56 L 691.49 259.75 L 692.28 258.72 L 693.08 257.49 L 693.87 256.11 L 694.66 254.63 L 695.46 253.09 L 696.25 251.54 L 697.04 250.05 L 697.84 248.65 L 698.63 247.41 L 699.42 246.35 L 700.22 245.52 L 701.01 244.95 L 701.81 244.64 L 702.60 244.63 L 703.39 244.90 L 704.19 245.44 L 704.98 246.24 L 705.77 247.27 L 706.57 248.50 L 707.36 249.88 L 708.16 251.36 L 708.95 252.90 L 709.74 254.45 L 710.54 255.94 L 711.33 257.34 L 712.12 258.58 L 712.92 259.64 L 713.71 260.47 L 714.51 261.05 L 715.30 261.35 L 716.09 261.37 L 716.89 261.11 L 717.68 260.57 L 718.48 259.77 L 719.27 258.74 L 720.06 257.51 L 720.86 256.14 L 721.65 254.65 L 722.44 253.11 L 723.24 251.57 L 724.03 250.07 L 724.83 248.67 L 725.62 247.42 L 726.41 246.37 L 727.21 245.53 L 728.00 244.95" fill="none" stroke="#102e55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M 601.00 253.00 L 601.79 251.46 L 602.59 249.97 L 603.38 248.58 L 604.17 247.34 L 604.97 246.30 L 605.76 245.48 L 606.56 244.92 L 607.35 244.64 L 608.14 244.64 L 608.94 244.92 L 609.73 245.48 L 610.52 246.29 L 611.32 247.33 L 612.11 248.57 L 612.91 249.96 L 613.70 251.45 L 614.49 252.99 L 615.29 254.53 L 616.08 256.02 L 616.88 257.41 L 617.67 258.65 L 618.46 259.69 L 619.26 260.51 L 620.05 261.07 L 620.84 261.36 L 621.64 261.37 L 622.43 261.08 L 623.23 260.53 L 624.02 259.72 L 624.81 258.67 L 625.61 257.44 L 626.40 256.06 L 627.19 254.57 L 627.99 253.02 L 628.78 251.48 L 629.58 249.99 L 630.37 248.60 L 631.16 247.36 L 631.96 246.31 L 632.75 245.49 L 633.54 244.93 L 634.34 244.64 L 635.13 244.63 L 635.92 244.91 L 636.72 245.47 L 637.51 246.28 L 638.31 247.32 L 639.10 248.55 L 639.89 249.93 L 640.69 251.42 L 641.48 252.96 L 642.27 254.51 L 643.07 256.00 L 643.86 257.39 L 644.66 258.63 L 645.45 259.68 L 646.24 260.50 L 647.04 261.07 L 647.83 261.36 L 648.62 261.37 L 649.42 261.09 L 650.21 260.54 L 651.01 259.73 L 651.80 258.69 L 652.59 257.46 L 653.39 256.08 L 654.18 254.59 L 654.98 253.05 L 655.77 251.51 L 656.56 250.01 L 657.36 248.62 L 658.15 247.38 L 658.94 246.33 L 659.74 245.50 L 660.53 244.94 L 661.33 244.64 L 662.12 244.63 L 662.91 244.91 L 663.71 245.46 L 664.50 246.26 L 665.29 247.30 L 666.09 248.53 L 666.88 249.91 L 667.67 251.40 L 668.47 252.94 L 669.26 254.48 L 670.06 255.98 L 670.85 257.37 L 671.64 258.61 L 672.44 259.66 L 673.23 260.49 L 674.02 261.06 L 674.82 261.36 L 675.61 261.37 L 676.41 261.10 L 677.20 260.55 L 677.99 259.75 L 678.79 258.71 L 679.58 257.48 L 680.38 256.10 L 681.17 254.61 L 681.96 253.07 L 682.76 251.53 L 683.55 250.04 L 684.34 248.64 L 685.14 247.40 L 685.93 246.34 L 686.73 245.52 L 687.52 244.94 L 688.31 244.64 L 689.11 244.63 L 689.90 244.90 L 690.69 245.44 L 691.49 246.25 L 692.28 247.28 L 693.08 248.51 L 693.87 249.89 L 694.66 251.37 L 695.46 252.91 L 696.25 254.46 L 697.04 255.95 L 697.84 257.35 L 698.63 258.59 L 699.42 259.65 L 700.22 260.48 L 701.01 261.05 L 701.81 261.36 L 702.60 261.37 L 703.39 261.10 L 704.19 260.56 L 704.98 259.76 L 705.77 258.73 L 706.57 257.50 L 707.36 256.12 L 708.16 254.64 L 708.95 253.10 L 709.74 251.55 L 710.54 250.06 L 711.33 248.66 L 712.12 247.42 L 712.92 246.36 L 713.71 245.53 L 714.51 244.95 L 715.30 244.65 L 716.09 244.63 L 716.89 244.89 L 717.68 245.43 L 718.48 246.23 L 719.27 247.26 L 720.06 248.49 L 720.86 249.86 L 721.65 251.35 L 722.44 252.89 L 723.24 254.43 L 724.03 255.93 L 724.83 257.33 L 725.62 258.58 L 726.41 259.63 L 727.21 260.47 L 728.00 261.05" fill="none" stroke="#102e55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g id="a-direct-tf">
+          <line x1="661.5" y1="239" x2="661.5" y2="253" stroke="#347eb9" stroke-width="1.5"/>
+          <circle cx="661.5" cy="247" r="4.5" fill="#347eb9" stroke="#347eb9" stroke-width="0.7"/>
+          <ellipse cx="661.5" cy="222" rx="28" ry="17" fill="url(#tf-blue)" stroke="#347eb9" stroke-width="1.0"/>
+          <text x="661.50" y="227.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="17.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-020">
+            <tspan x="661.50" y="227.00">TF</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="a-mechanism-chromatin" inkscape:label="Chromatin- mediated">
+        <rect x="755" y="140" width="166" height="191" rx="4" ry="4" fill="url(#purple-bg)" stroke="#9377c4" stroke-width="0.55"/>
+        <path d="M759,140 H917 Q921,140 921,144 V190 H755 V144 Q755,140 759,140 Z" fill="#c8b5f0" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="838.00" y="162.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="18.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-021">
+          <tspan x="838.00" y="162.00">Chromatin-</tspan>
+          <tspan x="838.00" y="181.00">mediated</tspan>
+        </text>
+        <text x="838.00" y="315.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="23.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-022">
+          <tspan x="838.00" y="315.00">21 pairs</tspan>
+        </text>
+        <path d="M771,268 C797,257 800,278 831,265 S881,265 906,271" fill="none" stroke="#102e55" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <g id="a-histone-left">
+          <ellipse cx="811" cy="256" rx="18" ry="22" fill="#7d93a6" stroke="#506275" stroke-width="1"/>
+          <path d="M796,234 H811 C823,234 823,278 811,278 H796 Z" fill="url(#histone-body)" stroke="#61758b" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse cx="796" cy="256" rx="17" ry="22" fill="url(#histone-face)" stroke="#536879" stroke-width="1.0"/>
+          <path d="M789,234 C802,243 800,267 789,278" fill="none" stroke="#416684" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M798,234 C811,243 809,267 798,278" fill="none" stroke="#416684" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M807,234 C820,243 818,267 807,278" fill="none" stroke="#416684" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g id="a-histone-right">
+          <ellipse cx="872" cy="259" rx="18" ry="22" fill="#7d93a6" stroke="#506275" stroke-width="1"/>
+          <path d="M857,237 H872 C884,237 884,281 872,281 H857 Z" fill="url(#histone-body)" stroke="#61758b" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"/>
+          <ellipse cx="857" cy="259" rx="17" ry="22" fill="url(#histone-face)" stroke="#536879" stroke-width="1.0"/>
+          <path d="M850,237 C863,246 861,270 850,281" fill="none" stroke="#416684" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M859,237 C872,246 870,270 859,281" fill="none" stroke="#416684" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M868,237 C881,246 879,270 868,281" fill="none" stroke="#416684" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g id="a-chromatin-tf">
+          <ellipse cx="825" cy="217" rx="30" ry="17" fill="url(#tf-blue)" stroke="#347eb9" stroke-width="1.0"/>
+          <text x="825.00" y="222.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="17.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-023">
+            <tspan x="825.00" y="222.00">TF</tspan>
+          </text>
+        </g>
+        <path d="M869,237 Q884,228 887,215" fill="none" stroke="#546c88" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="887" cy="211" r="6.5" fill="#fc819e" stroke="#bd506f" stroke-width="0.7"/>
+      </g>
+      <g id="a-mechanism-combinatorial" inkscape:label="Combinatorial TF">
+        <rect x="926" y="140" width="168" height="191" rx="4" ry="4" fill="url(#orange-bg)" stroke="#e69a49" stroke-width="0.55"/>
+        <path d="M930,140 H1090 Q1094,140 1094,144 V190 H926 V144 Q926,140 930,140 Z" fill="#ffd4a5" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="1010.00" y="170.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="18.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-024">
+          <tspan x="1010.00" y="170.00">Combinatorial TF</tspan>
+        </text>
+        <text x="1010.00" y="315.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="23.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-025">
+          <tspan x="1010.00" y="315.00">16 pairs</tspan>
+        </text>
+        <g id="a-combination-dna">
+          <line x1="942" y1="261.0" x2="942" y2="261.0" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="947" y1="268.4375504657302" x2="947" y2="253.56244953426977" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="952" y1="266.8917264967417" x2="952" y2="255.10827350325832" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="957" y1="258.2296368390621" x2="957" y2="263.7703631609379" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="962" y1="252.91370391800274" x2="962" y2="269.08629608199726" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="967" y1="257.36472664037626" x2="967" y2="264.63527335962374" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="972" y1="266.20657963846094" x2="972" y2="255.79342036153903" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="977" y1="268.75971504975547" x2="977" y2="253.24028495024453" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="982" y1="261.9403526044144" x2="982" y2="260.0596473955856" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="987" y1="253.98519422934604" x2="987" y2="268.01480577065394" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="992" y1="254.50280213868413" x2="992" y2="267.49719786131584" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="997" y1="262.8679885530138" x2="997" y2="259.1320114469862" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="1002" y1="268.9769427993989" x2="1002" y2="253.02305720060113" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="1007" y1="265.4510227223735" x2="1007" y2="256.5489772776265" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="1012" y1="256.5489772776265" x2="1012" y2="265.4510227223735" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="1017" y1="253.0230572006011" x2="1017" y2="268.9769427993989" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="1022" y1="259.1320114469862" x2="1022" y2="262.8679885530138" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="1027" y1="267.49719786131584" x2="1027" y2="254.50280213868416" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="1032" y1="268.01480577065394" x2="1032" y2="253.98519422934604" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="1037" y1="260.0596473955856" x2="1037" y2="261.9403526044144" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="1042" y1="253.24028495024453" x2="1042" y2="268.75971504975547" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="1047" y1="255.79342036153903" x2="1047" y2="266.206579638461" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="1052" y1="264.63527335962374" x2="1052" y2="257.36472664037626" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="1057" y1="269.08629608199726" x2="1057" y2="252.91370391800274" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="1062" y1="263.77036316093796" x2="1062" y2="258.22963683906204" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="1067" y1="255.10827350325832" x2="1067" y2="266.8917264967417" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="1072" y1="253.56244953426977" x2="1072" y2="268.4375504657302" stroke="#68798a" stroke-width="0.85"/>
+          <line x1="1077" y1="261.0" x2="1077" y2="261.0" stroke="#68798a" stroke-width="0.85"/>
+          <path d="M 942.00 261.00 L 942.86 262.60 L 943.71 264.14 L 944.57 265.56 L 945.42 266.79 L 946.28 267.80 L 947.14 268.54 L 947.99 268.97 L 948.85 269.10 L 949.71 268.90 L 950.56 268.39 L 951.42 267.59 L 952.27 266.52 L 953.13 265.24 L 953.99 263.79 L 954.84 262.23 L 955.70 260.62 L 956.56 259.03 L 957.41 257.51 L 958.27 256.13 L 959.12 254.95 L 959.98 254.00 L 960.84 253.33 L 961.69 252.97 L 962.55 252.92 L 963.41 253.19 L 964.26 253.77 L 965.12 254.64 L 965.98 255.76 L 966.83 257.08 L 967.69 258.56 L 968.54 260.14 L 969.40 261.75 L 970.26 263.33 L 971.11 264.82 L 971.97 266.16 L 972.83 267.29 L 973.68 268.18 L 974.54 268.78 L 975.39 269.07 L 976.25 269.05 L 977.11 268.70 L 977.96 268.05 L 978.82 267.12 L 979.67 265.95 L 980.53 264.58 L 981.39 263.07 L 982.24 261.48 L 983.10 259.87 L 983.96 258.31 L 984.81 256.85 L 985.67 255.55 L 986.52 254.47 L 987.38 253.65 L 988.24 253.12 L 989.09 252.91 L 989.95 253.01 L 990.81 253.43 L 991.66 254.14 L 992.52 255.13 L 993.38 256.35 L 994.23 257.76 L 995.09 259.29 L 995.94 260.89 L 996.80 262.50 L 997.66 264.05 L 998.51 265.47 L 999.37 266.72 L 1000.23 267.74 L 1001.08 268.50 L 1001.94 268.96 L 1002.79 269.10 L 1003.65 268.92 L 1004.51 268.43 L 1005.36 267.65 L 1006.22 266.60 L 1007.08 265.33 L 1007.93 263.89 L 1008.79 262.34 L 1009.64 260.73 L 1010.50 259.13 L 1011.36 257.61 L 1012.21 256.22 L 1013.07 255.02 L 1013.92 254.06 L 1014.78 253.37 L 1015.64 252.98 L 1016.49 252.91 L 1017.35 253.16 L 1018.21 253.72 L 1019.06 254.57 L 1019.92 255.68 L 1020.77 256.99 L 1021.63 258.46 L 1022.49 260.04 L 1023.34 261.65 L 1024.20 263.23 L 1025.06 264.73 L 1025.91 266.08 L 1026.77 267.23 L 1027.62 268.13 L 1028.48 268.75 L 1029.34 269.06 L 1030.19 269.06 L 1031.05 268.73 L 1031.91 268.10 L 1032.76 267.19 L 1033.62 266.03 L 1034.47 264.68 L 1035.33 263.18 L 1036.19 261.59 L 1037.04 259.98 L 1037.90 258.41 L 1038.76 256.94 L 1039.61 255.63 L 1040.47 254.54 L 1041.33 253.70 L 1042.18 253.15 L 1043.04 252.91 L 1043.89 252.99 L 1044.75 253.39 L 1045.61 254.09 L 1046.46 255.06 L 1047.32 256.27 L 1048.17 257.66 L 1049.03 259.19 L 1049.89 260.79 L 1050.74 262.39 L 1051.60 263.95 L 1052.46 265.38 L 1053.31 266.64 L 1054.17 267.68 L 1055.03 268.46 L 1055.88 268.94 L 1056.74 269.10 L 1057.59 268.94 L 1058.45 268.47 L 1059.31 267.71 L 1060.16 266.68 L 1061.02 265.42 L 1061.88 263.99 L 1062.73 262.44 L 1063.59 260.84 L 1064.44 259.24 L 1065.30 257.71 L 1066.16 256.31 L 1067.01 255.09 L 1067.87 254.11 L 1068.72 253.40 L 1069.58 253.00 L 1070.44 252.91 L 1071.29 253.14 L 1072.15 253.68 L 1073.01 254.51 L 1073.86 255.60 L 1074.72 256.90 L 1075.58 258.36 L 1076.43 259.93 L 1077.29 261.54 L 1078.14 263.13 L 1079.00 264.64" fill="none" stroke="#102e55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M 942.00 261.00 L 942.86 259.40 L 943.71 257.86 L 944.57 256.44 L 945.42 255.21 L 946.28 254.20 L 947.14 253.46 L 947.99 253.03 L 948.85 252.90 L 949.71 253.10 L 950.56 253.61 L 951.42 254.41 L 952.27 255.48 L 953.13 256.76 L 953.99 258.21 L 954.84 259.77 L 955.70 261.38 L 956.56 262.97 L 957.41 264.49 L 958.27 265.87 L 959.12 267.05 L 959.98 268.00 L 960.84 268.67 L 961.69 269.03 L 962.55 269.08 L 963.41 268.81 L 964.26 268.23 L 965.12 267.36 L 965.98 266.24 L 966.83 264.92 L 967.69 263.44 L 968.54 261.86 L 969.40 260.25 L 970.26 258.67 L 971.11 257.18 L 971.97 255.84 L 972.83 254.71 L 973.68 253.82 L 974.54 253.22 L 975.39 252.93 L 976.25 252.95 L 977.11 253.30 L 977.96 253.95 L 978.82 254.88 L 979.67 256.05 L 980.53 257.42 L 981.39 258.93 L 982.24 260.52 L 983.10 262.13 L 983.96 263.69 L 984.81 265.15 L 985.67 266.45 L 986.52 267.53 L 987.38 268.35 L 988.24 268.88 L 989.09 269.09 L 989.95 268.99 L 990.81 268.57 L 991.66 267.86 L 992.52 266.87 L 993.38 265.65 L 994.23 264.24 L 995.09 262.71 L 995.94 261.11 L 996.80 259.50 L 997.66 257.95 L 998.51 256.53 L 999.37 255.28 L 1000.23 254.26 L 1001.08 253.50 L 1001.94 253.04 L 1002.79 252.90 L 1003.65 253.08 L 1004.51 253.57 L 1005.36 254.35 L 1006.22 255.40 L 1007.08 256.67 L 1007.93 258.11 L 1008.79 259.66 L 1009.64 261.27 L 1010.50 262.87 L 1011.36 264.39 L 1012.21 265.78 L 1013.07 266.98 L 1013.92 267.94 L 1014.78 268.63 L 1015.64 269.02 L 1016.49 269.09 L 1017.35 268.84 L 1018.21 268.28 L 1019.06 267.43 L 1019.92 266.32 L 1020.77 265.01 L 1021.63 263.54 L 1022.49 261.96 L 1023.34 260.35 L 1024.20 258.77 L 1025.06 257.27 L 1025.91 255.92 L 1026.77 254.77 L 1027.62 253.87 L 1028.48 253.25 L 1029.34 252.94 L 1030.19 252.94 L 1031.05 253.27 L 1031.91 253.90 L 1032.76 254.81 L 1033.62 255.97 L 1034.47 257.32 L 1035.33 258.82 L 1036.19 260.41 L 1037.04 262.02 L 1037.90 263.59 L 1038.76 265.06 L 1039.61 266.37 L 1040.47 267.46 L 1041.33 268.30 L 1042.18 268.85 L 1043.04 269.09 L 1043.89 269.01 L 1044.75 268.61 L 1045.61 267.91 L 1046.46 266.94 L 1047.32 265.73 L 1048.17 264.34 L 1049.03 262.81 L 1049.89 261.21 L 1050.74 259.61 L 1051.60 258.05 L 1052.46 256.62 L 1053.31 255.36 L 1054.17 254.32 L 1055.03 253.54 L 1055.88 253.06 L 1056.74 252.90 L 1057.59 253.06 L 1058.45 253.53 L 1059.31 254.29 L 1060.16 255.32 L 1061.02 256.58 L 1061.88 258.01 L 1062.73 259.56 L 1063.59 261.16 L 1064.44 262.76 L 1065.30 264.29 L 1066.16 265.69 L 1067.01 266.91 L 1067.87 267.89 L 1068.72 268.60 L 1069.58 269.00 L 1070.44 269.09 L 1071.29 268.86 L 1072.15 268.32 L 1073.01 267.49 L 1073.86 266.40 L 1074.72 265.10 L 1075.58 263.64 L 1076.43 262.07 L 1077.29 260.46 L 1078.14 258.87 L 1079.00 257.36" fill="none" stroke="#102e55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <g id="a-tf-a">
+          <line x1="978" y1="241" x2="978" y2="261" stroke="#9377c4" stroke-width="1.5"/>
+          <circle cx="978" cy="255" r="4.5" fill="#9377c4" stroke="#9377c4" stroke-width="0.7"/>
+          <ellipse cx="978" cy="223" rx="31" ry="18" fill="url(#tf-purple)" stroke="#9377c4" stroke-width="1.0"/>
+          <text x="978.00" y="228.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="17.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-026">
+            <tspan x="978.00" y="228.00">TF A</tspan>
+          </text>
+        </g>
+        <g id="a-tf-b">
+          <line x1="1042" y1="241" x2="1042" y2="261" stroke="#e69a49" stroke-width="1.5"/>
+          <circle cx="1042" cy="255" r="4.5" fill="#e69a49" stroke="#e69a49" stroke-width="0.7"/>
+          <ellipse cx="1042" cy="223" rx="31" ry="18" fill="url(#tf-orange)" stroke="#e69a49" stroke-width="1.0"/>
+          <text x="1042.00" y="228.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="17.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-027">
+            <tspan x="1042.00" y="228.00">TF B</tspan>
+          </text>
+        </g>
+        <line x1="1009" y1="220" x2="1011" y2="220" stroke="#8b729a" stroke-width="1.3"/>
+      </g>
+      <g id="a-mechanism-rna" inkscape:label="Regulatory RNA- mediated">
+        <rect x="1099" y="140" width="172" height="191" rx="4" ry="4" fill="url(#green-bg)" stroke="#409973" stroke-width="0.55"/>
+        <path d="M1103,140 H1267 Q1271,140 1271,144 V190 H1099 V144 Q1099,140 1103,140 Z" fill="#a7dfc2" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="1185.00" y="162.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="18.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-028">
+          <tspan x="1185.00" y="162.00">Regulatory RNA-</tspan>
+          <tspan x="1185.00" y="181.00">mediated</tspan>
+        </text>
+        <text x="1185.00" y="315.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="23.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-029">
+          <tspan x="1185.00" y="315.00">20 pairs</tspan>
+        </text>
+        <g id="a-rna-tf">
+          <ellipse cx="1168" cy="214" rx="30" ry="17" fill="url(#tf-blue)" stroke="#347eb9" stroke-width="1.0"/>
+          <text x="1168.00" y="219.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="17.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-030">
+            <tspan x="1168.00" y="219.00">TF</tspan>
+          </text>
+        </g>
+        <path d="M1165,232 L1165,240 L1173,246" fill="none" stroke="#102e55" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="1167" cy="238" r="4.5" fill="#487da7" stroke="none" stroke-width="0.8"/>
+        <g id="a-rna-wave">
+          <path d="M 1120.00 242.00 L 1121.25 243.55 L 1122.50 244.97 L 1123.75 246.16 L 1125.00 247.00 L 1126.25 247.44 L 1127.50 247.44 L 1128.75 247.00 L 1130.00 246.16 L 1131.25 244.97 L 1132.50 243.55 L 1133.75 242.00 L 1135.00 240.45 L 1136.25 239.03 L 1137.50 237.84 L 1138.75 237.00 L 1140.00 236.56 L 1141.25 236.56 L 1142.50 237.00 L 1143.75 237.84 L 1145.00 239.03 L 1146.25 240.45 L 1147.50 242.00 L 1148.75 243.55 L 1150.00 244.97 L 1151.25 246.16 L 1152.50 247.00 L 1153.75 247.44 L 1155.00 247.44 L 1156.25 247.00 L 1157.50 246.16 L 1158.75 244.97 L 1160.00 243.55 L 1161.25 242.00 L 1162.50 240.45 L 1163.75 239.03 L 1165.00 237.84 L 1166.25 237.00 L 1167.50 236.56 L 1168.75 236.56 L 1170.00 237.00 L 1171.25 237.84 L 1172.50 239.03 L 1173.75 240.45 L 1175.00 242.00 L 1176.25 243.55 L 1177.50 244.97 L 1178.75 246.16 L 1180.00 247.00 L 1181.25 247.44 L 1182.50 247.44 L 1183.75 247.00 L 1185.00 246.16 L 1186.25 244.97 L 1187.50 243.55 L 1188.75 242.00 L 1190.00 240.45 L 1191.25 239.03 L 1192.50 237.84 L 1193.75 237.00 L 1195.00 236.56 L 1196.25 236.56 L 1197.50 237.00 L 1198.75 237.84 L 1200.00 239.03 L 1201.25 240.45 L 1202.50 242.00 L 1203.75 243.55 L 1205.00 244.97 L 1206.25 246.16 L 1207.50 247.00 L 1208.75 247.44 L 1210.00 247.44 L 1211.25 247.00 L 1212.50 246.16 L 1213.75 244.97 L 1215.00 243.55 L 1216.25 242.00 L 1217.50 240.45 L 1218.75 239.03 L 1220.00 237.84 L 1221.25 237.00 L 1222.50 236.56 L 1223.75 236.56 L 1225.00 237.00 L 1226.25 237.84 L 1227.50 239.03 L 1228.75 240.45 L 1230.00 242.00 L 1231.25 243.55 L 1232.50 244.97 L 1233.75 246.16 L 1235.00 247.00 L 1236.25 247.44 L 1237.50 247.44 L 1238.75 247.00 L 1240.00 246.16 L 1241.25 244.97 L 1242.50 243.55 L 1243.75 242.00 L 1245.00 240.45" fill="none" stroke="#26a9d0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <text x="1185.00" y="274.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="18.00" font-weight="400" text-anchor="middle" fill="#111722" id="text-031">
+          <tspan x="1185.00" y="274.00">miRNA / lncRNA</tspan>
+        </text>
+      </g>
+    </g>
+    <g id="arrow-032">
+      <path d="M 1282.00 215.00 L 1294.00 215.00" fill="none" stroke="#343d48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="1304.00,215.00 1294.00,221.10 1294.00,208.90" fill="#343d48" stroke="none" stroke-width="1"/>
+    </g>
+    <g id="a-accepted-pairs" inkscape:label="171 accepted TF–gene pairs">
+      <rect x="1307" y="105" width="205" height="226" rx="5" ry="5" fill="url(#neutral-bg)" stroke="#7892a3" stroke-width="0.65"/>
+      <text x="1409.50" y="139.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="24.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-033">
+        <tspan x="1409.50" y="139.00">171 accepted</tspan>
+        <tspan x="1409.50" y="164.00">TF–gene pairs</tspan>
+      </text>
+      <g id="a-accepted-database">
+        <path d="M1379,194.3 L1379,246.7 C1379,258.325 1441,258.325 1441,246.7 L1441,194.3 Z" fill="url(#cylinder-body)" stroke="#102e55" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M1379,206.3 C1390.16,218.39000000000001 1429.84,218.39000000000001 1441,206.3" fill="none" stroke="#f5f8fa" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M1379,224.76 C1390.16,236.85 1429.84,236.85 1441,224.76" fill="none" stroke="#f5f8fa" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M1379,241.09 C1390.16,253.18 1429.84,253.18 1441,241.09" fill="none" stroke="#f5f8fa" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse cx="1410.0" cy="194.3" rx="31.0" ry="9.299999999999999" fill="url(#cylinder-top)" stroke="#102e55" stroke-width="0.85"/>
+      </g>
+      <text x="1409.50" y="279.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="18.00" font-weight="400" text-anchor="middle" fill="#111722" id="text-034">
+        <tspan x="1409.50" y="279.00">High-confidence</tspan>
+        <tspan x="1409.50" y="300.00">mechanism ground truth</tspan>
+        <tspan x="1409.50" y="321.00">for benchmark tasks</tspan>
+      </text>
+    </g>
+  </g>
+  <g id="panel-b" inkscape:label="B | Mechanism-compatible perturbation linking" inkscape:groupmode="layer" transform="translate(0,-42)">
+    <rect x="14" y="353" width="1512" height="222" rx="6" ry="6" fill="url(#panel-bg)" stroke="#708a9a" stroke-width="0.7"/>
+    <text x="27.00" y="387.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="37.00" font-weight="700" text-anchor="start" fill="#111722" id="text-035">
+      <tspan x="27.00" y="387.00">B</tspan>
+    </text>
+    <text x="77.00" y="385.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="29.50" font-weight="700" text-anchor="start" fill="#111722" id="text-036">
+      <tspan x="77.00" y="385.00">Mechanism-compatible perturbation linking</tspan>
+    </text>
+    <g id="b-accepted-input" inkscape:label="Accepted pairs">
+      <rect x="29" y="418" width="188" height="144" rx="5" ry="5" fill="url(#green-bg)" stroke="#99c7ae" stroke-width="0.65"/>
+      <text x="123.00" y="454.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="24.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-037">
+        <tspan x="123.00" y="454.00">171 accepted</tspan>
+        <tspan x="123.00" y="480.00">TF–gene pairs</tspan>
+      </text>
+      <g id="b-accepted-database">
+        <path d="M94,505.4 L94,542.6 C94,553.1 150,553.1 150,542.6 L150,505.4 Z" fill="url(#cylinder-body)" stroke="#102e55" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M94,513.2 C104.08,524.12 139.92,524.12 150,513.2" fill="none" stroke="#f5f8fa" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M94,527.24 C104.08,538.16 139.92,538.16 150,527.24" fill="none" stroke="#f5f8fa" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M94,539.66 C104.08,550.5799999999999 139.92,550.5799999999999 150,539.66" fill="none" stroke="#f5f8fa" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse cx="122.0" cy="505.4" rx="28.0" ry="8.4" fill="url(#cylinder-top)" stroke="#102e55" stroke-width="0.85"/>
+      </g>
+    </g>
+    <g id="arrow-038">
+      <path d="M 223.00 496.00 L 237.00 496.00" fill="none" stroke="#343d48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="247.00,496.00 237.00,502.10 237.00,489.90" fill="#343d48" stroke="none" stroke-width="1"/>
+    </g>
+    <g id="b-matching-criteria" inkscape:label="Mechanism-compatible perturbation matching">
+      <rect x="252" y="404" width="547" height="159" rx="5" ry="5" fill="url(#input-bg)" stroke="#84b7d8" stroke-width="0.65"/>
+      <text x="525.50" y="428.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="20.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-039">
+        <tspan x="525.50" y="428.00">Mechanism-compatible perturbation matching</tspan>
+      </text>
+      <g id="b-inclusion-context">
+        <rect x="262" y="440" width="128" height="117" rx="4" ry="4" fill="url(#input-bg)" stroke="#9bc8e5" stroke-width="0.5"/>
+        <g id="compatible-context-icon">
+          <polygon points="342.00,477.00 345.75,480.13 345.02,483.18 343.82,486.08 338.94,486.40 337.31,488.31 337.76,493.18 335.08,494.82 332.18,496.02 328.50,492.80 326.00,493.00 322.87,496.75 319.82,496.02 316.92,494.82 316.60,489.94 314.69,488.31 309.82,488.76 308.18,486.08 306.98,483.18 310.20,479.50 310.00,477.00 306.25,473.87 306.98,470.82 308.18,467.92 313.06,467.60 314.69,465.69 314.24,460.82 316.92,459.18 319.82,457.98 323.50,461.20 326.00,461.00 329.13,457.25 332.18,457.98 335.08,459.18 335.40,464.06 337.31,465.69 342.18,465.24 343.82,467.92 345.02,470.82 341.80,474.50" fill="#687481" stroke="#485461" stroke-width="0.8"/>
+          <circle cx="326.0" cy="477" r="8.2" fill="#fbfcfc" stroke="#626d77" stroke-width="0.7"/>
+        </g>
+        <text x="326.00" y="522.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="16.68" font-weight="400" text-anchor="middle" fill="#111722" id="text-040">
+          <tspan x="326.00" y="522.00">Compatible</tspan>
+          <tspan x="326.00" y="542.00">biological context</tspan>
+        </text>
+      </g>
+      <g id="b-inclusion-control">
+        <rect x="394" y="440" width="128" height="117" rx="4" ry="4" fill="url(#input-bg)" stroke="#9bc8e5" stroke-width="0.5"/>
+        <g id="matched-control-icon">
+          <circle cx="441.0" cy="470" r="5.2" fill="#355c7a" stroke="#213f58" stroke-width="0.7"/>
+          <path d="M431.0,497 V484 C431.0,474 451.0,474 451.0,484 V497 Z" fill="#456f90" stroke="#234763" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="475.0" cy="470" r="5.2" fill="#355c7a" stroke="#213f58" stroke-width="0.7"/>
+          <path d="M465.0,497 V484 C465.0,474 485.0,474 485.0,484 V497 Z" fill="#456f90" stroke="#234763" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="458.0" cy="466" r="7.0" fill="#355c7a" stroke="#213f58" stroke-width="0.7"/>
+          <path d="M446.0,493 V480 C446.0,470 470.0,470 470.0,480 V493 Z" fill="#456f90" stroke="#234763" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <text x="458.00" y="522.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="17.50" font-weight="400" text-anchor="middle" fill="#111722" id="text-041">
+          <tspan x="458.00" y="522.00">Matched</tspan>
+          <tspan x="458.00" y="542.00">control</tspan>
+        </text>
+      </g>
+      <g id="b-inclusion-expression">
+        <rect x="527" y="440" width="128" height="117" rx="4" ry="4" fill="url(#input-bg)" stroke="#9bc8e5" stroke-width="0.5"/>
+        <g id="target-expression-icon">
+          <rect x="574.0" y="478" width="10" height="16" rx="0" ry="0" fill="url(#bar-bg)" stroke="#515e6c" stroke-width="0.6"/>
+          <rect x="588.0" y="466" width="10" height="28" rx="0" ry="0" fill="url(#bar-bg)" stroke="#515e6c" stroke-width="0.6"/>
+          <rect x="602.0" y="454" width="10" height="40" rx="0" ry="0" fill="url(#bar-bg)" stroke="#515e6c" stroke-width="0.6"/>
+        </g>
+        <text x="591.00" y="522.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="17.02" font-weight="400" text-anchor="middle" fill="#111722" id="text-042">
+          <tspan x="591.00" y="522.00">Target expression</tspan>
+          <tspan x="591.00" y="542.00">measured</tspan>
+        </text>
+      </g>
+      <g id="b-inclusion-direction">
+        <rect x="660" y="440" width="128" height="117" rx="4" ry="4" fill="url(#input-bg)" stroke="#9bc8e5" stroke-width="0.5"/>
+        <polygon points="709.00,453.00 699.00,469.00 705.00,469.00 705.00,497.00 713.00,497.00 713.00,469.00 719.00,469.00" fill="#3baa60" stroke="none" stroke-width="1"/>
+        <polygon points="740.00,497.00 730.00,481.00 736.00,481.00 736.00,453.00 744.00,453.00 744.00,481.00 750.00,481.00" fill="#ce3354" stroke="none" stroke-width="1"/>
+        <text x="724.00" y="522.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="16.55" font-weight="400" text-anchor="middle" fill="#111722" id="text-043">
+          <tspan x="724.00" y="522.00">Unambiguous</tspan>
+          <tspan x="724.00" y="542.00">up/down response</tspan>
+        </text>
+      </g>
+    </g>
+    <g id="arrow-044">
+      <path d="M 804.00 495.00 L 815.00 495.00" fill="none" stroke="#343d48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="825.00,495.00 815.00,501.10 815.00,488.90" fill="#343d48" stroke="none" stroke-width="1"/>
+    </g>
+    <g id="b-matched-source-units" inkscape:label="Matched pairs and source units">
+      <rect x="829" y="416" width="195" height="146" rx="5" ry="5" fill="url(#input-bg)" stroke="#94b8ce" stroke-width="0.65"/>
+      <g id="b-matched-database">
+        <path d="M901,444.8 L901,481.2 C901,490.95 953,490.95 953,481.2 L953,444.8 Z" fill="url(#cylinder-body)" stroke="#102e55" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M901,452.6 C910.36,462.74 943.64,462.74 953,452.6" fill="none" stroke="#f5f8fa" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M901,466.12 C910.36,476.26 943.64,476.26 953,466.12" fill="none" stroke="#f5f8fa" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M901,478.08 C910.36,488.21999999999997 943.64,488.21999999999997 953,478.08" fill="none" stroke="#f5f8fa" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <ellipse cx="927.0" cy="444.8" rx="26.0" ry="7.8" fill="url(#cylinder-top)" stroke="#102e55" stroke-width="0.85"/>
+      </g>
+      <text x="926.50" y="513.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="20.00" font-weight="400" text-anchor="middle" fill="#111722" id="text-045">
+        <tspan x="926.50" y="513.00">168 matched pairs</tspan>
+      </text>
+      <text x="926.50" y="538.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="18.87" font-weight="400" text-anchor="middle" fill="#111722" id="text-046">
+        <tspan x="926.50" y="538.00">199 eligible source units</tspan>
+      </text>
+    </g>
+    <g id="arrow-047">
+      <path d="M 1026.00 451.00 L 1043.00 451.00 L 1043.00 397.00 L 1060.00 397.00" fill="none" stroke="#343d48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="1069.00,397.00 1060.00,402.49 1060.00,391.51" fill="#343d48" stroke="none" stroke-width="1"/>
+    </g>
+    <g id="arrow-048">
+      <path d="M 1026.00 479.00 L 1043.00 479.00 L 1043.00 504.00 L 1060.00 504.00" fill="none" stroke="#343d48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="1069.00,504.00 1060.00,509.49 1060.00,498.51" fill="#343d48" stroke="none" stroke-width="1"/>
+    </g>
+    <g id="b-task2-construction" inkscape:label="Task 2 construction">
+      <rect x="1073" y="360" width="438" height="66" rx="5" ry="5" fill="url(#pink-bg)" stroke="#e68cae" stroke-width="0.65"/>
+      <path d="M1077,360 H1507 Q1511,360 1511,364 V393 H1073 V364 Q1073,360 1077,360 Z" fill="#fff0f5" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="1073" y1="393" x2="1511" y2="393" stroke="#edb5c9" stroke-width="0.6"/>
+      <text x="1292.00" y="383.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="18.80" font-weight="700" text-anchor="middle" fill="#111722" id="text-049">
+        <tspan x="1292.00" y="383.00">Simplify perturbations and collapse identical inputs</tspan>
+      </text>
+      <text x="1292.00" y="416.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="20.00" font-weight="400" text-anchor="middle" fill="#111722" id="text-050">
+        <tspan x="1292.00" y="416.00">193 unique Task 2 units</tspan>
+      </text>
+    </g>
+    <g id="b-task3-construction" inkscape:label="Task 3 construction">
+      <rect x="1073" y="435" width="438" height="131" rx="5" ry="5" fill="url(#green-bg)" stroke="#81bb93" stroke-width="0.65"/>
+      <path d="M1077,435 H1507 Q1511,435 1511,439 V468 H1073 V439 Q1073,435 1077,435 Z" fill="#e6f3e9" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="1292.00" y="459.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="19.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-051">
+        <tspan x="1292.00" y="459.00">Select pairs with both up and down responses</tspan>
+      </text>
+      <rect x="1178" y="476" width="276" height="29" rx="4" ry="4" fill="#e6f4e9" stroke="#a9d3b6" stroke-width="0.5"/>
+      <text x="1316.00" y="498.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="19.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-052">
+        <tspan x="1316.00" y="498.00">9 bidirectional TF–gene pairs</tspan>
+      </text>
+      <g id="arrow-053">
+        <path d="M 1291.00 508.00 L 1291.00 519.00" fill="none" stroke="#343d48" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <polygon points="1291.00,528.00 1285.51,519.00 1296.49,519.00" fill="#343d48" stroke="none" stroke-width="1"/>
+      </g>
+      <rect x="1206" y="531" width="168" height="27" rx="4" ry="4" fill="#e4f2e7" stroke="#a9d3b6" stroke-width="0.5"/>
+      <text x="1290.00" y="552.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="21.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-054">
+        <tspan x="1290.00" y="552.00">20 Task 3 units</tspan>
+      </text>
+    </g>
+  </g>
+  <g id="panel-c" inkscape:label="C | Three benchmark tasks" inkscape:groupmode="layer" transform="translate(0,-42)">
+    <rect x="14" y="587" width="1512" height="246" rx="6" ry="6" fill="url(#panel-bg)" stroke="#708a9a" stroke-width="0.7"/>
+    <text x="27.00" y="621.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="37.00" font-weight="700" text-anchor="start" fill="#111722" id="text-055">
+      <tspan x="27.00" y="621.00">C</tspan>
+    </text>
+    <text x="77.00" y="619.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="29.50" font-weight="700" text-anchor="start" fill="#111722" id="text-056">
+      <tspan x="77.00" y="619.00">Three benchmark tasks</tspan>
+    </text>
+    <g id="c-task1" inkscape:label="Task 1 — Mechanism classification">
+      <rect x="24" y="625" width="486" height="202" rx="4" ry="4" fill="#fff" stroke="#85b7d7" stroke-width="0.55"/>
+      <path d="M28,625 H506 Q510,625 510,629 V658 H24 V629 Q24,625 28,625 Z" fill="#e7f3fa" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="267.00" y="649.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="20.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-057">
+        <tspan x="267.00" y="649.00">Task 1 — Mechanism classification</tspan>
+      </text>
+      <g id="c-task1-input">
+        <rect x="29" y="665" width="193" height="153" rx="4" ry="4" fill="url(#input-bg)" stroke="#8bcaec" stroke-width="0.55"/>
+        <text x="39.00" y="687.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="18.50" font-weight="700" text-anchor="start" fill="#075098" id="text-058">
+          <tspan x="39.00" y="687.00">Input (model-visible)</tspan>
+        </text>
+        <text x="41.00" y="713.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="18.00" font-weight="400" text-anchor="start" fill="#111722" id="text-059">
+          <tspan x="41.00" y="713.00">TF + target gene</tspan>
+          <tspan x="41.00" y="736.00">e.g., CDX2, Scin</tspan>
+        </text>
+      </g>
+      <g id="arrow-060">
+        <path d="M 229.00 722.00 L 242.00 722.00" fill="none" stroke="#343d48" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <polygon points="252.00,722.00 242.00,728.10 242.00,715.90" fill="#343d48" stroke="none" stroke-width="1"/>
+      </g>
+      <g id="c-task1-output">
+        <rect x="260" y="665" width="240" height="153" rx="4" ry="4" fill="url(#output-bg)" stroke="#e9b887" stroke-width="0.55"/>
+        <text x="270.00" y="687.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="18.50" font-weight="700" text-anchor="start" fill="#a14918" id="text-061">
+          <tspan x="270.00" y="687.00">Output</tspan>
+        </text>
+        <text x="272.00" y="707.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="16.30" font-weight="400" text-anchor="start" fill="#111722" id="text-062">
+          <tspan x="272.00" y="707.00">One of four mechanism classes</tspan>
+        </text>
+        <circle cx="288" cy="723.5" r="9" fill="#347eb9" stroke="#347eb9" stroke-width="0.7"/>
+        <text x="311.00" y="728.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="16.50" font-weight="400" text-anchor="start" fill="#111722" id="text-063">
+          <tspan x="311.00" y="728.00">Direct cis-regulatory DNA</tspan>
+        </text>
+        <circle cx="288" cy="746.5" r="9" fill="#9377c4" stroke="#9377c4" stroke-width="0.7"/>
+        <text x="311.00" y="751.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="16.50" font-weight="400" text-anchor="start" fill="#111722" id="text-064">
+          <tspan x="311.00" y="751.00">Chromatin-mediated</tspan>
+        </text>
+        <circle cx="288" cy="769.5" r="9" fill="#e69a49" stroke="#e69a49" stroke-width="0.7"/>
+        <text x="311.00" y="774.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="16.50" font-weight="400" text-anchor="start" fill="#111722" id="text-065">
+          <tspan x="311.00" y="774.00">Combinatorial TF</tspan>
+        </text>
+        <circle cx="288" cy="792.5" r="9" fill="#409973" stroke="#409973" stroke-width="0.7"/>
+        <text x="311.00" y="797.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="16.50" font-weight="400" text-anchor="start" fill="#111722" id="text-066">
+          <tspan x="311.00" y="797.00">Regulatory RNA-mediated</tspan>
+        </text>
+      </g>
+    </g>
+    <g id="c-task2" inkscape:label="Task 2 — Direction and mechanism reasoning">
+      <rect x="522" y="625" width="499" height="202" rx="4" ry="4" fill="#fff" stroke="#e392b0" stroke-width="0.55"/>
+      <path d="M526,625 H1017 Q1021,625 1021,629 V658 H522 V629 Q522,625 526,625 Z" fill="#fde9f0" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="771.50" y="649.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="19.50" font-weight="700" text-anchor="middle" fill="#111722" id="text-067">
+        <tspan x="771.50" y="649.00">Task 2 — Direction and mechanism reasoning</tspan>
+      </text>
+      <g id="c-task2-input">
+        <rect x="530" y="665" width="201" height="153" rx="4" ry="4" fill="url(#input-bg)" stroke="#8bcaec" stroke-width="0.55"/>
+        <text x="540.00" y="687.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="18.50" font-weight="700" text-anchor="start" fill="#075098" id="text-068">
+          <tspan x="540.00" y="687.00">Input (model-visible)</tspan>
+        </text>
+        <text x="542.00" y="712.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="18.00" font-weight="400" text-anchor="start" fill="#111722" id="text-069">
+          <tspan x="542.00" y="712.00">TF + target gene</tspan>
+          <tspan x="542.00" y="734.00">+ perturbation</tspan>
+        </text>
+        <text x="542.00" y="759.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="17.80" font-weight="400" text-anchor="start" fill="#111722" id="text-070">
+          <tspan x="542.00" y="759.00">e.g., CDX2, Scin</tspan>
+          <tspan x="542.00" y="781.00">+ EED/PRC2 reduction</tspan>
+        </text>
+      </g>
+      <g id="arrow-071">
+        <path d="M 738.00 722.00 L 754.00 722.00" fill="none" stroke="#343d48" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <polygon points="764.00,722.00 754.00,728.10 754.00,715.90" fill="#343d48" stroke="none" stroke-width="1"/>
+      </g>
+      <g id="c-task2-output">
+        <rect x="770" y="665" width="242" height="153" rx="4" ry="4" fill="url(#output-bg)" stroke="#e9b887" stroke-width="0.55"/>
+        <text x="780.00" y="687.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="18.50" font-weight="700" text-anchor="start" fill="#a14918" id="text-072">
+          <tspan x="780.00" y="687.00">Output</tspan>
+        </text>
+        <text x="782.00" y="712.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="18.00" font-weight="400" text-anchor="start" fill="#111722" id="text-073">
+          <tspan x="782.00" y="712.00">Target direction (up or down)</tspan>
+          <tspan x="782.00" y="734.00">+ mechanistic reasoning</tspan>
+          <tspan x="782.00" y="756.00">with evidence.</tspan>
+        </text>
+      </g>
+    </g>
+    <g id="c-task3" inkscape:label="Task 3 — Inverse intervention reasoning">
+      <rect x="1030" y="625" width="482" height="202" rx="4" ry="4" fill="#fff" stroke="#95c5a7" stroke-width="0.55"/>
+      <path d="M1034,625 H1508 Q1512,625 1512,629 V658 H1030 V629 Q1030,625 1034,625 Z" fill="#e4f2e7" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="1271.00" y="649.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="20.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-074">
+        <tspan x="1271.00" y="649.00">Task 3 — Inverse intervention reasoning</tspan>
+      </text>
+      <g id="c-task3-input">
+        <rect x="1038" y="665" width="224" height="153" rx="4" ry="4" fill="url(#input-bg)" stroke="#8bcaec" stroke-width="0.55"/>
+        <text x="1048.00" y="687.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="18.50" font-weight="700" text-anchor="start" fill="#075098" id="text-075">
+          <tspan x="1048.00" y="687.00">Input (model-visible)</tspan>
+        </text>
+        <text x="1050.00" y="711.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="17.30" font-weight="400" text-anchor="start" fill="#111722" id="text-076">
+          <tspan x="1050.00" y="711.00">TF + target gene</tspan>
+          <tspan x="1050.00" y="730.50">+ known direction</tspan>
+          <tspan x="1050.00" y="750.00">+ perturbed entity</tspan>
+          <tspan x="1050.00" y="769.50">e.g., HIF1A, ISCU</tspan>
+          <tspan x="1050.00" y="789.00">+ direction: down</tspan>
+          <tspan x="1050.00" y="808.50">+ perturbed entity: miR-210</tspan>
+        </text>
+      </g>
+      <g id="arrow-077">
+        <path d="M 1273.00 722.00 L 1289.00 722.00" fill="none" stroke="#343d48" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <polygon points="1299.00,722.00 1289.00,728.10 1289.00,715.90" fill="#343d48" stroke="none" stroke-width="1"/>
+      </g>
+      <g id="c-task3-output">
+        <rect x="1311" y="665" width="192" height="153" rx="4" ry="4" fill="url(#output-bg)" stroke="#e9b887" stroke-width="0.55"/>
+        <text x="1321.00" y="687.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="18.50" font-weight="700" text-anchor="start" fill="#a14918" id="text-078">
+          <tspan x="1321.00" y="687.00">Output</tspan>
+        </text>
+        <text x="1407.00" y="711.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="17.50" font-weight="400" text-anchor="middle" fill="#111722" id="text-079">
+          <tspan x="1407.00" y="711.00">Intervention type</tspan>
+          <tspan x="1407.00" y="732.50">(e.g., overexpression</tspan>
+          <tspan x="1407.00" y="754.00">or knockdown)</tspan>
+          <tspan x="1407.00" y="775.50">+ mechanistic reasoning</tspan>
+          <tspan x="1407.00" y="797.00">with evidence.</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+  <g id="panel-d" inkscape:label="D | Joint outcome-and-mechanism-chain evaluation" inkscape:groupmode="layer" transform="translate(0,-42)">
+    <rect x="14" y="843" width="1512" height="171" rx="6" ry="6" fill="url(#panel-bg)" stroke="#708a9a" stroke-width="0.7"/>
+    <text x="27.00" y="877.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="37.00" font-weight="700" text-anchor="start" fill="#111722" id="text-080">
+      <tspan x="27.00" y="877.00">D</tspan>
+    </text>
+    <text x="77.00" y="875.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="26.5" font-weight="700" text-anchor="start" fill="#111722" id="text-081">
+      <tspan x="77.00" y="875.00">Joint outcome-and-mechanism-chain evaluation</tspan>
+    </text>
+    <g id="d-task1-evaluation" inkscape:label="Task 1 evaluation">
+      <rect x="29" y="883" width="288" height="122" rx="5" ry="5" fill="url(#input-bg)" stroke="#7bb6d6" stroke-width="0.65"/>
+      <path d="M33,883 H313 Q317,883 317,887 V917 H29 V887 Q29,883 33,883 Z" fill="#e5f3fa" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="173.00" y="906.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="20.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-082">
+        <tspan x="173.00" y="906.00">Task 1 evaluation</tspan>
+      </text>
+      <text x="173.00" y="942.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="17.50" font-weight="400" text-anchor="middle" fill="#111722" id="text-083">
+        <tspan x="173.00" y="942.00">Exact mechanism classification</tspan>
+        <tspan x="173.00" y="962.00">+</tspan>
+        <tspan x="173.00" y="982.00">Balanced accuracy / Macro-F1</tspan>
+      </text>
+    </g>
+    <g id="d-mechanism-chain-evaluation" inkscape:label="Shared mechanism-chain evaluation for Tasks 2 and 3">
+      <rect x="330" y="878" width="1182" height="127" rx="4" ry="4" fill="#fff" stroke="#7892a3" stroke-width="0.6"/>
+      <text x="729.00" y="895.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="17.00" font-weight="700" text-anchor="middle" fill="#111e5c" id="text-084">
+        <tspan x="729.00" y="895.00">Mechanism chain evaluation (used in Task 2 and Task 3)</tspan>
+      </text>
+      <g id="d-check-mechanism" inkscape:label="1. Mechanism">
+        <rect x="345" y="906" width="142" height="92" rx="4" ry="4" fill="url(#blue-bg)" stroke="#8bc0e5" stroke-width="0.65"/>
+        <text x="416.00" y="933.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="15.80" font-weight="700" text-anchor="middle" fill="#111722" id="text-085">
+          <tspan x="416.00" y="933.00">1. Mechanism</tspan>
+        </text>
+        <text x="416.00" y="956.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="14.50" font-weight="400" text-anchor="middle" fill="#111722" id="text-086">
+          <tspan x="416.00" y="956.00">(Is the mechanism</tspan>
+          <tspan x="416.00" y="971.50">category correct?)</tspan>
+        </text>
+      </g>
+      <g id="d-check-mediator" inkscape:label="2. Key mediator">
+        <rect x="510" y="906" width="140" height="92" rx="4" ry="4" fill="url(#purple-bg)" stroke="#b19ade" stroke-width="0.65"/>
+        <text x="580.00" y="933.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="15.80" font-weight="700" text-anchor="middle" fill="#111722" id="text-087">
+          <tspan x="580.00" y="933.00">2. Key mediator</tspan>
+        </text>
+        <text x="580.00" y="956.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="14.50" font-weight="400" text-anchor="middle" fill="#111722" id="text-088">
+          <tspan x="580.00" y="956.00">(Is the key mediator</tspan>
+          <tspan x="580.00" y="971.50">correct?)</tspan>
+        </text>
+      </g>
+      <g id="d-check-order" inkscape:label="3. Causal role/">
+        <rect x="672" y="906" width="143" height="92" rx="4" ry="4" fill="url(#orange-bg)" stroke="#e5b47b" stroke-width="0.65"/>
+        <text x="743.50" y="921.50" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="15.80" font-weight="700" text-anchor="middle" fill="#111722" id="text-089">
+          <tspan x="743.50" y="921.50">3. Causal role/</tspan>
+          <tspan x="743.50" y="938.00">order</tspan>
+        </text>
+        <text x="743.50" y="956.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="14.13" font-weight="400" text-anchor="middle" fill="#111722" id="text-090">
+          <tspan x="743.50" y="956.00">(Is the mediator’s</tspan>
+          <tspan x="743.50" y="971.50">role and order correct?)</tspan>
+        </text>
+      </g>
+      <g id="d-check-logic" inkscape:label="4. Intervention-">
+        <rect x="837" y="906" width="137" height="92" rx="4" ry="4" fill="url(#green-bg)" stroke="#86c99d" stroke-width="0.65"/>
+        <text x="905.50" y="921.50" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="15.80" font-weight="700" text-anchor="middle" fill="#111722" id="text-091">
+          <tspan x="905.50" y="921.50">4. Intervention-</tspan>
+          <tspan x="905.50" y="938.00">to-outcome logic</tspan>
+        </text>
+        <text x="905.50" y="955.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="14.25" font-weight="400" text-anchor="middle" fill="#111722" id="text-092">
+          <tspan x="905.50" y="955.00">(Is the perturbation →</tspan>
+          <tspan x="905.50" y="970.50">target direction logic</tspan>
+          <tspan x="905.50" y="986.00">correct?)</tspan>
+        </text>
+      </g>
+      <g id="d-check-evidence" inkscape:label="5. Evidence">
+        <rect x="994" y="906" width="132" height="92" rx="4" ry="4" fill="url(#pink-bg)" stroke="#e8909f" stroke-width="0.65"/>
+        <text x="1060.00" y="921.50" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="15.80" font-weight="700" text-anchor="middle" fill="#111722" id="text-093">
+          <tspan x="1060.00" y="921.50">5. Evidence</tspan>
+          <tspan x="1060.00" y="938.00">consistency</tspan>
+        </text>
+        <text x="1060.00" y="955.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="14.50" font-weight="400" text-anchor="middle" fill="#111722" id="text-094">
+          <tspan x="1060.00" y="955.00">(No material</tspan>
+          <tspan x="1060.00" y="970.50">contradiction with</tspan>
+          <tspan x="1060.00" y="986.00">curated evidence?)</tspan>
+        </text>
+      </g>
+      <g id="arrow-095">
+        <path d="M 490.00 946.00 L 500.00 946.00" fill="none" stroke="#102e55" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+        <polygon points="507.00,946.00 500.00,950.27 500.00,941.73" fill="#102e55" stroke="none" stroke-width="1"/>
+      </g>
+      <g id="arrow-096">
+        <path d="M 652.00 946.00 L 662.00 946.00" fill="none" stroke="#102e55" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+        <polygon points="669.00,946.00 662.00,950.27 662.00,941.73" fill="#102e55" stroke="none" stroke-width="1"/>
+      </g>
+      <g id="arrow-097">
+        <path d="M 818.00 946.00 L 827.00 946.00" fill="none" stroke="#102e55" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+        <polygon points="834.00,946.00 827.00,950.27 827.00,941.73" fill="#102e55" stroke="none" stroke-width="1"/>
+      </g>
+      <g id="arrow-098">
+        <path d="M 977.00 946.00 L 984.00 946.00" fill="none" stroke="#102e55" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+        <polygon points="991.00,946.00 984.00,950.27 984.00,941.73" fill="#102e55" stroke="none" stroke-width="1"/>
+      </g>
+      <line x1="1135" y1="885" x2="1135" y2="998" stroke="#5a6773" stroke-width="0.9" stroke-dasharray="7 6"/>
+      <line x1="1324" y1="885" x2="1324" y2="998" stroke="#5a6773" stroke-width="0.9" stroke-dasharray="7 6"/>
+      <g id="d-task2-joint-rule">
+        <text x="1229.50" y="899.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="17.00" font-weight="400" text-anchor="middle" fill="#111722" id="text-099">
+          <tspan x="1229.50" y="899.00">Task 2 unit correct</tspan>
+        </text>
+        <text x="1229.50" y="923.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="16.60" font-weight="400" text-anchor="middle" fill="#111722" id="text-100">
+          <tspan x="1229.50" y="923.00">Correct direction</tspan>
+        </text>
+        <text x="1229.50" y="944.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="18.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-101">
+          <tspan x="1229.50" y="944.00">AND</tspan>
+        </text>
+        <text x="1229.50" y="965.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="14.94" font-weight="400" text-anchor="middle" fill="#111722" id="text-102">
+          <tspan x="1229.50" y="965.00">Complete mechanism chain</tspan>
+          <tspan x="1229.50" y="985.00">(all five criteria)</tspan>
+        </text>
+      </g>
+      <g id="d-task3-joint-rule">
+        <text x="1418.00" y="899.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="17.00" font-weight="400" text-anchor="middle" fill="#111722" id="text-103">
+          <tspan x="1418.00" y="899.00">Task 3 unit correct</tspan>
+        </text>
+        <text x="1418.00" y="923.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="15.24" font-weight="400" text-anchor="middle" fill="#111722" id="text-104">
+          <tspan x="1418.00" y="923.00">Accepted intervention type</tspan>
+        </text>
+        <text x="1418.00" y="944.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="18.00" font-weight="700" text-anchor="middle" fill="#111722" id="text-105">
+          <tspan x="1418.00" y="944.00">AND</tspan>
+        </text>
+        <text x="1418.00" y="965.00" font-family="Times New Roman, Tinos, Liberation Serif, serif" font-size="14.85" font-weight="400" text-anchor="middle" fill="#111722" id="text-106">
+          <tspan x="1418.00" y="965.00">Complete mechanism chain</tspan>
+          <tspan x="1418.00" y="985.00">(all five criteria)</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

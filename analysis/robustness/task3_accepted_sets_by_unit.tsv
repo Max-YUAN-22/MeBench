@@ -1,0 +1,21 @@
+unit_id	pair_id	tf	target	perturbed_entity	given_direction	raw_cardinality	canonical_cardinality	raw_labels	canonical_labels
+T3VP_0001	PAIR_STAT3_CYLD_870ad9a86052	STAT3	CYLD	miR-181b	down	1	1	overexpression	overexpression
+T3VP_0002	PAIR_PPARA_PDK4_2604cf75050e	PPARA	Pdk4	BHLHE40	down	1	1	siRNA_knockdown	knockdown
+T3VP_0003	PAIR_TWIST1_HOXD10_2d8ed112b281	TWIST1	HOXD10	miR-10b	up	2	2	inhibition;sponge_inhibition	inhibition;sponge_inhibition
+T3VP_0004	PAIR_PPARA_ANGPTL4_ffa341522e51	PPARA	Angptl4	PPARA	up	1	1	agonist_activation	agonist_activation
+T3VP_0005	PAIR_PPARA_HMGCS2_3abcd07550fa	PPARA	Hmgcs2	PPARA	up	1	1	agonist_activation	agonist_activation
+T3VP_0006	PAIR_SMAD3_PTPRK_984d80e568f9	SMAD3	PTPRK	NOTCH1	down	1	1	shRNA_knockdown	knockdown
+T3VP_0007	PAIR_SMAD3_PTPRK_984d80e568f9	SMAD3	PTPRK	SMAD3	down	1	1	shRNA_knockdown	knockdown
+T3VP_0008	PAIR_SMAD3_PTPRK_984d80e568f9	SMAD3	PTPRK	SMAD4	down	1	1	shRNA_knockdown	knockdown
+T3VP_0009	PAIR_SMAD3_PTPRK_984d80e568f9	SMAD3	PTPRK	NOTCH1; TGF-beta/SMAD3	up	1	1	combined_ligand_stimulation	combined_ligand_stimulation
+T3VP_0010	PAIR_HIF1A_ISCU_5322a09cd4b2	HIF1A	ISCU	miR-210	down	1	1	overexpression	overexpression
+T3VP_0011	PAIR_STAT3_CYLD_870ad9a86052	STAT3	CYLD	miR-181b	up	1	1	inhibition	inhibition
+T3VP_0012	PAIR_PPARA_PDK4_2604cf75050e	PPARA	Pdk4	PPARA	up	1	1	agonist_activation	agonist_activation
+T3VP_0013	PAIR_HIF1A_E2F3_c7315afb1aed	HIF1A	E2F3	miR-210	up	1	1	inhibition	inhibition
+T3VP_0014	PAIR_TWIST1_HOXD10_2d8ed112b281	TWIST1	HOXD10	miR-10b	down	1	1	overexpression	overexpression
+T3VP_0015	PAIR_GATA1_YWHAZ_d99fcbe022fc	GATA1	Ywhaz	miR-451	up	1	1	genetic_knockout	genetic_knockout
+T3VP_0016	PAIR_HIF1A_ISCU_5322a09cd4b2	HIF1A	ISCU	miR-210	up	1	1	inhibition	inhibition
+T3VP_0017	PAIR_GATA1_YWHAZ_d99fcbe022fc	GATA1	Ywhaz	miR-451	down	1	1	overexpression	overexpression
+T3VP_0018	PAIR_PPARA_HMGCS2_3abcd07550fa	PPARA	Hmgcs2	BHLHE40	down	1	1	siRNA_knockdown	knockdown
+T3VP_0019	PAIR_HIF1A_E2F3_c7315afb1aed	HIF1A	E2F3	miR-210	down	1	1	overexpression	overexpression
+T3VP_0020	PAIR_PPARA_ANGPTL4_ffa341522e51	PPARA	Angptl4	BHLHE40	down	1	1	siRNA_knockdown	knockdown

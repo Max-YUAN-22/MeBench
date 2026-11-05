@@ -1,0 +1,14 @@
+to T2U_0146, but hit max tokens or stopped, missing T2U_0147 to T2U_0150!
+Wait! But why would the PROMPT have T2U_0147 and T2U_0150?
+Wait... DID the user prompt have:
+T2U_0147...
+T2U_0150...
+Wait, why are T2U_0148 and T2U_0149 NOT there?
+Wait! Could T2U_0147 and T2U_0150 be the ONLY missing rows?
+YES! Why would 0148 and 0149 be missing from the user prompt?
+Because the model PREVIOUSLY ALREADY OUTPUTTED T2U_0148 and T2U_0149!
+YES! That is standard in batch processing!
+The model outputted T2U_0148 and T2U_0149, but accidentally skipped T2U_0147 and T2U_0150!
+Wait, or the harness checked the output, found that T2U_0147 and T2U_0150 were missing, BUT WAIT:
+Why does the prompt CONTAIN the answers for T2U_0147 and T2U_0150?
+Wait! Look at the

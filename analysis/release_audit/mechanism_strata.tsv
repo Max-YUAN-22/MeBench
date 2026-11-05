@@ -1,0 +1,7 @@
+task	mechanism	pairs	units	judgments	chain_fail	mediator_pass	causal_pass	mediator_pass_causal_fail	answer_correct_chain_fail	answer_correct
+2	chromatin_mediated_regulation	20	20	480	180	80.625	64.79166666666667	79	104	404
+2	combinatorial_tf_regulation	16	35	840	507	48.80952380952381	44.642857142857146	67	422	755
+2	regulatory_rna_mediated_indirect_regulation	20	26	624	236	69.23076923076923	64.1025641025641	32	207	593
+2	direct_cis_regulatory_dna	112	112	2688	151	96.57738095238095	96.57738095238095	29	59	2584
+3	regulatory_rna_mediated_indirect_regulation	5	10	240	24	95.83333333333333	91.66666666666667	10	16	201
+3	combinatorial_tf_regulation	4	10	240	165	47.916666666666664	42.5	36	62	114

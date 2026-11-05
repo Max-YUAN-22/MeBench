@@ -1,0 +1,8 @@
+group	n	pairs	units	chain_pass	causal_fail	BHLHE40_named	direction_correct	accepted_type_correct	mediator_pass_role_fail
+PPARA_activation	72	3	3	0	69	3	72	0	3
+BHLHE40_depletion	72	3	3	23	40	72	23	0	36
+TP63_TF_loss	168	7	7	28	140	0	168	0	0
+FOXK1_loss	168	7	7	144	24	0	154	0	20
+GATA1_TAL1	144	3	6	14	118	0	142	0	2
+ESR1_enhancer	72	3	3	1	70	0	72	0	0
+SRCAP_H2AZ	48	2	2	2	44	0	2	0	36

@@ -1,0 +1,2402 @@
+[
+  {
+    "case_id": "J0001",
+    "task": 3,
+    "system": "Claude-Sonnet-5.5",
+    "run": "3",
+    "unit_id": "T3VP_0020",
+    "pair_id": "PAIR_PPARA_ANGPTL4_ffa341522e51",
+    "stratum": "T3|Claude-Sonnet-5.5|0100",
+    "N": 7,
+    "n": 1,
+    "weight": 7.0,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0002",
+    "task": 2,
+    "system": "GPT-6-Astra",
+    "run": "4",
+    "unit_id": "T2U_0036",
+    "pair_id": "PAIR_PPARA_ANGPTL4_ffa341522e51",
+    "stratum": "T2|GPT-6-Astra|0100",
+    "N": 8,
+    "n": 1,
+    "weight": 8.0,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0003",
+    "task": 3,
+    "system": "GPT-6-Astra",
+    "run": "3",
+    "unit_id": "T3VP_0009",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T3|GPT-6-Astra|1010",
+    "N": 2,
+    "n": 1,
+    "weight": 2.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0004",
+    "task": 3,
+    "system": "Claude-Sonnet-5.5",
+    "run": "1",
+    "unit_id": "T3VP_0012",
+    "pair_id": "PAIR_PPARA_PDK4_2604cf75050e",
+    "stratum": "T3|Claude-Sonnet-5.5|1100",
+    "N": 5,
+    "n": 1,
+    "weight": 5.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0005",
+    "task": 3,
+    "system": "Biomni",
+    "run": "1",
+    "unit_id": "T3VP_0015",
+    "pair_id": "PAIR_GATA1_YWHAZ_d99fcbe022fc",
+    "stratum": "T3|Biomni|0100",
+    "N": 5,
+    "n": 1,
+    "weight": 5.0,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0006",
+    "task": 2,
+    "system": "Biomni",
+    "run": "1",
+    "unit_id": "T2U_0180",
+    "pair_id": "PAIR_GATA1_YWHAZ_d99fcbe022fc",
+    "stratum": "T2|Biomni|0100",
+    "N": 18,
+    "n": 1,
+    "weight": 18.0,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0007",
+    "task": 2,
+    "system": "Biomni",
+    "run": "3",
+    "unit_id": "T2U_0153",
+    "pair_id": "PAIR_PPARA_CDH3_73f923d3ad19",
+    "stratum": "T2|Biomni|1111",
+    "N": 588,
+    "n": 4,
+    "weight": 147.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0008",
+    "task": 3,
+    "system": "GLM-5.3-Flash",
+    "run": "3",
+    "unit_id": "T3VP_0003",
+    "pair_id": "PAIR_TWIST1_HOXD10_2d8ed112b281",
+    "stratum": "T3|GLM-5.3-Flash|1111",
+    "N": 45,
+    "n": 5,
+    "weight": 9.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0009",
+    "task": 2,
+    "system": "Gemini-3.8-Flash",
+    "run": "2",
+    "unit_id": "T2U_0142",
+    "pair_id": "PAIR_POU5F1_PAX6_b7d737cd5915",
+    "stratum": "T2|Gemini-3.8-Flash|1110",
+    "N": 4,
+    "n": 1,
+    "weight": 4.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0010",
+    "task": 3,
+    "system": "Gemini-3.8-Flash",
+    "run": "1",
+    "unit_id": "T3VP_0008",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T3|Gemini-3.8-Flash|1111",
+    "N": 55,
+    "n": 6,
+    "weight": 9.166666666666666,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0011",
+    "task": 3,
+    "system": "GPT-6-Astra",
+    "run": "1",
+    "unit_id": "T3VP_0012",
+    "pair_id": "PAIR_PPARA_PDK4_2604cf75050e",
+    "stratum": "T3|GPT-6-Astra|0000",
+    "N": 12,
+    "n": 1,
+    "weight": 12.0,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0012",
+    "task": 3,
+    "system": "Biomni",
+    "run": "4",
+    "unit_id": "T3VP_0019",
+    "pair_id": "PAIR_HIF1A_E2F3_c7315afb1aed",
+    "stratum": "T3|Biomni|1111",
+    "N": 35,
+    "n": 4,
+    "weight": 8.75,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0013",
+    "task": 2,
+    "system": "GPT-6-Astra",
+    "run": "3",
+    "unit_id": "T2U_0017",
+    "pair_id": "PAIR_GATA1_RRAGD_756ca2d86c26",
+    "stratum": "T2|GPT-6-Astra|1000",
+    "N": 9,
+    "n": 1,
+    "weight": 9.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0014",
+    "task": 3,
+    "system": "GLM-5.3-Flash",
+    "run": "4",
+    "unit_id": "T3VP_0007",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T3|GLM-5.3-Flash|0000",
+    "N": 22,
+    "n": 2,
+    "weight": 11.0,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0015",
+    "task": 3,
+    "system": "Gemini-3.8-Flash",
+    "run": "2",
+    "unit_id": "T3VP_0019",
+    "pair_id": "PAIR_HIF1A_E2F3_c7315afb1aed",
+    "stratum": "T3|Gemini-3.8-Flash|1111",
+    "N": 55,
+    "n": 6,
+    "weight": 9.166666666666666,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0016",
+    "task": 2,
+    "system": "Grok-4.6",
+    "run": "2",
+    "unit_id": "T2U_0108",
+    "pair_id": "PAIR_ZNF143_SFT2D2_79481c246769",
+    "stratum": "T2|Grok-4.6|1111",
+    "N": 614,
+    "n": 4,
+    "weight": 153.5,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0017",
+    "task": 3,
+    "system": "GLM-5.3-Flash",
+    "run": "3",
+    "unit_id": "T3VP_0019",
+    "pair_id": "PAIR_HIF1A_E2F3_c7315afb1aed",
+    "stratum": "T3|GLM-5.3-Flash|1111",
+    "N": 45,
+    "n": 5,
+    "weight": 9.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0018",
+    "task": 3,
+    "system": "Grok-4.6",
+    "run": "4",
+    "unit_id": "T3VP_0002",
+    "pair_id": "PAIR_PPARA_PDK4_2604cf75050e",
+    "stratum": "T3|Grok-4.6|1111",
+    "N": 53,
+    "n": 6,
+    "weight": 8.833333333333334,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0019",
+    "task": 2,
+    "system": "Biomni",
+    "run": "3",
+    "unit_id": "T2U_0015",
+    "pair_id": "PAIR_ESR1_MMP17_c7ee7d547be2",
+    "stratum": "T2|Biomni|1110",
+    "N": 8,
+    "n": 1,
+    "weight": 8.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0020",
+    "task": 2,
+    "system": "GLM-5.3-Flash",
+    "run": "4",
+    "unit_id": "T2U_0032",
+    "pair_id": "PAIR_ESR1_PGR_76559135d372",
+    "stratum": "T2|GLM-5.3-Flash|0000",
+    "N": 191,
+    "n": 2,
+    "weight": 95.5,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0021",
+    "task": 2,
+    "system": "Grok-4.6",
+    "run": "4",
+    "unit_id": "T2U_0141",
+    "pair_id": "PAIR_NANOG_NANOG_e71b1e5b0be5",
+    "stratum": "T2|Grok-4.6|1110",
+    "N": 16,
+    "n": 1,
+    "weight": 16.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0022",
+    "task": 3,
+    "system": "Biomni",
+    "run": "1",
+    "unit_id": "T3VP_0006",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T3|Biomni|0000",
+    "N": 24,
+    "n": 2,
+    "weight": 12.0,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0023",
+    "task": 3,
+    "system": "Biomni",
+    "run": "3",
+    "unit_id": "T3VP_0013",
+    "pair_id": "PAIR_HIF1A_E2F3_c7315afb1aed",
+    "stratum": "T3|Biomni|1111",
+    "N": 35,
+    "n": 4,
+    "weight": 8.75,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0024",
+    "task": 2,
+    "system": "Claude-Sonnet-5.5",
+    "run": "2",
+    "unit_id": "T2U_0151",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T2|Claude-Sonnet-5.5|1000",
+    "N": 10,
+    "n": 1,
+    "weight": 10.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0025",
+    "task": 2,
+    "system": "Claude-Sonnet-5.5",
+    "run": "3",
+    "unit_id": "T2U_0151",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T2|Claude-Sonnet-5.5|1010",
+    "N": 11,
+    "n": 1,
+    "weight": 11.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0026",
+    "task": 2,
+    "system": "Grok-4.6",
+    "run": "2",
+    "unit_id": "T2U_0148",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T2|Grok-4.6|1010",
+    "N": 7,
+    "n": 1,
+    "weight": 7.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0027",
+    "task": 2,
+    "system": "Grok-4.6",
+    "run": "4",
+    "unit_id": "T2U_0021",
+    "pair_id": "PAIR_GATA1_SLC4A1_c0ca7b13445c",
+    "stratum": "T2|Grok-4.6|0000",
+    "N": 111,
+    "n": 1,
+    "weight": 111.0,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0028",
+    "task": 2,
+    "system": "Gemini-3.8-Flash",
+    "run": "3",
+    "unit_id": "T2U_0057",
+    "pair_id": "PAIR_ZNF143_CPSF4_690aef85cea5",
+    "stratum": "T2|Gemini-3.8-Flash|1010",
+    "N": 32,
+    "n": 1,
+    "weight": 32.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0029",
+    "task": 3,
+    "system": "Gemini-3.8-Flash",
+    "run": "1",
+    "unit_id": "T3VP_0003",
+    "pair_id": "PAIR_TWIST1_HOXD10_2d8ed112b281",
+    "stratum": "T3|Gemini-3.8-Flash|1111",
+    "N": 55,
+    "n": 6,
+    "weight": 9.166666666666666,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0030",
+    "task": 2,
+    "system": "Claude-Sonnet-5.5",
+    "run": "1",
+    "unit_id": "T2U_0175",
+    "pair_id": "PAIR_ZNF263_CUL3_3c1ecc1f6d8b",
+    "stratum": "T2|Claude-Sonnet-5.5|1100",
+    "N": 15,
+    "n": 1,
+    "weight": 15.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0031",
+    "task": 3,
+    "system": "Gemini-3.8-Flash",
+    "run": "2",
+    "unit_id": "T3VP_0007",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T3|Gemini-3.8-Flash|1010",
+    "N": 2,
+    "n": 1,
+    "weight": 2.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0032",
+    "task": 3,
+    "system": "Grok-4.6",
+    "run": "1",
+    "unit_id": "T3VP_0001",
+    "pair_id": "PAIR_STAT3_CYLD_870ad9a86052",
+    "stratum": "T3|Grok-4.6|1111",
+    "N": 53,
+    "n": 6,
+    "weight": 8.833333333333334,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0033",
+    "task": 2,
+    "system": "GPT-6-Astra",
+    "run": "2",
+    "unit_id": "T2U_0182",
+    "pair_id": "PAIR_GATA1_SLC25A37_b066e7543caa",
+    "stratum": "T2|GPT-6-Astra|1111",
+    "N": 654,
+    "n": 3,
+    "weight": 218.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0034",
+    "task": 3,
+    "system": "GLM-5.3-Flash",
+    "run": "2",
+    "unit_id": "T3VP_0002",
+    "pair_id": "PAIR_PPARA_PDK4_2604cf75050e",
+    "stratum": "T3|GLM-5.3-Flash|1100",
+    "N": 4,
+    "n": 1,
+    "weight": 4.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0035",
+    "task": 2,
+    "system": "Claude-Sonnet-5.5",
+    "run": "1",
+    "unit_id": "T2U_0037",
+    "pair_id": "PAIR_PPARA_HMGCS2_3abcd07550fa",
+    "stratum": "T2|Claude-Sonnet-5.5|0000",
+    "N": 109,
+    "n": 1,
+    "weight": 109.0,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0036",
+    "task": 2,
+    "system": "GLM-5.3-Flash",
+    "run": "4",
+    "unit_id": "T2U_0180",
+    "pair_id": "PAIR_GATA1_YWHAZ_d99fcbe022fc",
+    "stratum": "T2|GLM-5.3-Flash|0100",
+    "N": 82,
+    "n": 1,
+    "weight": 82.0,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0037",
+    "task": 3,
+    "system": "Biomni",
+    "run": "4",
+    "unit_id": "T3VP_0004",
+    "pair_id": "PAIR_PPARA_ANGPTL4_ffa341522e51",
+    "stratum": "T3|Biomni|0000",
+    "N": 24,
+    "n": 2,
+    "weight": 12.0,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0038",
+    "task": 3,
+    "system": "Grok-4.6",
+    "run": "3",
+    "unit_id": "T3VP_0003",
+    "pair_id": "PAIR_TWIST1_HOXD10_2d8ed112b281",
+    "stratum": "T3|Grok-4.6|1111",
+    "N": 53,
+    "n": 6,
+    "weight": 8.833333333333334,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0039",
+    "task": 3,
+    "system": "Claude-Sonnet-5.5",
+    "run": "2",
+    "unit_id": "T3VP_0007",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T3|Claude-Sonnet-5.5|0000",
+    "N": 13,
+    "n": 1,
+    "weight": 13.0,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0040",
+    "task": 3,
+    "system": "Gemini-3.8-Flash",
+    "run": "1",
+    "unit_id": "T3VP_0013",
+    "pair_id": "PAIR_HIF1A_E2F3_c7315afb1aed",
+    "stratum": "T3|Gemini-3.8-Flash|1111",
+    "N": 55,
+    "n": 6,
+    "weight": 9.166666666666666,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0041",
+    "task": 3,
+    "system": "Biomni",
+    "run": "3",
+    "unit_id": "T3VP_0006",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T3|Biomni|1000",
+    "N": 6,
+    "n": 1,
+    "weight": 6.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0042",
+    "task": 2,
+    "system": "GLM-5.3-Flash",
+    "run": "1",
+    "unit_id": "T2U_0058",
+    "pair_id": "PAIR_ZNF143_CRCP_74e1df1a373d",
+    "stratum": "T2|GLM-5.3-Flash|1111",
+    "N": 479,
+    "n": 5,
+    "weight": 95.8,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0043",
+    "task": 3,
+    "system": "Grok-4.6",
+    "run": "2",
+    "unit_id": "T3VP_0002",
+    "pair_id": "PAIR_PPARA_PDK4_2604cf75050e",
+    "stratum": "T3|Grok-4.6|1100",
+    "N": 9,
+    "n": 1,
+    "weight": 9.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0044",
+    "task": 3,
+    "system": "Grok-4.6",
+    "run": "4",
+    "unit_id": "T3VP_0006",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T3|Grok-4.6|1111",
+    "N": 53,
+    "n": 6,
+    "weight": 8.833333333333334,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0045",
+    "task": 2,
+    "system": "GLM-5.3-Flash",
+    "run": "4",
+    "unit_id": "T2U_0093",
+    "pair_id": "PAIR_ZNF143_PRIM1_2200971b8f34",
+    "stratum": "T2|GLM-5.3-Flash|1111",
+    "N": 479,
+    "n": 5,
+    "weight": 95.8,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0046",
+    "task": 3,
+    "system": "GPT-6-Astra",
+    "run": "4",
+    "unit_id": "T3VP_0007",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T3|GPT-6-Astra|1000",
+    "N": 2,
+    "n": 1,
+    "weight": 2.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0047",
+    "task": 2,
+    "system": "GPT-6-Astra",
+    "run": "3",
+    "unit_id": "T2U_0134",
+    "pair_id": "PAIR_ZNF143_ZNF354A_b8a3386c0f98",
+    "stratum": "T2|GPT-6-Astra|1111",
+    "N": 654,
+    "n": 3,
+    "weight": 218.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0048",
+    "task": 3,
+    "system": "Biomni",
+    "run": "3",
+    "unit_id": "T3VP_0008",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T3|Biomni|1111",
+    "N": 35,
+    "n": 4,
+    "weight": 8.75,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0049",
+    "task": 2,
+    "system": "GLM-5.3-Flash",
+    "run": "2",
+    "unit_id": "T2U_0148",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T2|GLM-5.3-Flash|1111",
+    "N": 479,
+    "n": 5,
+    "weight": 95.8,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0050",
+    "task": 3,
+    "system": "GPT-6-Astra",
+    "run": "2",
+    "unit_id": "T3VP_0002",
+    "pair_id": "PAIR_PPARA_PDK4_2604cf75050e",
+    "stratum": "T3|GPT-6-Astra|1111",
+    "N": 58,
+    "n": 5,
+    "weight": 11.6,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0051",
+    "task": 2,
+    "system": "Gemini-3.8-Flash",
+    "run": "3",
+    "unit_id": "T2U_0121",
+    "pair_id": "PAIR_ZNF143_TMEM258_9ed2f8af71b4",
+    "stratum": "T2|Gemini-3.8-Flash|1111",
+    "N": 610,
+    "n": 5,
+    "weight": 122.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0052",
+    "task": 2,
+    "system": "Gemini-3.8-Flash",
+    "run": "4",
+    "unit_id": "T2U_0155",
+    "pair_id": "PAIR_HIF1A_E2F3_c7315afb1aed",
+    "stratum": "T2|Gemini-3.8-Flash|1111",
+    "N": 610,
+    "n": 5,
+    "weight": 122.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0053",
+    "task": 2,
+    "system": "Claude-Sonnet-5.5",
+    "run": "3",
+    "unit_id": "T2U_0065",
+    "pair_id": "PAIR_ZNF143_ERAL1_383c0efe6527",
+    "stratum": "T2|Claude-Sonnet-5.5|1111",
+    "N": 613,
+    "n": 4,
+    "weight": 153.25,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0054",
+    "task": 2,
+    "system": "Claude-Sonnet-5.5",
+    "run": "1",
+    "unit_id": "T2U_0059",
+    "pair_id": "PAIR_ZNF143_CREBL2_54b6b08bd831",
+    "stratum": "T2|Claude-Sonnet-5.5|1111",
+    "N": 613,
+    "n": 4,
+    "weight": 153.25,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0055",
+    "task": 3,
+    "system": "Claude-Sonnet-5.5",
+    "run": "3",
+    "unit_id": "T3VP_0010",
+    "pair_id": "PAIR_HIF1A_ISCU_5322a09cd4b2",
+    "stratum": "T3|Claude-Sonnet-5.5|1111",
+    "N": 45,
+    "n": 5,
+    "weight": 9.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0056",
+    "task": 2,
+    "system": "Gemini-3.8-Flash",
+    "run": "2",
+    "unit_id": "T2U_0020",
+    "pair_id": "PAIR_GATA1_RRAGD_756ca2d86c26",
+    "stratum": "T2|Gemini-3.8-Flash|1000",
+    "N": 30,
+    "n": 1,
+    "weight": 30.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0057",
+    "task": 3,
+    "system": "Gemini-3.8-Flash",
+    "run": "1",
+    "unit_id": "T3VP_0007",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T3|Gemini-3.8-Flash|1000",
+    "N": 5,
+    "n": 1,
+    "weight": 5.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0058",
+    "task": 3,
+    "system": "GLM-5.3-Flash",
+    "run": "4",
+    "unit_id": "T3VP_0009",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T3|GLM-5.3-Flash|1000",
+    "N": 1,
+    "n": 1,
+    "weight": 1.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0059",
+    "task": 3,
+    "system": "GPT-6-Astra",
+    "run": "3",
+    "unit_id": "T3VP_0020",
+    "pair_id": "PAIR_PPARA_ANGPTL4_ffa341522e51",
+    "stratum": "T3|GPT-6-Astra|1100",
+    "N": 3,
+    "n": 1,
+    "weight": 3.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0060",
+    "task": 2,
+    "system": "Gemini-3.8-Flash",
+    "run": "1",
+    "unit_id": "T2U_0009",
+    "pair_id": "PAIR_TP63_TIMM50_8d982295b8db",
+    "stratum": "T2|Gemini-3.8-Flash|0000",
+    "N": 70,
+    "n": 1,
+    "weight": 70.0,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0061",
+    "task": 3,
+    "system": "Grok-4.6",
+    "run": "1",
+    "unit_id": "T3VP_0013",
+    "pair_id": "PAIR_HIF1A_E2F3_c7315afb1aed",
+    "stratum": "T3|Grok-4.6|1111",
+    "N": 53,
+    "n": 6,
+    "weight": 8.833333333333334,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0062",
+    "task": 3,
+    "system": "Biomni",
+    "run": "4",
+    "unit_id": "T3VP_0017",
+    "pair_id": "PAIR_GATA1_YWHAZ_d99fcbe022fc",
+    "stratum": "T3|Biomni|1100",
+    "N": 7,
+    "n": 1,
+    "weight": 7.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0063",
+    "task": 3,
+    "system": "GLM-5.3-Flash",
+    "run": "3",
+    "unit_id": "T3VP_0014",
+    "pair_id": "PAIR_TWIST1_HOXD10_2d8ed112b281",
+    "stratum": "T3|GLM-5.3-Flash|1111",
+    "N": 45,
+    "n": 5,
+    "weight": 9.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0064",
+    "task": 2,
+    "system": "Biomni",
+    "run": "1",
+    "unit_id": "T2U_0077",
+    "pair_id": "PAIR_ZNF143_JUND_abc3b6e208bc",
+    "stratum": "T2|Biomni|1111",
+    "N": 588,
+    "n": 4,
+    "weight": 147.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0065",
+    "task": 3,
+    "system": "Grok-4.6",
+    "run": "3",
+    "unit_id": "T3VP_0013",
+    "pair_id": "PAIR_HIF1A_E2F3_c7315afb1aed",
+    "stratum": "T3|Grok-4.6|1111",
+    "N": 53,
+    "n": 6,
+    "weight": 8.833333333333334,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0066",
+    "task": 3,
+    "system": "GLM-5.3-Flash",
+    "run": "3",
+    "unit_id": "T3VP_0011",
+    "pair_id": "PAIR_STAT3_CYLD_870ad9a86052",
+    "stratum": "T3|GLM-5.3-Flash|1111",
+    "N": 45,
+    "n": 5,
+    "weight": 9.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0067",
+    "task": 2,
+    "system": "Grok-4.6",
+    "run": "1",
+    "unit_id": "T2U_0160",
+    "pair_id": "PAIR_MYC_PFAS_f60a9406a746",
+    "stratum": "T2|Grok-4.6|1111",
+    "N": 614,
+    "n": 4,
+    "weight": 153.5,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0068",
+    "task": 2,
+    "system": "GPT-6-Astra",
+    "run": "2",
+    "unit_id": "T2U_0049",
+    "pair_id": "PAIR_ZNF143_BIRC5_863988ee77da",
+    "stratum": "T2|GPT-6-Astra|1111",
+    "N": 654,
+    "n": 3,
+    "weight": 218.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0069",
+    "task": 3,
+    "system": "Claude-Sonnet-5.5",
+    "run": "1",
+    "unit_id": "T3VP_0013",
+    "pair_id": "PAIR_HIF1A_E2F3_c7315afb1aed",
+    "stratum": "T3|Claude-Sonnet-5.5|1111",
+    "N": 45,
+    "n": 5,
+    "weight": 9.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0070",
+    "task": 2,
+    "system": "Gemini-3.8-Flash",
+    "run": "3",
+    "unit_id": "T2U_0022",
+    "pair_id": "PAIR_TP63_SAMD9L_5c730d243f23",
+    "stratum": "T2|Gemini-3.8-Flash|1100",
+    "N": 26,
+    "n": 1,
+    "weight": 26.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0071",
+    "task": 3,
+    "system": "Claude-Sonnet-5.5",
+    "run": "1",
+    "unit_id": "T3VP_0003",
+    "pair_id": "PAIR_TWIST1_HOXD10_2d8ed112b281",
+    "stratum": "T3|Claude-Sonnet-5.5|1110",
+    "N": 2,
+    "n": 1,
+    "weight": 2.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0072",
+    "task": 3,
+    "system": "Grok-4.6",
+    "run": "1",
+    "unit_id": "T3VP_0006",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T3|Grok-4.6|1010",
+    "N": 3,
+    "n": 1,
+    "weight": 3.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0073",
+    "task": 2,
+    "system": "Claude-Sonnet-5.5",
+    "run": "2",
+    "unit_id": "T2U_0141",
+    "pair_id": "PAIR_NANOG_NANOG_e71b1e5b0be5",
+    "stratum": "T2|Claude-Sonnet-5.5|1110",
+    "N": 9,
+    "n": 1,
+    "weight": 9.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0074",
+    "task": 2,
+    "system": "GPT-6-Astra",
+    "run": "1",
+    "unit_id": "T2U_0022",
+    "pair_id": "PAIR_TP63_SAMD9L_5c730d243f23",
+    "stratum": "T2|GPT-6-Astra|0000",
+    "N": 67,
+    "n": 1,
+    "weight": 67.0,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0075",
+    "task": 2,
+    "system": "Gemini-3.8-Flash",
+    "run": "4",
+    "unit_id": "T2U_0067",
+    "pair_id": "PAIR_ZNF143_FASTK_fae7d40dafe2",
+    "stratum": "T2|Gemini-3.8-Flash|1111",
+    "N": 610,
+    "n": 5,
+    "weight": 122.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0076",
+    "task": 3,
+    "system": "Claude-Sonnet-5.5",
+    "run": "1",
+    "unit_id": "T3VP_0011",
+    "pair_id": "PAIR_STAT3_CYLD_870ad9a86052",
+    "stratum": "T3|Claude-Sonnet-5.5|1111",
+    "N": 45,
+    "n": 5,
+    "weight": 9.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0077",
+    "task": 3,
+    "system": "GLM-5.3-Flash",
+    "run": "2",
+    "unit_id": "T3VP_0004",
+    "pair_id": "PAIR_PPARA_ANGPTL4_ffa341522e51",
+    "stratum": "T3|GLM-5.3-Flash|0000",
+    "N": 22,
+    "n": 2,
+    "weight": 11.0,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0078",
+    "task": 2,
+    "system": "GLM-5.3-Flash",
+    "run": "3",
+    "unit_id": "T2U_0007",
+    "pair_id": "PAIR_TP63_NABP2_9672d5d7e44f",
+    "stratum": "T2|GLM-5.3-Flash|0000",
+    "N": 191,
+    "n": 2,
+    "weight": 95.5,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0079",
+    "task": 3,
+    "system": "Claude-Sonnet-5.5",
+    "run": "1",
+    "unit_id": "T3VP_0007",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T3|Claude-Sonnet-5.5|1111",
+    "N": 45,
+    "n": 5,
+    "weight": 9.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0080",
+    "task": 2,
+    "system": "GLM-5.3-Flash",
+    "run": "2",
+    "unit_id": "T2U_0141",
+    "pair_id": "PAIR_NANOG_NANOG_e71b1e5b0be5",
+    "stratum": "T2|GLM-5.3-Flash|1110",
+    "N": 6,
+    "n": 1,
+    "weight": 6.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0081",
+    "task": 2,
+    "system": "GPT-6-Astra",
+    "run": "3",
+    "unit_id": "T2U_0041",
+    "pair_id": "PAIR_PPARA_PDK4_2604cf75050e",
+    "stratum": "T2|GPT-6-Astra|1100",
+    "N": 6,
+    "n": 1,
+    "weight": 6.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0082",
+    "task": 2,
+    "system": "Claude-Sonnet-5.5",
+    "run": "3",
+    "unit_id": "T2U_0010",
+    "pair_id": "PAIR_ESR1_ELOVL2_bb029e92ff93",
+    "stratum": "T2|Claude-Sonnet-5.5|1111",
+    "N": 613,
+    "n": 4,
+    "weight": 153.25,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0083",
+    "task": 3,
+    "system": "Gemini-3.8-Flash",
+    "run": "4",
+    "unit_id": "T3VP_0002",
+    "pair_id": "PAIR_PPARA_PDK4_2604cf75050e",
+    "stratum": "T3|Gemini-3.8-Flash|1100",
+    "N": 6,
+    "n": 1,
+    "weight": 6.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0084",
+    "task": 2,
+    "system": "GLM-5.3-Flash",
+    "run": "3",
+    "unit_id": "T2U_0085",
+    "pair_id": "PAIR_ZNF143_MRPL54_12b2e4cf45b8",
+    "stratum": "T2|GLM-5.3-Flash|1111",
+    "N": 479,
+    "n": 5,
+    "weight": 95.8,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0085",
+    "task": 3,
+    "system": "Biomni",
+    "run": "4",
+    "unit_id": "T3VP_0010",
+    "pair_id": "PAIR_HIF1A_ISCU_5322a09cd4b2",
+    "stratum": "T3|Biomni|1111",
+    "N": 35,
+    "n": 4,
+    "weight": 8.75,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0086",
+    "task": 2,
+    "system": "Grok-4.6",
+    "run": "3",
+    "unit_id": "T2U_0079",
+    "pair_id": "PAIR_ZNF143_KLC2_065868e0ae9e",
+    "stratum": "T2|Grok-4.6|1111",
+    "N": 614,
+    "n": 4,
+    "weight": 153.5,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0087",
+    "task": 3,
+    "system": "GLM-5.3-Flash",
+    "run": "1",
+    "unit_id": "T3VP_0002",
+    "pair_id": "PAIR_PPARA_PDK4_2604cf75050e",
+    "stratum": "T3|GLM-5.3-Flash|1111",
+    "N": 45,
+    "n": 5,
+    "weight": 9.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0088",
+    "task": 3,
+    "system": "GPT-6-Astra",
+    "run": "3",
+    "unit_id": "T3VP_0013",
+    "pair_id": "PAIR_HIF1A_E2F3_c7315afb1aed",
+    "stratum": "T3|GPT-6-Astra|1111",
+    "N": 58,
+    "n": 5,
+    "weight": 11.6,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0089",
+    "task": 2,
+    "system": "Gemini-3.8-Flash",
+    "run": "1",
+    "unit_id": "T2U_0138",
+    "pair_id": "PAIR_ZNF143_ZNF607_49bfdb8d44a8",
+    "stratum": "T2|Gemini-3.8-Flash|1111",
+    "N": 610,
+    "n": 5,
+    "weight": 122.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0090",
+    "task": 2,
+    "system": "GPT-6-Astra",
+    "run": "4",
+    "unit_id": "T2U_0035",
+    "pair_id": "PAIR_ESR1_TFF1_b777e8d26b68",
+    "stratum": "T2|GPT-6-Astra|0110",
+    "N": 10,
+    "n": 1,
+    "weight": 10.0,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0091",
+    "task": 2,
+    "system": "Grok-4.6",
+    "run": "2",
+    "unit_id": "T2U_0022",
+    "pair_id": "PAIR_TP63_SAMD9L_5c730d243f23",
+    "stratum": "T2|Grok-4.6|1000",
+    "N": 8,
+    "n": 1,
+    "weight": 8.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0092",
+    "task": 3,
+    "system": "Biomni",
+    "run": "2",
+    "unit_id": "T3VP_0016",
+    "pair_id": "PAIR_HIF1A_ISCU_5322a09cd4b2",
+    "stratum": "T3|Biomni|1110",
+    "N": 3,
+    "n": 1,
+    "weight": 3.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0093",
+    "task": 3,
+    "system": "GPT-6-Astra",
+    "run": "4",
+    "unit_id": "T3VP_0015",
+    "pair_id": "PAIR_GATA1_YWHAZ_d99fcbe022fc",
+    "stratum": "T3|GPT-6-Astra|1111",
+    "N": 58,
+    "n": 5,
+    "weight": 11.6,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0094",
+    "task": 3,
+    "system": "Grok-4.6",
+    "run": "1",
+    "unit_id": "T3VP_0007",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T3|Grok-4.6|1000",
+    "N": 1,
+    "n": 1,
+    "weight": 1.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0095",
+    "task": 2,
+    "system": "Biomni",
+    "run": "3",
+    "unit_id": "T2U_0025",
+    "pair_id": "PAIR_TWIST1_HOXD10_2d8ed112b281",
+    "stratum": "T2|Biomni|1111",
+    "N": 588,
+    "n": 4,
+    "weight": 147.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0096",
+    "task": 3,
+    "system": "Gemini-3.8-Flash",
+    "run": "1",
+    "unit_id": "T3VP_0012",
+    "pair_id": "PAIR_PPARA_PDK4_2604cf75050e",
+    "stratum": "T3|Gemini-3.8-Flash|0000",
+    "N": 12,
+    "n": 1,
+    "weight": 12.0,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0097",
+    "task": 3,
+    "system": "Claude-Sonnet-5.5",
+    "run": "2",
+    "unit_id": "T3VP_0009",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T3|Claude-Sonnet-5.5|1111",
+    "N": 45,
+    "n": 5,
+    "weight": 9.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0098",
+    "task": 2,
+    "system": "GLM-5.3-Flash",
+    "run": "3",
+    "unit_id": "T2U_0129",
+    "pair_id": "PAIR_ZNF143_ZBTB10_5ae35dfdfa7a",
+    "stratum": "T2|GLM-5.3-Flash|1111",
+    "N": 479,
+    "n": 5,
+    "weight": 95.8,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0099",
+    "task": 3,
+    "system": "GPT-6-Astra",
+    "run": "3",
+    "unit_id": "T3VP_0017",
+    "pair_id": "PAIR_GATA1_YWHAZ_d99fcbe022fc",
+    "stratum": "T3|GPT-6-Astra|1111",
+    "N": 58,
+    "n": 5,
+    "weight": 11.6,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0100",
+    "task": 3,
+    "system": "Claude-Sonnet-5.5",
+    "run": "3",
+    "unit_id": "T3VP_0008",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T3|Claude-Sonnet-5.5|1010",
+    "N": 8,
+    "n": 1,
+    "weight": 8.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0101",
+    "task": 3,
+    "system": "Grok-4.6",
+    "run": "4",
+    "unit_id": "T3VP_0005",
+    "pair_id": "PAIR_PPARA_HMGCS2_3abcd07550fa",
+    "stratum": "T3|Grok-4.6|0000",
+    "N": 14,
+    "n": 1,
+    "weight": 14.0,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0102",
+    "task": 3,
+    "system": "GPT-6-Astra",
+    "run": "2",
+    "unit_id": "T3VP_0007",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T3|GPT-6-Astra|1111",
+    "N": 58,
+    "n": 5,
+    "weight": 11.6,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0103",
+    "task": 2,
+    "system": "Biomni",
+    "run": "3",
+    "unit_id": "T2U_0023",
+    "pair_id": "PAIR_TP63_ZHX2_c3148f2a3d0b",
+    "stratum": "T2|Biomni|1100",
+    "N": 18,
+    "n": 1,
+    "weight": 18.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0104",
+    "task": 2,
+    "system": "Claude-Sonnet-5.5",
+    "run": "2",
+    "unit_id": "T2U_0146",
+    "pair_id": "PAIR_TP53_VCAN_e1c672ff2ce9",
+    "stratum": "T2|Claude-Sonnet-5.5|1111",
+    "N": 613,
+    "n": 4,
+    "weight": 153.25,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0105",
+    "task": 3,
+    "system": "GPT-6-Astra",
+    "run": "4",
+    "unit_id": "T3VP_0020",
+    "pair_id": "PAIR_PPARA_ANGPTL4_ffa341522e51",
+    "stratum": "T3|GPT-6-Astra|1110",
+    "N": 3,
+    "n": 1,
+    "weight": 3.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0106",
+    "task": 2,
+    "system": "GPT-6-Astra",
+    "run": "2",
+    "unit_id": "T2U_0019",
+    "pair_id": "PAIR_GATA1_LRRC39_bb11760f860f",
+    "stratum": "T2|GPT-6-Astra|1010",
+    "N": 12,
+    "n": 1,
+    "weight": 12.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0107",
+    "task": 2,
+    "system": "GPT-6-Astra",
+    "run": "2",
+    "unit_id": "T2U_0199",
+    "pair_id": "PAIR_GATA2_GATA1_5ec36938703c",
+    "stratum": "T2|GPT-6-Astra|1110",
+    "N": 6,
+    "n": 1,
+    "weight": 6.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0108",
+    "task": 2,
+    "system": "Claude-Sonnet-5.5",
+    "run": "4",
+    "unit_id": "T2U_0022",
+    "pair_id": "PAIR_TP63_SAMD9L_5c730d243f23",
+    "stratum": "T2|Claude-Sonnet-5.5|0100",
+    "N": 5,
+    "n": 1,
+    "weight": 5.0,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0109",
+    "task": 2,
+    "system": "Grok-4.6",
+    "run": "4",
+    "unit_id": "T2U_0196",
+    "pair_id": "PAIR_ETV4_NOTCH4_c39dfdd19ec5",
+    "stratum": "T2|Grok-4.6|1111",
+    "N": 614,
+    "n": 4,
+    "weight": 153.5,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0110",
+    "task": 3,
+    "system": "GLM-5.3-Flash",
+    "run": "1",
+    "unit_id": "T3VP_0006",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T3|GLM-5.3-Flash|1010",
+    "N": 8,
+    "n": 1,
+    "weight": 8.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0111",
+    "task": 2,
+    "system": "Grok-4.6",
+    "run": "2",
+    "unit_id": "T2U_0169",
+    "pair_id": "PAIR_NFE2L2_TXNRD1_c4ae77cf358f",
+    "stratum": "T2|Grok-4.6|0110",
+    "N": 1,
+    "n": 1,
+    "weight": 1.0,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0112",
+    "task": 2,
+    "system": "Gemini-3.8-Flash",
+    "run": "2",
+    "unit_id": "T2U_0012",
+    "pair_id": "PAIR_ESR1_WIPF1_3f42f4f74eda",
+    "stratum": "T2|Gemini-3.8-Flash|1111",
+    "N": 610,
+    "n": 5,
+    "weight": 122.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0113",
+    "task": 3,
+    "system": "Gemini-3.8-Flash",
+    "run": "2",
+    "unit_id": "T3VP_0010",
+    "pair_id": "PAIR_HIF1A_ISCU_5322a09cd4b2",
+    "stratum": "T3|Gemini-3.8-Flash|1111",
+    "N": 55,
+    "n": 6,
+    "weight": 9.166666666666666,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0114",
+    "task": 2,
+    "system": "Biomni",
+    "run": "1",
+    "unit_id": "T2U_0038",
+    "pair_id": "PAIR_PPARA_PDK4_2604cf75050e",
+    "stratum": "T2|Biomni|0000",
+    "N": 128,
+    "n": 1,
+    "weight": 128.0,
+    "old_axes": {
+      "mechanism_correct": 0,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0115",
+    "task": 2,
+    "system": "Biomni",
+    "run": "1",
+    "unit_id": "T2U_0018",
+    "pair_id": "PAIR_GATA1_SLC4A1_c0ca7b13445c",
+    "stratum": "T2|Biomni|1000",
+    "N": 10,
+    "n": 1,
+    "weight": 10.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0116",
+    "task": 2,
+    "system": "Biomni",
+    "run": "3",
+    "unit_id": "T2U_0140",
+    "pair_id": "PAIR_ZNF143_ZW10_06853815050d",
+    "stratum": "T2|Biomni|1111",
+    "N": 588,
+    "n": 4,
+    "weight": 147.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0117",
+    "task": 3,
+    "system": "Gemini-3.8-Flash",
+    "run": "2",
+    "unit_id": "T3VP_0008",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T3|Gemini-3.8-Flash|1111",
+    "N": 55,
+    "n": 6,
+    "weight": 9.166666666666666,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 1
+  },
+  {
+    "case_id": "J0118",
+    "task": 2,
+    "system": "Grok-4.6",
+    "run": "3",
+    "unit_id": "T2U_0175",
+    "pair_id": "PAIR_ZNF263_CUL3_3c1ecc1f6d8b",
+    "stratum": "T2|Grok-4.6|1100",
+    "N": 15,
+    "n": 1,
+    "weight": 15.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0119",
+    "task": 2,
+    "system": "GLM-5.3-Flash",
+    "run": "4",
+    "unit_id": "T2U_0023",
+    "pair_id": "PAIR_TP63_ZHX2_c3148f2a3d0b",
+    "stratum": "T2|GLM-5.3-Flash|1100",
+    "N": 14,
+    "n": 1,
+    "weight": 14.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 1,
+      "causal_role_order_correct": 0,
+      "intervention_outcome_link_correct": 0,
+      "no_material_contradiction": 0
+    },
+    "old_chain": 0
+  },
+  {
+    "case_id": "J0120",
+    "task": 2,
+    "system": "Biomni",
+    "run": "3",
+    "unit_id": "T2U_0149",
+    "pair_id": "PAIR_SMAD3_PTPRK_984d80e568f9",
+    "stratum": "T2|Biomni|1010",
+    "N": 2,
+    "n": 1,
+    "weight": 2.0,
+    "old_axes": {
+      "mechanism_correct": 1,
+      "mediator_correct": 0,
+      "causal_role_order_correct": 1,
+      "intervention_outcome_link_correct": 1,
+      "no_material_contradiction": 1
+    },
+    "old_chain": 0
+  }
+]

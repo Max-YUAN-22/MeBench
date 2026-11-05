@@ -1,0 +1,659 @@
+[
+  {
+    "task": 2,
+    "system": "GPT-6-Astra",
+    "pattern": "0000",
+    "N": 67,
+    "n": 1,
+    "inclusion_probability": 0.014925373134328358,
+    "weight": 67.0
+  },
+  {
+    "task": 2,
+    "system": "GPT-6-Astra",
+    "pattern": "0100",
+    "N": 8,
+    "n": 1,
+    "inclusion_probability": 0.125,
+    "weight": 8.0
+  },
+  {
+    "task": 2,
+    "system": "GPT-6-Astra",
+    "pattern": "0110",
+    "N": 10,
+    "n": 1,
+    "inclusion_probability": 0.1,
+    "weight": 10.0
+  },
+  {
+    "task": 2,
+    "system": "GPT-6-Astra",
+    "pattern": "1000",
+    "N": 9,
+    "n": 1,
+    "inclusion_probability": 0.1111111111111111,
+    "weight": 9.0
+  },
+  {
+    "task": 2,
+    "system": "GPT-6-Astra",
+    "pattern": "1010",
+    "N": 12,
+    "n": 1,
+    "inclusion_probability": 0.08333333333333333,
+    "weight": 12.0
+  },
+  {
+    "task": 2,
+    "system": "GPT-6-Astra",
+    "pattern": "1100",
+    "N": 6,
+    "n": 1,
+    "inclusion_probability": 0.16666666666666666,
+    "weight": 6.0
+  },
+  {
+    "task": 2,
+    "system": "GPT-6-Astra",
+    "pattern": "1110",
+    "N": 6,
+    "n": 1,
+    "inclusion_probability": 0.16666666666666666,
+    "weight": 6.0
+  },
+  {
+    "task": 2,
+    "system": "GPT-6-Astra",
+    "pattern": "1111",
+    "N": 654,
+    "n": 3,
+    "inclusion_probability": 0.0045871559633027525,
+    "weight": 218.0
+  },
+  {
+    "task": 2,
+    "system": "Claude-Sonnet-5.5",
+    "pattern": "0000",
+    "N": 109,
+    "n": 1,
+    "inclusion_probability": 0.009174311926605505,
+    "weight": 109.0
+  },
+  {
+    "task": 2,
+    "system": "Claude-Sonnet-5.5",
+    "pattern": "0100",
+    "N": 5,
+    "n": 1,
+    "inclusion_probability": 0.2,
+    "weight": 5.0
+  },
+  {
+    "task": 2,
+    "system": "Claude-Sonnet-5.5",
+    "pattern": "1000",
+    "N": 10,
+    "n": 1,
+    "inclusion_probability": 0.1,
+    "weight": 10.0
+  },
+  {
+    "task": 2,
+    "system": "Claude-Sonnet-5.5",
+    "pattern": "1010",
+    "N": 11,
+    "n": 1,
+    "inclusion_probability": 0.09090909090909091,
+    "weight": 11.0
+  },
+  {
+    "task": 2,
+    "system": "Claude-Sonnet-5.5",
+    "pattern": "1100",
+    "N": 15,
+    "n": 1,
+    "inclusion_probability": 0.06666666666666667,
+    "weight": 15.0
+  },
+  {
+    "task": 2,
+    "system": "Claude-Sonnet-5.5",
+    "pattern": "1110",
+    "N": 9,
+    "n": 1,
+    "inclusion_probability": 0.1111111111111111,
+    "weight": 9.0
+  },
+  {
+    "task": 2,
+    "system": "Claude-Sonnet-5.5",
+    "pattern": "1111",
+    "N": 613,
+    "n": 4,
+    "inclusion_probability": 0.0065252854812398045,
+    "weight": 153.25
+  },
+  {
+    "task": 2,
+    "system": "Gemini-3.8-Flash",
+    "pattern": "0000",
+    "N": 70,
+    "n": 1,
+    "inclusion_probability": 0.014285714285714285,
+    "weight": 70.0
+  },
+  {
+    "task": 2,
+    "system": "Gemini-3.8-Flash",
+    "pattern": "1000",
+    "N": 30,
+    "n": 1,
+    "inclusion_probability": 0.03333333333333333,
+    "weight": 30.0
+  },
+  {
+    "task": 2,
+    "system": "Gemini-3.8-Flash",
+    "pattern": "1010",
+    "N": 32,
+    "n": 1,
+    "inclusion_probability": 0.03125,
+    "weight": 32.0
+  },
+  {
+    "task": 2,
+    "system": "Gemini-3.8-Flash",
+    "pattern": "1100",
+    "N": 26,
+    "n": 1,
+    "inclusion_probability": 0.038461538461538464,
+    "weight": 26.0
+  },
+  {
+    "task": 2,
+    "system": "Gemini-3.8-Flash",
+    "pattern": "1110",
+    "N": 4,
+    "n": 1,
+    "inclusion_probability": 0.25,
+    "weight": 4.0
+  },
+  {
+    "task": 2,
+    "system": "Gemini-3.8-Flash",
+    "pattern": "1111",
+    "N": 610,
+    "n": 5,
+    "inclusion_probability": 0.00819672131147541,
+    "weight": 122.0
+  },
+  {
+    "task": 2,
+    "system": "GLM-5.3-Flash",
+    "pattern": "0000",
+    "N": 191,
+    "n": 2,
+    "inclusion_probability": 0.010471204188481676,
+    "weight": 95.5
+  },
+  {
+    "task": 2,
+    "system": "GLM-5.3-Flash",
+    "pattern": "0100",
+    "N": 82,
+    "n": 1,
+    "inclusion_probability": 0.012195121951219513,
+    "weight": 82.0
+  },
+  {
+    "task": 2,
+    "system": "GLM-5.3-Flash",
+    "pattern": "1100",
+    "N": 14,
+    "n": 1,
+    "inclusion_probability": 0.07142857142857142,
+    "weight": 14.0
+  },
+  {
+    "task": 2,
+    "system": "GLM-5.3-Flash",
+    "pattern": "1110",
+    "N": 6,
+    "n": 1,
+    "inclusion_probability": 0.16666666666666666,
+    "weight": 6.0
+  },
+  {
+    "task": 2,
+    "system": "GLM-5.3-Flash",
+    "pattern": "1111",
+    "N": 479,
+    "n": 5,
+    "inclusion_probability": 0.010438413361169102,
+    "weight": 95.8
+  },
+  {
+    "task": 2,
+    "system": "Grok-4.6",
+    "pattern": "0000",
+    "N": 111,
+    "n": 1,
+    "inclusion_probability": 0.009009009009009009,
+    "weight": 111.0
+  },
+  {
+    "task": 2,
+    "system": "Grok-4.6",
+    "pattern": "0110",
+    "N": 1,
+    "n": 1,
+    "inclusion_probability": 1.0,
+    "weight": 1.0
+  },
+  {
+    "task": 2,
+    "system": "Grok-4.6",
+    "pattern": "1000",
+    "N": 8,
+    "n": 1,
+    "inclusion_probability": 0.125,
+    "weight": 8.0
+  },
+  {
+    "task": 2,
+    "system": "Grok-4.6",
+    "pattern": "1010",
+    "N": 7,
+    "n": 1,
+    "inclusion_probability": 0.14285714285714285,
+    "weight": 7.0
+  },
+  {
+    "task": 2,
+    "system": "Grok-4.6",
+    "pattern": "1100",
+    "N": 15,
+    "n": 1,
+    "inclusion_probability": 0.06666666666666667,
+    "weight": 15.0
+  },
+  {
+    "task": 2,
+    "system": "Grok-4.6",
+    "pattern": "1110",
+    "N": 16,
+    "n": 1,
+    "inclusion_probability": 0.0625,
+    "weight": 16.0
+  },
+  {
+    "task": 2,
+    "system": "Grok-4.6",
+    "pattern": "1111",
+    "N": 614,
+    "n": 4,
+    "inclusion_probability": 0.006514657980456026,
+    "weight": 153.5
+  },
+  {
+    "task": 2,
+    "system": "Biomni",
+    "pattern": "0000",
+    "N": 128,
+    "n": 1,
+    "inclusion_probability": 0.0078125,
+    "weight": 128.0
+  },
+  {
+    "task": 2,
+    "system": "Biomni",
+    "pattern": "0100",
+    "N": 18,
+    "n": 1,
+    "inclusion_probability": 0.05555555555555555,
+    "weight": 18.0
+  },
+  {
+    "task": 2,
+    "system": "Biomni",
+    "pattern": "1000",
+    "N": 10,
+    "n": 1,
+    "inclusion_probability": 0.1,
+    "weight": 10.0
+  },
+  {
+    "task": 2,
+    "system": "Biomni",
+    "pattern": "1010",
+    "N": 2,
+    "n": 1,
+    "inclusion_probability": 0.5,
+    "weight": 2.0
+  },
+  {
+    "task": 2,
+    "system": "Biomni",
+    "pattern": "1100",
+    "N": 18,
+    "n": 1,
+    "inclusion_probability": 0.05555555555555555,
+    "weight": 18.0
+  },
+  {
+    "task": 2,
+    "system": "Biomni",
+    "pattern": "1110",
+    "N": 8,
+    "n": 1,
+    "inclusion_probability": 0.125,
+    "weight": 8.0
+  },
+  {
+    "task": 2,
+    "system": "Biomni",
+    "pattern": "1111",
+    "N": 588,
+    "n": 4,
+    "inclusion_probability": 0.006802721088435374,
+    "weight": 147.0
+  },
+  {
+    "task": 3,
+    "system": "GPT-6-Astra",
+    "pattern": "0000",
+    "N": 12,
+    "n": 1,
+    "inclusion_probability": 0.08333333333333333,
+    "weight": 12.0
+  },
+  {
+    "task": 3,
+    "system": "GPT-6-Astra",
+    "pattern": "1000",
+    "N": 2,
+    "n": 1,
+    "inclusion_probability": 0.5,
+    "weight": 2.0
+  },
+  {
+    "task": 3,
+    "system": "GPT-6-Astra",
+    "pattern": "1010",
+    "N": 2,
+    "n": 1,
+    "inclusion_probability": 0.5,
+    "weight": 2.0
+  },
+  {
+    "task": 3,
+    "system": "GPT-6-Astra",
+    "pattern": "1100",
+    "N": 3,
+    "n": 1,
+    "inclusion_probability": 0.3333333333333333,
+    "weight": 3.0
+  },
+  {
+    "task": 3,
+    "system": "GPT-6-Astra",
+    "pattern": "1110",
+    "N": 3,
+    "n": 1,
+    "inclusion_probability": 0.3333333333333333,
+    "weight": 3.0
+  },
+  {
+    "task": 3,
+    "system": "GPT-6-Astra",
+    "pattern": "1111",
+    "N": 58,
+    "n": 5,
+    "inclusion_probability": 0.08620689655172414,
+    "weight": 11.6
+  },
+  {
+    "task": 3,
+    "system": "Claude-Sonnet-5.5",
+    "pattern": "0000",
+    "N": 13,
+    "n": 1,
+    "inclusion_probability": 0.07692307692307693,
+    "weight": 13.0
+  },
+  {
+    "task": 3,
+    "system": "Claude-Sonnet-5.5",
+    "pattern": "0100",
+    "N": 7,
+    "n": 1,
+    "inclusion_probability": 0.14285714285714285,
+    "weight": 7.0
+  },
+  {
+    "task": 3,
+    "system": "Claude-Sonnet-5.5",
+    "pattern": "1010",
+    "N": 8,
+    "n": 1,
+    "inclusion_probability": 0.125,
+    "weight": 8.0
+  },
+  {
+    "task": 3,
+    "system": "Claude-Sonnet-5.5",
+    "pattern": "1100",
+    "N": 5,
+    "n": 1,
+    "inclusion_probability": 0.2,
+    "weight": 5.0
+  },
+  {
+    "task": 3,
+    "system": "Claude-Sonnet-5.5",
+    "pattern": "1110",
+    "N": 2,
+    "n": 1,
+    "inclusion_probability": 0.5,
+    "weight": 2.0
+  },
+  {
+    "task": 3,
+    "system": "Claude-Sonnet-5.5",
+    "pattern": "1111",
+    "N": 45,
+    "n": 5,
+    "inclusion_probability": 0.1111111111111111,
+    "weight": 9.0
+  },
+  {
+    "task": 3,
+    "system": "Gemini-3.8-Flash",
+    "pattern": "0000",
+    "N": 12,
+    "n": 1,
+    "inclusion_probability": 0.08333333333333333,
+    "weight": 12.0
+  },
+  {
+    "task": 3,
+    "system": "Gemini-3.8-Flash",
+    "pattern": "1000",
+    "N": 5,
+    "n": 1,
+    "inclusion_probability": 0.2,
+    "weight": 5.0
+  },
+  {
+    "task": 3,
+    "system": "Gemini-3.8-Flash",
+    "pattern": "1010",
+    "N": 2,
+    "n": 1,
+    "inclusion_probability": 0.5,
+    "weight": 2.0
+  },
+  {
+    "task": 3,
+    "system": "Gemini-3.8-Flash",
+    "pattern": "1100",
+    "N": 6,
+    "n": 1,
+    "inclusion_probability": 0.16666666666666666,
+    "weight": 6.0
+  },
+  {
+    "task": 3,
+    "system": "Gemini-3.8-Flash",
+    "pattern": "1111",
+    "N": 55,
+    "n": 6,
+    "inclusion_probability": 0.10909090909090909,
+    "weight": 9.166666666666666
+  },
+  {
+    "task": 3,
+    "system": "GLM-5.3-Flash",
+    "pattern": "0000",
+    "N": 22,
+    "n": 2,
+    "inclusion_probability": 0.09090909090909091,
+    "weight": 11.0
+  },
+  {
+    "task": 3,
+    "system": "GLM-5.3-Flash",
+    "pattern": "1000",
+    "N": 1,
+    "n": 1,
+    "inclusion_probability": 1.0,
+    "weight": 1.0
+  },
+  {
+    "task": 3,
+    "system": "GLM-5.3-Flash",
+    "pattern": "1010",
+    "N": 8,
+    "n": 1,
+    "inclusion_probability": 0.125,
+    "weight": 8.0
+  },
+  {
+    "task": 3,
+    "system": "GLM-5.3-Flash",
+    "pattern": "1100",
+    "N": 4,
+    "n": 1,
+    "inclusion_probability": 0.25,
+    "weight": 4.0
+  },
+  {
+    "task": 3,
+    "system": "GLM-5.3-Flash",
+    "pattern": "1111",
+    "N": 45,
+    "n": 5,
+    "inclusion_probability": 0.1111111111111111,
+    "weight": 9.0
+  },
+  {
+    "task": 3,
+    "system": "Grok-4.6",
+    "pattern": "0000",
+    "N": 14,
+    "n": 1,
+    "inclusion_probability": 0.07142857142857142,
+    "weight": 14.0
+  },
+  {
+    "task": 3,
+    "system": "Grok-4.6",
+    "pattern": "1000",
+    "N": 1,
+    "n": 1,
+    "inclusion_probability": 1.0,
+    "weight": 1.0
+  },
+  {
+    "task": 3,
+    "system": "Grok-4.6",
+    "pattern": "1010",
+    "N": 3,
+    "n": 1,
+    "inclusion_probability": 0.3333333333333333,
+    "weight": 3.0
+  },
+  {
+    "task": 3,
+    "system": "Grok-4.6",
+    "pattern": "1100",
+    "N": 9,
+    "n": 1,
+    "inclusion_probability": 0.1111111111111111,
+    "weight": 9.0
+  },
+  {
+    "task": 3,
+    "system": "Grok-4.6",
+    "pattern": "1111",
+    "N": 53,
+    "n": 6,
+    "inclusion_probability": 0.11320754716981132,
+    "weight": 8.833333333333334
+  },
+  {
+    "task": 3,
+    "system": "Biomni",
+    "pattern": "0000",
+    "N": 24,
+    "n": 2,
+    "inclusion_probability": 0.08333333333333333,
+    "weight": 12.0
+  },
+  {
+    "task": 3,
+    "system": "Biomni",
+    "pattern": "0100",
+    "N": 5,
+    "n": 1,
+    "inclusion_probability": 0.2,
+    "weight": 5.0
+  },
+  {
+    "task": 3,
+    "system": "Biomni",
+    "pattern": "1000",
+    "N": 6,
+    "n": 1,
+    "inclusion_probability": 0.16666666666666666,
+    "weight": 6.0
+  },
+  {
+    "task": 3,
+    "system": "Biomni",
+    "pattern": "1100",
+    "N": 7,
+    "n": 1,
+    "inclusion_probability": 0.14285714285714285,
+    "weight": 7.0
+  },
+  {
+    "task": 3,
+    "system": "Biomni",
+    "pattern": "1110",
+    "N": 3,
+    "n": 1,
+    "inclusion_probability": 0.3333333333333333,
+    "weight": 3.0
+  },
+  {
+    "task": 3,
+    "system": "Biomni",
+    "pattern": "1111",
+    "N": 35,
+    "n": 4,
+    "inclusion_probability": 0.11428571428571428,
+    "weight": 8.75
+  }
+]

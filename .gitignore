@@ -1,11 +1,28 @@
-# macOS / system
+# Operating systems and editors
 .DS_Store
 Thumbs.db
-
-# Python
+*~
+# Python and local environments
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
-
-# editor
-*~
+.venv/
+venv/
+# Credentials and generated local outputs
+.env
+.env.*
+!.env.example
+build/
+audit_output/
+family_analysis/
+robustness_output/
+judge_metrics_output/
+judge_sample_regenerated/
+# LaTeX intermediates (the bibliography and final PDFs are intentionally tracked)
+*.aux
+*.log
+*.out
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz

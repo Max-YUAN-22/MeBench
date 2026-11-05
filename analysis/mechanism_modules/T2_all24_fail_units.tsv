@@ -1,0 +1,6 @@
+task	unit_id	pair_id	tf	target	mechanism	perturbed_entity	n	mechanism_fail	mediator_fail	causal_fail	outcome_link_fail	evidence_fail
+2	T2U_0014	PAIR_ESR1_G0S2_02097c71b743	ESR1	G0S2	chromatin_mediated_regulation	target regulatory site(s)	24	24	24	24	14	17
+2	T2U_0015	PAIR_ESR1_MMP17_c7ee7d547be2	ESR1	MMP17	chromatin_mediated_regulation	target regulatory site(s)	24	23	23	23	13	16
+2	T2U_0036	PAIR_PPARA_ANGPTL4_ffa341522e51	PPARA	Angptl4	combinatorial_tf_regulation	PPARA	24	22	23	23	1	4
+2	T2U_0037	PAIR_PPARA_HMGCS2_3abcd07550fa	PPARA	Hmgcs2	combinatorial_tf_regulation	PPARA	24	22	23	23	1	4
+2	T2U_0038	PAIR_PPARA_PDK4_2604cf75050e	PPARA	Pdk4	combinatorial_tf_regulation	PPARA	24	22	23	23	1	4

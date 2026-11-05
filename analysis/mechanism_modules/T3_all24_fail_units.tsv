@@ -1,0 +1,4 @@
+task	unit_id	pair_id	tf	target	mechanism	perturbed_entity	n	mechanism_fail	mediator_fail	causal_fail	outcome_link_fail	evidence_fail
+3	T3VP_0004	PAIR_PPARA_ANGPTL4_ffa341522e51	PPARA	Angptl4	combinatorial_tf_regulation	PPARA	24	24	24	24	6	10
+3	T3VP_0005	PAIR_PPARA_HMGCS2_3abcd07550fa	PPARA	Hmgcs2	combinatorial_tf_regulation	PPARA	24	24	24	24	6	10
+3	T3VP_0012	PAIR_PPARA_PDK4_2604cf75050e	PPARA	Pdk4	combinatorial_tf_regulation	PPARA	24	22	22	24	7	11

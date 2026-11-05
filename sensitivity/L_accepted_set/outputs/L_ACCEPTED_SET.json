@@ -1,0 +1,541 @@
+{
+ "scope": "Task 3, 6 systems x 4 runs x 20 units = 480 unit-runs (frozen MASTER_task3.tsv)",
+ "per_system": {
+  "GPT-6-Astra": {
+   "n": 80,
+   "exact": 35.0,
+   "acc": 70.0,
+   "chain": 72.5,
+   "joint": 58.8
+  },
+  "Claude-Sonnet-5.5": {
+   "n": 80,
+   "exact": 30.0,
+   "acc": 45.0,
+   "chain": 56.2,
+   "joint": 35.0
+  },
+  "Gemini-3.8-Flash": {
+   "n": 80,
+   "exact": 30.0,
+   "acc": 63.8,
+   "chain": 68.8,
+   "joint": 56.2
+  },
+  "GLM-5.3-Flash": {
+   "n": 80,
+   "exact": 41.2,
+   "acc": 63.8,
+   "chain": 56.2,
+   "joint": 51.2
+  },
+  "Grok-4.6": {
+   "n": 80,
+   "exact": 25.0,
+   "acc": 60.0,
+   "chain": 66.2,
+   "joint": 53.8
+  },
+  "Biomni (tools)": {
+   "n": 80,
+   "exact": 55.0,
+   "acc": 91.2,
+   "chain": 43.8,
+   "joint": 41.2
+  }
+ },
+ "per_cardinality": {
+  "1": {
+   "n": 456,
+   "exact": 35.5,
+   "acc": 64.3,
+   "chain": 59.0,
+   "joint": 47.4
+  },
+  "2": {
+   "n": 24,
+   "exact": 45.8,
+   "acc": 91.7,
+   "chain": 91.7,
+   "joint": 87.5
+  }
+ },
+ "pooled": {
+  "n": 480,
+  "exact": 36.0,
+  "acc": 65.6,
+  "chain": 60.6,
+  "joint": 49.4
+ },
+ "rescued_by_category": {
+  "rna_alias": 42,
+  "other_synonym": 100
+ },
+ "rescued_examples_other": [
+  {
+   "unit_id": "T3VP_0002",
+   "system": "GPT-6-Astra",
+   "run": "1",
+   "pred": "knockdown",
+   "accepted_raw": [
+    "siRNA_knockdown"
+   ]
+  },
+  {
+   "unit_id": "T3VP_0006",
+   "system": "GPT-6-Astra",
+   "run": "1",
+   "pred": "knockdown",
+   "accepted_raw": [
+    "shRNA_knockdown"
+   ]
+  },
+  {
+   "unit_id": "T3VP_0007",
+   "system": "GPT-6-Astra",
+   "run": "1",
+   "pred": "knockdown",
+   "accepted_raw": [
+    "shRNA_knockdown"
+   ]
+  },
+  {
+   "unit_id": "T3VP_0008",
+   "system": "GPT-6-Astra",
+   "run": "1",
+   "pred": "knockdown",
+   "accepted_raw": [
+    "shRNA_knockdown"
+   ]
+  },
+  {
+   "unit_id": "T3VP_0018",
+   "system": "GPT-6-Astra",
+   "run": "1",
+   "pred": "knockdown",
+   "accepted_raw": [
+    "siRNA_knockdown"
+   ]
+  },
+  {
+   "unit_id": "T3VP_0020",
+   "system": "GPT-6-Astra",
+   "run": "1",
+   "pred": "knockdown",
+   "accepted_raw": [
+    "siRNA_knockdown"
+   ]
+  },
+  {
+   "unit_id": "T3VP_0004",
+   "system": "GPT-6-Astra",
+   "run": "2",
+   "pred": "activation",
+   "accepted_raw": [
+    "agonist_activation"
+   ]
+  },
+  {
+   "unit_id": "T3VP_0005",
+   "system": "GPT-6-Astra",
+   "run": "2",
+   "pred": "activation",
+   "accepted_raw": [
+    "agonist_activation"
+   ]
+  },
+  {
+   "unit_id": "T3VP_0006",
+   "system": "GPT-6-Astra",
+   "run": "2",
+   "pred": "knockdown",
+   "accepted_raw": [
+    "shRNA_knockdown"
+   ]
+  },
+  {
+   "unit_id": "T3VP_0007",
+   "system": "GPT-6-Astra",
+   "run": "2",
+   "pred": "knockdown",
+   "accepted_raw": [
+    "shRNA_knockdown"
+   ]
+  },
+  {
+   "unit_id": "T3VP_0008",
+   "system": "GPT-6-Astra",
+   "run": "2",
+   "pred": "knockdown",
+   "accepted_raw": [
+    "shRNA_knockdown"
+   ]
+  },
+  {
+   "unit_id": "T3VP_0012",
+   "system": "GPT-6-Astra",
+   "run": "2",
+   "pred": "activation",
+   "accepted_raw": [
+    "agonist_activation"
+   ]
+  }
+ ],
+ "rescued_ids_rna": [
+  "T3VP_0003",
+  "T3VP_0011",
+  "T3VP_0013",
+  "T3VP_0016"
+ ],
+ "units_with_multi_accepted": [
+  {
+   "unit_id": "T3VP_0003",
+   "pair_id": "PAIR_TWIST1_HOXD10_2d8ed112b281",
+   "entity": "miR-10b",
+   "direction": "up",
+   "accepted_raw": [
+    "inhibition",
+    "sponge_inhibition"
+   ],
+   "accepted_canonical": [
+    "inhibition",
+    "sponge_inhibition"
+   ]
+  }
+ ],
+ "identifiability": {
+  "n_entity_direction_combos": 14,
+  "combos_with_conflicting_accepted_sets": {},
+  "combo_table": [
+   {
+    "entity": "bhlhe40",
+    "direction": "down",
+    "units": [
+     "T3VP_0002",
+     "T3VP_0018",
+     "T3VP_0020"
+    ],
+    "accepted_canonical_union": [
+     "knockdown"
+    ]
+   },
+   {
+    "entity": "mir-10b",
+    "direction": "down",
+    "units": [
+     "T3VP_0014"
+    ],
+    "accepted_canonical_union": [
+     "overexpression"
+    ]
+   },
+   {
+    "entity": "mir-10b",
+    "direction": "up",
+    "units": [
+     "T3VP_0003"
+    ],
+    "accepted_canonical_union": [
+     "inhibition",
+     "sponge_inhibition"
+    ]
+   },
+   {
+    "entity": "mir-181b",
+    "direction": "down",
+    "units": [
+     "T3VP_0001"
+    ],
+    "accepted_canonical_union": [
+     "overexpression"
+    ]
+   },
+   {
+    "entity": "mir-181b",
+    "direction": "up",
+    "units": [
+     "T3VP_0011"
+    ],
+    "accepted_canonical_union": [
+     "inhibition"
+    ]
+   },
+   {
+    "entity": "mir-210",
+    "direction": "down",
+    "units": [
+     "T3VP_0010",
+     "T3VP_0019"
+    ],
+    "accepted_canonical_union": [
+     "overexpression"
+    ]
+   },
+   {
+    "entity": "mir-210",
+    "direction": "up",
+    "units": [
+     "T3VP_0013",
+     "T3VP_0016"
+    ],
+    "accepted_canonical_union": [
+     "inhibition"
+    ]
+   },
+   {
+    "entity": "mir-451",
+    "direction": "down",
+    "units": [
+     "T3VP_0017"
+    ],
+    "accepted_canonical_union": [
+     "overexpression"
+    ]
+   },
+   {
+    "entity": "mir-451",
+    "direction": "up",
+    "units": [
+     "T3VP_0015"
+    ],
+    "accepted_canonical_union": [
+     "genetic_knockout"
+    ]
+   },
+   {
+    "entity": "notch1",
+    "direction": "down",
+    "units": [
+     "T3VP_0006"
+    ],
+    "accepted_canonical_union": [
+     "knockdown"
+    ]
+   },
+   {
+    "entity": "notch1; tgf-beta/smad3",
+    "direction": "up",
+    "units": [
+     "T3VP_0009"
+    ],
+    "accepted_canonical_union": [
+     "combined_ligand_stimulation"
+    ]
+   },
+   {
+    "entity": "ppara",
+    "direction": "up",
+    "units": [
+     "T3VP_0004",
+     "T3VP_0005",
+     "T3VP_0012"
+    ],
+    "accepted_canonical_union": [
+     "agonist_activation"
+    ]
+   },
+   {
+    "entity": "smad3",
+    "direction": "down",
+    "units": [
+     "T3VP_0007"
+    ],
+    "accepted_canonical_union": [
+     "knockdown"
+    ]
+   },
+   {
+    "entity": "smad4",
+    "direction": "down",
+    "units": [
+     "T3VP_0008"
+    ],
+    "accepted_canonical_union": [
+     "knockdown"
+    ]
+   }
+  ]
+ },
+ "per_unit_exact_vs_accepted": [
+  {
+   "unit_id": "T3VP_0007",
+   "entity": "SMAD3",
+   "direction": "down",
+   "card": 1,
+   "n": 24,
+   "exact_pct": 0.0,
+   "accepted_pct": 95.8
+  },
+  {
+   "unit_id": "T3VP_0008",
+   "entity": "SMAD4",
+   "direction": "down",
+   "card": 1,
+   "n": 24,
+   "exact_pct": 0.0,
+   "accepted_pct": 95.8
+  },
+  {
+   "unit_id": "T3VP_0006",
+   "entity": "NOTCH1",
+   "direction": "down",
+   "card": 1,
+   "n": 24,
+   "exact_pct": 0.0,
+   "accepted_pct": 91.7
+  },
+  {
+   "unit_id": "T3VP_0003",
+   "entity": "miR-10b",
+   "direction": "up",
+   "card": 2,
+   "n": 24,
+   "exact_pct": 45.8,
+   "accepted_pct": 91.7
+  },
+  {
+   "unit_id": "T3VP_0011",
+   "entity": "miR-181b",
+   "direction": "up",
+   "card": 1,
+   "n": 24,
+   "exact_pct": 50.0,
+   "accepted_pct": 95.8
+  },
+  {
+   "unit_id": "T3VP_0013",
+   "entity": "miR-210",
+   "direction": "up",
+   "card": 1,
+   "n": 24,
+   "exact_pct": 50.0,
+   "accepted_pct": 95.8
+  },
+  {
+   "unit_id": "T3VP_0016",
+   "entity": "miR-210",
+   "direction": "up",
+   "card": 1,
+   "n": 24,
+   "exact_pct": 54.2,
+   "accepted_pct": 91.7
+  },
+  {
+   "unit_id": "T3VP_0018",
+   "entity": "BHLHE40",
+   "direction": "down",
+   "card": 1,
+   "n": 24,
+   "exact_pct": 0.0,
+   "accepted_pct": 37.5
+  },
+  {
+   "unit_id": "T3VP_0020",
+   "entity": "BHLHE40",
+   "direction": "down",
+   "card": 1,
+   "n": 24,
+   "exact_pct": 0.0,
+   "accepted_pct": 37.5
+  },
+  {
+   "unit_id": "T3VP_0002",
+   "entity": "BHLHE40",
+   "direction": "down",
+   "card": 1,
+   "n": 24,
+   "exact_pct": 0.0,
+   "accepted_pct": 33.3
+  },
+  {
+   "unit_id": "T3VP_0004",
+   "entity": "PPARA",
+   "direction": "up",
+   "card": 1,
+   "n": 24,
+   "exact_pct": 16.7,
+   "accepted_pct": 25.0
+  },
+  {
+   "unit_id": "T3VP_0005",
+   "entity": "PPARA",
+   "direction": "up",
+   "card": 1,
+   "n": 24,
+   "exact_pct": 16.7,
+   "accepted_pct": 25.0
+  },
+  {
+   "unit_id": "T3VP_0012",
+   "entity": "PPARA",
+   "direction": "up",
+   "card": 1,
+   "n": 24,
+   "exact_pct": 12.5,
+   "accepted_pct": 20.8
+  },
+  {
+   "unit_id": "T3VP_0001",
+   "entity": "miR-181b",
+   "direction": "down",
+   "card": 1,
+   "n": 24,
+   "exact_pct": 91.7,
+   "accepted_pct": 91.7
+  },
+  {
+   "unit_id": "T3VP_0009",
+   "entity": "NOTCH1; TGF-beta/SMAD3",
+   "direction": "up",
+   "card": 1,
+   "n": 24,
+   "exact_pct": 12.5,
+   "accepted_pct": 12.5
+  },
+  {
+   "unit_id": "T3VP_0010",
+   "entity": "miR-210",
+   "direction": "down",
+   "card": 1,
+   "n": 24,
+   "exact_pct": 95.8,
+   "accepted_pct": 95.8
+  },
+  {
+   "unit_id": "T3VP_0014",
+   "entity": "miR-10b",
+   "direction": "down",
+   "card": 1,
+   "n": 24,
+   "exact_pct": 91.7,
+   "accepted_pct": 91.7
+  },
+  {
+   "unit_id": "T3VP_0015",
+   "entity": "miR-451",
+   "direction": "up",
+   "card": 1,
+   "n": 24,
+   "exact_pct": 0.0,
+   "accepted_pct": 0.0
+  },
+  {
+   "unit_id": "T3VP_0017",
+   "entity": "miR-451",
+   "direction": "down",
+   "card": 1,
+   "n": 24,
+   "exact_pct": 91.7,
+   "accepted_pct": 91.7
+  },
+  {
+   "unit_id": "T3VP_0019",
+   "entity": "miR-210",
+   "direction": "down",
+   "card": 1,
+   "n": 24,
+   "exact_pct": 91.7,
+   "accepted_pct": 91.7
+  }
+ ]
+}

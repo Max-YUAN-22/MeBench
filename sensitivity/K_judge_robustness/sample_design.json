@@ -1,0 +1,2915 @@
+{
+ "seed": 20261017,
+ "batch_size": 40,
+ "judge": "gemini-3.8-flash (never used as a judge in the frozen pipeline)",
+ "task2_sample": [
+  {
+   "key": "T2U_0135@GPT-6-Astra@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0156@GPT-6-Astra@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0078@GPT-6-Astra@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0054@GPT-6-Astra@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0002@GPT-6-Astra@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0085@GPT-6-Astra@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0191@GPT-6-Astra@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0141@GPT-6-Astra@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0054@GPT-6-Astra@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0132@GPT-6-Astra@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0183@GPT-6-Astra@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0068@GPT-6-Astra@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0186@GPT-6-Astra@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0124@GPT-6-Astra@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0054@GPT-6-Astra@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0064@GPT-6-Astra@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0147@GPT-6-Astra@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0160@GPT-6-Astra@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0082@GPT-6-Astra@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0117@GPT-6-Astra@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0180@GPT-6-Astra@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0001@GPT-6-Astra@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0169@GPT-6-Astra@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0009@GPT-6-Astra@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0176@GPT-6-Astra@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0028@GPT-6-Astra@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0162@GPT-6-Astra@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0009@GPT-6-Astra@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0045@GPT-6-Astra@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0116@GPT-6-Astra@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0029@GPT-6-Astra@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0026@GPT-6-Astra@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0029@GPT-6-Astra@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0021@GPT-6-Astra@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0027@GPT-6-Astra@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0022@GPT-6-Astra@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0016@GPT-6-Astra@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0035@GPT-6-Astra@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0003@GPT-6-Astra@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0037@GPT-6-Astra@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0041@GPT-6-Astra@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0009@GPT-6-Astra@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0014@GPT-6-Astra@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0020@GPT-6-Astra@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0040@GPT-6-Astra@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0017@GPT-6-Astra@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0004@GPT-6-Astra@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0018@GPT-6-Astra@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0032@GPT-6-Astra@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0013@GPT-6-Astra@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0142@GPT-6-Astra@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0142@GPT-6-Astra@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0023@GPT-6-Astra@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0007@GPT-6-Astra@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0030@GPT-6-Astra@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0006@GPT-6-Astra@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0015@GPT-6-Astra@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0169@GPT-6-Astra@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0023@GPT-6-Astra@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0008@GPT-6-Astra@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0075@Claude-Sonnet-5.5@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0086@Claude-Sonnet-5.5@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0063@Claude-Sonnet-5.5@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0111@Claude-Sonnet-5.5@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0055@Claude-Sonnet-5.5@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0125@Claude-Sonnet-5.5@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0058@Claude-Sonnet-5.5@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0110@Claude-Sonnet-5.5@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0112@Claude-Sonnet-5.5@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0047@Claude-Sonnet-5.5@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0157@Claude-Sonnet-5.5@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0084@Claude-Sonnet-5.5@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0119@Claude-Sonnet-5.5@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0033@Claude-Sonnet-5.5@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0129@Claude-Sonnet-5.5@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0158@Claude-Sonnet-5.5@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0197@Claude-Sonnet-5.5@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0182@Claude-Sonnet-5.5@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0001@Claude-Sonnet-5.5@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0192@Claude-Sonnet-5.5@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0079@Claude-Sonnet-5.5@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0162@Claude-Sonnet-5.5@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0046@Claude-Sonnet-5.5@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0086@Claude-Sonnet-5.5@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0171@Claude-Sonnet-5.5@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0025@Claude-Sonnet-5.5@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0053@Claude-Sonnet-5.5@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0046@Claude-Sonnet-5.5@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0165@Claude-Sonnet-5.5@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0039@Claude-Sonnet-5.5@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0033@Claude-Sonnet-5.5@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0021@Claude-Sonnet-5.5@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0020@Claude-Sonnet-5.5@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0031@Claude-Sonnet-5.5@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0022@Claude-Sonnet-5.5@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0017@Claude-Sonnet-5.5@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0019@Claude-Sonnet-5.5@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0179@Claude-Sonnet-5.5@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0016@Claude-Sonnet-5.5@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0030@Claude-Sonnet-5.5@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0009@Claude-Sonnet-5.5@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0007@Claude-Sonnet-5.5@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0037@Claude-Sonnet-5.5@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0150@Claude-Sonnet-5.5@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0003@Claude-Sonnet-5.5@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0006@Claude-Sonnet-5.5@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0015@Claude-Sonnet-5.5@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0150@Claude-Sonnet-5.5@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0036@Claude-Sonnet-5.5@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0035@Claude-Sonnet-5.5@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0002@Claude-Sonnet-5.5@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0199@Claude-Sonnet-5.5@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0005@Claude-Sonnet-5.5@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0034@Claude-Sonnet-5.5@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0169@Claude-Sonnet-5.5@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0014@Claude-Sonnet-5.5@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0041@Claude-Sonnet-5.5@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0032@Claude-Sonnet-5.5@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0036@Claude-Sonnet-5.5@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0035@Claude-Sonnet-5.5@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0097@Gemini-3.8-Flash@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0048@Gemini-3.8-Flash@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0065@Gemini-3.8-Flash@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0157@Gemini-3.8-Flash@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0081@Gemini-3.8-Flash@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0191@Gemini-3.8-Flash@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0064@Gemini-3.8-Flash@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0087@Gemini-3.8-Flash@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0126@Gemini-3.8-Flash@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0043@Gemini-3.8-Flash@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0053@Gemini-3.8-Flash@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0188@Gemini-3.8-Flash@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0134@Gemini-3.8-Flash@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0058@Gemini-3.8-Flash@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0052@Gemini-3.8-Flash@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0090@Gemini-3.8-Flash@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0099@Gemini-3.8-Flash@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0123@Gemini-3.8-Flash@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0045@Gemini-3.8-Flash@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0182@Gemini-3.8-Flash@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0138@Gemini-3.8-Flash@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0053@Gemini-3.8-Flash@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0151@Gemini-3.8-Flash@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0126@Gemini-3.8-Flash@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0166@Gemini-3.8-Flash@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0077@Gemini-3.8-Flash@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0113@Gemini-3.8-Flash@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0189@Gemini-3.8-Flash@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0092@Gemini-3.8-Flash@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0173@Gemini-3.8-Flash@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0036@Gemini-3.8-Flash@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0003@Gemini-3.8-Flash@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0037@Gemini-3.8-Flash@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0009@Gemini-3.8-Flash@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0013@Gemini-3.8-Flash@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0003@Gemini-3.8-Flash@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0006@Gemini-3.8-Flash@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0032@Gemini-3.8-Flash@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0029@Gemini-3.8-Flash@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0118@Gemini-3.8-Flash@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0019@Gemini-3.8-Flash@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0169@Gemini-3.8-Flash@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0040@Gemini-3.8-Flash@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0016@Gemini-3.8-Flash@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0030@Gemini-3.8-Flash@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0030@Gemini-3.8-Flash@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0015@Gemini-3.8-Flash@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0022@Gemini-3.8-Flash@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0026@Gemini-3.8-Flash@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0143@Gemini-3.8-Flash@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0143@Gemini-3.8-Flash@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0141@Gemini-3.8-Flash@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0008@Gemini-3.8-Flash@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0002@Gemini-3.8-Flash@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0152@Gemini-3.8-Flash@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0122@Gemini-3.8-Flash@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0020@Gemini-3.8-Flash@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0005@Gemini-3.8-Flash@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0038@Gemini-3.8-Flash@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0007@Gemini-3.8-Flash@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0087@GLM-5.3-Flash@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0011@GLM-5.3-Flash@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0077@GLM-5.3-Flash@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0103@GLM-5.3-Flash@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0157@GLM-5.3-Flash@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0010@GLM-5.3-Flash@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0130@GLM-5.3-Flash@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0167@GLM-5.3-Flash@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0095@GLM-5.3-Flash@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0106@GLM-5.3-Flash@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0070@GLM-5.3-Flash@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0182@GLM-5.3-Flash@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0002@GLM-5.3-Flash@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0120@GLM-5.3-Flash@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0117@GLM-5.3-Flash@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0045@GLM-5.3-Flash@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0081@GLM-5.3-Flash@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0116@GLM-5.3-Flash@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0011@GLM-5.3-Flash@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0170@GLM-5.3-Flash@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0042@GLM-5.3-Flash@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0056@GLM-5.3-Flash@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0129@GLM-5.3-Flash@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0111@GLM-5.3-Flash@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0089@GLM-5.3-Flash@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0153@GLM-5.3-Flash@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0058@GLM-5.3-Flash@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0059@GLM-5.3-Flash@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0067@GLM-5.3-Flash@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0170@GLM-5.3-Flash@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0198@GLM-5.3-Flash@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0175@GLM-5.3-Flash@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0157@GLM-5.3-Flash@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0169@GLM-5.3-Flash@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0181@GLM-5.3-Flash@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0020@GLM-5.3-Flash@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0036@GLM-5.3-Flash@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0007@GLM-5.3-Flash@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0013@GLM-5.3-Flash@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0150@GLM-5.3-Flash@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0196@GLM-5.3-Flash@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0030@GLM-5.3-Flash@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0159@GLM-5.3-Flash@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0193@GLM-5.3-Flash@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0003@GLM-5.3-Flash@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0173@GLM-5.3-Flash@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0035@GLM-5.3-Flash@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0018@GLM-5.3-Flash@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0174@GLM-5.3-Flash@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0166@GLM-5.3-Flash@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0183@GLM-5.3-Flash@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0006@GLM-5.3-Flash@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0199@GLM-5.3-Flash@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0023@GLM-5.3-Flash@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0014@GLM-5.3-Flash@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0124@GLM-5.3-Flash@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0015@GLM-5.3-Flash@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0172@GLM-5.3-Flash@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0016@GLM-5.3-Flash@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0114@GLM-5.3-Flash@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0057@Grok-4.6@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0043@Grok-4.6@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0064@Grok-4.6@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0183@Grok-4.6@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0147@Grok-4.6@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0152@Grok-4.6@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0152@Grok-4.6@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0156@Grok-4.6@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0128@Grok-4.6@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0168@Grok-4.6@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0123@Grok-4.6@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0094@Grok-4.6@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0197@Grok-4.6@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0126@Grok-4.6@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0121@Grok-4.6@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0094@Grok-4.6@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0088@Grok-4.6@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0161@Grok-4.6@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0085@Grok-4.6@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0124@Grok-4.6@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0167@Grok-4.6@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0145@Grok-4.6@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0196@Grok-4.6@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0103@Grok-4.6@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0174@Grok-4.6@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0060@Grok-4.6@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0073@Grok-4.6@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0146@Grok-4.6@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0080@Grok-4.6@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0071@Grok-4.6@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0007@Grok-4.6@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0015@Grok-4.6@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0028@Grok-4.6@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0031@Grok-4.6@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0033@Grok-4.6@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0015@Grok-4.6@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0009@Grok-4.6@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0020@Grok-4.6@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0021@Grok-4.6@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0034@Grok-4.6@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0017@Grok-4.6@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0017@Grok-4.6@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0169@Grok-4.6@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0169@Grok-4.6@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0195@Grok-4.6@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0013@Grok-4.6@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0199@Grok-4.6@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0026@Grok-4.6@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0143@Grok-4.6@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0040@Grok-4.6@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0016@Grok-4.6@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0175@Grok-4.6@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0006@Grok-4.6@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0029@Grok-4.6@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0035@Grok-4.6@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0039@Grok-4.6@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0035@Grok-4.6@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0005@Grok-4.6@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0032@Grok-4.6@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0018@Grok-4.6@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0097@Biomni@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0048@Biomni@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0193@Biomni@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0025@Biomni@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0138@Biomni@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0125@Biomni@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0093@Biomni@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0082@Biomni@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0176@Biomni@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0174@Biomni@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0183@Biomni@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0166@Biomni@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0081@Biomni@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0135@Biomni@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0086@Biomni@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0171@Biomni@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0101@Biomni@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0092@Biomni@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0071@Biomni@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0083@Biomni@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0102@Biomni@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0072@Biomni@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0163@Biomni@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0108@Biomni@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0137@Biomni@run1",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0140@Biomni@run3",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0080@Biomni@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0057@Biomni@run4",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0198@Biomni@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0136@Biomni@run2",
+   "stratum": "pass"
+  },
+  {
+   "key": "T2U_0029@Biomni@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0013@Biomni@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0019@Biomni@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0009@Biomni@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0009@Biomni@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0026@Biomni@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0028@Biomni@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0035@Biomni@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0018@Biomni@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0152@Biomni@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0153@Biomni@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0001@Biomni@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0023@Biomni@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0032@Biomni@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0165@Biomni@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0014@Biomni@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0037@Biomni@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0005@Biomni@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0163@Biomni@run2",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0027@Biomni@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0016@Biomni@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0016@Biomni@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0008@Biomni@run1",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0007@Biomni@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0002@Biomni@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0017@Biomni@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0016@Biomni@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0145@Biomni@run4",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0038@Biomni@run3",
+   "stratum": "fail"
+  },
+  {
+   "key": "T2U_0080@Biomni@run1",
+   "stratum": "fail"
+  }
+ ],
+ "task3_sample": [
+  {
+   "key": "T3VP_0001@Biomni@run1"
+  },
+  {
+   "key": "T3VP_0002@Biomni@run1"
+  },
+  {
+   "key": "T3VP_0003@Biomni@run1"
+  },
+  {
+   "key": "T3VP_0004@Biomni@run1"
+  },
+  {
+   "key": "T3VP_0005@Biomni@run1"
+  },
+  {
+   "key": "T3VP_0006@Biomni@run1"
+  },
+  {
+   "key": "T3VP_0007@Biomni@run1"
+  },
+  {
+   "key": "T3VP_0008@Biomni@run1"
+  },
+  {
+   "key": "T3VP_0009@Biomni@run1"
+  },
+  {
+   "key": "T3VP_0010@Biomni@run1"
+  },
+  {
+   "key": "T3VP_0011@Biomni@run1"
+  },
+  {
+   "key": "T3VP_0012@Biomni@run1"
+  },
+  {
+   "key": "T3VP_0013@Biomni@run1"
+  },
+  {
+   "key": "T3VP_0014@Biomni@run1"
+  },
+  {
+   "key": "T3VP_0015@Biomni@run1"
+  },
+  {
+   "key": "T3VP_0016@Biomni@run1"
+  },
+  {
+   "key": "T3VP_0017@Biomni@run1"
+  },
+  {
+   "key": "T3VP_0018@Biomni@run1"
+  },
+  {
+   "key": "T3VP_0019@Biomni@run1"
+  },
+  {
+   "key": "T3VP_0020@Biomni@run1"
+  },
+  {
+   "key": "T3VP_0001@Biomni@run2"
+  },
+  {
+   "key": "T3VP_0002@Biomni@run2"
+  },
+  {
+   "key": "T3VP_0003@Biomni@run2"
+  },
+  {
+   "key": "T3VP_0004@Biomni@run2"
+  },
+  {
+   "key": "T3VP_0005@Biomni@run2"
+  },
+  {
+   "key": "T3VP_0006@Biomni@run2"
+  },
+  {
+   "key": "T3VP_0007@Biomni@run2"
+  },
+  {
+   "key": "T3VP_0008@Biomni@run2"
+  },
+  {
+   "key": "T3VP_0009@Biomni@run2"
+  },
+  {
+   "key": "T3VP_0010@Biomni@run2"
+  },
+  {
+   "key": "T3VP_0011@Biomni@run2"
+  },
+  {
+   "key": "T3VP_0012@Biomni@run2"
+  },
+  {
+   "key": "T3VP_0013@Biomni@run2"
+  },
+  {
+   "key": "T3VP_0014@Biomni@run2"
+  },
+  {
+   "key": "T3VP_0015@Biomni@run2"
+  },
+  {
+   "key": "T3VP_0016@Biomni@run2"
+  },
+  {
+   "key": "T3VP_0017@Biomni@run2"
+  },
+  {
+   "key": "T3VP_0018@Biomni@run2"
+  },
+  {
+   "key": "T3VP_0019@Biomni@run2"
+  },
+  {
+   "key": "T3VP_0020@Biomni@run2"
+  },
+  {
+   "key": "T3VP_0001@Biomni@run3"
+  },
+  {
+   "key": "T3VP_0002@Biomni@run3"
+  },
+  {
+   "key": "T3VP_0003@Biomni@run3"
+  },
+  {
+   "key": "T3VP_0004@Biomni@run3"
+  },
+  {
+   "key": "T3VP_0005@Biomni@run3"
+  },
+  {
+   "key": "T3VP_0006@Biomni@run3"
+  },
+  {
+   "key": "T3VP_0007@Biomni@run3"
+  },
+  {
+   "key": "T3VP_0008@Biomni@run3"
+  },
+  {
+   "key": "T3VP_0009@Biomni@run3"
+  },
+  {
+   "key": "T3VP_0010@Biomni@run3"
+  },
+  {
+   "key": "T3VP_0011@Biomni@run3"
+  },
+  {
+   "key": "T3VP_0012@Biomni@run3"
+  },
+  {
+   "key": "T3VP_0013@Biomni@run3"
+  },
+  {
+   "key": "T3VP_0014@Biomni@run3"
+  },
+  {
+   "key": "T3VP_0015@Biomni@run3"
+  },
+  {
+   "key": "T3VP_0016@Biomni@run3"
+  },
+  {
+   "key": "T3VP_0017@Biomni@run3"
+  },
+  {
+   "key": "T3VP_0018@Biomni@run3"
+  },
+  {
+   "key": "T3VP_0019@Biomni@run3"
+  },
+  {
+   "key": "T3VP_0020@Biomni@run3"
+  },
+  {
+   "key": "T3VP_0001@Biomni@run4"
+  },
+  {
+   "key": "T3VP_0002@Biomni@run4"
+  },
+  {
+   "key": "T3VP_0003@Biomni@run4"
+  },
+  {
+   "key": "T3VP_0004@Biomni@run4"
+  },
+  {
+   "key": "T3VP_0005@Biomni@run4"
+  },
+  {
+   "key": "T3VP_0006@Biomni@run4"
+  },
+  {
+   "key": "T3VP_0007@Biomni@run4"
+  },
+  {
+   "key": "T3VP_0008@Biomni@run4"
+  },
+  {
+   "key": "T3VP_0009@Biomni@run4"
+  },
+  {
+   "key": "T3VP_0010@Biomni@run4"
+  },
+  {
+   "key": "T3VP_0011@Biomni@run4"
+  },
+  {
+   "key": "T3VP_0012@Biomni@run4"
+  },
+  {
+   "key": "T3VP_0013@Biomni@run4"
+  },
+  {
+   "key": "T3VP_0014@Biomni@run4"
+  },
+  {
+   "key": "T3VP_0015@Biomni@run4"
+  },
+  {
+   "key": "T3VP_0016@Biomni@run4"
+  },
+  {
+   "key": "T3VP_0017@Biomni@run4"
+  },
+  {
+   "key": "T3VP_0018@Biomni@run4"
+  },
+  {
+   "key": "T3VP_0019@Biomni@run4"
+  },
+  {
+   "key": "T3VP_0020@Biomni@run4"
+  },
+  {
+   "key": "T3VP_0001@Claude-Sonnet-5.5@run1"
+  },
+  {
+   "key": "T3VP_0002@Claude-Sonnet-5.5@run1"
+  },
+  {
+   "key": "T3VP_0003@Claude-Sonnet-5.5@run1"
+  },
+  {
+   "key": "T3VP_0004@Claude-Sonnet-5.5@run1"
+  },
+  {
+   "key": "T3VP_0005@Claude-Sonnet-5.5@run1"
+  },
+  {
+   "key": "T3VP_0006@Claude-Sonnet-5.5@run1"
+  },
+  {
+   "key": "T3VP_0007@Claude-Sonnet-5.5@run1"
+  },
+  {
+   "key": "T3VP_0008@Claude-Sonnet-5.5@run1"
+  },
+  {
+   "key": "T3VP_0009@Claude-Sonnet-5.5@run1"
+  },
+  {
+   "key": "T3VP_0010@Claude-Sonnet-5.5@run1"
+  },
+  {
+   "key": "T3VP_0011@Claude-Sonnet-5.5@run1"
+  },
+  {
+   "key": "T3VP_0012@Claude-Sonnet-5.5@run1"
+  },
+  {
+   "key": "T3VP_0013@Claude-Sonnet-5.5@run1"
+  },
+  {
+   "key": "T3VP_0014@Claude-Sonnet-5.5@run1"
+  },
+  {
+   "key": "T3VP_0015@Claude-Sonnet-5.5@run1"
+  },
+  {
+   "key": "T3VP_0016@Claude-Sonnet-5.5@run1"
+  },
+  {
+   "key": "T3VP_0017@Claude-Sonnet-5.5@run1"
+  },
+  {
+   "key": "T3VP_0018@Claude-Sonnet-5.5@run1"
+  },
+  {
+   "key": "T3VP_0019@Claude-Sonnet-5.5@run1"
+  },
+  {
+   "key": "T3VP_0020@Claude-Sonnet-5.5@run1"
+  },
+  {
+   "key": "T3VP_0001@Claude-Sonnet-5.5@run2"
+  },
+  {
+   "key": "T3VP_0002@Claude-Sonnet-5.5@run2"
+  },
+  {
+   "key": "T3VP_0003@Claude-Sonnet-5.5@run2"
+  },
+  {
+   "key": "T3VP_0004@Claude-Sonnet-5.5@run2"
+  },
+  {
+   "key": "T3VP_0005@Claude-Sonnet-5.5@run2"
+  },
+  {
+   "key": "T3VP_0006@Claude-Sonnet-5.5@run2"
+  },
+  {
+   "key": "T3VP_0007@Claude-Sonnet-5.5@run2"
+  },
+  {
+   "key": "T3VP_0008@Claude-Sonnet-5.5@run2"
+  },
+  {
+   "key": "T3VP_0009@Claude-Sonnet-5.5@run2"
+  },
+  {
+   "key": "T3VP_0010@Claude-Sonnet-5.5@run2"
+  },
+  {
+   "key": "T3VP_0011@Claude-Sonnet-5.5@run2"
+  },
+  {
+   "key": "T3VP_0012@Claude-Sonnet-5.5@run2"
+  },
+  {
+   "key": "T3VP_0013@Claude-Sonnet-5.5@run2"
+  },
+  {
+   "key": "T3VP_0014@Claude-Sonnet-5.5@run2"
+  },
+  {
+   "key": "T3VP_0015@Claude-Sonnet-5.5@run2"
+  },
+  {
+   "key": "T3VP_0016@Claude-Sonnet-5.5@run2"
+  },
+  {
+   "key": "T3VP_0017@Claude-Sonnet-5.5@run2"
+  },
+  {
+   "key": "T3VP_0018@Claude-Sonnet-5.5@run2"
+  },
+  {
+   "key": "T3VP_0019@Claude-Sonnet-5.5@run2"
+  },
+  {
+   "key": "T3VP_0020@Claude-Sonnet-5.5@run2"
+  },
+  {
+   "key": "T3VP_0001@Claude-Sonnet-5.5@run3"
+  },
+  {
+   "key": "T3VP_0002@Claude-Sonnet-5.5@run3"
+  },
+  {
+   "key": "T3VP_0003@Claude-Sonnet-5.5@run3"
+  },
+  {
+   "key": "T3VP_0004@Claude-Sonnet-5.5@run3"
+  },
+  {
+   "key": "T3VP_0005@Claude-Sonnet-5.5@run3"
+  },
+  {
+   "key": "T3VP_0006@Claude-Sonnet-5.5@run3"
+  },
+  {
+   "key": "T3VP_0007@Claude-Sonnet-5.5@run3"
+  },
+  {
+   "key": "T3VP_0008@Claude-Sonnet-5.5@run3"
+  },
+  {
+   "key": "T3VP_0009@Claude-Sonnet-5.5@run3"
+  },
+  {
+   "key": "T3VP_0010@Claude-Sonnet-5.5@run3"
+  },
+  {
+   "key": "T3VP_0011@Claude-Sonnet-5.5@run3"
+  },
+  {
+   "key": "T3VP_0012@Claude-Sonnet-5.5@run3"
+  },
+  {
+   "key": "T3VP_0013@Claude-Sonnet-5.5@run3"
+  },
+  {
+   "key": "T3VP_0014@Claude-Sonnet-5.5@run3"
+  },
+  {
+   "key": "T3VP_0015@Claude-Sonnet-5.5@run3"
+  },
+  {
+   "key": "T3VP_0016@Claude-Sonnet-5.5@run3"
+  },
+  {
+   "key": "T3VP_0017@Claude-Sonnet-5.5@run3"
+  },
+  {
+   "key": "T3VP_0018@Claude-Sonnet-5.5@run3"
+  },
+  {
+   "key": "T3VP_0019@Claude-Sonnet-5.5@run3"
+  },
+  {
+   "key": "T3VP_0020@Claude-Sonnet-5.5@run3"
+  },
+  {
+   "key": "T3VP_0001@Claude-Sonnet-5.5@run4"
+  },
+  {
+   "key": "T3VP_0002@Claude-Sonnet-5.5@run4"
+  },
+  {
+   "key": "T3VP_0003@Claude-Sonnet-5.5@run4"
+  },
+  {
+   "key": "T3VP_0004@Claude-Sonnet-5.5@run4"
+  },
+  {
+   "key": "T3VP_0005@Claude-Sonnet-5.5@run4"
+  },
+  {
+   "key": "T3VP_0006@Claude-Sonnet-5.5@run4"
+  },
+  {
+   "key": "T3VP_0007@Claude-Sonnet-5.5@run4"
+  },
+  {
+   "key": "T3VP_0008@Claude-Sonnet-5.5@run4"
+  },
+  {
+   "key": "T3VP_0009@Claude-Sonnet-5.5@run4"
+  },
+  {
+   "key": "T3VP_0010@Claude-Sonnet-5.5@run4"
+  },
+  {
+   "key": "T3VP_0011@Claude-Sonnet-5.5@run4"
+  },
+  {
+   "key": "T3VP_0012@Claude-Sonnet-5.5@run4"
+  },
+  {
+   "key": "T3VP_0013@Claude-Sonnet-5.5@run4"
+  },
+  {
+   "key": "T3VP_0014@Claude-Sonnet-5.5@run4"
+  },
+  {
+   "key": "T3VP_0015@Claude-Sonnet-5.5@run4"
+  },
+  {
+   "key": "T3VP_0016@Claude-Sonnet-5.5@run4"
+  },
+  {
+   "key": "T3VP_0017@Claude-Sonnet-5.5@run4"
+  },
+  {
+   "key": "T3VP_0018@Claude-Sonnet-5.5@run4"
+  },
+  {
+   "key": "T3VP_0019@Claude-Sonnet-5.5@run4"
+  },
+  {
+   "key": "T3VP_0020@Claude-Sonnet-5.5@run4"
+  },
+  {
+   "key": "T3VP_0001@GLM-5.3-Flash@run1"
+  },
+  {
+   "key": "T3VP_0002@GLM-5.3-Flash@run1"
+  },
+  {
+   "key": "T3VP_0003@GLM-5.3-Flash@run1"
+  },
+  {
+   "key": "T3VP_0004@GLM-5.3-Flash@run1"
+  },
+  {
+   "key": "T3VP_0005@GLM-5.3-Flash@run1"
+  },
+  {
+   "key": "T3VP_0006@GLM-5.3-Flash@run1"
+  },
+  {
+   "key": "T3VP_0007@GLM-5.3-Flash@run1"
+  },
+  {
+   "key": "T3VP_0008@GLM-5.3-Flash@run1"
+  },
+  {
+   "key": "T3VP_0009@GLM-5.3-Flash@run1"
+  },
+  {
+   "key": "T3VP_0010@GLM-5.3-Flash@run1"
+  },
+  {
+   "key": "T3VP_0011@GLM-5.3-Flash@run1"
+  },
+  {
+   "key": "T3VP_0012@GLM-5.3-Flash@run1"
+  },
+  {
+   "key": "T3VP_0013@GLM-5.3-Flash@run1"
+  },
+  {
+   "key": "T3VP_0014@GLM-5.3-Flash@run1"
+  },
+  {
+   "key": "T3VP_0015@GLM-5.3-Flash@run1"
+  },
+  {
+   "key": "T3VP_0016@GLM-5.3-Flash@run1"
+  },
+  {
+   "key": "T3VP_0017@GLM-5.3-Flash@run1"
+  },
+  {
+   "key": "T3VP_0018@GLM-5.3-Flash@run1"
+  },
+  {
+   "key": "T3VP_0019@GLM-5.3-Flash@run1"
+  },
+  {
+   "key": "T3VP_0020@GLM-5.3-Flash@run1"
+  },
+  {
+   "key": "T3VP_0001@GLM-5.3-Flash@run2"
+  },
+  {
+   "key": "T3VP_0002@GLM-5.3-Flash@run2"
+  },
+  {
+   "key": "T3VP_0003@GLM-5.3-Flash@run2"
+  },
+  {
+   "key": "T3VP_0004@GLM-5.3-Flash@run2"
+  },
+  {
+   "key": "T3VP_0005@GLM-5.3-Flash@run2"
+  },
+  {
+   "key": "T3VP_0006@GLM-5.3-Flash@run2"
+  },
+  {
+   "key": "T3VP_0007@GLM-5.3-Flash@run2"
+  },
+  {
+   "key": "T3VP_0008@GLM-5.3-Flash@run2"
+  },
+  {
+   "key": "T3VP_0009@GLM-5.3-Flash@run2"
+  },
+  {
+   "key": "T3VP_0010@GLM-5.3-Flash@run2"
+  },
+  {
+   "key": "T3VP_0011@GLM-5.3-Flash@run2"
+  },
+  {
+   "key": "T3VP_0012@GLM-5.3-Flash@run2"
+  },
+  {
+   "key": "T3VP_0013@GLM-5.3-Flash@run2"
+  },
+  {
+   "key": "T3VP_0014@GLM-5.3-Flash@run2"
+  },
+  {
+   "key": "T3VP_0015@GLM-5.3-Flash@run2"
+  },
+  {
+   "key": "T3VP_0016@GLM-5.3-Flash@run2"
+  },
+  {
+   "key": "T3VP_0017@GLM-5.3-Flash@run2"
+  },
+  {
+   "key": "T3VP_0018@GLM-5.3-Flash@run2"
+  },
+  {
+   "key": "T3VP_0019@GLM-5.3-Flash@run2"
+  },
+  {
+   "key": "T3VP_0020@GLM-5.3-Flash@run2"
+  },
+  {
+   "key": "T3VP_0001@GLM-5.3-Flash@run3"
+  },
+  {
+   "key": "T3VP_0002@GLM-5.3-Flash@run3"
+  },
+  {
+   "key": "T3VP_0003@GLM-5.3-Flash@run3"
+  },
+  {
+   "key": "T3VP_0004@GLM-5.3-Flash@run3"
+  },
+  {
+   "key": "T3VP_0005@GLM-5.3-Flash@run3"
+  },
+  {
+   "key": "T3VP_0006@GLM-5.3-Flash@run3"
+  },
+  {
+   "key": "T3VP_0007@GLM-5.3-Flash@run3"
+  },
+  {
+   "key": "T3VP_0008@GLM-5.3-Flash@run3"
+  },
+  {
+   "key": "T3VP_0009@GLM-5.3-Flash@run3"
+  },
+  {
+   "key": "T3VP_0010@GLM-5.3-Flash@run3"
+  },
+  {
+   "key": "T3VP_0011@GLM-5.3-Flash@run3"
+  },
+  {
+   "key": "T3VP_0012@GLM-5.3-Flash@run3"
+  },
+  {
+   "key": "T3VP_0013@GLM-5.3-Flash@run3"
+  },
+  {
+   "key": "T3VP_0014@GLM-5.3-Flash@run3"
+  },
+  {
+   "key": "T3VP_0015@GLM-5.3-Flash@run3"
+  },
+  {
+   "key": "T3VP_0016@GLM-5.3-Flash@run3"
+  },
+  {
+   "key": "T3VP_0017@GLM-5.3-Flash@run3"
+  },
+  {
+   "key": "T3VP_0018@GLM-5.3-Flash@run3"
+  },
+  {
+   "key": "T3VP_0019@GLM-5.3-Flash@run3"
+  },
+  {
+   "key": "T3VP_0020@GLM-5.3-Flash@run3"
+  },
+  {
+   "key": "T3VP_0001@GLM-5.3-Flash@run4"
+  },
+  {
+   "key": "T3VP_0002@GLM-5.3-Flash@run4"
+  },
+  {
+   "key": "T3VP_0003@GLM-5.3-Flash@run4"
+  },
+  {
+   "key": "T3VP_0004@GLM-5.3-Flash@run4"
+  },
+  {
+   "key": "T3VP_0005@GLM-5.3-Flash@run4"
+  },
+  {
+   "key": "T3VP_0006@GLM-5.3-Flash@run4"
+  },
+  {
+   "key": "T3VP_0007@GLM-5.3-Flash@run4"
+  },
+  {
+   "key": "T3VP_0008@GLM-5.3-Flash@run4"
+  },
+  {
+   "key": "T3VP_0009@GLM-5.3-Flash@run4"
+  },
+  {
+   "key": "T3VP_0010@GLM-5.3-Flash@run4"
+  },
+  {
+   "key": "T3VP_0011@GLM-5.3-Flash@run4"
+  },
+  {
+   "key": "T3VP_0012@GLM-5.3-Flash@run4"
+  },
+  {
+   "key": "T3VP_0013@GLM-5.3-Flash@run4"
+  },
+  {
+   "key": "T3VP_0014@GLM-5.3-Flash@run4"
+  },
+  {
+   "key": "T3VP_0015@GLM-5.3-Flash@run4"
+  },
+  {
+   "key": "T3VP_0016@GLM-5.3-Flash@run4"
+  },
+  {
+   "key": "T3VP_0017@GLM-5.3-Flash@run4"
+  },
+  {
+   "key": "T3VP_0018@GLM-5.3-Flash@run4"
+  },
+  {
+   "key": "T3VP_0019@GLM-5.3-Flash@run4"
+  },
+  {
+   "key": "T3VP_0020@GLM-5.3-Flash@run4"
+  },
+  {
+   "key": "T3VP_0001@GPT-6-Astra@run1"
+  },
+  {
+   "key": "T3VP_0002@GPT-6-Astra@run1"
+  },
+  {
+   "key": "T3VP_0003@GPT-6-Astra@run1"
+  },
+  {
+   "key": "T3VP_0004@GPT-6-Astra@run1"
+  },
+  {
+   "key": "T3VP_0005@GPT-6-Astra@run1"
+  },
+  {
+   "key": "T3VP_0006@GPT-6-Astra@run1"
+  },
+  {
+   "key": "T3VP_0007@GPT-6-Astra@run1"
+  },
+  {
+   "key": "T3VP_0008@GPT-6-Astra@run1"
+  },
+  {
+   "key": "T3VP_0009@GPT-6-Astra@run1"
+  },
+  {
+   "key": "T3VP_0010@GPT-6-Astra@run1"
+  },
+  {
+   "key": "T3VP_0011@GPT-6-Astra@run1"
+  },
+  {
+   "key": "T3VP_0012@GPT-6-Astra@run1"
+  },
+  {
+   "key": "T3VP_0013@GPT-6-Astra@run1"
+  },
+  {
+   "key": "T3VP_0014@GPT-6-Astra@run1"
+  },
+  {
+   "key": "T3VP_0015@GPT-6-Astra@run1"
+  },
+  {
+   "key": "T3VP_0016@GPT-6-Astra@run1"
+  },
+  {
+   "key": "T3VP_0017@GPT-6-Astra@run1"
+  },
+  {
+   "key": "T3VP_0018@GPT-6-Astra@run1"
+  },
+  {
+   "key": "T3VP_0019@GPT-6-Astra@run1"
+  },
+  {
+   "key": "T3VP_0020@GPT-6-Astra@run1"
+  },
+  {
+   "key": "T3VP_0001@GPT-6-Astra@run2"
+  },
+  {
+   "key": "T3VP_0002@GPT-6-Astra@run2"
+  },
+  {
+   "key": "T3VP_0003@GPT-6-Astra@run2"
+  },
+  {
+   "key": "T3VP_0004@GPT-6-Astra@run2"
+  },
+  {
+   "key": "T3VP_0005@GPT-6-Astra@run2"
+  },
+  {
+   "key": "T3VP_0006@GPT-6-Astra@run2"
+  },
+  {
+   "key": "T3VP_0007@GPT-6-Astra@run2"
+  },
+  {
+   "key": "T3VP_0008@GPT-6-Astra@run2"
+  },
+  {
+   "key": "T3VP_0009@GPT-6-Astra@run2"
+  },
+  {
+   "key": "T3VP_0010@GPT-6-Astra@run2"
+  },
+  {
+   "key": "T3VP_0011@GPT-6-Astra@run2"
+  },
+  {
+   "key": "T3VP_0012@GPT-6-Astra@run2"
+  },
+  {
+   "key": "T3VP_0013@GPT-6-Astra@run2"
+  },
+  {
+   "key": "T3VP_0014@GPT-6-Astra@run2"
+  },
+  {
+   "key": "T3VP_0015@GPT-6-Astra@run2"
+  },
+  {
+   "key": "T3VP_0016@GPT-6-Astra@run2"
+  },
+  {
+   "key": "T3VP_0017@GPT-6-Astra@run2"
+  },
+  {
+   "key": "T3VP_0018@GPT-6-Astra@run2"
+  },
+  {
+   "key": "T3VP_0019@GPT-6-Astra@run2"
+  },
+  {
+   "key": "T3VP_0020@GPT-6-Astra@run2"
+  },
+  {
+   "key": "T3VP_0001@GPT-6-Astra@run3"
+  },
+  {
+   "key": "T3VP_0002@GPT-6-Astra@run3"
+  },
+  {
+   "key": "T3VP_0003@GPT-6-Astra@run3"
+  },
+  {
+   "key": "T3VP_0004@GPT-6-Astra@run3"
+  },
+  {
+   "key": "T3VP_0005@GPT-6-Astra@run3"
+  },
+  {
+   "key": "T3VP_0006@GPT-6-Astra@run3"
+  },
+  {
+   "key": "T3VP_0007@GPT-6-Astra@run3"
+  },
+  {
+   "key": "T3VP_0008@GPT-6-Astra@run3"
+  },
+  {
+   "key": "T3VP_0009@GPT-6-Astra@run3"
+  },
+  {
+   "key": "T3VP_0010@GPT-6-Astra@run3"
+  },
+  {
+   "key": "T3VP_0011@GPT-6-Astra@run3"
+  },
+  {
+   "key": "T3VP_0012@GPT-6-Astra@run3"
+  },
+  {
+   "key": "T3VP_0013@GPT-6-Astra@run3"
+  },
+  {
+   "key": "T3VP_0014@GPT-6-Astra@run3"
+  },
+  {
+   "key": "T3VP_0015@GPT-6-Astra@run3"
+  },
+  {
+   "key": "T3VP_0016@GPT-6-Astra@run3"
+  },
+  {
+   "key": "T3VP_0017@GPT-6-Astra@run3"
+  },
+  {
+   "key": "T3VP_0018@GPT-6-Astra@run3"
+  },
+  {
+   "key": "T3VP_0019@GPT-6-Astra@run3"
+  },
+  {
+   "key": "T3VP_0020@GPT-6-Astra@run3"
+  },
+  {
+   "key": "T3VP_0001@GPT-6-Astra@run4"
+  },
+  {
+   "key": "T3VP_0002@GPT-6-Astra@run4"
+  },
+  {
+   "key": "T3VP_0003@GPT-6-Astra@run4"
+  },
+  {
+   "key": "T3VP_0004@GPT-6-Astra@run4"
+  },
+  {
+   "key": "T3VP_0005@GPT-6-Astra@run4"
+  },
+  {
+   "key": "T3VP_0006@GPT-6-Astra@run4"
+  },
+  {
+   "key": "T3VP_0007@GPT-6-Astra@run4"
+  },
+  {
+   "key": "T3VP_0008@GPT-6-Astra@run4"
+  },
+  {
+   "key": "T3VP_0009@GPT-6-Astra@run4"
+  },
+  {
+   "key": "T3VP_0010@GPT-6-Astra@run4"
+  },
+  {
+   "key": "T3VP_0011@GPT-6-Astra@run4"
+  },
+  {
+   "key": "T3VP_0012@GPT-6-Astra@run4"
+  },
+  {
+   "key": "T3VP_0013@GPT-6-Astra@run4"
+  },
+  {
+   "key": "T3VP_0014@GPT-6-Astra@run4"
+  },
+  {
+   "key": "T3VP_0015@GPT-6-Astra@run4"
+  },
+  {
+   "key": "T3VP_0016@GPT-6-Astra@run4"
+  },
+  {
+   "key": "T3VP_0017@GPT-6-Astra@run4"
+  },
+  {
+   "key": "T3VP_0018@GPT-6-Astra@run4"
+  },
+  {
+   "key": "T3VP_0019@GPT-6-Astra@run4"
+  },
+  {
+   "key": "T3VP_0020@GPT-6-Astra@run4"
+  },
+  {
+   "key": "T3VP_0001@Gemini-3.8-Flash@run1"
+  },
+  {
+   "key": "T3VP_0002@Gemini-3.8-Flash@run1"
+  },
+  {
+   "key": "T3VP_0003@Gemini-3.8-Flash@run1"
+  },
+  {
+   "key": "T3VP_0004@Gemini-3.8-Flash@run1"
+  },
+  {
+   "key": "T3VP_0005@Gemini-3.8-Flash@run1"
+  },
+  {
+   "key": "T3VP_0006@Gemini-3.8-Flash@run1"
+  },
+  {
+   "key": "T3VP_0007@Gemini-3.8-Flash@run1"
+  },
+  {
+   "key": "T3VP_0008@Gemini-3.8-Flash@run1"
+  },
+  {
+   "key": "T3VP_0009@Gemini-3.8-Flash@run1"
+  },
+  {
+   "key": "T3VP_0010@Gemini-3.8-Flash@run1"
+  },
+  {
+   "key": "T3VP_0011@Gemini-3.8-Flash@run1"
+  },
+  {
+   "key": "T3VP_0012@Gemini-3.8-Flash@run1"
+  },
+  {
+   "key": "T3VP_0013@Gemini-3.8-Flash@run1"
+  },
+  {
+   "key": "T3VP_0014@Gemini-3.8-Flash@run1"
+  },
+  {
+   "key": "T3VP_0015@Gemini-3.8-Flash@run1"
+  },
+  {
+   "key": "T3VP_0016@Gemini-3.8-Flash@run1"
+  },
+  {
+   "key": "T3VP_0017@Gemini-3.8-Flash@run1"
+  },
+  {
+   "key": "T3VP_0018@Gemini-3.8-Flash@run1"
+  },
+  {
+   "key": "T3VP_0019@Gemini-3.8-Flash@run1"
+  },
+  {
+   "key": "T3VP_0020@Gemini-3.8-Flash@run1"
+  },
+  {
+   "key": "T3VP_0001@Gemini-3.8-Flash@run2"
+  },
+  {
+   "key": "T3VP_0002@Gemini-3.8-Flash@run2"
+  },
+  {
+   "key": "T3VP_0003@Gemini-3.8-Flash@run2"
+  },
+  {
+   "key": "T3VP_0004@Gemini-3.8-Flash@run2"
+  },
+  {
+   "key": "T3VP_0005@Gemini-3.8-Flash@run2"
+  },
+  {
+   "key": "T3VP_0006@Gemini-3.8-Flash@run2"
+  },
+  {
+   "key": "T3VP_0007@Gemini-3.8-Flash@run2"
+  },
+  {
+   "key": "T3VP_0008@Gemini-3.8-Flash@run2"
+  },
+  {
+   "key": "T3VP_0009@Gemini-3.8-Flash@run2"
+  },
+  {
+   "key": "T3VP_0010@Gemini-3.8-Flash@run2"
+  },
+  {
+   "key": "T3VP_0011@Gemini-3.8-Flash@run2"
+  },
+  {
+   "key": "T3VP_0012@Gemini-3.8-Flash@run2"
+  },
+  {
+   "key": "T3VP_0013@Gemini-3.8-Flash@run2"
+  },
+  {
+   "key": "T3VP_0014@Gemini-3.8-Flash@run2"
+  },
+  {
+   "key": "T3VP_0015@Gemini-3.8-Flash@run2"
+  },
+  {
+   "key": "T3VP_0016@Gemini-3.8-Flash@run2"
+  },
+  {
+   "key": "T3VP_0017@Gemini-3.8-Flash@run2"
+  },
+  {
+   "key": "T3VP_0018@Gemini-3.8-Flash@run2"
+  },
+  {
+   "key": "T3VP_0019@Gemini-3.8-Flash@run2"
+  },
+  {
+   "key": "T3VP_0020@Gemini-3.8-Flash@run2"
+  },
+  {
+   "key": "T3VP_0001@Gemini-3.8-Flash@run3"
+  },
+  {
+   "key": "T3VP_0002@Gemini-3.8-Flash@run3"
+  },
+  {
+   "key": "T3VP_0003@Gemini-3.8-Flash@run3"
+  },
+  {
+   "key": "T3VP_0004@Gemini-3.8-Flash@run3"
+  },
+  {
+   "key": "T3VP_0005@Gemini-3.8-Flash@run3"
+  },
+  {
+   "key": "T3VP_0006@Gemini-3.8-Flash@run3"
+  },
+  {
+   "key": "T3VP_0007@Gemini-3.8-Flash@run3"
+  },
+  {
+   "key": "T3VP_0008@Gemini-3.8-Flash@run3"
+  },
+  {
+   "key": "T3VP_0009@Gemini-3.8-Flash@run3"
+  },
+  {
+   "key": "T3VP_0010@Gemini-3.8-Flash@run3"
+  },
+  {
+   "key": "T3VP_0011@Gemini-3.8-Flash@run3"
+  },
+  {
+   "key": "T3VP_0012@Gemini-3.8-Flash@run3"
+  },
+  {
+   "key": "T3VP_0013@Gemini-3.8-Flash@run3"
+  },
+  {
+   "key": "T3VP_0014@Gemini-3.8-Flash@run3"
+  },
+  {
+   "key": "T3VP_0015@Gemini-3.8-Flash@run3"
+  },
+  {
+   "key": "T3VP_0016@Gemini-3.8-Flash@run3"
+  },
+  {
+   "key": "T3VP_0017@Gemini-3.8-Flash@run3"
+  },
+  {
+   "key": "T3VP_0018@Gemini-3.8-Flash@run3"
+  },
+  {
+   "key": "T3VP_0019@Gemini-3.8-Flash@run3"
+  },
+  {
+   "key": "T3VP_0020@Gemini-3.8-Flash@run3"
+  },
+  {
+   "key": "T3VP_0001@Gemini-3.8-Flash@run4"
+  },
+  {
+   "key": "T3VP_0002@Gemini-3.8-Flash@run4"
+  },
+  {
+   "key": "T3VP_0003@Gemini-3.8-Flash@run4"
+  },
+  {
+   "key": "T3VP_0004@Gemini-3.8-Flash@run4"
+  },
+  {
+   "key": "T3VP_0005@Gemini-3.8-Flash@run4"
+  },
+  {
+   "key": "T3VP_0006@Gemini-3.8-Flash@run4"
+  },
+  {
+   "key": "T3VP_0007@Gemini-3.8-Flash@run4"
+  },
+  {
+   "key": "T3VP_0008@Gemini-3.8-Flash@run4"
+  },
+  {
+   "key": "T3VP_0009@Gemini-3.8-Flash@run4"
+  },
+  {
+   "key": "T3VP_0010@Gemini-3.8-Flash@run4"
+  },
+  {
+   "key": "T3VP_0011@Gemini-3.8-Flash@run4"
+  },
+  {
+   "key": "T3VP_0012@Gemini-3.8-Flash@run4"
+  },
+  {
+   "key": "T3VP_0013@Gemini-3.8-Flash@run4"
+  },
+  {
+   "key": "T3VP_0014@Gemini-3.8-Flash@run4"
+  },
+  {
+   "key": "T3VP_0015@Gemini-3.8-Flash@run4"
+  },
+  {
+   "key": "T3VP_0016@Gemini-3.8-Flash@run4"
+  },
+  {
+   "key": "T3VP_0017@Gemini-3.8-Flash@run4"
+  },
+  {
+   "key": "T3VP_0018@Gemini-3.8-Flash@run4"
+  },
+  {
+   "key": "T3VP_0019@Gemini-3.8-Flash@run4"
+  },
+  {
+   "key": "T3VP_0020@Gemini-3.8-Flash@run4"
+  },
+  {
+   "key": "T3VP_0001@Grok-4.6@run1"
+  },
+  {
+   "key": "T3VP_0002@Grok-4.6@run1"
+  },
+  {
+   "key": "T3VP_0003@Grok-4.6@run1"
+  },
+  {
+   "key": "T3VP_0004@Grok-4.6@run1"
+  },
+  {
+   "key": "T3VP_0005@Grok-4.6@run1"
+  },
+  {
+   "key": "T3VP_0006@Grok-4.6@run1"
+  },
+  {
+   "key": "T3VP_0007@Grok-4.6@run1"
+  },
+  {
+   "key": "T3VP_0008@Grok-4.6@run1"
+  },
+  {
+   "key": "T3VP_0009@Grok-4.6@run1"
+  },
+  {
+   "key": "T3VP_0010@Grok-4.6@run1"
+  },
+  {
+   "key": "T3VP_0011@Grok-4.6@run1"
+  },
+  {
+   "key": "T3VP_0012@Grok-4.6@run1"
+  },
+  {
+   "key": "T3VP_0013@Grok-4.6@run1"
+  },
+  {
+   "key": "T3VP_0014@Grok-4.6@run1"
+  },
+  {
+   "key": "T3VP_0015@Grok-4.6@run1"
+  },
+  {
+   "key": "T3VP_0016@Grok-4.6@run1"
+  },
+  {
+   "key": "T3VP_0017@Grok-4.6@run1"
+  },
+  {
+   "key": "T3VP_0018@Grok-4.6@run1"
+  },
+  {
+   "key": "T3VP_0019@Grok-4.6@run1"
+  },
+  {
+   "key": "T3VP_0020@Grok-4.6@run1"
+  },
+  {
+   "key": "T3VP_0001@Grok-4.6@run2"
+  },
+  {
+   "key": "T3VP_0002@Grok-4.6@run2"
+  },
+  {
+   "key": "T3VP_0003@Grok-4.6@run2"
+  },
+  {
+   "key": "T3VP_0004@Grok-4.6@run2"
+  },
+  {
+   "key": "T3VP_0005@Grok-4.6@run2"
+  },
+  {
+   "key": "T3VP_0006@Grok-4.6@run2"
+  },
+  {
+   "key": "T3VP_0007@Grok-4.6@run2"
+  },
+  {
+   "key": "T3VP_0008@Grok-4.6@run2"
+  },
+  {
+   "key": "T3VP_0009@Grok-4.6@run2"
+  },
+  {
+   "key": "T3VP_0010@Grok-4.6@run2"
+  },
+  {
+   "key": "T3VP_0011@Grok-4.6@run2"
+  },
+  {
+   "key": "T3VP_0012@Grok-4.6@run2"
+  },
+  {
+   "key": "T3VP_0013@Grok-4.6@run2"
+  },
+  {
+   "key": "T3VP_0014@Grok-4.6@run2"
+  },
+  {
+   "key": "T3VP_0015@Grok-4.6@run2"
+  },
+  {
+   "key": "T3VP_0016@Grok-4.6@run2"
+  },
+  {
+   "key": "T3VP_0017@Grok-4.6@run2"
+  },
+  {
+   "key": "T3VP_0018@Grok-4.6@run2"
+  },
+  {
+   "key": "T3VP_0019@Grok-4.6@run2"
+  },
+  {
+   "key": "T3VP_0020@Grok-4.6@run2"
+  },
+  {
+   "key": "T3VP_0001@Grok-4.6@run3"
+  },
+  {
+   "key": "T3VP_0002@Grok-4.6@run3"
+  },
+  {
+   "key": "T3VP_0003@Grok-4.6@run3"
+  },
+  {
+   "key": "T3VP_0004@Grok-4.6@run3"
+  },
+  {
+   "key": "T3VP_0005@Grok-4.6@run3"
+  },
+  {
+   "key": "T3VP_0006@Grok-4.6@run3"
+  },
+  {
+   "key": "T3VP_0007@Grok-4.6@run3"
+  },
+  {
+   "key": "T3VP_0008@Grok-4.6@run3"
+  },
+  {
+   "key": "T3VP_0009@Grok-4.6@run3"
+  },
+  {
+   "key": "T3VP_0010@Grok-4.6@run3"
+  },
+  {
+   "key": "T3VP_0011@Grok-4.6@run3"
+  },
+  {
+   "key": "T3VP_0012@Grok-4.6@run3"
+  },
+  {
+   "key": "T3VP_0013@Grok-4.6@run3"
+  },
+  {
+   "key": "T3VP_0014@Grok-4.6@run3"
+  },
+  {
+   "key": "T3VP_0015@Grok-4.6@run3"
+  },
+  {
+   "key": "T3VP_0016@Grok-4.6@run3"
+  },
+  {
+   "key": "T3VP_0017@Grok-4.6@run3"
+  },
+  {
+   "key": "T3VP_0018@Grok-4.6@run3"
+  },
+  {
+   "key": "T3VP_0019@Grok-4.6@run3"
+  },
+  {
+   "key": "T3VP_0020@Grok-4.6@run3"
+  },
+  {
+   "key": "T3VP_0001@Grok-4.6@run4"
+  },
+  {
+   "key": "T3VP_0002@Grok-4.6@run4"
+  },
+  {
+   "key": "T3VP_0003@Grok-4.6@run4"
+  },
+  {
+   "key": "T3VP_0004@Grok-4.6@run4"
+  },
+  {
+   "key": "T3VP_0005@Grok-4.6@run4"
+  },
+  {
+   "key": "T3VP_0006@Grok-4.6@run4"
+  },
+  {
+   "key": "T3VP_0007@Grok-4.6@run4"
+  },
+  {
+   "key": "T3VP_0008@Grok-4.6@run4"
+  },
+  {
+   "key": "T3VP_0009@Grok-4.6@run4"
+  },
+  {
+   "key": "T3VP_0010@Grok-4.6@run4"
+  },
+  {
+   "key": "T3VP_0011@Grok-4.6@run4"
+  },
+  {
+   "key": "T3VP_0012@Grok-4.6@run4"
+  },
+  {
+   "key": "T3VP_0013@Grok-4.6@run4"
+  },
+  {
+   "key": "T3VP_0014@Grok-4.6@run4"
+  },
+  {
+   "key": "T3VP_0015@Grok-4.6@run4"
+  },
+  {
+   "key": "T3VP_0016@Grok-4.6@run4"
+  },
+  {
+   "key": "T3VP_0017@Grok-4.6@run4"
+  },
+  {
+   "key": "T3VP_0018@Grok-4.6@run4"
+  },
+  {
+   "key": "T3VP_0019@Grok-4.6@run4"
+  },
+  {
+   "key": "T3VP_0020@Grok-4.6@run4"
+  }
+ ],
+ "task2_axis_marginals": {
+  "pass": {
+   "chain_pass": 180,
+   "mechanism_correct": 180,
+   "mediator_correct": 180,
+   "causal_role_order_correct": 180,
+   "intervention_outcome_link_correct": 180,
+   "no_material_contradiction": 180
+  },
+  "fail": {
+   "chain_pass": 0,
+   "mechanism_correct": 35,
+   "mediator_correct": 37,
+   "causal_role_order_correct": 11,
+   "intervention_outcome_link_correct": 101,
+   "no_material_contradiction": 70
+  }
+ },
+ "task3_axis_marginals": {
+  "mechanism_correct": 371,
+  "mediator_correct": 345,
+  "causal_role_order_correct": 322,
+  "intervention_outcome_link_correct": 408,
+  "no_material_contradiction": 384
+ },
+ "task3_chain_pass_orig": 291
+}

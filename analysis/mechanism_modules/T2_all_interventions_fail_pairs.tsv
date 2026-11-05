@@ -1,0 +1,3 @@
+task	pair_id	tf	target	units	n	gold_mediator
+2	PAIR_ESR1_G0S2_02097c71b743	ESR1	G0S2	1	24	ERBS H3K27ac-positive enhancer state disrupted by SID4X-dCas9-KRAB/SIN3A-HDAC recruitment
+2	PAIR_ESR1_MMP17_c7ee7d547be2	ESR1	MMP17	1	24	ERBS H3K27ac-positive enhancer state disrupted by SID4X-dCas9-KRAB/SIN3A-HDAC recruitment

@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "completed": [
+    "integrity",
+    "release",
+    "modules",
+    "accepted_sets",
+    "judge_pilot",
+    "judge_gemini",
+    "bootstrap_primary",
+    "bootstrap_pair_equal",
+    "figures_modules",
+    "figure_intervals"
+  ],
+  "original_records_verified": 9216,
+  "main_table_discrepancies": [],
+  "model_API_calls": 0,
+  "biological_or_human_validation": false,
+  "archived_analysis_summaries_reproduced": true,
+  "all_primary_bootstrap_arrays_reproduced": true,
+  "supplement_appendices": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M"
+  ],
+  "supplement_file_mappings": 131,
+  "frozen_experiment_files_verified": 636
+}

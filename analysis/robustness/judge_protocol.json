@@ -1,0 +1,20 @@
+{
+  "seed": 20261105,
+  "total_population": 5112,
+  "sample_size": 120,
+  "per_system_task": 10,
+  "sampling": "SRS without replacement within all nonempty joint strata (mechanism, mediator, causal-role, chain); deterministic allocation before sampling",
+  "allocation": "one record per nonempty stratum, then greedily maximize N_h/(n_h+1)",
+  "estimator": "inverse-inclusion weighted; each stratum weight N_h/n_h",
+  "blinding": "case IDs and random order; evaluated system, run, old judge labels and unit IDs not shown",
+  "rubric": "verbatim released five-axis reasoning guide; gold references supplied",
+  "configured_new_judge": "gpt-6.1-terra",
+  "runtime": "independent Codex sub-agent with no conversation-history fork; not original provider API campaign",
+  "reliability_scope": "cross-model sensitivity, not biological correctness; same GPT model family for some comparisons",
+  "packet_sha256": "30ec4c86a9857263d40c51d2cace4261e2579f814dd0774fcfe0c3d3e2ed35c7",
+  "status": "completed",
+  "completed_cases": 120,
+  "judgment_batches": 6,
+  "execution_date_client": "2026-11-05",
+  "rubric_sha256": "f95c2b83d2ba50904aa37e21c9c9c6cd5bfc22e692988bfe9c9881a15b8effde"
+}

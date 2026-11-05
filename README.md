@@ -1,181 +1,85 @@
-# MeBench: Benchmarking Biological Mechanism Reasoning in Language Models through TF–Gene Regulation
+# MeBench
 
-<p align="center">
-  <img src="paper/figs/Fig_1-01.png" alt="MeBench overview" width="720"/>
-</p>
+**Benchmarking biological mechanism reasoning in language models through TF-to-gene regulation.**
 
-<p align="center"><em>MeBench construction and evaluation: 171 curated TF–gene pairs, 193 forward-reasoning units, and 20 inverse-intervention units, assessed with a shared five-axis mechanistic rubric.</em></p>
+MeBench evaluates whether a model identifies experimentally supported regulatory dependencies and uses the relevant components and functional roles to explain perturbation responses. It combines mechanism classification, forward perturbation reasoning and inverse intervention reasoning.
 
-MeBench is a benchmark for evaluating the ability of language models to reason about biological mechanisms underlying transcription factor (TF)–gene regulation. Beyond identifying molecular entities and their associations, MeBench assesses whether models can recover the regulatory relationships and mechanistic dependencies supported by experimental evidence.
+[Current manuscript](paper/manuscript/main.pdf) · [Supplementary PDF, Appendices A–M](paper/supplement/MeBench_appendices_A-M.pdf) · [Supplement data index](docs/SUPPLEMENT_INDEX.md) · [Reproduction guide](docs/REPRODUCIBILITY.md)
 
-This repository provides the complete evaluation artifacts, including benchmark inputs, prompts, evaluator gold standards, scoring implementation, model responses, adjudication records, and reproducibility scripts.
+## Benchmark and released records
 
-## Overview
+| Task | Evaluation target | Units | Distinct TF–gene pairs | Archived responses |
+|---|---|---:|---:|---:|
+| 1 | Mechanism classification | 171 | 171 | 4,104 |
+| 2 | Forward direction and mechanistic explanation | 193 | 168 | 4,632 |
+| 3 | Inverse intervention and mechanistic explanation | 20 | 9 | 480 |
 
-MeBench evaluates biological mechanism reasoning through three benchmark tasks. The evaluation considers not only whether a model identifies relevant biological components, but also whether it correctly interprets their regulatory relationships and mechanistic dependencies.
+Six systems were evaluated in four recorded runs. Runs are repeated administrations of the protocol, not independent biological replicates. Biomni has tool access; the other five systems use closed-book prompts.
 
-The released artifacts support:
+The v3.7.0 experimental inputs, reference annotations, original predictions, original judgments and published primary results are preserved. Post-freeze analyses are separate derived artifacts. The release includes evaluator-only references for inspection; those fields must remain withheld when administering the corresponding benchmark task.
 
-- Reproduction of benchmark scores using the frozen evaluation bundle.
-- Inspection of model predictions and verbatim responses.
-- Examination of five-axis adjudication results.
-- Analysis of performance across systems, tasks, and repeated runs.
-- Verification of reported results through checksums and audit records.
+## Quick start
 
-## Benchmark and Evaluation
+Use Python 3.12 or newer for the complete analysis environment.
 
-### Evaluated Systems
-
-We evaluate six systems under two settings:
-
-| Setting                     | Systems                                                                   |
-| --------------------------- | ------------------------------------------------------------------------- |
-| Closed-book language models | GPT-6-Astra, Claude-Sonnet-5.5, Gemini-3.8-Flash, GLM-5.3-Flash, Grok-4.6 |
-| Tool-augmented agent        | Biomni                                                                    |
-
-The five closed-book systems are evaluated using byte-identical prompts at temperature 0. Biomni is evaluated as a tool-augmented agent.
-
-Each system has four recorded runs for each task. Original model responses and run-level evaluation records are retained in the repository.
-
-### Evaluation Protocol
-
-The benchmark uses a structured evaluation protocol to assess model responses against evaluator-defined reference mechanisms.
-
-The evaluation artifacts include:
-
-- Benchmark inputs and evaluator-only gold standards.
-- A released scoring implementation.
-- Five-axis adjudication records.
-- Run-level scores and consolidated evaluation tables.
-- A separately disclosed scoring amendment for the regulatory-RNA knockdown/inhibition alias.
-
-Two family-level failure measures are reported separately:
-
-1. **Causal-order-axis failure:** failure to recover the correct causal ordering.
-2. **Full five-axis chain failure:** failure under the complete five-axis evaluation criterion.
-
-These measures capture distinct aspects of mechanistic reasoning and should not be treated as interchangeable.
-
-## Quick Start
-
-Clone the repository:
-
-```
+```bash
 git clone https://github.com/Max-YUAN-22/MeBench.git
 cd MeBench
+python3 scripts/verify_integrity.py
+python3 scripts/reproduce_all.py --core-only
 ```
 
-### 1. Verify Artifact Integrity
+The core command requires only the Python standard library. It checks all 9,216 archived records, recomputes the 36 main-table values, and reproduces module, accepted-set and archived judge analyses. It makes **no model API calls**.
 
-Verify the SHA-256 checksums of the released artifacts:
+For bootstrap analyses and supplementary figures:
 
-```
-shasum -a 256 -c MANIFEST.sha256
-```
-
-### 2. Score a Model Run
-
-The released scorer can be used to evaluate an individual prediction file:
-
-```
-python3 evaluation_v3.7.0/scoring/score_model_outputs.py \
-    --bundle evaluation_v3.7.0 \
-    --task task1 \
-    --predictions runs/claude/run1/task1_predictions.tsv \
-    --output /tmp/x.json
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -r requirements.txt
+python3 scripts/reproduce_all.py --figures
 ```
 
-The example above reproduces the scoring procedure for Claude's first run on Task 1. Other systems, runs, and tasks can be evaluated by specifying the corresponding prediction files and task identifiers.
+Logs and a machine-readable report are written to `build/reproduction/`. [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) documents each individual entry point and manuscript compilation.
 
-A complete worked example — prompt, input unit, model response, adjudication record, and gold annotation for one unit (Task 2, T2U_0010) — is provided under `examples/T2U_0010_worked_example/`.
+## Repository layout
 
-### 3. Reproduce Aggregate Results
+| Path | Contents |
+|---|---|
+| [`evaluation_v3.7.0/`](evaluation_v3.7.0/) | Frozen task inputs, evaluator-only labels/metadata, scorer and templates |
+| [`prompts/`](prompts/) | Released model prompts and prompt checksums |
+| [`runs/`](runs/) | Original responses, predictions, judgments and three consolidated MASTER tables |
+| [`results/`](results/) | Published primary values and archived aggregate statistics |
+| [`scoring_amendment/`](scoring_amendment/) | Separately disclosed RNA matching amendment |
+| [`analysis/release_audit/`](analysis/release_audit/) | Recomputed record audit, main table and diagnostic summaries |
+| [`analysis/mechanism_modules/`](analysis/mechanism_modules/) | Module-level records, contrasts, shared failures and adjudication flags |
+| [`analysis/robustness/`](analysis/robustness/) | Independent-agent pilot, Task 3 accepted sets and primary cluster bootstrap arrays/tables |
+| [`sensitivity/`](sensitivity/) | Author-supplied Gemini reassessment and pair-equal analyses, with raw packets and reviewed corrections |
+| [`paper/manuscript/`](paper/manuscript/) | Current LaTeX source, figures, bibliography and complete PDF |
+| [`paper/supplement/`](paper/supplement/) | Standalone current supplement and preserved historical supplementary HTML |
+| [`scripts/`](scripts/) | Supported reproduction scripts; original workspace-dependent scripts are in `scripts/legacy/` |
+| [`docs/`](docs/) | Data, scoring, provenance, supplement mapping and release notes |
 
-To recompute the published aggregate statistics:
+Original files remaining in the root of `analysis/` are archived release audits. Historical HTML and JSON may use earlier conventions; use the [current data index](docs/SUPPLEMENT_INDEX.md) and [scoring definitions](docs/SCORING.md) to identify the applicable result.
 
-```
-python3 scripts/compute_final_stats.py
-```
+## Interpretation and validation boundaries
 
-To perform the full per-run recomputation and audit:
+- Mechanism references describe specific experimental contexts. The compressed task inputs do not establish universal regulatory mechanisms or unique inverse interventions.
+- Task 2/3 headline scores are **joint** answer-and-chain metrics. Their protocol-specific F1 implementations differ from ordinary answer-only macro-F1; exact definitions are in [SCORING.md](docs/SCORING.md).
+- Chain judgments remain preliminary pending blinded expert validation. Automated agreement measures judge/protocol sensitivity, not biological correctness.
+- Task 3 is a targeted 20-unit subset. Only one unit has two annotated accepted labels; singleton sets do not prove unique biological identifiability.
+- Source studies are concentrated. Cluster intervals condition on the frozen labels, judgments and observed runs; small rank differences require care.
 
-```
-python3 scripts/audit_recompute_all.py
-```
+The [sensitivity guide](docs/SENSITIVITY.md) distinguishes the larger Gemini reassessment, the smaller independent-agent pilot, primary unit-weighted joint BAcc and secondary equal-pair chain/joint pass rates.
 
-For the complete verification procedure, see `analysis/audit_report.html`.
+## Integrity and provenance
 
-## Repository Structure
+`MANIFEST.sha256` covers this repository snapshot. `FROZEN_ARTIFACTS.sha256` checks 636 unchanged experimental files against the original release. `MANIFEST.original.sha256` retains the full historical manifest; some documentation and script paths have since changed, so it is a provenance record rather than the current package verifier.
 
-```
-MeBench/
-├── evaluation_v3.7.0/       # Frozen benchmark bundle and released scorer
-├── prompts/                 # Exact prompts used in model evaluations
-├── runs/                    # Raw responses, predictions, adjudications,
-│                            # and per-run scores
-├── results/                 # Consolidated results and derived statistics
-├── analysis/                # Audit records, claim verification,
-│                            # and data provenance
-├── scoring_amendment/       # Disclosed scoring amendment layer
-├── scripts/                 # Reproduction and audit scripts
-├── examples/                # Worked example: one unit through the full pipeline
-├── paper/
-│   └── supplement/          # Supplementary materials and detailed analyses
-├── MANIFEST.sha256          # Artifact integrity manifest
-└── README.md
-```
+The original frozen commit is `d282d75516d5a77a4bca5680037956354828369c`. See [PROVENANCE.md](docs/PROVENANCE.md) and [CHANGELOG.md](CHANGELOG.md).
 
-### Key Artifacts
+## Citation and licenses
 
-| Directory / File     | Description                                                                                                                               |
-| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| `evaluation_v3.7.0/` | Frozen benchmark inputs, evaluator-only gold standards, released scorer, and prediction templates.                                        |
-| `prompts/`           | Exact prompts supplied to the evaluated closed-book systems, together with prompt checksums and audit records.                            |
-| `runs/`              | Per-system and per-run predictions, raw responses, adjudication packets, judgments, and scores.                                           |
-| `results/`           | Main results, five-axis decomposition, joint metrics, per-run statistics, and derivation tables.                                          |
-| `analysis/`          | Audit reports, claim-verification records, causal-order failure enumerations, and data provenance records.                                |
-| `scoring_amendment/` | The disclosed regulatory-RNA knockdown/inhibition alias amendment, implemented as a separate layer without modifying the released scorer. |
-| `paper/supplement/`  | Supplementary tables, worked examples, protocol details, reproducibility materials, and detailed failure analyses.                        |
+Citation metadata and the complete author list are in [CITATION.cff](CITATION.cff). No publication DOI is assigned in this package.
 
-The `runs/` directory also contains consolidated master tables (`MASTER_task1.tsv`, `MASTER_task2.tsv`, and `MASTER_task3.tsv`) and the corresponding data dictionary, providing a unified record of benchmark units, systems, runs, responses, and evaluation judgments.
-
-## Reproducibility and Data Integrity
-
-All released artifacts were frozen on October 16–17, 2026. Their SHA-256 checksums are recorded in `MANIFEST.sha256`.
-
-The release preserves:
-
-- Original model responses and prediction files.
-- Exact evaluation prompts.
-- Frozen benchmark inputs and evaluator gold standards.
-- Run-level adjudication records and scores.
-- Derived statistical results and their underlying data.
-- Audit records documenting discrepancies and corrections.
-
-No post-freeze changes to experimental runs, re-administrations, adjudications, or reported values are incorporated into the frozen release.
-
-The full audit trail and verification records are available under `analysis/`.
-
-## Scoring and Evaluation Notes
-
-All model outputs are evaluated against the canonical matcher according to the disclosed scoring protocol. Outputs that are interpretable but do not satisfy the required output format are scored as incorrect; affected cases are documented in the supplementary materials.
-
-For uninterpretable outputs, the specified re-administration policy permits one additional administration under the identical prompt. Original captures are retained in the corresponding run directories.
-
-The scoring amendment for the regulatory-RNA knockdown/inhibition alias is maintained separately from the released scorer to preserve the original evaluation implementation.
-
-**Adjudication status:** Run-level adjudication records are included for all six systems across all three tasks and four runs. Chain/joint metrics remain preliminary pending blinded human adjudication. The corresponding adjudication packets are provided for independent review. These metrics should be interpreted accordingly.
-
-## License
-
-Code is released under the MIT License (`LICENSE`). Benchmark data and annotations are released under CC BY 4.0.
-
-## Citation
-
-If you use MeBench in your research, please cite the associated paper. The bibliographic information will be provided with the public manuscript release; machine-readable citation metadata is available in `CITATION.cff`.
-
-## Contact
-
-For questions about the benchmark, evaluation protocol, or reproducibility artifacts, please open an issue in this repository, or contact the corresponding author:
-
-**Prof. Haohan Wang** (corresponding author) — School of Information Sciences, University of Illinois Urbana-Champaign — [haohanw@illinois.edu](mailto:haohanw@illinois.edu)
+Code is licensed under [MIT](LICENSE). Benchmark data and annotations are licensed under [CC BY 4.0](DATA_LICENSE.md). Third-party publication content remains subject to its original rights.

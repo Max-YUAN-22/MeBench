@@ -1,0 +1,110 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage{lmodern}
+\usepackage{authblk}
+\usepackage{tabularx,booktabs}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1.0in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{placeins}
+\usepackage{url}
+\setlength{\marginparwidth}{2cm}
+\usepackage[labelfont=bf]{caption}
+
+
+
+\usepackage{amsmath,amssymb}
+
+\newcommand{\junk}[1]{}
+\usepackage{float}
+\let\footnotesize\small
+\setlength{\textfloatsep}{10pt plus 2pt minus 2pt}
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}
+\setlength{\intextsep}{8pt plus 2pt minus 2pt}
+\setlength{\emergencystretch}{2em}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.08}
+\begin{document}
+\thispagestyle{empty}
+
+%\title{RECOMB paper template}
+\title{MeBench: Benchmarking Biological Mechanism Reasoning in Language Models through TF-to-Gene Regulation}
+\setcounter{Maxaffil}{2}
+\author[1]{Haochuan Wang\thanks{%
+These authors contributed equally to this work. Emails:
+Haochuan Wang (\href{mailto:hw106@illinois.edu}{hw106@illinois.edu});
+Tianzuo Yuan (\href{mailto:uc31642@um.edu.mo}{uc31642@um.edu.mo});
+Yurui Li (\href{mailto:yuruil2@illinois.edu}{yuruil2@illinois.edu}).
+}}
+
+\author[2]{Tianzuo Yuan\protect\footnotemark[1]}
+\author[1]{Yurui Li\protect\footnotemark[1]}
+\author[1]{Dehao Wu}
+
+\author[1]{Xiaopeng Yuan}
+\author[1]{Peng Kuang}
+\author[4]{Jingxuan Bao}
+\author[5]{Shizhuo Mu}
+\author[3]{Yang Li}
+\author[1]{Haohan Wang\thanks{Corresponding author. Email: \href{mailto:haohanw@illinois.edu}{haohanw@illinois.edu}.}}
+%\author[1,2,\thanks{Corresponding author. Email: \href{thirteenth@doctorwho.com}{thirteenth@doctorwho.com}}]{}
+\affil[1]{\small School of Information Science, University of Illinois at Urbana-Champaign}
+\affil[2]{\small Faculty of Science, University of Macau}
+\affil[3]{\small Department of Ecology and Evolutionary Biology, University of Michigan, Ann Arbor}
+\affil[4]{\small Brown University}
+\affil[5]{\small Department of Bioengineering, University of Pennsylvania}
+\date{}
+
+\maketitle
+
+\begin{abstract}
+  \input{abstract.tex}
+\end{abstract}
+
+\clearpage
+\section{Introduction}
+  \input{intro.tex}
+   
+\section{Methods}
+  \input{methods.tex}
+%%\section{Evaluation}
+  %\input{evaluation.tex}
+\section{Results}
+  \input{results.tex}
+\FloatBarrier
+\section{Discussion}
+  \input{discussion.tex}
+\clearpage
+\section{Limitations and Conclusion}
+\paragraph{Limitations.}
+  \input{limitations.tex}
+\paragraph{Conclusion.}
+  \input{conclusion.tex}
+\paragraph{Data availability.}
+  \input{data_availability.tex}
+
+\clearpage
+\bibliographystyle{myrecomb}
+
+\bibliography{mybib}
+
+\clearpage
+\appendix
+\begingroup
+\renewcommand{\thepage}{S\arabic{page}}
+\setcounter{page}{1}
+\fontsize{10}{12}\selectfont
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thetable}{S\arabic{table}}
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\input{appendix.tex}
+\input{appendix_robustness.tex}
+\clearpage
+\endgroup
+\end{document}
+

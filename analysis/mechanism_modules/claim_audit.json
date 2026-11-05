@@ -1,0 +1,462 @@
+{
+  "T2_overlap": {
+    "('1', '1')": 3544,
+    "('1', '0')": 792,
+    "('0', '0')": 282,
+    "('0', '1')": 14
+  },
+  "T2U_0022": {
+    "n": 24,
+    "pairs": 1,
+    "units": 1,
+    "chain_pass": 1,
+    "causal_fail": 22,
+    "BHLHE40_named": 0,
+    "direction_correct": 1,
+    "accepted_type_correct": 0,
+    "mediator_pass_role_fail": 18
+  },
+  "T2U_0036": {
+    "n": 24,
+    "pairs": 1,
+    "units": 1,
+    "chain_pass": 0,
+    "causal_fail": 23,
+    "BHLHE40_named": 1,
+    "direction_correct": 24,
+    "accepted_type_correct": 0,
+    "mediator_pass_role_fail": 1
+  },
+  "T2U_0037": {
+    "n": 24,
+    "pairs": 1,
+    "units": 1,
+    "chain_pass": 0,
+    "causal_fail": 23,
+    "BHLHE40_named": 1,
+    "direction_correct": 24,
+    "accepted_type_correct": 0,
+    "mediator_pass_role_fail": 1
+  },
+  "T2U_0038": {
+    "n": 24,
+    "pairs": 1,
+    "units": 1,
+    "chain_pass": 0,
+    "causal_fail": 23,
+    "BHLHE40_named": 1,
+    "direction_correct": 24,
+    "accepted_type_correct": 0,
+    "mediator_pass_role_fail": 1
+  },
+  "T3VP_0002": {
+    "n": 24,
+    "pairs": 1,
+    "units": 1,
+    "chain_pass": 10,
+    "causal_fail": 13,
+    "BHLHE40_named": 24,
+    "direction_correct": 0,
+    "accepted_type_correct": 8,
+    "mediator_pass_role_fail": 12,
+    "types": {
+      "knockdown": 8,
+      "overexpression": 15,
+      "bhlhe40overexpression": 1
+    }
+  },
+  "T3VP_0004": {
+    "n": 24,
+    "pairs": 1,
+    "units": 1,
+    "chain_pass": 0,
+    "causal_fail": 24,
+    "BHLHE40_named": 0,
+    "direction_correct": 0,
+    "accepted_type_correct": 6,
+    "mediator_pass_role_fail": 0,
+    "types": {
+      "overexpression": 17,
+      "agonist_activation": 6,
+      "pparaoverexpression": 1
+    },
+    "Biomni": [
+      {
+        "run": "1",
+        "type_accepted": "1",
+        "mechanism_correct": "0",
+        "mediator_correct": "0",
+        "causal_role_order_correct": "0",
+        "intervention_outcome_link_correct": "1",
+        "no_material_contradiction": "1",
+        "chain_pass": "0"
+      },
+      {
+        "run": "2",
+        "type_accepted": "1",
+        "mechanism_correct": "0",
+        "mediator_correct": "0",
+        "causal_role_order_correct": "0",
+        "intervention_outcome_link_correct": "1",
+        "no_material_contradiction": "1",
+        "chain_pass": "0"
+      },
+      {
+        "run": "3",
+        "type_accepted": "1",
+        "mechanism_correct": "0",
+        "mediator_correct": "0",
+        "causal_role_order_correct": "0",
+        "intervention_outcome_link_correct": "1",
+        "no_material_contradiction": "0",
+        "chain_pass": "0"
+      },
+      {
+        "run": "4",
+        "type_accepted": "1",
+        "mechanism_correct": "0",
+        "mediator_correct": "0",
+        "causal_role_order_correct": "0",
+        "intervention_outcome_link_correct": "1",
+        "no_material_contradiction": "1",
+        "chain_pass": "0"
+      }
+    ]
+  },
+  "PPARA_activation": {
+    "n": 72,
+    "pairs": 3,
+    "units": 3,
+    "chain_pass": 0,
+    "causal_fail": 69,
+    "BHLHE40_named": 3,
+    "direction_correct": 72,
+    "accepted_type_correct": 0,
+    "mediator_pass_role_fail": 3,
+    "systems": {
+      "GPT-6-Astra": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "Claude-Sonnet-5.5": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "Gemini-3.8-Flash": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "GLM-5.3-Flash": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "Grok-4.6": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "Biomni": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      }
+    }
+  },
+  "BHLHE40_depletion": {
+    "n": 72,
+    "pairs": 3,
+    "units": 3,
+    "chain_pass": 23,
+    "causal_fail": 40,
+    "BHLHE40_named": 72,
+    "direction_correct": 23,
+    "accepted_type_correct": 0,
+    "mediator_pass_role_fail": 36,
+    "systems": {
+      "GPT-6-Astra": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "Claude-Sonnet-5.5": {
+        "chain_pass": 6,
+        "FOXK1_mentions": 0
+      },
+      "Gemini-3.8-Flash": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "GLM-5.3-Flash": {
+        "chain_pass": 9,
+        "FOXK1_mentions": 0
+      },
+      "Grok-4.6": {
+        "chain_pass": 3,
+        "FOXK1_mentions": 0
+      },
+      "Biomni": {
+        "chain_pass": 5,
+        "FOXK1_mentions": 0
+      }
+    }
+  },
+  "TP63_TF_loss": {
+    "n": 168,
+    "pairs": 7,
+    "units": 7,
+    "chain_pass": 28,
+    "causal_fail": 140,
+    "BHLHE40_named": 0,
+    "direction_correct": 168,
+    "accepted_type_correct": 0,
+    "mediator_pass_role_fail": 0,
+    "systems": {
+      "GPT-6-Astra": {
+        "chain_pass": 21,
+        "FOXK1_mentions": 21
+      },
+      "Claude-Sonnet-5.5": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "Gemini-3.8-Flash": {
+        "chain_pass": 7,
+        "FOXK1_mentions": 7
+      },
+      "GLM-5.3-Flash": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "Grok-4.6": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "Biomni": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      }
+    }
+  },
+  "FOXK1_loss": {
+    "n": 168,
+    "pairs": 7,
+    "units": 7,
+    "chain_pass": 144,
+    "causal_fail": 24,
+    "BHLHE40_named": 0,
+    "direction_correct": 154,
+    "accepted_type_correct": 0,
+    "mediator_pass_role_fail": 20,
+    "systems": {
+      "GPT-6-Astra": {
+        "chain_pass": 28,
+        "FOXK1_mentions": 28
+      },
+      "Claude-Sonnet-5.5": {
+        "chain_pass": 28,
+        "FOXK1_mentions": 28
+      },
+      "Gemini-3.8-Flash": {
+        "chain_pass": 28,
+        "FOXK1_mentions": 28
+      },
+      "GLM-5.3-Flash": {
+        "chain_pass": 14,
+        "FOXK1_mentions": 28
+      },
+      "Grok-4.6": {
+        "chain_pass": 28,
+        "FOXK1_mentions": 28
+      },
+      "Biomni": {
+        "chain_pass": 18,
+        "FOXK1_mentions": 28
+      }
+    }
+  },
+  "GATA1_TAL1": {
+    "n": 144,
+    "pairs": 3,
+    "units": 6,
+    "chain_pass": 14,
+    "causal_fail": 118,
+    "BHLHE40_named": 0,
+    "direction_correct": 142,
+    "accepted_type_correct": 0,
+    "mediator_pass_role_fail": 2,
+    "systems": {
+      "GPT-6-Astra": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "Claude-Sonnet-5.5": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "Gemini-3.8-Flash": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "GLM-5.3-Flash": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "Grok-4.6": {
+        "chain_pass": 6,
+        "FOXK1_mentions": 0
+      },
+      "Biomni": {
+        "chain_pass": 8,
+        "FOXK1_mentions": 0
+      }
+    }
+  },
+  "ESR1_enhancer": {
+    "n": 72,
+    "pairs": 3,
+    "units": 3,
+    "chain_pass": 1,
+    "causal_fail": 70,
+    "BHLHE40_named": 0,
+    "direction_correct": 72,
+    "accepted_type_correct": 0,
+    "mediator_pass_role_fail": 0,
+    "systems": {
+      "GPT-6-Astra": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "Claude-Sonnet-5.5": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "Gemini-3.8-Flash": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "GLM-5.3-Flash": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "Grok-4.6": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "Biomni": {
+        "chain_pass": 1,
+        "FOXK1_mentions": 0
+      }
+    }
+  },
+  "SRCAP_H2AZ": {
+    "n": 48,
+    "pairs": 2,
+    "units": 2,
+    "chain_pass": 2,
+    "causal_fail": 44,
+    "BHLHE40_named": 0,
+    "direction_correct": 2,
+    "accepted_type_correct": 0,
+    "mediator_pass_role_fail": 36,
+    "systems": {
+      "GPT-6-Astra": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "Claude-Sonnet-5.5": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "Gemini-3.8-Flash": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "GLM-5.3-Flash": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "Grok-4.6": {
+        "chain_pass": 0,
+        "FOXK1_mentions": 0
+      },
+      "Biomni": {
+        "chain_pass": 2,
+        "FOXK1_mentions": 0
+      }
+    }
+  },
+  "near_miss": {
+    "GPT-6-Astra": 12,
+    "Claude-Sonnet-5.5": 6,
+    "Gemini-3.8-Flash": 32,
+    "GLM-5.3-Flash": 0,
+    "Grok-4.6": 5,
+    "Biomni": 4
+  },
+  "GLM_echo_1": 0,
+  "GLM_other_invalid_1": 0,
+  "GLM_echo_2": 0,
+  "GLM_other_invalid_2": 0,
+  "GLM_echo_3": 51,
+  "GLM_other_invalid_3": 1,
+  "GLM_echo_4": 98,
+  "GLM_other_invalid_4": 0,
+  "T1_direct_n": 3743,
+  "T1_total": 4104,
+  "T1_classes": {
+    "chromatin_mediated_regulation": {
+      "n": 504,
+      "direct": 418,
+      "correct": 43
+    },
+    "combinatorial_tf_regulation": {
+      "n": 384,
+      "direct": 340,
+      "correct": 40
+    },
+    "direct_cis_regulatory_dna": {
+      "n": 2736,
+      "direct": 2585,
+      "correct": 2585
+    },
+    "regulatory_rna_mediated_indirect_regulation": {
+      "n": 480,
+      "direct": 400,
+      "correct": 51
+    }
+  },
+  "T2_mean_explanation_chars": {
+    "GPT-6-Astra": 129.23704663212436,
+    "Claude-Sonnet-5.5": 136.96891191709844,
+    "Gemini-3.8-Flash": 178.27202072538861,
+    "GLM-5.3-Flash": 156.2396373056995,
+    "Grok-4.6": 136.69300518134716,
+    "Biomni": 851.3665803108809
+  },
+  "T2_strict_shared_failure": {
+    "units": 5,
+    "pairs_all_interventions": 2,
+    "pairs": [
+      {
+        "task": 2,
+        "pair_id": "PAIR_ESR1_G0S2_02097c71b743",
+        "tf": "ESR1",
+        "target": "G0S2",
+        "units": 1,
+        "n": 24,
+        "gold_mediator": "ERBS H3K27ac-positive enhancer state disrupted by SID4X-dCas9-KRAB/SIN3A-HDAC recruitment"
+      },
+      {
+        "task": 2,
+        "pair_id": "PAIR_ESR1_MMP17_c7ee7d547be2",
+        "tf": "ESR1",
+        "target": "MMP17",
+        "units": 1,
+        "n": 24,
+        "gold_mediator": "ERBS H3K27ac-positive enhancer state disrupted by SID4X-dCas9-KRAB/SIN3A-HDAC recruitment"
+      }
+    ]
+  },
+  "T3_strict_shared_failure": {
+    "units": 3,
+    "pairs_all_interventions": 0,
+    "pairs": []
+  }
+}

@@ -1,0 +1,141 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{dong2025znf143}
+\bibinfo{author}{Dong, J.}, \bibinfo{author}{Sathyan, K.~M.}, \bibinfo{author}{Scott, T.~G.}, \bibinfo{author}{Mukherjee, R.} \& \bibinfo{author}{Guertin, M.~J.}
+\newblock \bibinfo{title}{Znf143 binds dna and stimulates transcription initiation to activate and repress direct target genes}.
+\newblock \emph{\bibinfo{journal}{Nucleic acids research}} \textbf{\bibinfo{volume}{53}}, \bibinfo{pages}{gkae1182} (\bibinfo{year}{2025}).
+
+\bibitem{gallant2012deltanp63alpha}
+\bibinfo{author}{Gallant-Behm, C.~L.} \emph{et~al.}
+\newblock \bibinfo{title}{$\delta$np63$\alpha$ represses anti-proliferative genes via h2a. z deposition}.
+\newblock \emph{\bibinfo{journal}{Genes \& development}} \textbf{\bibinfo{volume}{26}}, \bibinfo{pages}{2325--2336} (\bibinfo{year}{2012}).
+
+\bibitem{biddie2011transcription}
+\bibinfo{author}{Biddie, S.~C.} \emph{et~al.}
+\newblock \bibinfo{title}{Transcription factor ap1 potentiates chromatin accessibility and glucocorticoid receptor binding}.
+\newblock \emph{\bibinfo{journal}{Molecular cell}} \textbf{\bibinfo{volume}{43}}, \bibinfo{pages}{145--155} (\bibinfo{year}{2011}).
+
+\bibitem{yoshioka2012micromanaging}
+\bibinfo{author}{Yoshioka, Y.}, \bibinfo{author}{Kosaka, N.}, \bibinfo{author}{Ochiya, T.} \& \bibinfo{author}{Kato, T.}
+\newblock \bibinfo{title}{Micromanaging iron homeostasis: hypoxia-inducible micro-rna-210 suppresses iron homeostasis-related proteins}.
+\newblock \emph{\bibinfo{journal}{Journal of Biological Chemistry}} \textbf{\bibinfo{volume}{287}}, \bibinfo{pages}{34110--34119} (\bibinfo{year}{2012}).
+
+\bibitem{pratapa2020benchmarking}
+\bibinfo{author}{Pratapa, A.}, \bibinfo{author}{Jalihal, A.~P.}, \bibinfo{author}{Law, J.~N.}, \bibinfo{author}{Bharadwaj, A.} \& \bibinfo{author}{Murali, T.~M.}
+\newblock \bibinfo{title}{Benchmarking algorithms for gene regulatory network inference from single-cell transcriptomic data}.
+\newblock \emph{\bibinfo{journal}{Nature methods}} \textbf{\bibinfo{volume}{17}}, \bibinfo{pages}{147--154} (\bibinfo{year}{2020}).
+
+\bibitem{roohani2024predicting}
+\bibinfo{author}{Roohani, Y.}, \bibinfo{author}{Huang, K.} \& \bibinfo{author}{Leskovec, J.}
+\newblock \bibinfo{title}{Predicting transcriptional outcomes of novel multigene perturbations with gears}.
+\newblock \emph{\bibinfo{journal}{Nature biotechnology}} \textbf{\bibinfo{volume}{42}}, \bibinfo{pages}{927--935} (\bibinfo{year}{2024}).
+
+\bibitem{wu2025contextualizing}
+\bibinfo{author}{Wu, M.~R.} \emph{et~al.}
+\newblock \bibinfo{title}{Contextualizing biological perturbation experiments through language}.
+\newblock In \emph{\bibinfo{booktitle}{International Conference on Learning Representations}}, vol. \bibinfo{volume}{2025}, \bibinfo{pages}{73598--73624} (\bibinfo{year}{2025}).
+
+\bibitem{kim2026pertreason}
+\bibinfo{author}{Kim, D.}, \bibinfo{author}{Gao, Y.}, \bibinfo{author}{Yang, Y.} \& \bibinfo{author}{Shen, Y.}
+\newblock \bibinfo{title}{Pertreason: A knowledge-grounded benchmark and framework for cell-state-conditioned mechanistic reasoning of perturbation effects}.
+\newblock \emph{\bibinfo{journal}{arXiv preprint arXiv:2607.18777}}  (\bibinfo{year}{2026}).
+
+\bibitem{xia2026cellchain}
+\bibinfo{author}{Xia, X.} \emph{et~al.}
+\newblock \bibinfo{title}{{CellChain}: Benchmarking cross-scale evidence use for perturbation reasoning}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2610.16346} (\bibinfo{year}{2026}).
+\newblock \urlprefix\url{https://arxiv.org/abs/2610.16346}.
+
+\bibitem{cusanovich2014functional}
+\bibinfo{author}{Cusanovich, D.~A.}, \bibinfo{author}{Pavlovic, B.}, \bibinfo{author}{Pritchard, J.~K.} \& \bibinfo{author}{Gilad, Y.}
+\newblock \bibinfo{title}{The functional consequences of variation in transcription factor binding}.
+\newblock \emph{\bibinfo{journal}{PLoS genetics}} \textbf{\bibinfo{volume}{10}}, \bibinfo{pages}{e1004226} (\bibinfo{year}{2014}).
+
+\bibitem{fulco2019activity}
+\bibinfo{author}{Fulco, C.~P.} \emph{et~al.}
+\newblock \bibinfo{title}{Activity-by-contact model of enhancer--promoter regulation from thousands of crispr perturbations}.
+\newblock \emph{\bibinfo{journal}{Nature genetics}} \textbf{\bibinfo{volume}{51}}, \bibinfo{pages}{1664--1669} (\bibinfo{year}{2019}).
+
+\bibitem{replogle2022mapping}
+\bibinfo{author}{Replogle, J.~M.} \emph{et~al.}
+\newblock \bibinfo{title}{Mapping information-rich genotype-phenotype landscapes with genome-scale perturb-seq}.
+\newblock \emph{\bibinfo{journal}{Cell}} \textbf{\bibinfo{volume}{185}}, \bibinfo{pages}{2559--2575} (\bibinfo{year}{2022}).
+
+\bibitem{gpt_ref}
+\bibinfo{author}{{OpenAI}}.
+\newblock \bibinfo{title}{{GPT-6 Astra}: A new generation of intelligence} (\bibinfo{year}{2026}).
+\newblock \urlprefix\url{https://openai.com/index/gpt-6-astra/}.
+\newblock \bibinfo{note}{Accessed: 2026-10-19}.
+
+\bibitem{claude_ref}
+\bibinfo{author}{{Anthropic}}.
+\newblock \bibinfo{title}{Introducing {Claude Sonnet 5.5}} (\bibinfo{year}{2026}).
+\newblock \urlprefix\url{https://www.anthropic.com/claude-sonnet-5-5}.
+\newblock \bibinfo{note}{Accessed: 2026-10-19}.
+
+\bibitem{gemini_ref}
+\bibinfo{author}{{Google DeepMind}}.
+\newblock \bibinfo{title}{{Gemini 3.8 Flash} model card} (\bibinfo{year}{2026}).
+\newblock \urlprefix\url{https://deepmind.google/models/model-cards/gemini-3-8-flash/}.
+\newblock \bibinfo{note}{Accessed: 2026-10-19}.
+
+\bibitem{glm_ref}
+\bibinfo{author}{{GLM-5 Team}} \emph{et~al.}
+\newblock \bibinfo{title}{{GLM-5}: From vibe coding to agentic engineering}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2602.15763} (\bibinfo{year}{2026}).
+\newblock \urlprefix\url{https://arxiv.org/abs/2602.15763}.
+\newblock \eprint{2602.15763}.
+
+\bibitem{grok_ref}
+\bibinfo{author}{{SpaceXAI}}.
+\newblock \bibinfo{title}{Introducing {Grok 4.6}} (\bibinfo{year}{2026}).
+\newblock \urlprefix\url{https://x.ai/news/grok-4-6}.
+\newblock \bibinfo{note}{Accessed: 2026-10-19}.
+
+\bibitem{biomni_ref}
+\bibinfo{author}{Huang, K.} \emph{et~al.}
+\newblock \bibinfo{title}{{Biomni}: A general-purpose biomedical {AI} agent}.
+\newblock \emph{\bibinfo{journal}{bioRxiv}}  (\bibinfo{year}{2025}).
+\newblock \urlprefix\url{https://doi.org/10.1101/2025.05.30.656746}.
+
+\bibitem{kokki2026bhlhe40}
+\bibinfo{author}{Kokki, K.}, \bibinfo{author}{Wowro, S.~J.} \emph{et~al.}
+\newblock \bibinfo{title}{{BHLHE40} and {ChREBP} associate with hepatic enhancer clusters containing {PPAR}$\alpha$, {RXR}$\alpha$, and {HNF4} nuclear receptors}.
+\newblock \emph{\bibinfo{journal}{Endocrinology}} \textbf{\bibinfo{volume}{167}}, \bibinfo{pages}{bqag095} (\bibinfo{year}{2026}).
+\newblock \urlprefix\url{https://pmc.ncbi.nlm.nih.gov/articles/PMC13550943/}.
+
+\bibitem{jung2026foxk1}
+\bibinfo{author}{Jung, N.}, \bibinfo{author}{Lopez-Pajares, V.} \emph{et~al.}
+\newblock \bibinfo{title}{Lineage master regulator and cancer-selective partner transcription factors rewire {3D} genome topology for tumor-specific gene control}.
+\newblock \emph{\bibinfo{journal}{Science Advances}} \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{eadz9441} (\bibinfo{year}{2026}).
+\newblock \urlprefix\url{https://pmc.ncbi.nlm.nih.gov/articles/PMC13475494/}.
+
+\bibitem{campbell2013gata1}
+\bibinfo{author}{Campbell, A.~E.}, \bibinfo{author}{Wilkinson-White, L.}, \bibinfo{author}{Mackay, J.~P.}, \bibinfo{author}{Matthews, J.~M.} \& \bibinfo{author}{Blobel, G.~A.}
+\newblock \bibinfo{title}{Analysis of disease-causing {GATA1} mutations in murine gene complementation systems}.
+\newblock \emph{\bibinfo{journal}{Blood}} \textbf{\bibinfo{volume}{121}}, \bibinfo{pages}{5218--5227} (\bibinfo{year}{2013}).
+\newblock \urlprefix\url{https://pmc.ncbi.nlm.nih.gov/articles/PMC3695365/}.
+
+\bibitem{carleton2017enhancer}
+\bibinfo{author}{Carleton, J.~B.}, \bibinfo{author}{Berrett, K.~C.} \& \bibinfo{author}{Gertz, J.}
+\newblock \bibinfo{title}{Multiplex enhancer interference reveals collaborative control of gene regulation by estrogen receptor alpha bound enhancers}.
+\newblock \emph{\bibinfo{journal}{Cell Systems}} \textbf{\bibinfo{volume}{5}}, \bibinfo{pages}{333--344.e5} (\bibinfo{year}{2017}).
+\newblock \urlprefix\url{https://pmc.ncbi.nlm.nih.gov/articles/PMC5679353/}.
+
+\bibitem{cohen1960agreement}
+\bibinfo{author}{Cohen, J.}
+\newblock \bibinfo{title}{A coefficient of agreement for nominal scales}.
+\newblock \emph{\bibinfo{journal}{Educational and Psychological Measurement}} \textbf{\bibinfo{volume}{20}}, \bibinfo{pages}{37--46} (\bibinfo{year}{1960}).
+
+\bibitem{saravanan2020bootstrap}
+\bibinfo{author}{Saravanan, V.}, \bibinfo{author}{Berman, G.~J.} \& \bibinfo{author}{Sober, S.~J.}
+\newblock \bibinfo{title}{Application of the hierarchical bootstrap to multi-level data in neuroscience}.
+\newblock \emph{\bibinfo{journal}{Neurons, Behavior, Data Analysis, and Theory}} \textbf{\bibinfo{volume}{3}} (\bibinfo{year}{2020}).
+\newblock \urlprefix\url{https://pmc.ncbi.nlm.nih.gov/articles/PMC7906290/}.
+
+\end{thebibliography}

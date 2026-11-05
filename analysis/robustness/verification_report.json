@@ -1,0 +1,21 @@
+{
+  "deterministic_sample_and_packet": true,
+  "judge_portable_reproduction": true,
+  "accepted_portable_reproduction": true,
+  "bootstrap_portable_reproduction": true,
+  "all_bootstrap_replicates_reproduced": true,
+  "main_36_cells_unchanged": true,
+  "unchanged_original_run_and_evaluation_files": 603,
+  "first_9_main_pages_pixel_identical": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "pdf_total_pages": 29
+}

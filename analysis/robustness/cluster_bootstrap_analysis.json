@@ -1,0 +1,1363 @@
+{
+  "pair": {
+    "n_clusters": 168,
+    "valid_bja_replicates": 20000,
+    "total_replicates": 20000,
+    "published_strict_order_retention": 0.3635,
+    "pairwise_win_fraction": [
+      [
+        0.5,
+        0.980225,
+        0.9999,
+        1.0,
+        0.9994,
+        1.0
+      ],
+      [
+        0.019775,
+        0.5,
+        0.77925,
+        1.0,
+        0.64455,
+        0.97495
+      ],
+      [
+        0.0001,
+        0.22075,
+        0.5,
+        1.0,
+        0.30145,
+        0.9717250000000001
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.5,
+        0.0,
+        0.0
+      ],
+      [
+        0.0006,
+        0.35545,
+        0.69855,
+        1.0,
+        0.5,
+        0.993375
+      ],
+      [
+        0.0,
+        0.025050000000000003,
+        0.028275,
+        1.0,
+        0.006625,
+        0.5
+      ]
+    ],
+    "system_order": [
+      "GPT-6-Astra",
+      "Claude-Sonnet-5.5",
+      "Gemini-3.8-Flash",
+      "GLM-5.3-Flash",
+      "Grok-4.6",
+      "Biomni"
+    ]
+  },
+  "study_component": {
+    "n_clusters": 31,
+    "valid_bja_replicates": 20000,
+    "total_replicates": 20000,
+    "published_strict_order_retention": 0.1896,
+    "pairwise_win_fraction": [
+      [
+        0.5,
+        0.926075,
+        0.96305,
+        1.0,
+        0.9825999999999999,
+        0.996475
+      ],
+      [
+        0.07392499999999999,
+        0.5,
+        0.56655,
+        1.0,
+        0.5855750000000001,
+        0.932225
+      ],
+      [
+        0.036950000000000004,
+        0.43345,
+        0.5,
+        0.99995,
+        0.45655,
+        0.904325
+      ],
+      [
+        0.0,
+        0.0,
+        5e-05,
+        0.5,
+        0.0,
+        0.0003
+      ],
+      [
+        0.0174,
+        0.41442500000000004,
+        0.54345,
+        1.0,
+        0.5,
+        0.9737250000000001
+      ],
+      [
+        0.003525,
+        0.067775,
+        0.095675,
+        0.9997,
+        0.026275,
+        0.5
+      ]
+    ],
+    "system_order": [
+      "GPT-6-Astra",
+      "Claude-Sonnet-5.5",
+      "Gemini-3.8-Flash",
+      "GLM-5.3-Flash",
+      "Grok-4.6",
+      "Biomni"
+    ]
+  },
+  "seed": 20261105,
+  "replicates": 20000,
+  "task": "Task 2",
+  "n_pairs": 168,
+  "primary_papers_after_identifier_resolution": 36,
+  "n_study_components": 31,
+  "study_component_method": "Resolve DOI/PMCID aliases, then merge papers linked by any shared pair; resample these nonoverlapping components.",
+  "largest_component": {
+    "component": "SC31",
+    "pairs": 99,
+    "units": 99,
+    "source_identifiers": "doi:10.1093/nar/gkae1182;pmc:PMC11754675",
+    "pair_ids": "PAIR_ZNF143_ABCF2_ccd79092fe66;PAIR_ZNF143_ADAT3_a30b1f7b9b29;PAIR_ZNF143_AKR1A1_e50466427ae7;PAIR_ZNF143_ANKRD13B_8b607147965d;PAIR_ZNF143_AP1S3_464b6745d7fd;PAIR_ZNF143_ARID5A_8d1b4db05c6e;PAIR_ZNF143_ASB13_c6e95b5f27fb;PAIR_ZNF143_BIRC5_863988ee77da;PAIR_ZNF143_CASC3_14a46bf171f7;PAIR_ZNF143_CCDC157_c2f23d4f60d2;PAIR_ZNF143_CCDC92_dd4664be3a54;PAIR_ZNF143_CCPG1_e55550d41459;PAIR_ZNF143_CKAP2L_52e559d04b5c;PAIR_ZNF143_CNIH1_2ebc0b765063;PAIR_ZNF143_CPOX_1c9e46311bb9;PAIR_ZNF143_CPSF4_690aef85cea5;PAIR_ZNF143_CRCP_74e1df1a373d;PAIR_ZNF143_CREBL2_54b6b08bd831;PAIR_ZNF143_CWC15_5a077c274e6d;PAIR_ZNF143_CYB5R1_bf5dc9e1f7d1;PAIR_ZNF143_EGR1_e8041906998d;PAIR_ZNF143_EMC1_7554bff396c7;PAIR_ZNF143_ENKD1_122131f042ad;PAIR_ZNF143_ERAL1_383c0efe6527;PAIR_ZNF143_ERP44_29a9b7ac9ab4;PAIR_ZNF143_FASTK_fae7d40dafe2;PAIR_ZNF143_FH_22d388949745;PAIR_ZNF143_GAMT_e314303c34b2;PAIR_ZNF143_GOLGA2_9ac224d2a2e2;PAIR_ZNF143_GTPBP8_c62b63b02fdf;PAIR_ZNF143_HMGCL_2e0b44a38852;PAIR_ZNF143_HSPA14_09d4cf97346b;PAIR_ZNF143_IK_b8baed3ece5d;PAIR_ZNF143_JMJD8_16f49a7216fe;PAIR_ZNF143_JUND_abc3b6e208bc;PAIR_ZNF143_JUN_2742c3faa719;PAIR_ZNF143_KDELR2_f4aab97c5899;PAIR_ZNF143_KLC2_065868e0ae9e;PAIR_ZNF143_KPNA5_c0dda55de937;PAIR_ZNF143_LATS1_2b9a9b76e443;PAIR_ZNF143_MED16_d3ee82022246;PAIR_ZNF143_MFSD3_52b2316a51ee;PAIR_ZNF143_MRPL46_9c91622ac31b;PAIR_ZNF143_MRPL54_12b2e4cf45b8;PAIR_ZNF143_MRPS11_d782120bd375;PAIR_ZNF143_MTMR1_7b3b87ec46c4;PAIR_ZNF143_NUTF2_f7e51c747077;PAIR_ZNF143_PAPOLG_49fc5ecc185d;PAIR_ZNF143_PLAGL2_b84b09493c9a;PAIR_ZNF143_PNKD_7d03f2e4a533;PAIR_ZNF143_POMT2_656b91206023;PAIR_ZNF143_PRIM1_2200971b8f34;PAIR_ZNF143_PRKAA2_7d43aa0c8960;PAIR_ZNF143_PROSER3_ce680dd9ce31;PAIR_ZNF143_PSMC6_868a0c536046;PAIR_ZNF143_PTPMT1_b1fb08c5df20;PAIR_ZNF143_PTRHD1_b7f23fbb2a60;PAIR_ZNF143_RDH11_dc3367e0a418;PAIR_ZNF143_RIC8A_e56f63887f89;PAIR_ZNF143_RNF40_a1e6a59b9205;PAIR_ZNF143_RPAIN_9955aaed78c7;PAIR_ZNF143_RPL6_6d5fbe66c485;PAIR_ZNF143_RSBN1_7f1fc8af7f02;PAIR_ZNF143_SAMD13_4df722524c2e;PAIR_ZNF143_SAV1_7560f46225cb;PAIR_ZNF143_SEPTIN8_1ca9f366bb7f;PAIR_ZNF143_SFT2D2_79481c246769;PAIR_ZNF143_SGF29_1771a211af33;PAIR_ZNF143_SLC7A6OS_85bd5dadd53d;PAIR_ZNF143_SLC9A6_acdd152049eb;PAIR_ZNF143_SNRNP48_f17771774185;PAIR_ZNF143_SNRNP70_fea975b4fbf2;PAIR_ZNF143_SNRPD3_20915e6ccf89;PAIR_ZNF143_SSB_cb6f87e40ef5;PAIR_ZNF143_STARD10_a8cc0f940ae3;PAIR_ZNF143_TFAM_f84053ab37f0;PAIR_ZNF143_THOC7_5a2b41a4ebc7;PAIR_ZNF143_THOP1_3d900927c20d;PAIR_ZNF143_TIMM17A_d12613b00182;PAIR_ZNF143_TMEM258_9ed2f8af71b4;PAIR_ZNF143_TMOD2_be1361637b83;PAIR_ZNF143_TOMM70_b58d759e093a;PAIR_ZNF143_TPRA1_fa80a8ddc5c3;PAIR_ZNF143_UBALD1_624e301b76be;PAIR_ZNF143_UBFD1_7bbc6244eb23;PAIR_ZNF143_UQCR10_45b4ef23f22d;PAIR_ZNF143_VASP_f84482b5ecfe;PAIR_ZNF143_ZBTB10_5ae35dfdfa7a;PAIR_ZNF143_ZFTA_28daa65369ef;PAIR_ZNF143_ZMYM6_3d91f7b7cc98;PAIR_ZNF143_ZNF200_a7d2d69e54c0;PAIR_ZNF143_ZNF24_8f7354b62aa5;PAIR_ZNF143_ZNF354A_b8a3386c0f98;PAIR_ZNF143_ZNF382_d7ef6c461f06;PAIR_ZNF143_ZNF473_f61269685aeb;PAIR_ZNF143_ZNF485_629db61159bf;PAIR_ZNF143_ZNF607_49bfdb8d44a8;PAIR_ZNF143_ZNF746_6e6e85a759d7;PAIR_ZNF143_ZW10_06853815050d"
+  },
+  "runs_policy": "All four runs and all units within a sampled cluster are retained together. No run-level biological replication is assumed.",
+  "interval": "95% percentile; fixed released judgments and observed runs",
+  "metric_definitions": {
+    "balanced_joint": "unit-weighted joint recall averaged equally over up/down; matches published Task 2 BJA",
+    "pair_equal_chain": "within-pair average across units/runs, then equal weight per pair; a secondary different estimand"
+  },
+  "ci": [
+    {
+      "cluster": "pair",
+      "metric": "answer",
+      "system": "GPT-6-Astra",
+      "estimate": 96.6321243523316,
+      "lo": 94.1025641025641,
+      "hi": 98.79679144385027,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "answer",
+      "system": "Claude-Sonnet-5.5",
+      "estimate": 96.89119170984456,
+      "lo": 94.67005076142132,
+      "hi": 98.73096446700508,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "answer",
+      "system": "Gemini-3.8-Flash",
+      "estimate": 96.89119170984456,
+      "lo": 94.27083333333333,
+      "hi": 98.9795918367347,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "answer",
+      "system": "GLM-5.3-Flash",
+      "estimate": 78.3678756476684,
+      "lo": 74.71863920820799,
+      "hi": 81.89189189189189,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "answer",
+      "system": "Grok-4.6",
+      "estimate": 96.37305699481865,
+      "lo": 93.74924516908213,
+      "hi": 98.64873145204027,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "answer",
+      "system": "Biomni",
+      "estimate": 96.50259067357513,
+      "lo": 94.30051813471502,
+      "hi": 98.40425531914893,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "chain",
+      "system": "GPT-6-Astra",
+      "estimate": 84.71502590673575,
+      "lo": 79.18848167539267,
+      "hi": 89.91935483870968,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "chain",
+      "system": "Claude-Sonnet-5.5",
+      "estimate": 79.4041450777202,
+      "lo": 73.59693877551021,
+      "hi": 85.18518518518519,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "chain",
+      "system": "Gemini-3.8-Flash",
+      "estimate": 79.01554404145078,
+      "lo": 73.73721350561453,
+      "hi": 84.21052631578948,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "chain",
+      "system": "GLM-5.3-Flash",
+      "estimate": 62.04663212435233,
+      "lo": 56.806930693069305,
+      "hi": 67.48635649367196,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "chain",
+      "system": "Grok-4.6",
+      "estimate": 79.53367875647669,
+      "lo": 74.12924440298507,
+      "hi": 84.92063492063492,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "chain",
+      "system": "Biomni",
+      "estimate": 76.16580310880829,
+      "lo": 70.47868999251577,
+      "hi": 81.80658019990479,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "joint",
+      "system": "GPT-6-Astra",
+      "estimate": 84.19689119170984,
+      "lo": 78.66161616161617,
+      "hi": 89.41326530612245,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "joint",
+      "system": "Claude-Sonnet-5.5",
+      "estimate": 79.27461139896373,
+      "lo": 73.45360824742268,
+      "hi": 85.05434782608695,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "joint",
+      "system": "Gemini-3.8-Flash",
+      "estimate": 78.88601036269431,
+      "lo": 73.58974358974359,
+      "hi": 84.0909090909091,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "joint",
+      "system": "GLM-5.3-Flash",
+      "estimate": 61.917098445595855,
+      "lo": 56.658863828488236,
+      "hi": 67.36842105263158,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "joint",
+      "system": "Grok-4.6",
+      "estimate": 79.01554404145078,
+      "lo": 73.50746268656717,
+      "hi": 84.51086956521739,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "joint",
+      "system": "Biomni",
+      "estimate": 75.77720207253886,
+      "lo": 70.05076142131979,
+      "hi": 81.45161290322581,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "balanced_joint",
+      "system": "GPT-6-Astra",
+      "estimate": 78.28477660064486,
+      "lo": 68.9480531487743,
+      "hi": 86.7745073784702,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "balanced_joint",
+      "system": "Claude-Sonnet-5.5",
+      "estimate": 74.22270842929525,
+      "lo": 64.56761114050677,
+      "hi": 83.27999119498854,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "balanced_joint",
+      "system": "Gemini-3.8-Flash",
+      "estimate": 72.78040073698757,
+      "lo": 63.6462760418258,
+      "hi": 81.35158169989694,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "balanced_joint",
+      "system": "GLM-5.3-Flash",
+      "estimate": 52.82703823122985,
+      "lo": 46.32344236036957,
+      "hi": 59.54152097902098,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "balanced_joint",
+      "system": "Grok-4.6",
+      "estimate": 73.66708889912483,
+      "lo": 64.51388058213716,
+      "hi": 82.17322893600029,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "balanced_joint",
+      "system": "Biomni",
+      "estimate": 68.54847996315063,
+      "lo": 60.556883726230545,
+      "hi": 76.37195775634858,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "pair_equal_answer",
+      "system": "GPT-6-Astra",
+      "estimate": 97.02380952380952,
+      "lo": 94.79166666666667,
+      "hi": 98.95833333333333,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "pair_equal_answer",
+      "system": "Claude-Sonnet-5.5",
+      "estimate": 97.02380952380952,
+      "lo": 94.64285714285714,
+      "hi": 98.95833333333333,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "pair_equal_answer",
+      "system": "Gemini-3.8-Flash",
+      "estimate": 97.32142857142857,
+      "lo": 94.94047619047619,
+      "hi": 99.4047619047619,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "pair_equal_answer",
+      "system": "GLM-5.3-Flash",
+      "estimate": 79.6875,
+      "lo": 76.11607142857143,
+      "hi": 83.03571428571429,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "pair_equal_answer",
+      "system": "Grok-4.6",
+      "estimate": 96.50297619047619,
+      "lo": 93.75,
+      "hi": 98.73511904761905,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "pair_equal_answer",
+      "system": "Biomni",
+      "estimate": 96.72619047619048,
+      "lo": 94.41964285714286,
+      "hi": 98.58630952380952,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "pair_equal_chain",
+      "system": "GPT-6-Astra",
+      "estimate": 86.9295634920635,
+      "lo": 82.36607142857143,
+      "hi": 91.24503968253968,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "pair_equal_chain",
+      "system": "Claude-Sonnet-5.5",
+      "estimate": 83.86656746031747,
+      "lo": 79.1170634920635,
+      "hi": 88.40525793650794,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "pair_equal_chain",
+      "system": "Gemini-3.8-Flash",
+      "estimate": 82.1924603174603,
+      "lo": 77.87636408730158,
+      "hi": 86.38454861111106,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "pair_equal_chain",
+      "system": "GLM-5.3-Flash",
+      "estimate": 66.26984126984127,
+      "lo": 61.210317460317455,
+      "hi": 71.25496031746032,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "pair_equal_chain",
+      "system": "Grok-4.6",
+      "estimate": 82.94890873015875,
+      "lo": 77.90178571428571,
+      "hi": 87.79761904761905,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "pair_equal_chain",
+      "system": "Biomni",
+      "estimate": 80.08432539682539,
+      "lo": 74.82638888888889,
+      "hi": 85.1438492063492,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "pair_equal_joint",
+      "system": "GPT-6-Astra",
+      "estimate": 86.33432539682539,
+      "lo": 81.69642857142857,
+      "hi": 90.74900793650794,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "pair_equal_joint",
+      "system": "Claude-Sonnet-5.5",
+      "estimate": 83.71775793650794,
+      "lo": 78.90625,
+      "hi": 88.2936507936508,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "pair_equal_joint",
+      "system": "Gemini-3.8-Flash",
+      "estimate": 82.04365079365078,
+      "lo": 77.65376984126983,
+      "hi": 86.28472222222221,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "pair_equal_joint",
+      "system": "GLM-5.3-Flash",
+      "estimate": 66.12103174603175,
+      "lo": 60.98710317460317,
+      "hi": 71.15575396825398,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "pair_equal_joint",
+      "system": "Grok-4.6",
+      "estimate": 82.35367063492065,
+      "lo": 77.10813492063492,
+      "hi": 87.36359126984127,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "pair",
+      "metric": "pair_equal_joint",
+      "system": "Biomni",
+      "estimate": 79.63789682539681,
+      "lo": 74.30555555555556,
+      "hi": 84.74702380952381,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 168
+    },
+    {
+      "cluster": "study_component",
+      "metric": "answer",
+      "system": "GPT-6-Astra",
+      "estimate": 96.6321243523316,
+      "lo": 86.80555555555556,
+      "hi": 99.59893048128342,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "answer",
+      "system": "Claude-Sonnet-5.5",
+      "estimate": 96.89119170984456,
+      "lo": 88.76404494382022,
+      "hi": 99.33037580625896,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "answer",
+      "system": "Gemini-3.8-Flash",
+      "estimate": 96.89119170984456,
+      "lo": 87.32304846025303,
+      "hi": 100.0,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "answer",
+      "system": "GLM-5.3-Flash",
+      "estimate": 78.3678756476684,
+      "lo": 58.765827922077925,
+      "hi": 84.8214890631049,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "answer",
+      "system": "Grok-4.6",
+      "estimate": 96.37305699481865,
+      "lo": 86.68478260869566,
+      "hi": 99.31742553521563,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "answer",
+      "system": "Biomni",
+      "estimate": 96.50259067357513,
+      "lo": 88.06818181818181,
+      "hi": 99.04892595883618,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "chain",
+      "system": "GPT-6-Astra",
+      "estimate": 84.71502590673575,
+      "lo": 55.324074074074076,
+      "hi": 95.62505941064639,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "chain",
+      "system": "Claude-Sonnet-5.5",
+      "estimate": 79.4041450777202,
+      "lo": 47.477064220183486,
+      "hi": 92.96463940948817,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "chain",
+      "system": "Gemini-3.8-Flash",
+      "estimate": 79.01554404145078,
+      "lo": 52.71037998146432,
+      "hi": 89.33691756272401,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "chain",
+      "system": "GLM-5.3-Flash",
+      "estimate": 62.04663212435233,
+      "lo": 26.82876684852375,
+      "hi": 78.28421327160324,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "chain",
+      "system": "Grok-4.6",
+      "estimate": 79.53367875647669,
+      "lo": 46.4,
+      "hi": 93.34545736367814,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "chain",
+      "system": "Biomni",
+      "estimate": 76.16580310880829,
+      "lo": 40.95227832512315,
+      "hi": 91.61443070621903,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "joint",
+      "system": "GPT-6-Astra",
+      "estimate": 84.19689119170984,
+      "lo": 54.21052631578947,
+      "hi": 95.30394219837643,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "joint",
+      "system": "Claude-Sonnet-5.5",
+      "estimate": 79.27461139896373,
+      "lo": 47.22222222222222,
+      "hi": 92.91338582677166,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "joint",
+      "system": "Gemini-3.8-Flash",
+      "estimate": 78.88601036269431,
+      "lo": 52.358351831298556,
+      "hi": 89.26060215921078,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "joint",
+      "system": "GLM-5.3-Flash",
+      "estimate": 61.917098445595855,
+      "lo": 26.53837719298246,
+      "hi": 78.19619328518658,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "joint",
+      "system": "Grok-4.6",
+      "estimate": 79.01554404145078,
+      "lo": 45.41258040704419,
+      "hi": 93.05555555555556,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "joint",
+      "system": "Biomni",
+      "estimate": 75.77720207253886,
+      "lo": 40.301412439441435,
+      "hi": 91.39008899123007,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "balanced_joint",
+      "system": "GPT-6-Astra",
+      "estimate": 78.28477660064486,
+      "lo": 55.08769274503924,
+      "hi": 91.01599000716061,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "balanced_joint",
+      "system": "Claude-Sonnet-5.5",
+      "estimate": 74.22270842929525,
+      "lo": 49.2174812878937,
+      "hi": 88.02739666367,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "balanced_joint",
+      "system": "Gemini-3.8-Flash",
+      "estimate": 72.78040073698757,
+      "lo": 51.60670987590882,
+      "hi": 85.4271763789158,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "balanced_joint",
+      "system": "GLM-5.3-Flash",
+      "estimate": 52.82703823122985,
+      "lo": 28.911557768268597,
+      "hi": 64.67634513923575,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "balanced_joint",
+      "system": "Grok-4.6",
+      "estimate": 73.66708889912483,
+      "lo": 48.29676047961939,
+      "hi": 87.20113049360654,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    },
+    {
+      "cluster": "study_component",
+      "metric": "balanced_joint",
+      "system": "Biomni",
+      "estimate": 68.54847996315063,
+      "lo": 43.474486026680175,
+      "hi": 81.34570938092182,
+      "replicates": 20000,
+      "valid_replicates": 20000,
+      "n_clusters": 31
+    }
+  ],
+  "differences": [
+    {
+      "cluster": "pair",
+      "metric": "answer",
+      "contrast": "GPT-6-Astra minus Claude-Sonnet-5.5",
+      "estimate": -0.2590673575129614,
+      "lo": -1.424870466321238,
+      "hi": 0.8152173913043441,
+      "positive_fraction": 0.29175,
+      "zero_fraction": 0.0832,
+      "valid_replicates": 20000
+    },
+    {
+      "cluster": "pair",
+      "metric": "chain",
+      "contrast": "GPT-6-Astra minus Claude-Sonnet-5.5",
+      "estimate": 5.310880829015545,
+      "lo": 1.912342930847962,
+      "hi": 9.21717171717171,
+      "positive_fraction": 0.9997,
+      "zero_fraction": 0.0,
+      "valid_replicates": 20000
+    },
+    {
+      "cluster": "pair",
+      "metric": "joint",
+      "contrast": "GPT-6-Astra minus Claude-Sonnet-5.5",
+      "estimate": 4.92227979274611,
+      "lo": 1.6129032258064484,
+      "hi": 8.75,
+      "positive_fraction": 0.99925,
+      "zero_fraction": 0.0002,
+      "valid_replicates": 20000
+    },
+    {
+      "cluster": "pair",
+      "metric": "balanced_joint",
+      "contrast": "GPT-6-Astra minus Claude-Sonnet-5.5",
+      "estimate": 4.062068171349608,
+      "lo": 0.19355666035352717,
+      "hi": 8.60633713831388,
+      "positive_fraction": 0.9801,
+      "zero_fraction": 0.00025,
+      "valid_replicates": 20000
+    },
+    {
+      "cluster": "pair",
+      "metric": "pair_equal_answer",
+      "contrast": "GPT-6-Astra minus Claude-Sonnet-5.5",
+      "estimate": 0.0,
+      "lo": -0.7440476190476204,
+      "hi": 0.8928571428571388,
+      "positive_fraction": 0.4301,
+      "zero_fraction": 0.14,
+      "valid_replicates": 20000
+    },
+    {
+      "cluster": "pair",
+      "metric": "pair_equal_chain",
+      "contrast": "GPT-6-Astra minus Claude-Sonnet-5.5",
+      "estimate": 3.0629960317460245,
+      "lo": 1.1656746031746223,
+      "hi": 5.195932539682545,
+      "positive_fraction": 0.99955,
+      "zero_fraction": 0.0001,
+      "valid_replicates": 20000
+    },
+    {
+      "cluster": "pair",
+      "metric": "pair_equal_joint",
+      "contrast": "GPT-6-Astra minus Claude-Sonnet-5.5",
+      "estimate": 2.616567460317455,
+      "lo": 0.8928571428571388,
+      "hi": 4.513888888888886,
+      "positive_fraction": 0.9989,
+      "zero_fraction": 0.0002,
+      "valid_replicates": 20000
+    },
+    {
+      "cluster": "study_component",
+      "metric": "answer",
+      "contrast": "GPT-6-Astra minus Claude-Sonnet-5.5",
+      "estimate": -0.2590673575129614,
+      "lo": -3.3333333333333286,
+      "hi": 1.8292682926829258,
+      "positive_fraction": 0.39995,
+      "zero_fraction": 0.0562,
+      "valid_replicates": 20000
+    },
+    {
+      "cluster": "study_component",
+      "metric": "chain",
+      "contrast": "GPT-6-Astra minus Claude-Sonnet-5.5",
+      "estimate": 5.310880829015545,
+      "lo": 0.0,
+      "hi": 18.87267406962784,
+      "positive_fraction": 0.9738,
+      "zero_fraction": 0.0031,
+      "valid_replicates": 20000
+    },
+    {
+      "cluster": "study_component",
+      "metric": "joint",
+      "contrast": "GPT-6-Astra minus Claude-Sonnet-5.5",
+      "estimate": 4.92227979274611,
+      "lo": -0.28743985565357194,
+      "hi": 18.029513888888836,
+      "positive_fraction": 0.96085,
+      "zero_fraction": 0.0053,
+      "valid_replicates": 20000
+    },
+    {
+      "cluster": "study_component",
+      "metric": "balanced_joint",
+      "contrast": "GPT-6-Astra minus Claude-Sonnet-5.5",
+      "estimate": 4.062068171349608,
+      "lo": -1.3575544289668895,
+      "hi": 14.323649343652036,
+      "positive_fraction": 0.92565,
+      "zero_fraction": 0.00085,
+      "valid_replicates": 20000
+    }
+  ],
+  "ranks": [
+    {
+      "cluster": "pair",
+      "metric": "balanced_joint",
+      "system": "GPT-6-Astra",
+      "mean_rank": 1.020475,
+      "rank1_frequency": 0.979725,
+      "rank1_inclusive_frequency": 0.97985,
+      "rank_lo": 1.0,
+      "rank_hi": 1.0
+    },
+    {
+      "cluster": "pair",
+      "metric": "balanced_joint",
+      "system": "Claude-Sonnet-5.5",
+      "mean_rank": 2.581475,
+      "rank1_frequency": 0.019775,
+      "rank1_inclusive_frequency": 0.0199,
+      "rank_lo": 2.0,
+      "rank_hi": 4.0
+    },
+    {
+      "cluster": "pair",
+      "metric": "balanced_joint",
+      "system": "Gemini-3.8-Flash",
+      "mean_rank": 3.505975,
+      "rank1_frequency": 0.0001,
+      "rank1_inclusive_frequency": 0.0001,
+      "rank_lo": 2.0,
+      "rank_hi": 4.0
+    },
+    {
+      "cluster": "pair",
+      "metric": "balanced_joint",
+      "system": "GLM-5.3-Flash",
+      "mean_rank": 6.0,
+      "rank1_frequency": 0.0,
+      "rank1_inclusive_frequency": 0.0,
+      "rank_lo": 6.0,
+      "rank_hi": 6.0
+    },
+    {
+      "cluster": "pair",
+      "metric": "balanced_joint",
+      "system": "Grok-4.6",
+      "mean_rank": 2.952025,
+      "rank1_frequency": 0.0004,
+      "rank1_inclusive_frequency": 0.0004,
+      "rank_lo": 2.0,
+      "rank_hi": 4.0
+    },
+    {
+      "cluster": "pair",
+      "metric": "balanced_joint",
+      "system": "Biomni",
+      "mean_rank": 4.94005,
+      "rank1_frequency": 0.0,
+      "rank1_inclusive_frequency": 0.0,
+      "rank_lo": 4.0,
+      "rank_hi": 5.0
+    },
+    {
+      "cluster": "pair",
+      "metric": "chain",
+      "system": "GPT-6-Astra",
+      "mean_rank": 1.00035,
+      "rank1_frequency": 0.9997,
+      "rank1_inclusive_frequency": 0.9997,
+      "rank_lo": 1.0,
+      "rank_hi": 1.0
+    },
+    {
+      "cluster": "pair",
+      "metric": "chain",
+      "system": "Claude-Sonnet-5.5",
+      "mean_rank": 2.936675,
+      "rank1_frequency": 0.0003,
+      "rank1_inclusive_frequency": 0.0003,
+      "rank_lo": 2.0,
+      "rank_hi": 4.0
+    },
+    {
+      "cluster": "pair",
+      "metric": "chain",
+      "system": "Gemini-3.8-Flash",
+      "mean_rank": 3.343325,
+      "rank1_frequency": 0.0,
+      "rank1_inclusive_frequency": 0.0,
+      "rank_lo": 2.0,
+      "rank_hi": 5.0
+    },
+    {
+      "cluster": "pair",
+      "metric": "chain",
+      "system": "GLM-5.3-Flash",
+      "mean_rank": 6.0,
+      "rank1_frequency": 0.0,
+      "rank1_inclusive_frequency": 0.0,
+      "rank_lo": 6.0,
+      "rank_hi": 6.0
+    },
+    {
+      "cluster": "pair",
+      "metric": "chain",
+      "system": "Grok-4.6",
+      "mean_rank": 2.831775,
+      "rank1_frequency": 0.0,
+      "rank1_inclusive_frequency": 0.0,
+      "rank_lo": 2.0,
+      "rank_hi": 4.0
+    },
+    {
+      "cluster": "pair",
+      "metric": "chain",
+      "system": "Biomni",
+      "mean_rank": 4.887875,
+      "rank1_frequency": 0.0,
+      "rank1_inclusive_frequency": 0.0,
+      "rank_lo": 4.0,
+      "rank_hi": 5.0
+    },
+    {
+      "cluster": "pair",
+      "metric": "joint",
+      "system": "GPT-6-Astra",
+      "mean_rank": 1.000725,
+      "rank1_frequency": 0.999325,
+      "rank1_inclusive_frequency": 0.99945,
+      "rank_lo": 1.0,
+      "rank_hi": 1.0
+    },
+    {
+      "cluster": "pair",
+      "metric": "joint",
+      "system": "Claude-Sonnet-5.5",
+      "mean_rank": 2.790125,
+      "rank1_frequency": 0.00065,
+      "rank1_inclusive_frequency": 0.00075,
+      "rank_lo": 2.0,
+      "rank_hi": 4.0
+    },
+    {
+      "cluster": "pair",
+      "metric": "joint",
+      "system": "Gemini-3.8-Flash",
+      "mean_rank": 3.219775,
+      "rank1_frequency": 0.0,
+      "rank1_inclusive_frequency": 0.0,
+      "rank_lo": 2.0,
+      "rank_hi": 5.0
+    },
+    {
+      "cluster": "pair",
+      "metric": "joint",
+      "system": "GLM-5.3-Flash",
+      "mean_rank": 6.0,
+      "rank1_frequency": 0.0,
+      "rank1_inclusive_frequency": 0.0,
+      "rank_lo": 6.0,
+      "rank_hi": 6.0
+    },
+    {
+      "cluster": "pair",
+      "metric": "joint",
+      "system": "Grok-4.6",
+      "mean_rank": 3.078725,
+      "rank1_frequency": 2.5e-05,
+      "rank1_inclusive_frequency": 5e-05,
+      "rank_lo": 2.0,
+      "rank_hi": 4.0
+    },
+    {
+      "cluster": "pair",
+      "metric": "joint",
+      "system": "Biomni",
+      "mean_rank": 4.91065,
+      "rank1_frequency": 0.0,
+      "rank1_inclusive_frequency": 0.0,
+      "rank_lo": 4.0,
+      "rank_hi": 5.0
+    },
+    {
+      "cluster": "study_component",
+      "metric": "balanced_joint",
+      "system": "GPT-6-Astra",
+      "mean_rank": 1.1318,
+      "rank1_frequency": 0.885425,
+      "rank1_inclusive_frequency": 0.88615,
+      "rank_lo": 1.0,
+      "rank_hi": 2.0
+    },
+    {
+      "cluster": "study_component",
+      "metric": "balanced_joint",
+      "system": "Claude-Sonnet-5.5",
+      "mean_rank": 2.841725,
+      "rank1_frequency": 0.0679,
+      "rank1_inclusive_frequency": 0.06835,
+      "rank_lo": 1.0,
+      "rank_hi": 5.0
+    },
+    {
+      "cluster": "study_component",
+      "metric": "balanced_joint",
+      "system": "Gemini-3.8-Flash",
+      "mean_rank": 3.168775,
+      "rank1_frequency": 0.03365,
+      "rank1_inclusive_frequency": 0.0339,
+      "rank_lo": 1.0,
+      "rank_hi": 5.0
+    },
+    {
+      "cluster": "study_component",
+      "metric": "balanced_joint",
+      "system": "GLM-5.3-Flash",
+      "mean_rank": 5.99965,
+      "rank1_frequency": 0.0,
+      "rank1_inclusive_frequency": 0.0,
+      "rank_lo": 6.0,
+      "rank_hi": 6.0
+    },
+    {
+      "cluster": "study_component",
+      "metric": "balanced_joint",
+      "system": "Grok-4.6",
+      "mean_rank": 3.051,
+      "rank1_frequency": 0.01055,
+      "rank1_inclusive_frequency": 0.01075,
+      "rank_lo": 2.0,
+      "rank_hi": 4.0
+    },
+    {
+      "cluster": "study_component",
+      "metric": "balanced_joint",
+      "system": "Biomni",
+      "mean_rank": 4.80705,
+      "rank1_frequency": 0.002475,
+      "rank1_inclusive_frequency": 0.0025,
+      "rank_lo": 3.0,
+      "rank_hi": 5.0
+    },
+    {
+      "cluster": "study_component",
+      "metric": "chain",
+      "system": "GPT-6-Astra",
+      "mean_rank": 1.111625,
+      "rank1_frequency": 0.908075,
+      "rank1_inclusive_frequency": 0.91325,
+      "rank_lo": 1.0,
+      "rank_hi": 2.0
+    },
+    {
+      "cluster": "study_component",
+      "metric": "chain",
+      "system": "Claude-Sonnet-5.5",
+      "mean_rank": 3.1078,
+      "rank1_frequency": 0.01775833333333333,
+      "rank1_inclusive_frequency": 0.01925,
+      "rank_lo": 2.0,
+      "rank_hi": 5.0
+    },
+    {
+      "cluster": "study_component",
+      "metric": "chain",
+      "system": "Gemini-3.8-Flash",
+      "mean_rank": 3.260375,
+      "rank1_frequency": 0.049291666666666664,
+      "rank1_inclusive_frequency": 0.0521,
+      "rank_lo": 1.0,
+      "rank_hi": 5.0
+    },
+    {
+      "cluster": "study_component",
+      "metric": "chain",
+      "system": "GLM-5.3-Flash",
+      "mean_rank": 5.99995,
+      "rank1_frequency": 0.0,
+      "rank1_inclusive_frequency": 0.0,
+      "rank_lo": 6.0,
+      "rank_hi": 6.0
+    },
+    {
+      "cluster": "study_component",
+      "metric": "chain",
+      "system": "Grok-4.6",
+      "mean_rank": 2.9104,
+      "rank1_frequency": 0.02175833333333333,
+      "rank1_inclusive_frequency": 0.02375,
+      "rank_lo": 2.0,
+      "rank_hi": 4.0
+    },
+    {
+      "cluster": "study_component",
+      "metric": "chain",
+      "system": "Biomni",
+      "mean_rank": 4.60985,
+      "rank1_frequency": 0.0031166666666666665,
+      "rank1_inclusive_frequency": 0.0035,
+      "rank_lo": 3.0,
+      "rank_hi": 5.0
+    },
+    {
+      "cluster": "study_component",
+      "metric": "joint",
+      "system": "GPT-6-Astra",
+      "mean_rank": 1.1407,
+      "rank1_frequency": 0.8848833333333334,
+      "rank1_inclusive_frequency": 0.89105,
+      "rank_lo": 1.0,
+      "rank_hi": 2.0
+    },
+    {
+      "cluster": "study_component",
+      "metric": "joint",
+      "system": "Claude-Sonnet-5.5",
+      "mean_rank": 2.988125,
+      "rank1_frequency": 0.026408333333333332,
+      "rank1_inclusive_frequency": 0.0288,
+      "rank_lo": 1.5,
+      "rank_hi": 5.0
+    },
+    {
+      "cluster": "study_component",
+      "metric": "joint",
+      "system": "Gemini-3.8-Flash",
+      "mean_rank": 3.189825,
+      "rank1_frequency": 0.06321666666666666,
+      "rank1_inclusive_frequency": 0.0661,
+      "rank_lo": 1.0,
+      "rank_hi": 5.0
+    },
+    {
+      "cluster": "study_component",
+      "metric": "joint",
+      "system": "GLM-5.3-Flash",
+      "mean_rank": 5.99995,
+      "rank1_frequency": 0.0,
+      "rank1_inclusive_frequency": 0.0,
+      "rank_lo": 6.0,
+      "rank_hi": 6.0
+    },
+    {
+      "cluster": "study_component",
+      "metric": "joint",
+      "system": "Grok-4.6",
+      "mean_rank": 3.044325,
+      "rank1_frequency": 0.02221666666666667,
+      "rank1_inclusive_frequency": 0.0244,
+      "rank_lo": 2.0,
+      "rank_hi": 4.0
+    },
+    {
+      "cluster": "study_component",
+      "metric": "joint",
+      "system": "Biomni",
+      "mean_rank": 4.637075,
+      "rank1_frequency": 0.003275,
+      "rank1_inclusive_frequency": 0.0036,
+      "rank_lo": 3.0,
+      "rank_hi": 5.0
+    }
+  ]
+}

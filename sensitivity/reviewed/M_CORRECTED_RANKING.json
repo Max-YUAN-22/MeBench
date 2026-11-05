@@ -1,0 +1,268 @@
+{
+ "seed": 20261017,
+ "B": 10000,
+ "n_pairs": 168,
+ "n_unit_runs": 4632,
+ "published_pooled_unitrun": {
+  "GPT-6-Astra|chain": 84.7,
+  "GPT-6-Astra|joint": 84.2,
+  "Claude-Sonnet-5.5|chain": 79.4,
+  "Claude-Sonnet-5.5|joint": 79.3,
+  "Gemini-3.8-Flash|chain": 79.0,
+  "Gemini-3.8-Flash|joint": 78.9,
+  "GLM-5.3-Flash|chain": 62.0,
+  "GLM-5.3-Flash|joint": 61.9,
+  "Grok-4.6|chain": 79.5,
+  "Grok-4.6|joint": 79.0,
+  "Biomni|chain": 76.2,
+  "Biomni|joint": 75.8
+ },
+ "pair_weighted_point": {
+  "chain": {
+   "GPT-6-Astra": 86.9,
+   "Claude-Sonnet-5.5": 83.9,
+   "Gemini-3.8-Flash": 82.2,
+   "GLM-5.3-Flash": 66.3,
+   "Grok-4.6": 82.9,
+   "Biomni": 80.1
+  },
+  "joint": {
+   "GPT-6-Astra": 86.3,
+   "Claude-Sonnet-5.5": 83.7,
+   "Gemini-3.8-Flash": 82.0,
+   "GLM-5.3-Flash": 66.1,
+   "Grok-4.6": 82.4,
+   "Biomni": 79.6
+  }
+ },
+ "bootstrap": {
+  "chain": {
+   "GPT-6-Astra": {
+    "point": 86.9,
+    "ci95": [
+     82.2,
+     91.2
+    ],
+    "width": 9.0
+   },
+   "Claude-Sonnet-5.5": {
+    "point": 83.9,
+    "ci95": [
+     79.0,
+     88.4
+    ],
+    "width": 9.4
+   },
+   "Gemini-3.8-Flash": {
+    "point": 82.2,
+    "ci95": [
+     77.7,
+     86.4
+    ],
+    "width": 8.7
+   },
+   "GLM-5.3-Flash": {
+    "point": 66.3,
+    "ci95": [
+     61.1,
+     71.2
+    ],
+    "width": 10.1
+   },
+   "Grok-4.6": {
+    "point": 82.9,
+    "ci95": [
+     77.8,
+     87.7
+    ],
+    "width": 9.9
+   },
+   "Biomni": {
+    "point": 80.1,
+    "ci95": [
+     74.8,
+     85.0
+    ],
+    "width": 10.3
+   }
+  },
+  "joint": {
+   "GPT-6-Astra": {
+    "point": 86.3,
+    "ci95": [
+     81.5,
+     90.7
+    ],
+    "width": 9.2
+   },
+   "Claude-Sonnet-5.5": {
+    "point": 83.7,
+    "ci95": [
+     78.9,
+     88.3
+    ],
+    "width": 9.5
+   },
+   "Gemini-3.8-Flash": {
+    "point": 82.0,
+    "ci95": [
+     77.5,
+     86.3
+    ],
+    "width": 8.8
+   },
+   "GLM-5.3-Flash": {
+    "point": 66.1,
+    "ci95": [
+     60.9,
+     71.1
+    ],
+    "width": 10.2
+   },
+   "Grok-4.6": {
+    "point": 82.4,
+    "ci95": [
+     77.1,
+     87.2
+    ],
+    "width": 10.1
+   },
+   "Biomni": {
+    "point": 79.6,
+    "ci95": [
+     74.2,
+     84.6
+    ],
+    "width": 10.4
+   }
+  }
+ },
+ "gpt_minus_claude": {
+  "chain": {
+   "point": 3.1,
+   "ci95": [
+    1.2,
+    5.2
+   ],
+   "p_diff_gt_0": 0.9994
+  },
+  "joint": {
+   "point": 2.6,
+   "ci95": [
+    0.9,
+    4.6
+   ],
+   "p_diff_gt_0": 0.9986
+  }
+ },
+ "ranking": {
+  "chain": {
+   "pair_equal_reference_order": [
+    "GPT-6-Astra",
+    "Claude-Sonnet-5.5",
+    "Grok-4.6",
+    "Gemini-3.8-Flash",
+    "Biomni",
+    "GLM-5.3-Flash"
+   ],
+   "p_reproduce_published": 0.5276,
+   "p_gpt_first": 0.9994,
+   "mean_kendall_tau_b_vs_pair_equal_order": 0.9242,
+   "adjacent_flip_prob": {
+    "flip Grok-4.6 above Claude-Sonnet-5.5": 0.0991,
+    "flip Claude-Sonnet-5.5 above GPT-6-Astra": 0.0005,
+    "flip Biomni above Gemini-3.8-Flash": 0.1054,
+    "flip Gemini-3.8-Flash above Grok-4.6": 0.287
+   }
+  },
+  "joint": {
+   "pair_equal_reference_order": [
+    "GPT-6-Astra",
+    "Claude-Sonnet-5.5",
+    "Grok-4.6",
+    "Gemini-3.8-Flash",
+    "Biomni",
+    "GLM-5.3-Flash"
+   ],
+   "p_reproduce_published": 0.4846,
+   "p_gpt_first": 0.9987,
+   "mean_kendall_tau_b_vs_pair_equal_order": 0.9206,
+   "adjacent_flip_prob": {
+    "flip Grok-4.6 above Claude-Sonnet-5.5": 0.0325,
+    "flip Claude-Sonnet-5.5 above GPT-6-Astra": 0.0012,
+    "flip Biomni above Gemini-3.8-Flash": 0.0777,
+    "flip Gemini-3.8-Flash above Grok-4.6": 0.4082
+   }
+  }
+ },
+ "study_level": {
+  "n_studies": 31,
+  "pairs_per_study_top": [
+   {
+    "study": "GSE266489",
+    "pairs": 99
+   },
+   {
+    "study": "GSE45822",
+    "pairs": 10
+   },
+   {
+    "study": "GSE274688",
+    "pairs": 7
+   },
+   {
+    "study": "GSE293567",
+    "pairs": 4
+   },
+   {
+    "study": "doi:10.1210/endocr/bqag095;",
+    "pairs": 3
+   }
+  ],
+  "mapping_rule": "primary = lexicographically first identifier among the pair's sources (5 pairs have 2 sources)",
+  "chain_bootstrap": {
+   "GPT-6-Astra": {
+    "point": 86.9,
+    "ci95": [
+     55.2,
+     96.7
+    ]
+   },
+   "Claude-Sonnet-5.5": {
+    "point": 83.9,
+    "ci95": [
+     49.5,
+     95.1
+    ]
+   },
+   "Gemini-3.8-Flash": {
+    "point": 82.2,
+    "ci95": [
+     55.1,
+     90.6
+    ]
+   },
+   "GLM-5.3-Flash": {
+    "point": 66.3,
+    "ci95": [
+     25.5,
+     80.7
+    ]
+   },
+   "Grok-4.6": {
+    "point": 82.9,
+    "ci95": [
+     44.9,
+     95.2
+    ]
+   },
+   "Biomni": {
+    "point": 80.1,
+    "ci95": [
+     39.5,
+     93.6
+    ]
+   }
+  }
+ }
+}

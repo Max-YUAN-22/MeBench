@@ -1,0 +1,80 @@
+<html><head><meta charset="utf-8"><title>Appendix L — Identifiability and Accepted-Set Analysis for Task 3</title><style>
+body{font-family:'Times New Roman',serif;font-size:11pt;max-width:720px;margin:36px auto;color:#111;line-height:1.6;}
+h1{font-size:13pt;} h2{font-size:11.5pt;margin:22px 0 6px;} h3{font-size:11pt;margin:14px 0 4px;color:#222;font-style:italic;}
+p{margin:8px 0;text-align:justify;}
+table{border-collapse:collapse;margin:12px auto;width:100%;}
+th,td{border:1px solid #bbb;padding:4px 7px;font-size:9.5pt;text-align:center;}
+th{background:#f2f2f2;} td:first-child{text-align:left;}
+.fn{font-size:8.5pt;color:#555;margin:5px 0;line-height:1.4;text-align:left;}
+code{font-family:Menlo,monospace;font-size:8.5pt;background:#f6f6f2;padding:0 3px;}
+</style></head><body>
+<h1>Appendix L — Identifiability and Accepted-Set Analysis for Task 3</h1>
+<p><b>Status.</b> Post-freeze analysis addendum (outputs layer). This appendix introduces no new biological
+labels and does not alter any frozen value. It re-examines the Task 3 answer space as defined by the shipped
+per-unit accepted intervention sets <i>A<sub>i</sub></i> (evaluation bundle, <code>accepted_intervention_types_json</code>),
+using the same scoring path as the main tables (canonical matcher plus the disclosed designer-approved
+entity-conditional RNA alias).</p>
+
+<h2>L.1 Accepted-set cardinality</h2>
+<p>Task 3 contains 20 units over 9 bidirectional pairs. The number of accepted intervention types per unit,
+|<i>A<sub>i</sub></i>| (after canonicalization), is <b>1 for 19 units and
+&gt;1 for 1 units</b>. Where |<i>A<sub>i</sub></i>| &gt; 1 the inverse mapping
+from the observed direction and perturbed entity back to the intervention that was applied is genuinely
+one-to-many: more than one intervention is consistent with the benchmark's own labels, and a system cannot be
+expected to distinguish them from the visible input alone. These units are therefore reported separately
+throughout this appendix and should not be treated as strict one-to-one inverse-mapping probes.</p>
+
+<h3>Table L1 | Units with multiple accepted intervention types (|A<sub>i</sub>| &gt; 1)</h3>
+<table><tr><th>Unit</th><th>Entity (direction)</th><th>Accepted (raw label set)</th><th>Accepted (canonical)</th></tr>
+<tr><td>T3VP_0003</td><td>miR-10b (up)</td><td>inhibition, sponge_inhibition</td><td>inhibition, sponge_inhibition</td></tr></table>
+<p class="fn">Raw sets are the shipped <code>accepted_intervention_types_json</code>; canonical sets apply the shipped
+synonym whitelist. Any answer inside either set is scored accepted under the published rule
+(<code>multiple_answer_policy: any accepted perturbation for the same pair and supplied direction is correct</code>).</p>
+
+<h2>L.2 Exact-match vs accepted-set accuracy</h2>
+<p>The shipped scorer reports two layers: <i>exact pre-normalization</i> accuracy (the raw answer string matches a
+raw gold label verbatim after case/punctuation normalization) and <i>accepted-set</i> accuracy (the canonicalized
+answer falls in the canonical accepted set). The gap between the two is synonym-rescue mass: answers that are
+methodologically equivalent to an accepted label but worded outside the raw label set. The main tables use the
+accepted-set layer, with the RNA alias disclosed in Appendix B; the exact layer is reported here for transparency.</p>
+
+<h3>Table L2 | Per-system exact vs accepted-set type accuracy, chain pass and joint pass (%, 4-run pooled)</h3>
+<table><tr><th>System</th><th>Exact (pre-norm.)</th><th>Accepted set (published)</th><th>Rescue gap</th><th>Joint pass</th></tr>
+<tr><td>GPT-6-Astra</td><td>35.0</td><td>70.0</td><td><b>35.0</b></td><td>58.8</td></tr><tr><td>Claude-Sonnet-5.5</td><td>30.0</td><td>45.0</td><td><b>15.0</b></td><td>35.0</td></tr><tr><td>Gemini-3.8-Flash</td><td>30.0</td><td>63.8</td><td><b>33.8</b></td><td>56.2</td></tr><tr><td>GLM-5.3-Flash</td><td>41.2</td><td>63.8</td><td><b>22.6</b></td><td>51.2</td></tr><tr><td>Grok-4.6</td><td>25.0</td><td>60.0</td><td><b>35.0</b></td><td>53.8</td></tr><tr><td>Biomni (tools)</td><td>55.0</td><td>91.2</td><td><b>36.2</b></td><td>41.2</td></tr></table>
+<p class="fn">Pooled over 480 unit-runs: exact 36.0% vs accepted-set 65.6%
+(rescued unit-runs: 42 via the disclosed RNA alias,
+100 via other whitelist synonyms). Chain pass is identical under both
+layers by construction — the adjudication axes do not depend on the type matcher — so only the joint metric moves.</p>
+
+<h3>Table L3 | Performance stratified by accepted-set cardinality</h3>
+<table><tr><th>Stratum</th><th>Exact (%)</th><th>Accepted set (%)</th><th>Chain pass (%)</th><th>Joint pass (%)</th></tr>
+<tr><td>|A<sub>i</sub>| = 1 (456 unit-runs)</td><td>35.5</td><td>64.3</td><td>59.0</td><td>47.4</td></tr><tr><td>|A<sub>i</sub>| = 2 (24 unit-runs)</td><td>45.8</td><td>91.7</td><td>91.7</td><td>87.5</td></tr></table>
+<p class="fn">Units with |<i>A<sub>i</sub></i>| &gt; 1 are easier on the type metric by construction (a larger
+acceptance region); the cardinality split is reported so that the strict one-to-one subset can be read in isolation.</p>
+
+<h2>L.3 Identifiability of the inverse task from the visible input</h2>
+<p>Task 3 shows the model a (TF–gene pair, direction, perturbed entity) triple and asks which intervention was
+applied to the entity. The task is identifiable from the visible input only if the benchmark's own labels make
+(entity, direction) determine the accepted set. The map below enumerates every (entity, direction) combination
+in the task with its accepted canonical union.
+<b>Every (entity, direction) combination maps to a single accepted canonical set, so no unit is unidentifiable from the input given the labels.</b>
+The residual non-identifiability is of a second kind and is disclosed in Appendix B.6: the input does not always
+determine which concrete method within an accepted class was used (e.g. siRNA vs shRNA vs knockout; agonist vs
+overexpression), and the whitelist settles those cases by construction rather than by inference.</p>
+
+<h3>Table L4 | (Entity, direction) → accepted canonical set</h3>
+<table><tr><th>Entity (direction)</th><th>Units</th><th>Accepted canonical union</th></tr>
+<tr><td>bhlhe40 (down)</td><td>T3VP_0002, T3VP_0018, T3VP_0020</td><td>knockdown</td></tr><tr><td>mir-10b (down)</td><td>T3VP_0014</td><td>overexpression</td></tr><tr><td>mir-10b (up)</td><td>T3VP_0003</td><td>inhibition, sponge_inhibition</td></tr><tr><td>mir-181b (down)</td><td>T3VP_0001</td><td>overexpression</td></tr><tr><td>mir-181b (up)</td><td>T3VP_0011</td><td>inhibition</td></tr><tr><td>mir-210 (down)</td><td>T3VP_0010, T3VP_0019</td><td>overexpression</td></tr><tr><td>mir-210 (up)</td><td>T3VP_0013, T3VP_0016</td><td>inhibition</td></tr><tr><td>mir-451 (down)</td><td>T3VP_0017</td><td>overexpression</td></tr><tr><td>mir-451 (up)</td><td>T3VP_0015</td><td>genetic_knockout</td></tr><tr><td>notch1 (down)</td><td>T3VP_0006</td><td>knockdown</td></tr><tr><td>notch1; tgf-beta/smad3 (up)</td><td>T3VP_0009</td><td>combined_ligand_stimulation</td></tr><tr><td>ppara (up)</td><td>T3VP_0004, T3VP_0005, T3VP_0012</td><td>agonist_activation</td></tr><tr><td>smad3 (down)</td><td>T3VP_0007</td><td>knockdown</td></tr><tr><td>smad4 (down)</td><td>T3VP_0008</td><td>knockdown</td></tr></table>
+
+<h2>L.4 Largest exact-vs-accepted gaps per unit</h2>
+<h3>Table L5 | Units with the largest rescue mass (exact vs accepted-set type accuracy, pooled 4 runs)</h3>
+<table><tr><th>Unit</th><th>Entity (direction)</th><th>|A<sub>i</sub>|</th><th>Exact (%)</th><th>Accepted (%)</th><th>Gap</th></tr>
+<tr><td>T3VP_0007</td><td>SMAD3 (down)</td><td>1</td><td>0.0</td><td>95.8</td><td>95.8</td></tr><tr><td>T3VP_0008</td><td>SMAD4 (down)</td><td>1</td><td>0.0</td><td>95.8</td><td>95.8</td></tr><tr><td>T3VP_0006</td><td>NOTCH1 (down)</td><td>1</td><td>0.0</td><td>91.7</td><td>91.7</td></tr><tr><td>T3VP_0003</td><td>miR-10b (up)</td><td>2</td><td>45.8</td><td>91.7</td><td>45.9</td></tr><tr><td>T3VP_0011</td><td>miR-181b (up)</td><td>1</td><td>50.0</td><td>95.8</td><td>45.8</td></tr><tr><td>T3VP_0013</td><td>miR-210 (up)</td><td>1</td><td>50.0</td><td>95.8</td><td>45.8</td></tr><tr><td>T3VP_0016</td><td>miR-210 (up)</td><td>1</td><td>54.2</td><td>91.7</td><td>37.5</td></tr><tr><td>T3VP_0018</td><td>BHLHE40 (down)</td><td>1</td><td>0.0</td><td>37.5</td><td>37.5</td></tr></table>
+
+<h2>L.5 Reading guidance</h2>
+<p>(i) Joint-pass values on |<i>A<sub>i</sub></i>| &gt; 1 units should be read as "the system found one of the
+benchmark-accepted interventions", not "the system recovered the intervention that was performed".
+(ii) The cardinality split (Table L3) is the strict one-to-one readout.
+(iii) All values in this appendix are recomputed from the frozen MASTER table and the shipped hidden-label
+bundle; none modifies or supersedes the main-text Task 3 numbers, which remain the accepted-set (published) layer.</p>
+</body></html>
