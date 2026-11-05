@@ -23,7 +23,6 @@ authors:
     given-names: Yang
   - family-names: Wang
     given-names: Haohan
-version: v3.7.0
 date-released: "2026-11-04"
 license: CC-BY-4.0
 repository-code: "https://github.com/Max-YUAN-22/MeBench"

@@ -5,9 +5,9 @@ parser=argparse.ArgumentParser(description='Recompute Task 3 literal, canonical 
 parser.add_argument('--output',type=Path,default=Path('robustness_output'))
 args=parser.parse_args()
 R=Path(__file__).resolve().parents[1];O=args.output;O.mkdir(parents=True,exist_ok=True)
-spec=importlib.util.spec_from_file_location('s37',R/'evaluation_v3.7.0/scoring/score_model_outputs.py');sc=importlib.util.module_from_spec(spec);spec.loader.exec_module(sc)
+spec=importlib.util.spec_from_file_location('s37',R/'benchmark/scoring/score_model_outputs.py');sc=importlib.util.module_from_spec(spec);spec.loader.exec_module(sc)
 canon=sc.previous.canonical_intervention;norm=sc.core.normalize
-with gzip.open(R/'evaluation_v3.7.0/task3/hidden_labels.tsv.gz','rt') as f:G={r['unit_id']:r for r in csv.DictReader(f,delimiter='\t')}
+with gzip.open(R/'benchmark/task3/hidden_labels.tsv.gz','rt') as f:G={r['unit_id']:r for r in csv.DictReader(f,delimiter='\t')}
 D=list(csv.DictReader(open(R/'runs/MASTER_task3.tsv'),delimiter='\t'));systems=list(dict.fromkeys(r['system'] for r in D))
 def write(name,rows):
  with open(O/name,'w') as f:

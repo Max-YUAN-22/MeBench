@@ -44,7 +44,7 @@ The current PDF uses a separate title/abstract page numbered 1, ten main-text pa
 
 ## Scoring new predictions
 
-Use the released scorer documented in `evaluation_v3.7.0/README.md`. Keep evaluator-only reference fields out of model inputs. Applying the separate RNA amendment and obtaining new five-axis judgments are distinct steps; running the answer scorer alone does not reproduce full-chain or joint metrics.
+Use the released scorer documented in `benchmark/README.md`. Keep evaluator-only reference fields out of model inputs. Applying the separate RNA amendment and obtaining new five-axis judgments are distinct steps; running the answer scorer alone does not reproduce full-chain or joint metrics.
 
 ## Manifests
 

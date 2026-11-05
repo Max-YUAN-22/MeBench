@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-05 — Reviewer-facing documentation cleanup
+
+- Removed internal editing notes from the current public file tree.
+- Separated historical supplementary HTML from the current PDF.
+- Updated manuscript pagination and replaced obsolete sensitivity instructions with supported reproduction commands.
+- Retained original experimental records, both judge reassessments, raw evidence and statistical correction disclosures.
+
 ## 2026-11-05 — Reproducible manuscript and supplementary-analysis revision
 
 - Preserved the frozen benchmark inputs, evaluator references, model responses, original judgments and primary result values.
@@ -10,7 +17,7 @@
 - Removed embedded credential defaults and the fixed relay endpoint from the supplied execution-script copy.
 - Normalized maintained code, manuscript, derived-analysis and documentation paths. Historical supplementary outputs remain explicitly archived.
 
-## v3.7.0 — Frozen experimental release
+## Original experimental release
 
 Original commit: `d282d75516d5a77a4bca5680037956354828369c`.
 

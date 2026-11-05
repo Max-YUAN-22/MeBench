@@ -2,7 +2,7 @@
 
 ## Frozen inputs and references
 
-The three task bundles are under `evaluation_v3.7.0/task1/`, `task2/` and `task3/`. Task inputs, hidden reference labels and evaluator metadata are separate files. Reference files are included in the public release for inspection and reproduction, not for presentation to the evaluated model. Files ending in `.tsv.gz` are gzip-compressed TSV.
+The three task bundles are under `benchmark/task1/`, `task2/` and `task3/`. Task inputs, hidden reference labels and evaluator metadata are separate files. Reference files are included in the public release for inspection and reproduction, not for presentation to the evaluated model. Files ending in `.tsv.gz` are gzip-compressed TSV.
 
 Mechanism references require functional evidence supporting the regulatory relationship; intervention units also require compatible experimental context and an unambiguous response contrast. Binding or expression association alone is insufficient under these admission rules. The collection is curated, not an exhaustive survey of all eligible literature.
 

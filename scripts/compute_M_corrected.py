@@ -166,7 +166,7 @@ summary["ranking"]["joint"]["adjacent_flip_prob"] = {
     f"flip {b_} above {a}": round(c / B, 4) for (a, b_), c in sorted(pair_flip["joint"].items())}
 
 # ---------- study-level ----------
-meta = list(csv.DictReader(gzip.open(ROOT / "evaluation_v3.7.0/task2/evaluator_metadata.tsv.gz", "rt"), delimiter="\t"))
+meta = list(csv.DictReader(gzip.open(ROOT / "benchmark/task2/evaluator_metadata.tsv.gz", "rt"), delimiter="\t"))
 pair_study = {}
 for r in meta:
     studies = []

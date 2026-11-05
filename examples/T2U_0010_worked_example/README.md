@@ -18,8 +18,8 @@ direction, which is why it is used as the worked example in the paper.
 To rescore it yourself:
 
 ```
-python3 evaluation_v3.7.0/scoring/score_model_outputs.py \
-    --bundle evaluation_v3.7.0 --task task2 \
+python3 evaluation_/scoring/score_model_outputs.py \
+    --bundle evaluation_ --task task2 \
     --predictions runs/claude/run1/task2_predictions.tsv \
     --output /tmp/x.json
 ```

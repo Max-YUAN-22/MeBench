@@ -1,3 +1,5 @@
+> **Historical source report — superseded narrative.** For corrected ranking statistics and verified packet contents, use [the current sensitivity guide](../../docs/SENSITIVITY.md) and `../../sensitivity/reviewed/`. The archived claim of identical original/reassessment input packets is not established by the supplied evidence.
+
 # MechanismBench v3.7.0 — Sensitivity Appendices K / L / M — Full Text Results
 
 Generated 2026-11-05. Post-freeze layer at `test10:8/v3.7/sensitivity/`. No frozen file touched

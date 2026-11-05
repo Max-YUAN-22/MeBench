@@ -6,7 +6,7 @@ parser.add_argument('--output',type=Path,default=Path('judge_sample_regenerated'
 args=parser.parse_args();R=Path(__file__).resolve().parents[1];O=args.output;W=O/'blind_packets';W.mkdir(parents=True,exist_ok=True)
 AX=['mechanism_correct','mediator_correct','causal_role_order_correct','intervention_outcome_link_correct','no_material_contradiction']
 D={t:list(csv.DictReader(open(R/f'runs/MASTER_task{t}.tsv'),delimiter='\t')) for t in (2,3)}
-G={t:{r['unit_id']:json.loads(r['reasoning_ground_truth_json']) for r in csv.DictReader(gzip.open(R/f'evaluation_v3.7.0/task{t}/hidden_labels.tsv.gz','rt'),delimiter='\t')} for t in (2,3)}
+G={t:{r['unit_id']:json.loads(r['reasoning_ground_truth_json']) for r in csv.DictReader(gzip.open(R/f'benchmark/task{t}/hidden_labels.tsv.gz','rt'),delimiter='\t')} for t in (2,3)}
 seed=20261105;rng=random.Random(seed);selected=[];strata=[]
 for t in (2,3):
  for system in dict.fromkeys(r['system'] for r in D[t]):

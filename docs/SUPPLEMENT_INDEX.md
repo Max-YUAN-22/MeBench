@@ -4,7 +4,7 @@ The current supplement contains Appendices A–M on S1–S16. Download the [stan
 
 | Appendix | Pages | Evidence and data | Supported reproduction |
 |---|---|---|---|
-| A | S1 | Protocol, source metadata and all-record audit. [evaluator_metadata.tsv.gz](../evaluation_v3.7.0/task2/evaluator_metadata.tsv.gz); [independent_audit.json](../analysis/release_audit/independent_audit.json); [MASTER_data_dictionary.md](../runs/MASTER_data_dictionary.md) | scripts/reproduce_release.py |
+| A | S1 | Protocol, source metadata and all-record audit. [evaluator_metadata.tsv.gz](../benchmark/task2/evaluator_metadata.tsv.gz); [independent_audit.json](../analysis/release_audit/independent_audit.json); [MASTER_data_dictionary.md](../runs/MASTER_data_dictionary.md) | scripts/reproduce_release.py |
 | B | S2 | Metric definitions and answer/chain/joint summaries. [diagnostic_metrics.tsv](../analysis/release_audit/diagnostic_metrics.tsv); [main_table_recomputed.tsv](../analysis/release_audit/main_table_recomputed.tsv) | scripts/reproduce_release.py |
 | C | S3 | Outcome-mechanism dissociation. [diagnostic_metrics.tsv](../analysis/release_audit/diagnostic_metrics.tsv); [T2_answer_wrong_chain_pass_review.tsv](../analysis/mechanism_modules/T2_answer_wrong_chain_pass_review.tsv) | scripts/reproduce_release.py; scripts/analyze_dependency_modules.py |
 | D | S4 | Mechanism strata and intervention contrasts. [mechanism_strata.tsv](../analysis/release_audit/mechanism_strata.tsv); [modules.tsv](../analysis/mechanism_modules/modules.tsv); [PPARA_activation_responses.tsv](../analysis/mechanism_modules/PPARA_activation_responses.tsv); 6 file links in the machine-readable catalogue | scripts/reproduce_release.py; scripts/analyze_dependency_modules.py |
@@ -25,5 +25,5 @@ The current supplement contains Appendices A–M on S1–S16. Download the [stan
 - K retains both actual automated reassessments, with their different interfaces and blinding limitations. Cross-model agreement is not biological validation.
 - L publishes every accepted set and response-level match; a singleton set is not proof of unique biological identifiability.
 - M retains all 20,000-draw primary bootstrap arrays and the supplied 10,000-draw secondary summaries/code. The metrics and weighting differ.
-- The historical HTML files in `paper/supplement/` and original author `sensitivity/*/outputs/` remain available. They include superseded conventions/rank calculations; use the current manuscript, reviewed metrics and [SCORING.md](SCORING.md) for the revision.
+- The historical HTML files in `archive/supplement/` and original author `sensitivity/*/outputs/` remain available. They include superseded conventions/rank calculations; use the current manuscript, reviewed metrics and [SCORING.md](SCORING.md) for the reported results.
 - Source locations and biological conditions are recorded in evaluator metadata; example judgments must be interpreted against those conditions.

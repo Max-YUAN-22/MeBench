@@ -74,7 +74,7 @@ for s in systems:
 writecsv('sensitivity.tsv',sens)
 json.dump(dict(master_rows_verified_against_archived_predictions_and_axes=verified,errors=errors,summary=summary,strata=strata,modules=modules,sensitivity=sens),open(O/'independent_audit.json','w'),indent=2)
 print(json.dumps({'verified':verified,'modules':modules,'summary':[{k:v for k,v in x.items() if k in ('task','system','answer','chain','joint','conditional_fail')} for x in summary]},indent=2))
-spec=importlib.util.spec_from_file_location('sc',R/'evaluation_v3.7.0/scoring/score_model_outputs.py')
+spec=importlib.util.spec_from_file_location('sc',R/'benchmark/scoring/score_model_outputs.py')
 sc=importlib.util.module_from_spec(spec);spec.loader.exec_module(sc)
 canon=sc.previous.canonical_intervention
 for r in D[3]:

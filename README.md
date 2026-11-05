@@ -4,7 +4,7 @@
 
 MeBench evaluates whether a model identifies experimentally supported regulatory dependencies and uses the relevant components and functional roles to explain perturbation responses. It combines mechanism classification, forward perturbation reasoning and inverse intervention reasoning.
 
-[Current manuscript](paper/manuscript/main.pdf) · [Supplementary PDF, Appendices A–M](paper/supplement/MeBench_appendices_A-M.pdf) · [Supplement data index](docs/SUPPLEMENT_INDEX.md) · [Reproduction guide](docs/REPRODUCIBILITY.md)
+[Paper](paper/manuscript/main.pdf) · [Supplement (A–M)](paper/supplement/MeBench_appendices_A-M.pdf) · [Data and results index](docs/SUPPLEMENT_INDEX.md) · [Reproduction guide](docs/REPRODUCIBILITY.md)
 
 ## Benchmark and released records
 
@@ -16,7 +16,7 @@ MeBench evaluates whether a model identifies experimentally supported regulatory
 
 Six systems were evaluated in four recorded runs. Runs are repeated administrations of the protocol, not independent biological replicates. Biomni has tool access; the other five systems use closed-book prompts.
 
-The v3.7.0 experimental inputs, reference annotations, original predictions, original judgments and published primary results are preserved. Post-freeze analyses are separate derived artifacts. The release includes evaluator-only references for inspection; those fields must remain withheld when administering the corresponding benchmark task.
+The experimental inputs, reference annotations, original predictions, original judgments and published primary results are preserved. Post-freeze analyses are separate derived artifacts. The release includes evaluator-only references for inspection; those fields must remain withheld when administering the corresponding benchmark task.
 
 ## Quick start
 
@@ -46,7 +46,7 @@ Logs and a machine-readable report are written to `build/reproduction/`. [REPROD
 
 | Path | Contents |
 |---|---|
-| [`evaluation_v3.7.0/`](evaluation_v3.7.0/) | Frozen task inputs, evaluator-only labels/metadata, scorer and templates |
+| [`benchmark/`](benchmark/) | Frozen task inputs, evaluator-only labels/metadata, scorer and templates |
 | [`prompts/`](prompts/) | Released model prompts and prompt checksums |
 | [`runs/`](runs/) | Original responses, predictions, judgments and three consolidated MASTER tables |
 | [`results/`](results/) | Published primary values and archived aggregate statistics |
@@ -56,11 +56,11 @@ Logs and a machine-readable report are written to `build/reproduction/`. [REPROD
 | [`analysis/robustness/`](analysis/robustness/) | Independent-agent pilot, Task 3 accepted sets and primary cluster bootstrap arrays/tables |
 | [`sensitivity/`](sensitivity/) | Author-supplied Gemini reassessment and pair-equal analyses, with raw packets and reviewed corrections |
 | [`paper/manuscript/`](paper/manuscript/) | Current LaTeX source, figures, bibliography and complete PDF |
-| [`paper/supplement/`](paper/supplement/) | Standalone current supplement and preserved historical supplementary HTML |
+| [`paper/supplement/`](paper/supplement/) | Standalone supplementary PDF; underlying records are indexed in docs/SUPPLEMENT_INDEX.md |
 | [`scripts/`](scripts/) | Supported reproduction scripts; original workspace-dependent scripts are in `scripts/legacy/` |
 | [`docs/`](docs/) | Data, scoring, provenance, supplement mapping and release notes |
 
-Original files remaining in the root of `analysis/` are archived release audits. Historical HTML and JSON may use earlier conventions; use the [current data index](docs/SUPPLEMENT_INDEX.md) and [scoring definitions](docs/SCORING.md) to identify the applicable result.
+The [data and results index](docs/SUPPLEMENT_INDEX.md) maps every appendix to its underlying records. Historical supplementary reports are kept separately in [`archive/supplement/`](archive/supplement/).
 
 ## Interpretation and validation boundaries
 
@@ -74,9 +74,9 @@ The [sensitivity guide](docs/SENSITIVITY.md) distinguishes the larger Gemini rea
 
 ## Integrity and provenance
 
-`MANIFEST.sha256` covers this repository snapshot. `FROZEN_ARTIFACTS.sha256` checks 636 unchanged experimental files against the original release. `MANIFEST.original.sha256` retains the full historical manifest; some documentation and script paths have since changed, so it is a provenance record rather than the current package verifier.
+`MANIFEST.sha256` covers this repository snapshot. `FROZEN_ARTIFACTS.sha256` checks 636 unchanged original files against the original release. `MANIFEST.original.sha256` retains the full historical manifest; some documentation and script paths have since changed, so it is a provenance record rather than the current package verifier.
 
-The original frozen commit is `d282d75516d5a77a4bca5680037956354828369c`. See [PROVENANCE.md](docs/PROVENANCE.md) and [CHANGELOG.md](CHANGELOG.md).
+See [provenance](docs/PROVENANCE.md) for the original snapshot and [change history](CHANGELOG.md) for subsequent analyses.
 
 ## Citation and licenses
 

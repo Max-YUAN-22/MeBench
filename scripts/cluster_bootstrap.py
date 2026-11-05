@@ -9,7 +9,7 @@ R=Path(__file__).resolve().parents[1];O=args.output;O.mkdir(parents=True,exist_o
 B=20000;SEED=20261105
 D=list(csv.DictReader(open(R/'runs/MASTER_task2.tsv'),delimiter='\t'));S=list(dict.fromkeys(r['system'] for r in D));P=sorted({r['pair_id'] for r in D});assert len(P)==168
 # Resolve DOI/PMCID aliases for each primary paper, then merge shared source papers and pairs.
-with gzip.open(R/'evaluation_v3.7.0/task2/evaluator_metadata.tsv.gz','rt') as f:M=list(csv.DictReader(f,delimiter='\t'))
+with gzip.open(R/'benchmark/task2/evaluator_metadata.tsv.gz','rt') as f:M=list(csv.DictReader(f,delimiter='\t'))
 parent={}
 def find(x):
  parent.setdefault(x,x)

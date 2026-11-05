@@ -1,5 +1,5 @@
 appendix	supplement_pages	description	path	reproduce	status
-A	S1	Protocol, source metadata and all-record audit	evaluation_v3.7.0/task2/evaluator_metadata.tsv.gz	scripts/reproduce_release.py	current
+A	S1	Protocol, source metadata and all-record audit	benchmark/task2/evaluator_metadata.tsv.gz	scripts/reproduce_release.py	current
 A	S1	Protocol, source metadata and all-record audit	analysis/release_audit/independent_audit.json	scripts/reproduce_release.py	current
 A	S1	Protocol, source metadata and all-record audit	runs/MASTER_data_dictionary.md	scripts/reproduce_release.py	current
 B	S2	Metric definitions and answer/chain/joint summaries	analysis/release_audit/diagnostic_metrics.tsv	scripts/reproduce_release.py	current
